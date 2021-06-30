@@ -1,1 +1,106 @@
-[]
+[
+    {
+        "id": "56041636.7e55e8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5d3525bf.f7c05c",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "BCPGroup Theme",
+                "default": "#4B7930",
+                "baseColor": "#324a9d",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#324a9d",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#324a9d",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#e7e9e8",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#e7e9e8",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#e7e9e8",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#324a9d",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#e7e9e8",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 57,
+                "sy": 45,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    }
+]
