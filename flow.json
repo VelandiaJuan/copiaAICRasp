@@ -2,9 +2,42 @@
     {
         "id": "56041636.7e55e8",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Despliegue general",
         "disabled": false,
         "info": ""
+    },
+    {
+        "id": "18e29a89.99dbb5",
+        "type": "subflow",
+        "name": "VSD Card",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 50,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "e73d17ea.0c5538"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 670,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "50aa357a.1187dc",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -46,7 +79,7 @@
                     "edited": true
                 },
                 "page-sidebar-backgroundColor": {
-                    "value": "#000000",
+                    "value": "#333333",
                     "edited": false
                 },
                 "group-textColor": {
@@ -86,14 +119,14 @@
         },
         "site": {
             "name": "Node-RED Dashboard",
-            "hideToolbar": "true",
+            "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "false",
             "allowTempTheme": "false",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
-                "sx": 57,
-                "sy": 45,
+                "sx": 35,
+                "sy": 51,
                 "gx": 6,
                 "gy": 6,
                 "cx": 6,
@@ -102,5 +135,676 @@
                 "py": 0
             }
         }
+    },
+    {
+        "id": "6655f38c.21d24c",
+        "type": "ui_tab",
+        "name": "Despliegue general",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "47822c80.53da84",
+        "type": "ui_tab",
+        "name": "Usuarios",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "55735b30.433a74",
+        "type": "ui_tab",
+        "name": "Datos eléctricos cluster",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ff9850b.e5094b",
+        "type": "ui_tab",
+        "name": "Datos operativos pozos",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dfe3c396.db089",
+        "type": "ui_tab",
+        "name": "Configuración cluster",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6a3fd4b.86cdb2c",
+        "type": "ui_tab",
+        "name": "Instrumentación manifold",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f1b2af10.0bee2",
+        "type": "ui_tab",
+        "name": "Instrumentación pozos",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a156af3c.344ef",
+        "type": "ui_tab",
+        "name": "Alarmas/Eventos",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1b1530b8.3c3a4f",
+        "type": "ui_tab",
+        "name": "Temperatura/Humedad",
+        "icon": "dashboard",
+        "order": 9,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a9e06336.0beac",
+        "type": "ui_group",
+        "name": "Slot1",
+        "tab": "6655f38c.21d24c",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1973f200.b580be",
+        "type": "ui_group",
+        "name": "Slot2",
+        "tab": "6655f38c.21d24c",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ff632834.6a3058",
+        "type": "ui_group",
+        "name": "Slot3",
+        "tab": "6655f38c.21d24c",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cd4c1a56.b61c88",
+        "type": "ui_group",
+        "name": "Slot4",
+        "tab": "6655f38c.21d24c",
+        "order": 4,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "454080ed.86fae",
+        "type": "ui_group",
+        "name": "Slot5",
+        "tab": "6655f38c.21d24c",
+        "order": 5,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ab6a063c.9b3a48",
+        "type": "ui_group",
+        "name": "Slot6",
+        "tab": "6655f38c.21d24c",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f04f8cc8.81302",
+        "type": "ui_group",
+        "name": "Slot7",
+        "tab": "6655f38c.21d24c",
+        "order": 7,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8634cc3f.517c3",
+        "type": "ui_group",
+        "name": "Slot8",
+        "tab": "6655f38c.21d24c",
+        "order": 8,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bf58897d.990ee8",
+        "type": "ui_group",
+        "name": "Slot9",
+        "tab": "6655f38c.21d24c",
+        "order": 9,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7f0e6817.cfa538",
+        "type": "ui_group",
+        "name": "Slot10",
+        "tab": "6655f38c.21d24c",
+        "order": 10,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "299917cc.bd2088",
+        "type": "ui_group",
+        "name": "Slot11",
+        "tab": "6655f38c.21d24c",
+        "order": 11,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bd06585f.a5e578",
+        "type": "ui_group",
+        "name": "Slot12",
+        "tab": "6655f38c.21d24c",
+        "order": 12,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2a4acfb5.cf903",
+        "type": "inject",
+        "z": "56041636.7e55e8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "ae5bec70.81fd1"
+            ]
+        ]
+    },
+    {
+        "id": "c8f67d0b.44558",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "a9e06336.0beac",
+        "name": "Template Slot1",
+        "order": 1,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae5bec70.81fd1",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Activo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 260,
+        "wires": [
+            [
+                "c0ad00ca.fe8c4"
+            ]
+        ]
+    },
+    {
+        "id": "20aa3712.775b38",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 300,
+        "wires": [
+            [
+                "c0ad00ca.fe8c4"
+            ]
+        ]
+    },
+    {
+        "id": "afc786be.8d00c8",
+        "type": "inject",
+        "z": "56041636.7e55e8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "20aa3712.775b38"
+            ]
+        ]
+    },
+    {
+        "id": "c1dac5db.35c048",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 340,
+        "wires": [
+            [
+                "c0ad00ca.fe8c4"
+            ]
+        ]
+    },
+    {
+        "id": "ddc5f56b.9f4298",
+        "type": "inject",
+        "z": "56041636.7e55e8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [
+                "c1dac5db.35c048"
+            ]
+        ]
+    },
+    {
+        "id": "e73d17ea.0c5538",
+        "type": "template",
+        "z": "18e29a89.99dbb5",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}</div><strong> Hz</strong></td>\n                        <td>{{kW}}</div><strong> kW</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_VSD}}</div><strong> A [VSD]</strong></td>\n                        <td>{{V_VSD}}</div><strong> V [VSD]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_Tx}}</div><strong> A [Tx]</strong></td>\n                        <td>{{V_Tx}}</div><strong> V [TX]</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 140,
+        "y": 30,
+        "wires": [
+            [
+                "b5e47c05.30261"
+            ]
+        ]
+    },
+    {
+        "id": "50aa357a.1187dc",
+        "type": "template",
+        "z": "18e29a89.99dbb5",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n        <script src=\"http://192.168.0.20:1880/jquery/jquery.min.js\"></script>\n        <script src=\"http://192.168.0.20:1880/popper.js/dist/popper.min.js\"></script>\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 540,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5e47c05.30261",
+        "type": "template",
+        "z": "18e29a89.99dbb5",
+        "name": "Alert",
+        "field": "Alert",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n        <div class=\"alert {{alert}}\" role=\"alert\">\n            <strong>{{alertMsg}}</strong>\n        </div>\n</div>",
+        "output": "str",
+        "x": 260,
+        "y": 30,
+        "wires": [
+            [
+                "29e95d0.9ebdda4"
+            ]
+        ]
+    },
+    {
+        "id": "29e95d0.9ebdda4",
+        "type": "template",
+        "z": "18e29a89.99dbb5",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 380,
+        "y": 30,
+        "wires": [
+            [
+                "50aa357a.1187dc"
+            ]
+        ]
+    },
+    {
+        "id": "c0ad00ca.fe8c4",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "name": "",
+        "x": 820,
+        "y": 260,
+        "wires": [
+            [
+                "c8f67d0b.44558",
+                "99fb6c63.e47a9",
+                "f4766d6e.075c3",
+                "b475e37b.ecb29",
+                "33e400e4.4f142",
+                "adb6e929.4a43a8",
+                "812eac9a.52c8f",
+                "a88a67bb.4840e8",
+                "a71a1cf.79135e",
+                "831dcb7f.c49dc8",
+                "699973a3.1aed4c",
+                "f4ce9cc5.fc85f"
+            ]
+        ]
+    },
+    {
+        "id": "99fb6c63.e47a9",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "1973f200.b580be",
+        "name": "Template Slot2",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4766d6e.075c3",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "ff632834.6a3058",
+        "name": "Template Slot3",
+        "order": 1,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b475e37b.ecb29",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "cd4c1a56.b61c88",
+        "name": "Template Slot4",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33e400e4.4f142",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "454080ed.86fae",
+        "name": "Template Slot5",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adb6e929.4a43a8",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "ab6a063c.9b3a48",
+        "name": "Template Slot6",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "812eac9a.52c8f",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "f04f8cc8.81302",
+        "name": "Template Slot7",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a88a67bb.4840e8",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "8634cc3f.517c3",
+        "name": "Template Slot8",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a71a1cf.79135e",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "bf58897d.990ee8",
+        "name": "Template Slot9",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "831dcb7f.c49dc8",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "7f0e6817.cfa538",
+        "name": "Template Slot10",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "699973a3.1aed4c",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "299917cc.bd2088",
+        "name": "Template Slot11",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4ce9cc5.fc85f",
+        "type": "ui_template",
+        "z": "56041636.7e55e8",
+        "group": "bd06585f.a5e578",
+        "name": "Template Slot12",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1030,
+        "y": 700,
+        "wires": [
+            []
+        ]
     }
 ]
