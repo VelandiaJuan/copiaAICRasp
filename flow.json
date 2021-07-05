@@ -264,126 +264,6 @@
         "h": 82
     },
     {
-        "id": "f3c2e7cf.5ed158",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f7ed166d.1aa528",
-        "name": "Acciones usuario",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "21e4fb07.22d804",
-            "a80677cf.4274c8",
-            "8e762cce.be81",
-            "64ff74e5.f4c53c",
-            "fbd8c1e9.7d493",
-            "be55ea76.ed4478",
-            "723d59b.85ed6a8"
-        ],
-        "x": 154,
-        "y": 243,
-        "w": 928,
-        "h": 554
-    },
-    {
-        "id": "eb91dac5.690838",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f7ed166d.1aa528",
-        "name": "Acceso a usuarios",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "df6fb5ca.5f8af8",
-            "28cd79fb.3dcae6",
-            "2066be8e.5c6832",
-            "e04fbd1c.98ffe",
-            "2ffa7be0.763644",
-            "a146fd5d.dc194",
-            "be50258c.07bb98",
-            "6e26c35e.a97f8c",
-            "1595def7.d11251",
-            "affdacff.6646c",
-            "51d66341.8ee0fc",
-            "7de51565.2383cc",
-            "3a348318.fe982c"
-        ],
-        "x": 154,
-        "y": 39,
-        "w": 1272,
-        "h": 192
-    },
-    {
-        "id": "a80677cf.4274c8",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Eventos Usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "c404a6e9.ffda18",
-            "7dfbde1e.e4b5b",
-            "6d40adaa.11d2c4"
-        ],
-        "x": 684,
-        "y": 649,
-        "w": 242,
-        "h": 122
-    },
-    {
-        "id": "64ff74e5.f4c53c",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Acciones externas usuario",
-        "style": {
-            "label": true,
-            "fill": "#ff7f7f",
-            "color": "#000000"
-        },
-        "nodes": [
-            "8edea7ae.674088",
-            "33c5f16c.c8a5ae",
-            "42f85e00.83b314"
-        ],
-        "x": 684,
-        "y": 269,
-        "w": 173,
-        "h": 202
-    },
-    {
-        "id": "be55ea76.ed4478",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Detectar usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "ffad1340.f8a3b",
-            "8effe1fe.bacd6",
-            "98a9b5d4.5e5608",
-            "d1a73825.d89578"
-        ],
-        "x": 684,
-        "y": 479,
-        "w": 372,
-        "h": 162
-    },
-    {
         "id": "cf7122b5.0b85",
         "type": "group",
         "z": "56041636.7e55e8",
@@ -487,6 +367,195 @@
         "y": 19,
         "w": 1082,
         "h": 1592
+    },
+    {
+        "id": "2f18e23b.de32ce",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b710a90e.0dd388",
+            "f3f54db2.c4674"
+        ],
+        "x": 18,
+        "y": 103,
+        "w": 424,
+        "h": 214
+    },
+    {
+        "id": "f3c2e7cf.5ed158",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acciones usuario",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "21e4fb07.22d804",
+            "a80677cf.4274c8",
+            "8e762cce.be81",
+            "64ff74e5.f4c53c",
+            "fbd8c1e9.7d493",
+            "be55ea76.ed4478",
+            "723d59b.85ed6a8"
+        ],
+        "x": 154,
+        "y": 243,
+        "w": 928,
+        "h": 554
+    },
+    {
+        "id": "eb91dac5.690838",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acceso a usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "df6fb5ca.5f8af8",
+            "28cd79fb.3dcae6",
+            "2066be8e.5c6832",
+            "e04fbd1c.98ffe",
+            "2ffa7be0.763644",
+            "a146fd5d.dc194",
+            "be50258c.07bb98",
+            "6e26c35e.a97f8c",
+            "1595def7.d11251",
+            "affdacff.6646c",
+            "51d66341.8ee0fc",
+            "7de51565.2383cc",
+            "3a348318.fe982c"
+        ],
+        "x": 154,
+        "y": 39,
+        "w": 1272,
+        "h": 192
+    },
+    {
+        "id": "f3f54db2.c4674",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "64748d27.b27004",
+            "26c5e6f4.5cc1fa",
+            "2526682.c405998"
+        ],
+        "x": 244,
+        "y": 129,
+        "w": 172,
+        "h": 162
+    },
+    {
+        "id": "b710a90e.0dd388",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3cc764fd.7e58cc",
+            "1acb0c29.0ddee4"
+        ],
+        "x": 44,
+        "y": 129,
+        "w": 192,
+        "h": 122
+    },
+    {
+        "id": "a80677cf.4274c8",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Eventos Usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c404a6e9.ffda18",
+            "7dfbde1e.e4b5b",
+            "6d40adaa.11d2c4"
+        ],
+        "x": 684,
+        "y": 649,
+        "w": 242,
+        "h": 122
+    },
+    {
+        "id": "64ff74e5.f4c53c",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Acciones externas usuario",
+        "style": {
+            "label": true,
+            "fill": "#ff7f7f",
+            "color": "#000000"
+        },
+        "nodes": [
+            "8edea7ae.674088",
+            "33c5f16c.c8a5ae",
+            "42f85e00.83b314"
+        ],
+        "x": 684,
+        "y": 269,
+        "w": 173,
+        "h": 202
+    },
+    {
+        "id": "be55ea76.ed4478",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Detectar usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ffad1340.f8a3b",
+            "8effe1fe.bacd6",
+            "98a9b5d4.5e5608",
+            "d1a73825.d89578"
+        ],
+        "x": 684,
+        "y": 479,
+        "w": 372,
+        "h": 162
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -917,23 +986,13 @@
         "collapse": false
     },
     {
-        "id": "6d4bdba8.6258b4",
-        "type": "ui_group",
-        "name": "Datos eléctricos",
-        "tab": "ff9850b.e5094b",
-        "order": 4,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
         "id": "7360f8fc.f7b758",
         "type": "ui_group",
         "name": "Selección",
         "tab": "ff9850b.e5094b",
         "order": 1,
         "disp": false,
-        "width": "6",
+        "width": "24",
         "collapse": false
     },
     {
@@ -941,19 +1000,9 @@
         "type": "ui_group",
         "name": "Datos operativos",
         "tab": "ff9850b.e5094b",
-        "order": 6,
+        "order": 2,
         "disp": false,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "570c0d46.0282f4",
-        "type": "ui_group",
-        "name": "Tendencia",
-        "tab": "ff9850b.e5094b",
-        "order": 5,
-        "disp": true,
-        "width": "6",
+        "width": "24",
         "collapse": false
     },
     {
@@ -961,9 +1010,9 @@
         "type": "ui_group",
         "name": "Referencia de velocidad",
         "tab": "ff9850b.e5094b",
-        "order": 3,
+        "order": 4,
         "disp": true,
-        "width": "6",
+        "width": "12",
         "collapse": false
     },
     {
@@ -980,46 +1029,10 @@
         "type": "ui_group",
         "name": "Comandos",
         "tab": "ff9850b.e5094b",
-        "order": 2,
+        "order": 3,
         "disp": true,
-        "width": "6",
+        "width": "12",
         "collapse": false
-    },
-    {
-        "id": "3342fbe6.d20014",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1925e2c.fd4e91d",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dceeb92b.23a668",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1925e2c.fd4e91d",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e0f5821e.d278e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "1925e2c.fd4e91d",
-        "order": 5,
-        "width": "0",
-        "height": "0"
-    },
-    {
-        "id": "b30fea90.08ee48",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "3b7087bd.454fe8",
-        "order": 6,
-        "width": "0",
-        "height": "0"
     },
     {
         "id": "5d047aac.886fb4",
@@ -1038,6 +1051,44 @@
         "order": 7,
         "width": "0",
         "height": "0"
+    },
+    {
+        "id": "40f78983.2353c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1925e2c.fd4e91d",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "62288c28.7ab204",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1925e2c.fd4e91d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a5f8e1da.be9d8",
+        "type": "ui_group",
+        "name": "Tendencia",
+        "tab": "ff9850b.e5094b",
+        "order": 5,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "3c543197.e82dfe",
+        "type": "ui_group",
+        "name": "Eventos/Alarmas",
+        "tab": "ff9850b.e5094b",
+        "order": 6,
+        "disp": false,
+        "width": "12",
+        "collapse": false
     },
     {
         "id": "c8f67d0b.44558",
@@ -3718,7 +3769,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-8\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-12\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 260,
         "y": 30,
@@ -4702,101 +4753,24 @@
         ]
     },
     {
-        "id": "65fbd97d.839098",
-        "type": "ui_template",
-        "z": "e997ba3b.48cc18",
-        "group": "6d4bdba8.6258b4",
-        "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "3",
-        "format": "<div ng-bind-html=\"msg.payload\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 530,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "adb32ff4.d51de",
-        "type": "inject",
-        "z": "e997ba3b.48cc18",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 80,
-        "y": 280,
-        "wires": [
-            [
-                "c76f3a4d.284d88"
-            ]
-        ]
-    },
-    {
-        "id": "c76f3a4d.284d88",
-        "type": "function",
-        "z": "e997ba3b.48cc18",
-        "name": "Random",
-        "func": "msg.VL1N    = getRandom(470,480);\nmsg.VL2N    = getRandom(470,480);\nmsg.VL3N    = getRandom(470,480);\nmsg.VL1L2   = getRandom(230,240);\nmsg.VL2L3   = getRandom(230,240);\nmsg.VL1L3   = getRandom(230,240);\nmsg.CL1     = getRandom(10,20);\nmsg.CL2     = getRandom(10,20);\nmsg.CL3     = getRandom(10,20);\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 210,
-        "y": 280,
-        "wires": [
-            [
-                "3f3a88ac.8e1608"
-            ]
-        ]
-    },
-    {
-        "id": "3f3a88ac.8e1608",
-        "type": "subflow:5df787f2.bf5f88",
-        "z": "e997ba3b.48cc18",
-        "name": "",
-        "env": [],
-        "x": 370,
-        "y": 280,
-        "wires": [
-            [
-                "65fbd97d.839098"
-            ]
-        ]
-    },
-    {
         "id": "3cc764fd.7e58cc",
         "type": "ui_text_input",
         "z": "e997ba3b.48cc18",
+        "g": "b710a90e.0dd388",
         "name": "",
-        "label": "Referencia (Hz)",
+        "label": "Referencia ",
         "tooltip": "",
         "group": "1925e2c.fd4e91d",
         "order": 2,
-        "width": "6",
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "Ref",
         "topicType": "str",
-        "x": 260,
-        "y": 430,
+        "x": 140,
+        "y": 170,
         "wires": [
             []
         ]
@@ -4805,10 +4779,11 @@
         "id": "1acb0c29.0ddee4",
         "type": "ui_button",
         "z": "e997ba3b.48cc18",
+        "g": "b710a90e.0dd388",
         "name": "",
         "group": "1925e2c.fd4e91d",
         "order": 3,
-        "width": "4",
+        "width": 4,
         "height": 1,
         "passthru": false,
         "label": "Confirmar",
@@ -4820,8 +4795,8 @@
         "payloadType": "bool",
         "topic": "Send",
         "topicType": "str",
-        "x": 280,
-        "y": 470,
+        "x": 150,
+        "y": 210,
         "wires": [
             []
         ]
@@ -4830,10 +4805,11 @@
         "id": "64748d27.b27004",
         "type": "ui_button",
         "z": "e997ba3b.48cc18",
+        "g": "f3f54db2.c4674",
         "name": "",
         "group": "3b7087bd.454fe8",
-        "order": 2,
-        "width": "4",
+        "order": 1,
+        "width": 4,
         "height": 1,
         "passthru": false,
         "label": "Arranque",
@@ -4845,8 +4821,8 @@
         "payloadType": "str",
         "topic": "Basic",
         "topicType": "str",
-        "x": 460,
-        "y": 460,
+        "x": 330,
+        "y": 170,
         "wires": [
             []
         ]
@@ -4855,10 +4831,11 @@
         "id": "26c5e6f4.5cc1fa",
         "type": "ui_button",
         "z": "e997ba3b.48cc18",
+        "g": "f3f54db2.c4674",
         "name": "",
         "group": "3b7087bd.454fe8",
-        "order": 3,
-        "width": "4",
+        "order": 2,
+        "width": 4,
         "height": 1,
         "passthru": false,
         "label": "Parada",
@@ -4870,8 +4847,8 @@
         "payloadType": "str",
         "topic": "Basic",
         "topicType": "str",
-        "x": 460,
-        "y": 500,
+        "x": 330,
+        "y": 210,
         "wires": [
             []
         ]
@@ -4880,10 +4857,11 @@
         "id": "2526682.c405998",
         "type": "ui_button",
         "z": "e997ba3b.48cc18",
+        "g": "f3f54db2.c4674",
         "name": "",
         "group": "3b7087bd.454fe8",
-        "order": 4,
-        "width": "4",
+        "order": 3,
+        "width": 4,
         "height": 1,
         "passthru": false,
         "label": "Reinicio",
@@ -4895,21 +4873,281 @@
         "payloadType": "str",
         "topic": "Basic",
         "topicType": "str",
-        "x": 460,
-        "y": 540,
+        "x": 330,
+        "y": 250,
         "wires": [
             []
         ]
     },
     {
-        "id": "ed2099a.c477368",
+        "id": "526b68fa.fc36e8",
+        "type": "ui_template",
+        "z": "e997ba3b.48cc18",
+        "group": "6e1fd4cd.a547cc",
+        "name": "",
+        "order": 0,
+        "width": "24",
+        "height": "5",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1540,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c8016a0.a30778",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Menu datos operativos",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 1350,
+        "y": 500,
+        "wires": [
+            [
+                "526b68fa.fc36e8"
+            ]
+        ]
+    },
+    {
+        "id": "c05f897a.e0d498",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Menu PCP",
+        "field": "menu",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"row\">\n    <div class=\"col\">\n        <ul class=\"nav nav-pills nav-fill flex-column flex-sm-row mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link active\" id=\"pills-datosOperativos-tab\" data-toggle=\"pill\" href=\"#pills-datosOperativos\" role=\"tab\" aria-controls=\"pills-datosOperativos\" aria-selected=\"true\">Datos operativos</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link\" id=\"pills-datosCabezal-tab\" data-toggle=\"pill\" href=\"#pills-datosCabezal\" role=\"tab\" aria-controls=\"pills-datosCabezal\" aria-selected=\"false\">Datos de cabezal</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link\" id=\"pills-datosElectricos-tab\" data-toggle=\"pill\" href=\"#pills-datosElectricos\" role=\"tab\" aria-controls=\"pills-datosElectricos\" aria-selected=\"false\">Datos eléctricos</a>\n            </li>\n        </ul>\n            <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-datosOperativos\" role=\"tabpanel\" aria-labelledby=\"pills-datosOperativos-tab\">{{{datosOperativosPCP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosCabezal\" role=\"tabpanel\" aria-labelledby=\"pills-datosCabezal-tab\">{{{datosCabezal}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosElectricos\" role=\"tabpanel\" aria-labelledby=\"pills-datosElectricos-tab\">{{{datosElectricosPCP}}}</div>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 910,
+        "y": 500,
+        "wires": [
+            [
+                "4c8016a0.a30778"
+            ]
+        ]
+    },
+    {
+        "id": "46898434.d66d9c",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Menu ESP",
+        "field": "menu",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"row\">\n    <div class=\"col\">\n        <ul class=\"nav nav-pills nav-fill flex-column flex-sm-row mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link active\" id=\"pills-datosOperativos-tab\" data-toggle=\"pill\" href=\"#pills-datosOperativos\" role=\"tab\" aria-controls=\"pills-datosOperativos\" aria-selected=\"true\">Datos operativos</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosFondo-tab\" data-toggle=\"pill\" href=\"#pills-datosFondo\" role=\"tab\" aria-controls=\"pills-datosFondo\" aria-selected=\"false\">Datos de fondo</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosCabezal-tab\" data-toggle=\"pill\" href=\"#pills-datosCabezal\" role=\"tab\" aria-controls=\"pills-datosCabezal\" aria-selected=\"false\">Datos de cabezal</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosElectricos-tab\" data-toggle=\"pill\" href=\"#pills-datosElectricos\" role=\"tab\" aria-controls=\"pills-datosElectricos\" aria-selected=\"false\">Datos eléctricos</a>\n            </li>\n            \n        </ul>\n            <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-datosOperativos\" role=\"tabpanel\" aria-labelledby=\"pills-datosOperativos-tab\">{{{datosOperativosESP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosFondo\" role=\"tabpanel\" aria-labelledby=\"pills-datosFondo-tab\">{{{datosFondoESP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosCabezal\" role=\"tabpanel\" aria-labelledby=\"pills-datosCabezal-tab\">{{{datosCabezal}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosElectricos\" role=\"tabpanel\" aria-labelledby=\"pills-datosElectricos-tab\">{{{datosElectricosESP}}}</div>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 1130,
+        "y": 540,
+        "wires": [
+            [
+                "4c8016a0.a30778"
+            ]
+        ]
+    },
+    {
+        "id": "5a6ec3a9.5ae78c",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos operativos PCP",
+        "field": "datosOperativosPCP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>RPM motor</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión motor</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Relación de reducción</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>RPM bomba</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Torque actual</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Torque nominal</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 280,
+        "y": 500,
+        "wires": [
+            [
+                "be9177af.3b2a38"
+            ]
+        ]
+    },
+    {
+        "id": "77770205.85d99c",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 500,
+        "wires": [
+            [
+                "5a6ec3a9.5ae78c"
+            ]
+        ]
+    },
+    {
+        "id": "b479627a.c3fb3",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos operativos ESP",
+        "field": "datosOperativosESP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Frecuencia de salida</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente primario</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión primario</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Ángulo</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente secundario</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión secundario</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Relación de transformación</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 280,
+        "y": 540,
+        "wires": [
+            [
+                "987d3e05.14865"
+            ]
+        ]
+    },
+    {
+        "id": "30d0cb57.05d7b4",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "b479627a.c3fb3"
+            ]
+        ]
+    },
+    {
+        "id": "be9177af.3b2a38",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos de cabezal PCP",
+        "field": "datosCabezal",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 500,
+        "y": 500,
+        "wires": [
+            [
+                "93dd795f.5daf18"
+            ]
+        ]
+    },
+    {
+        "id": "5808f215.66242c",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos de cabezal ESP",
+        "field": "datosCabezal",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 720,
+        "y": 540,
+        "wires": [
+            [
+                "9745ebbe.7193e8"
+            ]
+        ]
+    },
+    {
+        "id": "93dd795f.5daf18",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos eléctricos PCP",
+        "field": "datosElectricosPCP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>50</td>\n                        <td>Tensión L-L</td>\n                        <td>50</td>\n                        <td>Corriente</td>\n                        <td>50</td>\n                        <td>Frecuencia</td>\n                        <td>50</td>\n                        <td>THD-I</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>50</td>\n                        <td>Potencia Activa</td>\n                        <td>50</td>\n                        <td>Potencia Reactiva</td>\n                        <td>50</td>\n                        <td>Cos ⏀</td>\n                        <td>50</td>\n                        <td>THD-V</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 720,
+        "y": 500,
+        "wires": [
+            [
+                "c05f897a.e0d498"
+            ]
+        ]
+    },
+    {
+        "id": "9745ebbe.7193e8",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos eléctricos ESP",
+        "field": "datosElectricosESP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>50</td>\n                        <td>Tensión L-L</td>\n                        <td>50</td>\n                        <td>Corriente</td>\n                        <td>50</td>\n                        <td>Frecuencia</td>\n                        <td>50</td>\n                        <td>THD-I</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>50</td>\n                        <td>Potencia Activa</td>\n                        <td>50</td>\n                        <td>Potencia Reactiva</td>\n                        <td>50</td>\n                        <td>Cos ⏀</td>\n                        <td>50</td>\n                        <td>THD-V</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 940,
+        "y": 540,
+        "wires": [
+            [
+                "46898434.d66d9c"
+            ]
+        ]
+    },
+    {
+        "id": "987d3e05.14865",
+        "type": "template",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos de fondo ESP",
+        "field": "datosFondoESP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna-->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión de motor</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente de motor</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de descarga</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Presión de entrada</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Vibración general</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura de entrada</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de descarga</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de motor</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "5808f215.66242c"
+            ]
+        ]
+    },
+    {
+        "id": "24e0f6e3.56cf0a",
         "type": "ui_chart",
         "z": "e997ba3b.48cc18",
         "name": "",
-        "group": "570c0d46.0282f4",
-        "order": 1,
-        "width": "6",
-        "height": "3",
+        "group": "a5f8e1da.be9d8",
+        "order": 0,
+        "width": "12",
+        "height": "4",
         "label": "",
         "chartType": "line",
         "legend": "false",
@@ -4938,10 +5176,26 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 400,
-        "y": 210,
+        "x": 340,
+        "y": 340,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "913b55ec.761bd8",
+        "type": "ui_table",
+        "z": "e997ba3b.48cc18",
+        "group": "3c543197.e82dfe",
+        "name": "",
+        "order": 0,
+        "width": "12",
+        "height": "4",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 340,
+        "y": 380,
+        "wires": []
     }
 ]
