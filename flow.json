@@ -28,6 +28,27 @@
         "info": ""
     },
     {
+        "id": "93634831.aed548",
+        "type": "tab",
+        "label": "CCP",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "77e50510.f482bc",
+        "type": "tab",
+        "label": "Datos de fondo",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a70735f4.fb54d8",
+        "type": "tab",
+        "label": "Configuración Cluster",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "18e29a89.99dbb5",
         "type": "subflow",
         "name": "VSD Card",
@@ -361,7 +382,19 @@
             "b152b123.9bd73",
             "a8a1a266.7ea84",
             "299f7f58.eea3a",
-            "d10777ab.846208"
+            "d10777ab.846208",
+            "44ab73f9.6a72cc",
+            "f7b106.0da29ef8",
+            "7cc5cf5a.1a576",
+            "97bae11c.61449",
+            "d4a566c6.c4e018",
+            "8b96bde.d92114",
+            "21c4c3.0b609b3e",
+            "9d882c1.be806d",
+            "4222ac6e.f706d4",
+            "b8f3cd0c.b70a2",
+            "dfc5bdb9.d9a96",
+            "ee4c814.2461e8"
         ],
         "x": 24,
         "y": 19,
@@ -605,7 +638,7 @@
                     "edited": true
                 },
                 "group-borderColor": {
-                    "value": "#ababab",
+                    "value": "#000000",
                     "edited": true
                 },
                 "group-backgroundColor": {
@@ -643,14 +676,14 @@
             "allowTempTheme": "false",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
-                "sx": 35,
-                "sy": 51,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 3,
-                "py": 2
+                "sx": 37,
+                "sy": 54,
+                "gx": 1,
+                "gy": 1,
+                "cx": 4,
+                "cy": 4,
+                "px": 1,
+                "py": 1
             }
         }
     },
@@ -695,7 +728,7 @@
         "type": "ui_tab",
         "name": "Configuración cluster",
         "icon": "dashboard",
-        "order": 5,
+        "order": 7,
         "disabled": false,
         "hidden": false
     },
@@ -704,7 +737,7 @@
         "type": "ui_tab",
         "name": "Instrumentación manifold",
         "icon": "dashboard",
-        "order": 6,
+        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -713,7 +746,7 @@
         "type": "ui_tab",
         "name": "Instrumentación pozos",
         "icon": "dashboard",
-        "order": 7,
+        "order": 9,
         "disabled": false,
         "hidden": false
     },
@@ -722,7 +755,7 @@
         "type": "ui_tab",
         "name": "Alarmas/Eventos",
         "icon": "dashboard",
-        "order": 8,
+        "order": 10,
         "disabled": false,
         "hidden": false
     },
@@ -731,7 +764,7 @@
         "type": "ui_tab",
         "name": "Temperatura/Humedad",
         "icon": "dashboard",
-        "order": 9,
+        "order": 11,
         "disabled": false,
         "hidden": false
     },
@@ -1016,15 +1049,6 @@
         "collapse": false
     },
     {
-        "id": "a3d14ba7.64fb58",
-        "type": "ui_tab",
-        "name": "Main",
-        "icon": "fa-home",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "3b7087bd.454fe8",
         "type": "ui_group",
         "name": "Comandos",
@@ -1091,6 +1115,349 @@
         "collapse": false
     },
     {
+        "id": "cdb8cc7.0f2ac3",
+        "type": "ui_tab",
+        "name": "Estado CCP",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ee226df1.9537a",
+        "type": "ui_group",
+        "name": "Circuito 1",
+        "tab": "cdb8cc7.0f2ac3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9ad8c1e8.7c9",
+        "type": "ui_group",
+        "name": "Circuito 2",
+        "tab": "cdb8cc7.0f2ac3",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4c82d8af.0c5498",
+        "type": "ui_group",
+        "name": "Interruptores",
+        "tab": "cdb8cc7.0f2ac3",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e3169cba.1bf22",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4c82d8af.0c5498",
+        "order": 3,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "349dfeee.56c7c2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4c82d8af.0c5498",
+        "order": 3,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "9f770546.c22c38",
+        "type": "ui_group",
+        "name": "UPS",
+        "tab": "cdb8cc7.0f2ac3",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c12cf54a.619a68",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ee226df1.9537a",
+        "order": 5,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "758182c5.f2c54c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "9ad8c1e8.7c9",
+        "order": 2,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "dd0af3d7.6b829",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4c82d8af.0c5498",
+        "order": 3,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "f0eab73b.7f1978",
+        "type": "ui_tab",
+        "name": "Datos de fondo",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9699862a.4679e8",
+        "type": "ui_group",
+        "name": "Slot1",
+        "tab": "f0eab73b.7f1978",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "40cbe96.5ec1618",
+        "type": "ui_group",
+        "name": "Slot2",
+        "tab": "f0eab73b.7f1978",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "12be7692.1a93f9",
+        "type": "ui_group",
+        "name": "Slot3",
+        "tab": "f0eab73b.7f1978",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "54c5820f.3a1ccc",
+        "type": "ui_group",
+        "name": "Slot4",
+        "tab": "f0eab73b.7f1978",
+        "order": 4,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5113ef2b.f9f3f",
+        "type": "ui_group",
+        "name": "Slot5",
+        "tab": "f0eab73b.7f1978",
+        "order": 5,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "be898631.d54e78",
+        "type": "ui_group",
+        "name": "Slot6",
+        "tab": "f0eab73b.7f1978",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "19ca34d4.3cefab",
+        "type": "ui_group",
+        "name": "Slot7",
+        "tab": "f0eab73b.7f1978",
+        "order": 7,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "eeae2649.6b3e78",
+        "type": "ui_group",
+        "name": "Slot8",
+        "tab": "f0eab73b.7f1978",
+        "order": 8,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "29200dbc.237402",
+        "type": "ui_group",
+        "name": "Slot9",
+        "tab": "f0eab73b.7f1978",
+        "order": 9,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "89a21bf7.01be28",
+        "type": "ui_group",
+        "name": "Slot10",
+        "tab": "f0eab73b.7f1978",
+        "order": 10,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "89bc9827.8fecb8",
+        "type": "ui_group",
+        "name": "Slot11",
+        "tab": "f0eab73b.7f1978",
+        "order": 11,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a08a84e6.da47b8",
+        "type": "ui_group",
+        "name": "Slot12",
+        "tab": "f0eab73b.7f1978",
+        "order": 12,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c5f05af1.a4c158",
+        "type": "ui_group",
+        "name": "Slot1",
+        "tab": "dfe3c396.db089",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b0c59598.f92b58",
+        "type": "ui_group",
+        "name": "Slot2",
+        "tab": "dfe3c396.db089",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f172ba9e.451f28",
+        "type": "ui_group",
+        "name": "Slot3",
+        "tab": "dfe3c396.db089",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ffbe49e2.3cefd8",
+        "type": "ui_group",
+        "name": "Slot4",
+        "tab": "dfe3c396.db089",
+        "order": 4,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e8a7075.ef598f8",
+        "type": "ui_group",
+        "name": "Slot5",
+        "tab": "dfe3c396.db089",
+        "order": 5,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b89e6a72.dfa318",
+        "type": "ui_group",
+        "name": "Slot6",
+        "tab": "dfe3c396.db089",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8db4949a.9150d8",
+        "type": "ui_group",
+        "name": "Slot7",
+        "tab": "dfe3c396.db089",
+        "order": 7,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "77b67a0.941c588",
+        "type": "ui_group",
+        "name": "Slot8",
+        "tab": "dfe3c396.db089",
+        "order": 8,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fa0c87e9.94e498",
+        "type": "ui_group",
+        "name": "Slot9",
+        "tab": "dfe3c396.db089",
+        "order": 9,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2d76b856.2326e8",
+        "type": "ui_group",
+        "name": "Slot10",
+        "tab": "dfe3c396.db089",
+        "order": 10,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ea64048.caccdf8",
+        "type": "ui_group",
+        "name": "Slot11",
+        "tab": "dfe3c396.db089",
+        "order": 11,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "70036925.9b4ac8",
+        "type": "ui_group",
+        "name": "Slot12",
+        "tab": "dfe3c396.db089",
+        "order": 12,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
         "id": "c8f67d0b.44558",
         "type": "ui_template",
         "z": "56041636.7e55e8",
@@ -1127,7 +1494,8 @@
         "y": 60,
         "wires": [
             [
-                "c0ad00ca.fe8c4"
+                "c0ad00ca.fe8c4",
+                "44ab73f9.6a72cc"
             ]
         ]
     },
@@ -1147,7 +1515,8 @@
         "y": 100,
         "wires": [
             [
-                "c0ad00ca.fe8c4"
+                "c0ad00ca.fe8c4",
+                "44ab73f9.6a72cc"
             ]
         ]
     },
@@ -1167,7 +1536,8 @@
         "y": 140,
         "wires": [
             [
-                "c0ad00ca.fe8c4"
+                "c0ad00ca.fe8c4",
+                "44ab73f9.6a72cc"
             ]
         ]
     },
@@ -1507,7 +1877,8 @@
         "y": 190,
         "wires": [
             [
-                "c9560b43.55c0d8"
+                "c9560b43.55c0d8",
+                "f7b106.0da29ef8"
             ]
         ]
     },
@@ -1527,7 +1898,8 @@
         "y": 230,
         "wires": [
             [
-                "c9560b43.55c0d8"
+                "c9560b43.55c0d8",
+                "f7b106.0da29ef8"
             ]
         ]
     },
@@ -1547,7 +1919,8 @@
         "y": 270,
         "wires": [
             [
-                "c9560b43.55c0d8"
+                "c9560b43.55c0d8",
+                "f7b106.0da29ef8"
             ]
         ]
     },
@@ -1581,7 +1954,8 @@
         "y": 320,
         "wires": [
             [
-                "e546de7d.1524d"
+                "e546de7d.1524d",
+                "7cc5cf5a.1a576"
             ]
         ]
     },
@@ -1601,7 +1975,8 @@
         "y": 360,
         "wires": [
             [
-                "e546de7d.1524d"
+                "e546de7d.1524d",
+                "7cc5cf5a.1a576"
             ]
         ]
     },
@@ -1621,7 +1996,8 @@
         "y": 400,
         "wires": [
             [
-                "e546de7d.1524d"
+                "e546de7d.1524d",
+                "7cc5cf5a.1a576"
             ]
         ]
     },
@@ -1656,7 +2032,8 @@
         "y": 450,
         "wires": [
             [
-                "29b5a57e.566caa"
+                "29b5a57e.566caa",
+                "97bae11c.61449"
             ]
         ]
     },
@@ -1676,7 +2053,8 @@
         "y": 490,
         "wires": [
             [
-                "29b5a57e.566caa"
+                "29b5a57e.566caa",
+                "97bae11c.61449"
             ]
         ]
     },
@@ -1696,7 +2074,8 @@
         "y": 530,
         "wires": [
             [
-                "29b5a57e.566caa"
+                "29b5a57e.566caa",
+                "97bae11c.61449"
             ]
         ]
     },
@@ -1730,7 +2109,8 @@
         "y": 580,
         "wires": [
             [
-                "ec1787d3.deabb8"
+                "ec1787d3.deabb8",
+                "d4a566c6.c4e018"
             ]
         ]
     },
@@ -1750,7 +2130,8 @@
         "y": 620,
         "wires": [
             [
-                "ec1787d3.deabb8"
+                "ec1787d3.deabb8",
+                "d4a566c6.c4e018"
             ]
         ]
     },
@@ -1770,7 +2151,8 @@
         "y": 660,
         "wires": [
             [
-                "ec1787d3.deabb8"
+                "ec1787d3.deabb8",
+                "d4a566c6.c4e018"
             ]
         ]
     },
@@ -1805,7 +2187,8 @@
         "y": 710,
         "wires": [
             [
-                "d74e5f4f.f62be"
+                "d74e5f4f.f62be",
+                "8b96bde.d92114"
             ]
         ]
     },
@@ -1825,7 +2208,8 @@
         "y": 750,
         "wires": [
             [
-                "d74e5f4f.f62be"
+                "d74e5f4f.f62be",
+                "8b96bde.d92114"
             ]
         ]
     },
@@ -1845,7 +2229,8 @@
         "y": 790,
         "wires": [
             [
-                "d74e5f4f.f62be"
+                "d74e5f4f.f62be",
+                "8b96bde.d92114"
             ]
         ]
     },
@@ -1879,7 +2264,8 @@
         "y": 840,
         "wires": [
             [
-                "d1a3b138.fc596"
+                "d1a3b138.fc596",
+                "21c4c3.0b609b3e"
             ]
         ]
     },
@@ -1899,7 +2285,8 @@
         "y": 880,
         "wires": [
             [
-                "d1a3b138.fc596"
+                "d1a3b138.fc596",
+                "21c4c3.0b609b3e"
             ]
         ]
     },
@@ -1919,7 +2306,8 @@
         "y": 920,
         "wires": [
             [
-                "d1a3b138.fc596"
+                "d1a3b138.fc596",
+                "21c4c3.0b609b3e"
             ]
         ]
     },
@@ -1953,7 +2341,8 @@
         "y": 970,
         "wires": [
             [
-                "293ac75d.5bd738"
+                "293ac75d.5bd738",
+                "9d882c1.be806d"
             ]
         ]
     },
@@ -1973,7 +2362,8 @@
         "y": 1010,
         "wires": [
             [
-                "293ac75d.5bd738"
+                "293ac75d.5bd738",
+                "9d882c1.be806d"
             ]
         ]
     },
@@ -1993,7 +2383,8 @@
         "y": 1050,
         "wires": [
             [
-                "293ac75d.5bd738"
+                "293ac75d.5bd738",
+                "9d882c1.be806d"
             ]
         ]
     },
@@ -2027,7 +2418,8 @@
         "y": 1100,
         "wires": [
             [
-                "18223763.46c159"
+                "18223763.46c159",
+                "4222ac6e.f706d4"
             ]
         ]
     },
@@ -2047,7 +2439,8 @@
         "y": 1140,
         "wires": [
             [
-                "18223763.46c159"
+                "18223763.46c159",
+                "4222ac6e.f706d4"
             ]
         ]
     },
@@ -2067,7 +2460,8 @@
         "y": 1180,
         "wires": [
             [
-                "18223763.46c159"
+                "18223763.46c159",
+                "4222ac6e.f706d4"
             ]
         ]
     },
@@ -2101,7 +2495,8 @@
         "y": 1230,
         "wires": [
             [
-                "128332bd.e6e68d"
+                "128332bd.e6e68d",
+                "b8f3cd0c.b70a2"
             ]
         ]
     },
@@ -2121,7 +2516,8 @@
         "y": 1270,
         "wires": [
             [
-                "128332bd.e6e68d"
+                "128332bd.e6e68d",
+                "b8f3cd0c.b70a2"
             ]
         ]
     },
@@ -2141,7 +2537,8 @@
         "y": 1310,
         "wires": [
             [
-                "128332bd.e6e68d"
+                "128332bd.e6e68d",
+                "b8f3cd0c.b70a2"
             ]
         ]
     },
@@ -2176,7 +2573,8 @@
         "y": 1360,
         "wires": [
             [
-                "f1b95f94.7eed7"
+                "f1b95f94.7eed7",
+                "dfc5bdb9.d9a96"
             ]
         ]
     },
@@ -2196,7 +2594,8 @@
         "y": 1400,
         "wires": [
             [
-                "f1b95f94.7eed7"
+                "f1b95f94.7eed7",
+                "dfc5bdb9.d9a96"
             ]
         ]
     },
@@ -2216,7 +2615,8 @@
         "y": 1440,
         "wires": [
             [
-                "f1b95f94.7eed7"
+                "f1b95f94.7eed7",
+                "dfc5bdb9.d9a96"
             ]
         ]
     },
@@ -2250,7 +2650,8 @@
         "y": 1490,
         "wires": [
             [
-                "b2bf4260.68812"
+                "b2bf4260.68812",
+                "ee4c814.2461e8"
             ]
         ]
     },
@@ -2270,7 +2671,8 @@
         "y": 1530,
         "wires": [
             [
-                "b2bf4260.68812"
+                "b2bf4260.68812",
+                "ee4c814.2461e8"
             ]
         ]
     },
@@ -2290,7 +2692,8 @@
         "y": 1570,
         "wires": [
             [
-                "b2bf4260.68812"
+                "b2bf4260.68812",
+                "ee4c814.2461e8"
             ]
         ]
     },
@@ -5197,5 +5600,3756 @@
         "x": 340,
         "y": 380,
         "wires": []
+    },
+    {
+        "id": "224439b7.e88da6",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "ee226df1.9537a",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Nivel",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 630,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "241dfec3.4e5d22",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 370,
+        "y": 110,
+        "wires": [
+            [
+                "f548ad80.65f03"
+            ]
+        ]
+    },
+    {
+        "id": "7688fc6a.4a83a4",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "ee226df1.9537a",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "label": "Red primaria",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 630,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "2a6e31cf.58775e",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "ee226df1.9537a",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "label": "Temperatura",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 630,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "dde54578.48ff28",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 500,
+        "y": 150,
+        "wires": [
+            [
+                "7688fc6a.4a83a4"
+            ]
+        ]
+    },
+    {
+        "id": "cdfc8184.a456f",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 370,
+        "y": 150,
+        "wires": [
+            [
+                "dde54578.48ff28"
+            ]
+        ]
+    },
+    {
+        "id": "4be1b6ac.d8bb08",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 370,
+        "y": 190,
+        "wires": [
+            [
+                "286b2c14.3c8264"
+            ]
+        ]
+    },
+    {
+        "id": "32fad925.551816",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "ee226df1.9537a",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "label": "Presión",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 630,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "6d7d3735.c53d38",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Disparo",
+        "low": "0",
+        "high": "1",
+        "inte": "true",
+        "property": "payload",
+        "x": 500,
+        "y": 230,
+        "wires": [
+            [
+                "32fad925.551816"
+            ]
+        ]
+    },
+    {
+        "id": "93611897.3f7328",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 370,
+        "y": 230,
+        "wires": [
+            [
+                "6d7d3735.c53d38"
+            ]
+        ]
+    },
+    {
+        "id": "f548ad80.65f03",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 500,
+        "y": 110,
+        "wires": [
+            [
+                "224439b7.e88da6"
+            ]
+        ]
+    },
+    {
+        "id": "286b2c14.3c8264",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 500,
+        "y": 190,
+        "wires": [
+            [
+                "2a6e31cf.58775e"
+            ]
+        ]
+    },
+    {
+        "id": "cfe72ee3.ef8ad",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "9ad8c1e8.7c9",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Nivel",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 1040,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "af662aac.5acf38",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 780,
+        "y": 110,
+        "wires": [
+            [
+                "48c1dd0f.161304"
+            ]
+        ]
+    },
+    {
+        "id": "9f8a1bfe.76d598",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "9ad8c1e8.7c9",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Red secundaria",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 1040,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "11c83a9a.542825",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "9ad8c1e8.7c9",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Temperatura",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 1040,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "ac57f282.c5c05",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 910,
+        "y": 150,
+        "wires": [
+            [
+                "9f8a1bfe.76d598"
+            ]
+        ]
+    },
+    {
+        "id": "198e6349.0a5cfd",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 780,
+        "y": 150,
+        "wires": [
+            [
+                "ac57f282.c5c05"
+            ]
+        ]
+    },
+    {
+        "id": "c1e936e8.a01258",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 780,
+        "y": 190,
+        "wires": [
+            [
+                "e532f39.e05601"
+            ]
+        ]
+    },
+    {
+        "id": "2c0cbfe9.aaffd",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "9ad8c1e8.7c9",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Presión",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 1040,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "76bedd6.14b8624",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Disparo",
+        "low": "0",
+        "high": "1",
+        "inte": "true",
+        "property": "payload",
+        "x": 910,
+        "y": 230,
+        "wires": [
+            [
+                "2c0cbfe9.aaffd"
+            ]
+        ]
+    },
+    {
+        "id": "f43fcdbe.bcd49",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 780,
+        "y": 230,
+        "wires": [
+            [
+                "76bedd6.14b8624"
+            ]
+        ]
+    },
+    {
+        "id": "48c1dd0f.161304",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Disparo",
+        "low": "0",
+        "high": "1",
+        "inte": "true",
+        "property": "payload",
+        "x": 910,
+        "y": 110,
+        "wires": [
+            [
+                "cfe72ee3.ef8ad"
+            ]
+        ]
+    },
+    {
+        "id": "e532f39.e05601",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Disparo",
+        "low": "0",
+        "high": "1",
+        "inte": "true",
+        "property": "payload",
+        "x": 910,
+        "y": 190,
+        "wires": [
+            [
+                "11c83a9a.542825"
+            ]
+        ]
+    },
+    {
+        "id": "da544bac.502c68",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "4c82d8af.0c5498",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Qo1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 620,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "bc23d64a.d52ae8",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 490,
+        "y": 310,
+        "wires": [
+            [
+                "da544bac.502c68"
+            ]
+        ]
+    },
+    {
+        "id": "a908cf9f.55ba",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 360,
+        "y": 310,
+        "wires": [
+            [
+                "bc23d64a.d52ae8"
+            ]
+        ]
+    },
+    {
+        "id": "2c30ffb2.e51b7",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "4c82d8af.0c5498",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Qo2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 620,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "61393079.f8bd2",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 490,
+        "y": 350,
+        "wires": [
+            [
+                "2c30ffb2.e51b7"
+            ]
+        ]
+    },
+    {
+        "id": "972dc7b4.b12ff8",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 360,
+        "y": 350,
+        "wires": [
+            [
+                "61393079.f8bd2"
+            ]
+        ]
+    },
+    {
+        "id": "5a491702.341148",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "9f770546.c22c38",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Baterias",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 620,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "bf93c9c3.907fd8",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "5a491702.341148"
+            ]
+        ]
+    },
+    {
+        "id": "69971c7.81220e4",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 360,
+        "y": 400,
+        "wires": [
+            [
+                "bf93c9c3.907fd8"
+            ]
+        ]
+    },
+    {
+        "id": "afcd8980.ed7248",
+        "type": "ui_led",
+        "z": "93634831.aed548",
+        "group": "9f770546.c22c38",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Estado UPS",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "red",
+                "value": "2",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "",
+        "x": 620,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3418f953.6365c6",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "Completo",
+        "low": "0",
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 490,
+        "y": 440,
+        "wires": [
+            [
+                "afcd8980.ed7248"
+            ]
+        ]
+    },
+    {
+        "id": "63a30ff1.88c27",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "3418f953.6365c6"
+            ]
+        ]
+    },
+    {
+        "id": "eb96acfb.471f8",
+        "type": "ui_text",
+        "z": "93634831.aed548",
+        "group": "9f770546.c22c38",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tensión",
+        "format": "{{msg.payload}} V",
+        "layout": "row-spread",
+        "x": 630,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "99f639e.7c0d5c8",
+        "type": "ui_text",
+        "z": "93634831.aed548",
+        "group": "9f770546.c22c38",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carga",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "x": 620,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "847222bb.baf97",
+        "type": "ui_text",
+        "z": "93634831.aed548",
+        "group": "9f770546.c22c38",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tiempo remanente",
+        "format": "{{msg.payload}} min",
+        "layout": "row-spread",
+        "x": 660,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "df6ea60d.28d428",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "",
+        "low": "12",
+        "high": "14",
+        "inte": "false",
+        "property": "payload",
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "a8c657a3.ea77b8"
+            ]
+        ]
+    },
+    {
+        "id": "a8c657a3.ea77b8",
+        "type": "function",
+        "z": "93634831.aed548",
+        "name": "",
+        "func": "msg.payload = parseFloat(parseFloat(msg.payload).toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 480,
+        "wires": [
+            [
+                "eb96acfb.471f8"
+            ]
+        ]
+    },
+    {
+        "id": "662c153f.eed85c",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "df6ea60d.28d428"
+            ]
+        ]
+    },
+    {
+        "id": "5d14ae6e.10ee4",
+        "type": "function",
+        "z": "93634831.aed548",
+        "name": "",
+        "func": "msg.payload = parseFloat(parseFloat(msg.payload).toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 520,
+        "wires": [
+            [
+                "99f639e.7c0d5c8"
+            ]
+        ]
+    },
+    {
+        "id": "2f2d6d65.f85582",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "",
+        "low": "0",
+        "high": "100",
+        "inte": "false",
+        "property": "payload",
+        "x": 350,
+        "y": 520,
+        "wires": [
+            [
+                "5d14ae6e.10ee4"
+            ]
+        ]
+    },
+    {
+        "id": "fce3f7d6.a456e8",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 520,
+        "wires": [
+            [
+                "2f2d6d65.f85582"
+            ]
+        ]
+    },
+    {
+        "id": "b15c5bd6.ba1ad8",
+        "type": "random",
+        "z": "93634831.aed548",
+        "name": "",
+        "low": "0",
+        "high": "20",
+        "inte": "false",
+        "property": "payload",
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "76eac6d7.555268"
+            ]
+        ]
+    },
+    {
+        "id": "76eac6d7.555268",
+        "type": "function",
+        "z": "93634831.aed548",
+        "name": "",
+        "func": "msg.payload = parseFloat(parseFloat(msg.payload).toFixed(1));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "847222bb.baf97"
+            ]
+        ]
+    },
+    {
+        "id": "1fd14fc6.e0757",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "b15c5bd6.ba1ad8"
+            ]
+        ]
+    },
+    {
+        "id": "8bb125c0.b75f88",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 40,
+        "wires": [
+            [
+                "1a72e838.eac668"
+            ]
+        ]
+    },
+    {
+        "id": "1a72e838.eac668",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 40,
+        "wires": [
+            [
+                "47b601a0.c42a1"
+            ]
+        ]
+    },
+    {
+        "id": "47b601a0.c42a1",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 40,
+        "wires": [
+            [
+                "7274aff0.b6765"
+            ]
+        ]
+    },
+    {
+        "id": "7274aff0.b6765",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "9699862a.4679e8",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "44ab73f9.6a72cc",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot1",
+        "links": [
+            "d2d62409.49e708"
+        ],
+        "x": 745,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f7b106.0da29ef8",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot2",
+        "links": [
+            "4075463c.5f9318"
+        ],
+        "x": 745,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "7cc5cf5a.1a576",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot3",
+        "links": [
+            "31f4417e.e5dbce"
+        ],
+        "x": 745,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "97bae11c.61449",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot4",
+        "links": [
+            "29f636aa.aca62a"
+        ],
+        "x": 745,
+        "y": 490,
+        "wires": []
+    },
+    {
+        "id": "d4a566c6.c4e018",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot5",
+        "links": [
+            "ab1baf8f.ec288"
+        ],
+        "x": 745,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "8b96bde.d92114",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot6",
+        "links": [
+            "c31beae2.7f8088"
+        ],
+        "x": 745,
+        "y": 750,
+        "wires": []
+    },
+    {
+        "id": "21c4c3.0b609b3e",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot7",
+        "links": [
+            "2bcc22e5.f6d62e"
+        ],
+        "x": 745,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9d882c1.be806d",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot8",
+        "links": [
+            "e47696d4.4ad568"
+        ],
+        "x": 745,
+        "y": 1010,
+        "wires": []
+    },
+    {
+        "id": "4222ac6e.f706d4",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot9",
+        "links": [
+            "18d69e0b.05d942"
+        ],
+        "x": 745,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "b8f3cd0c.b70a2",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot10",
+        "links": [
+            "6d2a52d9.598f2c"
+        ],
+        "x": 745,
+        "y": 1270,
+        "wires": []
+    },
+    {
+        "id": "dfc5bdb9.d9a96",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot11",
+        "links": [
+            "b9c1f438.e74928"
+        ],
+        "x": 745,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "ee4c814.2461e8",
+        "type": "link out",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Slot12",
+        "links": [
+            "c48fce04.4a833"
+        ],
+        "x": 745,
+        "y": 1530,
+        "wires": []
+    },
+    {
+        "id": "d2d62409.49e708",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "44ab73f9.6a72cc"
+        ],
+        "x": 535,
+        "y": 40,
+        "wires": [
+            [
+                "8bb125c0.b75f88"
+            ]
+        ]
+    },
+    {
+        "id": "438ea3f4.6260cc",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 80,
+        "wires": [
+            [
+                "3177f280.c4805e"
+            ]
+        ]
+    },
+    {
+        "id": "3177f280.c4805e",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 80,
+        "wires": [
+            [
+                "771ce20c.53f8fc"
+            ]
+        ]
+    },
+    {
+        "id": "771ce20c.53f8fc",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 80,
+        "wires": [
+            [
+                "2ab98eda.7ac172"
+            ]
+        ]
+    },
+    {
+        "id": "2ab98eda.7ac172",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "40cbe96.5ec1618",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4075463c.5f9318",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "f7b106.0da29ef8"
+        ],
+        "x": 535,
+        "y": 80,
+        "wires": [
+            [
+                "438ea3f4.6260cc"
+            ]
+        ]
+    },
+    {
+        "id": "1b45819e.39038e",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 120,
+        "wires": [
+            [
+                "3396ed7b.5fadf2"
+            ]
+        ]
+    },
+    {
+        "id": "3396ed7b.5fadf2",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 120,
+        "wires": [
+            [
+                "90930370.f064e"
+            ]
+        ]
+    },
+    {
+        "id": "90930370.f064e",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 120,
+        "wires": [
+            [
+                "1e6ced7b.b438b3"
+            ]
+        ]
+    },
+    {
+        "id": "1e6ced7b.b438b3",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "12be7692.1a93f9",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31f4417e.e5dbce",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "7cc5cf5a.1a576"
+        ],
+        "x": 535,
+        "y": 120,
+        "wires": [
+            [
+                "1b45819e.39038e"
+            ]
+        ]
+    },
+    {
+        "id": "bb45f542.693c28",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 160,
+        "wires": [
+            [
+                "d7d8bc8e.a61a7"
+            ]
+        ]
+    },
+    {
+        "id": "d7d8bc8e.a61a7",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 160,
+        "wires": [
+            [
+                "dbb7fd6e.794db"
+            ]
+        ]
+    },
+    {
+        "id": "dbb7fd6e.794db",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 160,
+        "wires": [
+            [
+                "a6aabb55.e54ea8"
+            ]
+        ]
+    },
+    {
+        "id": "a6aabb55.e54ea8",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "54c5820f.3a1ccc",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29f636aa.aca62a",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "97bae11c.61449"
+        ],
+        "x": 535,
+        "y": 160,
+        "wires": [
+            [
+                "bb45f542.693c28"
+            ]
+        ]
+    },
+    {
+        "id": "823a0c55.5a53c",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "f42969ef.6e6f28"
+            ]
+        ]
+    },
+    {
+        "id": "f42969ef.6e6f28",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 200,
+        "wires": [
+            [
+                "1c3b1ad5.344d95"
+            ]
+        ]
+    },
+    {
+        "id": "1c3b1ad5.344d95",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 200,
+        "wires": [
+            [
+                "70eb2132.8160e"
+            ]
+        ]
+    },
+    {
+        "id": "70eb2132.8160e",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "5113ef2b.f9f3f",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab1baf8f.ec288",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "d4a566c6.c4e018"
+        ],
+        "x": 535,
+        "y": 200,
+        "wires": [
+            [
+                "823a0c55.5a53c"
+            ]
+        ]
+    },
+    {
+        "id": "adce5609.8dfad8",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "84259857.c37a68"
+            ]
+        ]
+    },
+    {
+        "id": "84259857.c37a68",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 240,
+        "wires": [
+            [
+                "f63cffbf.b80d6"
+            ]
+        ]
+    },
+    {
+        "id": "f63cffbf.b80d6",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 240,
+        "wires": [
+            [
+                "4406026c.fab35c"
+            ]
+        ]
+    },
+    {
+        "id": "4406026c.fab35c",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "be898631.d54e78",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c31beae2.7f8088",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "8b96bde.d92114"
+        ],
+        "x": 535,
+        "y": 240,
+        "wires": [
+            [
+                "adce5609.8dfad8"
+            ]
+        ]
+    },
+    {
+        "id": "b4271320.0eb2a",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "8aa08b03.33c138"
+            ]
+        ]
+    },
+    {
+        "id": "8aa08b03.33c138",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 280,
+        "wires": [
+            [
+                "46ca88c3.928a78"
+            ]
+        ]
+    },
+    {
+        "id": "46ca88c3.928a78",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 280,
+        "wires": [
+            [
+                "1f97d7a8.dbcca8"
+            ]
+        ]
+    },
+    {
+        "id": "1f97d7a8.dbcca8",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "19ca34d4.3cefab",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2bcc22e5.f6d62e",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "21c4c3.0b609b3e"
+        ],
+        "x": 535,
+        "y": 280,
+        "wires": [
+            [
+                "b4271320.0eb2a"
+            ]
+        ]
+    },
+    {
+        "id": "f7010af2.d70028",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 320,
+        "wires": [
+            [
+                "a83f2230.7ed0d"
+            ]
+        ]
+    },
+    {
+        "id": "a83f2230.7ed0d",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 320,
+        "wires": [
+            [
+                "889839af.c3e578"
+            ]
+        ]
+    },
+    {
+        "id": "889839af.c3e578",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 320,
+        "wires": [
+            [
+                "6f94e4d.b591f1c"
+            ]
+        ]
+    },
+    {
+        "id": "6f94e4d.b591f1c",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "eeae2649.6b3e78",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e47696d4.4ad568",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "9d882c1.be806d"
+        ],
+        "x": 535,
+        "y": 320,
+        "wires": [
+            [
+                "f7010af2.d70028"
+            ]
+        ]
+    },
+    {
+        "id": "30f48563.bc703a",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 360,
+        "wires": [
+            [
+                "3765dcc5.93be64"
+            ]
+        ]
+    },
+    {
+        "id": "3765dcc5.93be64",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 360,
+        "wires": [
+            [
+                "b278596c.1f8db8"
+            ]
+        ]
+    },
+    {
+        "id": "b278596c.1f8db8",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 360,
+        "wires": [
+            [
+                "afa19e55.c9111"
+            ]
+        ]
+    },
+    {
+        "id": "afa19e55.c9111",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "29200dbc.237402",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18d69e0b.05d942",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "4222ac6e.f706d4"
+        ],
+        "x": 535,
+        "y": 360,
+        "wires": [
+            [
+                "30f48563.bc703a"
+            ]
+        ]
+    },
+    {
+        "id": "17a34cfc.4dfed3",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "d8e1c013.eb035"
+            ]
+        ]
+    },
+    {
+        "id": "d8e1c013.eb035",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "4095ef20.6d72d"
+            ]
+        ]
+    },
+    {
+        "id": "4095ef20.6d72d",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 400,
+        "wires": [
+            [
+                "41dce1b4.0f284"
+            ]
+        ]
+    },
+    {
+        "id": "41dce1b4.0f284",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "89a21bf7.01be28",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d2a52d9.598f2c",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "b8f3cd0c.b70a2"
+        ],
+        "x": 535,
+        "y": 400,
+        "wires": [
+            [
+                "17a34cfc.4dfed3"
+            ]
+        ]
+    },
+    {
+        "id": "ab77ec34.1fb0f",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [
+                "3fc1bc96.dc7054"
+            ]
+        ]
+    },
+    {
+        "id": "3fc1bc96.dc7054",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 440,
+        "wires": [
+            [
+                "be809c54.ae8ca"
+            ]
+        ]
+    },
+    {
+        "id": "be809c54.ae8ca",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 440,
+        "wires": [
+            [
+                "1b11bf35.86ad31"
+            ]
+        ]
+    },
+    {
+        "id": "1b11bf35.86ad31",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "89bc9827.8fecb8",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9c1f438.e74928",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "dfc5bdb9.d9a96"
+        ],
+        "x": 535,
+        "y": 440,
+        "wires": [
+            [
+                "ab77ec34.1fb0f"
+            ]
+        ]
+    },
+    {
+        "id": "55b7ac21.39f514",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "65dbd399.5533cc"
+            ]
+        ]
+    },
+    {
+        "id": "65dbd399.5533cc",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 740,
+        "y": 480,
+        "wires": [
+            [
+                "f4dae989.784148"
+            ]
+        ]
+    },
+    {
+        "id": "f4dae989.784148",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 480,
+        "wires": [
+            [
+                "3252cd47.752d02"
+            ]
+        ]
+    },
+    {
+        "id": "3252cd47.752d02",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "a08a84e6.da47b8",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1070,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c48fce04.4a833",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "ee4c814.2461e8"
+        ],
+        "x": 535,
+        "y": 480,
+        "wires": [
+            [
+                "55b7ac21.39f514"
+            ]
+        ]
+    },
+    {
+        "id": "5d3a6d1e.f36e64",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "c5f05af1.a4c158",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5204587.b883d8",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot1]",
+        "tooltip": "",
+        "group": "c5f05af1.a4c158",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c04b138.82e88",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "c5f05af1.a4c158",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b16db285.9bef2",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "c5f05af1.a4c158",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fcd7577.31a6cc",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "b0c59598.f92b58",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 90,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa6b88e7.f08288",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot2]",
+        "tooltip": "",
+        "group": "b0c59598.f92b58",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 90,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76157967.f1b698",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "b0c59598.f92b58",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 90,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e21c905.608b78",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "b0c59598.f92b58",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 90,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b9a7668.42099a",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "f172ba9e.451f28",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b12939e9.741f68",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot3]",
+        "tooltip": "",
+        "group": "f172ba9e.451f28",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "125d3572.ca01db",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "f172ba9e.451f28",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "429639c4.823388",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "f172ba9e.451f28",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "629af9bb.7ef2d8",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "ffbe49e2.3cefd8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "708b09df.6b4298",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot4]",
+        "tooltip": "",
+        "group": "ffbe49e2.3cefd8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "354e644f.89ec0c",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "ffbe49e2.3cefd8",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b993a7f8.f43d58",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "ffbe49e2.3cefd8",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "221391e.f75896e",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "e8a7075.ef598f8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15a4bf5d.175401",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot5]",
+        "tooltip": "",
+        "group": "e8a7075.ef598f8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abd9fb79.0d13f8",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "e8a7075.ef598f8",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c356a2fa.941cf",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "e8a7075.ef598f8",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9648cbfd.f90348",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "b89e6a72.dfa318",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7055ae4b.27861",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot6]",
+        "tooltip": "",
+        "group": "b89e6a72.dfa318",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "175d01e3.68d17e",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "b89e6a72.dfa318",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4e8cd7.7fd363",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "b89e6a72.dfa318",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ee8f92c.680a28",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "8db4949a.9150d8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58b4a1b4.cc75d",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot7]",
+        "tooltip": "",
+        "group": "8db4949a.9150d8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b462e2c4.c93fe",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "8db4949a.9150d8",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bddb60a2.5ccfc",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "8db4949a.9150d8",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88cf4b03.64cbd8",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "77b67a0.941c588",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b67825d.cbff1e",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot8]",
+        "tooltip": "",
+        "group": "77b67a0.941c588",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c62d21.d99522e",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "77b67a0.941c588",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3dff377.58c0c",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "77b67a0.941c588",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "170d516f.12b0df",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "fa0c87e9.94e498",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6244006.374ca",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot9]",
+        "tooltip": "",
+        "group": "fa0c87e9.94e498",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3781a04.ff3f88",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "fa0c87e9.94e498",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d21e918e.b3638",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "fa0c87e9.94e498",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2eebc387.09ccfc",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "2d76b856.2326e8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "21b93862.555ea8",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot10]",
+        "tooltip": "",
+        "group": "2d76b856.2326e8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9001d4c.fcc1f",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "2d76b856.2326e8",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8895ec0.77f5d",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "2d76b856.2326e8",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "16b20aaf.6021a5",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "ea64048.caccdf8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98861f0.5d0cce",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot11]",
+        "tooltip": "",
+        "group": "ea64048.caccdf8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "45efc37.c4d2d3c",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "ea64048.caccdf8",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b6cd4b4.7e147c",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "ea64048.caccdf8",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d861632.745178",
+        "type": "ui_switch",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Desactivar/Activar",
+        "tooltip": "",
+        "group": "70036925.9b4ac8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 120,
+        "y": 590,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9182960.0c8948",
+        "type": "ui_text_input",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "Nombre del pozo [Slot12]",
+        "tooltip": "",
+        "group": "70036925.9b4ac8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 590,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d921ce9b.a6554",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "PZIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "70036925.9b4ac8",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 590,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41674e83.7beb8",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "label": "TIT",
+        "tooltip": "",
+        "place": "Seleccione",
+        "group": "70036925.9b4ac8",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 640,
+        "y": 590,
+        "wires": [
+            []
+        ]
     }
 ]
