@@ -7,6 +7,27 @@
         "info": ""
     },
     {
+        "id": "827787d0.ede678",
+        "type": "tab",
+        "label": "Usuarios",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "aa547d69.9cb8e",
+        "type": "tab",
+        "label": "Datos eléctricos cluster",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e997ba3b.48cc18",
+        "type": "tab",
+        "label": "Datos operativos pozos",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "18e29a89.99dbb5",
         "type": "subflow",
         "name": "VSD Card",
@@ -38,6 +59,434 @@
         "env": [],
         "meta": {},
         "color": "#DDAA99"
+    },
+    {
+        "id": "2657da37.013b66",
+        "type": "subflow",
+        "name": "User",
+        "info": "",
+        "category": "Users",
+        "in": [
+            {
+                "x": 40,
+                "y": 90,
+                "wires": [
+                    {
+                        "id": "f771788a.2843f8"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 530,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "8f64c5d0.2e2de8",
+                        "port": 0
+                    },
+                    {
+                        "id": "7ac7e5a3.05d60c",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "color": "#E9967A",
+        "icon": "font-awesome/fa-user-plus",
+        "status": {
+            "x": 710,
+            "y": 160,
+            "wires": [
+                {
+                    "id": "1c0ced5.0f93b13",
+                    "port": 0
+                }
+            ]
+        }
+    },
+    {
+        "id": "5df787f2.bf5f88",
+        "type": "subflow",
+        "name": "Electrical SVG",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 30,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "a2e52656.c45408"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 360,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "d42179e5.c93338",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "f7ed166d.1aa528",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "name": "Usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f3c2e7cf.5ed158",
+            "eb91dac5.690838"
+        ],
+        "x": 128,
+        "y": 13,
+        "w": 1324,
+        "h": 810
+    },
+    {
+        "id": "aafad2ba.dcc8b",
+        "type": "group",
+        "z": "aa547d69.9cb8e",
+        "name": "Trend Harmonics",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "5b529f4c.7ffeb",
+            "6c9ed5d3.e7799c",
+            "76a74813.5dd3f8",
+            "23815ef1.931a32",
+            "2b47642.2404d9c",
+            "eddefb96.175bf8",
+            "a5c181ee.2efe1",
+            "b54a4559.022378",
+            "3ea5879e.bf0588",
+            "c8aa3a95.12b518",
+            "20b8681c.81fd48",
+            "ec03441d.979088",
+            "8c73338.8deb8d",
+            "3ccbaa0b.2db096"
+        ],
+        "x": 4,
+        "y": 19,
+        "w": 1092,
+        "h": 232
+    },
+    {
+        "id": "ced3da32.aec848",
+        "type": "group",
+        "z": "aa547d69.9cb8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4f4b6b53.48e6c4",
+            "cd3f340c.1706c8",
+            "55a12d87.aee714",
+            "be5b89ed.6c6bf8"
+        ],
+        "x": 4,
+        "y": 259,
+        "w": 632,
+        "h": 82
+    },
+    {
+        "id": "35aaa239.8bb89e",
+        "type": "group",
+        "z": "aa547d69.9cb8e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1e29d945.cbff87",
+            "4b8dd61f.d7e538",
+            "71e3e381.f6111c",
+            "2cb9269.d9e5fda",
+            "d0e8a077.56e6f"
+        ],
+        "x": 4,
+        "y": 349,
+        "w": 712,
+        "h": 82
+    },
+    {
+        "id": "73a228cd.9d45d8",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5dcc4d5b.20caf4",
+            "4c3a9b2b.9e2814",
+            "aaec9822.a14198"
+        ],
+        "x": 14,
+        "y": 9,
+        "w": 472,
+        "h": 82
+    },
+    {
+        "id": "f3c2e7cf.5ed158",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acciones usuario",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "21e4fb07.22d804",
+            "a80677cf.4274c8",
+            "8e762cce.be81",
+            "64ff74e5.f4c53c",
+            "fbd8c1e9.7d493",
+            "be55ea76.ed4478",
+            "723d59b.85ed6a8"
+        ],
+        "x": 154,
+        "y": 243,
+        "w": 928,
+        "h": 554
+    },
+    {
+        "id": "eb91dac5.690838",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acceso a usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "df6fb5ca.5f8af8",
+            "28cd79fb.3dcae6",
+            "2066be8e.5c6832",
+            "e04fbd1c.98ffe",
+            "2ffa7be0.763644",
+            "a146fd5d.dc194",
+            "be50258c.07bb98",
+            "6e26c35e.a97f8c",
+            "1595def7.d11251",
+            "affdacff.6646c",
+            "51d66341.8ee0fc",
+            "7de51565.2383cc",
+            "3a348318.fe982c"
+        ],
+        "x": 154,
+        "y": 39,
+        "w": 1272,
+        "h": 192
+    },
+    {
+        "id": "a80677cf.4274c8",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Eventos Usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c404a6e9.ffda18",
+            "7dfbde1e.e4b5b",
+            "6d40adaa.11d2c4"
+        ],
+        "x": 684,
+        "y": 649,
+        "w": 242,
+        "h": 122
+    },
+    {
+        "id": "64ff74e5.f4c53c",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Acciones externas usuario",
+        "style": {
+            "label": true,
+            "fill": "#ff7f7f",
+            "color": "#000000"
+        },
+        "nodes": [
+            "8edea7ae.674088",
+            "33c5f16c.c8a5ae",
+            "42f85e00.83b314"
+        ],
+        "x": 684,
+        "y": 269,
+        "w": 173,
+        "h": 202
+    },
+    {
+        "id": "be55ea76.ed4478",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Detectar usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ffad1340.f8a3b",
+            "8effe1fe.bacd6",
+            "98a9b5d4.5e5608",
+            "d1a73825.d89578"
+        ],
+        "x": 684,
+        "y": 479,
+        "w": 372,
+        "h": 162
+    },
+    {
+        "id": "cf7122b5.0b85",
+        "type": "group",
+        "z": "56041636.7e55e8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c8f67d0b.44558",
+            "ae5bec70.81fd1",
+            "20aa3712.775b38",
+            "c1dac5db.35c048",
+            "c0ad00ca.fe8c4",
+            "99fb6c63.e47a9",
+            "f4766d6e.075c3",
+            "b475e37b.ecb29",
+            "33e400e4.4f142",
+            "adb6e929.4a43a8",
+            "812eac9a.52c8f",
+            "a88a67bb.4840e8",
+            "a71a1cf.79135e",
+            "831dcb7f.c49dc8",
+            "699973a3.1aed4c",
+            "f4ce9cc5.fc85f",
+            "a9ff1f59.a91a6",
+            "e82974e5.f23d88",
+            "b7cf71e7.fdfe8",
+            "c9560b43.55c0d8",
+            "ef8869ff.0d4e68",
+            "465c82e1.a386cc",
+            "890046c3.647828",
+            "e546de7d.1524d",
+            "5ab3b609.e24d68",
+            "34806dd8.c73592",
+            "4e79a04c.c2ea",
+            "29b5a57e.566caa",
+            "86a19867.5f8078",
+            "66accaf9.6da534",
+            "236abadf.310076",
+            "ec1787d3.deabb8",
+            "e688b3bd.23ec1",
+            "3cd5461d.53288a",
+            "576e17b4.279658",
+            "d74e5f4f.f62be",
+            "2b2faab1.3735b6",
+            "92b15688.e2bf18",
+            "7007c8c6.07beb8",
+            "d1a3b138.fc596",
+            "a50abbf0.4df7e8",
+            "ac51d514.6b6c68",
+            "d276e511.c42248",
+            "293ac75d.5bd738",
+            "e86412b7.2cefd",
+            "f059b558.b7bba8",
+            "532b6231.1b35dc",
+            "18223763.46c159",
+            "bfef7b03.355dd8",
+            "9cebca0b.c92438",
+            "d28650a1.0608f",
+            "128332bd.e6e68d",
+            "90b76efb.67458",
+            "a3d97f98.a00b3",
+            "fa375b.0f1a48a8",
+            "f1b95f94.7eed7",
+            "57f98051.90e3d",
+            "c1646431.90a7c8",
+            "cf0fdbd7.253228",
+            "b2bf4260.68812",
+            "f7abcaef.b9e088",
+            "1433a899.bebee7",
+            "4b7104ad.fea74c",
+            "bd35d4d0.753a48",
+            "bb97a2bb.73fad",
+            "175cb51c.b22dab",
+            "e8641c2f.f3095",
+            "fd8dc205.6c9b6",
+            "767636c7.c94e08",
+            "65f9b0ff.c80c",
+            "d0a607b2.bdcec8",
+            "64acd80d.e77058",
+            "e29cdb1.4513828",
+            "5628f67a.058408",
+            "47eaf640.8fd8c8",
+            "6bb060f1.2f76f",
+            "6c6044a8.220ddc",
+            "410ee28e.7c7b6c",
+            "f806fdaa.d8934",
+            "a14cfe4.16e52",
+            "2ae0fa47.c12336",
+            "b152b123.9bd73",
+            "a8a1a266.7ea84",
+            "299f7f58.eea3a",
+            "d10777ab.846208"
+        ],
+        "x": 24,
+        "y": 19,
+        "w": 1082,
+        "h": 1592
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -79,15 +528,15 @@
                     "edited": true
                 },
                 "page-sidebar-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
+                    "value": "#b5b5b5",
+                    "edited": true
                 },
                 "group-textColor": {
                     "value": "#000000",
                     "edited": true
                 },
                 "group-borderColor": {
-                    "value": "#e7e9e8",
+                    "value": "#ababab",
                     "edited": true
                 },
                 "group-backgroundColor": {
@@ -103,7 +552,7 @@
                     "edited": true
                 },
                 "widget-borderColor": {
-                    "value": "#e7e9e8",
+                    "value": "#e1e1e1",
                     "edited": true
                 },
                 "base-font": {
@@ -131,8 +580,8 @@
                 "gy": 6,
                 "cx": 6,
                 "cy": 6,
-                "px": 0,
-                "py": 0
+                "px": 3,
+                "py": 2
             }
         }
     },
@@ -140,7 +589,7 @@
         "id": "6655f38c.21d24c",
         "type": "ui_tab",
         "name": "Despliegue general",
-        "icon": "dashboard",
+        "icon": "home",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -149,7 +598,7 @@
         "id": "47822c80.53da84",
         "type": "ui_tab",
         "name": "Usuarios",
-        "icon": "dashboard",
+        "icon": "people",
         "order": 2,
         "disabled": false,
         "hidden": false
@@ -338,34 +787,263 @@
         "collapse": false
     },
     {
-        "id": "2a4acfb5.cf903",
-        "type": "inject",
-        "z": "56041636.7e55e8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 510,
-        "y": 260,
-        "wires": [
-            [
-                "ae5bec70.81fd1"
-            ]
-        ]
+        "id": "a706ea3d.b7fbc8",
+        "type": "ui_group",
+        "name": "Credenciales usuario",
+        "tab": "47822c80.53da84",
+        "order": 2,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "760e85bd.1f3e7c",
+        "type": "ui_group",
+        "name": "Armónicos",
+        "tab": "55735b30.433a74",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "b202b2e3.2b03e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4bf2ecd2.a0a944",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c84ac463.ad82a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "adca4e5d.3683b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "a087458a.6f7368",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "62c04dc0.b2b5b4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "96632db9.d6b04",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "da514e5e.0a575",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 9,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "df584326.f4b59",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 10,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "81cfe70a.0c0198",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "88a2f5c8.6345a8",
+        "order": 11,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "cc789a9d.61fab8",
+        "type": "ui_group",
+        "name": "Análisis eléctrico cluster",
+        "tab": "55735b30.433a74",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "d14f7e2.6ade88",
+        "type": "ui_group",
+        "name": "Valores medios",
+        "tab": "55735b30.433a74",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "6d4bdba8.6258b4",
+        "type": "ui_group",
+        "name": "Datos eléctricos",
+        "tab": "ff9850b.e5094b",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7360f8fc.f7b758",
+        "type": "ui_group",
+        "name": "Selección",
+        "tab": "ff9850b.e5094b",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6e1fd4cd.a547cc",
+        "type": "ui_group",
+        "name": "Datos operativos",
+        "tab": "ff9850b.e5094b",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "570c0d46.0282f4",
+        "type": "ui_group",
+        "name": "Tendencia",
+        "tab": "ff9850b.e5094b",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1925e2c.fd4e91d",
+        "type": "ui_group",
+        "name": "Referencia de velocidad",
+        "tab": "ff9850b.e5094b",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a3d14ba7.64fb58",
+        "type": "ui_tab",
+        "name": "Main",
+        "icon": "fa-home",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3b7087bd.454fe8",
+        "type": "ui_group",
+        "name": "Comandos",
+        "tab": "ff9850b.e5094b",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3342fbe6.d20014",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1925e2c.fd4e91d",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dceeb92b.23a668",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1925e2c.fd4e91d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e0f5821e.d278e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "1925e2c.fd4e91d",
+        "order": 5,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "b30fea90.08ee48",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "3b7087bd.454fe8",
+        "order": 6,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "5d047aac.886fb4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a706ea3d.b7fbc8",
+        "order": 1,
+        "width": "0",
+        "height": "0"
+    },
+    {
+        "id": "129b289d.ca1337",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a706ea3d.b7fbc8",
+        "order": 7,
+        "width": "0",
+        "height": "0"
     },
     {
         "id": "c8f67d0b.44558",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "a9e06336.0beac",
         "name": "Template Slot1",
         "order": 1,
@@ -376,8 +1054,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 260,
+        "x": 1000,
+        "y": 60,
         "wires": [
             []
         ]
@@ -386,15 +1064,16 @@
         "id": "ae5bec70.81fd1",
         "type": "function",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Activo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 260,
+        "x": 610,
+        "y": 60,
         "wires": [
             [
                 "c0ad00ca.fe8c4"
@@ -405,43 +1084,19 @@
         "id": "20aa3712.775b38",
         "type": "function",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 300,
+        "x": 610,
+        "y": 100,
         "wires": [
             [
                 "c0ad00ca.fe8c4"
-            ]
-        ]
-    },
-    {
-        "id": "afc786be.8d00c8",
-        "type": "inject",
-        "z": "56041636.7e55e8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 510,
-        "y": 300,
-        "wires": [
-            [
-                "20aa3712.775b38"
             ]
         ]
     },
@@ -449,43 +1104,19 @@
         "id": "c1dac5db.35c048",
         "type": "function",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 340,
+        "x": 610,
+        "y": 140,
         "wires": [
             [
                 "c0ad00ca.fe8c4"
-            ]
-        ]
-    },
-    {
-        "id": "ddc5f56b.9f4298",
-        "type": "inject",
-        "z": "56041636.7e55e8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 510,
-        "y": 340,
-        "wires": [
-            [
-                "c1dac5db.35c048"
             ]
         ]
     },
@@ -498,7 +1129,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}</div><strong> Hz</strong></td>\n                        <td>{{kW}}</div><strong> kW</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_VSD}}</div><strong> A [VSD]</strong></td>\n                        <td>{{V_VSD}}</div><strong> V [VSD]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_Tx}}</div><strong> A [Tx]</strong></td>\n                        <td>{{V_Tx}}</div><strong> V [TX]</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> Hz</strong></td>\n                        <td>{{kW}}<strong> kW</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_VSD}}<strong> A [VSD]</strong></td>\n                        <td>{{V_VSD}}<strong> V [VSD]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_Tx}}<strong> A [Tx]</strong></td>\n                        <td>{{V_Tx}}<strong> V [TX]</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 140,
         "y": 30,
@@ -517,7 +1148,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n        <script src=\"http://192.168.0.20:1880/jquery/jquery.min.js\"></script>\n        <script src=\"http://192.168.0.20:1880/popper.js/dist/popper.min.js\"></script>\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
         "x": 540,
         "y": 30,
@@ -567,23 +1198,14 @@
         "id": "c0ad00ca.fe8c4",
         "type": "subflow:18e29a89.99dbb5",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "name": "",
-        "x": 820,
-        "y": 260,
+        "env": [],
+        "x": 790,
+        "y": 60,
         "wires": [
             [
-                "c8f67d0b.44558",
-                "99fb6c63.e47a9",
-                "f4766d6e.075c3",
-                "b475e37b.ecb29",
-                "33e400e4.4f142",
-                "adb6e929.4a43a8",
-                "812eac9a.52c8f",
-                "a88a67bb.4840e8",
-                "a71a1cf.79135e",
-                "831dcb7f.c49dc8",
-                "699973a3.1aed4c",
-                "f4ce9cc5.fc85f"
+                "c8f67d0b.44558"
             ]
         ]
     },
@@ -591,6 +1213,7 @@
         "id": "99fb6c63.e47a9",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "1973f200.b580be",
         "name": "Template Slot2",
         "order": 0,
@@ -601,8 +1224,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 300,
+        "x": 1000,
+        "y": 100,
         "wires": [
             []
         ]
@@ -611,6 +1234,7 @@
         "id": "f4766d6e.075c3",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "ff632834.6a3058",
         "name": "Template Slot3",
         "order": 1,
@@ -621,8 +1245,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 340,
+        "x": 1000,
+        "y": 140,
         "wires": [
             []
         ]
@@ -631,6 +1255,7 @@
         "id": "b475e37b.ecb29",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "cd4c1a56.b61c88",
         "name": "Template Slot4",
         "order": 0,
@@ -641,8 +1266,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 380,
+        "x": 1000,
+        "y": 180,
         "wires": [
             []
         ]
@@ -651,6 +1276,7 @@
         "id": "33e400e4.4f142",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "454080ed.86fae",
         "name": "Template Slot5",
         "order": 0,
@@ -661,8 +1287,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 420,
+        "x": 1000,
+        "y": 220,
         "wires": [
             []
         ]
@@ -671,6 +1297,7 @@
         "id": "adb6e929.4a43a8",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "ab6a063c.9b3a48",
         "name": "Template Slot6",
         "order": 0,
@@ -681,8 +1308,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 460,
+        "x": 1000,
+        "y": 260,
         "wires": [
             []
         ]
@@ -691,6 +1318,7 @@
         "id": "812eac9a.52c8f",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "f04f8cc8.81302",
         "name": "Template Slot7",
         "order": 0,
@@ -701,8 +1329,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 500,
+        "x": 1000,
+        "y": 300,
         "wires": [
             []
         ]
@@ -711,6 +1339,7 @@
         "id": "a88a67bb.4840e8",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "8634cc3f.517c3",
         "name": "Template Slot8",
         "order": 0,
@@ -721,8 +1350,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 540,
+        "x": 1000,
+        "y": 340,
         "wires": [
             []
         ]
@@ -731,6 +1360,7 @@
         "id": "a71a1cf.79135e",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "bf58897d.990ee8",
         "name": "Template Slot9",
         "order": 0,
@@ -741,8 +1371,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 580,
+        "x": 1000,
+        "y": 380,
         "wires": [
             []
         ]
@@ -751,6 +1381,7 @@
         "id": "831dcb7f.c49dc8",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "7f0e6817.cfa538",
         "name": "Template Slot10",
         "order": 0,
@@ -761,8 +1392,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 620,
+        "x": 1000,
+        "y": 420,
         "wires": [
             []
         ]
@@ -771,6 +1402,7 @@
         "id": "699973a3.1aed4c",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "299917cc.bd2088",
         "name": "Template Slot11",
         "order": 0,
@@ -781,8 +1413,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 660,
+        "x": 1000,
+        "y": 460,
         "wires": [
             []
         ]
@@ -791,6 +1423,7 @@
         "id": "f4ce9cc5.fc85f",
         "type": "ui_template",
         "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
         "group": "bd06585f.a5e578",
         "name": "Template Slot12",
         "order": 0,
@@ -801,8 +1434,3512 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1030,
-        "y": 700,
+        "x": 1000,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9ff1f59.a91a6",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 190,
+        "wires": [
+            [
+                "c9560b43.55c0d8"
+            ]
+        ]
+    },
+    {
+        "id": "e82974e5.f23d88",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 230,
+        "wires": [
+            [
+                "c9560b43.55c0d8"
+            ]
+        ]
+    },
+    {
+        "id": "b7cf71e7.fdfe8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 270,
+        "wires": [
+            [
+                "c9560b43.55c0d8"
+            ]
+        ]
+    },
+    {
+        "id": "c9560b43.55c0d8",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 190,
+        "wires": [
+            [
+                "99fb6c63.e47a9"
+            ]
+        ]
+    },
+    {
+        "id": "ef8869ff.0d4e68",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "e546de7d.1524d"
+            ]
+        ]
+    },
+    {
+        "id": "465c82e1.a386cc",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 360,
+        "wires": [
+            [
+                "e546de7d.1524d"
+            ]
+        ]
+    },
+    {
+        "id": "890046c3.647828",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 400,
+        "wires": [
+            [
+                "e546de7d.1524d"
+            ]
+        ]
+    },
+    {
+        "id": "e546de7d.1524d",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "env": [],
+        "x": 790,
+        "y": 320,
+        "wires": [
+            [
+                "f4766d6e.075c3"
+            ]
+        ]
+    },
+    {
+        "id": "5ab3b609.e24d68",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 450,
+        "wires": [
+            [
+                "29b5a57e.566caa"
+            ]
+        ]
+    },
+    {
+        "id": "34806dd8.c73592",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 490,
+        "wires": [
+            [
+                "29b5a57e.566caa"
+            ]
+        ]
+    },
+    {
+        "id": "4e79a04c.c2ea",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 530,
+        "wires": [
+            [
+                "29b5a57e.566caa"
+            ]
+        ]
+    },
+    {
+        "id": "29b5a57e.566caa",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 450,
+        "wires": [
+            [
+                "b475e37b.ecb29"
+            ]
+        ]
+    },
+    {
+        "id": "86a19867.5f8078",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 580,
+        "wires": [
+            [
+                "ec1787d3.deabb8"
+            ]
+        ]
+    },
+    {
+        "id": "66accaf9.6da534",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 620,
+        "wires": [
+            [
+                "ec1787d3.deabb8"
+            ]
+        ]
+    },
+    {
+        "id": "236abadf.310076",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 660,
+        "wires": [
+            [
+                "ec1787d3.deabb8"
+            ]
+        ]
+    },
+    {
+        "id": "ec1787d3.deabb8",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "env": [],
+        "x": 790,
+        "y": 580,
+        "wires": [
+            [
+                "33e400e4.4f142"
+            ]
+        ]
+    },
+    {
+        "id": "e688b3bd.23ec1",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 710,
+        "wires": [
+            [
+                "d74e5f4f.f62be"
+            ]
+        ]
+    },
+    {
+        "id": "3cd5461d.53288a",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 750,
+        "wires": [
+            [
+                "d74e5f4f.f62be"
+            ]
+        ]
+    },
+    {
+        "id": "576e17b4.279658",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 790,
+        "wires": [
+            [
+                "d74e5f4f.f62be"
+            ]
+        ]
+    },
+    {
+        "id": "d74e5f4f.f62be",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 710,
+        "wires": [
+            [
+                "adb6e929.4a43a8"
+            ]
+        ]
+    },
+    {
+        "id": "2b2faab1.3735b6",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 840,
+        "wires": [
+            [
+                "d1a3b138.fc596"
+            ]
+        ]
+    },
+    {
+        "id": "92b15688.e2bf18",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 880,
+        "wires": [
+            [
+                "d1a3b138.fc596"
+            ]
+        ]
+    },
+    {
+        "id": "7007c8c6.07beb8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 920,
+        "wires": [
+            [
+                "d1a3b138.fc596"
+            ]
+        ]
+    },
+    {
+        "id": "d1a3b138.fc596",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 840,
+        "wires": [
+            [
+                "812eac9a.52c8f"
+            ]
+        ]
+    },
+    {
+        "id": "a50abbf0.4df7e8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 970,
+        "wires": [
+            [
+                "293ac75d.5bd738"
+            ]
+        ]
+    },
+    {
+        "id": "ac51d514.6b6c68",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1010,
+        "wires": [
+            [
+                "293ac75d.5bd738"
+            ]
+        ]
+    },
+    {
+        "id": "d276e511.c42248",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1050,
+        "wires": [
+            [
+                "293ac75d.5bd738"
+            ]
+        ]
+    },
+    {
+        "id": "293ac75d.5bd738",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 970,
+        "wires": [
+            [
+                "a88a67bb.4840e8"
+            ]
+        ]
+    },
+    {
+        "id": "e86412b7.2cefd",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1100,
+        "wires": [
+            [
+                "18223763.46c159"
+            ]
+        ]
+    },
+    {
+        "id": "f059b558.b7bba8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1140,
+        "wires": [
+            [
+                "18223763.46c159"
+            ]
+        ]
+    },
+    {
+        "id": "532b6231.1b35dc",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1180,
+        "wires": [
+            [
+                "18223763.46c159"
+            ]
+        ]
+    },
+    {
+        "id": "18223763.46c159",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 1100,
+        "wires": [
+            [
+                "a71a1cf.79135e"
+            ]
+        ]
+    },
+    {
+        "id": "bfef7b03.355dd8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1230,
+        "wires": [
+            [
+                "128332bd.e6e68d"
+            ]
+        ]
+    },
+    {
+        "id": "9cebca0b.c92438",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1270,
+        "wires": [
+            [
+                "128332bd.e6e68d"
+            ]
+        ]
+    },
+    {
+        "id": "d28650a1.0608f",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1310,
+        "wires": [
+            [
+                "128332bd.e6e68d"
+            ]
+        ]
+    },
+    {
+        "id": "128332bd.e6e68d",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "env": [],
+        "x": 790,
+        "y": 1230,
+        "wires": [
+            [
+                "831dcb7f.c49dc8"
+            ]
+        ]
+    },
+    {
+        "id": "90b76efb.67458",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1360,
+        "wires": [
+            [
+                "f1b95f94.7eed7"
+            ]
+        ]
+    },
+    {
+        "id": "a3d97f98.a00b3",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1400,
+        "wires": [
+            [
+                "f1b95f94.7eed7"
+            ]
+        ]
+    },
+    {
+        "id": "fa375b.0f1a48a8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1440,
+        "wires": [
+            [
+                "f1b95f94.7eed7"
+            ]
+        ]
+    },
+    {
+        "id": "f1b95f94.7eed7",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 1360,
+        "wires": [
+            [
+                "699973a3.1aed4c"
+            ]
+        ]
+    },
+    {
+        "id": "57f98051.90e3d",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1490,
+        "wires": [
+            [
+                "b2bf4260.68812"
+            ]
+        ]
+    },
+    {
+        "id": "c1646431.90a7c8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1530,
+        "wires": [
+            [
+                "b2bf4260.68812"
+            ]
+        ]
+    },
+    {
+        "id": "cf0fdbd7.253228",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1570,
+        "wires": [
+            [
+                "b2bf4260.68812"
+            ]
+        ]
+    },
+    {
+        "id": "b2bf4260.68812",
+        "type": "subflow:18e29a89.99dbb5",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "x": 790,
+        "y": 1490,
+        "wires": [
+            [
+                "f4ce9cc5.fc85f"
+            ]
+        ]
+    },
+    {
+        "id": "8f64c5d0.2e2de8",
+        "type": "function",
+        "z": "2657da37.013b66",
+        "name": "Login Autentication",
+        "func": "//Get user data from flow context\nuser            = flow.get(\"user\")|| \"null\";\npassword        = flow.get(\"password\")||\"null\";\n\n//User status\nUserStatus = global.get(\"UserStatus\")||0;\n\n// Admin user\nAdminUser       = \"slacol\";\nAdminPassword   = \"1278\";\n\n// Operator user\nOperUser        = \"Oper\";\nOperPassword    = \"1234\";\n\nif(!UserStatus){\n    \n    // Acceso Nivel 1\n    if(user == AdminUser && password == AdminPassword){\n        global.set(\"UserStatus\", 1);\n        msg.name = \"Admin\";\n        msg.userstatus = \"Sesión iniciada\"\n    }\n    // Acceso Nivel 2\n    else if(user == OperUser && password == OperPassword){\n        global.set(\"UserStatus\", 2);\n        msg.name = \"Operator\";\n        msg.userstatus = \"Sesión iniciada\"\n    }\n    else{\n        msg.error = \"Usuario o contraseña incorrectos: Por favor llene los campos nuevamente\";\n    }\n}\nelse{\n    msg.error = \"Usuario activo, por favor cierre sesión primero\";\n}\n\nmsg.payload = global.get(\"UserStatus\")\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 310,
+        "y": 110,
+        "wires": [
+            [
+                "a516f6f7.9f9d28",
+                "80a4c506.a81c78",
+                "1c0ced5.0f93b13"
+            ]
+        ]
+    },
+    {
+        "id": "51d00666.b504b8",
+        "type": "ui_toast",
+        "z": "2657da37.013b66",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 900,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "a516f6f7.9f9d28",
+        "type": "switch",
+        "z": "2657da37.013b66",
+        "name": "Error",
+        "property": "error",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 560,
+        "y": 40,
+        "wires": [
+            [
+                "a6a652a5.1b0aa"
+            ]
+        ]
+    },
+    {
+        "id": "a6a652a5.1b0aa",
+        "type": "change",
+        "z": "2657da37.013b66",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "error",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 40,
+        "wires": [
+            [
+                "51d00666.b504b8"
+            ]
+        ]
+    },
+    {
+        "id": "80a4c506.a81c78",
+        "type": "switch",
+        "z": "2657da37.013b66",
+        "name": "Name",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 560,
+        "y": 80,
+        "wires": [
+            [
+                "2a0bc418.e8756c"
+            ]
+        ]
+    },
+    {
+        "id": "2a0bc418.e8756c",
+        "type": "change",
+        "z": "2657da37.013b66",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "name: userstatus",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "name",
+                "fromt": "str",
+                "to": "name",
+                "tot": "msg"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "userstatus",
+                "fromt": "str",
+                "to": "userstatus",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 80,
+        "wires": [
+            [
+                "b7161c3b.bb7ad"
+            ]
+        ]
+    },
+    {
+        "id": "b7161c3b.bb7ad",
+        "type": "ui_toast",
+        "z": "2657da37.013b66",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 900,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "aa47304a.d40cf",
+        "type": "ui_toast",
+        "z": "2657da37.013b66",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 600,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1c0ced5.0f93b13",
+        "type": "change",
+        "z": "2657da37.013b66",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "UserStatus",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ac7e5a3.05d60c",
+        "type": "change",
+        "z": "2657da37.013b66",
+        "name": "Logout",
+        "rules": [
+            {
+                "t": "set",
+                "p": "user",
+                "pt": "flow",
+                "to": "null",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "password",
+                "pt": "flow",
+                "to": "null",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "UserStatus",
+                "pt": "global",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "userstatus",
+                "pt": "msg",
+                "to": "Sesión cerrada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Sesión cerrada",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 150,
+        "wires": [
+            [
+                "1c0ced5.0f93b13",
+                "aa47304a.d40cf"
+            ]
+        ]
+    },
+    {
+        "id": "f771788a.2843f8",
+        "type": "switch",
+        "z": "2657da37.013b66",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "user",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "password",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Iniciar sesión",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cerrar sesión",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 130,
+        "y": 90,
+        "wires": [
+            [
+                "9804cbde.aea688"
+            ],
+            [
+                "2ae89933.84dea6"
+            ],
+            [
+                "8f64c5d0.2e2de8"
+            ],
+            [
+                "7ac7e5a3.05d60c"
+            ]
+        ]
+    },
+    {
+        "id": "9804cbde.aea688",
+        "type": "change",
+        "z": "2657da37.013b66",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "user",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ae89933.84dea6",
+        "type": "change",
+        "z": "2657da37.013b66",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "password",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c404a6e9.ffda18",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "a80677cf.4274c8",
+        "name": "Admin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Admin Loged",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 690,
+        "wires": [
+            [
+                "6d40adaa.11d2c4"
+            ]
+        ]
+    },
+    {
+        "id": "7dfbde1e.e4b5b",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "a80677cf.4274c8",
+        "name": "Operator",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Operator Loged in",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 730,
+        "wires": [
+            [
+                "6d40adaa.11d2c4"
+            ]
+        ]
+    },
+    {
+        "id": "6d40adaa.11d2c4",
+        "type": "link out",
+        "z": "827787d0.ede678",
+        "g": "a80677cf.4274c8",
+        "name": "Usuario",
+        "links": [
+            "59e817c2.295b38",
+            "40c12bb3.ead9f4"
+        ],
+        "x": 885,
+        "y": 690,
+        "wires": []
+    },
+    {
+        "id": "8e762cce.be81",
+        "type": "switch",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 550,
+        "y": 560,
+        "wires": [
+            [
+                "8edea7ae.674088",
+                "ffad1340.f8a3b"
+            ],
+            [
+                "33c5f16c.c8a5ae",
+                "c404a6e9.ffda18",
+                "8effe1fe.bacd6"
+            ],
+            [
+                "42f85e00.83b314",
+                "7dfbde1e.e4b5b",
+                "98a9b5d4.5e5608"
+            ]
+        ]
+    },
+    {
+        "id": "21e4fb07.22d804",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "User Status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "UserStatus",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "8e762cce.be81"
+            ]
+        ]
+    },
+    {
+        "id": "8edea7ae.674088",
+        "type": "link out",
+        "z": "827787d0.ede678",
+        "g": "64ff74e5.f4c53c",
+        "name": "No user Out",
+        "links": [
+            "dd807959.9e5a08",
+            "bf656c1e.ff84",
+            "40b58948.5d5a48"
+        ],
+        "x": 725,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "33c5f16c.c8a5ae",
+        "type": "link out",
+        "z": "827787d0.ede678",
+        "g": "64ff74e5.f4c53c",
+        "name": "Admin Out",
+        "links": [
+            "5cc2d788.18b678",
+            "ba3ec3f7.7f116",
+            "b87d8378.fe2aa",
+            "6f2053fa.77020c"
+        ],
+        "x": 725,
+        "y": 370,
+        "wires": []
+    },
+    {
+        "id": "42f85e00.83b314",
+        "type": "link out",
+        "z": "827787d0.ede678",
+        "g": "64ff74e5.f4c53c",
+        "name": "Oper Out",
+        "links": [
+            "30e13f64.16c0d",
+            "ba3ec3f7.7f116",
+            "b87d8378.fe2aa",
+            "6f2053fa.77020c"
+        ],
+        "x": 725,
+        "y": 430,
+        "wires": []
+    },
+    {
+        "id": "df6fb5ca.5f8af8",
+        "type": "subflow:2657da37.013b66",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "Usuario",
+        "env": [],
+        "x": 1200,
+        "y": 80,
+        "wires": [
+            [
+                "7de51565.2383cc"
+            ]
+        ],
+        "inputLabels": [
+            "Input msg"
+        ],
+        "outputLabels": [
+            "Output msg"
+        ]
+    },
+    {
+        "id": "28cd79fb.3dcae6",
+        "type": "ui_button",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "group": "a706ea3d.b7fbc8",
+        "order": 5,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "label": "Cerrar sesión",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "num",
+        "topic": "Cerrar sesión",
+        "topicType": "str",
+        "x": 830,
+        "y": 80,
+        "wires": [
+            [
+                "df6fb5ca.5f8af8",
+                "2ffa7be0.763644",
+                "2066be8e.5c6832"
+            ]
+        ]
+    },
+    {
+        "id": "2066be8e.5c6832",
+        "type": "ui_text_input",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "label": "Nombre de usuario",
+        "tooltip": "",
+        "group": "a706ea3d.b7fbc8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "1",
+        "topic": "user",
+        "x": 990,
+        "y": 150,
+        "wires": [
+            [
+                "df6fb5ca.5f8af8"
+            ]
+        ]
+    },
+    {
+        "id": "e04fbd1c.98ffe",
+        "type": "ui_button",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "group": "a706ea3d.b7fbc8",
+        "order": 6,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "Iniciar sesión",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Iniciar sesión",
+        "topicType": "str",
+        "x": 1010,
+        "y": 190,
+        "wires": [
+            [
+                "df6fb5ca.5f8af8"
+            ]
+        ]
+    },
+    {
+        "id": "2ffa7be0.763644",
+        "type": "ui_text_input",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "label": "Contraseña",
+        "tooltip": "",
+        "group": "a706ea3d.b7fbc8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "password",
+        "delay": "1",
+        "topic": "password",
+        "x": 1010,
+        "y": 110,
+        "wires": [
+            [
+                "df6fb5ca.5f8af8"
+            ]
+        ]
+    },
+    {
+        "id": "fbd8c1e9.7d493",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Acciones de usuario",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 585,
+        "y": 510,
+        "wires": [
+            [
+                "ffad1340.f8a3b"
+            ]
+        ]
+    },
+    {
+        "id": "a146fd5d.dc194",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "Acceso de usuario",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": [
+            [
+                "28cd79fb.3dcae6"
+            ]
+        ]
+    },
+    {
+        "id": "1595def7.d11251",
+        "type": "trigger",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "op1": "0",
+        "op2": "Close",
+        "op1type": "num",
+        "op2type": "str",
+        "duration": "10",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "reset",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "affdacff.6646c"
+            ]
+        ]
+    },
+    {
+        "id": "6e26c35e.a97f8c",
+        "type": "delay",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 310,
+        "y": 160,
+        "wires": [
+            [
+                "1595def7.d11251"
+            ]
+        ]
+    },
+    {
+        "id": "be50258c.07bb98",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "1595def7.d11251"
+            ]
+        ]
+    },
+    {
+        "id": "affdacff.6646c",
+        "type": "switch",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Close",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 120,
+        "wires": [
+            [
+                "3a348318.fe982c"
+            ]
+        ]
+    },
+    {
+        "id": "51d66341.8ee0fc",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "links": [
+            "97407954.a004c8"
+        ],
+        "x": 195,
+        "y": 140,
+        "wires": [
+            [
+                "be50258c.07bb98",
+                "6e26c35e.a97f8c"
+            ]
+        ]
+    },
+    {
+        "id": "ffad1340.f8a3b",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "be55ea76.ed4478",
+        "name": "No user",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "No user",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 520,
+        "wires": [
+            [
+                "d1a73825.d89578"
+            ]
+        ]
+    },
+    {
+        "id": "8effe1fe.bacd6",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "be55ea76.ed4478",
+        "name": "Admin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Admin",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 560,
+        "wires": [
+            [
+                "d1a73825.d89578"
+            ]
+        ]
+    },
+    {
+        "id": "98a9b5d4.5e5608",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "be55ea76.ed4478",
+        "name": "Operator",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Operator",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 600,
+        "wires": [
+            [
+                "d1a73825.d89578"
+            ]
+        ]
+    },
+    {
+        "id": "d1a73825.d89578",
+        "type": "ui_text",
+        "z": "827787d0.ede678",
+        "g": "be55ea76.ed4478",
+        "group": "a706ea3d.b7fbc8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Usuario actual:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 950,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "723d59b.85ed6a8",
+        "type": "complete",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "",
+        "scope": [
+            "7de51565.2383cc"
+        ],
+        "uncaught": false,
+        "x": 250,
+        "y": 560,
+        "wires": [
+            [
+                "21e4fb07.22d804"
+            ]
+        ]
+    },
+    {
+        "id": "7de51565.2383cc",
+        "type": "debug",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1330,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3a348318.fe982c",
+        "type": "switch",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "property": "UserStatus",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 160,
+        "wires": [
+            [
+                "28cd79fb.3dcae6"
+            ]
+        ]
+    },
+    {
+        "id": "5b529f4c.7ffeb",
+        "type": "ui_chart",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "Gráfico",
+        "group": "760e85bd.1f3e7c",
+        "order": 2,
+        "width": "12",
+        "height": "4",
+        "label": "{{msg.label}}",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#f20707",
+            "#033e8c",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1010,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c9ed5d3.e7799c",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "Harmonics chart generation",
+        "func": "var chart = [{\n    \"series\": [\"THD-V\", \"THD-I\"],\n    \"data\": msg.payload,\n    \"labels\": [ \"1o\", \"3o\",\"5o\",\"7o\",\"9o\",\"11o\",\"13o\"]\n}];\nmsg.payload = chart;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 110,
+        "wires": [
+            [
+                "5b529f4c.7ffeb"
+            ]
+        ]
+    },
+    {
+        "id": "76a74813.5dd3f8",
+        "type": "inject",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 100,
+        "y": 110,
+        "wires": [
+            [
+                "c8aa3a95.12b518"
+            ]
+        ]
+    },
+    {
+        "id": "23815ef1.931a32",
+        "type": "ui_dropdown",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "label": "Seleccione ",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "760e85bd.1f3e7c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Línea 1 ",
+                "value": "Linea1",
+                "type": "str"
+            },
+            {
+                "label": "Línea 2",
+                "value": "Linea2",
+                "type": "str"
+            },
+            {
+                "label": "Línea 3 ",
+                "value": "Linea3",
+                "type": "str"
+            },
+            {
+                "label": "Promedio",
+                "value": "LineaP",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 60,
+        "wires": [
+            [
+                "20b8681c.81fd48"
+            ]
+        ]
+    },
+    {
+        "id": "2b47642.2404d9c",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "links": [
+            "97407954.a004c8"
+        ],
+        "x": 135,
+        "y": 170,
+        "wires": [
+            [
+                "eddefb96.175bf8",
+                "ec03441d.979088"
+            ]
+        ]
+    },
+    {
+        "id": "eddefb96.175bf8",
+        "type": "switch",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "User in harmonics Screen ?",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Monitoreo-Datos_Operativos-Superficie_y_Fondo",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Monitoreo-Datos_Operativos-Superficie_y_Fondo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 170,
+        "wires": [
+            [
+                "a5c181ee.2efe1"
+            ],
+            [
+                "b54a4559.022378"
+            ]
+        ]
+    },
+    {
+        "id": "a5c181ee.2efe1",
+        "type": "change",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Harmonics_Chart.Prompt",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 150,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b54a4559.022378",
+        "type": "change",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Harmonics_Chart.Prompt",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ea5879e.bf0588",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "Data Handle harmonics chart",
+        "func": "var PQA_Data                = global.get(\"PQA.Harmonics\", \"memoryOnly\") || \"[]\";\nvar Chart_Selection         = flow.get(\"Harmonics_Chart.Selection\", \"memoryOnly\") || \"\";\n\nvar Linea1_V = Object.values(PQA_Data.V1_V12);\nvar Linea1_I = Object.values(PQA_Data.I1);\n\nvar Linea2_V = Object.values(PQA_Data.V2_V31);\nvar Linea2_I = Object.values(PQA_Data.I2);\n\n\nvar Linea3_V = Object.values(PQA_Data.V3_V23);\nvar Linea3_I = Object.values(PQA_Data.I3);\n\nvar LineaP_V = [\n    ((Linea1_V[0]+Linea2_V[0]+Linea3_V[0])/3).toFixed(2),\n    ((Linea1_V[1]+Linea2_V[1]+Linea3_V[1])/3).toFixed(2),\n    ((Linea1_V[2]+Linea2_V[0]+Linea3_V[2])/3).toFixed(2),\n    ((Linea1_V[3]+Linea2_V[0]+Linea3_V[3])/3).toFixed(2),\n    ((Linea1_V[4]+Linea2_V[0]+Linea3_V[4])/3).toFixed(2),\n    ((Linea1_V[5]+Linea2_V[0]+Linea3_V[5])/3).toFixed(2)\n];\nvar LineaP_I = [\n    ((Linea1_I[0]+Linea2_I[0]+Linea3_I[0])/3).toFixed(2),\n    ((Linea1_I[1]+Linea2_I[1]+Linea3_I[1])/3).toFixed(2),\n    ((Linea1_I[2]+Linea2_I[0]+Linea3_I[2])/3).toFixed(2),\n    ((Linea1_I[3]+Linea2_I[0]+Linea3_I[3])/3).toFixed(2),\n    ((Linea1_I[4]+Linea2_I[0]+Linea3_I[4])/3).toFixed(2),\n    ((Linea1_I[5]+Linea2_I[0]+Linea3_I[5])/3).toFixed(2),\n];\n\nif(Chart_Selection == \"Linea1\")\n    {\n        msg.payload =  [ Linea1_V , Linea1_I];\n        msg.label   = \"Porcentaje Armónico Línea 1\";\n    }\nelse if(Chart_Selection == \"Linea2\")\n    {\n        msg.payload =  [ Linea2_V , Linea2_I];\n        msg.label   = \"Porcentaje Armónico Línea 2\";\n    }\nelse if(Chart_Selection == \"Linea3\")\n    {\n        msg.payload =  [ Linea3_V , Linea3_I];\n        msg.label   = \"Porcentaje Armónico Línea 3\";\n    }\nelse if(Chart_Selection == \"LineaP\")\n    {\n        {\n        msg.payload =  [ LineaP_V , LineaP_I];\n        msg.label   = \"Porcentaje Armónico Promedio\";\n    }\n    }\nreturn msg; \n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 110,
+        "wires": [
+            [
+                "6c9ed5d3.e7799c"
+            ]
+        ]
+    },
+    {
+        "id": "c8aa3a95.12b518",
+        "type": "switch",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "Harmonics Chart Prompted? ",
+        "property": "#:(memoryOnly)::Harmonics_Chart.Prompt",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 290,
+        "y": 110,
+        "wires": [
+            [
+                "3ea5879e.bf0588"
+            ]
+        ]
+    },
+    {
+        "id": "20b8681c.81fd48",
+        "type": "change",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Harmonics_Chart.Selection",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec03441d.979088",
+        "type": "debug",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 220,
+        "y": 210,
+        "wires": []
+    },
+    {
+        "id": "8c73338.8deb8d",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 215,
+        "y": 60,
+        "wires": [
+            [
+                "3ccbaa0b.2db096"
+            ]
+        ]
+    },
+    {
+        "id": "3ccbaa0b.2db096",
+        "type": "change",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "LineaP",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 60,
+        "wires": [
+            [
+                "23815ef1.931a32"
+            ]
+        ]
+    },
+    {
+        "id": "4f4b6b53.48e6c4",
+        "type": "ui_template",
+        "z": "aa547d69.9cb8e",
+        "g": "ced3da32.aec848",
+        "group": "cc789a9d.61fab8",
+        "name": "",
+        "order": 0,
+        "width": "24",
+        "height": "5",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd3f340c.1706c8",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "ced3da32.aec848",
+        "name": "Random",
+        "func": "msg.VL1N    = getRandom(470,480);\nmsg.VL2N    = getRandom(470,480);\nmsg.VL3N    = getRandom(470,480);\nmsg.VL1L2   = getRandom(230,240);\nmsg.VL2L3   = getRandom(230,240);\nmsg.VL1L3   = getRandom(230,240);\nmsg.CL1     = getRandom(10,20);\nmsg.CL2     = getRandom(10,20);\nmsg.CL3     = getRandom(10,20);\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "be5b89ed.6c6bf8"
+            ]
+        ]
+    },
+    {
+        "id": "55a12d87.aee714",
+        "type": "inject",
+        "z": "aa547d69.9cb8e",
+        "g": "ced3da32.aec848",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 100,
+        "y": 300,
+        "wires": [
+            [
+                "cd3f340c.1706c8"
+            ]
+        ]
+    },
+    {
+        "id": "d42179e5.c93338",
+        "type": "template",
+        "z": "5df787f2.bf5f88",
+        "name": "Template",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-8\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 260,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2e52656.c45408",
+        "type": "template",
+        "z": "5df787f2.bf5f88",
+        "name": "SVG",
+        "field": "svg",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" content=\"&lt;mxfile host=&quot;Electron&quot; modified=&quot;2021-07-04T18:59:52.823Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.9.13 Chrome/80.0.3987.163 Electron/8.2.1 Safari/537.36&quot; etag=&quot;1OluWO9qAZzVOdAMDwA4&quot; version=&quot;12.9.13&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;3OBx4FIYkCEcJKEvSmJ7&quot; name=&quot;Página-1&quot;&gt;7VxRc9o4EP41PObGkowxjwnt9WaO69w0M+2zagujVliuLAK5X38SlgFbTgipYxuiF2J2pZX87X6rlWwyQrPV9pPA2fIfHhM2gl68HaEPIwgnYag+teCxEASeXwgSQeNCBA6Ce/ofMULPSNc0JnmloeScSZpVhRFPUxLJigwLwTfVZgvOqqNmOCGW4D7CzJZ+o7FcFtIQTg7yvwhNluXIIJgWmhUuG5s7yZc45psjEfo4QjPBuSyuVtsZYRq7Epei359PaPcTEySVL+nw48ff4ScaJtk2+HJ/+ytK5ht2E4wLMw+Yrc0dm9nKxxKCRPB1ZpoRIcm2CXj8vWzu2RMD+9tVYUL4ikjxqJoYQ6HpYSJkbKa0OcAdeKbJ8ghqCExDbFyc7C0fUFAXBogzQAGT06CQNL7V4aW+RQznOY1G6C6XWEhbvJQrNf4HsGsh+M99JClQ7grLJLbC8ADfM56zQT2CbdyAWikThGFJH6qDNiFpRviXUzWdp3wGvZovcr4WETGdjoPyhJ2aGYVnQqRlZufV/T3/hqNDy9EPc/BZSb5aDlckSGOirXnKa5slleQ+w5HWblTmq7r5Sba82q3GjF/Fy7e5EjZRxXsjpsCpY8oJpgDUElXqhsJuuVKOXuEKHDJXplW8gNczWXy3rJwkS1vrSt0Q8Ltli9+0sqAhswXUlhYQ9EwXFJxFl5Sn5DlSoIslRVsLSL14sAy99Qpi57/PQyNDGfxTO/j9TtcKV1idokWdF/V66MW0qPOrW1aMm+oqMIdDXiqmw9qFjJEjyymywOkfk6C6wNdLohcTxrbV8V5kDBs4A+fogjjT+24EnMUZu7pSSnNaC9AVF1uv5Ijf78GWzY85GBoxSiL0XGmN7W3GTN2adzs0vMoAndQSSc955LxC9d3s0l5bjdYTR8crK7Cr0bnt0GFkjknfmcPez87gBWWOBvy6fXhw3nnou0kdry7M67mj60NPaB96ztHQyFBig/rOHv5Z0f8eN60ItkSMuqGuj3hsXlzUQtHElW4PeOy3VPQZ2ZD3+/U3G/o+Iwua9vsBkzpdZDitQBj8WuuXku4WPJU3C7yiTN2EClY1twCvsh1sCPkaScIeiKQRtjS69e5zZyTfnRRoEwBm25quGFcrUy5WmFXVG4OO1vv6PSCjZERKIm7U5COaJo39lU/lDWY0SQt1pDxKRFVNVaykxrx3NLWdUgqc5gtltDSvKpCywYaLuDr6cfcF41g29IppnjFs4KQpo1pX4q2uEv1X79W9n99K/yh/Fy4qtKX4u3BOa8lpdQc4ZgyaGV9vHTUcNa4I5Dap8eVJbgyyTvLL5yJHhREAz+wp2q+Mmp4euiAfZpBrR7nKyKX/qwK5PWa4yshR46pAbpMal1oZ7X8513eh1HRi7WJ+mDGvz0ZdoeRWg6sCuT1muELJUeOqQG6TGhdeKAH4dpWS+nr4xX7xfPjwbw/Qx/8B&lt;/diagram&gt;&lt;/mxfile&gt;\" style=\"background-color: rgb(255, 255, 255);\"><defs/><g><path d=\"M 80 196.76 L 80 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 80 202.76 L 76 194.76 L 80 196.76 L 84 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 80 27.24 L 84 35.24 L 80 33.24 L 76 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"40\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 41px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1N}} V</div></div></div></foreignObject><text x=\"80\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1N}}V</text></switch></g><path d=\"M 130 196.76 L 130 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 130 202.76 L 126 194.76 L 130 196.76 L 134 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 130 87.24 L 134 95.24 L 130 93.24 L 126 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"90\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 91px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2N}} V</div></div></div></foreignObject><text x=\"130\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2N}} V</text></switch></g><path d=\"M 180 196.76 L 180 153.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 180 202.76 L 176 194.76 L 180 196.76 L 184 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 180 147.24 L 184 155.24 L 180 153.24 L 176 155.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"140\" y=\"165\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 175px; margin-left: 141px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL3N}} V</div></div></div></foreignObject><text x=\"180\" y=\"179\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL3N}} V</text></switch></g><path d=\"M 30 205 L 240 205\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"195\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 205px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">N</div></div></div></foreignObject><text x=\"20\" y=\"209\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">N</text></switch></g><path d=\"M 230 76.76 L 230 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 230 82.76 L 226 74.76 L 230 76.76 L 234 74.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 230 27.24 L 234 35.24 L 230 33.24 L 226 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L2}} V</div></div></div></foreignObject><text x=\"230\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L2}} V</text></switch></g><path d=\"M 229.76 136.76 L 229.76 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 229.76 142.76 L 225.76 134.76 L 229.76 136.76 L 233.76 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 229.76 87.24 L 233.76 95.24 L 229.76 93.24 L 225.76 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2L3}} V</div></div></div></foreignObject><text x=\"230\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2L3}} V</text></switch></g><path d=\"M 30 25 L 480 25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"15\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 25px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L1</div></div></div></foreignObject><text x=\"20\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1</text></switch></g><rect x=\"370\" y=\"15\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 25px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL1}} A</div></div></div></foreignObject><text x=\"410\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL1}} A</text></switch></g><path d=\"M 30 85 L 480 85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"75\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 85px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L2</div></div></div></foreignObject><text x=\"20\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2</text></switch></g><rect x=\"370\" y=\"75\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 85px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL2}} A</div></div></div></foreignObject><text x=\"410\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL2}} A</text></switch></g><path d=\"M 30 145 L 480 145\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"135\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 145px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L3</div></div></div></foreignObject><text x=\"20\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3</text></switch></g><path d=\"M 320 136.76 L 320 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 320 142.76 L 316 134.76 L 320 136.76 L 324 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 320 27.24 L 324 35.24 L 320 33.24 L 316 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"370\" y=\"135\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 145px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL3}} A</div></div></div></foreignObject><text x=\"410\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL3}} A</text></switch></g><rect x=\"280\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 281px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L3}} V</div></div></div></foreignObject><text x=\"320\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L3}} V</text></switch></g><rect x=\"490\" y=\"0\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 25px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L1 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L1 kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L1 kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1 kW...</text></switch></g><rect x=\"490\" y=\"60\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 85px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L2 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L2 kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L2 kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2 kW...</text></switch></g><rect x=\"490\" y=\"120\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 145px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3 kW...</text></switch></g></g><switch><g requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"/><a transform=\"translate(0,-5)\" xlink:href=\"https://desk.draw.io/support/solutions/articles/16000042487\" target=\"_blank\"><text text-anchor=\"middle\" font-size=\"10px\" x=\"50%\" y=\"100%\">Viewer does not support full SVG 1.1</text></a></switch></svg>",
+        "output": "str",
+        "x": 130,
+        "y": 30,
+        "wires": [
+            [
+                "d42179e5.c93338"
+            ]
+        ]
+    },
+    {
+        "id": "be5b89ed.6c6bf8",
+        "type": "subflow:5df787f2.bf5f88",
+        "z": "aa547d69.9cb8e",
+        "g": "ced3da32.aec848",
+        "name": "",
+        "env": [],
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "4f4b6b53.48e6c4"
+            ]
+        ]
+    },
+    {
+        "id": "1e29d945.cbff87",
+        "type": "inject",
+        "z": "aa547d69.9cb8e",
+        "g": "35aaa239.8bb89e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 100,
+        "y": 390,
+        "wires": [
+            [
+                "d0e8a077.56e6f"
+            ]
+        ]
+    },
+    {
+        "id": "4b8dd61f.d7e538",
+        "type": "ui_template",
+        "z": "aa547d69.9cb8e",
+        "g": "35aaa239.8bb89e",
+        "group": "d14f7e2.6ade88",
+        "name": "",
+        "order": 0,
+        "width": "12",
+        "height": "5",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 630,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71e3e381.f6111c",
+        "type": "template",
+        "z": "aa547d69.9cb8e",
+        "g": "35aaa239.8bb89e",
+        "name": "Table",
+        "field": "row",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> V[L-L]</strong></td>\n                        <td>{{kW}}<strong> V[LN]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_VSD}}<strong> A</strong></td>\n                        <td>{{V_VSD}}<strong> W</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_Tx}}<strong> VA</strong></td>\n                        <td>{{V_Tx}}<strong> VAR</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{Hz}}<strong> Hz</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    \n    <!--<div class=\"row\">\n        <h5>Factor de potencia</h5>\n    </div>-->\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td><strong>FP L1: </strong>{{Hz}}</td>\n                        <td><strong>FP L2: </strong>{{kW}}</td>\n                        <td><strong>FP L3: </strong>{{A_}}</td>\n                    </tr>\n                </tbody>\n            </table>\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{A_VSD}}<strong>FP Prom: </strong></td>\n                        <td>{{V_VSD}}<strong>Ángulo Prom: </strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 360,
+        "y": 390,
+        "wires": [
+            [
+                "2cb9269.d9e5fda"
+            ]
+        ]
+    },
+    {
+        "id": "2cb9269.d9e5fda",
+        "type": "template",
+        "z": "aa547d69.9cb8e",
+        "g": "35aaa239.8bb89e",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 490,
+        "y": 390,
+        "wires": [
+            [
+                "4b8dd61f.d7e538"
+            ]
+        ]
+    },
+    {
+        "id": "d0e8a077.56e6f",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "35aaa239.8bb89e",
+        "name": "Random",
+        "func": "msg.VL1N    = getRandom(470,480);\nmsg.VL2N    = getRandom(470,480);\nmsg.VL3N    = getRandom(470,480);\nmsg.VL1L2   = getRandom(230,240);\nmsg.VL2L3   = getRandom(230,240);\nmsg.VL1L3   = getRandom(230,240);\nmsg.CL1     = getRandom(10,20);\nmsg.CL2     = getRandom(10,20);\nmsg.CL3     = getRandom(10,20);\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 390,
+        "wires": [
+            [
+                "71e3e381.f6111c"
+            ]
+        ]
+    },
+    {
+        "id": "5dcc4d5b.20caf4",
+        "type": "ui_dropdown",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccione un pozo",
+        "group": "7360f8fc.f7b758",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 50,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c3a9b2b.9e2814",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "",
+        "func": "msg.options = [{\n    \"label1\":\"value1\",\n    \"label2\":\"value2\",\n}]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 50,
+        "wires": [
+            [
+                "5dcc4d5b.20caf4"
+            ]
+        ]
+    },
+    {
+        "id": "aaec9822.a14198",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 50,
+        "wires": [
+            [
+                "4c3a9b2b.9e2814"
+            ]
+        ]
+    },
+    {
+        "id": "f7abcaef.b9e088",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "ae5bec70.81fd1"
+            ],
+            [
+                "20aa3712.775b38"
+            ],
+            [
+                "c1dac5db.35c048"
+            ]
+        ]
+    },
+    {
+        "id": "1433a899.bebee7",
+        "type": "inject",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "4b7104ad.fea74c",
+                "bb97a2bb.73fad",
+                "e8641c2f.f3095",
+                "767636c7.c94e08",
+                "d0a607b2.bdcec8",
+                "e29cdb1.4513828",
+                "47eaf640.8fd8c8",
+                "6c6044a8.220ddc",
+                "f806fdaa.d8934",
+                "2ae0fa47.c12336",
+                "a8a1a266.7ea84",
+                "d10777ab.846208"
+            ]
+        ]
+    },
+    {
+        "id": "4b7104ad.fea74c",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "f7abcaef.b9e088"
+            ]
+        ]
+    },
+    {
+        "id": "bd35d4d0.753a48",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 230,
+        "wires": [
+            [
+                "a9ff1f59.a91a6"
+            ],
+            [
+                "e82974e5.f23d88"
+            ],
+            [
+                "b7cf71e7.fdfe8"
+            ]
+        ]
+    },
+    {
+        "id": "bb97a2bb.73fad",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 230,
+        "wires": [
+            [
+                "bd35d4d0.753a48"
+            ]
+        ]
+    },
+    {
+        "id": "175cb51c.b22dab",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 360,
+        "wires": [
+            [
+                "ef8869ff.0d4e68"
+            ],
+            [
+                "465c82e1.a386cc"
+            ],
+            [
+                "890046c3.647828"
+            ]
+        ]
+    },
+    {
+        "id": "e8641c2f.f3095",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "175cb51c.b22dab"
+            ]
+        ]
+    },
+    {
+        "id": "fd8dc205.6c9b6",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 490,
+        "wires": [
+            [
+                "5ab3b609.e24d68"
+            ],
+            [
+                "34806dd8.c73592"
+            ],
+            [
+                "4e79a04c.c2ea"
+            ]
+        ]
+    },
+    {
+        "id": "767636c7.c94e08",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 490,
+        "wires": [
+            [
+                "fd8dc205.6c9b6"
+            ]
+        ]
+    },
+    {
+        "id": "65f9b0ff.c80c",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 620,
+        "wires": [
+            [
+                "86a19867.5f8078"
+            ],
+            [
+                "66accaf9.6da534"
+            ],
+            [
+                "236abadf.310076"
+            ]
+        ]
+    },
+    {
+        "id": "d0a607b2.bdcec8",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 620,
+        "wires": [
+            [
+                "65f9b0ff.c80c"
+            ]
+        ]
+    },
+    {
+        "id": "64acd80d.e77058",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 750,
+        "wires": [
+            [
+                "e688b3bd.23ec1"
+            ],
+            [
+                "3cd5461d.53288a"
+            ],
+            [
+                "576e17b4.279658"
+            ]
+        ]
+    },
+    {
+        "id": "e29cdb1.4513828",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 750,
+        "wires": [
+            [
+                "64acd80d.e77058"
+            ]
+        ]
+    },
+    {
+        "id": "5628f67a.058408",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 880,
+        "wires": [
+            [
+                "2b2faab1.3735b6"
+            ],
+            [
+                "92b15688.e2bf18"
+            ],
+            [
+                "7007c8c6.07beb8"
+            ]
+        ]
+    },
+    {
+        "id": "47eaf640.8fd8c8",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 880,
+        "wires": [
+            [
+                "5628f67a.058408"
+            ]
+        ]
+    },
+    {
+        "id": "6bb060f1.2f76f",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 1010,
+        "wires": [
+            [
+                "a50abbf0.4df7e8"
+            ],
+            [
+                "ac51d514.6b6c68"
+            ],
+            [
+                "d276e511.c42248"
+            ]
+        ]
+    },
+    {
+        "id": "6c6044a8.220ddc",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 1010,
+        "wires": [
+            [
+                "6bb060f1.2f76f"
+            ]
+        ]
+    },
+    {
+        "id": "410ee28e.7c7b6c",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 1140,
+        "wires": [
+            [
+                "e86412b7.2cefd"
+            ],
+            [
+                "f059b558.b7bba8"
+            ],
+            [
+                "532b6231.1b35dc"
+            ]
+        ]
+    },
+    {
+        "id": "f806fdaa.d8934",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 1140,
+        "wires": [
+            [
+                "410ee28e.7c7b6c"
+            ]
+        ]
+    },
+    {
+        "id": "a14cfe4.16e52",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 1270,
+        "wires": [
+            [
+                "bfef7b03.355dd8"
+            ],
+            [
+                "9cebca0b.c92438"
+            ],
+            [
+                "d28650a1.0608f"
+            ]
+        ]
+    },
+    {
+        "id": "2ae0fa47.c12336",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 1270,
+        "wires": [
+            [
+                "a14cfe4.16e52"
+            ]
+        ]
+    },
+    {
+        "id": "b152b123.9bd73",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 1400,
+        "wires": [
+            [
+                "90b76efb.67458"
+            ],
+            [
+                "a3d97f98.a00b3"
+            ],
+            [
+                "fa375b.0f1a48a8"
+            ]
+        ]
+    },
+    {
+        "id": "a8a1a266.7ea84",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 1400,
+        "wires": [
+            [
+                "b152b123.9bd73"
+            ]
+        ]
+    },
+    {
+        "id": "299f7f58.eea3a",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 440,
+        "y": 1530,
+        "wires": [
+            [
+                "57f98051.90e3d"
+            ],
+            [
+                "c1646431.90a7c8"
+            ],
+            [
+                "cf0fdbd7.253228"
+            ]
+        ]
+    },
+    {
+        "id": "d10777ab.846208",
+        "type": "random",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "low": 1,
+        "high": "3",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 1530,
+        "wires": [
+            [
+                "299f7f58.eea3a"
+            ]
+        ]
+    },
+    {
+        "id": "65fbd97d.839098",
+        "type": "ui_template",
+        "z": "e997ba3b.48cc18",
+        "group": "6d4bdba8.6258b4",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "3",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 530,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adb32ff4.d51de",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 80,
+        "y": 280,
+        "wires": [
+            [
+                "c76f3a4d.284d88"
+            ]
+        ]
+    },
+    {
+        "id": "c76f3a4d.284d88",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "name": "Random",
+        "func": "msg.VL1N    = getRandom(470,480);\nmsg.VL2N    = getRandom(470,480);\nmsg.VL3N    = getRandom(470,480);\nmsg.VL1L2   = getRandom(230,240);\nmsg.VL2L3   = getRandom(230,240);\nmsg.VL1L3   = getRandom(230,240);\nmsg.CL1     = getRandom(10,20);\nmsg.CL2     = getRandom(10,20);\nmsg.CL3     = getRandom(10,20);\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "3f3a88ac.8e1608"
+            ]
+        ]
+    },
+    {
+        "id": "3f3a88ac.8e1608",
+        "type": "subflow:5df787f2.bf5f88",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "env": [],
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "65fbd97d.839098"
+            ]
+        ]
+    },
+    {
+        "id": "3cc764fd.7e58cc",
+        "type": "ui_text_input",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "label": "Referencia (Hz)",
+        "tooltip": "",
+        "group": "1925e2c.fd4e91d",
+        "order": 2,
+        "width": "6",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "100",
+        "topic": "Ref",
+        "topicType": "str",
+        "x": 260,
+        "y": 430,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1acb0c29.0ddee4",
+        "type": "ui_button",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "group": "1925e2c.fd4e91d",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": false,
+        "label": "Confirmar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "Send",
+        "topicType": "str",
+        "x": 280,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64748d27.b27004",
+        "type": "ui_button",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "group": "3b7087bd.454fe8",
+        "order": 2,
+        "width": "4",
+        "height": 1,
+        "passthru": false,
+        "label": "Arranque",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "Start",
+        "payloadType": "str",
+        "topic": "Basic",
+        "topicType": "str",
+        "x": 460,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26c5e6f4.5cc1fa",
+        "type": "ui_button",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "group": "3b7087bd.454fe8",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": false,
+        "label": "Parada",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "Stop",
+        "payloadType": "str",
+        "topic": "Basic",
+        "topicType": "str",
+        "x": 460,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2526682.c405998",
+        "type": "ui_button",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "group": "3b7087bd.454fe8",
+        "order": 4,
+        "width": "4",
+        "height": 1,
+        "passthru": false,
+        "label": "Reinicio",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "grey",
+        "icon": "",
+        "payload": "Reset",
+        "payloadType": "str",
+        "topic": "Basic",
+        "topicType": "str",
+        "x": 460,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed2099a.c477368",
+        "type": "ui_chart",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "group": "570c0d46.0282f4",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 400,
+        "y": 210,
         "wires": [
             []
         ]
