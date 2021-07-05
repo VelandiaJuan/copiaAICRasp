@@ -709,7 +709,7 @@
         "id": "55735b30.433a74",
         "type": "ui_tab",
         "name": "Datos eléctricos cluster",
-        "icon": "dashboard",
+        "icon": "flash_on",
         "order": 3,
         "disabled": false,
         "hidden": false
@@ -718,7 +718,7 @@
         "id": "ff9850b.e5094b",
         "type": "ui_tab",
         "name": "Datos operativos pozos",
-        "icon": "dashboard",
+        "icon": "data_usage",
         "order": 4,
         "disabled": false,
         "hidden": false
@@ -727,7 +727,7 @@
         "id": "dfe3c396.db089",
         "type": "ui_tab",
         "name": "Configuración cluster",
-        "icon": "dashboard",
+        "icon": "settings",
         "order": 7,
         "disabled": false,
         "hidden": false
@@ -1118,7 +1118,7 @@
         "id": "cdb8cc7.0f2ac3",
         "type": "ui_tab",
         "name": "Estado CCP",
-        "icon": "dashboard",
+        "icon": "fa-plug",
         "order": 6,
         "disabled": false,
         "hidden": false
@@ -1212,7 +1212,7 @@
         "id": "f0eab73b.7f1978",
         "type": "ui_tab",
         "name": "Datos de fondo",
-        "icon": "dashboard",
+        "icon": "insert_chart",
         "order": 5,
         "disabled": false,
         "hidden": false
