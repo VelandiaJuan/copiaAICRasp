@@ -1569,7 +1569,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
         "x": 540,
         "y": 30,
@@ -3315,7 +3315,6 @@
         "payload": "",
         "payloadType": "num",
         "topic": "Cerrar sesión",
-        "topicType": "str",
         "x": 830,
         "y": 80,
         "wires": [
@@ -3369,7 +3368,6 @@
         "payload": "",
         "payloadType": "str",
         "topic": "Iniciar sesión",
-        "topicType": "str",
         "x": 1010,
         "y": 190,
         "wires": [
@@ -3758,7 +3756,6 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
         "x": 1010,
         "y": 110,
         "wires": [
@@ -3850,7 +3847,6 @@
         ],
         "payload": "",
         "topic": "",
-        "topicType": "str",
         "x": 500,
         "y": 60,
         "wires": [
@@ -4148,7 +4144,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "",
+        "repeat": "5",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -4291,7 +4287,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 490,
         "y": 390,
@@ -4345,7 +4341,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 390,
         "y": 50,
         "wires": [
@@ -4451,7 +4446,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "",
+        "repeat": "5",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -5171,7 +5166,6 @@
         "mode": "number",
         "delay": "100",
         "topic": "Ref",
-        "topicType": "str",
         "x": 140,
         "y": 170,
         "wires": [
@@ -5197,7 +5191,6 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "Send",
-        "topicType": "str",
         "x": 150,
         "y": 210,
         "wires": [
@@ -5223,7 +5216,6 @@
         "payload": "Start",
         "payloadType": "str",
         "topic": "Basic",
-        "topicType": "str",
         "x": 330,
         "y": 170,
         "wires": [
@@ -5249,7 +5241,6 @@
         "payload": "Stop",
         "payloadType": "str",
         "topic": "Basic",
-        "topicType": "str",
         "x": 330,
         "y": 210,
         "wires": [
@@ -5275,7 +5266,6 @@
         "payload": "Reset",
         "payloadType": "str",
         "topic": "Basic",
-        "topicType": "str",
         "x": 330,
         "y": 250,
         "wires": [
@@ -5311,7 +5301,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 1350,
         "y": 500,
@@ -5578,7 +5568,6 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
         "x": 340,
         "y": 340,
         "wires": [
@@ -6771,7 +6760,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
         "x": 900,
         "y": 40,
@@ -7007,26 +6996,7 @@
         "y": 80,
         "wires": [
             [
-                "771ce20c.53f8fc"
-            ]
-        ]
-    },
-    {
-        "id": "771ce20c.53f8fc",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 80,
-        "wires": [
-            [
-                "2ab98eda.7ac172"
+                "6b9ac7d0.10e248"
             ]
         ]
     },
@@ -7100,26 +7070,7 @@
         "y": 120,
         "wires": [
             [
-                "90930370.f064e"
-            ]
-        ]
-    },
-    {
-        "id": "90930370.f064e",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 120,
-        "wires": [
-            [
-                "1e6ced7b.b438b3"
+                "8c3b5a68.a77e68"
             ]
         ]
     },
@@ -7193,26 +7144,7 @@
         "y": 160,
         "wires": [
             [
-                "dbb7fd6e.794db"
-            ]
-        ]
-    },
-    {
-        "id": "dbb7fd6e.794db",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 160,
-        "wires": [
-            [
-                "a6aabb55.e54ea8"
+                "c8b6f25e.65812"
             ]
         ]
     },
@@ -7286,26 +7218,7 @@
         "y": 200,
         "wires": [
             [
-                "1c3b1ad5.344d95"
-            ]
-        ]
-    },
-    {
-        "id": "1c3b1ad5.344d95",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 200,
-        "wires": [
-            [
-                "70eb2132.8160e"
+                "6adac45d.43c16c"
             ]
         ]
     },
@@ -7379,26 +7292,7 @@
         "y": 240,
         "wires": [
             [
-                "f63cffbf.b80d6"
-            ]
-        ]
-    },
-    {
-        "id": "f63cffbf.b80d6",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 240,
-        "wires": [
-            [
-                "4406026c.fab35c"
+                "ba75e630.788c48"
             ]
         ]
     },
@@ -7472,26 +7366,7 @@
         "y": 280,
         "wires": [
             [
-                "46ca88c3.928a78"
-            ]
-        ]
-    },
-    {
-        "id": "46ca88c3.928a78",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 280,
-        "wires": [
-            [
-                "1f97d7a8.dbcca8"
+                "8df5bcbb.27f79"
             ]
         ]
     },
@@ -7565,26 +7440,7 @@
         "y": 320,
         "wires": [
             [
-                "889839af.c3e578"
-            ]
-        ]
-    },
-    {
-        "id": "889839af.c3e578",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 320,
-        "wires": [
-            [
-                "6f94e4d.b591f1c"
+                "ab335b39.bb0148"
             ]
         ]
     },
@@ -7658,26 +7514,7 @@
         "y": 360,
         "wires": [
             [
-                "b278596c.1f8db8"
-            ]
-        ]
-    },
-    {
-        "id": "b278596c.1f8db8",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 360,
-        "wires": [
-            [
-                "afa19e55.c9111"
+                "c319c1cb.fb504"
             ]
         ]
     },
@@ -7751,26 +7588,7 @@
         "y": 400,
         "wires": [
             [
-                "4095ef20.6d72d"
-            ]
-        ]
-    },
-    {
-        "id": "4095ef20.6d72d",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 400,
-        "wires": [
-            [
-                "41dce1b4.0f284"
+                "5eae4c6d.ab1724"
             ]
         ]
     },
@@ -7844,26 +7662,7 @@
         "y": 440,
         "wires": [
             [
-                "be809c54.ae8ca"
-            ]
-        ]
-    },
-    {
-        "id": "be809c54.ae8ca",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 440,
-        "wires": [
-            [
-                "1b11bf35.86ad31"
+                "6c6547e4.38a3c8"
             ]
         ]
     },
@@ -7937,26 +7736,7 @@
         "y": 480,
         "wires": [
             [
-                "f4dae989.784148"
-            ]
-        ]
-    },
-    {
-        "id": "f4dae989.784148",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 480,
-        "wires": [
-            [
-                "3252cd47.752d02"
+                "2affa031.3e65e"
             ]
         ]
     },
@@ -8010,7 +7790,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8020,7 +7799,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 40,
         "wires": [
@@ -8042,7 +7820,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 40,
         "wires": [
@@ -8072,7 +7849,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 40,
         "wires": [
@@ -8102,7 +7878,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 40,
         "wires": [
@@ -8123,7 +7898,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8133,7 +7907,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 90,
         "wires": [
@@ -8155,7 +7928,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 90,
         "wires": [
@@ -8185,7 +7957,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 90,
         "wires": [
@@ -8215,7 +7986,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 90,
         "wires": [
@@ -8236,7 +8006,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8246,7 +8015,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 140,
         "wires": [
@@ -8268,7 +8036,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 140,
         "wires": [
@@ -8298,7 +8065,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 140,
         "wires": [
@@ -8328,7 +8094,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 140,
         "wires": [
@@ -8349,7 +8114,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8359,7 +8123,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 190,
         "wires": [
@@ -8381,7 +8144,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 190,
         "wires": [
@@ -8411,7 +8173,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 190,
         "wires": [
@@ -8441,7 +8202,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 190,
         "wires": [
@@ -8462,7 +8222,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8472,7 +8231,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 240,
         "wires": [
@@ -8494,7 +8252,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 240,
         "wires": [
@@ -8524,7 +8281,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 240,
         "wires": [
@@ -8554,7 +8310,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 240,
         "wires": [
@@ -8575,7 +8330,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8585,7 +8339,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 290,
         "wires": [
@@ -8607,7 +8360,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 290,
         "wires": [
@@ -8637,7 +8389,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 290,
         "wires": [
@@ -8667,7 +8418,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 290,
         "wires": [
@@ -8688,7 +8438,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8698,7 +8447,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 340,
         "wires": [
@@ -8720,7 +8468,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 340,
         "wires": [
@@ -8750,7 +8497,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 340,
         "wires": [
@@ -8780,7 +8526,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 340,
         "wires": [
@@ -8801,7 +8546,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8811,7 +8555,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 390,
         "wires": [
@@ -8833,7 +8576,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 390,
         "wires": [
@@ -8863,7 +8605,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 390,
         "wires": [
@@ -8893,7 +8634,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 390,
         "wires": [
@@ -8914,7 +8654,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -8924,7 +8663,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 440,
         "wires": [
@@ -8946,7 +8684,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 440,
         "wires": [
@@ -8976,7 +8713,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 440,
         "wires": [
@@ -9006,7 +8742,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 440,
         "wires": [
@@ -9027,7 +8762,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -9037,7 +8771,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 490,
         "wires": [
@@ -9059,7 +8792,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 490,
         "wires": [
@@ -9089,7 +8821,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 490,
         "wires": [
@@ -9119,7 +8850,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 490,
         "wires": [
@@ -9140,7 +8870,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -9150,7 +8879,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 540,
         "wires": [
@@ -9172,7 +8900,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 540,
         "wires": [
@@ -9202,7 +8929,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 540,
         "wires": [
@@ -9232,7 +8958,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 540,
         "wires": [
@@ -9253,7 +8978,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "msg",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -9263,7 +8987,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": false,
         "x": 120,
         "y": 590,
         "wires": [
@@ -9285,7 +9008,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "msg",
         "x": 340,
         "y": 590,
         "wires": [
@@ -9315,7 +9037,6 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 520,
         "y": 590,
         "wires": [
@@ -9345,11 +9066,261 @@
         ],
         "payload": "",
         "topic": "topic",
-        "topicType": "msg",
         "x": 640,
         "y": 590,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "6b9ac7d0.10e248",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 80,
+        "wires": [
+            [
+                "2ab98eda.7ac172"
+            ]
+        ]
+    },
+    {
+        "id": "8c3b5a68.a77e68",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 120,
+        "wires": [
+            [
+                "1e6ced7b.b438b3"
+            ]
+        ]
+    },
+    {
+        "id": "c8b6f25e.65812",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 160,
+        "wires": [
+            [
+                "a6aabb55.e54ea8"
+            ]
+        ]
+    },
+    {
+        "id": "6adac45d.43c16c",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 200,
+        "wires": [
+            [
+                "70eb2132.8160e"
+            ]
+        ]
+    },
+    {
+        "id": "ba75e630.788c48",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 240,
+        "wires": [
+            [
+                "4406026c.fab35c"
+            ]
+        ]
+    },
+    {
+        "id": "8df5bcbb.27f79",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 280,
+        "wires": [
+            [
+                "1f97d7a8.dbcca8"
+            ]
+        ]
+    },
+    {
+        "id": "ab335b39.bb0148",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 320,
+        "wires": [
+            [
+                "6f94e4d.b591f1c"
+            ]
+        ]
+    },
+    {
+        "id": "c319c1cb.fb504",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 360,
+        "wires": [
+            [
+                "afa19e55.c9111"
+            ]
+        ]
+    },
+    {
+        "id": "5eae4c6d.ab1724",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 400,
+        "wires": [
+            [
+                "41dce1b4.0f284"
+            ]
+        ]
+    },
+    {
+        "id": "6c6547e4.38a3c8",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 440,
+        "wires": [
+            [
+                "1b11bf35.86ad31"
+            ]
+        ]
+    },
+    {
+        "id": "2affa031.3e65e",
+        "type": "template",
+        "z": "77e50510.f482bc",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 900,
+        "y": 480,
+        "wires": [
+            [
+                "3252cd47.752d02"
+            ]
+        ]
+    },
+    {
+        "id": "8409e010.37ba6",
+        "type": "random",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 210,
+        "y": 340,
+        "wires": [
+            [
+                "24e0f6e3.56cf0a"
+            ]
+        ]
+    },
+    {
+        "id": "325d343f.cbe57c",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 80,
+        "y": 340,
+        "wires": [
+            [
+                "8409e010.37ba6"
+            ]
         ]
     }
 ]
