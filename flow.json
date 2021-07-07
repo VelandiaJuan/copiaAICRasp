@@ -49,6 +49,20 @@
         "info": ""
     },
     {
+        "id": "f10e7ce.d57828",
+        "type": "tab",
+        "label": "Instrumentación manifold",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "75f74480.41235c",
+        "type": "tab",
+        "label": "Instrumentación de pozos",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "18e29a89.99dbb5",
         "type": "subflow",
         "name": "VSD Card",
@@ -177,9 +191,7 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13,
-        "w": 1324,
-        "h": 810
+        "y": 13
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -208,9 +220,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 4,
-        "y": 19,
-        "w": 1092,
-        "h": 232
+        "y": 19
     },
     {
         "id": "ced3da32.aec848",
@@ -232,9 +242,7 @@
             "be5b89ed.6c6bf8"
         ],
         "x": 4,
-        "y": 259,
-        "w": 632,
-        "h": 82
+        "y": 259
     },
     {
         "id": "35aaa239.8bb89e",
@@ -257,9 +265,7 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 349,
-        "w": 712,
-        "h": 82
+        "y": 349
     },
     {
         "id": "73a228cd.9d45d8",
@@ -444,9 +450,7 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243,
-        "w": 928,
-        "h": 554
+        "y": 243
     },
     {
         "id": "eb91dac5.690838",
@@ -475,9 +479,7 @@
             "3a348318.fe982c"
         ],
         "x": 154,
-        "y": 39,
-        "w": 1272,
-        "h": 192
+        "y": 39
     },
     {
         "id": "f3f54db2.c4674",
@@ -543,9 +545,7 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649,
-        "w": 242,
-        "h": 122
+        "y": 649
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -564,9 +564,7 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269,
-        "w": 173,
-        "h": 202
+        "y": 269
     },
     {
         "id": "be55ea76.ed4478",
@@ -586,9 +584,7 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479,
-        "w": 372,
-        "h": 162
+        "y": 479
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -638,11 +634,11 @@
                     "edited": true
                 },
                 "group-borderColor": {
-                    "value": "#000000",
+                    "value": "#e7e9e8",
                     "edited": true
                 },
                 "group-backgroundColor": {
-                    "value": "#e7e9e8",
+                    "value": "#dedede",
                     "edited": true
                 },
                 "widget-textColor": {
@@ -654,7 +650,7 @@
                     "edited": true
                 },
                 "widget-borderColor": {
-                    "value": "#e1e1e1",
+                    "value": "#e0e0e0",
                     "edited": true
                 },
                 "base-font": {
@@ -676,10 +672,10 @@
             "allowTempTheme": "false",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
-                "sx": 37,
+                "sx": 38,
                 "sy": 54,
                 "gx": 1,
-                "gy": 1,
+                "gy": 2,
                 "cx": 4,
                 "cy": 4,
                 "px": 1,
@@ -736,7 +732,7 @@
         "id": "6a3fd4b.86cdb2c",
         "type": "ui_tab",
         "name": "Instrumentación manifold",
-        "icon": "dashboard",
+        "icon": "fa-bar-chart",
         "order": 8,
         "disabled": false,
         "hidden": false
@@ -745,7 +741,7 @@
         "id": "f1b2af10.0bee2",
         "type": "ui_tab",
         "name": "Instrumentación pozos",
-        "icon": "dashboard",
+        "icon": "fa-area-chart",
         "order": 9,
         "disabled": false,
         "hidden": false
@@ -754,7 +750,7 @@
         "id": "a156af3c.344ef",
         "type": "ui_tab",
         "name": "Alarmas/Eventos",
-        "icon": "dashboard",
+        "icon": "fa-exclamation-triangle",
         "order": 10,
         "disabled": false,
         "hidden": false
@@ -763,7 +759,7 @@
         "id": "1b1530b8.3c3a4f",
         "type": "ui_tab",
         "name": "Temperatura/Humedad",
-        "icon": "dashboard",
+        "icon": "fa-thermometer-three-quarters",
         "order": 11,
         "disabled": false,
         "hidden": false
@@ -1126,7 +1122,7 @@
     {
         "id": "ee226df1.9537a",
         "type": "ui_group",
-        "name": "Circuito 1",
+        "name": "CIRCUITO 1",
         "tab": "cdb8cc7.0f2ac3",
         "order": 1,
         "disp": true,
@@ -1136,7 +1132,7 @@
     {
         "id": "9ad8c1e8.7c9",
         "type": "ui_group",
-        "name": "Circuito 2",
+        "name": "CIRCUITO 2",
         "tab": "cdb8cc7.0f2ac3",
         "order": 2,
         "disp": true,
@@ -1146,7 +1142,7 @@
     {
         "id": "4c82d8af.0c5498",
         "type": "ui_group",
-        "name": "Interruptores",
+        "name": "INTERRUPTORES",
         "tab": "cdb8cc7.0f2ac3",
         "order": 3,
         "disp": true,
@@ -1344,114 +1340,144 @@
         "tab": "dfe3c396.db089",
         "order": 1,
         "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "f7c7b392.40ecb",
+        "type": "ui_group",
+        "name": "TENDENCIA",
+        "tab": "6a3fd4b.86cdb2c",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "ad633f3f.37b43",
+        "type": "ui_group",
+        "name": "DATOS DE PRODUCCIÓN DE CLÚSTER",
+        "tab": "6a3fd4b.86cdb2c",
+        "order": 2,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "8a018e42.06fde",
+        "type": "ui_group",
+        "name": "Slot1",
+        "tab": "f1b2af10.0bee2",
+        "order": 1,
+        "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "b0c59598.f92b58",
+        "id": "f1a1813a.84784",
         "type": "ui_group",
         "name": "Slot2",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 2,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "f172ba9e.451f28",
+        "id": "854d4faa.123a8",
         "type": "ui_group",
         "name": "Slot3",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 3,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "ffbe49e2.3cefd8",
+        "id": "786b9ce6.f34b34",
         "type": "ui_group",
         "name": "Slot4",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 4,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "e8a7075.ef598f8",
+        "id": "553d0874.395628",
         "type": "ui_group",
         "name": "Slot5",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 5,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "b89e6a72.dfa318",
+        "id": "3f18a2c3.e8fb3e",
         "type": "ui_group",
         "name": "Slot6",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 6,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "8db4949a.9150d8",
+        "id": "c61170a6.5aa2f",
         "type": "ui_group",
         "name": "Slot7",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 7,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "77b67a0.941c588",
+        "id": "df3d01e9.46719",
         "type": "ui_group",
         "name": "Slot8",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 8,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "fa0c87e9.94e498",
+        "id": "4656f808.efa458",
         "type": "ui_group",
         "name": "Slot9",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 9,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "2d76b856.2326e8",
+        "id": "1a45cea8.ec8a51",
         "type": "ui_group",
         "name": "Slot10",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 10,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "ea64048.caccdf8",
+        "id": "6c2d0a9a.6e6dc4",
         "type": "ui_group",
         "name": "Slot11",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 11,
         "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "70036925.9b4ac8",
+        "id": "8133277b.cad988",
         "type": "ui_group",
         "name": "Slot12",
-        "tab": "dfe3c396.db089",
+        "tab": "f1b2af10.0bee2",
         "order": 12,
         "disp": false,
         "width": "6",
@@ -1569,7 +1595,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 540,
         "y": 30,
@@ -3303,7 +3329,7 @@
         "g": "eb91dac5.690838",
         "name": "",
         "group": "a706ea3d.b7fbc8",
-        "order": 5,
+        "order": 6,
         "width": "4",
         "height": "1",
         "passthru": true,
@@ -3356,7 +3382,7 @@
         "g": "eb91dac5.690838",
         "name": "",
         "group": "a706ea3d.b7fbc8",
-        "order": 6,
+        "order": 5,
         "width": "4",
         "height": "1",
         "passthru": false,
@@ -5424,7 +5450,7 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "true",
@@ -5543,22 +5569,22 @@
         "height": "4",
         "label": "",
         "chartType": "line",
-        "legend": "false",
+        "legend": "true",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
-        "nodata": "",
+        "nodata": "No Data",
         "dot": false,
         "ymin": "",
         "ymax": "",
         "removeOlder": 1,
-        "removeOlderPoints": "",
+        "removeOlderPoints": "100",
         "removeOlderUnit": "3600",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
         "colors": [
             "#1f77b4",
-            "#aec7e8",
+            "#f51919",
             "#ff7f0e",
             "#2ca02c",
             "#98df8a",
@@ -5568,7 +5594,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 340,
+        "x": 520,
         "y": 340,
         "wires": [
             []
@@ -5586,7 +5612,7 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 340,
+        "x": 520,
         "y": 380,
         "wires": []
     },
@@ -6797,7 +6823,9 @@
         "g": "cf7122b5.0b85",
         "name": "Slot1",
         "links": [
-            "d2d62409.49e708"
+            "d2d62409.49e708",
+            "4647ac55.a51c34",
+            "da9db920.f37dc8"
         ],
         "x": 745,
         "y": 100,
@@ -6810,7 +6838,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot2",
         "links": [
-            "4075463c.5f9318"
+            "4075463c.5f9318",
+            "cf720636.85a2d8"
         ],
         "x": 745,
         "y": 230,
@@ -6823,7 +6852,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot3",
         "links": [
-            "31f4417e.e5dbce"
+            "31f4417e.e5dbce",
+            "4f6d5eab.8e4c6"
         ],
         "x": 745,
         "y": 360,
@@ -6836,7 +6866,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot4",
         "links": [
-            "29f636aa.aca62a"
+            "29f636aa.aca62a",
+            "b2c449db.0d7b18"
         ],
         "x": 745,
         "y": 490,
@@ -6849,7 +6880,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot5",
         "links": [
-            "ab1baf8f.ec288"
+            "ab1baf8f.ec288",
+            "1b06ffc4.7bc67"
         ],
         "x": 745,
         "y": 620,
@@ -6862,7 +6894,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot6",
         "links": [
-            "c31beae2.7f8088"
+            "c31beae2.7f8088",
+            "8aaec4dc.5b4cd8"
         ],
         "x": 745,
         "y": 750,
@@ -6875,7 +6908,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot7",
         "links": [
-            "2bcc22e5.f6d62e"
+            "2bcc22e5.f6d62e",
+            "fd12e42b.9b7268"
         ],
         "x": 745,
         "y": 880,
@@ -6888,7 +6922,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot8",
         "links": [
-            "e47696d4.4ad568"
+            "e47696d4.4ad568",
+            "e016b5.3aa75948"
         ],
         "x": 745,
         "y": 1010,
@@ -6901,7 +6936,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot9",
         "links": [
-            "18d69e0b.05d942"
+            "18d69e0b.05d942",
+            "75b4c2da.2eae7c"
         ],
         "x": 745,
         "y": 1140,
@@ -6914,7 +6950,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot10",
         "links": [
-            "6d2a52d9.598f2c"
+            "6d2a52d9.598f2c",
+            "66e73298.23c43c"
         ],
         "x": 745,
         "y": 1270,
@@ -6927,7 +6964,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot11",
         "links": [
-            "b9c1f438.e74928"
+            "b9c1f438.e74928",
+            "da9db920.f37dc8"
         ],
         "x": 745,
         "y": 1400,
@@ -6940,7 +6978,8 @@
         "g": "cf7122b5.0b85",
         "name": "Slot12",
         "links": [
-            "c48fce04.4a833"
+            "c48fce04.4a833",
+            "5225e4b7.89e0ac"
         ],
         "x": 745,
         "y": 1530,
@@ -7781,10 +7820,10 @@
         "type": "ui_switch",
         "z": "a70735f4.fb54d8",
         "name": "",
-        "label": "Desactivar/Activar",
+        "label": "Disponible",
         "tooltip": "",
         "group": "c5f05af1.a4c158",
-        "order": 4,
+        "order": 6,
         "width": "6",
         "height": "1",
         "passthru": true,
@@ -7799,10 +7838,12 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 120,
-        "y": 40,
+        "x": 490,
+        "y": 380,
         "wires": [
-            []
+            [
+                "ca8542a4.5ca1d"
+            ]
         ]
     },
     {
@@ -7810,1266 +7851,22 @@
         "type": "ui_text_input",
         "z": "a70735f4.fb54d8",
         "name": "",
-        "label": "Nombre del pozo [Slot1]",
+        "label": "Nombre del pozo",
         "tooltip": "",
         "group": "c5f05af1.a4c158",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
-        "passthru": true,
+        "passthru": false,
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "x": 340,
-        "y": 40,
+        "x": 470,
+        "y": 180,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5c04b138.82e88",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "c5f05af1.a4c158",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b16db285.9bef2",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "c5f05af1.a4c158",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6fcd7577.31a6cc",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "b0c59598.f92b58",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 90,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "aa6b88e7.f08288",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot2]",
-        "tooltip": "",
-        "group": "b0c59598.f92b58",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 90,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "76157967.f1b698",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "b0c59598.f92b58",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 90,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5e21c905.608b78",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "b0c59598.f92b58",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 90,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b9a7668.42099a",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "f172ba9e.451f28",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b12939e9.741f68",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot3]",
-        "tooltip": "",
-        "group": "f172ba9e.451f28",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "125d3572.ca01db",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "f172ba9e.451f28",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "429639c4.823388",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "f172ba9e.451f28",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "629af9bb.7ef2d8",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "ffbe49e2.3cefd8",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "708b09df.6b4298",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot4]",
-        "tooltip": "",
-        "group": "ffbe49e2.3cefd8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "354e644f.89ec0c",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "ffbe49e2.3cefd8",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b993a7f8.f43d58",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "ffbe49e2.3cefd8",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "221391e.f75896e",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "e8a7075.ef598f8",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "15a4bf5d.175401",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot5]",
-        "tooltip": "",
-        "group": "e8a7075.ef598f8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "abd9fb79.0d13f8",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "e8a7075.ef598f8",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c356a2fa.941cf",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "e8a7075.ef598f8",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9648cbfd.f90348",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "b89e6a72.dfa318",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 290,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7055ae4b.27861",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot6]",
-        "tooltip": "",
-        "group": "b89e6a72.dfa318",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 290,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "175d01e3.68d17e",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "b89e6a72.dfa318",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 290,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c4e8cd7.7fd363",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "b89e6a72.dfa318",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 290,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8ee8f92c.680a28",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "8db4949a.9150d8",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "58b4a1b4.cc75d",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot7]",
-        "tooltip": "",
-        "group": "8db4949a.9150d8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b462e2c4.c93fe",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "8db4949a.9150d8",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bddb60a2.5ccfc",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "8db4949a.9150d8",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "88cf4b03.64cbd8",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "77b67a0.941c588",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 390,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b67825d.cbff1e",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot8]",
-        "tooltip": "",
-        "group": "77b67a0.941c588",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 390,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3c62d21.d99522e",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "77b67a0.941c588",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 390,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a3dff377.58c0c",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "77b67a0.941c588",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 390,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "170d516f.12b0df",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "fa0c87e9.94e498",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b6244006.374ca",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot9]",
-        "tooltip": "",
-        "group": "fa0c87e9.94e498",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a3781a04.ff3f88",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "fa0c87e9.94e498",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d21e918e.b3638",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "fa0c87e9.94e498",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2eebc387.09ccfc",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "2d76b856.2326e8",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 490,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "21b93862.555ea8",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot10]",
-        "tooltip": "",
-        "group": "2d76b856.2326e8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 490,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a9001d4c.fcc1f",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "2d76b856.2326e8",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 490,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e8895ec0.77f5d",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "2d76b856.2326e8",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 490,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "16b20aaf.6021a5",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "ea64048.caccdf8",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "98861f0.5d0cce",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot11]",
-        "tooltip": "",
-        "group": "ea64048.caccdf8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "45efc37.c4d2d3c",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "ea64048.caccdf8",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3b6cd4b4.7e147c",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "ea64048.caccdf8",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4d861632.745178",
-        "type": "ui_switch",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Desactivar/Activar",
-        "tooltip": "",
-        "group": "70036925.9b4ac8",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 120,
-        "y": 590,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d9182960.0c8948",
-        "type": "ui_text_input",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "Nombre del pozo [Slot12]",
-        "tooltip": "",
-        "group": "70036925.9b4ac8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "x": 340,
-        "y": 590,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d921ce9b.a6554",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "PZIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "70036925.9b4ac8",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 520,
-        "y": 590,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "41674e83.7beb8",
-        "type": "ui_dropdown",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "label": "TIT",
-        "tooltip": "",
-        "place": "Seleccione",
-        "group": "70036925.9b4ac8",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "x": 640,
-        "y": 590,
-        "wires": [
-            []
+            [
+                "f4be3cec.c935f"
+            ]
         ]
     },
     {
@@ -9294,12 +8091,405 @@
         "y": 340,
         "wires": [
             [
-                "24e0f6e3.56cf0a"
+                "cce135f5.fcfef8"
             ]
         ]
     },
     {
         "id": "325d343f.cbe57c",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 80,
+        "y": 340,
+        "wires": [
+            [
+                "8409e010.37ba6",
+                "4a5b3820.530d58"
+            ]
+        ]
+    },
+    {
+        "id": "120f2cfa.456e63",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "Posición cluster",
+        "label": "Posición:",
+        "tooltip": "",
+        "place": "Seleccione una posición",
+        "group": "c5f05af1.a4c158",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Slot 1",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "Slot 2",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Slot 3",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "Slot 4",
+                "value": 3,
+                "type": "num"
+            },
+            {
+                "label": "Slot 5",
+                "value": 4,
+                "type": "num"
+            },
+            {
+                "label": "Slot 6",
+                "value": 5,
+                "type": "num"
+            },
+            {
+                "label": "Slot 7",
+                "value": 6,
+                "type": "num"
+            },
+            {
+                "label": "Slot 8",
+                "value": 7,
+                "type": "num"
+            },
+            {
+                "label": "Slot 9",
+                "value": 8,
+                "type": "num"
+            },
+            {
+                "label": "Slot 10",
+                "value": 9,
+                "type": "num"
+            },
+            {
+                "label": "Slot 11",
+                "value": 10,
+                "type": "num"
+            },
+            {
+                "label": "Slot 12",
+                "value": 11,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 480,
+        "y": 130,
+        "wires": [
+            [
+                "c842b748.2bafd8"
+            ]
+        ]
+    },
+    {
+        "id": "7522f5b8.a4638c",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "Levantamiento",
+        "label": "Tipo de levantamiento:",
+        "tooltip": "",
+        "place": "Tipo ALS",
+        "group": "c5f05af1.a4c158",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "ESP",
+                "value": "ESP",
+                "type": "str"
+            },
+            {
+                "label": "PCP",
+                "value": "PCP",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 480,
+        "y": 230,
+        "wires": [
+            [
+                "43505e5f.1b221"
+            ]
+        ]
+    },
+    {
+        "id": "dd9f6ceb.ddbe7",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "Marca Variador",
+        "label": "Variador:",
+        "tooltip": "",
+        "place": "Marca de variador",
+        "group": "c5f05af1.a4c158",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "ABB",
+                "value": "ABB",
+                "type": "str"
+            },
+            {
+                "label": "SLB Uniconn",
+                "value": "SLB_Uniconn",
+                "type": "str"
+            },
+            {
+                "label": "CILA2S®",
+                "value": "CILA2S",
+                "type": "str"
+            },
+            {
+                "label": "SIEMENS",
+                "value": "SIEMENS",
+                "type": "str"
+            },
+            {
+                "label": "Centerlift",
+                "value": "Centerlift",
+                "type": "str"
+            },
+            {
+                "label": "SMCFlex",
+                "value": "SMCFlex",
+                "type": "str"
+            },
+            {
+                "label": "Variadores S.A",
+                "value": "VariadoresSA",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 480,
+        "y": 280,
+        "wires": [
+            [
+                "cfa9bf86.2a8a3"
+            ]
+        ]
+    },
+    {
+        "id": "f8ac9870.c119d8",
+        "type": "ui_dropdown",
+        "z": "a70735f4.fb54d8",
+        "name": "Marca Sensor de fondo",
+        "label": "Sensor de Fondo:",
+        "tooltip": "",
+        "place": "Marca Sensor de fondo",
+        "group": "c5f05af1.a4c158",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Ninguno",
+                "value": "Ninguno",
+                "type": "str"
+            },
+            {
+                "label": "SSU",
+                "value": "SSU",
+                "type": "str"
+            },
+            {
+                "label": "Zenith",
+                "value": "Zenith",
+                "type": "str"
+            },
+            {
+                "label": "Centinel",
+                "value": "Centinel",
+                "type": "str"
+            },
+            {
+                "label": "Phoenix",
+                "value": "Phoenix",
+                "type": "str"
+            },
+            {
+                "label": "Scout",
+                "value": "Scout",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 450,
+        "y": 330,
+        "wires": [
+            [
+                "3a0224.13cb4ddc"
+            ]
+        ]
+    },
+    {
+        "id": "22860dee.e67e42",
+        "type": "ui_button",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "group": "c5f05af1.a4c158",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Configurar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 490,
+        "y": 430,
+        "wires": [
+            [
+                "bbcf7cf4.41f79"
+            ]
+        ]
+    },
+    {
+        "id": "5517b73.bd02348",
+        "type": "ui_button",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "group": "c5f05af1.a4c158",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Borrar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 510,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a5b3820.530d58",
+        "type": "random",
+        "z": "e997ba3b.48cc18",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 210,
+        "y": 380,
+        "wires": [
+            [
+                "ad7c56ce.ca1d48"
+            ]
+        ]
+    },
+    {
+        "id": "cce135f5.fcfef8",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "name": "A",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Variable 1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "24e0f6e3.56cf0a"
+            ]
+        ]
+    },
+    {
+        "id": "ad7c56ce.ca1d48",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "name": "B",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Variable 2",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "label",
+                "pt": "msg",
+                "to": "Tensión",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 380,
+        "wires": [
+            [
+                "24e0f6e3.56cf0a"
+            ]
+        ]
+    },
+    {
+        "id": "950d5f47.f3248",
         "type": "inject",
         "z": "e997ba3b.48cc18",
         "name": "",
@@ -9315,11 +8505,1598 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 80,
-        "y": 340,
+        "x": 200,
+        "y": 420,
         "wires": [
             [
-                "8409e010.37ba6"
+                "3d0c56be.4680ca"
+            ]
+        ]
+    },
+    {
+        "id": "3d0c56be.4680ca",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "name": "clear",
+        "func": "msg.payload = [];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 420,
+        "wires": [
+            [
+                "24e0f6e3.56cf0a"
+            ]
+        ]
+    },
+    {
+        "id": "f4be3cec.c935f",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Pozo.Nombre",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43505e5f.1b221",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Pozo.ALS",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 230,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cfa9bf86.2a8a3",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Pozo.Variador",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a0224.13cb4ddc",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Pozo.Sensor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 330,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c842b748.2bafd8",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Pozo.Posicion",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca8542a4.5ca1d",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Pozo.Disponible",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9805c57.f5aa2",
+        "type": "template",
+        "z": "18e29a89.99dbb5",
+        "name": "Alert",
+        "field": "Alert",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"table-responsive table-sm\">\n    <table class=\"table table-bordered table-striped\">\n        <tbody>\n            <tr class=\"alert alert-danger\">\n                <td id=\"Alert\"><strong>{{alertMsg}}</strong></td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n",
+        "output": "str",
+        "x": 260,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bbcf7cf4.41f79",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "d": true,
+        "name": "",
+        "func": "var Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = flow.get(\"Cluster\")||[null,null,null,null,null,null,null,null,null,null,null,null];\n\nvar Pos         = Pozo.Posicion;\nCluster[Pos]    = Pozo; \nflow.set(\"Cluster\",Cluster);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 430,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b8e568d1.c2ac08",
+        "type": "ui_chart",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "group": "f7c7b392.40ecb",
+        "order": 1,
+        "width": "24",
+        "height": "5",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#e16e3d",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3375a60.26fe18",
+        "type": "inject",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 30,
+        "wires": [
+            [
+                "d7282fd.8390ed",
+                "3da80ba8.9da024",
+                "dd86815e.54646"
+            ]
+        ]
+    },
+    {
+        "id": "d7282fd.8390ed",
+        "type": "random",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "low": "70",
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 270,
+        "y": 30,
+        "wires": [
+            [
+                "4caf387a.1620e8"
+            ]
+        ]
+    },
+    {
+        "id": "3da80ba8.9da024",
+        "type": "random",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "low": "30",
+        "high": "60",
+        "inte": "true",
+        "property": "payload",
+        "x": 270,
+        "y": 70,
+        "wires": [
+            [
+                "37c28f5e.42255"
+            ]
+        ]
+    },
+    {
+        "id": "4caf387a.1620e8",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Variable 1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 30,
+        "wires": [
+            [
+                "b8e568d1.c2ac08"
+            ]
+        ]
+    },
+    {
+        "id": "37c28f5e.42255",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Variable 2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 70,
+        "wires": [
+            [
+                "b8e568d1.c2ac08"
+            ]
+        ]
+    },
+    {
+        "id": "dc88627d.32479",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Variable 3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 110,
+        "wires": [
+            [
+                "b8e568d1.c2ac08"
+            ]
+        ]
+    },
+    {
+        "id": "dd86815e.54646",
+        "type": "random",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 270,
+        "y": 110,
+        "wires": [
+            [
+                "dc88627d.32479"
+            ]
+        ]
+    },
+    {
+        "id": "72d828d9.a75c08",
+        "type": "template",
+        "z": "f10e7ce.d57828",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    <li class=\"list-group-item\">PIT: 123.00 <strong>psi</strong></li>\n                                    <li class=\"list-group-item\">TIT: 123.00 <strong>ºF</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col\">\n                    <img src=\"http://localhost:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 250,
+        "y": 170,
+        "wires": [
+            [
+                "bde7292f.835a18"
+            ]
+        ]
+    },
+    {
+        "id": "bde7292f.835a18",
+        "type": "ui_template",
+        "z": "f10e7ce.d57828",
+        "group": "ad633f3f.37b43",
+        "name": "",
+        "order": 1,
+        "width": "24",
+        "height": "5",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 420,
+        "y": 170,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "40e45836.fb6ac8",
+        "type": "inject",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 170,
+        "wires": [
+            [
+                "72d828d9.a75c08"
+            ]
+        ]
+    },
+    {
+        "id": "f7e15924.18f5a8",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 40,
+        "wires": [
+            [
+                "4fe5a1bf.49bbd"
+            ]
+        ]
+    },
+    {
+        "id": "e3f4b4b2.dac138",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 40,
+        "wires": [
+            [
+                "26433f36.0b2a"
+            ]
+        ]
+    },
+    {
+        "id": "26433f36.0b2a",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "8a018e42.06fde",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fe5a1bf.49bbd",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 40,
+        "wires": [
+            [
+                "e3f4b4b2.dac138"
+            ]
+        ]
+    },
+    {
+        "id": "cf77789d.c67018",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 80,
+        "wires": [
+            [
+                "43a1fb94.691d14"
+            ]
+        ]
+    },
+    {
+        "id": "c90feea0.43903",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 80,
+        "wires": [
+            [
+                "eb6487da.4cc148"
+            ]
+        ]
+    },
+    {
+        "id": "eb6487da.4cc148",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "f1a1813a.84784",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43a1fb94.691d14",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 80,
+        "wires": [
+            [
+                "c90feea0.43903"
+            ]
+        ]
+    },
+    {
+        "id": "b117fac5.2ceca8",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "854d4faa.123a8",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5a8826e.9fc49",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 120,
+        "wires": [
+            [
+                "b117fac5.2ceca8"
+            ]
+        ]
+    },
+    {
+        "id": "ea2f857d.377fd8",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "e5a8826e.9fc49"
+            ]
+        ]
+    },
+    {
+        "id": "e44b2bd7.b40b48",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 120,
+        "wires": [
+            [
+                "ea2f857d.377fd8"
+            ]
+        ]
+    },
+    {
+        "id": "a8805e10.ff9ac",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "786b9ce6.f34b34",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0a3c42a.b2f118",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 160,
+        "wires": [
+            [
+                "a8805e10.ff9ac"
+            ]
+        ]
+    },
+    {
+        "id": "885bc581.689b58",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "e0a3c42a.b2f118"
+            ]
+        ]
+    },
+    {
+        "id": "b4ad81b8.f6bb1",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "885bc581.689b58"
+            ]
+        ]
+    },
+    {
+        "id": "16fcfb0f.84a625",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "553d0874.395628",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e18882e1.f0d2c",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "16fcfb0f.84a625"
+            ]
+        ]
+    },
+    {
+        "id": "53277549.53c6cc",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "e18882e1.f0d2c"
+            ]
+        ]
+    },
+    {
+        "id": "9ce9205c.f0344",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "53277549.53c6cc"
+            ]
+        ]
+    },
+    {
+        "id": "5315807d.21e8b",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "3f18a2c3.e8fb3e",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dde647ea.ae39a8",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "5315807d.21e8b"
+            ]
+        ]
+    },
+    {
+        "id": "e66eced1.542d4",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "dde647ea.ae39a8"
+            ]
+        ]
+    },
+    {
+        "id": "835fbd72.2af3a",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "e66eced1.542d4"
+            ]
+        ]
+    },
+    {
+        "id": "921cfaa1.d93a18",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "c61170a6.5aa2f",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad599504.474d48",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "921cfaa1.d93a18"
+            ]
+        ]
+    },
+    {
+        "id": "6b68b0a8.f0185",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            [
+                "ad599504.474d48"
+            ]
+        ]
+    },
+    {
+        "id": "581ce93d.034238",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "6b68b0a8.f0185"
+            ]
+        ]
+    },
+    {
+        "id": "bdea598e.e672c8",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "df3d01e9.46719",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36dd93da.b8bebc",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 320,
+        "wires": [
+            [
+                "bdea598e.e672c8"
+            ]
+        ]
+    },
+    {
+        "id": "2c5c2d4f.aae8e2",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 320,
+        "wires": [
+            [
+                "36dd93da.b8bebc"
+            ]
+        ]
+    },
+    {
+        "id": "eee06de8.d4dbf",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 320,
+        "wires": [
+            [
+                "2c5c2d4f.aae8e2"
+            ]
+        ]
+    },
+    {
+        "id": "60782f0e.b5513",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "4656f808.efa458",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a82b12c8.17c24",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 360,
+        "wires": [
+            [
+                "60782f0e.b5513"
+            ]
+        ]
+    },
+    {
+        "id": "4ca3db0a.9461a4",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 360,
+        "wires": [
+            [
+                "a82b12c8.17c24"
+            ]
+        ]
+    },
+    {
+        "id": "882fd2d9.c6a2b",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "4ca3db0a.9461a4"
+            ]
+        ]
+    },
+    {
+        "id": "af270fa4.d0829",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "1a45cea8.ec8a51",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1f9efb0.5127b",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "af270fa4.d0829"
+            ]
+        ]
+    },
+    {
+        "id": "c2ab0d99.292a9",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 400,
+        "wires": [
+            [
+                "a1f9efb0.5127b"
+            ]
+        ]
+    },
+    {
+        "id": "b791e3a9.cece2",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 400,
+        "wires": [
+            [
+                "c2ab0d99.292a9"
+            ]
+        ]
+    },
+    {
+        "id": "bc130981.5aa8f8",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "6c2d0a9a.6e6dc4",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ed17999.e0f7d6",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [
+                "bc130981.5aa8f8"
+            ]
+        ]
+    },
+    {
+        "id": "20777946.4a18e6",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 440,
+        "wires": [
+            [
+                "3ed17999.e0f7d6"
+            ]
+        ]
+    },
+    {
+        "id": "e8752ded.bdcfa",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 440,
+        "wires": [
+            [
+                "20777946.4a18e6"
+            ]
+        ]
+    },
+    {
+        "id": "858cd4ed.092328",
+        "type": "ui_template",
+        "z": "75f74480.41235c",
+        "group": "8133277b.cad988",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 790,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ddef7483.53b5a8",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "858cd4ed.092328"
+            ]
+        ]
+    },
+    {
+        "id": "4f55322f.1e274c",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 460,
+        "y": 480,
+        "wires": [
+            [
+                "ddef7483.53b5a8"
+            ]
+        ]
+    },
+    {
+        "id": "5b8f7d93.0f5564",
+        "type": "template",
+        "z": "75f74480.41235c",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 340,
+        "y": 480,
+        "wires": [
+            [
+                "4f55322f.1e274c"
+            ]
+        ]
+    },
+    {
+        "id": "4647ac55.a51c34",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "44ab73f9.6a72cc"
+        ],
+        "x": 255,
+        "y": 40,
+        "wires": [
+            [
+                "f7e15924.18f5a8"
+            ]
+        ]
+    },
+    {
+        "id": "cf720636.85a2d8",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "f7b106.0da29ef8"
+        ],
+        "x": 255,
+        "y": 80,
+        "wires": [
+            [
+                "cf77789d.c67018"
+            ]
+        ]
+    },
+    {
+        "id": "4f6d5eab.8e4c6",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "7cc5cf5a.1a576"
+        ],
+        "x": 255,
+        "y": 120,
+        "wires": [
+            [
+                "e44b2bd7.b40b48"
+            ]
+        ]
+    },
+    {
+        "id": "b2c449db.0d7b18",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "97bae11c.61449"
+        ],
+        "x": 255,
+        "y": 160,
+        "wires": [
+            [
+                "b4ad81b8.f6bb1"
+            ]
+        ]
+    },
+    {
+        "id": "1b06ffc4.7bc67",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "d4a566c6.c4e018"
+        ],
+        "x": 255,
+        "y": 200,
+        "wires": [
+            [
+                "9ce9205c.f0344"
+            ]
+        ]
+    },
+    {
+        "id": "8aaec4dc.5b4cd8",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "8b96bde.d92114"
+        ],
+        "x": 255,
+        "y": 240,
+        "wires": [
+            [
+                "835fbd72.2af3a"
+            ]
+        ]
+    },
+    {
+        "id": "fd12e42b.9b7268",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "21c4c3.0b609b3e"
+        ],
+        "x": 255,
+        "y": 280,
+        "wires": [
+            [
+                "581ce93d.034238"
+            ]
+        ]
+    },
+    {
+        "id": "e016b5.3aa75948",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "9d882c1.be806d"
+        ],
+        "x": 255,
+        "y": 320,
+        "wires": [
+            [
+                "eee06de8.d4dbf"
+            ]
+        ]
+    },
+    {
+        "id": "75b4c2da.2eae7c",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "4222ac6e.f706d4"
+        ],
+        "x": 255,
+        "y": 360,
+        "wires": [
+            [
+                "882fd2d9.c6a2b"
+            ]
+        ]
+    },
+    {
+        "id": "66e73298.23c43c",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "b8f3cd0c.b70a2"
+        ],
+        "x": 255,
+        "y": 400,
+        "wires": [
+            [
+                "b791e3a9.cece2"
+            ]
+        ]
+    },
+    {
+        "id": "da9db920.f37dc8",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "44ab73f9.6a72cc",
+            "dfc5bdb9.d9a96"
+        ],
+        "x": 255,
+        "y": 440,
+        "wires": [
+            [
+                "e8752ded.bdcfa"
+            ]
+        ]
+    },
+    {
+        "id": "5225e4b7.89e0ac",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "ee4c814.2461e8"
+        ],
+        "x": 255,
+        "y": 480,
+        "wires": [
+            [
+                "5b8f7d93.0f5564"
             ]
         ]
     }
