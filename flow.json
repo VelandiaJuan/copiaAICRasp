@@ -63,6 +63,27 @@
         "info": ""
     },
     {
+        "id": "242bc9a6.f9b016",
+        "type": "tab",
+        "label": "Alarmas/Eventos",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "612ddf44.816d7",
+        "type": "tab",
+        "label": "Humedad Temperatura",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8d6d8b52.723518",
+        "type": "tab",
+        "label": "Históricos",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "18e29a89.99dbb5",
         "type": "subflow",
         "name": "VSD Card",
@@ -176,6 +197,59 @@
         "color": "#DDAA99"
     },
     {
+        "id": "11d568a7.09a5c7",
+        "type": "subflow",
+        "name": "SWC_OS",
+        "info": "",
+        "category": "SWC OS",
+        "in": [
+            {
+                "x": 140,
+                "y": 110,
+                "wires": [
+                    {
+                        "id": "1083899a.1b4716"
+                    },
+                    {
+                        "id": "9cc3f117.42857"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 620,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "1083899a.1b4716",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 840,
+                "y": 130,
+                "wires": [
+                    {
+                        "id": "3228637d.9e937c",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "color": "#3FADB5",
+        "inputLabels": [
+            "Request"
+        ],
+        "outputLabels": [
+            "CPU Temperature",
+            "CPU Freq"
+        ],
+        "icon": "font-awesome/fa-desktop"
+    },
+    {
         "id": "f7ed166d.1aa528",
         "type": "group",
         "z": "827787d0.ede678",
@@ -191,7 +265,9 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13
+        "y": 13,
+        "w": 1324,
+        "h": 810
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -208,19 +284,16 @@
             "6c9ed5d3.e7799c",
             "76a74813.5dd3f8",
             "23815ef1.931a32",
-            "2b47642.2404d9c",
-            "eddefb96.175bf8",
-            "a5c181ee.2efe1",
-            "b54a4559.022378",
             "3ea5879e.bf0588",
             "c8aa3a95.12b518",
             "20b8681c.81fd48",
-            "ec03441d.979088",
             "8c73338.8deb8d",
             "3ccbaa0b.2db096"
         ],
         "x": 4,
-        "y": 19
+        "y": 19,
+        "w": 1092,
+        "h": 132
     },
     {
         "id": "ced3da32.aec848",
@@ -242,7 +315,9 @@
             "be5b89ed.6c6bf8"
         ],
         "x": 4,
-        "y": 259
+        "y": 159,
+        "w": 632,
+        "h": 82
     },
     {
         "id": "35aaa239.8bb89e",
@@ -265,7 +340,9 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 349
+        "y": 249,
+        "w": 712,
+        "h": 82
     },
     {
         "id": "73a228cd.9d45d8",
@@ -306,8 +383,6 @@
         "nodes": [
             "c8f67d0b.44558",
             "ae5bec70.81fd1",
-            "20aa3712.775b38",
-            "c1dac5db.35c048",
             "c0ad00ca.fe8c4",
             "99fb6c63.e47a9",
             "f4766d6e.075c3",
@@ -320,75 +395,17 @@
             "831dcb7f.c49dc8",
             "699973a3.1aed4c",
             "f4ce9cc5.fc85f",
-            "a9ff1f59.a91a6",
-            "e82974e5.f23d88",
-            "b7cf71e7.fdfe8",
             "c9560b43.55c0d8",
-            "ef8869ff.0d4e68",
-            "465c82e1.a386cc",
-            "890046c3.647828",
             "e546de7d.1524d",
-            "5ab3b609.e24d68",
-            "34806dd8.c73592",
-            "4e79a04c.c2ea",
             "29b5a57e.566caa",
-            "86a19867.5f8078",
-            "66accaf9.6da534",
-            "236abadf.310076",
             "ec1787d3.deabb8",
-            "e688b3bd.23ec1",
-            "3cd5461d.53288a",
-            "576e17b4.279658",
             "d74e5f4f.f62be",
-            "2b2faab1.3735b6",
-            "92b15688.e2bf18",
-            "7007c8c6.07beb8",
             "d1a3b138.fc596",
-            "a50abbf0.4df7e8",
-            "ac51d514.6b6c68",
-            "d276e511.c42248",
             "293ac75d.5bd738",
-            "e86412b7.2cefd",
-            "f059b558.b7bba8",
-            "532b6231.1b35dc",
             "18223763.46c159",
-            "bfef7b03.355dd8",
-            "9cebca0b.c92438",
-            "d28650a1.0608f",
             "128332bd.e6e68d",
-            "90b76efb.67458",
-            "a3d97f98.a00b3",
-            "fa375b.0f1a48a8",
             "f1b95f94.7eed7",
-            "57f98051.90e3d",
-            "c1646431.90a7c8",
-            "cf0fdbd7.253228",
             "b2bf4260.68812",
-            "f7abcaef.b9e088",
-            "1433a899.bebee7",
-            "4b7104ad.fea74c",
-            "bd35d4d0.753a48",
-            "bb97a2bb.73fad",
-            "175cb51c.b22dab",
-            "e8641c2f.f3095",
-            "fd8dc205.6c9b6",
-            "767636c7.c94e08",
-            "65f9b0ff.c80c",
-            "d0a607b2.bdcec8",
-            "64acd80d.e77058",
-            "e29cdb1.4513828",
-            "5628f67a.058408",
-            "47eaf640.8fd8c8",
-            "6bb060f1.2f76f",
-            "6c6044a8.220ddc",
-            "410ee28e.7c7b6c",
-            "f806fdaa.d8934",
-            "a14cfe4.16e52",
-            "2ae0fa47.c12336",
-            "b152b123.9bd73",
-            "a8a1a266.7ea84",
-            "299f7f58.eea3a",
-            "d10777ab.846208",
             "44ab73f9.6a72cc",
             "f7b106.0da29ef8",
             "7cc5cf5a.1a576",
@@ -400,12 +417,24 @@
             "4222ac6e.f706d4",
             "b8f3cd0c.b70a2",
             "dfc5bdb9.d9a96",
-            "ee4c814.2461e8"
+            "ee4c814.2461e8",
+            "efde2660.167898",
+            "d2f719f2.cef708",
+            "1141d6c2.062099",
+            "6a7dd310.35871c",
+            "881be3e6.c79b7",
+            "d3355a62.d301d8",
+            "18613687.86e409",
+            "9e5344aa.704878",
+            "6d6c90aa.8f88b",
+            "1716c5bc.5fed6a",
+            "25b882c0.601c9e",
+            "26c1b029.b91b3"
         ],
-        "x": 24,
+        "x": 64,
         "y": 19,
-        "w": 1082,
-        "h": 1592
+        "w": 722,
+        "h": 1552
     },
     {
         "id": "2f18e23b.de32ce",
@@ -450,7 +479,9 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243
+        "y": 243,
+        "w": 928,
+        "h": 554
     },
     {
         "id": "eb91dac5.690838",
@@ -479,7 +510,9 @@
             "3a348318.fe982c"
         ],
         "x": 154,
-        "y": 39
+        "y": 39,
+        "w": 1272,
+        "h": 192
     },
     {
         "id": "f3f54db2.c4674",
@@ -545,7 +578,9 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649
+        "y": 649,
+        "w": 242,
+        "h": 122
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -564,7 +599,9 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269
+        "y": 269,
+        "w": 173,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -584,7 +621,115 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479
+        "y": 479,
+        "w": 372,
+        "h": 162
+    },
+    {
+        "id": "7b6f4b41.106164",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "11f55817.139c18",
+            "cf57802e.7d258"
+        ],
+        "x": 8,
+        "y": 13,
+        "w": 1844,
+        "h": 214
+    },
+    {
+        "id": "11f55817.139c18",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "g": "7b6f4b41.106164",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "d382db6f.29f0a8",
+            "972e1f74.3dd4c",
+            "ec98695.bbf8698",
+            "54ec819a.c1bc9",
+            "59e817c2.295b38",
+            "d50d9b6b.bbc7f8",
+            "c02fb05c.baccf",
+            "75851744.fc50c8",
+            "ad47f0cc.93af5",
+            "7b4bd7a0.fd9398",
+            "cad3d4cb.b5bc98",
+            "ebf4df19.2cfb2",
+            "1660e38d.24cefc"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "cf57802e.7d258",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "g": "7b6f4b41.106164",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "bd165d4f.e3f48",
+            "c95dde3d.c676e",
+            "191d34db.93fe3b",
+            "35f773cc.39ea9c",
+            "ccc4d9c0.904c78",
+            "d9101c40.6e85a",
+            "dcdb5992.425238",
+            "12f5302f.69f92",
+            "33f2aa3c.6c08f6",
+            "9055a2bd.67028",
+            "938193ac.02d98",
+            "ffbe710d.b4cce",
+            "f4dc844c.b0f888"
+        ],
+        "x": 934,
+        "y": 39,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "3383e29e.9b29fe",
+        "type": "group",
+        "z": "612ddf44.816d7",
+        "name": "",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "798ac169.6edda",
+            "20490d7e.8acac2",
+            "88ac83a3.561a3",
+            "4906fc64.1e6a14",
+            "d43fb27a.273b3",
+            "be4a90f3.ab244",
+            "e1fcad8b.9672c",
+            "df5d75d6.682dc8",
+            "9ce98c30.594c6",
+            "559b8847.1b9b48",
+            "584b677d.8d2c78",
+            "576f3936.7493b8"
+        ],
+        "x": 24,
+        "y": 79,
+        "w": 582,
+        "h": 302
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -634,11 +779,11 @@
                     "edited": true
                 },
                 "group-borderColor": {
-                    "value": "#e7e9e8",
+                    "value": "#8c8c8c",
                     "edited": true
                 },
                 "group-backgroundColor": {
-                    "value": "#dedede",
+                    "value": "#e7e9e8",
                     "edited": true
                 },
                 "widget-textColor": {
@@ -672,10 +817,10 @@
             "allowTempTheme": "false",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
-                "sx": 38,
+                "sx": 37,
                 "sy": 54,
                 "gx": 1,
-                "gy": 2,
+                "gy": 1,
                 "cx": 4,
                 "cy": 4,
                 "px": 1,
@@ -1336,11 +1481,11 @@
     {
         "id": "c5f05af1.a4c158",
         "type": "ui_group",
-        "name": "Slot1",
+        "name": "CONFIGURACIÓN",
         "tab": "dfe3c396.db089",
         "order": 1,
-        "disp": false,
-        "width": "12",
+        "disp": true,
+        "width": "8",
         "collapse": false
     },
     {
@@ -1484,6 +1629,86 @@
         "collapse": false
     },
     {
+        "id": "c4b29123.a4898",
+        "type": "ui_group",
+        "name": "POZOS CONFIGURADOS",
+        "tab": "dfe3c396.db089",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "3b5d050c.51e49a",
+        "type": "ui_group",
+        "name": "Alarmas",
+        "tab": "a156af3c.344ef",
+        "order": 2,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "bc3b9c5.ac3f76",
+        "type": "ui_group",
+        "name": "Eventos",
+        "tab": "a156af3c.344ef",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "8d4c7954.48a708",
+        "type": "ui_group",
+        "name": "TEMPERATURA",
+        "tab": "1b1530b8.3c3a4f",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "cd39b0a.612255",
+        "type": "ui_group",
+        "name": "HUMEDAD",
+        "tab": "1b1530b8.3c3a4f",
+        "order": 2,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "744bf601.7a0f58",
+        "type": "ui_group",
+        "d": true,
+        "name": "VELOCIDAD DE PROCESADOR",
+        "tab": "1b1530b8.3c3a4f",
+        "order": 3,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "6b1855e.396d6ac",
+        "type": "ui_tab",
+        "name": "Datos históricos",
+        "icon": "fa-book",
+        "order": 12,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bcbb6e99.54feb",
+        "type": "ui_group",
+        "name": "Rango de tiempo",
+        "tab": "6b1855e.396d6ac",
+        "order": 1,
+        "disp": false,
+        "width": "24",
+        "collapse": false
+    },
+    {
         "id": "c8f67d0b.44558",
         "type": "ui_template",
         "z": "56041636.7e55e8",
@@ -1498,7 +1723,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 60,
         "wires": [
             []
@@ -1510,56 +1735,14 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 610,
+        "x": 290,
         "y": 60,
-        "wires": [
-            [
-                "c0ad00ca.fe8c4",
-                "44ab73f9.6a72cc"
-            ]
-        ]
-    },
-    {
-        "id": "20aa3712.775b38",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 100,
-        "wires": [
-            [
-                "c0ad00ca.fe8c4",
-                "44ab73f9.6a72cc"
-            ]
-        ]
-    },
-    {
-        "id": "c1dac5db.35c048",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 140,
         "wires": [
             [
                 "c0ad00ca.fe8c4",
@@ -1582,7 +1765,7 @@
         "y": 30,
         "wires": [
             [
-                "b5e47c05.30261"
+                "d9805c57.f5aa2"
             ]
         ]
     },
@@ -1595,7 +1778,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div style=\"margin-top:5px;\" ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <!--<div ng-bind-html=\"msg.Alert\"></div>-->\n            {{{Alert}}}\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{/*background-color: coral;*/}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 540,
         "y": 30,
@@ -1617,9 +1800,7 @@
         "x": 260,
         "y": 30,
         "wires": [
-            [
-                "29e95d0.9ebdda4"
-            ]
+            []
         ]
     },
     {
@@ -1648,7 +1829,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "env": [],
-        "x": 790,
+        "x": 470,
         "y": 60,
         "wires": [
             [
@@ -1671,7 +1852,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 100,
         "wires": [
             []
@@ -1692,7 +1873,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 140,
         "wires": [
             []
@@ -1713,7 +1894,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 180,
         "wires": [
             []
@@ -1734,7 +1915,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 220,
         "wires": [
             []
@@ -1755,7 +1936,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 260,
         "wires": [
             []
@@ -1776,7 +1957,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 300,
         "wires": [
             []
@@ -1797,7 +1978,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 340,
         "wires": [
             []
@@ -1818,7 +1999,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 380,
         "wires": [
             []
@@ -1839,7 +2020,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 420,
         "wires": [
             []
@@ -1860,7 +2041,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 460,
         "wires": [
             []
@@ -1881,73 +2062,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1000,
+        "x": 680,
         "y": 500,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "a9ff1f59.a91a6",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 190,
-        "wires": [
-            [
-                "c9560b43.55c0d8",
-                "f7b106.0da29ef8"
-            ]
-        ]
-    },
-    {
-        "id": "e82974e5.f23d88",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 230,
-        "wires": [
-            [
-                "c9560b43.55c0d8",
-                "f7b106.0da29ef8"
-            ]
-        ]
-    },
-    {
-        "id": "b7cf71e7.fdfe8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 270,
-        "wires": [
-            [
-                "c9560b43.55c0d8",
-                "f7b106.0da29ef8"
-            ]
         ]
     },
     {
@@ -1956,74 +2074,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 190,
         "wires": [
             [
                 "99fb6c63.e47a9"
-            ]
-        ]
-    },
-    {
-        "id": "ef8869ff.0d4e68",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 320,
-        "wires": [
-            [
-                "e546de7d.1524d",
-                "7cc5cf5a.1a576"
-            ]
-        ]
-    },
-    {
-        "id": "465c82e1.a386cc",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 360,
-        "wires": [
-            [
-                "e546de7d.1524d",
-                "7cc5cf5a.1a576"
-            ]
-        ]
-    },
-    {
-        "id": "890046c3.647828",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 400,
-        "wires": [
-            [
-                "e546de7d.1524d",
-                "7cc5cf5a.1a576"
             ]
         ]
     },
@@ -2034,74 +2089,11 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "env": [],
-        "x": 790,
+        "x": 470,
         "y": 320,
         "wires": [
             [
                 "f4766d6e.075c3"
-            ]
-        ]
-    },
-    {
-        "id": "5ab3b609.e24d68",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 450,
-        "wires": [
-            [
-                "29b5a57e.566caa",
-                "97bae11c.61449"
-            ]
-        ]
-    },
-    {
-        "id": "34806dd8.c73592",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 490,
-        "wires": [
-            [
-                "29b5a57e.566caa",
-                "97bae11c.61449"
-            ]
-        ]
-    },
-    {
-        "id": "4e79a04c.c2ea",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 530,
-        "wires": [
-            [
-                "29b5a57e.566caa",
-                "97bae11c.61449"
             ]
         ]
     },
@@ -2111,74 +2103,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 450,
         "wires": [
             [
                 "b475e37b.ecb29"
-            ]
-        ]
-    },
-    {
-        "id": "86a19867.5f8078",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 580,
-        "wires": [
-            [
-                "ec1787d3.deabb8",
-                "d4a566c6.c4e018"
-            ]
-        ]
-    },
-    {
-        "id": "66accaf9.6da534",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 620,
-        "wires": [
-            [
-                "ec1787d3.deabb8",
-                "d4a566c6.c4e018"
-            ]
-        ]
-    },
-    {
-        "id": "236abadf.310076",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 660,
-        "wires": [
-            [
-                "ec1787d3.deabb8",
-                "d4a566c6.c4e018"
             ]
         ]
     },
@@ -2189,74 +2118,11 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "env": [],
-        "x": 790,
+        "x": 470,
         "y": 580,
         "wires": [
             [
                 "33e400e4.4f142"
-            ]
-        ]
-    },
-    {
-        "id": "e688b3bd.23ec1",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 710,
-        "wires": [
-            [
-                "d74e5f4f.f62be",
-                "8b96bde.d92114"
-            ]
-        ]
-    },
-    {
-        "id": "3cd5461d.53288a",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 750,
-        "wires": [
-            [
-                "d74e5f4f.f62be",
-                "8b96bde.d92114"
-            ]
-        ]
-    },
-    {
-        "id": "576e17b4.279658",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 790,
-        "wires": [
-            [
-                "d74e5f4f.f62be",
-                "8b96bde.d92114"
             ]
         ]
     },
@@ -2266,74 +2132,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 710,
         "wires": [
             [
                 "adb6e929.4a43a8"
-            ]
-        ]
-    },
-    {
-        "id": "2b2faab1.3735b6",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 840,
-        "wires": [
-            [
-                "d1a3b138.fc596",
-                "21c4c3.0b609b3e"
-            ]
-        ]
-    },
-    {
-        "id": "92b15688.e2bf18",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 880,
-        "wires": [
-            [
-                "d1a3b138.fc596",
-                "21c4c3.0b609b3e"
-            ]
-        ]
-    },
-    {
-        "id": "7007c8c6.07beb8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 920,
-        "wires": [
-            [
-                "d1a3b138.fc596",
-                "21c4c3.0b609b3e"
             ]
         ]
     },
@@ -2343,74 +2146,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 840,
         "wires": [
             [
                 "812eac9a.52c8f"
-            ]
-        ]
-    },
-    {
-        "id": "a50abbf0.4df7e8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 970,
-        "wires": [
-            [
-                "293ac75d.5bd738",
-                "9d882c1.be806d"
-            ]
-        ]
-    },
-    {
-        "id": "ac51d514.6b6c68",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1010,
-        "wires": [
-            [
-                "293ac75d.5bd738",
-                "9d882c1.be806d"
-            ]
-        ]
-    },
-    {
-        "id": "d276e511.c42248",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1050,
-        "wires": [
-            [
-                "293ac75d.5bd738",
-                "9d882c1.be806d"
             ]
         ]
     },
@@ -2420,74 +2160,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 970,
         "wires": [
             [
                 "a88a67bb.4840e8"
-            ]
-        ]
-    },
-    {
-        "id": "e86412b7.2cefd",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1100,
-        "wires": [
-            [
-                "18223763.46c159",
-                "4222ac6e.f706d4"
-            ]
-        ]
-    },
-    {
-        "id": "f059b558.b7bba8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1140,
-        "wires": [
-            [
-                "18223763.46c159",
-                "4222ac6e.f706d4"
-            ]
-        ]
-    },
-    {
-        "id": "532b6231.1b35dc",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1180,
-        "wires": [
-            [
-                "18223763.46c159",
-                "4222ac6e.f706d4"
             ]
         ]
     },
@@ -2497,74 +2174,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 1100,
         "wires": [
             [
                 "a71a1cf.79135e"
-            ]
-        ]
-    },
-    {
-        "id": "bfef7b03.355dd8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1230,
-        "wires": [
-            [
-                "128332bd.e6e68d",
-                "b8f3cd0c.b70a2"
-            ]
-        ]
-    },
-    {
-        "id": "9cebca0b.c92438",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1270,
-        "wires": [
-            [
-                "128332bd.e6e68d",
-                "b8f3cd0c.b70a2"
-            ]
-        ]
-    },
-    {
-        "id": "d28650a1.0608f",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1310,
-        "wires": [
-            [
-                "128332bd.e6e68d",
-                "b8f3cd0c.b70a2"
             ]
         ]
     },
@@ -2575,74 +2189,11 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "env": [],
-        "x": 790,
+        "x": 470,
         "y": 1230,
         "wires": [
             [
                 "831dcb7f.c49dc8"
-            ]
-        ]
-    },
-    {
-        "id": "90b76efb.67458",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1360,
-        "wires": [
-            [
-                "f1b95f94.7eed7",
-                "dfc5bdb9.d9a96"
-            ]
-        ]
-    },
-    {
-        "id": "a3d97f98.a00b3",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1400,
-        "wires": [
-            [
-                "f1b95f94.7eed7",
-                "dfc5bdb9.d9a96"
-            ]
-        ]
-    },
-    {
-        "id": "fa375b.0f1a48a8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1440,
-        "wires": [
-            [
-                "f1b95f94.7eed7",
-                "dfc5bdb9.d9a96"
             ]
         ]
     },
@@ -2652,74 +2203,11 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 1360,
         "wires": [
             [
                 "699973a3.1aed4c"
-            ]
-        ]
-    },
-    {
-        "id": "57f98051.90e3d",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-success\";\nmsg.alertMsg    = \"Equipo operativo!\";\nmsg.brand       = \"CILA2S®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1490,
-        "wires": [
-            [
-                "b2bf4260.68812",
-                "ee4c814.2461e8"
-            ]
-        ]
-    },
-    {
-        "id": "c1646431.90a7c8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-danger\";\nmsg.alertMsg    = \"Equipo detenido!\";\nmsg.brand       = \"Yaskawa®\";\nmsg.type        = \"ESP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1530,
-        "wires": [
-            [
-                "b2bf4260.68812",
-                "ee4c814.2461e8"
-            ]
-        ]
-    },
-    {
-        "id": "cf0fdbd7.253228",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\nmsg.alert       = \"alert-warning\";\nmsg.alertMsg    = \"Equipo en alarma!\";\nmsg.brand       = \"Siemens®\";\nmsg.type        = \"PCP\";\n\n// Retorna un número aleatorio entre min (incluido) y max (excluido)\n// Fuente: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseFloat(parseFloat(resp).toFixed(2));\n  return resp;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1570,
-        "wires": [
-            [
-                "b2bf4260.68812",
-                "ee4c814.2461e8"
             ]
         ]
     },
@@ -2729,7 +2217,7 @@
         "z": "56041636.7e55e8",
         "g": "cf7122b5.0b85",
         "name": "",
-        "x": 790,
+        "x": 470,
         "y": 1490,
         "wires": [
             [
@@ -3882,110 +3370,6 @@
         ]
     },
     {
-        "id": "2b47642.2404d9c",
-        "type": "link in",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "",
-        "links": [
-            "97407954.a004c8"
-        ],
-        "x": 135,
-        "y": 170,
-        "wires": [
-            [
-                "eddefb96.175bf8",
-                "ec03441d.979088"
-            ]
-        ]
-    },
-    {
-        "id": "eddefb96.175bf8",
-        "type": "switch",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "User in harmonics Screen ?",
-        "property": "name",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Monitoreo-Datos_Operativos-Superficie_y_Fondo",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "Monitoreo-Datos_Operativos-Superficie_y_Fondo",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 290,
-        "y": 170,
-        "wires": [
-            [
-                "a5c181ee.2efe1"
-            ],
-            [
-                "b54a4559.022378"
-            ]
-        ]
-    },
-    {
-        "id": "a5c181ee.2efe1",
-        "type": "change",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Harmonics_Chart.Prompt",
-                "pt": "flow",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 570,
-        "y": 150,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b54a4559.022378",
-        "type": "change",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Harmonics_Chart.Prompt",
-                "pt": "flow",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 570,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "3ea5879e.bf0588",
         "type": "function",
         "z": "aa547d69.9cb8e",
@@ -4056,24 +3440,6 @@
         ]
     },
     {
-        "id": "ec03441d.979088",
-        "type": "debug",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 220,
-        "y": 210,
-        "wires": []
-    },
-    {
         "id": "8c73338.8deb8d",
         "type": "link in",
         "z": "aa547d69.9cb8e",
@@ -4134,7 +3500,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 550,
-        "y": 300,
+        "y": 200,
         "wires": [
             []
         ]
@@ -4152,7 +3518,7 @@
         "finalize": "",
         "libs": [],
         "x": 230,
-        "y": 300,
+        "y": 200,
         "wires": [
             [
                 "be5b89ed.6c6bf8"
@@ -4178,7 +3544,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 100,
-        "y": 300,
+        "y": 200,
         "wires": [
             [
                 "cd3f340c.1706c8"
@@ -4194,7 +3560,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-12\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-9\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 260,
         "y": 30,
@@ -4229,7 +3595,7 @@
         "name": "",
         "env": [],
         "x": 390,
-        "y": 300,
+        "y": 200,
         "wires": [
             [
                 "4f4b6b53.48e6c4"
@@ -4255,7 +3621,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 100,
-        "y": 390,
+        "y": 290,
         "wires": [
             [
                 "d0e8a077.56e6f"
@@ -4278,7 +3644,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 630,
-        "y": 390,
+        "y": 290,
         "wires": [
             []
         ]
@@ -4293,10 +3659,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> V[L-L]</strong></td>\n                        <td>{{kW}}<strong> V[LN]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_VSD}}<strong> A</strong></td>\n                        <td>{{V_VSD}}<strong> W</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{A_Tx}}<strong> VA</strong></td>\n                        <td>{{V_Tx}}<strong> VAR</strong></td>\n                    </tr>\n                    <tr>\n                        <td>{{Hz}}<strong> Hz</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    \n    <!--<div class=\"row\">\n        <h5>Factor de potencia</h5>\n    </div>-->\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td><strong>FP L1: </strong>{{Hz}}</td>\n                        <td><strong>FP L2: </strong>{{kW}}</td>\n                        <td><strong>FP L3: </strong>{{A_}}</td>\n                    </tr>\n                </tbody>\n            </table>\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{A_VSD}}<strong>FP Prom: </strong></td>\n                        <td>{{V_VSD}}<strong>Ángulo Prom: </strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>480<strong> V[L-L]</strong></td>\n                        <td>240<strong> V[LN]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>10<strong> A</strong></td>\n                        <td>120<strong> W</strong></td>\n                    </tr>\n                    <tr>\n                        <td>12<strong> VA</strong></td>\n                        <td>3<strong> VAR</strong></td>\n                    </tr>\n                    <tr>\n                        <td>60<strong> Hz</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    \n    <!--<div class=\"row\">\n        <h5>Factor de potencia</h5>\n    </div>-->\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td><strong>FP L1: </strong>0.9</td>\n                        <td><strong>FP L2: </strong>0.85</td>\n                        <td><strong>FP L3: </strong>0.95</td>\n                    </tr>\n                </tbody>\n            </table>\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td><strong>FP Prom: </strong>0.8</td>\n                        <td><strong>Ángulo Prom: </strong>45</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 360,
-        "y": 390,
+        "y": 290,
         "wires": [
             [
                 "2cb9269.d9e5fda"
@@ -4316,7 +3682,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 490,
-        "y": 390,
+        "y": 290,
         "wires": [
             [
                 "4b8dd61f.d7e538"
@@ -4336,7 +3702,7 @@
         "finalize": "",
         "libs": [],
         "x": 230,
-        "y": 390,
+        "y": 290,
         "wires": [
             [
                 "71e3e381.f6111c"
@@ -4416,763 +3782,6 @@
         "wires": [
             [
                 "4c3a9b2b.9e2814"
-            ]
-        ]
-    },
-    {
-        "id": "f7abcaef.b9e088",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 450,
-        "y": 100,
-        "wires": [
-            [
-                "ae5bec70.81fd1"
-            ],
-            [
-                "20aa3712.775b38"
-            ],
-            [
-                "c1dac5db.35c048"
-            ]
-        ]
-    },
-    {
-        "id": "1433a899.bebee7",
-        "type": "inject",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "5",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 120,
-        "y": 100,
-        "wires": [
-            [
-                "4b7104ad.fea74c",
-                "bb97a2bb.73fad",
-                "e8641c2f.f3095",
-                "767636c7.c94e08",
-                "d0a607b2.bdcec8",
-                "e29cdb1.4513828",
-                "47eaf640.8fd8c8",
-                "6c6044a8.220ddc",
-                "f806fdaa.d8934",
-                "2ae0fa47.c12336",
-                "a8a1a266.7ea84",
-                "d10777ab.846208"
-            ]
-        ]
-    },
-    {
-        "id": "4b7104ad.fea74c",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 320,
-        "y": 100,
-        "wires": [
-            [
-                "f7abcaef.b9e088"
-            ]
-        ]
-    },
-    {
-        "id": "bd35d4d0.753a48",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 230,
-        "wires": [
-            [
-                "a9ff1f59.a91a6"
-            ],
-            [
-                "e82974e5.f23d88"
-            ],
-            [
-                "b7cf71e7.fdfe8"
-            ]
-        ]
-    },
-    {
-        "id": "bb97a2bb.73fad",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 230,
-        "wires": [
-            [
-                "bd35d4d0.753a48"
-            ]
-        ]
-    },
-    {
-        "id": "175cb51c.b22dab",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 360,
-        "wires": [
-            [
-                "ef8869ff.0d4e68"
-            ],
-            [
-                "465c82e1.a386cc"
-            ],
-            [
-                "890046c3.647828"
-            ]
-        ]
-    },
-    {
-        "id": "e8641c2f.f3095",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 360,
-        "wires": [
-            [
-                "175cb51c.b22dab"
-            ]
-        ]
-    },
-    {
-        "id": "fd8dc205.6c9b6",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 490,
-        "wires": [
-            [
-                "5ab3b609.e24d68"
-            ],
-            [
-                "34806dd8.c73592"
-            ],
-            [
-                "4e79a04c.c2ea"
-            ]
-        ]
-    },
-    {
-        "id": "767636c7.c94e08",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 490,
-        "wires": [
-            [
-                "fd8dc205.6c9b6"
-            ]
-        ]
-    },
-    {
-        "id": "65f9b0ff.c80c",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 620,
-        "wires": [
-            [
-                "86a19867.5f8078"
-            ],
-            [
-                "66accaf9.6da534"
-            ],
-            [
-                "236abadf.310076"
-            ]
-        ]
-    },
-    {
-        "id": "d0a607b2.bdcec8",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 620,
-        "wires": [
-            [
-                "65f9b0ff.c80c"
-            ]
-        ]
-    },
-    {
-        "id": "64acd80d.e77058",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 750,
-        "wires": [
-            [
-                "e688b3bd.23ec1"
-            ],
-            [
-                "3cd5461d.53288a"
-            ],
-            [
-                "576e17b4.279658"
-            ]
-        ]
-    },
-    {
-        "id": "e29cdb1.4513828",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 750,
-        "wires": [
-            [
-                "64acd80d.e77058"
-            ]
-        ]
-    },
-    {
-        "id": "5628f67a.058408",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 880,
-        "wires": [
-            [
-                "2b2faab1.3735b6"
-            ],
-            [
-                "92b15688.e2bf18"
-            ],
-            [
-                "7007c8c6.07beb8"
-            ]
-        ]
-    },
-    {
-        "id": "47eaf640.8fd8c8",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 880,
-        "wires": [
-            [
-                "5628f67a.058408"
-            ]
-        ]
-    },
-    {
-        "id": "6bb060f1.2f76f",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 1010,
-        "wires": [
-            [
-                "a50abbf0.4df7e8"
-            ],
-            [
-                "ac51d514.6b6c68"
-            ],
-            [
-                "d276e511.c42248"
-            ]
-        ]
-    },
-    {
-        "id": "6c6044a8.220ddc",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 1010,
-        "wires": [
-            [
-                "6bb060f1.2f76f"
-            ]
-        ]
-    },
-    {
-        "id": "410ee28e.7c7b6c",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 1140,
-        "wires": [
-            [
-                "e86412b7.2cefd"
-            ],
-            [
-                "f059b558.b7bba8"
-            ],
-            [
-                "532b6231.1b35dc"
-            ]
-        ]
-    },
-    {
-        "id": "f806fdaa.d8934",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 1140,
-        "wires": [
-            [
-                "410ee28e.7c7b6c"
-            ]
-        ]
-    },
-    {
-        "id": "a14cfe4.16e52",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 1270,
-        "wires": [
-            [
-                "bfef7b03.355dd8"
-            ],
-            [
-                "9cebca0b.c92438"
-            ],
-            [
-                "d28650a1.0608f"
-            ]
-        ]
-    },
-    {
-        "id": "2ae0fa47.c12336",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 1270,
-        "wires": [
-            [
-                "a14cfe4.16e52"
-            ]
-        ]
-    },
-    {
-        "id": "b152b123.9bd73",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 1400,
-        "wires": [
-            [
-                "90b76efb.67458"
-            ],
-            [
-                "a3d97f98.a00b3"
-            ],
-            [
-                "fa375b.0f1a48a8"
-            ]
-        ]
-    },
-    {
-        "id": "a8a1a266.7ea84",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 1400,
-        "wires": [
-            [
-                "b152b123.9bd73"
-            ]
-        ]
-    },
-    {
-        "id": "299f7f58.eea3a",
-        "type": "switch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 440,
-        "y": 1530,
-        "wires": [
-            [
-                "57f98051.90e3d"
-            ],
-            [
-                "c1646431.90a7c8"
-            ],
-            [
-                "cf0fdbd7.253228"
-            ]
-        ]
-    },
-    {
-        "id": "d10777ab.846208",
-        "type": "random",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "low": 1,
-        "high": "3",
-        "inte": "true",
-        "property": "payload",
-        "x": 310,
-        "y": 1530,
-        "wires": [
-            [
-                "299f7f58.eea3a"
             ]
         ]
     },
@@ -6825,9 +5434,11 @@
         "links": [
             "d2d62409.49e708",
             "4647ac55.a51c34",
-            "da9db920.f37dc8"
+            "da9db920.f37dc8",
+            "7d311ba0.5056a4",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 100,
         "wires": []
     },
@@ -6839,9 +5450,10 @@
         "name": "Slot2",
         "links": [
             "4075463c.5f9318",
-            "cf720636.85a2d8"
+            "cf720636.85a2d8",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 230,
         "wires": []
     },
@@ -6853,9 +5465,10 @@
         "name": "Slot3",
         "links": [
             "31f4417e.e5dbce",
-            "4f6d5eab.8e4c6"
+            "4f6d5eab.8e4c6",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 360,
         "wires": []
     },
@@ -6867,9 +5480,10 @@
         "name": "Slot4",
         "links": [
             "29f636aa.aca62a",
-            "b2c449db.0d7b18"
+            "b2c449db.0d7b18",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 490,
         "wires": []
     },
@@ -6881,9 +5495,10 @@
         "name": "Slot5",
         "links": [
             "ab1baf8f.ec288",
-            "1b06ffc4.7bc67"
+            "1b06ffc4.7bc67",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 620,
         "wires": []
     },
@@ -6895,9 +5510,10 @@
         "name": "Slot6",
         "links": [
             "c31beae2.7f8088",
-            "8aaec4dc.5b4cd8"
+            "8aaec4dc.5b4cd8",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 750,
         "wires": []
     },
@@ -6909,9 +5525,10 @@
         "name": "Slot7",
         "links": [
             "2bcc22e5.f6d62e",
-            "fd12e42b.9b7268"
+            "fd12e42b.9b7268",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 880,
         "wires": []
     },
@@ -6923,9 +5540,10 @@
         "name": "Slot8",
         "links": [
             "e47696d4.4ad568",
-            "e016b5.3aa75948"
+            "e016b5.3aa75948",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 1010,
         "wires": []
     },
@@ -6937,9 +5555,10 @@
         "name": "Slot9",
         "links": [
             "18d69e0b.05d942",
-            "75b4c2da.2eae7c"
+            "75b4c2da.2eae7c",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 1140,
         "wires": []
     },
@@ -6951,9 +5570,10 @@
         "name": "Slot10",
         "links": [
             "6d2a52d9.598f2c",
-            "66e73298.23c43c"
+            "66e73298.23c43c",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 1270,
         "wires": []
     },
@@ -6965,9 +5585,10 @@
         "name": "Slot11",
         "links": [
             "b9c1f438.e74928",
-            "da9db920.f37dc8"
+            "da9db920.f37dc8",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 1400,
         "wires": []
     },
@@ -6979,9 +5600,10 @@
         "name": "Slot12",
         "links": [
             "c48fce04.4a833",
-            "5225e4b7.89e0ac"
+            "5225e4b7.89e0ac",
+            "c4d0ad79.75405"
         ],
-        "x": 745,
+        "x": 425,
         "y": 1530,
         "wires": []
     },
@@ -7824,8 +6446,8 @@
         "tooltip": "",
         "group": "c5f05af1.a4c158",
         "order": 6,
-        "width": "6",
-        "height": "1",
+        "width": "0",
+        "height": "0",
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -7838,8 +6460,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 490,
-        "y": 380,
+        "x": 580,
+        "y": 360,
         "wires": [
             [
                 "ca8542a4.5ca1d"
@@ -7861,8 +6483,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "x": 470,
-        "y": 180,
+        "x": 600,
+        "y": 160,
         "wires": [
             [
                 "f4be3cec.c935f"
@@ -8199,8 +6821,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 480,
-        "y": 130,
+        "x": 590,
+        "y": 110,
         "wires": [
             [
                 "c842b748.2bafd8"
@@ -8235,8 +6857,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 480,
-        "y": 230,
+        "x": 590,
+        "y": 210,
         "wires": [
             [
                 "43505e5f.1b221"
@@ -8296,8 +6918,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 480,
-        "y": 280,
+        "x": 590,
+        "y": 260,
         "wires": [
             [
                 "cfa9bf86.2a8a3"
@@ -8311,7 +6933,7 @@
         "name": "Marca Sensor de fondo",
         "label": "Sensor de Fondo:",
         "tooltip": "",
-        "place": "Marca Sensor de fondo",
+        "place": "Marca",
         "group": "c5f05af1.a4c158",
         "order": 5,
         "width": 0,
@@ -8352,8 +6974,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 450,
-        "y": 330,
+        "x": 620,
+        "y": 310,
         "wires": [
             [
                 "3a0224.13cb4ddc"
@@ -8367,7 +6989,7 @@
         "name": "",
         "group": "c5f05af1.a4c158",
         "order": 7,
-        "width": "3",
+        "width": "4",
         "height": "1",
         "passthru": false,
         "label": "Configurar",
@@ -8378,8 +7000,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 490,
-        "y": 430,
+        "x": 580,
+        "y": 410,
         "wires": [
             [
                 "bbcf7cf4.41f79"
@@ -8393,7 +7015,7 @@
         "name": "",
         "group": "c5f05af1.a4c158",
         "order": 8,
-        "width": "3",
+        "width": "4",
         "height": "1",
         "passthru": false,
         "label": "Borrar",
@@ -8404,10 +7026,12 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 510,
-        "y": 470,
+        "x": 560,
+        "y": 450,
         "wires": [
-            []
+            [
+                "e2c69396.80d27"
+            ]
         ]
     },
     {
@@ -8551,8 +7175,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 180,
+        "x": 850,
+        "y": 160,
         "wires": [
             []
         ]
@@ -8576,8 +7200,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 230,
+        "x": 840,
+        "y": 210,
         "wires": [
             []
         ]
@@ -8601,8 +7225,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 280,
+        "x": 850,
+        "y": 260,
         "wires": [
             []
         ]
@@ -8626,8 +7250,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 330,
+        "x": 850,
+        "y": 310,
         "wires": [
             []
         ]
@@ -8651,8 +7275,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 130,
+        "x": 850,
+        "y": 110,
         "wires": [
             []
         ]
@@ -8676,8 +7300,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
-        "y": 380,
+        "x": 860,
+        "y": 360,
         "wires": [
             []
         ]
@@ -8691,30 +7315,14 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"table-responsive table-sm\">\n    <table class=\"table table-bordered table-striped\">\n        <tbody>\n            <tr class=\"alert alert-danger\">\n                <td id=\"Alert\"><strong>{{alertMsg}}</strong></td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n",
+        "template": "<div class=\"table-responsive table-sm\">\n    <table class=\"table table-bordered table-striped\">\n        <tbody>\n            <tr class=\"alert {{alert}}\">\n                <td id=\"Alert\"><strong>{{alertMsg}}</strong></td>\n            </tr>\n            <div align=\"center\"><strong>{{VSD}}</strong></div>\n        </tbody>\n    </table>\n</div>\n",
         "output": "str",
         "x": 260,
         "y": 70,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bbcf7cf4.41f79",
-        "type": "function",
-        "z": "a70735f4.fb54d8",
-        "d": true,
-        "name": "",
-        "func": "var Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = flow.get(\"Cluster\")||[null,null,null,null,null,null,null,null,null,null,null,null];\n\nvar Pos         = Pozo.Posicion;\nCluster[Pos]    = Pozo; \nflow.set(\"Cluster\",Cluster);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 650,
-        "y": 430,
-        "wires": [
-            []
+            [
+                "29e95d0.9ebdda4"
+            ]
         ]
     },
     {
@@ -10099,5 +8707,1882 @@
                 "5b8f7d93.0f5564"
             ]
         ]
+    },
+    {
+        "id": "efde2660.167898",
+        "type": "inject",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 160,
+        "y": 60,
+        "wires": [
+            [
+                "ae5bec70.81fd1",
+                "d2f719f2.cef708",
+                "1141d6c2.062099",
+                "6a7dd310.35871c",
+                "881be3e6.c79b7",
+                "d3355a62.d301d8",
+                "18613687.86e409",
+                "9e5344aa.704878",
+                "6d6c90aa.8f88b",
+                "1716c5bc.5fed6a",
+                "25b882c0.601c9e",
+                "26c1b029.b91b3"
+            ]
+        ]
+    },
+    {
+        "id": "d2f719f2.cef708",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 190,
+        "wires": [
+            [
+                "c9560b43.55c0d8",
+                "f7b106.0da29ef8"
+            ]
+        ]
+    },
+    {
+        "id": "1141d6c2.062099",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 320,
+        "wires": [
+            [
+                "e546de7d.1524d",
+                "7cc5cf5a.1a576"
+            ]
+        ]
+    },
+    {
+        "id": "6a7dd310.35871c",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 450,
+        "wires": [
+            [
+                "29b5a57e.566caa",
+                "97bae11c.61449"
+            ]
+        ]
+    },
+    {
+        "id": "881be3e6.c79b7",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "ec1787d3.deabb8",
+                "d4a566c6.c4e018"
+            ]
+        ]
+    },
+    {
+        "id": "d3355a62.d301d8",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 710,
+        "wires": [
+            [
+                "d74e5f4f.f62be",
+                "8b96bde.d92114"
+            ]
+        ]
+    },
+    {
+        "id": "18613687.86e409",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 840,
+        "wires": [
+            [
+                "d1a3b138.fc596",
+                "21c4c3.0b609b3e"
+            ]
+        ]
+    },
+    {
+        "id": "9e5344aa.704878",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 970,
+        "wires": [
+            [
+                "293ac75d.5bd738",
+                "9d882c1.be806d"
+            ]
+        ]
+    },
+    {
+        "id": "6d6c90aa.8f88b",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1100,
+        "wires": [
+            [
+                "18223763.46c159",
+                "4222ac6e.f706d4"
+            ]
+        ]
+    },
+    {
+        "id": "1716c5bc.5fed6a",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1230,
+        "wires": [
+            [
+                "128332bd.e6e68d",
+                "b8f3cd0c.b70a2"
+            ]
+        ]
+    },
+    {
+        "id": "25b882c0.601c9e",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1360,
+        "wires": [
+            [
+                "f1b95f94.7eed7",
+                "dfc5bdb9.d9a96"
+            ]
+        ]
+    },
+    {
+        "id": "26c1b029.b91b3",
+        "type": "function",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "Random",
+        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1490,
+        "wires": [
+            [
+                "b2bf4260.68812",
+                "ee4c814.2461e8"
+            ]
+        ]
+    },
+    {
+        "id": "bbcf7cf4.41f79",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "name": "Configurar Clúster",
+        "func": "// Leer datos del contexto\nvar Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = flow.get(\"Cluster\")||[];\n\n// Acomodar la información\nvar Pos         = Pozo.Posicion;\ndelete Pozo.Posicion;\n\n// Asignar información de pozo configurado al objeto Clúster\nCluster[Pos] = {...Pozo}\nflow.set(\"Cluster\",Cluster);\n\n// Retornar\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2c69396.80d27",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "name": "Borrar Posición",
+        "func": "var Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = flow.get(\"Cluster\")||[];\n\ndelete Cluster[Pozo.Posicion];\nflow.set(\"Cluster\",Cluster);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 450,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "beb0f904.a549b8",
+        "type": "complete",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "scope": [
+            "c842b748.2bafd8"
+        ],
+        "uncaught": false,
+        "x": 200,
+        "y": 290,
+        "wires": [
+            [
+                "4c43476f.e5a758"
+            ]
+        ]
+    },
+    {
+        "id": "4c43476f.e5a758",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "name": "Leer",
+        "func": "var Cluster = flow.get(\"Cluster\")||[];\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\n\n// Nombre\ntry{Nombre = MSG(Cluster[msg.payload].Nombre);}\ncatch(error){Nombre = MSG(\"\");}\n\n// Typo levantamiento\ntry{ALS = MSG(Cluster[msg.payload].ALS);}\ncatch(error){ALS = MSG(0);}\n\n// Variador\ntry{Variador = MSG(Cluster[msg.payload].Variador);}\ncatch(error){Variador = MSG(0);}\n\n// Sendor de fondo\ntry{Sensor = MSG(Cluster[msg.payload].Sensor);}\ncatch(error){Sensor = MSG(0);}\n\n// Disponible\ntry{Disponible = MSG(Cluster[msg.payload].Disponible);}\ncatch(error){Disponible = MSG(false);}\n\nreturn [Nombre,ALS,Variador,Sensor,Disponible];\n\nfunction MSG(message){\n    return {payload: message}\n}\n\n",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 290,
+        "wires": [
+            [
+                "a5204587.b883d8"
+            ],
+            [
+                "7522f5b8.a4638c"
+            ],
+            [
+                "dd9f6ceb.ddbe7"
+            ],
+            [
+                "f8ac9870.c119d8"
+            ],
+            [
+                "5d3a6d1e.f36e64"
+            ]
+        ]
+    },
+    {
+        "id": "34e66c29.ca92a4",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "Cluster",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Cluster",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 550,
+        "wires": [
+            [
+                "55d5f923.1289d8"
+            ]
+        ]
+    },
+    {
+        "id": "2f6dd56b.2afc3a",
+        "type": "ui_table",
+        "z": "a70735f4.fb54d8",
+        "group": "c4b29123.a4898",
+        "name": "",
+        "order": 1,
+        "width": "16",
+        "height": "7",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 940,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "55d5f923.1289d8",
+        "type": "delay",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 800,
+        "y": 550,
+        "wires": [
+            [
+                "2f6dd56b.2afc3a"
+            ]
+        ]
+    },
+    {
+        "id": "d17b6cd1.dd167",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "name": "Clear",
+        "func": "msg.payload = []\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 590,
+        "wires": [
+            [
+                "2f6dd56b.2afc3a"
+            ]
+        ]
+    },
+    {
+        "id": "31bedd83.c1a8a2",
+        "type": "complete",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "scope": [
+            "bbcf7cf4.41f79",
+            "e2c69396.80d27"
+        ],
+        "uncaught": false,
+        "x": 500,
+        "y": 590,
+        "wires": [
+            [
+                "34e66c29.ca92a4",
+                "d17b6cd1.dd167"
+            ]
+        ]
+    },
+    {
+        "id": "7ce5179f.e149d8",
+        "type": "inject",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 670,
+        "y": 620,
+        "wires": [
+            [
+                "d17b6cd1.dd167"
+            ]
+        ]
+    },
+    {
+        "id": "19e7802f.47ae6",
+        "type": "debug",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 490,
+        "wires": []
+    },
+    {
+        "id": "d382db6f.29f0a8",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "Events",
+        "func": "var event   = flow.get('Events')||[];\nvar id      = flow.get('id')||0;\nvar date    = new Date();\n\n// Date\nvar year    = date.getFullYear();\nvar month   = date.getMonth()+1;\nvar day     = date.getDate();\n\n//Time\nvar hours   = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\nmsg.payload={\n            'no':id,\n            'fecha':month+'/'+day+'/'+year,\n            'hora':hours+':'+minutes+':'+seconds,\n            'evento':msg.payload\n}\n\n// Adjuntar evento\nevent.unshift(msg.payload);\n\n// Limitar número de eventos\nevent = event.slice(0,99);\n\n// Guardar eventos en el contexto\nflow.set('Events',event);\n\n// incrementar ID de evento\nid++\n\n// Reiniciar ID\nif(id==1000){id=0;}\nflow.set('id',id);\n\nmsg.payload = event;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 450,
+        "y": 80,
+        "wires": [
+            [
+                "ec98695.bbf8698",
+                "7b4bd7a0.fd9398"
+            ]
+        ]
+    },
+    {
+        "id": "972e1f74.3dd4c",
+        "type": "comment",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "Eventos",
+        "info": "",
+        "x": 110,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ec98695.bbf8698",
+        "type": "json",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 80,
+        "wires": [
+            [
+                "7b4bd7a0.fd9398"
+            ]
+        ]
+    },
+    {
+        "id": "54ec819a.c1bc9",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Events",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "ec98695.bbf8698",
+                "7b4bd7a0.fd9398"
+            ]
+        ]
+    },
+    {
+        "id": "59e817c2.295b38",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "Eventos",
+        "links": [
+            "6d40adaa.11d2c4",
+            "88c1a42d.f4a528"
+        ],
+        "x": 365,
+        "y": 80,
+        "wires": [
+            [
+                "d382db6f.29f0a8"
+            ]
+        ]
+    },
+    {
+        "id": "d50d9b6b.bbc7f8",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Events",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "+++/Eventos/Eventos.csv",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "USB_Drive",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 160,
+        "wires": [
+            [
+                "ad47f0cc.93af5"
+            ]
+        ]
+    },
+    {
+        "id": "c02fb05c.baccf",
+        "type": "file",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 850,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75851744.fc50c8",
+        "type": "trigger",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "",
+        "op1": "1",
+        "op2": "2",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "54ec819a.c1bc9"
+            ]
+        ]
+    },
+    {
+        "id": "ad47f0cc.93af5",
+        "type": "csv",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "no,fecha,hora,evento",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 730,
+        "y": 160,
+        "wires": [
+            [
+                "c02fb05c.baccf"
+            ]
+        ]
+    },
+    {
+        "id": "7b4bd7a0.fd9398",
+        "type": "ui_table",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "group": "bc3b9c5.ac3f76",
+        "name": "Eventos",
+        "order": 1,
+        "width": "24",
+        "height": "5",
+        "columns": [
+            {
+                "field": "no",
+                "title": "No",
+                "width": "10%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "fecha",
+                "title": "Fecha",
+                "width": "15%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "hora",
+                "title": "Hora",
+                "width": "15%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "evento",
+                "title": "Evento",
+                "width": "55%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 620,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cad3d4cb.b5bc98",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "Descargar Eventos In",
+        "links": [
+            "453f1499.9c3efc"
+        ],
+        "x": 465,
+        "y": 160,
+        "wires": [
+            [
+                "d50d9b6b.bbc7f8"
+            ]
+        ]
+    },
+    {
+        "id": "ebf4df19.2cfb2",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "Actualizar Eventos In",
+        "links": [
+            "f7333c0a.a70d3"
+        ],
+        "x": 159,
+        "y": 160,
+        "wires": [
+            [
+                "75851744.fc50c8"
+            ]
+        ]
+    },
+    {
+        "id": "1660e38d.24cefc",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "11f55817.139c18",
+        "name": "Eventos UI-Control",
+        "links": [
+            "97407954.a004c8"
+        ],
+        "x": 159,
+        "y": 120,
+        "wires": [
+            [
+                "75851744.fc50c8"
+            ]
+        ]
+    },
+    {
+        "id": "bd165d4f.e3f48",
+        "type": "comment",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "Alarmas",
+        "info": "",
+        "x": 1020,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c95dde3d.c676e",
+        "type": "json",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1510,
+        "y": 80,
+        "wires": [
+            [
+                "12f5302f.69f92"
+            ]
+        ]
+    },
+    {
+        "id": "191d34db.93fe3b",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alarms",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 120,
+        "wires": [
+            [
+                "c95dde3d.c676e",
+                "12f5302f.69f92"
+            ]
+        ]
+    },
+    {
+        "id": "35f773cc.39ea9c",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alarms",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "+++/Alarmas/Alarmas.csv",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "USB_Drive",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1480,
+        "y": 160,
+        "wires": [
+            [
+                "dcdb5992.425238"
+            ]
+        ]
+    },
+    {
+        "id": "ccc4d9c0.904c78",
+        "type": "file",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1750,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9101c40.6e85a",
+        "type": "trigger",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "op1": "1",
+        "op2": "2",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1160,
+        "y": 120,
+        "wires": [
+            [
+                "191d34db.93fe3b"
+            ]
+        ]
+    },
+    {
+        "id": "dcdb5992.425238",
+        "type": "csv",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "no,fecha,hora,alarma",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 1630,
+        "y": 160,
+        "wires": [
+            [
+                "ccc4d9c0.904c78"
+            ]
+        ]
+    },
+    {
+        "id": "12f5302f.69f92",
+        "type": "ui_table",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "group": "3b5d050c.51e49a",
+        "name": "Alarmas",
+        "order": 1,
+        "width": "24",
+        "height": "5",
+        "columns": [
+            {
+                "field": "no",
+                "title": "No",
+                "width": "10%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "fecha",
+                "title": "Fecha",
+                "width": "15%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "hora",
+                "title": "Hora",
+                "width": "15%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "alarma",
+                "title": "Alarma",
+                "width": "58%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 1520,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33f2aa3c.6c08f6",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "Alarmas",
+        "links": [
+            "4e8f42ac.3431ac",
+            "c099945b.08bf98",
+            "5c324370.33dadc"
+        ],
+        "x": 1265,
+        "y": 80,
+        "wires": [
+            [
+                "9055a2bd.67028"
+            ]
+        ]
+    },
+    {
+        "id": "9055a2bd.67028",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "Alarms",
+        "func": "var Alarm   = flow.get('Alarms')||[];\nvar id      = flow.get('id')||0;\nvar date    = new Date();\n\n// Date\nvar year    = date.getFullYear();\nvar month   = date.getMonth()+1;\nvar day     = date.getDate();\n\n//Time\nvar hours   = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\nmsg.payload={\n            'no':id,\n            'fecha':month+'/'+day+'/'+year,\n            'hora':hours+':'+minutes+':'+seconds,\n            'alarma':msg.payload\n}\n\nAlarm.unshift(msg.payload);\n\n// Limitar número de alarmas\nAlarm = Alarm.slice(0,99);\n\nflow.set('Alarms',Alarm);\n\nid++\n// Reiniciar ID\nif(id==1000){id=0;}\n\nflow.set('id',id);\nmsg.payload = Alarm;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 80,
+        "wires": [
+            [
+                "c95dde3d.c676e",
+                "12f5302f.69f92"
+            ]
+        ]
+    },
+    {
+        "id": "938193ac.02d98",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "",
+        "links": [
+            "97407954.a004c8"
+        ],
+        "x": 1069,
+        "y": 120,
+        "wires": [
+            [
+                "d9101c40.6e85a"
+            ]
+        ]
+    },
+    {
+        "id": "ffbe710d.b4cce",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "Actualizar Alarmas In",
+        "links": [
+            "f7333c0a.a70d3"
+        ],
+        "x": 1069,
+        "y": 160,
+        "wires": [
+            [
+                "d9101c40.6e85a"
+            ]
+        ]
+    },
+    {
+        "id": "f4dc844c.b0f888",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "g": "cf57802e.7d258",
+        "name": "Descargar Alarmas In",
+        "links": [
+            "6c6274de.8a002c"
+        ],
+        "x": 1369,
+        "y": 160,
+        "wires": [
+            [
+                "35f773cc.39ea9c"
+            ]
+        ]
+    },
+    {
+        "id": "1083899a.1b4716",
+        "type": "exec",
+        "z": "11d568a7.09a5c7",
+        "command": "vcgencmd measure_temp | egrep -o '[0-9]*\\.[0-9]*'",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9cc3f117.42857",
+        "type": "exec",
+        "z": "11d568a7.09a5c7",
+        "command": "vcgencmd measure_clock arm | egrep -o '[0-9]{0,10}' | sed -n '1!p'",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "3228637d.9e937c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3228637d.9e937c",
+        "type": "function",
+        "z": "11d568a7.09a5c7",
+        "name": "MHz",
+        "func": "msg.payload={payload: msg.payload/1000000};\nreturn msg.payload;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "deabf4e0.a1b7e8",
+        "type": "comment",
+        "z": "11d568a7.09a5c7",
+        "name": "Solicitud de datos de temperatura y frecuencia de la CPU",
+        "info": "",
+        "x": 320,
+        "y": 30,
+        "wires": []
+    },
+    {
+        "id": "798ac169.6edda",
+        "type": "inject",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "88ac83a3.561a3",
+                "e1fcad8b.9672c"
+            ]
+        ]
+    },
+    {
+        "id": "20490d7e.8acac2",
+        "type": "comment",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "Monitorear Temperatura y Velocidad de CPU",
+        "info": "",
+        "x": 220,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "88ac83a3.561a3",
+        "type": "subflow:11d568a7.09a5c7",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "env": [],
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "4906fc64.1e6a14",
+                "df5d75d6.682dc8"
+            ],
+            [
+                "d43fb27a.273b3",
+                "9ce98c30.594c6"
+            ]
+        ]
+    },
+    {
+        "id": "4906fc64.1e6a14",
+        "type": "ui_level",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "group": "8d4c7954.48a708",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "name": "Temp. CPU",
+        "label": "Temp. CPU",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": 100,
+        "segWarn": "60",
+        "segHigh": "70",
+        "unit": "ºC",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "valuedriven",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "0.9",
+        "fontValue": "",
+        "fontSmall": "0.95",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "peaktime": 3000,
+        "x": 500,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d43fb27a.273b3",
+        "type": "ui_level",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "group": "744bf601.7a0f58",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "name": "Freq. CPU",
+        "label": "Freq. CPU",
+        "colorHi": "#e60000",
+        "colorWarn": "#00b33c",
+        "colorNormal": "#ff9900",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1500",
+        "segWarn": "500",
+        "segHigh": "1200",
+        "unit": "MHz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "valuedriven",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "0.9",
+        "fontValue": "",
+        "fontSmall": "0.95",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "peaktime": 3000,
+        "x": 500,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "be4a90f3.ab244",
+        "type": "ui_level",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "group": "cd39b0a.612255",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "name": "Humedad",
+        "label": "Humedad",
+        "colorHi": "#e60000",
+        "colorWarn": "#00b33c",
+        "colorNormal": "#ff9900",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "100",
+        "segWarn": "50",
+        "segHigh": "70",
+        "unit": "%",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "valuedriven",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "0.9",
+        "fontValue": "",
+        "fontSmall": "0.95",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "peaktime": 3000,
+        "x": 490,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e1fcad8b.9672c",
+        "type": "random",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "low": "50",
+        "high": "60",
+        "inte": "true",
+        "property": "payload",
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "be4a90f3.ab244",
+                "559b8847.1b9b48"
+            ]
+        ]
+    },
+    {
+        "id": "df5d75d6.682dc8",
+        "type": "ui_chart",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "group": "8d4c7954.48a708",
+        "order": 1,
+        "width": "20",
+        "height": "3",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 160,
+        "wires": [
+            [
+                "584b677d.8d2c78"
+            ]
+        ]
+    },
+    {
+        "id": "9ce98c30.594c6",
+        "type": "ui_chart",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "group": "744bf601.7a0f58",
+        "order": 1,
+        "width": "20",
+        "height": "3",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "559b8847.1b9b48",
+        "type": "ui_chart",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "group": "cd39b0a.612255",
+        "order": 1,
+        "width": "20",
+        "height": "3",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "576f3936.7493b8"
+            ]
+        ]
+    },
+    {
+        "id": "f9459856.a20048",
+        "type": "ui_date_picker",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "label": "Inicio",
+        "group": "bcbb6e99.54feb",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "passthru": true,
+        "topic": "",
+        "x": 70,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2abc6c83.552854",
+        "type": "ui_date_picker",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "label": "Fin",
+        "group": "bcbb6e99.54feb",
+        "order": 2,
+        "width": "12",
+        "height": "1",
+        "passthru": true,
+        "topic": "",
+        "x": 190,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46c48181.a48d7",
+        "type": "ui_dropdown",
+        "z": "8d6d8b52.723518",
+        "name": "Variable",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccione una variable",
+        "group": "bcbb6e99.54feb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Temperatura",
+                "value": "Temperatura",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 320,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd970623.7adcd8",
+        "type": "ui_chart",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "group": "bcbb6e99.54feb",
+        "order": 4,
+        "width": "24",
+        "height": "5",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "584b677d.8d2c78",
+        "type": "link out",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "Temperatura",
+        "links": [
+            "cb972615.9b3328"
+        ],
+        "x": 565,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "576f3936.7493b8",
+        "type": "link out",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "Humedad",
+        "links": [],
+        "x": 565,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cb972615.9b3328",
+        "type": "link in",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "links": [
+            "584b677d.8d2c78"
+        ],
+        "x": 225,
+        "y": 70,
+        "wires": [
+            [
+                "bd970623.7adcd8"
+            ]
+        ]
+    },
+    {
+        "id": "c4d0ad79.75405",
+        "type": "link in",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "links": [
+            "21c4c3.0b609b3e",
+            "4222ac6e.f706d4",
+            "44ab73f9.6a72cc",
+            "7cc5cf5a.1a576",
+            "8b96bde.d92114",
+            "97bae11c.61449",
+            "9d882c1.be806d",
+            "b8f3cd0c.b70a2",
+            "d4a566c6.c4e018",
+            "dfc5bdb9.d9a96",
+            "ee4c814.2461e8",
+            "f7b106.0da29ef8"
+        ],
+        "x": 185,
+        "y": 390,
+        "wires": [
+            [
+                "6d29cc5d.b25944"
+            ]
+        ]
+    },
+    {
+        "id": "6d29cc5d.b25944",
+        "type": "switch",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "property": "alertMsg",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Equipo en alarma!",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 390,
+        "wires": [
+            [
+                "8504a5e9.c441a8"
+            ],
+            [
+                "999cf009.02628"
+            ]
+        ]
+    },
+    {
+        "id": "999cf009.02628",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "*** +++ ---",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "***",
+                "fromt": "str",
+                "to": "brand",
+                "tot": "msg"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "VSD",
+                "tot": "msg"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "alertMsg",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 410,
+        "wires": [
+            [
+                "88c1a42d.f4a528"
+            ]
+        ]
+    },
+    {
+        "id": "8504a5e9.c441a8",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "*** +++ ---",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "***",
+                "fromt": "str",
+                "to": "brand",
+                "tot": "msg"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "VSD",
+                "tot": "msg"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "alertMsg",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 370,
+        "wires": [
+            [
+                "5c324370.33dadc"
+            ]
+        ]
+    },
+    {
+        "id": "88c1a42d.f4a528",
+        "type": "link out",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "links": [
+            "59e817c2.295b38"
+        ],
+        "x": 535,
+        "y": 410,
+        "wires": []
+    },
+    {
+        "id": "5c324370.33dadc",
+        "type": "link out",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "links": [
+            "33f2aa3c.6c08f6"
+        ],
+        "x": 535,
+        "y": 370,
+        "wires": []
     }
 ]
