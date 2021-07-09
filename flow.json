@@ -265,9 +265,7 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13,
-        "w": 1324,
-        "h": 810
+        "y": 13
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -291,9 +289,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 4,
-        "y": 19,
-        "w": 1092,
-        "h": 132
+        "y": 19
     },
     {
         "id": "ced3da32.aec848",
@@ -315,9 +311,7 @@
             "be5b89ed.6c6bf8"
         ],
         "x": 4,
-        "y": 159,
-        "w": 632,
-        "h": 82
+        "y": 159
     },
     {
         "id": "35aaa239.8bb89e",
@@ -340,9 +334,7 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 249,
-        "w": 712,
-        "h": 82
+        "y": 249
     },
     {
         "id": "73a228cd.9d45d8",
@@ -363,9 +355,7 @@
             "aaec9822.a14198"
         ],
         "x": 14,
-        "y": 9,
-        "w": 472,
-        "h": 82
+        "y": 9
     },
     {
         "id": "cf7122b5.0b85",
@@ -454,9 +444,49 @@
             "f3f54db2.c4674"
         ],
         "x": 18,
-        "y": 103,
-        "w": 424,
-        "h": 214
+        "y": 103
+    },
+    {
+        "id": "7b6f4b41.106164",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "11f55817.139c18",
+            "cf57802e.7d258"
+        ],
+        "x": 8,
+        "y": 13
+    },
+    {
+        "id": "3383e29e.9b29fe",
+        "type": "group",
+        "z": "612ddf44.816d7",
+        "name": "",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "798ac169.6edda",
+            "20490d7e.8acac2",
+            "88ac83a3.561a3",
+            "4906fc64.1e6a14",
+            "d43fb27a.273b3",
+            "be4a90f3.ab244",
+            "e1fcad8b.9672c",
+            "df5d75d6.682dc8",
+            "9ce98c30.594c6",
+            "559b8847.1b9b48",
+            "584b677d.8d2c78",
+            "576f3936.7493b8"
+        ],
+        "x": 24,
+        "y": 79
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -479,9 +509,7 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243,
-        "w": 928,
-        "h": 554
+        "y": 243
     },
     {
         "id": "eb91dac5.690838",
@@ -510,9 +538,7 @@
             "3a348318.fe982c"
         ],
         "x": 154,
-        "y": 39,
-        "w": 1272,
-        "h": 192
+        "y": 39
     },
     {
         "id": "f3f54db2.c4674",
@@ -534,9 +560,7 @@
             "2526682.c405998"
         ],
         "x": 244,
-        "y": 129,
-        "w": 172,
-        "h": 162
+        "y": 129
     },
     {
         "id": "b710a90e.0dd388",
@@ -557,91 +581,7 @@
             "1acb0c29.0ddee4"
         ],
         "x": 44,
-        "y": 129,
-        "w": 192,
-        "h": 122
-    },
-    {
-        "id": "a80677cf.4274c8",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Eventos Usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "c404a6e9.ffda18",
-            "7dfbde1e.e4b5b",
-            "6d40adaa.11d2c4"
-        ],
-        "x": 684,
-        "y": 649,
-        "w": 242,
-        "h": 122
-    },
-    {
-        "id": "64ff74e5.f4c53c",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Acciones externas usuario",
-        "style": {
-            "label": true,
-            "fill": "#ff7f7f",
-            "color": "#000000"
-        },
-        "nodes": [
-            "8edea7ae.674088",
-            "33c5f16c.c8a5ae",
-            "42f85e00.83b314"
-        ],
-        "x": 684,
-        "y": 269,
-        "w": 173,
-        "h": 202
-    },
-    {
-        "id": "be55ea76.ed4478",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Detectar usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "ffad1340.f8a3b",
-            "8effe1fe.bacd6",
-            "98a9b5d4.5e5608",
-            "d1a73825.d89578"
-        ],
-        "x": 684,
-        "y": 479,
-        "w": 372,
-        "h": 162
-    },
-    {
-        "id": "7b6f4b41.106164",
-        "type": "group",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "style": {
-            "fill": "#dbcbe7",
-            "label": true
-        },
-        "nodes": [
-            "11f55817.139c18",
-            "cf57802e.7d258"
-        ],
-        "x": 8,
-        "y": 13,
-        "w": 1844,
-        "h": 214
+        "y": 129
     },
     {
         "id": "11f55817.139c18",
@@ -669,9 +609,7 @@
             "1660e38d.24cefc"
         ],
         "x": 34,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -699,37 +637,65 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
-        "id": "3383e29e.9b29fe",
+        "id": "a80677cf.4274c8",
         "type": "group",
-        "z": "612ddf44.816d7",
-        "name": "",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Eventos Usuario",
         "style": {
-            "fill": "#bfdbef",
-            "label": true
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
-            "798ac169.6edda",
-            "20490d7e.8acac2",
-            "88ac83a3.561a3",
-            "4906fc64.1e6a14",
-            "d43fb27a.273b3",
-            "be4a90f3.ab244",
-            "e1fcad8b.9672c",
-            "df5d75d6.682dc8",
-            "9ce98c30.594c6",
-            "559b8847.1b9b48",
-            "584b677d.8d2c78",
-            "576f3936.7493b8"
+            "c404a6e9.ffda18",
+            "7dfbde1e.e4b5b",
+            "6d40adaa.11d2c4"
         ],
-        "x": 24,
-        "y": 79,
-        "w": 582,
-        "h": 302
+        "x": 684,
+        "y": 649
+    },
+    {
+        "id": "64ff74e5.f4c53c",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Acciones externas usuario",
+        "style": {
+            "label": true,
+            "fill": "#ff7f7f",
+            "color": "#000000"
+        },
+        "nodes": [
+            "8edea7ae.674088",
+            "33c5f16c.c8a5ae",
+            "42f85e00.83b314"
+        ],
+        "x": 684,
+        "y": 269
+    },
+    {
+        "id": "be55ea76.ed4478",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Detectar usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ffad1340.f8a3b",
+            "8effe1fe.bacd6",
+            "98a9b5d4.5e5608",
+            "d1a73825.d89578"
+        ],
+        "x": 684,
+        "y": 479
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -8721,7 +8687,7 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "true",
