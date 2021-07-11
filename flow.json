@@ -472,7 +472,9 @@
             "cf57802e.7d258"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 1844,
+        "h": 214
     },
     {
         "id": "3383e29e.9b29fe",
@@ -498,7 +500,9 @@
             "576f3936.7493b8"
         ],
         "x": 24,
-        "y": 79
+        "y": 79,
+        "w": 582,
+        "h": 302
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -629,7 +633,9 @@
             "1660e38d.24cefc"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -657,7 +663,9 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "a80677cf.4274c8",
@@ -904,7 +912,7 @@
     {
         "id": "a9e06336.0beac",
         "type": "ui_group",
-        "name": "Slot1",
+        "name": "SCP 1",
         "tab": "6655f38c.21d24c",
         "order": 1,
         "disp": false,
@@ -914,7 +922,7 @@
     {
         "id": "1973f200.b580be",
         "type": "ui_group",
-        "name": "Slot2",
+        "name": "SCP 2",
         "tab": "6655f38c.21d24c",
         "order": 2,
         "disp": false,
@@ -924,7 +932,7 @@
     {
         "id": "ff632834.6a3058",
         "type": "ui_group",
-        "name": "Slot3",
+        "name": "SCP 3",
         "tab": "6655f38c.21d24c",
         "order": 3,
         "disp": false,
@@ -934,7 +942,7 @@
     {
         "id": "cd4c1a56.b61c88",
         "type": "ui_group",
-        "name": "Slot4",
+        "name": "SCP 4",
         "tab": "6655f38c.21d24c",
         "order": 4,
         "disp": false,
@@ -944,7 +952,7 @@
     {
         "id": "454080ed.86fae",
         "type": "ui_group",
-        "name": "Slot5",
+        "name": "SCP 5",
         "tab": "6655f38c.21d24c",
         "order": 5,
         "disp": false,
@@ -954,7 +962,7 @@
     {
         "id": "ab6a063c.9b3a48",
         "type": "ui_group",
-        "name": "Slot6",
+        "name": "SCP 6",
         "tab": "6655f38c.21d24c",
         "order": 6,
         "disp": false,
@@ -964,7 +972,7 @@
     {
         "id": "f04f8cc8.81302",
         "type": "ui_group",
-        "name": "Slot7",
+        "name": "SCP 7",
         "tab": "6655f38c.21d24c",
         "order": 7,
         "disp": false,
@@ -974,7 +982,7 @@
     {
         "id": "8634cc3f.517c3",
         "type": "ui_group",
-        "name": "Slot8",
+        "name": "SCP 8",
         "tab": "6655f38c.21d24c",
         "order": 8,
         "disp": false,
@@ -984,7 +992,7 @@
     {
         "id": "bf58897d.990ee8",
         "type": "ui_group",
-        "name": "Slot9",
+        "name": "SCP 9",
         "tab": "6655f38c.21d24c",
         "order": 9,
         "disp": false,
@@ -994,7 +1002,7 @@
     {
         "id": "7f0e6817.cfa538",
         "type": "ui_group",
-        "name": "Slot10",
+        "name": "SCP 10",
         "tab": "6655f38c.21d24c",
         "order": 10,
         "disp": false,
@@ -1004,7 +1012,7 @@
     {
         "id": "299917cc.bd2088",
         "type": "ui_group",
-        "name": "Slot11",
+        "name": "SCP 11",
         "tab": "6655f38c.21d24c",
         "order": 11,
         "disp": false,
@@ -1014,7 +1022,7 @@
     {
         "id": "bd06585f.a5e578",
         "type": "ui_group",
-        "name": "Slot12",
+        "name": "SCP 12",
         "tab": "6655f38c.21d24c",
         "order": 12,
         "disp": false,
@@ -1142,16 +1150,6 @@
         "collapse": false
     },
     {
-        "id": "d14f7e2.6ade88",
-        "type": "ui_group",
-        "name": "Valores medios",
-        "tab": "55735b30.433a74",
-        "order": 3,
-        "disp": true,
-        "width": "12",
-        "collapse": false
-    },
-    {
         "id": "7360f8fc.f7b758",
         "type": "ui_group",
         "name": "Selección",
@@ -1169,16 +1167,6 @@
         "order": 2,
         "disp": false,
         "width": "24",
-        "collapse": false
-    },
-    {
-        "id": "1925e2c.fd4e91d",
-        "type": "ui_group",
-        "name": "Referencia de velocidad",
-        "tab": "ff9850b.e5094b",
-        "order": 4,
-        "disp": true,
-        "width": "12",
         "collapse": false
     },
     {
@@ -1333,7 +1321,7 @@
     {
         "id": "9699862a.4679e8",
         "type": "ui_group",
-        "name": "Slot1",
+        "name": "SCP 1",
         "tab": "f0eab73b.7f1978",
         "order": 1,
         "disp": false,
@@ -1343,7 +1331,7 @@
     {
         "id": "40cbe96.5ec1618",
         "type": "ui_group",
-        "name": "Slot2",
+        "name": "SCP 2",
         "tab": "f0eab73b.7f1978",
         "order": 2,
         "disp": false,
@@ -1353,7 +1341,7 @@
     {
         "id": "12be7692.1a93f9",
         "type": "ui_group",
-        "name": "Slot3",
+        "name": "SCP 3",
         "tab": "f0eab73b.7f1978",
         "order": 3,
         "disp": false,
@@ -1363,7 +1351,7 @@
     {
         "id": "54c5820f.3a1ccc",
         "type": "ui_group",
-        "name": "Slot4",
+        "name": "SCP 4",
         "tab": "f0eab73b.7f1978",
         "order": 4,
         "disp": false,
@@ -1373,7 +1361,7 @@
     {
         "id": "5113ef2b.f9f3f",
         "type": "ui_group",
-        "name": "Slot5",
+        "name": "SCP 5",
         "tab": "f0eab73b.7f1978",
         "order": 5,
         "disp": false,
@@ -1383,7 +1371,7 @@
     {
         "id": "be898631.d54e78",
         "type": "ui_group",
-        "name": "Slot6",
+        "name": "SCP 6",
         "tab": "f0eab73b.7f1978",
         "order": 6,
         "disp": false,
@@ -1393,7 +1381,7 @@
     {
         "id": "19ca34d4.3cefab",
         "type": "ui_group",
-        "name": "Slot7",
+        "name": "SCP 7",
         "tab": "f0eab73b.7f1978",
         "order": 7,
         "disp": false,
@@ -1403,7 +1391,7 @@
     {
         "id": "eeae2649.6b3e78",
         "type": "ui_group",
-        "name": "Slot8",
+        "name": "SCP 8",
         "tab": "f0eab73b.7f1978",
         "order": 8,
         "disp": false,
@@ -1413,7 +1401,7 @@
     {
         "id": "29200dbc.237402",
         "type": "ui_group",
-        "name": "Slot9",
+        "name": "SCP 9",
         "tab": "f0eab73b.7f1978",
         "order": 9,
         "disp": false,
@@ -1423,7 +1411,7 @@
     {
         "id": "89a21bf7.01be28",
         "type": "ui_group",
-        "name": "Slot10",
+        "name": "SCP 10",
         "tab": "f0eab73b.7f1978",
         "order": 10,
         "disp": false,
@@ -1433,7 +1421,7 @@
     {
         "id": "89bc9827.8fecb8",
         "type": "ui_group",
-        "name": "Slot11",
+        "name": "SCP 11",
         "tab": "f0eab73b.7f1978",
         "order": 11,
         "disp": false,
@@ -1443,7 +1431,7 @@
     {
         "id": "a08a84e6.da47b8",
         "type": "ui_group",
-        "name": "Slot12",
+        "name": "SCP 12",
         "tab": "f0eab73b.7f1978",
         "order": 12,
         "disp": false,
@@ -6733,68 +6721,69 @@
         "multiple": false,
         "options": [
             {
-                "label": "Slot 1",
+                "label": "SCP 1",
                 "value": 0,
                 "type": "num"
             },
             {
-                "label": "Slot 2",
+                "label": "SCP 2",
                 "value": 1,
                 "type": "num"
             },
             {
-                "label": "Slot 3",
+                "label": "SCP 3",
                 "value": 2,
                 "type": "num"
             },
             {
-                "label": "Slot 4",
+                "label": "SCP 4",
                 "value": 3,
                 "type": "num"
             },
             {
-                "label": "Slot 5",
+                "label": "SCP 5",
                 "value": 4,
                 "type": "num"
             },
             {
-                "label": "Slot 6",
+                "label": "SCP 6",
                 "value": 5,
                 "type": "num"
             },
             {
-                "label": "Slot 7",
+                "label": "SCP 7",
                 "value": 6,
                 "type": "num"
             },
             {
-                "label": "Slot 8",
+                "label": "SCP 8",
                 "value": 7,
                 "type": "num"
             },
             {
-                "label": "Slot 9",
+                "label": "SCP 9",
                 "value": 8,
                 "type": "num"
             },
             {
-                "label": "Slot 10",
+                "label": "SCP 10",
                 "value": 9,
                 "type": "num"
             },
             {
-                "label": "Slot 11",
+                "label": "SCP 11",
                 "value": 10,
                 "type": "num"
             },
             {
-                "label": "Slot 12",
+                "label": "SCP 12",
                 "value": 11,
                 "type": "num"
             }
         ],
         "payload": "",
         "topic": "",
+        "topicType": "str",
         "x": 590,
         "y": 110,
         "wires": [
