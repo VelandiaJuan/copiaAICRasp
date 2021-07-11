@@ -250,6 +250,123 @@
         "icon": "font-awesome/fa-desktop"
     },
     {
+        "id": "5c22c23.3efb43c",
+        "type": "subflow",
+        "name": "SCP Data",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "7b72117c.cc31b"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 240,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "7b72117c.cc31b",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [
+            {
+                "name": "SCP",
+                "type": "num",
+                "value": "0",
+                "ui": {
+                    "icon": "font-awesome/fa-sort-numeric-asc",
+                    "label": {
+                        "en-US": "SCP"
+                    },
+                    "type": "input",
+                    "opts": {
+                        "types": [
+                            "num"
+                        ]
+                    }
+                }
+            }
+        ],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "adf77ef5.3ae39",
+        "type": "subflow",
+        "name": "Data Pozo ESP/PCP",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "6feadb49.4ff014"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1550,
+                "y": 20,
+                "wires": [
+                    {
+                        "id": "274668eb.fc5d78",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "a3841896.e21cd8",
+        "type": "subflow",
+        "name": "Instrumentación pozo",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 30,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "9ac00374.6d803"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 530,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "1aecebc1.60fd74",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
         "id": "f7ed166d.1aa528",
         "type": "group",
         "z": "827787d0.ede678",
@@ -360,11 +477,12 @@
         "nodes": [
             "5dcc4d5b.20caf4",
             "4c3a9b2b.9e2814",
-            "aaec9822.a14198"
+            "bcf4fff3.6451c",
+            "9959ff.cbb026"
         ],
-        "x": 14,
+        "x": 24,
         "y": 9,
-        "w": 472,
+        "w": 562,
         "h": 82
     },
     {
@@ -382,7 +500,6 @@
         },
         "nodes": [
             "c8f67d0b.44558",
-            "ae5bec70.81fd1",
             "c0ad00ca.fe8c4",
             "99fb6c63.e47a9",
             "f4766d6e.075c3",
@@ -419,22 +536,23 @@
             "dfc5bdb9.d9a96",
             "ee4c814.2461e8",
             "efde2660.167898",
-            "d2f719f2.cef708",
-            "1141d6c2.062099",
-            "6a7dd310.35871c",
-            "881be3e6.c79b7",
-            "d3355a62.d301d8",
-            "18613687.86e409",
-            "9e5344aa.704878",
-            "6d6c90aa.8f88b",
-            "1716c5bc.5fed6a",
-            "25b882c0.601c9e",
-            "26c1b029.b91b3"
+            "cf54e9f1.20a918",
+            "7258894.b266978",
+            "2f875fdd.421d5",
+            "262d2195.1a4a7e",
+            "68cc7327.b8b70c",
+            "23b75c2c.848eb4",
+            "8fac6d8a.1f21f",
+            "27fdcd18.a55762",
+            "8bcc662.c733998",
+            "e3f6b9e9.f54018",
+            "6f42bb08.a21f74",
+            "51e191bb.59c8a"
         ],
         "x": 64,
         "y": 19,
-        "w": 722,
-        "h": 1552
+        "w": 682,
+        "h": 1002
     },
     {
         "id": "2f18e23b.de32ce",
@@ -453,8 +571,8 @@
             "b710a90e.0dd388",
             "f3f54db2.c4674"
         ],
-        "x": 18,
-        "y": 103,
+        "x": 28,
+        "y": 573,
         "w": 424,
         "h": 214
     },
@@ -472,9 +590,7 @@
             "cf57802e.7d258"
         ],
         "x": 8,
-        "y": 13,
-        "w": 1844,
-        "h": 214
+        "y": 13
     },
     {
         "id": "3383e29e.9b29fe",
@@ -500,9 +616,7 @@
             "576f3936.7493b8"
         ],
         "x": 24,
-        "y": 79,
-        "w": 582,
-        "h": 302
+        "y": 79
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -579,8 +693,8 @@
             "26c5e6f4.5cc1fa",
             "2526682.c405998"
         ],
-        "x": 244,
-        "y": 129,
+        "x": 254,
+        "y": 599,
         "w": 172,
         "h": 162
     },
@@ -602,8 +716,8 @@
             "3cc764fd.7e58cc",
             "1acb0c29.0ddee4"
         ],
-        "x": 44,
-        "y": 129,
+        "x": 54,
+        "y": 599,
         "w": 192,
         "h": 122
     },
@@ -633,9 +747,7 @@
             "1660e38d.24cefc"
         ],
         "x": 34,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -663,9 +775,7 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "a80677cf.4274c8",
@@ -730,6 +840,107 @@
         "y": 479,
         "w": 372,
         "h": 162
+    },
+    {
+        "id": "73df5953.fc56e8",
+        "type": "group",
+        "z": "a70735f4.fb54d8",
+        "name": "Configuración Clúster",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "5d3a6d1e.f36e64",
+            "a5204587.b883d8",
+            "120f2cfa.456e63",
+            "7522f5b8.a4638c",
+            "dd9f6ceb.ddbe7",
+            "f8ac9870.c119d8",
+            "22860dee.e67e42",
+            "5517b73.bd02348",
+            "f4be3cec.c935f",
+            "43505e5f.1b221",
+            "cfa9bf86.2a8a3",
+            "3a0224.13cb4ddc",
+            "ca8542a4.5ca1d",
+            "bbcf7cf4.41f79",
+            "e2c69396.80d27",
+            "4c43476f.e5a758",
+            "4c365ddf.1dae34",
+            "d84a013f.273ce",
+            "c308cca6.9801f"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 872,
+        "h": 422
+    },
+    {
+        "id": "c58d9126.1869c",
+        "type": "group",
+        "z": "a70735f4.fb54d8",
+        "name": "Pozos configurados clúster",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "34e66c29.ca92a4",
+            "2f6dd56b.2afc3a",
+            "55d5f923.1289d8",
+            "d17b6cd1.dd167",
+            "31bedd83.c1a8a2",
+            "7ce5179f.e149d8",
+            "5657a4b8.0747bc"
+        ],
+        "x": 34,
+        "y": 469,
+        "w": 732,
+        "h": 152
+    },
+    {
+        "id": "565d8ee7.eb7be",
+        "type": "group",
+        "z": "a70735f4.fb54d8",
+        "name": "Visualización de SCP en Despliegue general",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "9ba40ae6.a2adb8",
+            "cce204b9.8dd2e8",
+            "a4175c32.53b77"
+        ],
+        "x": 34,
+        "y": 629,
+        "w": 612,
+        "h": 82
+    },
+    {
+        "id": "222c08a.f1e28f8",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "526b68fa.fc36e8",
+            "e13ed5c.7271528",
+            "14b55c52.d0b904",
+            "c4b00d9d.c758e"
+        ],
+        "x": 24,
+        "y": 99,
+        "w": 812,
+        "h": 82
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -849,7 +1060,7 @@
     {
         "id": "55735b30.433a74",
         "type": "ui_tab",
-        "name": "Datos eléctricos cluster",
+        "name": "Datos eléctricos clúster",
         "icon": "flash_on",
         "order": 3,
         "disabled": false,
@@ -867,7 +1078,7 @@
     {
         "id": "dfe3c396.db089",
         "type": "ui_tab",
-        "name": "Configuración cluster",
+        "name": "Configuración clúster",
         "icon": "settings",
         "order": 7,
         "disabled": false,
@@ -1471,7 +1682,7 @@
     {
         "id": "8a018e42.06fde",
         "type": "ui_group",
-        "name": "Slot1",
+        "name": "SCP 1",
         "tab": "f1b2af10.0bee2",
         "order": 1,
         "disp": false,
@@ -1481,7 +1692,7 @@
     {
         "id": "f1a1813a.84784",
         "type": "ui_group",
-        "name": "Slot2",
+        "name": "SCP 2",
         "tab": "f1b2af10.0bee2",
         "order": 2,
         "disp": false,
@@ -1491,7 +1702,7 @@
     {
         "id": "854d4faa.123a8",
         "type": "ui_group",
-        "name": "Slot3",
+        "name": "SCP 3",
         "tab": "f1b2af10.0bee2",
         "order": 3,
         "disp": false,
@@ -1501,7 +1712,7 @@
     {
         "id": "786b9ce6.f34b34",
         "type": "ui_group",
-        "name": "Slot4",
+        "name": "SCP 4",
         "tab": "f1b2af10.0bee2",
         "order": 4,
         "disp": false,
@@ -1511,7 +1722,7 @@
     {
         "id": "553d0874.395628",
         "type": "ui_group",
-        "name": "Slot5",
+        "name": "SCP 5",
         "tab": "f1b2af10.0bee2",
         "order": 5,
         "disp": false,
@@ -1521,7 +1732,7 @@
     {
         "id": "3f18a2c3.e8fb3e",
         "type": "ui_group",
-        "name": "Slot6",
+        "name": "SCP 6",
         "tab": "f1b2af10.0bee2",
         "order": 6,
         "disp": false,
@@ -1531,7 +1742,7 @@
     {
         "id": "c61170a6.5aa2f",
         "type": "ui_group",
-        "name": "Slot7",
+        "name": "SCP 7",
         "tab": "f1b2af10.0bee2",
         "order": 7,
         "disp": false,
@@ -1541,7 +1752,7 @@
     {
         "id": "df3d01e9.46719",
         "type": "ui_group",
-        "name": "Slot8",
+        "name": "SCP 8",
         "tab": "f1b2af10.0bee2",
         "order": 8,
         "disp": false,
@@ -1551,7 +1762,7 @@
     {
         "id": "4656f808.efa458",
         "type": "ui_group",
-        "name": "Slot9",
+        "name": "SCP 9",
         "tab": "f1b2af10.0bee2",
         "order": 9,
         "disp": false,
@@ -1561,7 +1772,7 @@
     {
         "id": "1a45cea8.ec8a51",
         "type": "ui_group",
-        "name": "Slot10",
+        "name": "SCP 10",
         "tab": "f1b2af10.0bee2",
         "order": 10,
         "disp": false,
@@ -1571,7 +1782,7 @@
     {
         "id": "6c2d0a9a.6e6dc4",
         "type": "ui_group",
-        "name": "Slot11",
+        "name": "SCP 11",
         "tab": "f1b2af10.0bee2",
         "order": 11,
         "disp": false,
@@ -1581,7 +1792,7 @@
     {
         "id": "8133277b.cad988",
         "type": "ui_group",
-        "name": "Slot12",
+        "name": "SCP 12",
         "tab": "f1b2af10.0bee2",
         "order": 12,
         "disp": false,
@@ -1683,31 +1894,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
+        "x": 640,
         "y": 60,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ae5bec70.81fd1",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 60,
-        "wires": [
-            [
-                "c0ad00ca.fe8c4",
-                "44ab73f9.6a72cc"
-            ]
         ]
     },
     {
@@ -1738,7 +1928,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div style=\"margin-top:5px;\" ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <!--<div ng-bind-html=\"msg.Alert\"></div>-->\n            {{{Alert}}}\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{/*background-color: coral;*/}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div style=\"margin-top:5px;\" ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>\n                td,h5 {text-align:center;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 540,
         "y": 30,
@@ -1772,7 +1962,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{wellName}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 380,
         "y": 30,
@@ -1812,8 +2002,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 100,
+        "x": 640,
+        "y": 140,
         "wires": [
             []
         ]
@@ -1833,8 +2023,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 140,
+        "x": 640,
+        "y": 220,
         "wires": [
             []
         ]
@@ -1854,8 +2044,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 180,
+        "x": 640,
+        "y": 300,
         "wires": [
             []
         ]
@@ -1875,8 +2065,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 220,
+        "x": 640,
+        "y": 380,
         "wires": [
             []
         ]
@@ -1896,8 +2086,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 260,
+        "x": 640,
+        "y": 460,
         "wires": [
             []
         ]
@@ -1917,8 +2107,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 300,
+        "x": 640,
+        "y": 540,
         "wires": [
             []
         ]
@@ -1938,8 +2128,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 340,
+        "x": 640,
+        "y": 620,
         "wires": [
             []
         ]
@@ -1959,8 +2149,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 380,
+        "x": 640,
+        "y": 700,
         "wires": [
             []
         ]
@@ -1980,8 +2170,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 420,
+        "x": 630,
+        "y": 780,
         "wires": [
             []
         ]
@@ -2001,8 +2191,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 460,
+        "x": 630,
+        "y": 860,
         "wires": [
             []
         ]
@@ -2022,8 +2212,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 680,
-        "y": 500,
+        "x": 630,
+        "y": 940,
         "wires": [
             []
         ]
@@ -2035,7 +2225,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 190,
+        "y": 140,
         "wires": [
             [
                 "99fb6c63.e47a9"
@@ -2050,7 +2240,7 @@
         "name": "",
         "env": [],
         "x": 470,
-        "y": 320,
+        "y": 220,
         "wires": [
             [
                 "f4766d6e.075c3"
@@ -2064,7 +2254,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 450,
+        "y": 300,
         "wires": [
             [
                 "b475e37b.ecb29"
@@ -2079,7 +2269,7 @@
         "name": "",
         "env": [],
         "x": 470,
-        "y": 580,
+        "y": 380,
         "wires": [
             [
                 "33e400e4.4f142"
@@ -2093,7 +2283,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 710,
+        "y": 460,
         "wires": [
             [
                 "adb6e929.4a43a8"
@@ -2107,7 +2297,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 840,
+        "y": 540,
         "wires": [
             [
                 "812eac9a.52c8f"
@@ -2121,7 +2311,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 970,
+        "y": 620,
         "wires": [
             [
                 "a88a67bb.4840e8"
@@ -2135,7 +2325,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 1100,
+        "y": 700,
         "wires": [
             [
                 "a71a1cf.79135e"
@@ -2150,7 +2340,7 @@
         "name": "",
         "env": [],
         "x": 470,
-        "y": 1230,
+        "y": 780,
         "wires": [
             [
                 "831dcb7f.c49dc8"
@@ -2164,7 +2354,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 1360,
+        "y": 860,
         "wires": [
             [
                 "699973a3.1aed4c"
@@ -2178,7 +2368,7 @@
         "g": "cf7122b5.0b85",
         "name": "",
         "x": 470,
-        "y": 1490,
+        "y": 940,
         "wires": [
             [
                 "f4ce9cc5.fc85f"
@@ -3694,10 +3884,12 @@
         ],
         "payload": "",
         "topic": "topic",
-        "x": 390,
+        "x": 310,
         "y": 50,
         "wires": [
-            []
+            [
+                "9959ff.cbb026"
+            ]
         ]
     },
     {
@@ -3706,43 +3898,17 @@
         "z": "e997ba3b.48cc18",
         "g": "73a228cd.9d45d8",
         "name": "",
-        "func": "msg.options = [{\n    \"label1\":\"value1\",\n    \"label2\":\"value2\",\n}]\nreturn msg;",
+        "func": "var Cluster = global.get(\"Cluster\")||[];\n// Extraer información sobre SCP Disponibles\nmsg.disponible  = [];\nmsg.options     = [];\nfor(var i=0; i<Cluster.length; i+=1){\n    msg.disponible.push(Cluster[i].Disponible);\n    msg.disponible[i]= msg.disponible[i]== \"No\" ? false:true;\n    \n    if(msg.disponible[i]){\n        msg.options.push(Cluster[i].Nombre);\n    }\n}\nmsg.payload = Cluster;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
+        "x": 160,
         "y": 50,
         "wires": [
             [
                 "5dcc4d5b.20caf4"
-            ]
-        ]
-    },
-    {
-        "id": "aaec9822.a14198",
-        "type": "inject",
-        "z": "e997ba3b.48cc18",
-        "g": "73a228cd.9d45d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 50,
-        "wires": [
-            [
-                "4c3a9b2b.9e2814"
             ]
         ]
     },
@@ -3762,8 +3928,8 @@
         "mode": "number",
         "delay": "100",
         "topic": "Ref",
-        "x": 140,
-        "y": 170,
+        "x": 150,
+        "y": 640,
         "wires": [
             []
         ]
@@ -3787,8 +3953,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "Send",
-        "x": 150,
-        "y": 210,
+        "x": 160,
+        "y": 680,
         "wires": [
             []
         ]
@@ -3812,8 +3978,8 @@
         "payload": "Start",
         "payloadType": "str",
         "topic": "Basic",
-        "x": 330,
-        "y": 170,
+        "x": 340,
+        "y": 640,
         "wires": [
             []
         ]
@@ -3837,8 +4003,8 @@
         "payload": "Stop",
         "payloadType": "str",
         "topic": "Basic",
-        "x": 330,
-        "y": 210,
+        "x": 340,
+        "y": 680,
         "wires": [
             []
         ]
@@ -3862,8 +4028,8 @@
         "payload": "Reset",
         "payloadType": "str",
         "topic": "Basic",
-        "x": 330,
-        "y": 250,
+        "x": 340,
+        "y": 720,
         "wires": [
             []
         ]
@@ -3872,6 +4038,7 @@
         "id": "526b68fa.fc36e8",
         "type": "ui_template",
         "z": "e997ba3b.48cc18",
+        "g": "222c08a.f1e28f8",
         "group": "6e1fd4cd.a547cc",
         "name": "",
         "order": 0,
@@ -3882,250 +4049,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1540,
-        "y": 500,
+        "x": 750,
+        "y": 140,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "4c8016a0.a30778",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Menu datos operativos",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 1350,
-        "y": 500,
-        "wires": [
-            [
-                "526b68fa.fc36e8"
-            ]
-        ]
-    },
-    {
-        "id": "c05f897a.e0d498",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Menu PCP",
-        "field": "menu",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"row\">\n    <div class=\"col\">\n        <ul class=\"nav nav-pills nav-fill flex-column flex-sm-row mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link active\" id=\"pills-datosOperativos-tab\" data-toggle=\"pill\" href=\"#pills-datosOperativos\" role=\"tab\" aria-controls=\"pills-datosOperativos\" aria-selected=\"true\">Datos operativos</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link\" id=\"pills-datosCabezal-tab\" data-toggle=\"pill\" href=\"#pills-datosCabezal\" role=\"tab\" aria-controls=\"pills-datosCabezal\" aria-selected=\"false\">Datos de cabezal</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link\" id=\"pills-datosElectricos-tab\" data-toggle=\"pill\" href=\"#pills-datosElectricos\" role=\"tab\" aria-controls=\"pills-datosElectricos\" aria-selected=\"false\">Datos eléctricos</a>\n            </li>\n        </ul>\n            <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-datosOperativos\" role=\"tabpanel\" aria-labelledby=\"pills-datosOperativos-tab\">{{{datosOperativosPCP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosCabezal\" role=\"tabpanel\" aria-labelledby=\"pills-datosCabezal-tab\">{{{datosCabezal}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosElectricos\" role=\"tabpanel\" aria-labelledby=\"pills-datosElectricos-tab\">{{{datosElectricosPCP}}}</div>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 910,
-        "y": 500,
-        "wires": [
-            [
-                "4c8016a0.a30778"
-            ]
-        ]
-    },
-    {
-        "id": "46898434.d66d9c",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Menu ESP",
-        "field": "menu",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"row\">\n    <div class=\"col\">\n        <ul class=\"nav nav-pills nav-fill flex-column flex-sm-row mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link active\" id=\"pills-datosOperativos-tab\" data-toggle=\"pill\" href=\"#pills-datosOperativos\" role=\"tab\" aria-controls=\"pills-datosOperativos\" aria-selected=\"true\">Datos operativos</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosFondo-tab\" data-toggle=\"pill\" href=\"#pills-datosFondo\" role=\"tab\" aria-controls=\"pills-datosFondo\" aria-selected=\"false\">Datos de fondo</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosCabezal-tab\" data-toggle=\"pill\" href=\"#pills-datosCabezal\" role=\"tab\" aria-controls=\"pills-datosCabezal\" aria-selected=\"false\">Datos de cabezal</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosElectricos-tab\" data-toggle=\"pill\" href=\"#pills-datosElectricos\" role=\"tab\" aria-controls=\"pills-datosElectricos\" aria-selected=\"false\">Datos eléctricos</a>\n            </li>\n            \n        </ul>\n            <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-datosOperativos\" role=\"tabpanel\" aria-labelledby=\"pills-datosOperativos-tab\">{{{datosOperativosESP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosFondo\" role=\"tabpanel\" aria-labelledby=\"pills-datosFondo-tab\">{{{datosFondoESP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosCabezal\" role=\"tabpanel\" aria-labelledby=\"pills-datosCabezal-tab\">{{{datosCabezal}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosElectricos\" role=\"tabpanel\" aria-labelledby=\"pills-datosElectricos-tab\">{{{datosElectricosESP}}}</div>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 1130,
-        "y": 540,
-        "wires": [
-            [
-                "4c8016a0.a30778"
-            ]
-        ]
-    },
-    {
-        "id": "5a6ec3a9.5ae78c",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos operativos PCP",
-        "field": "datosOperativosPCP",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>RPM motor</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión motor</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Relación de reducción</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>RPM bomba</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Torque actual</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Torque nominal</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 280,
-        "y": 500,
-        "wires": [
-            [
-                "be9177af.3b2a38"
-            ]
-        ]
-    },
-    {
-        "id": "77770205.85d99c",
-        "type": "inject",
-        "z": "e997ba3b.48cc18",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 500,
-        "wires": [
-            [
-                "5a6ec3a9.5ae78c"
-            ]
-        ]
-    },
-    {
-        "id": "b479627a.c3fb3",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos operativos ESP",
-        "field": "datosOperativosESP",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Frecuencia de salida</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente primario</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión primario</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Ángulo</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente secundario</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión secundario</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Relación de transformación</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 280,
-        "y": 540,
-        "wires": [
-            [
-                "987d3e05.14865"
-            ]
-        ]
-    },
-    {
-        "id": "30d0cb57.05d7b4",
-        "type": "inject",
-        "z": "e997ba3b.48cc18",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 540,
-        "wires": [
-            [
-                "b479627a.c3fb3"
-            ]
-        ]
-    },
-    {
-        "id": "be9177af.3b2a38",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos de cabezal PCP",
-        "field": "datosCabezal",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 500,
-        "y": 500,
-        "wires": [
-            [
-                "93dd795f.5daf18"
-            ]
-        ]
-    },
-    {
-        "id": "5808f215.66242c",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos de cabezal ESP",
-        "field": "datosCabezal",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 720,
-        "y": 540,
-        "wires": [
-            [
-                "9745ebbe.7193e8"
-            ]
-        ]
-    },
-    {
-        "id": "93dd795f.5daf18",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos eléctricos PCP",
-        "field": "datosElectricosPCP",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>50</td>\n                        <td>Tensión L-L</td>\n                        <td>50</td>\n                        <td>Corriente</td>\n                        <td>50</td>\n                        <td>Frecuencia</td>\n                        <td>50</td>\n                        <td>THD-I</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>50</td>\n                        <td>Potencia Activa</td>\n                        <td>50</td>\n                        <td>Potencia Reactiva</td>\n                        <td>50</td>\n                        <td>Cos ⏀</td>\n                        <td>50</td>\n                        <td>THD-V</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 720,
-        "y": 500,
-        "wires": [
-            [
-                "c05f897a.e0d498"
-            ]
-        ]
-    },
-    {
-        "id": "9745ebbe.7193e8",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos eléctricos ESP",
-        "field": "datosElectricosESP",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>50</td>\n                        <td>Tensión L-L</td>\n                        <td>50</td>\n                        <td>Corriente</td>\n                        <td>50</td>\n                        <td>Frecuencia</td>\n                        <td>50</td>\n                        <td>THD-I</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>50</td>\n                        <td>Potencia Activa</td>\n                        <td>50</td>\n                        <td>Potencia Reactiva</td>\n                        <td>50</td>\n                        <td>Cos ⏀</td>\n                        <td>50</td>\n                        <td>THD-V</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 940,
-        "y": 540,
-        "wires": [
-            [
-                "46898434.d66d9c"
-            ]
-        ]
-    },
-    {
-        "id": "987d3e05.14865",
-        "type": "template",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos de fondo ESP",
-        "field": "datosFondoESP",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna-->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión de motor</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente de motor</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de descarga</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Presión de entrada</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Vibración general</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura de entrada</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de descarga</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de motor</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 500,
-        "y": 540,
-        "wires": [
-            [
-                "5808f215.66242c"
-            ]
         ]
     },
     {
@@ -4165,8 +4092,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 520,
-        "y": 340,
+        "x": 980,
+        "y": 590,
         "wires": [
             []
         ]
@@ -4183,8 +4110,8 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 520,
-        "y": 380,
+        "x": 980,
+        "y": 630,
         "wires": []
     },
     {
@@ -5416,7 +5343,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 230,
+        "y": 180,
         "wires": []
     },
     {
@@ -5431,7 +5358,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 360,
+        "y": 260,
         "wires": []
     },
     {
@@ -5446,7 +5373,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 490,
+        "y": 340,
         "wires": []
     },
     {
@@ -5461,7 +5388,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 620,
+        "y": 420,
         "wires": []
     },
     {
@@ -5476,7 +5403,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 750,
+        "y": 500,
         "wires": []
     },
     {
@@ -5491,7 +5418,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 880,
+        "y": 580,
         "wires": []
     },
     {
@@ -5506,7 +5433,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 1010,
+        "y": 660,
         "wires": []
     },
     {
@@ -5521,7 +5448,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 1140,
+        "y": 740,
         "wires": []
     },
     {
@@ -5536,7 +5463,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 1270,
+        "y": 820,
         "wires": []
     },
     {
@@ -5551,7 +5478,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 1400,
+        "y": 900,
         "wires": []
     },
     {
@@ -5566,7 +5493,7 @@
             "c4d0ad79.75405"
         ],
         "x": 425,
-        "y": 1530,
+        "y": 980,
         "wires": []
     },
     {
@@ -6403,16 +6330,18 @@
         "id": "5d3a6d1e.f36e64",
         "type": "ui_switch",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "label": "Disponible",
         "tooltip": "",
         "group": "c5f05af1.a4c158",
-        "order": 6,
+        "order": 2,
         "width": "0",
         "height": "0",
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -6422,8 +6351,9 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 580,
-        "y": 360,
+        "animate": true,
+        "x": 460,
+        "y": 330,
         "wires": [
             [
                 "ca8542a4.5ca1d"
@@ -6434,19 +6364,21 @@
         "id": "a5204587.b883d8",
         "type": "ui_text_input",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "label": "Nombre del pozo",
         "tooltip": "",
         "group": "c5f05af1.a4c158",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "x": 600,
-        "y": 160,
+        "topicType": "str",
+        "x": 480,
+        "y": 130,
         "wires": [
             [
                 "f4be3cec.c935f"
@@ -6671,8 +6603,8 @@
         "high": "100",
         "inte": "true",
         "property": "payload",
-        "x": 210,
-        "y": 340,
+        "x": 670,
+        "y": 590,
         "wires": [
             [
                 "cce135f5.fcfef8"
@@ -6696,8 +6628,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 80,
-        "y": 340,
+        "x": 540,
+        "y": 590,
         "wires": [
             [
                 "8409e010.37ba6",
@@ -6709,10 +6641,11 @@
         "id": "120f2cfa.456e63",
         "type": "ui_dropdown",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Posición cluster",
         "label": "Posición:",
         "tooltip": "",
-        "place": "Seleccione una posición",
+        "place": "Seleccione SCP",
         "group": "c5f05af1.a4c158",
         "order": 1,
         "width": 0,
@@ -6784,11 +6717,11 @@
         "payload": "",
         "topic": "",
         "topicType": "str",
-        "x": 590,
-        "y": 110,
+        "x": 470,
+        "y": 80,
         "wires": [
             [
-                "c842b748.2bafd8"
+                "4c365ddf.1dae34"
             ]
         ]
     },
@@ -6796,15 +6729,16 @@
         "id": "7522f5b8.a4638c",
         "type": "ui_dropdown",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Levantamiento",
         "label": "Tipo de levantamiento:",
         "tooltip": "",
         "place": "Tipo ALS",
         "group": "c5f05af1.a4c158",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "multiple": false,
         "options": [
             {
@@ -6820,8 +6754,9 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 590,
-        "y": 210,
+        "topicType": "str",
+        "x": 470,
+        "y": 180,
         "wires": [
             [
                 "43505e5f.1b221"
@@ -6832,15 +6767,16 @@
         "id": "dd9f6ceb.ddbe7",
         "type": "ui_dropdown",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Marca Variador",
         "label": "Variador:",
         "tooltip": "",
         "place": "Marca de variador",
         "group": "c5f05af1.a4c158",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "multiple": false,
         "options": [
             {
@@ -6850,7 +6786,7 @@
             },
             {
                 "label": "SLB Uniconn",
-                "value": "SLB_Uniconn",
+                "value": "SLB Uniconn",
                 "type": "str"
             },
             {
@@ -6881,8 +6817,9 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 590,
-        "y": 260,
+        "topicType": "str",
+        "x": 470,
+        "y": 230,
         "wires": [
             [
                 "cfa9bf86.2a8a3"
@@ -6893,15 +6830,16 @@
         "id": "f8ac9870.c119d8",
         "type": "ui_dropdown",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Marca Sensor de fondo",
         "label": "Sensor de Fondo:",
         "tooltip": "",
         "place": "Marca",
         "group": "c5f05af1.a4c158",
-        "order": 5,
+        "order": 6,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "multiple": false,
         "options": [
             {
@@ -6937,8 +6875,9 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 620,
-        "y": 310,
+        "topicType": "str",
+        "x": 500,
+        "y": 280,
         "wires": [
             [
                 "3a0224.13cb4ddc"
@@ -6949,6 +6888,7 @@
         "id": "22860dee.e67e42",
         "type": "ui_button",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "group": "c5f05af1.a4c158",
         "order": 7,
@@ -6963,8 +6903,9 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 580,
-        "y": 410,
+        "topicType": "str",
+        "x": 460,
+        "y": 380,
         "wires": [
             [
                 "bbcf7cf4.41f79"
@@ -6975,6 +6916,7 @@
         "id": "5517b73.bd02348",
         "type": "ui_button",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "group": "c5f05af1.a4c158",
         "order": 8,
@@ -6989,8 +6931,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 560,
-        "y": 450,
+        "x": 440,
+        "y": 420,
         "wires": [
             [
                 "e2c69396.80d27"
@@ -7006,8 +6948,8 @@
         "high": 10,
         "inte": "true",
         "property": "payload",
-        "x": 210,
-        "y": 380,
+        "x": 670,
+        "y": 630,
         "wires": [
             [
                 "ad7c56ce.ca1d48"
@@ -7033,8 +6975,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 340,
+        "x": 800,
+        "y": 590,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -7067,8 +7009,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 380,
+        "x": 800,
+        "y": 630,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -7092,8 +7034,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 200,
-        "y": 420,
+        "x": 660,
+        "y": 670,
         "wires": [
             [
                 "3d0c56be.4680ca"
@@ -7111,8 +7053,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 420,
+        "x": 800,
+        "y": 670,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -7123,6 +7065,7 @@
         "id": "f4be3cec.c935f",
         "type": "change",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "rules": [
             {
@@ -7138,8 +7081,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
-        "y": 160,
+        "x": 730,
+        "y": 130,
         "wires": [
             []
         ]
@@ -7148,6 +7091,7 @@
         "id": "43505e5f.1b221",
         "type": "change",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "rules": [
             {
@@ -7163,8 +7107,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 840,
-        "y": 210,
+        "x": 720,
+        "y": 180,
         "wires": [
             []
         ]
@@ -7173,6 +7117,7 @@
         "id": "cfa9bf86.2a8a3",
         "type": "change",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "rules": [
             {
@@ -7188,8 +7133,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
-        "y": 260,
+        "x": 730,
+        "y": 230,
         "wires": [
             []
         ]
@@ -7198,6 +7143,7 @@
         "id": "3a0224.13cb4ddc",
         "type": "change",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "rules": [
             {
@@ -7213,33 +7159,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
-        "y": 310,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c842b748.2bafd8",
-        "type": "change",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Pozo.Posicion",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 110,
+        "x": 730,
+        "y": 280,
         "wires": [
             []
         ]
@@ -7248,6 +7169,7 @@
         "id": "ca8542a4.5ca1d",
         "type": "change",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "",
         "rules": [
             {
@@ -7263,8 +7185,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
-        "y": 360,
+        "x": 740,
+        "y": 330,
         "wires": [
             []
         ]
@@ -7554,44 +7476,6 @@
         ]
     },
     {
-        "id": "f7e15924.18f5a8",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 40,
-        "wires": [
-            [
-                "4fe5a1bf.49bbd"
-            ]
-        ]
-    },
-    {
-        "id": "e3f4b4b2.dac138",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 40,
-        "wires": [
-            [
-                "26433f36.0b2a"
-            ]
-        ]
-    },
-    {
         "id": "26433f36.0b2a",
         "type": "ui_template",
         "z": "75f74480.41235c",
@@ -7605,67 +7489,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 40,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "4fe5a1bf.49bbd",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 40,
-        "wires": [
-            [
-                "e3f4b4b2.dac138"
-            ]
-        ]
-    },
-    {
-        "id": "cf77789d.c67018",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 80,
-        "wires": [
-            [
-                "43a1fb94.691d14"
-            ]
-        ]
-    },
-    {
-        "id": "c90feea0.43903",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 80,
-        "wires": [
-            [
-                "eb6487da.4cc148"
-            ]
         ]
     },
     {
@@ -7682,29 +7509,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 80,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "43a1fb94.691d14",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 80,
-        "wires": [
-            [
-                "c90feea0.43903"
-            ]
         ]
     },
     {
@@ -7721,67 +7529,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 120,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e5a8826e.9fc49",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 120,
-        "wires": [
-            [
-                "b117fac5.2ceca8"
-            ]
-        ]
-    },
-    {
-        "id": "ea2f857d.377fd8",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 120,
-        "wires": [
-            [
-                "e5a8826e.9fc49"
-            ]
-        ]
-    },
-    {
-        "id": "e44b2bd7.b40b48",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 120,
-        "wires": [
-            [
-                "ea2f857d.377fd8"
-            ]
         ]
     },
     {
@@ -7798,67 +7549,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 160,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e0a3c42a.b2f118",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 160,
-        "wires": [
-            [
-                "a8805e10.ff9ac"
-            ]
-        ]
-    },
-    {
-        "id": "885bc581.689b58",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 160,
-        "wires": [
-            [
-                "e0a3c42a.b2f118"
-            ]
-        ]
-    },
-    {
-        "id": "b4ad81b8.f6bb1",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 160,
-        "wires": [
-            [
-                "885bc581.689b58"
-            ]
         ]
     },
     {
@@ -7875,67 +7569,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 200,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e18882e1.f0d2c",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 200,
-        "wires": [
-            [
-                "16fcfb0f.84a625"
-            ]
-        ]
-    },
-    {
-        "id": "53277549.53c6cc",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 200,
-        "wires": [
-            [
-                "e18882e1.f0d2c"
-            ]
-        ]
-    },
-    {
-        "id": "9ce9205c.f0344",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 200,
-        "wires": [
-            [
-                "53277549.53c6cc"
-            ]
         ]
     },
     {
@@ -7952,67 +7589,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 240,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "dde647ea.ae39a8",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 240,
-        "wires": [
-            [
-                "5315807d.21e8b"
-            ]
-        ]
-    },
-    {
-        "id": "e66eced1.542d4",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 240,
-        "wires": [
-            [
-                "dde647ea.ae39a8"
-            ]
-        ]
-    },
-    {
-        "id": "835fbd72.2af3a",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 240,
-        "wires": [
-            [
-                "e66eced1.542d4"
-            ]
         ]
     },
     {
@@ -8029,67 +7609,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 280,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ad599504.474d48",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 280,
-        "wires": [
-            [
-                "921cfaa1.d93a18"
-            ]
-        ]
-    },
-    {
-        "id": "6b68b0a8.f0185",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 280,
-        "wires": [
-            [
-                "ad599504.474d48"
-            ]
-        ]
-    },
-    {
-        "id": "581ce93d.034238",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 280,
-        "wires": [
-            [
-                "6b68b0a8.f0185"
-            ]
         ]
     },
     {
@@ -8106,67 +7629,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 320,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "36dd93da.b8bebc",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 320,
-        "wires": [
-            [
-                "bdea598e.e672c8"
-            ]
-        ]
-    },
-    {
-        "id": "2c5c2d4f.aae8e2",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 320,
-        "wires": [
-            [
-                "36dd93da.b8bebc"
-            ]
-        ]
-    },
-    {
-        "id": "eee06de8.d4dbf",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 320,
-        "wires": [
-            [
-                "2c5c2d4f.aae8e2"
-            ]
         ]
     },
     {
@@ -8183,67 +7649,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 360,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "a82b12c8.17c24",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 360,
-        "wires": [
-            [
-                "60782f0e.b5513"
-            ]
-        ]
-    },
-    {
-        "id": "4ca3db0a.9461a4",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 360,
-        "wires": [
-            [
-                "a82b12c8.17c24"
-            ]
-        ]
-    },
-    {
-        "id": "882fd2d9.c6a2b",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 360,
-        "wires": [
-            [
-                "4ca3db0a.9461a4"
-            ]
         ]
     },
     {
@@ -8260,67 +7669,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 400,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "a1f9efb0.5127b",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 400,
-        "wires": [
-            [
-                "af270fa4.d0829"
-            ]
-        ]
-    },
-    {
-        "id": "c2ab0d99.292a9",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 400,
-        "wires": [
-            [
-                "a1f9efb0.5127b"
-            ]
-        ]
-    },
-    {
-        "id": "b791e3a9.cece2",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 400,
-        "wires": [
-            [
-                "c2ab0d99.292a9"
-            ]
         ]
     },
     {
@@ -8337,67 +7689,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 440,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "3ed17999.e0f7d6",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 440,
-        "wires": [
-            [
-                "bc130981.5aa8f8"
-            ]
-        ]
-    },
-    {
-        "id": "20777946.4a18e6",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 440,
-        "wires": [
-            [
-                "3ed17999.e0f7d6"
-            ]
-        ]
-    },
-    {
-        "id": "e8752ded.bdcfa",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 440,
-        "wires": [
-            [
-                "20777946.4a18e6"
-            ]
         ]
     },
     {
@@ -8414,67 +7709,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 790,
+        "x": 570,
         "y": 480,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ddef7483.53b5a8",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
-        "output": "str",
-        "x": 620,
-        "y": 480,
-        "wires": [
-            [
-                "858cd4ed.092328"
-            ]
-        ]
-    },
-    {
-        "id": "4f55322f.1e274c",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 460,
-        "y": 480,
-        "wires": [
-            [
-                "ddef7483.53b5a8"
-            ]
-        ]
-    },
-    {
-        "id": "5b8f7d93.0f5564",
-        "type": "template",
-        "z": "75f74480.41235c",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>{{Hz}}<strong> psi</strong></td>\n                        <td>{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 340,
-        "y": 480,
-        "wires": [
-            [
-                "4f55322f.1e274c"
-            ]
         ]
     },
     {
@@ -8489,7 +7727,7 @@
         "y": 40,
         "wires": [
             [
-                "f7e15924.18f5a8"
+                "7bbb7e49.09bf5"
             ]
         ]
     },
@@ -8505,7 +7743,7 @@
         "y": 80,
         "wires": [
             [
-                "cf77789d.c67018"
+                "ba6116cb.bd7028"
             ]
         ]
     },
@@ -8521,7 +7759,7 @@
         "y": 120,
         "wires": [
             [
-                "e44b2bd7.b40b48"
+                "72c1ff03.7fdc9"
             ]
         ]
     },
@@ -8537,7 +7775,7 @@
         "y": 160,
         "wires": [
             [
-                "b4ad81b8.f6bb1"
+                "21608ada.3ee8f6"
             ]
         ]
     },
@@ -8553,7 +7791,7 @@
         "y": 200,
         "wires": [
             [
-                "9ce9205c.f0344"
+                "57cee609.87a528"
             ]
         ]
     },
@@ -8569,7 +7807,7 @@
         "y": 240,
         "wires": [
             [
-                "835fbd72.2af3a"
+                "a5ee2e4a.79845"
             ]
         ]
     },
@@ -8585,7 +7823,7 @@
         "y": 280,
         "wires": [
             [
-                "581ce93d.034238"
+                "62eb6c20.f1a954"
             ]
         ]
     },
@@ -8601,7 +7839,7 @@
         "y": 320,
         "wires": [
             [
-                "eee06de8.d4dbf"
+                "63398349.160bec"
             ]
         ]
     },
@@ -8617,7 +7855,7 @@
         "y": 360,
         "wires": [
             [
-                "882fd2d9.c6a2b"
+                "a74c514d.96315"
             ]
         ]
     },
@@ -8633,7 +7871,7 @@
         "y": 400,
         "wires": [
             [
-                "b791e3a9.cece2"
+                "243de3c1.6c69bc"
             ]
         ]
     },
@@ -8650,7 +7888,7 @@
         "y": 440,
         "wires": [
             [
-                "e8752ded.bdcfa"
+                "2b09ad51.c5b322"
             ]
         ]
     },
@@ -8666,7 +7904,7 @@
         "y": 480,
         "wires": [
             [
-                "5b8f7d93.0f5564"
+                "979c3131.b9543"
             ]
         ]
     },
@@ -8681,7 +7919,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "",
+        "repeat": "3",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -8692,249 +7930,18 @@
         "y": 60,
         "wires": [
             [
-                "ae5bec70.81fd1",
-                "d2f719f2.cef708",
-                "1141d6c2.062099",
-                "6a7dd310.35871c",
-                "881be3e6.c79b7",
-                "d3355a62.d301d8",
-                "18613687.86e409",
-                "9e5344aa.704878",
-                "6d6c90aa.8f88b",
-                "1716c5bc.5fed6a",
-                "25b882c0.601c9e",
-                "26c1b029.b91b3"
-            ]
-        ]
-    },
-    {
-        "id": "d2f719f2.cef708",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 190,
-        "wires": [
-            [
-                "c9560b43.55c0d8",
-                "f7b106.0da29ef8"
-            ]
-        ]
-    },
-    {
-        "id": "1141d6c2.062099",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 320,
-        "wires": [
-            [
-                "e546de7d.1524d",
-                "7cc5cf5a.1a576"
-            ]
-        ]
-    },
-    {
-        "id": "6a7dd310.35871c",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 450,
-        "wires": [
-            [
-                "29b5a57e.566caa",
-                "97bae11c.61449"
-            ]
-        ]
-    },
-    {
-        "id": "881be3e6.c79b7",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 580,
-        "wires": [
-            [
-                "ec1787d3.deabb8",
-                "d4a566c6.c4e018"
-            ]
-        ]
-    },
-    {
-        "id": "d3355a62.d301d8",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 710,
-        "wires": [
-            [
-                "d74e5f4f.f62be",
-                "8b96bde.d92114"
-            ]
-        ]
-    },
-    {
-        "id": "18613687.86e409",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 840,
-        "wires": [
-            [
-                "d1a3b138.fc596",
-                "21c4c3.0b609b3e"
-            ]
-        ]
-    },
-    {
-        "id": "9e5344aa.704878",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 970,
-        "wires": [
-            [
-                "293ac75d.5bd738",
-                "9d882c1.be806d"
-            ]
-        ]
-    },
-    {
-        "id": "6d6c90aa.8f88b",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 1100,
-        "wires": [
-            [
-                "18223763.46c159",
-                "4222ac6e.f706d4"
-            ]
-        ]
-    },
-    {
-        "id": "1716c5bc.5fed6a",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 1230,
-        "wires": [
-            [
-                "128332bd.e6e68d",
-                "b8f3cd0c.b70a2"
-            ]
-        ]
-    },
-    {
-        "id": "25b882c0.601c9e",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 1360,
-        "wires": [
-            [
-                "f1b95f94.7eed7",
-                "dfc5bdb9.d9a96"
-            ]
-        ]
-    },
-    {
-        "id": "26c1b029.b91b3",
-        "type": "function",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Random",
-        "func": "msg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = getRandomInt(2) == 1 ? \"PCP\":\"ESP\";\nmsg.brand       = \"CASE-0\"+getRandom(1,99);\nmsg.VSD         = getRandomVSD();\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 1490,
-        "wires": [
-            [
-                "b2bf4260.68812",
-                "ee4c814.2461e8"
+                "cf54e9f1.20a918",
+                "7258894.b266978",
+                "2f875fdd.421d5",
+                "262d2195.1a4a7e",
+                "68cc7327.b8b70c",
+                "23b75c2c.848eb4",
+                "8fac6d8a.1f21f",
+                "27fdcd18.a55762",
+                "8bcc662.c733998",
+                "e3f6b9e9.f54018",
+                "6f42bb08.a21f74",
+                "51e191bb.59c8a"
             ]
         ]
     },
@@ -8942,50 +7949,39 @@
         "id": "bbcf7cf4.41f79",
         "type": "function",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Configurar Clúster",
-        "func": "// Leer datos del contexto\nvar Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = flow.get(\"Cluster\")||[];\n\n// Acomodar la información\nvar Pos         = Pozo.Posicion;\ndelete Pozo.Posicion;\n\n// Asignar información de pozo configurado al objeto Clúster\nCluster[Pos] = {...Pozo}\nflow.set(\"Cluster\",Cluster);\n\n// Retornar\nreturn msg;",
+        "func": "// Leer datos del contexto\nvar Data        = flow.get(\"Pozo\")||[];\nvar Pozo        = {...Data}\nvar Cluster     = global.get(\"Cluster\")||[];\n\n// Acomodar la información\nvar Pos         = Pozo.Posicion;\nPozo.SCP        = Pozo.Posicion+1;\nPozo.Disponible = Pozo.Disponible == true ? \"Si\":\"No\";\ndelete Pozo.Posicion;\n\n// Asignar información de pozo configurado al objeto Clúster\nCluster[Pos] = {...Pozo}\nglobal.set(\"Cluster\",Cluster);\n\n// Retornar\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 410,
+        "x": 720,
+        "y": 380,
         "wires": [
-            []
+            [
+                "c308cca6.9801f"
+            ]
         ]
     },
     {
         "id": "e2c69396.80d27",
         "type": "function",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Borrar Posición",
-        "func": "var Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = flow.get(\"Cluster\")||[];\n\ndelete Cluster[Pozo.Posicion];\nflow.set(\"Cluster\",Cluster);\nreturn msg;",
+        "func": "var Pozo        = flow.get(\"Pozo\")||[]\nvar Cluster     = global.get(\"Cluster\")||[];\n\nCluster[Pozo.Posicion] = {\n            SCP:Pozo.Posicion+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\nglobal.set(\"Cluster\",Cluster);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 450,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "beb0f904.a549b8",
-        "type": "complete",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "scope": [
-            "c842b748.2bafd8"
-        ],
-        "uncaught": false,
-        "x": 200,
-        "y": 290,
+        "x": 710,
+        "y": 420,
         "wires": [
             [
-                "4c43476f.e5a758"
+                "c308cca6.9801f"
             ]
         ]
     },
@@ -8993,15 +7989,16 @@
         "id": "4c43476f.e5a758",
         "type": "function",
         "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
         "name": "Leer",
-        "func": "var Cluster = flow.get(\"Cluster\")||[];\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\n\n// Nombre\ntry{Nombre = MSG(Cluster[msg.payload].Nombre);}\ncatch(error){Nombre = MSG(\"\");}\n\n// Typo levantamiento\ntry{ALS = MSG(Cluster[msg.payload].ALS);}\ncatch(error){ALS = MSG(0);}\n\n// Variador\ntry{Variador = MSG(Cluster[msg.payload].Variador);}\ncatch(error){Variador = MSG(0);}\n\n// Sendor de fondo\ntry{Sensor = MSG(Cluster[msg.payload].Sensor);}\ncatch(error){Sensor = MSG(0);}\n\n// Disponible\ntry{Disponible = MSG(Cluster[msg.payload].Disponible);}\ncatch(error){Disponible = MSG(false);}\n\nreturn [Nombre,ALS,Variador,Sensor,Disponible];\n\nfunction MSG(message){\n    return {payload: message}\n}\n\n",
+        "func": "var Cluster = global.get(\"Cluster\")||[];\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\n\n// Nombre\ntry{Nombre = MSG(Cluster[msg.payload].Nombre);}\ncatch(error){Nombre = MSG(\"\");}\n\n// Typo levantamiento\ntry{ALS = MSG(Cluster[msg.payload].ALS);}\ncatch(error){ALS = MSG(0);}\n\n// Variador\ntry{Variador = MSG(Cluster[msg.payload].Variador);}\ncatch(error){Variador = MSG(0);}\n\n// Sendor de fondo\ntry{Sensor = MSG(Cluster[msg.payload].Sensor);}\ncatch(error){Sensor = MSG(0);}\n\n// Disponible\ntry{Disponible = MSG(Cluster[msg.payload].Disponible);}\ncatch(error){Disponible = MSG(false);}\n\n// Ajuste de la información leida para cargar en los cajetines\nNombre.payload      = Nombre.payload == \" -- \" ? \"\":Nombre.payload;\nDisponible.payload  = Disponible.payload == \"No\" ? false:true;\n\nnode.status({fill:\"green\",shape:\"dot\",text:Nombre.payload});\n\nreturn [Nombre,ALS,Variador,Sensor,Disponible];\n\nfunction MSG(message){\n    return {payload: message}\n}\n\n",
         "outputs": 5,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 290,
+        "x": 270,
+        "y": 230,
         "wires": [
             [
                 "a5204587.b883d8"
@@ -9024,6 +8021,7 @@
         "id": "34e66c29.ca92a4",
         "type": "change",
         "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
         "name": "Cluster",
         "rules": [
             {
@@ -9031,7 +8029,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Cluster",
-                "tot": "flow"
+                "tot": "global"
             }
         ],
         "action": "",
@@ -9039,8 +8037,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 550,
+        "x": 310,
+        "y": 510,
         "wires": [
             [
                 "55d5f923.1289d8"
@@ -9051,22 +8049,85 @@
         "id": "2f6dd56b.2afc3a",
         "type": "ui_table",
         "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
         "group": "c4b29123.a4898",
-        "name": "",
+        "name": "Pozos configurados",
         "order": 1,
         "width": "16",
         "height": "7",
-        "columns": [],
+        "columns": [
+            {
+                "field": "SCP",
+                "title": "SCP",
+                "width": "10%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Nombre",
+                "title": "Nombre",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "ALS",
+                "title": "ALS",
+                "width": "10%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Variador",
+                "title": "Variador",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Sensor",
+                "title": "Sensor",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Disponible",
+                "title": "Disp.",
+                "width": "12%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
         "outputs": 0,
         "cts": false,
-        "x": 940,
-        "y": 550,
+        "x": 640,
+        "y": 510,
         "wires": []
     },
     {
         "id": "55d5f923.1289d8",
         "type": "delay",
         "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -9078,8 +8139,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 800,
-        "y": 550,
+        "x": 450,
+        "y": 510,
         "wires": [
             [
                 "2f6dd56b.2afc3a"
@@ -9090,6 +8151,7 @@
         "id": "d17b6cd1.dd167",
         "type": "function",
         "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
         "name": "Clear",
         "func": "msg.payload = []\nreturn msg;",
         "outputs": 1,
@@ -9097,8 +8159,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 590,
+        "x": 460,
+        "y": 550,
         "wires": [
             [
                 "2f6dd56b.2afc3a"
@@ -9109,14 +8171,15 @@
         "id": "31bedd83.c1a8a2",
         "type": "complete",
         "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
         "name": "",
         "scope": [
             "bbcf7cf4.41f79",
             "e2c69396.80d27"
         ],
         "uncaught": false,
-        "x": 500,
-        "y": 590,
+        "x": 150,
+        "y": 550,
         "wires": [
             [
                 "34e66c29.ca92a4",
@@ -9128,6 +8191,7 @@
         "id": "7ce5179f.e149d8",
         "type": "inject",
         "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
         "name": "",
         "props": [
             {
@@ -9141,29 +8205,13 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 670,
-        "y": 620,
+        "x": 320,
+        "y": 580,
         "wires": [
             [
                 "d17b6cd1.dd167"
             ]
         ]
-    },
-    {
-        "id": "19e7802f.47ae6",
-        "type": "debug",
-        "z": "a70735f4.fb54d8",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 840,
-        "y": 490,
-        "wires": []
     },
     {
         "id": "d382db6f.29f0a8",
@@ -10078,7 +9126,7 @@
         "type": "ui_chart",
         "z": "612ddf44.816d7",
         "g": "3383e29e.9b29fe",
-        "name": "",
+        "name": "Gráfico de temperatura",
         "group": "8d4c7954.48a708",
         "order": 1,
         "width": "20",
@@ -10110,7 +9158,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 480,
+        "useDifferentColor": false,
+        "x": 540,
         "y": 160,
         "wires": [
             [
@@ -10123,7 +9172,7 @@
         "type": "ui_chart",
         "z": "612ddf44.816d7",
         "g": "3383e29e.9b29fe",
-        "name": "",
+        "name": "Gráfico de velocidad de procesador",
         "group": "744bf601.7a0f58",
         "order": 1,
         "width": "20",
@@ -10155,7 +9204,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 480,
+        "useDifferentColor": false,
+        "x": 580,
         "y": 240,
         "wires": [
             []
@@ -10166,7 +9216,7 @@
         "type": "ui_chart",
         "z": "612ddf44.816d7",
         "g": "3383e29e.9b29fe",
-        "name": "",
+        "name": "Gráfico de humedad",
         "group": "cd39b0a.612255",
         "order": 1,
         "width": "20",
@@ -10198,7 +9248,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 480,
+        "useDifferentColor": false,
+        "x": 530,
         "y": 340,
         "wires": [
             [
@@ -10275,7 +9326,7 @@
         "id": "bd970623.7adcd8",
         "type": "ui_chart",
         "z": "8d6d8b52.723518",
-        "name": "",
+        "name": "Gráfico de históricos",
         "group": "bcbb6e99.54feb",
         "order": 4,
         "width": "24",
@@ -10307,7 +9358,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 330,
+        "useDifferentColor": false,
+        "x": 360,
         "y": 70,
         "wires": [
             []
@@ -10542,5 +9594,944 @@
         "x": 535,
         "y": 370,
         "wires": []
+    },
+    {
+        "id": "4c365ddf.1dae34",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "set Pozo.Posicion",
+        "func": "if (msg.payload==0){flow.set(\"Pozo.Posicion\",0);}\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\nflow.set(\"Pozo.Posicion\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d84a013f.273ce",
+        "type": "complete",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "",
+        "scope": [
+            "4c365ddf.1dae34"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 230,
+        "wires": [
+            [
+                "4c43476f.e5a758"
+            ]
+        ]
+    },
+    {
+        "id": "5657a4b8.0747bc",
+        "type": "inject",
+        "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 510,
+        "wires": [
+            [
+                "34e66c29.ca92a4"
+            ]
+        ]
+    },
+    {
+        "id": "9ba40ae6.a2adb8",
+        "type": "ui_ui_control",
+        "z": "a70735f4.fb54d8",
+        "g": "565d8ee7.eb7be",
+        "name": "",
+        "events": "change",
+        "x": 560,
+        "y": 670,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cce204b9.8dd2e8",
+        "type": "function",
+        "z": "a70735f4.fb54d8",
+        "g": "565d8ee7.eb7be",
+        "name": "General json para visualización",
+        "func": "Cluster = global.get(\"Cluster\")||[];\nmsg.disponible = [];\n\n// Extraer información sobre SCP Disponibles\nfor(var i=0; i<Cluster.length; i+=1){\n    msg.disponible.push(Cluster[i].Disponible);\n    msg.disponible[i]= msg.disponible[i]== \"No\" ? false:true;\n    \n    if(msg.disponible[i]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    node.send(msg)\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 670,
+        "wires": [
+            [
+                "9ba40ae6.a2adb8"
+            ]
+        ]
+    },
+    {
+        "id": "a4175c32.53b77",
+        "type": "complete",
+        "z": "a70735f4.fb54d8",
+        "g": "565d8ee7.eb7be",
+        "name": "",
+        "scope": [
+            "bbcf7cf4.41f79",
+            "e2c69396.80d27"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 670,
+        "wires": [
+            [
+                "cce204b9.8dd2e8"
+            ]
+        ]
+    },
+    {
+        "id": "7b72117c.cc31b",
+        "type": "function",
+        "z": "5c22c23.3efb43c",
+        "name": "Data",
+        "func": "var Cluster     = global.get(\"Cluster\")||[];\nvar SCP         = env.get(\"SCP\")||0;\n\nmsg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = Cluster[SCP][\"ALS\"];\nmsg.wellName    = Cluster[SCP][\"Nombre\"];\nmsg.VSD         = Cluster[SCP][\"Variador\"];\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150,
+        "y": 30,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf54e9f1.20a918",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 1",
+        "env": [],
+        "x": 330,
+        "y": 60,
+        "wires": [
+            [
+                "c0ad00ca.fe8c4",
+                "44ab73f9.6a72cc"
+            ]
+        ]
+    },
+    {
+        "id": "7258894.b266978",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 2",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "1",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "c9560b43.55c0d8",
+                "f7b106.0da29ef8"
+            ]
+        ]
+    },
+    {
+        "id": "2f875fdd.421d5",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 3",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "2",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "e546de7d.1524d",
+                "7cc5cf5a.1a576"
+            ]
+        ]
+    },
+    {
+        "id": "262d2195.1a4a7e",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 4",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "3",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 300,
+        "wires": [
+            [
+                "29b5a57e.566caa",
+                "97bae11c.61449"
+            ]
+        ]
+    },
+    {
+        "id": "68cc7327.b8b70c",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 5",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "4",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 380,
+        "wires": [
+            [
+                "d4a566c6.c4e018",
+                "ec1787d3.deabb8"
+            ]
+        ]
+    },
+    {
+        "id": "23b75c2c.848eb4",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 6",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "5",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 460,
+        "wires": [
+            [
+                "8b96bde.d92114",
+                "d74e5f4f.f62be"
+            ]
+        ]
+    },
+    {
+        "id": "8fac6d8a.1f21f",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 7",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "6",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "21c4c3.0b609b3e",
+                "d1a3b138.fc596"
+            ]
+        ]
+    },
+    {
+        "id": "27fdcd18.a55762",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 8",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "7",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 620,
+        "wires": [
+            [
+                "9d882c1.be806d",
+                "293ac75d.5bd738"
+            ]
+        ]
+    },
+    {
+        "id": "8bcc662.c733998",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 9",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "8",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 700,
+        "wires": [
+            [
+                "18223763.46c159",
+                "4222ac6e.f706d4"
+            ]
+        ]
+    },
+    {
+        "id": "e3f6b9e9.f54018",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 10",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "9",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 780,
+        "wires": [
+            [
+                "128332bd.e6e68d",
+                "b8f3cd0c.b70a2"
+            ]
+        ]
+    },
+    {
+        "id": "6f42bb08.a21f74",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 11",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "10",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 860,
+        "wires": [
+            [
+                "f1b95f94.7eed7",
+                "dfc5bdb9.d9a96"
+            ]
+        ]
+    },
+    {
+        "id": "51e191bb.59c8a",
+        "type": "subflow:5c22c23.3efb43c",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "SCP 12",
+        "env": [
+            {
+                "name": "SCP",
+                "value": "11",
+                "type": "num"
+            }
+        ],
+        "x": 330,
+        "y": 940,
+        "wires": [
+            [
+                "b2bf4260.68812",
+                "ee4c814.2461e8"
+            ]
+        ]
+    },
+    {
+        "id": "bcf4fff3.6451c",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "Datos Operativos pozos Dropdown",
+        "links": [
+            "c308cca6.9801f"
+        ],
+        "x": 65,
+        "y": 50,
+        "wires": [
+            [
+                "4c3a9b2b.9e2814"
+            ]
+        ]
+    },
+    {
+        "id": "c308cca6.9801f",
+        "type": "link out",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "Configurar/Borrar pozo",
+        "links": [
+            "bcf4fff3.6451c"
+        ],
+        "x": 865,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "274668eb.fc5d78",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Menu datos operativos",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 1400,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "634a0b76.f67824",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Menu PCP",
+        "field": "menu",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"row\">\n    <div class=\"col\">\n        <ul class=\"nav nav-pills nav-fill flex-column flex-sm-row mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link active\" id=\"pills-datosOperativos-tab\" data-toggle=\"pill\" href=\"#pills-datosOperativos\" role=\"tab\" aria-controls=\"pills-datosOperativos\" aria-selected=\"true\">Datos operativos</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link\" id=\"pills-datosCabezal-tab\" data-toggle=\"pill\" href=\"#pills-datosCabezal\" role=\"tab\" aria-controls=\"pills-datosCabezal\" aria-selected=\"false\">Datos de cabezal</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link\" id=\"pills-datosElectricos-tab\" data-toggle=\"pill\" href=\"#pills-datosElectricos\" role=\"tab\" aria-controls=\"pills-datosElectricos\" aria-selected=\"false\">Datos eléctricos</a>\n            </li>\n        </ul>\n            <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-datosOperativos\" role=\"tabpanel\" aria-labelledby=\"pills-datosOperativos-tab\">{{{datosOperativosPCP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosCabezal\" role=\"tabpanel\" aria-labelledby=\"pills-datosCabezal-tab\">{{{datosCabezal}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosElectricos\" role=\"tabpanel\" aria-labelledby=\"pills-datosElectricos-tab\">{{{datosElectricosPCP}}}</div>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 960,
+        "y": 20,
+        "wires": [
+            [
+                "274668eb.fc5d78"
+            ]
+        ]
+    },
+    {
+        "id": "35a910e4.14f9b",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Menu ESP",
+        "field": "menu",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"row\">\n    <div class=\"col\">\n        <ul class=\"nav nav-pills nav-fill flex-column flex-sm-row mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link active\" id=\"pills-datosOperativos-tab\" data-toggle=\"pill\" href=\"#pills-datosOperativos\" role=\"tab\" aria-controls=\"pills-datosOperativos\" aria-selected=\"true\">Datos operativos</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosFondo-tab\" data-toggle=\"pill\" href=\"#pills-datosFondo\" role=\"tab\" aria-controls=\"pills-datosFondo\" aria-selected=\"false\">Datos de fondo</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosCabezal-tab\" data-toggle=\"pill\" href=\"#pills-datosCabezal\" role=\"tab\" aria-controls=\"pills-datosCabezal\" aria-selected=\"false\">Datos de cabezal</a>\n            </li>\n            <li class=\"nav-item\" role=\"presentation\">\n            <a class=\"nav-link\" id=\"pills-datosElectricos-tab\" data-toggle=\"pill\" href=\"#pills-datosElectricos\" role=\"tab\" aria-controls=\"pills-datosElectricos\" aria-selected=\"false\">Datos eléctricos</a>\n            </li>\n            \n        </ul>\n            <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-datosOperativos\" role=\"tabpanel\" aria-labelledby=\"pills-datosOperativos-tab\">{{{datosOperativosESP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosFondo\" role=\"tabpanel\" aria-labelledby=\"pills-datosFondo-tab\">{{{datosFondoESP}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosCabezal\" role=\"tabpanel\" aria-labelledby=\"pills-datosCabezal-tab\">{{{datosCabezal}}}</div>\n            <div class=\"tab-pane fade\" id=\"pills-datosElectricos\" role=\"tabpanel\" aria-labelledby=\"pills-datosElectricos-tab\">{{{datosElectricosESP}}}</div>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 1180,
+        "y": 60,
+        "wires": [
+            [
+                "274668eb.fc5d78"
+            ]
+        ]
+    },
+    {
+        "id": "2cb958f5.8816d8",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos de cabezal PCP",
+        "field": "datosCabezal",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 550,
+        "y": 20,
+        "wires": [
+            [
+                "6291a1.ff42be6"
+            ]
+        ]
+    },
+    {
+        "id": "fca473cb.6bca4",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos de cabezal ESP",
+        "field": "datosCabezal",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de cabezal</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 770,
+        "y": 60,
+        "wires": [
+            [
+                "21c69fe.b3cf76"
+            ]
+        ]
+    },
+    {
+        "id": "6291a1.ff42be6",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos eléctricos PCP",
+        "field": "datosElectricosPCP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>50</td>\n                        <td>Tensión L-L</td>\n                        <td>50</td>\n                        <td>Corriente</td>\n                        <td>50</td>\n                        <td>Frecuencia</td>\n                        <td>50</td>\n                        <td>THD-I</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>50</td>\n                        <td>Potencia Activa</td>\n                        <td>50</td>\n                        <td>Potencia Reactiva</td>\n                        <td>50</td>\n                        <td>Cos ⏀</td>\n                        <td>50</td>\n                        <td>THD-V</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 770,
+        "y": 20,
+        "wires": [
+            [
+                "634a0b76.f67824"
+            ]
+        ]
+    },
+    {
+        "id": "21c69fe.b3cf76",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos eléctricos ESP",
+        "field": "datosElectricosESP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>50</td>\n                        <td>Tensión L-L</td>\n                        <td>50</td>\n                        <td>Corriente</td>\n                        <td>50</td>\n                        <td>Frecuencia</td>\n                        <td>50</td>\n                        <td>THD-I</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>50</td>\n                        <td>Potencia Activa</td>\n                        <td>50</td>\n                        <td>Potencia Reactiva</td>\n                        <td>50</td>\n                        <td>Cos ⏀</td>\n                        <td>50</td>\n                        <td>THD-V</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 990,
+        "y": 60,
+        "wires": [
+            [
+                "35a910e4.14f9b"
+            ]
+        ]
+    },
+    {
+        "id": "d72e4baa.ca3748",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos de fondo ESP",
+        "field": "datosFondoESP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna-->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión de motor</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente de motor</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de descarga</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Presión de entrada</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Vibración general</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura de entrada</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de descarga</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de motor</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "fca473cb.6bca4"
+            ]
+        ]
+    },
+    {
+        "id": "f3bbf84d.1fa568",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos operativos PCP",
+        "field": "datosOperativosPCP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Corriente</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>RPM motor</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión motor</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Relación de reducción</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>RPM bomba</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Torque actual</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Torque nominal</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 330,
+        "y": 20,
+        "wires": [
+            [
+                "2cb958f5.8816d8"
+            ]
+        ]
+    },
+    {
+        "id": "6678b886.73b968",
+        "type": "template",
+        "z": "adf77ef5.3ae39",
+        "name": "Datos operativos ESP",
+        "field": "datosOperativosESP",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Frecuencia de salida</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente primario</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión primario</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Ángulo</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente secundario</td>\n                        <td>500</td>\n                    </tr>\n                    <tr>\n                        <td>Tensión secundario</td>\n                        <td>50</td>\n                    </tr>\n                    <tr>\n                        <td>Relación de transformación</td>\n                        <td>150</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>50</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 330,
+        "y": 60,
+        "wires": [
+            [
+                "d72e4baa.ca3748"
+            ]
+        ]
+    },
+    {
+        "id": "6feadb49.4ff014",
+        "type": "switch",
+        "z": "adf77ef5.3ae39",
+        "name": "",
+        "property": "type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "PCP",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ESP",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 150,
+        "y": 40,
+        "wires": [
+            [
+                "f3bbf84d.1fa568"
+            ],
+            [
+                "6678b886.73b968"
+            ]
+        ]
+    },
+    {
+        "id": "e13ed5c.7271528",
+        "type": "subflow:adf77ef5.3ae39",
+        "z": "e997ba3b.48cc18",
+        "g": "222c08a.f1e28f8",
+        "name": "",
+        "env": [],
+        "x": 580,
+        "y": 140,
+        "wires": [
+            [
+                "526b68fa.fc36e8"
+            ]
+        ]
+    },
+    {
+        "id": "14b55c52.d0b904",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "g": "222c08a.f1e28f8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "c4b00d9d.c758e"
+            ]
+        ]
+    },
+    {
+        "id": "9959ff.cbb026",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Pozo",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 50,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4b00d9d.c758e",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "222c08a.f1e28f8",
+        "name": "Extraer información pozos activos",
+        "func": "var Cluster     = global.get(\"Cluster\")||[];\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<Cluster.length; i+=1){\n    Nombres.push(Cluster[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index != -1){msg.type = Cluster[index][\"ALS\"];} \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "e13ed5c.7271528"
+            ]
+        ]
+    },
+    {
+        "id": "9ac00374.6d803",
+        "type": "template",
+        "z": "a3841896.e21cd8",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>DCP:{{Hz}}<strong> psi</strong></td>\n                        <td>THT:{{kW}}<strong> ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "601160f3.c2785"
+            ]
+        ]
+    },
+    {
+        "id": "601160f3.c2785",
+        "type": "template",
+        "z": "a3841896.e21cd8",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{wellName}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 240,
+        "y": 40,
+        "wires": [
+            [
+                "1aecebc1.60fd74"
+            ]
+        ]
+    },
+    {
+        "id": "1aecebc1.60fd74",
+        "type": "template",
+        "z": "a3841896.e21cd8",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 400,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7bbb7e49.09bf5",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "env": [],
+        "x": 390,
+        "y": 40,
+        "wires": [
+            [
+                "26433f36.0b2a"
+            ]
+        ]
+    },
+    {
+        "id": "ba6116cb.bd7028",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "eb6487da.4cc148"
+            ]
+        ]
+    },
+    {
+        "id": "72c1ff03.7fdc9",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "b117fac5.2ceca8"
+            ]
+        ]
+    },
+    {
+        "id": "21608ada.3ee8f6",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "a8805e10.ff9ac"
+            ]
+        ]
+    },
+    {
+        "id": "57cee609.87a528",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 200,
+        "wires": [
+            [
+                "16fcfb0f.84a625"
+            ]
+        ]
+    },
+    {
+        "id": "a5ee2e4a.79845",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "5315807d.21e8b"
+            ]
+        ]
+    },
+    {
+        "id": "62eb6c20.f1a954",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "921cfaa1.d93a18"
+            ]
+        ]
+    },
+    {
+        "id": "63398349.160bec",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "bdea598e.e672c8"
+            ]
+        ]
+    },
+    {
+        "id": "a74c514d.96315",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "60782f0e.b5513"
+            ]
+        ]
+    },
+    {
+        "id": "243de3c1.6c69bc",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "af270fa4.d0829"
+            ]
+        ]
+    },
+    {
+        "id": "2b09ad51.c5b322",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "bc130981.5aa8f8"
+            ]
+        ]
+    },
+    {
+        "id": "979c3131.b9543",
+        "type": "subflow:a3841896.e21cd8",
+        "z": "75f74480.41235c",
+        "name": "",
+        "x": 390,
+        "y": 480,
+        "wires": [
+            [
+                "858cd4ed.092328"
+            ]
+        ]
     }
 ]
