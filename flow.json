@@ -265,7 +265,9 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13
+        "y": 13,
+        "w": 1324,
+        "h": 810
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -289,7 +291,9 @@
             "3ccbaa0b.2db096"
         ],
         "x": 4,
-        "y": 19
+        "y": 19,
+        "w": 1092,
+        "h": 132
     },
     {
         "id": "ced3da32.aec848",
@@ -311,7 +315,9 @@
             "be5b89ed.6c6bf8"
         ],
         "x": 4,
-        "y": 159
+        "y": 159,
+        "w": 632,
+        "h": 82
     },
     {
         "id": "35aaa239.8bb89e",
@@ -334,7 +340,9 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 249
+        "y": 249,
+        "w": 712,
+        "h": 82
     },
     {
         "id": "73a228cd.9d45d8",
@@ -355,7 +363,9 @@
             "aaec9822.a14198"
         ],
         "x": 14,
-        "y": 9
+        "y": 9,
+        "w": 472,
+        "h": 82
     },
     {
         "id": "cf7122b5.0b85",
@@ -444,7 +454,9 @@
             "f3f54db2.c4674"
         ],
         "x": 18,
-        "y": 103
+        "y": 103,
+        "w": 424,
+        "h": 214
     },
     {
         "id": "7b6f4b41.106164",
@@ -509,7 +521,9 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243
+        "y": 243,
+        "w": 928,
+        "h": 554
     },
     {
         "id": "eb91dac5.690838",
@@ -538,7 +552,9 @@
             "3a348318.fe982c"
         ],
         "x": 154,
-        "y": 39
+        "y": 39,
+        "w": 1272,
+        "h": 192
     },
     {
         "id": "f3f54db2.c4674",
@@ -560,7 +576,9 @@
             "2526682.c405998"
         ],
         "x": 244,
-        "y": 129
+        "y": 129,
+        "w": 172,
+        "h": 162
     },
     {
         "id": "b710a90e.0dd388",
@@ -581,7 +599,9 @@
             "1acb0c29.0ddee4"
         ],
         "x": 44,
-        "y": 129
+        "y": 129,
+        "w": 192,
+        "h": 122
     },
     {
         "id": "11f55817.139c18",
@@ -656,7 +676,9 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649
+        "y": 649,
+        "w": 242,
+        "h": 122
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -675,7 +697,9 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269
+        "y": 269,
+        "w": 173,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -695,7 +719,9 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479
+        "y": 479,
+        "w": 372,
+        "h": 162
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -1008,11 +1034,11 @@
     {
         "id": "760e85bd.1f3e7c",
         "type": "ui_group",
-        "name": "Armónicos",
+        "name": "ARMÓNICOS Y VALORES MEDIOS",
         "tab": "55735b30.433a74",
         "order": 2,
         "disp": true,
-        "width": "12",
+        "width": "24",
         "collapse": false
     },
     {
@@ -1108,7 +1134,7 @@
     {
         "id": "cc789a9d.61fab8",
         "type": "ui_group",
-        "name": "Análisis eléctrico cluster",
+        "name": "ANÁLISIS ELÉCTRICO CLÚSTER",
         "tab": "55735b30.433a74",
         "order": 1,
         "disp": true,
@@ -1161,8 +1187,8 @@
         "name": "Comandos",
         "tab": "ff9850b.e5094b",
         "order": 3,
-        "disp": true,
-        "width": "12",
+        "disp": false,
+        "width": "24",
         "collapse": false
     },
     {
@@ -1187,8 +1213,8 @@
         "id": "40f78983.2353c8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "1925e2c.fd4e91d",
-        "order": 1,
+        "group": "3b7087bd.454fe8",
+        "order": 4,
         "width": 1,
         "height": 1
     },
@@ -1196,30 +1222,10 @@
         "id": "62288c28.7ab204",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "1925e2c.fd4e91d",
-        "order": 4,
+        "group": "3b7087bd.454fe8",
+        "order": 7,
         "width": 1,
         "height": 1
-    },
-    {
-        "id": "a5f8e1da.be9d8",
-        "type": "ui_group",
-        "name": "Tendencia",
-        "tab": "ff9850b.e5094b",
-        "order": 5,
-        "disp": false,
-        "width": "12",
-        "collapse": false
-    },
-    {
-        "id": "3c543197.e82dfe",
-        "type": "ui_group",
-        "name": "Eventos/Alarmas",
-        "tab": "ff9850b.e5094b",
-        "order": 6,
-        "disp": false,
-        "width": "12",
-        "collapse": false
     },
     {
         "id": "cdb8cc7.0f2ac3",
@@ -3206,7 +3212,7 @@
         "g": "aafad2ba.dcc8b",
         "name": "Gráfico",
         "group": "760e85bd.1f3e7c",
-        "order": 2,
+        "order": 3,
         "width": "12",
         "height": "4",
         "label": "{{msg.label}}",
@@ -3299,8 +3305,8 @@
         "place": "Select option",
         "group": "760e85bd.1f3e7c",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": "12",
+        "height": "1",
         "passthru": true,
         "multiple": false,
         "options": [
@@ -3327,6 +3333,7 @@
         ],
         "payload": "",
         "topic": "",
+        "topicType": "str",
         "x": 500,
         "y": 60,
         "wires": [
@@ -3599,9 +3606,9 @@
         "type": "ui_template",
         "z": "aa547d69.9cb8e",
         "g": "35aaa239.8bb89e",
-        "group": "d14f7e2.6ade88",
+        "group": "760e85bd.1f3e7c",
         "name": "",
-        "order": 0,
+        "order": 2,
         "width": "12",
         "height": "5",
         "format": "",
@@ -3759,8 +3766,8 @@
         "name": "",
         "label": "Referencia ",
         "tooltip": "",
-        "group": "1925e2c.fd4e91d",
-        "order": 2,
+        "group": "3b7087bd.454fe8",
+        "order": 5,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -3779,8 +3786,8 @@
         "z": "e997ba3b.48cc18",
         "g": "b710a90e.0dd388",
         "name": "",
-        "group": "1925e2c.fd4e91d",
-        "order": 3,
+        "group": "3b7087bd.454fe8",
+        "order": 6,
         "width": 4,
         "height": 1,
         "passthru": false,
@@ -4138,10 +4145,10 @@
         "type": "ui_chart",
         "z": "e997ba3b.48cc18",
         "name": "",
-        "group": "a5f8e1da.be9d8",
-        "order": 0,
+        "group": "3b7087bd.454fe8",
+        "order": 8,
         "width": "12",
-        "height": "4",
+        "height": "3",
         "label": "",
         "chartType": "line",
         "legend": "true",
@@ -4169,6 +4176,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
+        "useDifferentColor": false,
         "x": 520,
         "y": 340,
         "wires": [
@@ -4179,11 +4187,11 @@
         "id": "913b55ec.761bd8",
         "type": "ui_table",
         "z": "e997ba3b.48cc18",
-        "group": "3c543197.e82dfe",
+        "group": "3b7087bd.454fe8",
         "name": "",
-        "order": 0,
+        "order": 9,
         "width": "12",
-        "height": "4",
+        "height": "3",
         "columns": [],
         "outputs": 0,
         "cts": false,
@@ -7326,7 +7334,6 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "useOldStyle": false,
         "outputs": 1,
         "x": 630,
         "y": 30,
@@ -10113,7 +10120,6 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "useOldStyle": false,
         "outputs": 1,
         "x": 480,
         "y": 160,
@@ -10159,7 +10165,6 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "useOldStyle": false,
         "outputs": 1,
         "x": 480,
         "y": 240,
@@ -10203,7 +10208,6 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "useOldStyle": false,
         "outputs": 1,
         "x": 480,
         "y": 340,
@@ -10313,7 +10317,6 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "useOldStyle": false,
         "outputs": 1,
         "x": 330,
         "y": 70,
