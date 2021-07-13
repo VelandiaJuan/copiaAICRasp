@@ -367,6 +367,39 @@
         "color": "#DDAA99"
     },
     {
+        "id": "f0c3da0c.524418",
+        "type": "subflow",
+        "name": "Datos de fondo",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 30,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "8b151441.413e58"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 530,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "9dc007c5.140948",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
         "id": "f7ed166d.1aa528",
         "type": "group",
         "z": "827787d0.ede678",
@@ -382,9 +415,7 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13,
-        "w": 1324,
-        "h": 810
+        "y": 13
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -408,9 +439,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 4,
-        "y": 19,
-        "w": 1092,
-        "h": 132
+        "y": 19
     },
     {
         "id": "ced3da32.aec848",
@@ -432,9 +461,7 @@
             "be5b89ed.6c6bf8"
         ],
         "x": 4,
-        "y": 159,
-        "w": 632,
-        "h": 82
+        "y": 159
     },
     {
         "id": "35aaa239.8bb89e",
@@ -457,9 +484,7 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 249,
-        "w": 712,
-        "h": 82
+        "y": 249
     },
     {
         "id": "73a228cd.9d45d8",
@@ -478,12 +503,11 @@
             "5dcc4d5b.20caf4",
             "4c3a9b2b.9e2814",
             "bcf4fff3.6451c",
-            "9959ff.cbb026"
+            "9959ff.cbb026",
+            "a98b506e.03e03"
         ],
         "x": 24,
-        "y": 9,
-        "w": 562,
-        "h": 82
+        "y": 9
     },
     {
         "id": "cf7122b5.0b85",
@@ -572,9 +596,7 @@
             "f3f54db2.c4674"
         ],
         "x": 28,
-        "y": 573,
-        "w": 424,
-        "h": 214
+        "y": 233
     },
     {
         "id": "7b6f4b41.106164",
@@ -590,7 +612,9 @@
             "cf57802e.7d258"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 1844,
+        "h": 214
     },
     {
         "id": "3383e29e.9b29fe",
@@ -616,230 +640,9 @@
             "576f3936.7493b8"
         ],
         "x": 24,
-        "y": 79
-    },
-    {
-        "id": "f3c2e7cf.5ed158",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f7ed166d.1aa528",
-        "name": "Acciones usuario",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "21e4fb07.22d804",
-            "a80677cf.4274c8",
-            "8e762cce.be81",
-            "64ff74e5.f4c53c",
-            "fbd8c1e9.7d493",
-            "be55ea76.ed4478",
-            "723d59b.85ed6a8"
-        ],
-        "x": 154,
-        "y": 243,
-        "w": 928,
-        "h": 554
-    },
-    {
-        "id": "eb91dac5.690838",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f7ed166d.1aa528",
-        "name": "Acceso a usuarios",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "df6fb5ca.5f8af8",
-            "28cd79fb.3dcae6",
-            "2066be8e.5c6832",
-            "e04fbd1c.98ffe",
-            "2ffa7be0.763644",
-            "a146fd5d.dc194",
-            "be50258c.07bb98",
-            "6e26c35e.a97f8c",
-            "1595def7.d11251",
-            "affdacff.6646c",
-            "51d66341.8ee0fc",
-            "7de51565.2383cc",
-            "3a348318.fe982c"
-        ],
-        "x": 154,
-        "y": 39,
-        "w": 1272,
-        "h": 192
-    },
-    {
-        "id": "f3f54db2.c4674",
-        "type": "group",
-        "z": "e997ba3b.48cc18",
-        "g": "2f18e23b.de32ce",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "64748d27.b27004",
-            "26c5e6f4.5cc1fa",
-            "2526682.c405998"
-        ],
-        "x": 254,
-        "y": 599,
-        "w": 172,
-        "h": 162
-    },
-    {
-        "id": "b710a90e.0dd388",
-        "type": "group",
-        "z": "e997ba3b.48cc18",
-        "g": "2f18e23b.de32ce",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "3cc764fd.7e58cc",
-            "1acb0c29.0ddee4"
-        ],
-        "x": 54,
-        "y": 599,
-        "w": 192,
-        "h": 122
-    },
-    {
-        "id": "11f55817.139c18",
-        "type": "group",
-        "z": "242bc9a6.f9b016",
-        "g": "7b6f4b41.106164",
-        "name": "",
-        "style": {
-            "fill": "#b797cf",
-            "label": true
-        },
-        "nodes": [
-            "d382db6f.29f0a8",
-            "972e1f74.3dd4c",
-            "ec98695.bbf8698",
-            "54ec819a.c1bc9",
-            "59e817c2.295b38",
-            "d50d9b6b.bbc7f8",
-            "c02fb05c.baccf",
-            "75851744.fc50c8",
-            "ad47f0cc.93af5",
-            "7b4bd7a0.fd9398",
-            "cad3d4cb.b5bc98",
-            "ebf4df19.2cfb2",
-            "1660e38d.24cefc"
-        ],
-        "x": 34,
-        "y": 39
-    },
-    {
-        "id": "cf57802e.7d258",
-        "type": "group",
-        "z": "242bc9a6.f9b016",
-        "g": "7b6f4b41.106164",
-        "name": "",
-        "style": {
-            "fill": "#b797cf",
-            "label": true
-        },
-        "nodes": [
-            "bd165d4f.e3f48",
-            "c95dde3d.c676e",
-            "191d34db.93fe3b",
-            "35f773cc.39ea9c",
-            "ccc4d9c0.904c78",
-            "d9101c40.6e85a",
-            "dcdb5992.425238",
-            "12f5302f.69f92",
-            "33f2aa3c.6c08f6",
-            "9055a2bd.67028",
-            "938193ac.02d98",
-            "ffbe710d.b4cce",
-            "f4dc844c.b0f888"
-        ],
-        "x": 934,
-        "y": 39
-    },
-    {
-        "id": "a80677cf.4274c8",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Eventos Usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "c404a6e9.ffda18",
-            "7dfbde1e.e4b5b",
-            "6d40adaa.11d2c4"
-        ],
-        "x": 684,
-        "y": 649,
-        "w": 242,
-        "h": 122
-    },
-    {
-        "id": "64ff74e5.f4c53c",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Acciones externas usuario",
-        "style": {
-            "label": true,
-            "fill": "#ff7f7f",
-            "color": "#000000"
-        },
-        "nodes": [
-            "8edea7ae.674088",
-            "33c5f16c.c8a5ae",
-            "42f85e00.83b314"
-        ],
-        "x": 684,
-        "y": 269,
-        "w": 173,
-        "h": 202
-    },
-    {
-        "id": "be55ea76.ed4478",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f3c2e7cf.5ed158",
-        "name": "Detectar usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "ffad1340.f8a3b",
-            "8effe1fe.bacd6",
-            "98a9b5d4.5e5608",
-            "d1a73825.d89578"
-        ],
-        "x": 684,
-        "y": 479,
-        "w": 372,
-        "h": 162
+        "y": 79,
+        "w": 732,
+        "h": 302
     },
     {
         "id": "73df5953.fc56e8",
@@ -872,9 +675,7 @@
             "c308cca6.9801f"
         ],
         "x": 34,
-        "y": 39,
-        "w": 872,
-        "h": 422
+        "y": 39
     },
     {
         "id": "c58d9126.1869c",
@@ -895,9 +696,7 @@
             "5657a4b8.0747bc"
         ],
         "x": 34,
-        "y": 469,
-        "w": 732,
-        "h": 152
+        "y": 469
     },
     {
         "id": "565d8ee7.eb7be",
@@ -911,12 +710,11 @@
         "nodes": [
             "9ba40ae6.a2adb8",
             "cce204b9.8dd2e8",
-            "a4175c32.53b77"
+            "a4175c32.53b77",
+            "efb9c720.028178"
         ],
         "x": 34,
-        "y": 629,
-        "w": 612,
-        "h": 82
+        "y": 629
     },
     {
         "id": "222c08a.f1e28f8",
@@ -938,9 +736,267 @@
             "c4b00d9d.c758e"
         ],
         "x": 24,
-        "y": 99,
-        "w": 812,
-        "h": 82
+        "y": 139
+    },
+    {
+        "id": "89dd768a.673f58",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "24e0f6e3.56cf0a",
+            "913b55ec.761bd8",
+            "8409e010.37ba6",
+            "325d343f.cbe57c",
+            "4a5b3820.530d58",
+            "cce135f5.fcfef8",
+            "ad7c56ce.ca1d48",
+            "950d5f47.f3248",
+            "3d0c56be.4680ca"
+        ],
+        "x": 464,
+        "y": 259
+    },
+    {
+        "id": "f3c2e7cf.5ed158",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acciones usuario",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "21e4fb07.22d804",
+            "a80677cf.4274c8",
+            "8e762cce.be81",
+            "64ff74e5.f4c53c",
+            "fbd8c1e9.7d493",
+            "be55ea76.ed4478",
+            "723d59b.85ed6a8"
+        ],
+        "x": 154,
+        "y": 243
+    },
+    {
+        "id": "eb91dac5.690838",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acceso a usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "df6fb5ca.5f8af8",
+            "28cd79fb.3dcae6",
+            "2066be8e.5c6832",
+            "e04fbd1c.98ffe",
+            "2ffa7be0.763644",
+            "be50258c.07bb98",
+            "6e26c35e.a97f8c",
+            "1595def7.d11251",
+            "affdacff.6646c",
+            "51d66341.8ee0fc",
+            "7de51565.2383cc",
+            "3a348318.fe982c",
+            "5a12c1a2.71ef8"
+        ],
+        "x": 154,
+        "y": 39
+    },
+    {
+        "id": "f3f54db2.c4674",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "64748d27.b27004",
+            "26c5e6f4.5cc1fa",
+            "2526682.c405998"
+        ],
+        "x": 254,
+        "y": 259
+    },
+    {
+        "id": "b710a90e.0dd388",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3cc764fd.7e58cc",
+            "1acb0c29.0ddee4"
+        ],
+        "x": 54,
+        "y": 259
+    },
+    {
+        "id": "11f55817.139c18",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "g": "7b6f4b41.106164",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "d382db6f.29f0a8",
+            "972e1f74.3dd4c",
+            "ec98695.bbf8698",
+            "54ec819a.c1bc9",
+            "59e817c2.295b38",
+            "d50d9b6b.bbc7f8",
+            "c02fb05c.baccf",
+            "75851744.fc50c8",
+            "ad47f0cc.93af5",
+            "7b4bd7a0.fd9398",
+            "cad3d4cb.b5bc98",
+            "ebf4df19.2cfb2",
+            "1660e38d.24cefc"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "cf57802e.7d258",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "g": "7b6f4b41.106164",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "bd165d4f.e3f48",
+            "c95dde3d.c676e",
+            "191d34db.93fe3b",
+            "35f773cc.39ea9c",
+            "ccc4d9c0.904c78",
+            "d9101c40.6e85a",
+            "dcdb5992.425238",
+            "12f5302f.69f92",
+            "33f2aa3c.6c08f6",
+            "9055a2bd.67028",
+            "938193ac.02d98",
+            "ffbe710d.b4cce",
+            "f4dc844c.b0f888"
+        ],
+        "x": 934,
+        "y": 39,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "a80677cf.4274c8",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Eventos Usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c404a6e9.ffda18",
+            "7dfbde1e.e4b5b",
+            "6d40adaa.11d2c4"
+        ],
+        "x": 684,
+        "y": 649
+    },
+    {
+        "id": "64ff74e5.f4c53c",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Acciones externas usuario",
+        "style": {
+            "label": true,
+            "fill": "#ff7f7f",
+            "color": "#000000"
+        },
+        "nodes": [
+            "8edea7ae.674088",
+            "33c5f16c.c8a5ae",
+            "42f85e00.83b314"
+        ],
+        "x": 684,
+        "y": 269
+    },
+    {
+        "id": "be55ea76.ed4478",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f3c2e7cf.5ed158",
+        "name": "Detectar usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ffad1340.f8a3b",
+            "8effe1fe.bacd6",
+            "98a9b5d4.5e5608",
+            "d1a73825.d89578"
+        ],
+        "x": 684,
+        "y": 479
+    },
+    {
+        "id": "a163450f.bc4438",
+        "type": "group",
+        "z": "612ddf44.816d7",
+        "name": "Iniciar el servicio kiosk desde Node-Red",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "316f57da.0f2fc8",
+            "5f07f1b.ac4631",
+            "1b5b2e1c.f68d42"
+        ],
+        "x": 24,
+        "y": 391.5,
+        "w": 752,
+        "h": 97
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -1030,12 +1086,12 @@
             "sizes": {
                 "sx": 37,
                 "sy": 54,
-                "gx": 1,
-                "gy": 1,
+                "gx": 4,
+                "gy": 4,
                 "cx": 4,
                 "cy": 4,
-                "px": 1,
-                "py": 1
+                "px": 0,
+                "py": 0
             }
         }
     },
@@ -3082,23 +3138,6 @@
         ]
     },
     {
-        "id": "a146fd5d.dc194",
-        "type": "link in",
-        "z": "827787d0.ede678",
-        "g": "eb91dac5.690838",
-        "name": "Acceso de usuario",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 675,
-        "y": 80,
-        "wires": [
-            [
-                "28cd79fb.3dcae6"
-            ]
-        ]
-    },
-    {
         "id": "1595def7.d11251",
         "type": "trigger",
         "z": "827787d0.ede678",
@@ -3209,7 +3248,7 @@
         "g": "eb91dac5.690838",
         "name": "",
         "links": [
-            "97407954.a004c8"
+            "efb9c720.028178"
         ],
         "x": 195,
         "y": 140,
@@ -3511,7 +3550,6 @@
         ],
         "payload": "",
         "topic": "",
-        "topicType": "str",
         "x": 500,
         "y": 60,
         "wires": [
@@ -3884,7 +3922,7 @@
         ],
         "payload": "",
         "topic": "topic",
-        "x": 310,
+        "x": 420,
         "y": 50,
         "wires": [
             [
@@ -3904,7 +3942,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 160,
+        "x": 270,
         "y": 50,
         "wires": [
             [
@@ -3929,7 +3967,7 @@
         "delay": "100",
         "topic": "Ref",
         "x": 150,
-        "y": 640,
+        "y": 300,
         "wires": [
             []
         ]
@@ -3954,7 +3992,7 @@
         "payloadType": "bool",
         "topic": "Send",
         "x": 160,
-        "y": 680,
+        "y": 340,
         "wires": [
             []
         ]
@@ -3979,7 +4017,7 @@
         "payloadType": "str",
         "topic": "Basic",
         "x": 340,
-        "y": 640,
+        "y": 300,
         "wires": [
             []
         ]
@@ -4004,7 +4042,7 @@
         "payloadType": "str",
         "topic": "Basic",
         "x": 340,
-        "y": 680,
+        "y": 340,
         "wires": [
             []
         ]
@@ -4029,7 +4067,7 @@
         "payloadType": "str",
         "topic": "Basic",
         "x": 340,
-        "y": 720,
+        "y": 380,
         "wires": [
             []
         ]
@@ -4049,8 +4087,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
-        "y": 140,
+        "x": 770,
+        "y": 180,
         "wires": [
             []
         ]
@@ -4059,6 +4097,7 @@
         "id": "24e0f6e3.56cf0a",
         "type": "ui_chart",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "",
         "group": "3b7087bd.454fe8",
         "order": 8,
@@ -4091,9 +4130,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
-        "x": 980,
-        "y": 590,
+        "x": 1000,
+        "y": 300,
         "wires": [
             []
         ]
@@ -4102,6 +4140,7 @@
         "id": "913b55ec.761bd8",
         "type": "ui_table",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "group": "3b7087bd.454fe8",
         "name": "",
         "order": 9,
@@ -4110,8 +4149,8 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 980,
-        "y": 630,
+        "x": 1000,
+        "y": 340,
         "wires": []
     },
     {
@@ -5238,63 +5277,6 @@
         ]
     },
     {
-        "id": "8bb125c0.b75f88",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 40,
-        "wires": [
-            [
-                "1a72e838.eac668"
-            ]
-        ]
-    },
-    {
-        "id": "1a72e838.eac668",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 40,
-        "wires": [
-            [
-                "47b601a0.c42a1"
-            ]
-        ]
-    },
-    {
-        "id": "47b601a0.c42a1",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 40,
-        "wires": [
-            [
-                "7274aff0.b6765"
-            ]
-        ]
-    },
-    {
         "id": "7274aff0.b6765",
         "type": "ui_template",
         "z": "77e50510.f482bc",
@@ -5308,7 +5290,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 40,
         "wires": [
             []
@@ -5508,45 +5490,7 @@
         "y": 40,
         "wires": [
             [
-                "8bb125c0.b75f88"
-            ]
-        ]
-    },
-    {
-        "id": "438ea3f4.6260cc",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 80,
-        "wires": [
-            [
-                "3177f280.c4805e"
-            ]
-        ]
-    },
-    {
-        "id": "3177f280.c4805e",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 80,
-        "wires": [
-            [
-                "6b9ac7d0.10e248"
+                "72c4f54c.d77d5c"
             ]
         ]
     },
@@ -5564,7 +5508,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 80,
         "wires": [
             []
@@ -5582,45 +5526,7 @@
         "y": 80,
         "wires": [
             [
-                "438ea3f4.6260cc"
-            ]
-        ]
-    },
-    {
-        "id": "1b45819e.39038e",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 120,
-        "wires": [
-            [
-                "3396ed7b.5fadf2"
-            ]
-        ]
-    },
-    {
-        "id": "3396ed7b.5fadf2",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 120,
-        "wires": [
-            [
-                "8c3b5a68.a77e68"
+                "3cd5b437.b7123c"
             ]
         ]
     },
@@ -5638,7 +5544,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 120,
         "wires": [
             []
@@ -5656,45 +5562,7 @@
         "y": 120,
         "wires": [
             [
-                "1b45819e.39038e"
-            ]
-        ]
-    },
-    {
-        "id": "bb45f542.693c28",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 160,
-        "wires": [
-            [
-                "d7d8bc8e.a61a7"
-            ]
-        ]
-    },
-    {
-        "id": "d7d8bc8e.a61a7",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 160,
-        "wires": [
-            [
-                "c8b6f25e.65812"
+                "750a7839.f9a8b8"
             ]
         ]
     },
@@ -5712,7 +5580,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 160,
         "wires": [
             []
@@ -5730,45 +5598,7 @@
         "y": 160,
         "wires": [
             [
-                "bb45f542.693c28"
-            ]
-        ]
-    },
-    {
-        "id": "823a0c55.5a53c",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 200,
-        "wires": [
-            [
-                "f42969ef.6e6f28"
-            ]
-        ]
-    },
-    {
-        "id": "f42969ef.6e6f28",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 200,
-        "wires": [
-            [
-                "6adac45d.43c16c"
+                "225632d7.f15e1e"
             ]
         ]
     },
@@ -5786,7 +5616,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 200,
         "wires": [
             []
@@ -5804,45 +5634,7 @@
         "y": 200,
         "wires": [
             [
-                "823a0c55.5a53c"
-            ]
-        ]
-    },
-    {
-        "id": "adce5609.8dfad8",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 240,
-        "wires": [
-            [
-                "84259857.c37a68"
-            ]
-        ]
-    },
-    {
-        "id": "84259857.c37a68",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 240,
-        "wires": [
-            [
-                "ba75e630.788c48"
+                "1d80f696.9baeb9"
             ]
         ]
     },
@@ -5860,7 +5652,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 240,
         "wires": [
             []
@@ -5878,45 +5670,7 @@
         "y": 240,
         "wires": [
             [
-                "adce5609.8dfad8"
-            ]
-        ]
-    },
-    {
-        "id": "b4271320.0eb2a",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 280,
-        "wires": [
-            [
-                "8aa08b03.33c138"
-            ]
-        ]
-    },
-    {
-        "id": "8aa08b03.33c138",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 280,
-        "wires": [
-            [
-                "8df5bcbb.27f79"
+                "ae9c6322.e6d4b"
             ]
         ]
     },
@@ -5934,7 +5688,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 280,
         "wires": [
             []
@@ -5952,45 +5706,7 @@
         "y": 280,
         "wires": [
             [
-                "b4271320.0eb2a"
-            ]
-        ]
-    },
-    {
-        "id": "f7010af2.d70028",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 320,
-        "wires": [
-            [
-                "a83f2230.7ed0d"
-            ]
-        ]
-    },
-    {
-        "id": "a83f2230.7ed0d",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 320,
-        "wires": [
-            [
-                "ab335b39.bb0148"
+                "7d436b9d.420ba4"
             ]
         ]
     },
@@ -6008,7 +5724,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 320,
         "wires": [
             []
@@ -6026,45 +5742,7 @@
         "y": 320,
         "wires": [
             [
-                "f7010af2.d70028"
-            ]
-        ]
-    },
-    {
-        "id": "30f48563.bc703a",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 360,
-        "wires": [
-            [
-                "3765dcc5.93be64"
-            ]
-        ]
-    },
-    {
-        "id": "3765dcc5.93be64",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 360,
-        "wires": [
-            [
-                "c319c1cb.fb504"
+                "9509c08e.1839c"
             ]
         ]
     },
@@ -6082,7 +5760,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 360,
         "wires": [
             []
@@ -6100,45 +5778,7 @@
         "y": 360,
         "wires": [
             [
-                "30f48563.bc703a"
-            ]
-        ]
-    },
-    {
-        "id": "17a34cfc.4dfed3",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 400,
-        "wires": [
-            [
-                "d8e1c013.eb035"
-            ]
-        ]
-    },
-    {
-        "id": "d8e1c013.eb035",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 400,
-        "wires": [
-            [
-                "5eae4c6d.ab1724"
+                "696be502.d9083c"
             ]
         ]
     },
@@ -6156,7 +5796,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 400,
         "wires": [
             []
@@ -6174,45 +5814,7 @@
         "y": 400,
         "wires": [
             [
-                "17a34cfc.4dfed3"
-            ]
-        ]
-    },
-    {
-        "id": "ab77ec34.1fb0f",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 440,
-        "wires": [
-            [
-                "3fc1bc96.dc7054"
-            ]
-        ]
-    },
-    {
-        "id": "3fc1bc96.dc7054",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 440,
-        "wires": [
-            [
-                "6c6547e4.38a3c8"
+                "50495f3.c8980a"
             ]
         ]
     },
@@ -6230,7 +5832,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 440,
         "wires": [
             []
@@ -6248,45 +5850,7 @@
         "y": 440,
         "wires": [
             [
-                "ab77ec34.1fb0f"
-            ]
-        ]
-    },
-    {
-        "id": "55b7ac21.39f514",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Table",
-        "field": "Table",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 620,
-        "y": 480,
-        "wires": [
-            [
-                "65dbd399.5533cc"
-            ]
-        ]
-    },
-    {
-        "id": "65dbd399.5533cc",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "ALS",
-        "field": "ALS",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{brand}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
-        "output": "str",
-        "x": 740,
-        "y": 480,
-        "wires": [
-            [
-                "2affa031.3e65e"
+                "bf5491a6.b85a3"
             ]
         ]
     },
@@ -6304,7 +5868,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1070,
+        "x": 810,
         "y": 480,
         "wires": [
             []
@@ -6322,7 +5886,7 @@
         "y": 480,
         "wires": [
             [
-                "55b7ac21.39f514"
+                "fac6c681.3278d8"
             ]
         ]
     },
@@ -6341,7 +5905,6 @@
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
-        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -6351,7 +5914,6 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": true,
         "x": 460,
         "y": 330,
         "wires": [
@@ -6376,7 +5938,6 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "topicType": "str",
         "x": 480,
         "y": 130,
         "wires": [
@@ -6386,225 +5947,17 @@
         ]
     },
     {
-        "id": "6b9ac7d0.10e248",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 80,
-        "wires": [
-            [
-                "2ab98eda.7ac172"
-            ]
-        ]
-    },
-    {
-        "id": "8c3b5a68.a77e68",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 120,
-        "wires": [
-            [
-                "1e6ced7b.b438b3"
-            ]
-        ]
-    },
-    {
-        "id": "c8b6f25e.65812",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 160,
-        "wires": [
-            [
-                "a6aabb55.e54ea8"
-            ]
-        ]
-    },
-    {
-        "id": "6adac45d.43c16c",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 200,
-        "wires": [
-            [
-                "70eb2132.8160e"
-            ]
-        ]
-    },
-    {
-        "id": "ba75e630.788c48",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 240,
-        "wires": [
-            [
-                "4406026c.fab35c"
-            ]
-        ]
-    },
-    {
-        "id": "8df5bcbb.27f79",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 280,
-        "wires": [
-            [
-                "1f97d7a8.dbcca8"
-            ]
-        ]
-    },
-    {
-        "id": "ab335b39.bb0148",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 320,
-        "wires": [
-            [
-                "6f94e4d.b591f1c"
-            ]
-        ]
-    },
-    {
-        "id": "c319c1cb.fb504",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 360,
-        "wires": [
-            [
-                "afa19e55.c9111"
-            ]
-        ]
-    },
-    {
-        "id": "5eae4c6d.ab1724",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 400,
-        "wires": [
-            [
-                "41dce1b4.0f284"
-            ]
-        ]
-    },
-    {
-        "id": "6c6547e4.38a3c8",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 440,
-        "wires": [
-            [
-                "1b11bf35.86ad31"
-            ]
-        ]
-    },
-    {
-        "id": "2affa031.3e65e",
-        "type": "template",
-        "z": "77e50510.f482bc",
-        "name": "Template Bootstrap",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
-        "output": "str",
-        "x": 900,
-        "y": 480,
-        "wires": [
-            [
-                "3252cd47.752d02"
-            ]
-        ]
-    },
-    {
         "id": "8409e010.37ba6",
         "type": "random",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "",
         "low": 1,
         "high": "100",
         "inte": "true",
         "property": "payload",
-        "x": 670,
-        "y": 590,
+        "x": 690,
+        "y": 300,
         "wires": [
             [
                 "cce135f5.fcfef8"
@@ -6615,6 +5968,7 @@
         "id": "325d343f.cbe57c",
         "type": "inject",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "",
         "props": [
             {
@@ -6628,8 +5982,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 540,
-        "y": 590,
+        "x": 560,
+        "y": 300,
         "wires": [
             [
                 "8409e010.37ba6",
@@ -6716,7 +6070,6 @@
         ],
         "payload": "",
         "topic": "",
-        "topicType": "str",
         "x": 470,
         "y": 80,
         "wires": [
@@ -6754,7 +6107,6 @@
         ],
         "payload": "",
         "topic": "",
-        "topicType": "str",
         "x": 470,
         "y": 180,
         "wires": [
@@ -6817,7 +6169,6 @@
         ],
         "payload": "",
         "topic": "",
-        "topicType": "str",
         "x": 470,
         "y": 230,
         "wires": [
@@ -6875,7 +6226,6 @@
         ],
         "payload": "",
         "topic": "",
-        "topicType": "str",
         "x": 500,
         "y": 280,
         "wires": [
@@ -6903,7 +6253,6 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "topicType": "str",
         "x": 460,
         "y": 380,
         "wires": [
@@ -6943,13 +6292,14 @@
         "id": "4a5b3820.530d58",
         "type": "random",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "",
         "low": 1,
         "high": 10,
         "inte": "true",
         "property": "payload",
-        "x": 670,
-        "y": 630,
+        "x": 690,
+        "y": 340,
         "wires": [
             [
                 "ad7c56ce.ca1d48"
@@ -6960,6 +6310,7 @@
         "id": "cce135f5.fcfef8",
         "type": "change",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "A",
         "rules": [
             {
@@ -6975,8 +6326,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 590,
+        "x": 820,
+        "y": 300,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -6987,6 +6338,7 @@
         "id": "ad7c56ce.ca1d48",
         "type": "change",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "B",
         "rules": [
             {
@@ -7009,8 +6361,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 630,
+        "x": 820,
+        "y": 340,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -7021,6 +6373,7 @@
         "id": "950d5f47.f3248",
         "type": "inject",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "",
         "props": [
             {
@@ -7034,8 +6387,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 660,
-        "y": 670,
+        "x": 680,
+        "y": 380,
         "wires": [
             [
                 "3d0c56be.4680ca"
@@ -7046,6 +6399,7 @@
         "id": "3d0c56be.4680ca",
         "type": "function",
         "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
         "name": "clear",
         "func": "msg.payload = [];\nreturn msg;",
         "outputs": 1,
@@ -7053,8 +6407,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 670,
+        "x": 820,
+        "y": 380,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -9158,7 +8512,6 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
         "x": 540,
         "y": 160,
         "wires": [
@@ -9204,7 +8557,6 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
         "x": 580,
         "y": 240,
         "wires": [
@@ -9248,7 +8600,6 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
         "x": 530,
         "y": 340,
         "wires": [
@@ -9358,7 +8709,6 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "useDifferentColor": false,
         "x": 360,
         "y": 70,
         "wires": [
@@ -9374,7 +8724,7 @@
         "links": [
             "cb972615.9b3328"
         ],
-        "x": 565,
+        "x": 685,
         "y": 160,
         "wires": []
     },
@@ -9385,7 +8735,7 @@
         "g": "3383e29e.9b29fe",
         "name": "Humedad",
         "links": [],
-        "x": 565,
+        "x": 665,
         "y": 340,
         "wires": []
     },
@@ -9424,8 +8774,8 @@
             "ee4c814.2461e8",
             "f7b106.0da29ef8"
         ],
-        "x": 185,
-        "y": 390,
+        "x": 195,
+        "y": 270,
         "wires": [
             [
                 "6d29cc5d.b25944"
@@ -9452,8 +8802,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 270,
-        "y": 390,
+        "x": 280,
+        "y": 270,
         "wires": [
             [
                 "8504a5e9.c441a8"
@@ -9509,8 +8859,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 420,
-        "y": 410,
+        "x": 430,
+        "y": 290,
         "wires": [
             [
                 "88c1a42d.f4a528"
@@ -9563,8 +8913,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 420,
-        "y": 370,
+        "x": 430,
+        "y": 250,
         "wires": [
             [
                 "5c324370.33dadc"
@@ -9579,8 +8929,8 @@
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 535,
-        "y": 410,
+        "x": 545,
+        "y": 290,
         "wires": []
     },
     {
@@ -9591,8 +8941,8 @@
         "links": [
             "33f2aa3c.6c08f6"
         ],
-        "x": 535,
-        "y": 370,
+        "x": 545,
+        "y": 250,
         "wires": []
     },
     {
@@ -9663,11 +9013,13 @@
         "z": "a70735f4.fb54d8",
         "g": "565d8ee7.eb7be",
         "name": "",
-        "events": "change",
+        "events": "all",
         "x": 560,
         "y": 670,
         "wires": [
-            []
+            [
+                "efb9c720.028178"
+            ]
         ]
     },
     {
@@ -9676,7 +9028,7 @@
         "z": "a70735f4.fb54d8",
         "g": "565d8ee7.eb7be",
         "name": "General json para visualización",
-        "func": "Cluster = global.get(\"Cluster\")||[];\nmsg.disponible = [];\n\n// Extraer información sobre SCP Disponibles\nfor(var i=0; i<Cluster.length; i+=1){\n    msg.disponible.push(Cluster[i].Disponible);\n    msg.disponible[i]= msg.disponible[i]== \"No\" ? false:true;\n    \n    if(msg.disponible[i]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    node.send(msg)\n}\nreturn msg;",
+        "func": "Cluster         = global.get(\"Cluster\")||[];\nmsg.disponible  = [];\nmsg.sensor      = [];\n\n// Extraer información sobre SCP Disponibles\nfor(var i=0; i<Cluster.length; i+=1){\n    msg.disponible.push(Cluster[i].Disponible);\n    msg.disponible[i]= msg.disponible[i]== \"No\" ? false:true;\n    \n    if(msg.disponible[i]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    node.send(msg)\n}\n\n// Extraer información sobre SCP con sensor de fondo\nfor(var j=0; j<Cluster.length; j+=1){\n    msg.sensor.push(Cluster[j].Sensor);\n    msg.sensor[j] = msg.sensor[j] == \"Ninguno\" || msg.sensor[j]== \" -- \" ? false:true;\n    if(msg.sensor[j]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Datos_de_fondo_SCP_\"+[j+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Datos_de_fondo_SCP_\"+[j+1]]}\n        }\n    }\n    node.send(msg)\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9993,7 +9345,7 @@
         "links": [
             "c308cca6.9801f"
         ],
-        "x": 65,
+        "x": 155,
         "y": 50,
         "wires": [
             [
@@ -10023,7 +9375,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 1400,
         "y": 20,
@@ -10242,8 +9594,8 @@
         "g": "222c08a.f1e28f8",
         "name": "",
         "env": [],
-        "x": 580,
-        "y": 140,
+        "x": 590,
+        "y": 180,
         "wires": [
             [
                 "526b68fa.fc36e8"
@@ -10269,7 +9621,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 120,
-        "y": 140,
+        "y": 180,
         "wires": [
             [
                 "c4b00d9d.c758e"
@@ -10296,7 +9648,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
+        "x": 590,
         "y": 50,
         "wires": [
             []
@@ -10315,7 +9667,7 @@
         "finalize": "",
         "libs": [],
         "x": 330,
-        "y": 140,
+        "y": 180,
         "wires": [
             [
                 "e13ed5c.7271528"
@@ -10531,6 +9883,456 @@
         "wires": [
             [
                 "858cd4ed.092328"
+            ]
+        ]
+    },
+    {
+        "id": "a98b506e.03e03",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 120,
+        "y": 90,
+        "wires": [
+            [
+                "4c3a9b2b.9e2814"
+            ]
+        ]
+    },
+    {
+        "id": "8b151441.413e58",
+        "type": "template",
+        "z": "f0c3da0c.524418",
+        "name": "Table",
+        "field": "Table",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Entrada</td>\n                        <td>{{kW}}<strong> psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Motor</td>\n                        <td>{{V_VSD}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temp. Entrada</td>\n                        <td>{{V_Tx}}<strong> ºF</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vib. General</td>\n                        <td>{{V_Tx}}<strong> G</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corr. Fuga</td>\n                        <td>{{V_Tx}}<strong> A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "f48dc8d9.4c4ea8"
+            ]
+        ]
+    },
+    {
+        "id": "f48dc8d9.4c4ea8",
+        "type": "template",
+        "z": "f0c3da0c.524418",
+        "name": "ALS",
+        "field": "ALS",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <h5>{{wellName}} <span class=\"badge badge-secondary\">{{type}}</span></h5>\n        </div>\n    </div>\n</div>",
+        "output": "str",
+        "x": 240,
+        "y": 40,
+        "wires": [
+            [
+                "9dc007c5.140948"
+            ]
+        ]
+    },
+    {
+        "id": "9dc007c5.140948",
+        "type": "template",
+        "z": "f0c3da0c.524418",
+        "name": "Template Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "output": "str",
+        "x": 400,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72c4f54c.d77d5c",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 40,
+        "wires": [
+            [
+                "7274aff0.b6765"
+            ]
+        ]
+    },
+    {
+        "id": "3cd5b437.b7123c",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 80,
+        "wires": [
+            [
+                "2ab98eda.7ac172"
+            ]
+        ]
+    },
+    {
+        "id": "750a7839.f9a8b8",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 120,
+        "wires": [
+            [
+                "1e6ced7b.b438b3"
+            ]
+        ]
+    },
+    {
+        "id": "225632d7.f15e1e",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 160,
+        "wires": [
+            [
+                "a6aabb55.e54ea8"
+            ]
+        ]
+    },
+    {
+        "id": "1d80f696.9baeb9",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "70eb2132.8160e"
+            ]
+        ]
+    },
+    {
+        "id": "ae9c6322.e6d4b",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 240,
+        "wires": [
+            [
+                "4406026c.fab35c"
+            ]
+        ]
+    },
+    {
+        "id": "7d436b9d.420ba4",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 280,
+        "wires": [
+            [
+                "1f97d7a8.dbcca8"
+            ]
+        ]
+    },
+    {
+        "id": "9509c08e.1839c",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 320,
+        "wires": [
+            [
+                "6f94e4d.b591f1c"
+            ]
+        ]
+    },
+    {
+        "id": "696be502.d9083c",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 360,
+        "wires": [
+            [
+                "afa19e55.c9111"
+            ]
+        ]
+    },
+    {
+        "id": "50495f3.c8980a",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 400,
+        "wires": [
+            [
+                "41dce1b4.0f284"
+            ]
+        ]
+    },
+    {
+        "id": "bf5491a6.b85a3",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 440,
+        "wires": [
+            [
+                "1b11bf35.86ad31"
+            ]
+        ]
+    },
+    {
+        "id": "fac6c681.3278d8",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 650,
+        "y": 480,
+        "wires": [
+            [
+                "3252cd47.752d02"
+            ]
+        ]
+    },
+    {
+        "id": "efb9c720.028178",
+        "type": "link out",
+        "z": "a70735f4.fb54d8",
+        "g": "565d8ee7.eb7be",
+        "name": "UI-Control Link Out",
+        "links": [
+            "51d66341.8ee0fc"
+        ],
+        "x": 655,
+        "y": 670,
+        "wires": []
+    },
+    {
+        "id": "5a12c1a2.71ef8",
+        "type": "inject",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 640,
+        "y": 80,
+        "wires": [
+            [
+                "28cd79fb.3dcae6"
+            ]
+        ]
+    },
+    {
+        "id": "a56b7213.8b52d",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"disable\":[\"Configuración_clúster\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 760,
+        "wires": [
+            [
+                "9ba40ae6.a2adb8"
+            ]
+        ]
+    },
+    {
+        "id": "80e1efb2.f9009",
+        "type": "inject",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 760,
+        "wires": [
+            [
+                "a56b7213.8b52d"
+            ]
+        ]
+    },
+    {
+        "id": "1d4f08d7.3d6247",
+        "type": "inject",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 800,
+        "wires": [
+            [
+                "f0e1029d.79559"
+            ]
+        ]
+    },
+    {
+        "id": "f0e1029d.79559",
+        "type": "change",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"enable\":[\"Configuración_clúster\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 800,
+        "wires": [
+            [
+                "9ba40ae6.a2adb8"
+            ]
+        ]
+    },
+    {
+        "id": "316f57da.0f2fc8",
+        "type": "exec",
+        "z": "612ddf44.816d7",
+        "g": "a163450f.bc4438",
+        "command": "echo Slacol1234 | sudo -S systemctl start kiosk.service",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5f07f1b.ac4631",
+        "type": "delay",
+        "z": "612ddf44.816d7",
+        "g": "a163450f.bc4438",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 250,
+        "y": 440,
+        "wires": [
+            [
+                "316f57da.0f2fc8"
+            ]
+        ]
+    },
+    {
+        "id": "1b5b2e1c.f68d42",
+        "type": "inject",
+        "z": "612ddf44.816d7",
+        "g": "a163450f.bc4438",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "5f07f1b.ac4631"
             ]
         ]
     }
