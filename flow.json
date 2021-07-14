@@ -1,5 +1,12 @@
 [
     {
+        "id": "c8989d0a.49ea8",
+        "type": "tab",
+        "label": "Lectura/Escritura",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "56041636.7e55e8",
         "type": "tab",
         "label": "Despliegue general",
@@ -574,9 +581,7 @@
             "51e191bb.59c8a"
         ],
         "x": 64,
-        "y": 19,
-        "w": 682,
-        "h": 1002
+        "y": 19
     },
     {
         "id": "2f18e23b.de32ce",
@@ -612,9 +617,7 @@
             "cf57802e.7d258"
         ],
         "x": 8,
-        "y": 13,
-        "w": 1844,
-        "h": 214
+        "y": 13
     },
     {
         "id": "3383e29e.9b29fe",
@@ -640,9 +643,7 @@
             "576f3936.7493b8"
         ],
         "x": 24,
-        "y": 79,
-        "w": 732,
-        "h": 302
+        "y": 79
     },
     {
         "id": "73df5953.fc56e8",
@@ -766,6 +767,47 @@
         "y": 259
     },
     {
+        "id": "a163450f.bc4438",
+        "type": "group",
+        "z": "612ddf44.816d7",
+        "name": "Iniciar el servicio kiosk desde Node-Red",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "316f57da.0f2fc8",
+            "5f07f1b.ac4631",
+            "1b5b2e1c.f68d42"
+        ],
+        "x": 24,
+        "y": 391.5
+    },
+    {
+        "id": "c491209e.0408d",
+        "type": "group",
+        "z": "c8989d0a.49ea8",
+        "name": "Lectura",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "d59f32db.a997a",
+            "d49c563b.aa6238",
+            "4e580403.83211c",
+            "be09537f.dc5f5",
+            "52ea5346.240e1c",
+            "52695451.9a82cc"
+        ],
+        "x": 24,
+        "y": 19,
+        "w": 482,
+        "h": 282
+    },
+    {
         "id": "f3c2e7cf.5ed158",
         "type": "group",
         "z": "827787d0.ede678",
@@ -886,9 +928,7 @@
             "1660e38d.24cefc"
         ],
         "x": 34,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -916,9 +956,7 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "a80677cf.4274c8",
@@ -977,26 +1015,6 @@
         ],
         "x": 684,
         "y": 479
-    },
-    {
-        "id": "a163450f.bc4438",
-        "type": "group",
-        "z": "612ddf44.816d7",
-        "name": "Iniciar el servicio kiosk desde Node-Red",
-        "style": {
-            "fill": "#bfdbef",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "316f57da.0f2fc8",
-            "5f07f1b.ac4631",
-            "1b5b2e1c.f68d42"
-        ],
-        "x": 24,
-        "y": 391.5,
-        "w": 752,
-        "h": 97
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -1934,6 +1952,1932 @@
         "disp": false,
         "width": "24",
         "collapse": false
+    },
+    {
+        "id": "6c1d2626.55cae8",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "RockwellPoweflex.1",
+        "vartable": {
+            "": {
+                "CLUSTER.W01.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
+        "id": "5551a739.579958",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "6",
+        "cycletime": "500",
+        "name": "RockwellPowerflex.2",
+        "vartable": {
+            "": {
+                "CLUSTER.W05.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
+        "id": "b0d35964.8b8228",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "6",
+        "cycletime": "500",
+        "name": "RockwellPowerflex.3",
+        "vartable": {
+            "": {
+                "CLUSTER.W09.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W01.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W02.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W03.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
+        "id": "feff56ad.db16f8",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "6",
+        "cycletime": "500",
+        "name": "RockwellPowerflex.4",
+        "vartable": {
+            "": {
+                "CLUSTER2.W04.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W04.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W05.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W06.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W07.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
+        "id": "85978ca3.d0b6d",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "6",
+        "cycletime": "500",
+        "name": "RockwellPowerflex.5",
+        "vartable": {
+            "": {
+                "CLUSTER2.W08.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W08.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.DHOLE.PIP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.VSD.Frecuencia": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.VSD.Estado": {
+                    "type": "INT"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L_N_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L_L_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Amp_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Hz_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.KWATT_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.KVA_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.KVAr_Act_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.FP_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.THD_I_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.THD_V_Pro": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L1_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L2_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L3_N": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L1_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L1_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Voltaje_L2_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Amp_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Amp_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.Amp_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.KWATT_Act_L1": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.KWATT_Act_L2": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.PQM.KWATT_Act_L3": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.INST.THP_PIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.INST.THT_TIT_PV": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.VSD.Voltaje_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.VSD.Corriente_Motor": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.DHOLE.PDP": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.DHOLE.Temperatura_Descarga": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.DHOLE.Temperatura_Entrada": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.DHOLE.Vibracion": {
+                    "type": "REAL"
+                },
+                "CLUSTER2.W09.DHOLE.Temperatura_Motor": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
+        "id": "85d5763f.045ac8",
+        "type": "eth-ip endpoint",
+        "address": "192.169.2.9",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Escritura SCP1",
+        "vartable": {
+            "": {
+                "CLUSTER.W01.VSD.Arranque_PD": {
+                    "type": "BOOL"
+                },
+                "CLUSTER.W01.VSD.Parada_PD": {
+                    "type": "BOOL"
+                },
+                "CLUSTER.W01.VSD.Cambio_Hz_PD": {
+                    "type": "INT"
+                },
+                "CLUSTER.W01.VSD.Prot_Sobrecarga_PD": {
+                    "type": "INT"
+                },
+                "CLUSTER.W01.VSD.Prot_Subcarga_PD": {
+                    "type": "INT"
+                },
+                "CLUSTER.W01.VSD.Rampa_Prolong": {
+                    "type": "INT"
+                }
+            }
+        }
     },
     {
         "id": "c8f67d0b.44558",
@@ -10335,5 +12279,123 @@
                 "5f07f1b.ac4631"
             ]
         ]
+    },
+    {
+        "id": "d59f32db.a997a",
+        "type": "eth-ip in",
+        "z": "c8989d0a.49ea8",
+        "g": "c491209e.0408d",
+        "endpoint": "6c1d2626.55cae8",
+        "mode": "all",
+        "variable": "CLUSTER.W04.DHOLE.Temperatura_Motor",
+        "program": "",
+        "name": "Rockwell.1",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "52695451.9a82cc"
+            ]
+        ]
+    },
+    {
+        "id": "d49c563b.aa6238",
+        "type": "eth-ip in",
+        "z": "c8989d0a.49ea8",
+        "g": "c491209e.0408d",
+        "endpoint": "5551a739.579958",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "Rockwell.2",
+        "x": 110,
+        "y": 110,
+        "wires": [
+            [
+                "52695451.9a82cc"
+            ]
+        ]
+    },
+    {
+        "id": "4e580403.83211c",
+        "type": "eth-ip in",
+        "z": "c8989d0a.49ea8",
+        "g": "c491209e.0408d",
+        "endpoint": "b0d35964.8b8228",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "Rockwell.3",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "52695451.9a82cc"
+            ]
+        ]
+    },
+    {
+        "id": "be09537f.dc5f5",
+        "type": "eth-ip in",
+        "z": "c8989d0a.49ea8",
+        "g": "c491209e.0408d",
+        "endpoint": "feff56ad.db16f8",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "Rockwell.4",
+        "x": 110,
+        "y": 210,
+        "wires": [
+            [
+                "52695451.9a82cc"
+            ]
+        ]
+    },
+    {
+        "id": "52ea5346.240e1c",
+        "type": "eth-ip in",
+        "z": "c8989d0a.49ea8",
+        "g": "c491209e.0408d",
+        "endpoint": "85978ca3.d0b6d",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "Rockwell.5",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "52695451.9a82cc"
+            ]
+        ]
+    },
+    {
+        "id": "52695451.9a82cc",
+        "type": "function",
+        "z": "c8989d0a.49ea8",
+        "g": "c491209e.0408d",
+        "name": "Organizar datos por SCPx",
+        "func": "var keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\n\nfor(var i=0; i<keys.length; i+=1){\n    keys[i] = keys[i].replace(\"CLUSTER2\",\"SCP1\");\n    keys[i] = keys[i].replace(\"CLUSTER\",\"SCP\");\n    \n    for(var j=0; j<=9; j+=1){\n        keys[i] = keys[i].replace(\".W0\"+j,j);\n    }\n    global.set(\"Cluster.\"+keys[i],values[i],\"memoryOnly\");\n}\nreturn msg;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fa19abcd.2cac68",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "endpoint": "85d5763f.045ac8",
+        "variable": "CLUSTER.W01.VSD.Arranque_PD",
+        "program": "",
+        "name": "",
+        "x": 570,
+        "y": 410,
+        "wires": []
     }
 ]
