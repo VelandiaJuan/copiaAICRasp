@@ -2,7 +2,14 @@
     "name": "AIC-SWCPro",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-cip-ethernet-ip": "1.1.2",
+        "node-red-contrib-ui-led": "0.3.1",
+        "node-red-contrib-ui-level": "0.1.33",
+        "node-red-dashboard": "2.22.1",
+        "node-red-node-random": "0.4.0",
+        "node-red-node-ui-table": "0.3.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
