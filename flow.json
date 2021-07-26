@@ -3,7 +3,7 @@
         "id": "c8989d0a.49ea8",
         "type": "tab",
         "label": "Lectura/Escritura",
-        "disabled": true,
+        "disabled": false,
         "info": ""
     },
     {
@@ -643,9 +643,7 @@
             "576f3936.7493b8"
         ],
         "x": 24,
-        "y": 79,
-        "w": 732,
-        "h": 302
+        "y": 79
     },
     {
         "id": "73df5953.fc56e8",
@@ -784,9 +782,7 @@
             "1b5b2e1c.f68d42"
         ],
         "x": 24,
-        "y": 391.5,
-        "w": 752,
-        "h": 97
+        "y": 391.5
     },
     {
         "id": "c491209e.0408d",
@@ -3856,28 +3852,37 @@
     {
         "id": "85d5763f.045ac8",
         "type": "eth-ip endpoint",
-        "address": "192.169.2.9",
+        "address": "192.168.2.9",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura SCP1",
         "vartable": {
             "": {
-                "CLUSTER.W01.VSD.Arranque_PD": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.VSD.Parada_PD": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.VSD.Cambio_Hz_PD": {
+                "BRAND_VFD[1]": {
                     "type": "INT"
                 },
-                "CLUSTER.W01.VSD.Prot_Sobrecarga_PD": {
+                "BRAND_VFD[2]": {
                     "type": "INT"
                 },
-                "CLUSTER.W01.VSD.Prot_Subcarga_PD": {
+                "BRAND_VFD[3]": {
                     "type": "INT"
                 },
-                "CLUSTER.W01.VSD.Rampa_Prolong": {
+                "BRAND_VFD[4]": {
+                    "type": "INT"
+                },
+                "BRAND_VFD[5]": {
+                    "type": "INT"
+                },
+                "BRAND_VFD[6]": {
+                    "type": "INT"
+                },
+                "BRAND_VFD[7]": {
+                    "type": "INT"
+                },
+                "BRAND_VFD[8]": {
+                    "type": "INT"
+                },
+                "BRAND_VFD[9]": {
                     "type": "INT"
                 }
             }
@@ -12395,11 +12400,89 @@
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
         "endpoint": "85d5763f.045ac8",
-        "variable": "CLUSTER.W01.VSD.Arranque_PD",
+        "variable": "BRAND_VFD[1]",
         "program": "",
         "name": "",
-        "x": 570,
-        "y": 410,
+        "x": 440,
+        "y": 370,
+        "wires": []
+    },
+    {
+        "id": "ea6d5a04.9987d8",
+        "type": "inject",
+        "z": "c8989d0a.49ea8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 240,
+        "y": 400,
+        "wires": [
+            [
+                "fa19abcd.2cac68",
+                "9fc2592c.e76fc8",
+                "77a7b994.abc7b8"
+            ]
+        ]
+    },
+    {
+        "id": "4e5fcab.f58af34",
+        "type": "inject",
+        "z": "c8989d0a.49ea8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 240,
+        "y": 440,
+        "wires": [
+            [
+                "fa19abcd.2cac68",
+                "9fc2592c.e76fc8",
+                "77a7b994.abc7b8"
+            ]
+        ]
+    },
+    {
+        "id": "9fc2592c.e76fc8",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "endpoint": "85d5763f.045ac8",
+        "variable": "BRAND_VFD[2]",
+        "program": "",
+        "name": "",
+        "x": 440,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "77a7b994.abc7b8",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "endpoint": "85d5763f.045ac8",
+        "variable": "BRAND_VFD[3]",
+        "program": "",
+        "name": "",
+        "x": 440,
+        "y": 470,
         "wires": []
     }
 ]
