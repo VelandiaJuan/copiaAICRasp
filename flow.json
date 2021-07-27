@@ -581,7 +581,9 @@
             "51e191bb.59c8a"
         ],
         "x": 64,
-        "y": 19
+        "y": 19,
+        "w": 682,
+        "h": 1002
     },
     {
         "id": "2f18e23b.de32ce",
@@ -11019,7 +11021,7 @@
         "type": "function",
         "z": "5c22c23.3efb43c",
         "name": "Data",
-        "func": "var Cluster     = global.get(\"Cluster\")||[];\nvar SCP         = env.get(\"SCP\")||0;\n\nmsg.Hz          = getRandom(0,10);\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = Cluster[SCP][\"ALS\"];\nmsg.wellName    = Cluster[SCP][\"Nombre\"];\nmsg.VSD         = Cluster[SCP][\"Variador\"];\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar SCP         = env.get(\"SCP\")||0;\nmsg.Hz          = Cluster[\"SCP\"+(SCP+1)].VSD.Estado;\nmsg.kW          = getRandom(20,40);\nmsg.A_VSD       = getRandom(30,50);\nmsg.V_VSD       = getRandom(40,60);\nmsg.A_Tx        = getRandom(50,70);\nmsg.V_Tx        = getRandom(60,80);\n\nmsg.payload     = getRandomAlert();\n\nmsg.alert       = msg.payload[1];\nmsg.alertMsg    = msg.payload[0];\n\nmsg.type        = ClusterData[SCP][\"ALS\"];\nmsg.wellName    = ClusterData[SCP][\"Nombre\"];\nmsg.VSD         = ClusterData[SCP][\"Variador\"];\n\nfunction getRandomAlert(){\n    var resp=\"\";\n    switch (getRandomInt(3)){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo en alarma!\",\"alert-warning\"];\n            break;\n        \n        case 2:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n    }\n    return resp\n}\n\nfunction getRandomVSD(){\n    var resp=\"\";\n    switch (getRandomInt(4)){\n        case 0:\n            resp = \"CILA2S\";\n            break;\n    \n        case 1:\n            resp = \"SIEMENS\";\n            break;\n        \n        case 2:\n            resp = \"ABB\";\n            break;\n        case 3:\n            resp = \"YASKAWA\";\n            break;\n        case 4:\n            resp = \"UNICONN\";\n            break;\n        case 5:\n            resp = \"VARIADORES SA\";\n            break;\n    }\n    return resp\n}\n\nfunction getRandomInt(max){\n    return Math.floor(Math.random() * max);\n}\n\nfunction getRandom(min, max) {\n  resp = Math.random() * (max - min) + min;\n  resp = parseInt(parseFloat(resp).toFixed(2));\n  return resp;\n}\n\nfunction getRandomLeter(length) {\n    var result           = '';\n    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';\n    var charactersLength = characters.length;\n    for ( var i = 0; i < length; i++ ) {\n      result += characters.charAt(Math.floor(Math.random() * \n charactersLength));\n   }\n   return result;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12385,7 +12387,7 @@
         "z": "c8989d0a.49ea8",
         "g": "c491209e.0408d",
         "name": "Organizar datos por SCPx",
-        "func": "var keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\n\nfor(var i=0; i<keys.length; i+=1){\n    keys[i] = keys[i].replace(\"CLUSTER2\",\"SCP1\");\n    keys[i] = keys[i].replace(\"CLUSTER\",\"SCP\");\n    \n    for(var j=0; j<=9; j+=1){\n        keys[i] = keys[i].replace(\".W0\"+j,j);\n    }\n    global.set(\"Cluster.\"+keys[i],values[i],\"memoryOnly\");\n}\nreturn msg;",
+        "func": "var keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\n\nfor(var i=0; i<keys.length; i+=1){\n    keys[i] = keys[i].replace(\"CLUSTER2\",\"SCP1\");\n    keys[i] = keys[i].replace(\"CLUSTER\",\"SCP\");\n    \n    for(var j=0; j<=9; j+=1){\n        keys[i] = keys[i].replace(\".W0\"+j,j);\n    }\n    for(var k=1; k<=9; k+=1){\n       keys[i] = keys[i].replace(\"SCP1\"+k,\"SCP1\"+(k-1)); \n    }\n    \n    global.set(\"Cluster.\"+keys[i],values[i],\"memoryOnly\");\n}\nreturn msg;",
         "outputs": 0,
         "noerr": 0,
         "initialize": "",
@@ -12403,8 +12405,8 @@
         "variable": "BRAND_VFD[1]",
         "program": "",
         "name": "",
-        "x": 440,
-        "y": 370,
+        "x": 330,
+        "y": 340,
         "wires": []
     },
     {
@@ -12424,8 +12426,8 @@
         "topic": "",
         "payload": "2",
         "payloadType": "num",
-        "x": 240,
-        "y": 400,
+        "x": 130,
+        "y": 370,
         "wires": [
             [
                 "fa19abcd.2cac68",
@@ -12451,8 +12453,8 @@
         "topic": "",
         "payload": "0",
         "payloadType": "num",
-        "x": 240,
-        "y": 440,
+        "x": 130,
+        "y": 410,
         "wires": [
             [
                 "fa19abcd.2cac68",
@@ -12469,8 +12471,8 @@
         "variable": "BRAND_VFD[2]",
         "program": "",
         "name": "",
-        "x": 440,
-        "y": 420,
+        "x": 330,
+        "y": 390,
         "wires": []
     },
     {
@@ -12481,8 +12483,8 @@
         "variable": "BRAND_VFD[3]",
         "program": "",
         "name": "",
-        "x": 440,
-        "y": 470,
+        "x": 330,
+        "y": 440,
         "wires": []
     }
 ]
