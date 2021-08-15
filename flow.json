@@ -565,18 +565,6 @@
             "128332bd.e6e68d",
             "f1b95f94.7eed7",
             "b2bf4260.68812",
-            "44ab73f9.6a72cc",
-            "f7b106.0da29ef8",
-            "7cc5cf5a.1a576",
-            "97bae11c.61449",
-            "d4a566c6.c4e018",
-            "8b96bde.d92114",
-            "21c4c3.0b609b3e",
-            "9d882c1.be806d",
-            "4222ac6e.f706d4",
-            "b8f3cd0c.b70a2",
-            "dfc5bdb9.d9a96",
-            "ee4c814.2461e8",
             "efde2660.167898",
             "cf54e9f1.20a918",
             "7258894.b266978",
@@ -593,9 +581,7 @@
             "ae9a42f6.bffee"
         ],
         "x": 64,
-        "y": 19,
-        "w": 682,
-        "h": 1002
+        "y": 19
     },
     {
         "id": "2f18e23b.de32ce",
@@ -632,8 +618,10 @@
             "11f55817.139c18",
             "cf57802e.7d258"
         ],
-        "x": 8,
-        "y": 13
+        "x": -2,
+        "y": 13,
+        "w": 1854,
+        "h": 214
     },
     {
         "id": "3383e29e.9b29fe",
@@ -647,19 +635,22 @@
         "nodes": [
             "798ac169.6edda",
             "20490d7e.8acac2",
-            "88ac83a3.561a3",
             "4906fc64.1e6a14",
-            "d43fb27a.273b3",
             "be4a90f3.ab244",
-            "e1fcad8b.9672c",
             "df5d75d6.682dc8",
-            "9ce98c30.594c6",
             "559b8847.1b9b48",
             "584b677d.8d2c78",
-            "576f3936.7493b8"
+            "576f3936.7493b8",
+            "88ac83a3.561a3",
+            "9ce98c30.594c6",
+            "d43fb27a.273b3",
+            "952a36cb.eb5738",
+            "941040e3.a0af"
         ],
-        "x": 24,
-        "y": 79
+        "x": 34,
+        "y": 79,
+        "w": 732,
+        "h": 302
     },
     {
         "id": "c58d9126.1869c",
@@ -775,7 +766,9 @@
             "1b5b2e1c.f68d42"
         ],
         "x": 24,
-        "y": 391.5
+        "y": 391.5,
+        "w": 752,
+        "h": 97
     },
     {
         "id": "a0798509.56f3c8",
@@ -840,6 +833,98 @@
         "y": 39,
         "w": 872,
         "h": 422
+    },
+    {
+        "id": "657e2074.735a3",
+        "type": "group",
+        "z": "c8989d0a.49ea8",
+        "name": "Comandos Arranque Paro Reset Remoto",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "d2f4febb.5191d",
+            "d938c95c.283108",
+            "47d1f5ad.53fdfc",
+            "e73deb28.ab7c58",
+            "308496cc.1a08fa",
+            "38d893df.8a333c",
+            "8ba61d08.68924",
+            "b804dc17.3c11c",
+            "f853ef97.ea1b",
+            "f7e2b76f.736738",
+            "8d5fdd06.4fa45",
+            "b9f20f86.e4bf1",
+            "8eab2d74.7f1fe",
+            "656bbea4.ffa3f",
+            "160ab9fc.7eb4e6",
+            "e444da6e.5f8128",
+            "25eeaa97.48ca86",
+            "932b0db5.b3daa",
+            "de245ad1.e52908",
+            "a86fabcb.194488",
+            "a4fc6f8.fdca09",
+            "ac4b1a1d.2a0158",
+            "3851f53d.72a3ea",
+            "57de4f88.31f6f",
+            "2bf7ce89.c48ff2",
+            "95c6abd4.4862d8",
+            "7998e18f.da1ef",
+            "ca6808c4.0ce2b8",
+            "c5614143.9411"
+        ],
+        "x": 784,
+        "y": 529,
+        "w": 472,
+        "h": 1412
+    },
+    {
+        "id": "b5f921be.8080a",
+        "type": "group",
+        "z": "c8989d0a.49ea8",
+        "name": "Configuracion Pozo",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "639ae60a.32c788",
+            "b895bd39.5c6f9",
+            "ae380c04.45207",
+            "e983f2eb.cc849"
+        ],
+        "x": 34,
+        "y": 533,
+        "w": 708,
+        "h": 954
+    },
+    {
+        "id": "a17f12b7.aff7a",
+        "type": "group",
+        "z": "c8989d0a.49ea8",
+        "name": "Escritura Referencia",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "9a082d5b.6a6e5",
+            "91831b1b.df61b8",
+            "bb351043.dc5c7",
+            "491e3ffd.9afc5",
+            "e9a5670b.de2478",
+            "5e1fe9fd.eba2e8",
+            "f60c2283.77e35",
+            "145df53.ab3a50b",
+            "414bd76c.c35658",
+            "311fb58b.d4c35a",
+            "c738a47b.f465d8"
+        ],
+        "x": 34,
+        "y": 1499,
+        "w": 642,
+        "h": 482
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -948,8 +1033,10 @@
             "ebf4df19.2cfb2",
             "1660e38d.24cefc"
         ],
-        "x": 34,
-        "y": 39
+        "x": 24,
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -977,7 +1064,9 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "ae380c04.45207",
@@ -1028,6 +1117,35 @@
         "y": 1059,
         "w": 252,
         "h": 402
+    },
+    {
+        "id": "dbdbcfdd.62eb8",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "64748d27.b27004",
+            "26c5e6f4.5cc1fa",
+            "2526682.c405998",
+            "dba80e92.0a13d",
+            "76ade389.49748c",
+            "267fdbe0.520b94",
+            "ede56ecd.3a66e",
+            "35e356e7.8ebc5a"
+        ],
+        "x": 64,
+        "y": 599,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "a80677cf.4274c8",
@@ -1092,127 +1210,6 @@
         "y": 479,
         "w": 372,
         "h": 162
-    },
-    {
-        "id": "dbdbcfdd.62eb8",
-        "type": "group",
-        "z": "e997ba3b.48cc18",
-        "g": "2f18e23b.de32ce",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "64748d27.b27004",
-            "26c5e6f4.5cc1fa",
-            "2526682.c405998",
-            "dba80e92.0a13d",
-            "76ade389.49748c",
-            "267fdbe0.520b94",
-            "ede56ecd.3a66e",
-            "35e356e7.8ebc5a"
-        ],
-        "x": 64,
-        "y": 599,
-        "w": 652,
-        "h": 162
-    },
-    {
-        "id": "657e2074.735a3",
-        "type": "group",
-        "z": "c8989d0a.49ea8",
-        "name": "Comandos Arranque Paro Reset Remoto",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf"
-        },
-        "nodes": [
-            "d2f4febb.5191d",
-            "d938c95c.283108",
-            "47d1f5ad.53fdfc",
-            "e73deb28.ab7c58",
-            "308496cc.1a08fa",
-            "38d893df.8a333c",
-            "8ba61d08.68924",
-            "b804dc17.3c11c",
-            "f853ef97.ea1b",
-            "f7e2b76f.736738",
-            "8d5fdd06.4fa45",
-            "b9f20f86.e4bf1",
-            "8eab2d74.7f1fe",
-            "656bbea4.ffa3f",
-            "160ab9fc.7eb4e6",
-            "e444da6e.5f8128",
-            "25eeaa97.48ca86",
-            "932b0db5.b3daa",
-            "de245ad1.e52908",
-            "a86fabcb.194488",
-            "a4fc6f8.fdca09",
-            "ac4b1a1d.2a0158",
-            "3851f53d.72a3ea",
-            "57de4f88.31f6f",
-            "2bf7ce89.c48ff2",
-            "95c6abd4.4862d8",
-            "7998e18f.da1ef",
-            "ca6808c4.0ce2b8",
-            "c5614143.9411"
-        ],
-        "x": 784,
-        "y": 529,
-        "w": 472,
-        "h": 1412
-    },
-    {
-        "id": "b5f921be.8080a",
-        "type": "group",
-        "z": "c8989d0a.49ea8",
-        "name": "Configuracion Pozo",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf"
-        },
-        "nodes": [
-            "639ae60a.32c788",
-            "b895bd39.5c6f9",
-            "ae380c04.45207",
-            "e983f2eb.cc849"
-        ],
-        "x": 34,
-        "y": 533,
-        "w": 708,
-        "h": 954
-    },
-    {
-        "id": "a17f12b7.aff7a",
-        "type": "group",
-        "z": "c8989d0a.49ea8",
-        "name": "Escritura Referencia",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf"
-        },
-        "nodes": [
-            "9a082d5b.6a6e5",
-            "91831b1b.df61b8",
-            "bb351043.dc5c7",
-            "491e3ffd.9afc5",
-            "e9a5670b.de2478",
-            "5e1fe9fd.eba2e8",
-            "f60c2283.77e35",
-            "145df53.ab3a50b",
-            "414bd76c.c35658",
-            "311fb58b.d4c35a",
-            "c738a47b.f465d8"
-        ],
-        "x": 34,
-        "y": 1499,
-        "w": 642,
-        "h": 482
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -1301,7 +1298,7 @@
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
                 "sx": 37,
-                "sy": 54,
+                "sy": 60,
                 "gx": 4,
                 "gy": 4,
                 "cx": 4,
@@ -1710,7 +1707,6 @@
     {
         "id": "ee226df1.9537a",
         "type": "ui_group",
-        "d": true,
         "name": "CIRCUITO 1",
         "tab": "cdb8cc7.0f2ac3",
         "order": 2,
@@ -1721,7 +1717,6 @@
     {
         "id": "9ad8c1e8.7c9",
         "type": "ui_group",
-        "d": true,
         "name": "CIRCUITO 2",
         "tab": "cdb8cc7.0f2ac3",
         "order": 3,
@@ -1732,7 +1727,6 @@
     {
         "id": "4c82d8af.0c5498",
         "type": "ui_group",
-        "d": true,
         "name": "INTERRUPTORES",
         "tab": "cdb8cc7.0f2ac3",
         "order": 4,
@@ -1951,7 +1945,7 @@
         "tab": "6a3fd4b.86cdb2c",
         "order": 2,
         "disp": true,
-        "width": "24",
+        "width": "12",
         "collapse": false
     },
     {
@@ -6961,6 +6955,34 @@
         }
     },
     {
+        "id": "f70aaec9.581ea",
+        "type": "ui_group",
+        "name": "Conf. Presión Manifold PZIT",
+        "tab": "6a3fd4b.86cdb2c",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "817c8033.98df9",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "ANALOG INPUT",
+        "vartable": {
+            "": {
+                "DATA_CL_hum_SCC": {
+                    "type": "REAL"
+                },
+                "DATA_CL_temp_SCC": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
         "id": "c8f67d0b.44558",
         "type": "ui_template",
         "z": "56041636.7e55e8",
@@ -8715,7 +8737,7 @@
         "name": "",
         "order": 0,
         "width": "24",
-        "height": "5",
+        "height": "4",
         "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -8859,7 +8881,7 @@
         "name": "",
         "order": 2,
         "width": "12",
-        "height": "5",
+        "height": "4",
         "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -9200,7 +9222,6 @@
         "id": "224439b7.e88da6",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "ee226df1.9537a",
         "order": 1,
         "width": "6",
@@ -9260,7 +9281,6 @@
         "id": "7688fc6a.4a83a4",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "ee226df1.9537a",
         "order": 2,
         "width": "6",
@@ -9295,7 +9315,6 @@
         "id": "2a6e31cf.58775e",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "ee226df1.9537a",
         "order": 3,
         "width": "6",
@@ -9397,7 +9416,6 @@
         "id": "32fad925.551816",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "ee226df1.9537a",
         "order": 4,
         "width": "6",
@@ -9503,7 +9521,6 @@
         "id": "cfe72ee3.ef8ad",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "9ad8c1e8.7c9",
         "order": 1,
         "width": "6",
@@ -9558,7 +9575,6 @@
         "id": "9f8a1bfe.76d598",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "9ad8c1e8.7c9",
         "order": 1,
         "width": "6",
@@ -9593,7 +9609,6 @@
         "id": "11c83a9a.542825",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "9ad8c1e8.7c9",
         "order": 1,
         "width": "6",
@@ -9690,7 +9705,6 @@
         "id": "2c0cbfe9.aaffd",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "9ad8c1e8.7c9",
         "order": 1,
         "width": "6",
@@ -9796,7 +9810,6 @@
         "id": "da544bac.502c68",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "4c82d8af.0c5498",
         "order": 1,
         "width": "6",
@@ -9873,7 +9886,6 @@
         "id": "2c30ffb2.e51b7",
         "type": "ui_led",
         "z": "93634831.aed548",
-        "d": true,
         "group": "4c82d8af.0c5498",
         "order": 1,
         "width": "6",
@@ -10098,189 +10110,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "44ab73f9.6a72cc",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot1",
-        "links": [
-            "d2d62409.49e708",
-            "4647ac55.a51c34",
-            "da9db920.f37dc8",
-            "7d311ba0.5056a4",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "f7b106.0da29ef8",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot2",
-        "links": [
-            "4075463c.5f9318",
-            "cf720636.85a2d8",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "7cc5cf5a.1a576",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot3",
-        "links": [
-            "31f4417e.e5dbce",
-            "4f6d5eab.8e4c6",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "97bae11c.61449",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot4",
-        "links": [
-            "29f636aa.aca62a",
-            "b2c449db.0d7b18",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "d4a566c6.c4e018",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot5",
-        "links": [
-            "ab1baf8f.ec288",
-            "1b06ffc4.7bc67",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "8b96bde.d92114",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot6",
-        "links": [
-            "c31beae2.7f8088",
-            "8aaec4dc.5b4cd8",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "21c4c3.0b609b3e",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot7",
-        "links": [
-            "2bcc22e5.f6d62e",
-            "fd12e42b.9b7268",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "9d882c1.be806d",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot8",
-        "links": [
-            "e47696d4.4ad568",
-            "e016b5.3aa75948",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "4222ac6e.f706d4",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot9",
-        "links": [
-            "18d69e0b.05d942",
-            "75b4c2da.2eae7c",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "b8f3cd0c.b70a2",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot10",
-        "links": [
-            "6d2a52d9.598f2c",
-            "66e73298.23c43c",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "dfc5bdb9.d9a96",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "Slot11",
-        "links": [
-            "b9c1f438.e74928",
-            "da9db920.f37dc8",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "ee4c814.2461e8",
-        "type": "link out",
-        "z": "56041636.7e55e8",
-        "d": true,
-        "g": "cf7122b5.0b85",
-        "name": "Slot12",
-        "links": [
-            "5225e4b7.89e0ac",
-            "c48fce04.4a833",
-            "c4d0ad79.75405"
-        ],
-        "x": 425,
-        "y": 980,
-        "wires": []
     },
     {
         "id": "d2d62409.49e708",
@@ -10848,8 +10677,8 @@
         "name": "",
         "group": "f7c7b392.40ecb",
         "order": 1,
-        "width": "24",
-        "height": "5",
+        "width": 24,
+        "height": 4,
         "label": "",
         "chartType": "line",
         "legend": "false",
@@ -10906,7 +10735,7 @@
             [
                 "d7282fd.8390ed",
                 "3da80ba8.9da024",
-                "dd86815e.54646"
+                "25c5df2a.68262"
             ]
         ]
     },
@@ -10999,50 +10828,6 @@
         ]
     },
     {
-        "id": "dc88627d.32479",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Variable 3",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 430,
-        "y": 110,
-        "wires": [
-            [
-                "b8e568d1.c2ac08"
-            ]
-        ]
-    },
-    {
-        "id": "dd86815e.54646",
-        "type": "random",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "low": 1,
-        "high": 10,
-        "inte": "true",
-        "property": "payload",
-        "x": 270,
-        "y": 110,
-        "wires": [
-            [
-                "dc88627d.32479"
-            ]
-        ]
-    },
-    {
         "id": "72d828d9.a75c08",
         "type": "template",
         "z": "f10e7ce.d57828",
@@ -11051,9 +10836,9 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    \n                                    <li class=\"list-group-item\">{{PIT}} <strong>psi</strong></li>\n                                    <li class=\"list-group-item\">{{TIT}} <strong>ºF</strong></li>\n                                    <li class=\"list-group-item\">{{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col\">\n                    <img src=\"http://localhost:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    \n                                    <li class=\"list-group-item\">{{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">{{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://localhost:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
-        "x": 490,
+        "x": 470,
         "y": 170,
         "wires": [
             [
@@ -11068,8 +10853,8 @@
         "group": "ad633f3f.37b43",
         "name": "",
         "order": 1,
-        "width": "24",
-        "height": "5",
+        "width": 12,
+        "height": 5,
         "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -11079,31 +10864,6 @@
         "y": 170,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "40e45836.fb6ac8",
-        "type": "inject",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 90,
-        "y": 170,
-        "wires": [
-            [
-                "25c5df2a.68262"
-            ]
         ]
     },
     {
@@ -11976,7 +11736,7 @@
         "name": "Eventos",
         "order": 1,
         "width": "24",
-        "height": "5",
+        "height": "4",
         "columns": [
             {
                 "field": "no",
@@ -12254,7 +12014,7 @@
         "name": "Alarmas",
         "order": 1,
         "width": "24",
-        "height": "5",
+        "height": "4",
         "columns": [
             {
                 "field": "no",
@@ -12485,12 +12245,13 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 130,
+        "x": 140,
         "y": 180,
         "wires": [
             [
                 "88ac83a3.561a3",
-                "e1fcad8b.9672c"
+                "952a36cb.eb5738",
+                "941040e3.a0af"
             ]
         ]
     },
@@ -12501,29 +12262,9 @@
         "g": "3383e29e.9b29fe",
         "name": "Monitorear Temperatura y Velocidad de CPU",
         "info": "",
-        "x": 220,
+        "x": 230,
         "y": 120,
         "wires": []
-    },
-    {
-        "id": "88ac83a3.561a3",
-        "type": "subflow:11d568a7.09a5c7",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "name": "",
-        "env": [],
-        "x": 290,
-        "y": 180,
-        "wires": [
-            [
-                "4906fc64.1e6a14",
-                "df5d75d6.682dc8"
-            ],
-            [
-                "d43fb27a.273b3",
-                "9ce98c30.594c6"
-            ]
-        ]
     },
     {
         "id": "4906fc64.1e6a14",
@@ -12541,9 +12282,9 @@
         "colorNormal": "#00b33c",
         "colorOff": "#595959",
         "min": 0,
-        "max": 100,
+        "max": "500",
         "segWarn": "60",
-        "segHigh": "70",
+        "segHigh": "450",
         "unit": "ºC",
         "layout": "sv",
         "channelA": "",
@@ -12551,7 +12292,7 @@
         "decimals": "1",
         "animations": "soft",
         "shape": 2,
-        "colorschema": "valuedriven",
+        "colorschema": "fixed",
         "textoptions": "custom",
         "colorText": "#eeeeee",
         "fontLabel": "0.9",
@@ -12563,50 +12304,8 @@
         "tickmode": "off",
         "peakmode": false,
         "peaktime": 3000,
-        "x": 500,
+        "x": 510,
         "y": 120,
-        "wires": []
-    },
-    {
-        "id": "d43fb27a.273b3",
-        "type": "ui_level",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "group": "744bf601.7a0f58",
-        "order": 1,
-        "width": "4",
-        "height": "3",
-        "name": "Freq. CPU",
-        "label": "Freq. CPU",
-        "colorHi": "#e60000",
-        "colorWarn": "#00b33c",
-        "colorNormal": "#ff9900",
-        "colorOff": "#595959",
-        "min": 0,
-        "max": "1500",
-        "segWarn": "500",
-        "segHigh": "1200",
-        "unit": "MHz",
-        "layout": "sv",
-        "channelA": "",
-        "channelB": "",
-        "decimals": "0",
-        "animations": "soft",
-        "shape": 2,
-        "colorschema": "valuedriven",
-        "textoptions": "custom",
-        "colorText": "#eeeeee",
-        "fontLabel": "0.9",
-        "fontValue": "",
-        "fontSmall": "0.95",
-        "colorFromTheme": true,
-        "textAnimations": false,
-        "hideValue": false,
-        "tickmode": "off",
-        "peakmode": false,
-        "peaktime": 3000,
-        "x": 500,
-        "y": 200,
         "wires": []
     },
     {
@@ -12635,7 +12334,7 @@
         "decimals": "0",
         "animations": "soft",
         "shape": 2,
-        "colorschema": "valuedriven",
+        "colorschema": "fixed",
         "textoptions": "custom",
         "colorText": "#eeeeee",
         "fontLabel": "0.9",
@@ -12647,28 +12346,9 @@
         "tickmode": "off",
         "peakmode": false,
         "peaktime": 3000,
-        "x": 490,
+        "x": 500,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "e1fcad8b.9672c",
-        "type": "random",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "name": "",
-        "low": "50",
-        "high": "60",
-        "inte": "true",
-        "property": "payload",
-        "x": 290,
-        "y": 300,
-        "wires": [
-            [
-                "be4a90f3.ab244",
-                "559b8847.1b9b48"
-            ]
-        ]
     },
     {
         "id": "df5d75d6.682dc8",
@@ -12677,7 +12357,7 @@
         "g": "3383e29e.9b29fe",
         "name": "Gráfico de temperatura",
         "group": "8d4c7954.48a708",
-        "order": 1,
+        "order": 2,
         "width": "20",
         "height": "3",
         "label": "",
@@ -12687,8 +12367,8 @@
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
-        "ymin": "",
-        "ymax": "",
+        "ymin": "0",
+        "ymax": "500",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -12707,55 +12387,12 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 540,
+        "x": 550,
         "y": 160,
         "wires": [
             [
                 "584b677d.8d2c78"
             ]
-        ]
-    },
-    {
-        "id": "9ce98c30.594c6",
-        "type": "ui_chart",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "name": "Gráfico de velocidad de procesador",
-        "group": "744bf601.7a0f58",
-        "order": 1,
-        "width": "20",
-        "height": "3",
-        "label": "",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 580,
-        "y": 240,
-        "wires": [
-            []
         ]
     },
     {
@@ -12795,7 +12432,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 530,
+        "x": 540,
         "y": 340,
         "wires": [
             [
@@ -12919,7 +12556,7 @@
         "links": [
             "cb972615.9b3328"
         ],
-        "x": 685,
+        "x": 695,
         "y": 160,
         "wires": []
     },
@@ -12930,7 +12567,7 @@
         "g": "3383e29e.9b29fe",
         "name": "Humedad",
         "links": [],
-        "x": 665,
+        "x": 675,
         "y": 340,
         "wires": []
     },
@@ -13249,7 +12886,6 @@
         "wires": [
             [
                 "c0ad00ca.fe8c4",
-                "44ab73f9.6a72cc",
                 "ae9a42f6.bffee"
             ]
         ]
@@ -13271,8 +12907,7 @@
         "y": 140,
         "wires": [
             [
-                "c9560b43.55c0d8",
-                "f7b106.0da29ef8"
+                "c9560b43.55c0d8"
             ]
         ]
     },
@@ -13293,8 +12928,7 @@
         "y": 220,
         "wires": [
             [
-                "e546de7d.1524d",
-                "7cc5cf5a.1a576"
+                "e546de7d.1524d"
             ]
         ]
     },
@@ -13315,8 +12949,7 @@
         "y": 300,
         "wires": [
             [
-                "29b5a57e.566caa",
-                "97bae11c.61449"
+                "29b5a57e.566caa"
             ]
         ]
     },
@@ -13337,7 +12970,6 @@
         "y": 380,
         "wires": [
             [
-                "d4a566c6.c4e018",
                 "ec1787d3.deabb8"
             ]
         ]
@@ -13359,7 +12991,6 @@
         "y": 460,
         "wires": [
             [
-                "8b96bde.d92114",
                 "d74e5f4f.f62be"
             ]
         ]
@@ -13381,7 +13012,6 @@
         "y": 540,
         "wires": [
             [
-                "21c4c3.0b609b3e",
                 "d1a3b138.fc596"
             ]
         ]
@@ -13403,7 +13033,6 @@
         "y": 620,
         "wires": [
             [
-                "9d882c1.be806d",
                 "293ac75d.5bd738"
             ]
         ]
@@ -13425,8 +13054,7 @@
         "y": 700,
         "wires": [
             [
-                "18223763.46c159",
-                "4222ac6e.f706d4"
+                "18223763.46c159"
             ]
         ]
     },
@@ -13448,8 +13076,7 @@
         "y": 780,
         "wires": [
             [
-                "128332bd.e6e68d",
-                "b8f3cd0c.b70a2"
+                "128332bd.e6e68d"
             ]
         ]
     },
@@ -13471,8 +13098,7 @@
         "y": 860,
         "wires": [
             [
-                "f1b95f94.7eed7",
-                "dfc5bdb9.d9a96"
+                "f1b95f94.7eed7"
             ]
         ]
     },
@@ -13494,8 +13120,7 @@
         "y": 940,
         "wires": [
             [
-                "b2bf4260.68812",
-                "ee4c814.2461e8"
+                "b2bf4260.68812"
             ]
         ]
     },
@@ -13599,7 +13224,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td>{{THP_PIT_PV}}<strong>PSI</strong></td>\n                        \n                    </tr>\n                    <tr>\n                        <td>Temperatura de cabezal</td>\n                        <td>{{THT_TIT_PV}}<strong>°F</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Presión de cabezal</td>\n                        <td><div ng-bind-html=\"msg.THP_PIT_PV\"></div></td>\n                        <td><strong>psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de cabezal</td>\n                        <td><div ng-bind-html=\"msg.THT_TIT_PV\"></div></td>\n                        <td><strong>ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 770,
         "y": 60,
@@ -13637,7 +13262,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N</td>\n                        <td>{{Voltaje_L1_N}}<strong>V</strong></td>\n                        \n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N</td>\n                        <td>{{Voltaje_L2_N}}<strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N</td>\n                        <td>{{Voltaje_L3_N}}<strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2</td>\n                        <td>{{Voltaje_L1_L2}}<strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3</td>\n                        <td>{{Voltaje_L2_L3}}<strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3</td>\n                        <td>{{Voltaje_L1_L3}}<strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente L1</td>\n                        <td>{{Amp_L1}}<strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2</td>\n                        <td>{{Amp_L2}}<strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3</td>\n                        <td>{{Amp_L3}}<strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Potencia L1</td>\n                        <td>{{KWATT_Act_L1}}<strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2</td>\n                        <td>{{KWATT_Act_L2}}<strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3</td>\n                        <td>{{KWATT_Act_L3}}<strong>Kw</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N</td>\n                        <td>{{Voltaje_L_N_Pro}}<strong>Kw</strong></td>\n                        <td>Tensión L-L</td>\n                        <td>{{Voltaje_L_L_Pro}}<strong>Kw</strong></td>\n                        <td>Corriente</td>\n                        <td>{{Amp_Pro}}<strong>A</strong></td>\n                        <td>Frecuencia</td>\n                        <td>{{FP_Pro}}<strong>Hz</strong></td>\n                        <td>THD-I</td>\n                        <td>{{THD_I_Pro}}<strong>%</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia Real</td>\n                        <td>{{KWATT_Act_Pro}}<strong>Kw</strong></td>\n                        <td>Potencia Activa</td>\n                        <td>{{KVA_Act_Pro}}<strong>KVA</strong></td>\n                        <td>Potencia Reactiva</td>\n                        <td>{{KVAr_Act_Pro}}<strong>KVAR</strong></td>\n                        <td>Cos ⏀</td>\n                        <td>{{FP_Pro}}</td>\n                        <td>THD-V</td>\n                        <td>{{THD_V_Pro}}<strong>%</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_L2\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_L3\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_L3\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Corriente L1:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L1\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L2\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L3\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Potencia L1:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L1\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L2\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L3\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L_N_Pro\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L-L:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L_L_Pro\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente:</td>\n                        <td><div ng-bind-html=\"msg.Amp_Pro\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Frecuencia:</td>\n                        <td><div ng-bind-html=\"msg.FP_Pro\"></div></td>\n                        <td><strong>Hz</strong></td>\n                    </tr>\n                    <tr>\n                        <td>THD-I:</td>\n                        <td><div ng-bind-html=\"msg.THD_I_Pro\"></div></td>\n                        <td><strong>%</strong></td>\n                    </tr>\n                    <tr>\n                        <td>THD-V</td>\n                        <td><div ng-bind-html=\"msg.THD_V_Pro\"></div></td>\n                        <td><strong>%</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>    \n        <div class=\"col\">    \n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Real</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_Pro\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>P. Activa</td>\n                        <td><div ng-bind-html=\"msg.KVA_Act_Pro\"></div></td>\n                        <td><strong>KVA</strong></td>\n                    </tr>    \n                    <tr>    \n                        <td>P. Reactiva</td>\n                        <td><div ng-bind-html=\"msg.KVAr_Act_Pro\"></div></td>\n                        <td><strong>KVAR</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col\">    \n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Cos ⏀</td>\n                        <td><div ng-bind-html=\"msg.FP_Pro\"></div></td>\n                        <td><strong></strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 990,
         "y": 60,
@@ -13656,7 +13281,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna-->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión de motor</td>\n                        <td>{{Voltaje_Motor}}<strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente de motor</td>\n                        <td>{{Corriente_Motor}}<strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de descarga</td>\n                        <td>{{PDP}}<strong>PSI</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Presión de entrada</td>\n                        <td>{{PIP}}<strong>PSI</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vibración general</td>\n                        <td>{{Vibracion}}<strong>Gral</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura de entrada</td>\n                        <td>{{Temperatura_Descarga}}<strong>°F</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de descarga</td>\n                        <td>{{Temperatura_Entrada}}<strong>°F</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de motor</td>\n                        <td>{{Temperatura_Motor}}<strong>°F</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna-->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Tensión de motor:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_Motor\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente de motor:</td>\n                        <td><div ng-bind-html=\"msg.Corriente_Motor\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Presión de descarga:</td>\n                        <td><div ng-bind-html=\"msg.PDP\"></div></td>\n                        <td><strong>psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Presión de entrada</td>\n                        <td><div ng-bind-html=\"msg.PIP\"></div></td>\n                        <td><strong>psi</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Vibración general:</td>\n                        <td><div ng-bind-html=\"msg.Vibracion\"></div></td>\n                        <td><strong>G</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura de entrada:</td>\n                        <td><div ng-bind-html=\"msg.Temperatura_Descarga\"></div></td>\n                        <td><strong>°F</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de descarga:</td>\n                        <td><div ng-bind-html=\"msg.Temperatura_Entrada\"></div></td>\n                        <td><strong>°F</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Temperatura de motor:</td>\n                        <td><div ng-bind-html=\"msg.Temperatura_Motor\"></div></td>\n                        <td><strong>°F</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 550,
         "y": 60,
@@ -13694,7 +13319,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Bus DC</td>\n                        <td>{{Voltaje_Bus_DC}}<strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Frecuencia de salida</td>\n                        <td>{{Frecuencia}}<strong>Hz</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa</td>\n                        <td>{{KVA_Act_Pro}}<strong>KVA</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente primario</td>\n                        <td>{{Corriente_VSD}}<strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión primario</td>\n                        <td>{{Voltaje_VSD}}<strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Ángulo</td>\n                        <td>{{Factor_Potencia}}</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente secundario</td>\n                        <td>{{Corriente_Motor}}<strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión secundario</td>\n                        <td>{{Voltaje_Motor}}<strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Relación de transformación</td>\n                        <td>{{Relacion_TX}}<strong>TX</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo</td>\n                        <td>{{Voltaje_Motor}}<strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Bus DC:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_Bus_DC\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Frecuencia de salida:</td>\n                        <td><div ng-bind-html=\"msg.Frecuencia\"></div></td>\n                        <td><strong>Hz</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia activa:</td>\n                        <td><div ng-bind-html=\"msg.KVA_Act_Pro\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente primario:</td>\n                        <td><div ng-bind-html=\"msg.Corriente_VSD\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión primario:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_VSD\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Ángulo:</td>\n                        <td><div ng-bind-html=\"msg.Factor_Potencia\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Corriente secundario:</td>\n                        <td><div ng-bind-html=\"msg.Corriente_Motor\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión secundario:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_Motor\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Relación de transformación:</td>\n                        <td><div ng-bind-html=\"msg.Relacion_TX\"></div><strong></strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <!--<thead>\n                    <tr>\n                        <th scope=\"col\">Parámetro</th>\n                        <th scope=\"col\">Valor</th>\n                    </tr>\n                </thead>-->\n                <tbody>\n                    <tr>\n                        <td>Temperatura del equipo:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_Motor\"></div></td>\n                        <td><strong>ºF</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 330,
         "y": 60,
@@ -13812,7 +13437,7 @@
         "z": "e997ba3b.48cc18",
         "g": "222c08a.f1e28f8",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"];} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nmsg.Voltaje_L1_N        = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N;\nmsg.Voltaje_L2_N        = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N;\nmsg.Voltaje_L3_N        = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N;\nmsg.Voltaje_L1_L2       = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2;\nmsg.Amp_L1              = Cluster[\"SCP\"+(SCP)].PQM.Amp_L1;\nmsg.Amp_L2              = Cluster[\"SCP\"+(SCP)].PQM.Amp_L2;\nmsg.Amp_L3              = Cluster[\"SCP\"+(SCP)].PQM.Amp_L3;\nmsg.Voltaje_L1_L2       = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2;\nmsg.Voltaje_L2_L3       = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3;\nmsg.Voltaje_L1_L3       = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3;\nmsg.Voltaje_L1_N        = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N;\nmsg.Voltaje_L2_N        = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N;\nmsg.Voltaje_L3_N        = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N;\nmsg.KWATT_Act_L1        = Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1;\nmsg.KWATT_Act_L2        = Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2;\nmsg.KWATT_Act_L3        = Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3;\nmsg.Voltaje_L_N_Pro     = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro;\nmsg.Voltaje_L_L_Pro     = Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro;\nmsg.Amp_Pro             = Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro;\nmsg.Hz_Act_Pro          = Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro;\nmsg.KWATT_Act_Pro       = Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro;\nmsg.KVA_Act_Pro         = Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro;\nmsg.KVAr_Act_Pro        = Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro;\nmsg.FP_Pro              = Cluster[\"SCP\"+(SCP)].PQM.FP_Pro;\nmsg.Voltaje_Motor       = Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor;\nmsg.Corriente_Motor     = Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor;\nmsg.PDP                 = Cluster[\"SCP\"+(SCP)].DHOLE.PDP;\nmsg.PIP                 = Cluster[\"SCP\"+(SCP)].DHOLE.PIP;\nmsg.Vibracion           = Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion;\nmsg.Temperatura_Descarga= Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga;\nmsg.Temperatura_Entrada = Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada;\nmsg.Temperatura_Motor   = Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor;\nmsg.Voltaje_Bus_DC      = Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC;\nmsg.Frecuencia          = Cluster[\"SCP\"+(SCP)].VSD.Frecuencia;\nmsg.Corriente_VSD       = Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD;\nmsg.Voltaje_VSD         = Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD;\nmsg.Factor_Potencia     = Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia;\nRelacion_TX             = Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX;\nmsg.Relacion_TX         =Relacion_TX.toFixed(2);\nTHP_PIT_PV              = Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV;\nTHT_TIT_PV              = Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV;\nmsg.THP_PIT_PV          =THP_PIT_PV.toFixed(2);  \nmsg.THT_TIT_PV          =THT_TIT_PV.toFixed(2);\nmsg.THD_I_Pro           = Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro;\nmsg.THD_V_Pro           = Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro;\n\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"];} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Frecuencia          = (Cluster[\"SCP\"+(SCP)].VSD.Frecuencia).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16623,7 +16248,7 @@
         "type": "function",
         "z": "f10e7ce.d57828",
         "name": "Random",
-        "func": "var CCP     = global.get(\"CCP\",\"memoryOnly\")||[];\n\nreturn msg;",
+        "func": "var INST_MNF     = global.get(\"Cluster.INST_MNF\",\"memoryOnly\")||[];\nmsg.PIT     = (INST_MNF.PIT_Presion).toFixed(2);\n\nmsg.PIZIT   = (INST_MNF.FIT_Flujo).toFixed(2);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16635,6 +16260,678 @@
             [
                 "72d828d9.a75c08"
             ]
+        ]
+    },
+    {
+        "id": "df7e51cb.20a61",
+        "type": "ui_text_input",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "HH",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "x": 170,
+        "y": 270,
+        "wires": [
+            [
+                "1388e106.75d21f"
+            ]
+        ]
+    },
+    {
+        "id": "78ddc0d7.477c7",
+        "type": "ui_text_input",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "H",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "8ceab0f0.39ee4"
+            ]
+        ]
+    },
+    {
+        "id": "a5be34b4.80c1d8",
+        "type": "ui_text_input",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "L",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "x": 170,
+        "y": 370,
+        "wires": [
+            [
+                "71fdaca0.0629f4"
+            ]
+        ]
+    },
+    {
+        "id": "289c0fec.d68e1",
+        "type": "ui_text_input",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "LL",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "x": 170,
+        "y": 420,
+        "wires": [
+            [
+                "8c0f7a27.d809a8"
+            ]
+        ]
+    },
+    {
+        "id": "5893c294.3213dc",
+        "type": "ui_switch",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "Habilitar HH",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 190,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "468ce789.d74268",
+        "type": "ui_switch",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "Habilitar H",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 190,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b190b36.c8b5b8",
+        "type": "ui_switch",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "Habilitar L",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 180,
+        "y": 570,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3361a564.d48dfa",
+        "type": "ui_switch",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "label": "Habilitar LL",
+        "tooltip": "",
+        "group": "f70aaec9.581ea",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 190,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "375f9fac.9004f",
+        "type": "ui_button",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "group": "f70aaec9.581ea",
+        "order": 10,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "ACEPTAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 730,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9bb27220.3bcff",
+        "type": "ui_button",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "group": "f70aaec9.581ea",
+        "order": 9,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "RESET DISPARO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 1110,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4606bfd6.9001a",
+        "type": "ui_button",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "group": "f70aaec9.581ea",
+        "order": 11,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "CANCELAR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 910,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4dc72525.256e3c",
+        "type": "eth-ip in",
+        "z": "c8989d0a.49ea8",
+        "endpoint": "817c8033.98df9",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "TEMP & HUMIDITY",
+        "x": 610,
+        "y": 210,
+        "wires": [
+            [
+                "34ccd504.f1f4fa"
+            ]
+        ]
+    },
+    {
+        "id": "34ccd504.f1f4fa",
+        "type": "function",
+        "z": "c8989d0a.49ea8",
+        "name": "Organizar datos por SCPx",
+        "func": "var keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\n\n\nfor(var i=0; i<keys.length; i+=1){\n    \n    global.set(keys[i],values[i],\"memoryOnly\");\n}\nreturn msg;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 210,
+        "wires": []
+    },
+    {
+        "id": "88ac83a3.561a3",
+        "type": "subflow:11d568a7.09a5c7",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "env": [],
+        "x": 320,
+        "y": 220,
+        "wires": [
+            [],
+            [
+                "9ce98c30.594c6",
+                "d43fb27a.273b3"
+            ]
+        ]
+    },
+    {
+        "id": "9ce98c30.594c6",
+        "type": "ui_chart",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "Gráfico de velocidad de procesador",
+        "group": "744bf601.7a0f58",
+        "order": 1,
+        "width": "20",
+        "height": "3",
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 590,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d43fb27a.273b3",
+        "type": "ui_level",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "group": "744bf601.7a0f58",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "name": "Freq. CPU",
+        "label": "Freq. CPU",
+        "colorHi": "#e60000",
+        "colorWarn": "#00b33c",
+        "colorNormal": "#ff9900",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1500",
+        "segWarn": "500",
+        "segHigh": "1200",
+        "unit": "MHz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "valuedriven",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "0.9",
+        "fontValue": "",
+        "fontSmall": "0.95",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "peaktime": 3000,
+        "x": 510,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "952a36cb.eb5738",
+        "type": "change",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::DATA_CL_temp_SCC",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 150,
+        "wires": [
+            [
+                "4906fc64.1e6a14",
+                "df5d75d6.682dc8"
+            ]
+        ]
+    },
+    {
+        "id": "941040e3.a0af",
+        "type": "change",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::DATA_CL_hum_SCC",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 310,
+        "wires": [
+            [
+                "be4a90f3.ab244",
+                "559b8847.1b9b48"
+            ]
+        ]
+    },
+    {
+        "id": "1388e106.75d21f",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 270,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ceab0f0.39ee4",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71fdaca0.0629f4",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c0f7a27.d809a8",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c094ff7.666ed",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9251992.6d23a8",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 530,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22f97ed0.871a92",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 570,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "173235da.c52c8a",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 620,
+        "wires": [
+            []
         ]
     }
 ]
