@@ -448,9 +448,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 4,
-        "y": 19,
-        "w": 1092,
-        "h": 132
+        "y": 19
     },
     {
         "id": "ced3da32.aec848",
@@ -472,9 +470,7 @@
             "be5b89ed.6c6bf8"
         ],
         "x": 4,
-        "y": 159,
-        "w": 632,
-        "h": 82
+        "y": 159
     },
     {
         "id": "35aaa239.8bb89e",
@@ -497,9 +493,7 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 249,
-        "w": 712,
-        "h": 82
+        "y": 249
     },
     {
         "id": "73a228cd.9d45d8",
@@ -577,8 +571,7 @@
             "8bcc662.c733998",
             "e3f6b9e9.f54018",
             "6f42bb08.a21f74",
-            "51e191bb.59c8a",
-            "ae9a42f6.bffee"
+            "51e191bb.59c8a"
         ],
         "x": 64,
         "y": 19
@@ -601,7 +594,7 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 28,
-        "y": 433,
+        "y": 403,
         "w": 714,
         "h": 354
     },
@@ -618,9 +611,9 @@
             "11f55817.139c18",
             "cf57802e.7d258"
         ],
-        "x": -2,
+        "x": 8,
         "y": 13,
-        "w": 1854,
+        "w": 1844,
         "h": 214
     },
     {
@@ -671,9 +664,7 @@
             "5657a4b8.0747bc"
         ],
         "x": 34,
-        "y": 469,
-        "w": 732,
-        "h": 152
+        "y": 469
     },
     {
         "id": "565d8ee7.eb7be",
@@ -694,9 +685,7 @@
             "3d470773.63aa78"
         ],
         "x": 34,
-        "y": 629,
-        "w": 792,
-        "h": 162
+        "y": 629
     },
     {
         "id": "222c08a.f1e28f8",
@@ -718,7 +707,7 @@
             "c4b00d9d.c758e"
         ],
         "x": 24,
-        "y": 159,
+        "y": 139,
         "w": 832,
         "h": 82
     },
@@ -746,29 +735,9 @@
             "35696a34.d09d86"
         ],
         "x": 24,
-        "y": 259,
+        "y": 229,
         "w": 822,
         "h": 162
-    },
-    {
-        "id": "a163450f.bc4438",
-        "type": "group",
-        "z": "612ddf44.816d7",
-        "name": "Iniciar el servicio kiosk desde Node-Red",
-        "style": {
-            "fill": "#bfdbef",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "316f57da.0f2fc8",
-            "5f07f1b.ac4631",
-            "1b5b2e1c.f68d42"
-        ],
-        "x": 24,
-        "y": 391.5,
-        "w": 752,
-        "h": 97
     },
     {
         "id": "a0798509.56f3c8",
@@ -790,7 +759,8 @@
             "7f00280b.114ba8",
             "7ecb5f7a.538eb",
             "e173641d.7e7c38",
-            "b34b9630.1b9f88"
+            "b34b9630.1b9f88",
+            "32c1137a7c992fcb"
         ],
         "x": 34,
         "y": 19,
@@ -830,9 +800,7 @@
             "1fefef6a.bb0941"
         ],
         "x": 34,
-        "y": 39,
-        "w": 872,
-        "h": 422
+        "y": 39
     },
     {
         "id": "657e2074.735a3",
@@ -1004,7 +972,7 @@
             "43030a29.bfdeb4"
         ],
         "x": 54,
-        "y": 459,
+        "y": 429,
         "w": 512,
         "h": 122
     },
@@ -1033,9 +1001,9 @@
             "ebf4df19.2cfb2",
             "1660e38d.24cefc"
         ],
-        "x": 24,
+        "x": 34,
         "y": 39,
-        "w": 902,
+        "w": 892,
         "h": 162
     },
     {
@@ -1143,7 +1111,7 @@
             "35e356e7.8ebc5a"
         ],
         "x": 64,
-        "y": 599,
+        "y": 569,
         "w": 652,
         "h": 162
     },
@@ -1186,7 +1154,7 @@
         ],
         "x": 684,
         "y": 269,
-        "w": 174,
+        "w": 173,
         "h": 202
     },
     {
@@ -1209,6 +1177,79 @@
         "x": 684,
         "y": 479,
         "w": 372,
+        "h": 162
+    },
+    {
+        "id": "b63b6f51b95b7150",
+        "type": "group",
+        "z": "8d6d8b52.723518",
+        "name": "Inyectar datos en Influxdb",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "878a890b1f06b83c",
+            "23967da5935ba512",
+            "3aa65411ebc7a815",
+            "4a271a88.499184"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 752,
+        "h": 82
+    },
+    {
+        "id": "0124a30db1d0a4a1",
+        "type": "group",
+        "z": "8d6d8b52.723518",
+        "name": "Almacenar valores de consulta",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f9459856.a20048",
+            "2abc6c83.552854",
+            "46c48181.a48d7",
+            "c00140c8ee97580b",
+            "c120cd52ab540547",
+            "0df115234158a212",
+            "9260d9d87fb376e7",
+            "ff78f2ede9c70178",
+            "bb37d9a704c9f960",
+            "1a6f1c7a1f2f1e47",
+            "786f3d1e2037748a"
+        ],
+        "x": 14,
+        "y": 109,
+        "w": 822,
+        "h": 132
+    },
+    {
+        "id": "3d15a76f86343f95",
+        "type": "group",
+        "z": "8d6d8b52.723518",
+        "name": "Consulta y visualización de los datos",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "bd970623.7adcd8",
+            "58c6ce637ca52a6e",
+            "3665506425e91752",
+            "f5439cf5e183f62c",
+            "2ff7e9ab026c70a2",
+            "c2156424fc91640f",
+            "61d261842a5c2715",
+            "9c9136aa980614d2",
+            "a56f3eb277b66591",
+            "7bc393d6d498860b"
+        ],
+        "x": 14,
+        "y": 249,
+        "w": 1092,
         "h": 162
     },
     {
@@ -1298,7 +1339,7 @@
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
                 "sx": 37,
-                "sy": 60,
+                "sy": 54,
                 "gx": 4,
                 "gy": 4,
                 "cx": 4,
@@ -2121,7 +2162,6 @@
     {
         "id": "744bf601.7a0f58",
         "type": "ui_group",
-        "d": true,
         "name": "VELOCIDAD DE PROCESADOR",
         "tab": "1b1530b8.3c3a4f",
         "order": 3,
@@ -6157,492 +6197,6 @@
         }
     },
     {
-        "id": "8edbc3b2.88615",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.9",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "Escritura SWC3 DATA OPER",
-        "vartable": {
-            "": {
-                "DATA_CL3_DATOS_OPERA.Arranque_Escal_Ejec": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_DATOS_OPERA.SENTIDO_GIRO": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_DATOS_OPERA.Tiempo_Rearran_min": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Tiempo_Rearran_Resta_Min": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Tiempo_Rearran_Resta_Seg": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Operacion_Continua_Horas": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Operacion_Continua_MIN": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Operacion_Acumulada_Dias": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Operacion_Acumulada_Horas": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.Operacion_Acumulada_MIN": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_OPERA.VOLT_480_Act": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.VOLT_TX_Act": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.VOLT_BUSDC_Act": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.HZ_Inicial": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.KW_Act": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.Operacion_Continua_Dias": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.LBft_Actual": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.LBft_Nominal": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.LBft_Control_Alto": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.LBft_Control_Bajo": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.LBft_Disparo_Alto": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.LBft_Disparo_Bajo": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.RPM_Actual": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.RPM_Referencia_Respal": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.VOLT_Salida": {
-                    "type": "DINT"
-                },
-                "DATA_CL3_DATOS_OPERA.Relacion_Caja": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.AMP_Actual": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.HZ_Salida": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.RELACION_TX": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.AMP_480_Act": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.AMP_TX_Act": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.HZ_Referencia": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.HZ_Referencia_Resp": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.HZ_Act": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.FP_Modulo_Act": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_OPERA.TEMP_PowerFlex": {
-                    "type": "REAL"
-                }
-            }
-        }
-    },
-    {
-        "id": "94000e0a.79ebe",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.9",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "DHS_ESP_3",
-        "vartable": {
-            "": {
-                "DATA_CL3_DATOS_SENSOR.Status_Comm_SF": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Selec_DHS": {
-                    "type": "INT"
-                },
-                "DATA_CL3_DATOS_SENSOR.Presion_Entrada": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Presion_Descarga": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Temperatura_Entrada": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Temperatura_descarga": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Temperatura_MOTOR": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Vibracion_Gral": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_SENSOR.Corriente_FugaMot": {
-                    "type": "REAL"
-                }
-            }
-        }
-    },
-    {
-        "id": "7c649782.ab9298",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.9",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "PQM",
-        "vartable": {
-            "": {
-                "DATA_CL3_DATOS_PM3K.Voltaje_L_L_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L1_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L2_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L1_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L_N_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L1_N": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L2_N": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Voltaje_L3_N": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Amp_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Amp_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Amp_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.Amp_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.HZ_Act_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.HZ_Act_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.HZ_Act_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.HZ_Act_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KWATT_Act_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KWATT_Act_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KWATT_Act_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KWATT_Act_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVA_Act_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVA_Act_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVA_Act_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVA_Act_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVAr_Act_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVAr_Act_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVAr_Act_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.KVAr_Act_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.FP_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.FP_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.FP_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.FP_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_I_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_I_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_I_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_I_L3": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_V_Pro": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_V_L1": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_V_L2": {
-                    "type": "REAL"
-                },
-                "DATA_CL3_DATOS_PM3K.THD_V_L3": {
-                    "type": "REAL"
-                }
-            }
-        }
-    },
-    {
-        "id": "fd796892.3b7308",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.9",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "Status",
-        "vartable": {
-            "": {
-                "DATA_CL3_ESTADOS.General": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.Rearranque": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.Tipo_de_Arranque": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.Arranques_Concecutivos": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.COMM_PowerFlex": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.COMM_PanelView": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.COMM_PM3K": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.LED_Batt": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.LED_IO": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.STATUS_ControlTorque": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.Status_de_CiLA_PV600p": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.Status_Comm_CM": {
-                    "type": "INT"
-                },
-                "DATA_CL3_ESTADOS.Tipo": {
-                    "type": "INT"
-                }
-            }
-        }
-    },
-    {
-        "id": "7f80abef.98b9d4",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.9",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "Alarmas",
-        "vartable": {
-            "": {
-                "DATA_CL3_ALARMAS.Alarma_ArranqueCIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Alarma_ArranqueLocal": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Alarma_ParadaCIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Alarma_ParadaLocal": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Cambio_de_VelociReferen": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Cambio_de_VelociReferenCIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Cambio_de_Usuario": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Cambio_de_Usuario_De": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Ejecucion_de_JOG": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Ejecutando_RearranqueA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_del_PowerFlex": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Proteccion": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_SobreCargaTX": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_SubCargaTX": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.STOP_ESD": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Velo_Mayor_Al_Lim": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Velo_Menor_al_Lim": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.BIT_Cambio_Veloc_CIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Presion_PIP": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Presion_THP": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Temp_Motor": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Temp_Entrada": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Vibracion": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Corriente_Fuga": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Diferencial_Presion": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Nivel_Fluido": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Disparo_Bajo_Torque": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Disparo_Alto_Torque": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Control_AltoTorq_Ejecutando": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Control_BajoTorq_Ejecutand": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Control_Alto_Torque": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Control_Bajo_Torque": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Paro_ProtecTermicMotor": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Mantenimiento_Cabezal": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Proteccion_PIN": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Falla_Proteccion_PFLU": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Bit_Cambio_PwfP_CIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Bit_Cambio_QoP_CIMA": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Reserva1": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Reserva2": {
-                    "type": "BOOL"
-                },
-                "DATA_CL3_ALARMAS.Reserva3": {
-                    "type": "BOOL"
-                }
-            }
-        }
-    },
-    {
         "id": "98638e25.bf675",
         "type": "eth-ip endpoint",
         "address": "192.168.2.9",
@@ -6957,7 +6511,7 @@
     {
         "id": "f70aaec9.581ea",
         "type": "ui_group",
-        "name": "Conf. Presión Manifold PZIT",
+        "name": "CONF. PRESIÓN MANIFOLD PZIT",
         "tab": "6a3fd4b.86cdb2c",
         "order": 3,
         "disp": true,
@@ -6981,6 +6535,20 @@
                 }
             }
         }
+    },
+    {
+        "id": "ab25613c47d557df",
+        "type": "influxdb",
+        "hostname": "aic.local",
+        "port": "8086",
+        "protocol": "http",
+        "database": "AIC",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://aic.local:8086",
+        "rejectUnauthorized": true
     },
     {
         "id": "c8f67d0b.44558",
@@ -7031,7 +6599,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div style=\"margin-top:5px;\" ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>\n                td,h5 {text-align:center;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div style=\"margin-top:5px;\" ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>\n                td,h5 {text-align:center;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 540,
         "y": 30,
@@ -8012,7 +7580,8 @@
         "links": [
             "dd807959.9e5a08",
             "bf656c1e.ff84",
-            "40b58948.5d5a48"
+            "40b58948.5d5a48",
+            "942b2e1d2a855f07"
         ],
         "x": 725,
         "y": 310,
@@ -8028,7 +7597,8 @@
             "5cc2d788.18b678",
             "ba3ec3f7.7f116",
             "b87d8378.fe2aa",
-            "6f2053fa.77020c"
+            "6f2053fa.77020c",
+            "0dbe8e7c70765c89"
         ],
         "x": 725,
         "y": 370,
@@ -8737,7 +8307,7 @@
         "name": "",
         "order": 0,
         "width": "24",
-        "height": "4",
+        "height": "5",
         "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -8755,7 +8325,7 @@
         "z": "aa547d69.9cb8e",
         "g": "ced3da32.aec848",
         "name": "Random",
-        "func": "var PQM_Cluster = global.get(\"Cluster.PQM\",\"memoryOnly\")||[];\n        \nmsg.VL1N    = PQM_Cluster.Voltaje_L1_N;\nmsg.VL2N    = PQM_Cluster.Voltaje_L2_N;\nmsg.VL3N    = PQM_Cluster.Voltaje_L3_N;\nmsg.VL1L2   = PQM_Cluster.Voltaje_L1_L2;\nmsg.VL2L3   = PQM_Cluster.Voltaje_L2_L3;\nmsg.VL1L3   = PQM_Cluster.Voltaje_L1_L3;\nmsg.CL1     = PQM_Cluster.Amp_L1;\nmsg.CL2     = PQM_Cluster.Amp_L2;\nmsg.CL3     = PQM_Cluster.Amp_L3;\n\nreturn msg;",
+        "func": "var PQM_Cluster = global.get(\"Cluster.PQM\",\"memoryOnly\")||[];\n        \nmsg.VL1N    = PQM_Cluster.Voltaje_L1_N;\nmsg.VL2N    = PQM_Cluster.Voltaje_L2_N;\nmsg.VL3N    = PQM_Cluster.Voltaje_L3_N;\n\nmsg.VL1L2   = PQM_Cluster.Voltaje_L1_L2;\nmsg.VL2L3   = PQM_Cluster.Voltaje_L2_L3;\nmsg.VL1L3   = PQM_Cluster.Voltaje_L1_L3;\n\nmsg.CL1     = PQM_Cluster.Amp_L1;\nmsg.CL2     = PQM_Cluster.Amp_L2;\nmsg.CL3     = PQM_Cluster.Amp_L3;\n\nmsg.L1_kW   = PQM_Cluster.KWATT_Act_L1;\nmsg.L2_kW   = PQM_Cluster.KWATT_Act_L2;\nmsg.L3_kW   = PQM_Cluster.KWATT_Act_L3;\n\nmsg.L1_kVA  = PQM_Cluster.KVA_Act_L1;\nmsg.L2_kVA  = PQM_Cluster.KVA_Act_L2;\nmsg.L3_kVA  = PQM_Cluster.KVA_Act_L3;\n\nmsg.L1_kVAR = PQM_Cluster.KVAr_Act_L1;\nmsg.L2_kVAR = PQM_Cluster.KVAr_Act_L2;\nmsg.L3_kVAR = PQM_Cluster.KVAr_Act_L3;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8804,7 +8374,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://192.168.0.20:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-9\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://192.168.0.20:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-9 mt-3\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 602 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 260,
         "y": 30,
@@ -8821,7 +8391,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" content=\"&lt;mxfile host=&quot;Electron&quot; modified=&quot;2021-07-04T18:59:52.823Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.9.13 Chrome/80.0.3987.163 Electron/8.2.1 Safari/537.36&quot; etag=&quot;1OluWO9qAZzVOdAMDwA4&quot; version=&quot;12.9.13&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;3OBx4FIYkCEcJKEvSmJ7&quot; name=&quot;Página-1&quot;&gt;7VxRc9o4EP41PObGkowxjwnt9WaO69w0M+2zagujVliuLAK5X38SlgFbTgipYxuiF2J2pZX87X6rlWwyQrPV9pPA2fIfHhM2gl68HaEPIwgnYag+teCxEASeXwgSQeNCBA6Ce/ofMULPSNc0JnmloeScSZpVhRFPUxLJigwLwTfVZgvOqqNmOCGW4D7CzJZ+o7FcFtIQTg7yvwhNluXIIJgWmhUuG5s7yZc45psjEfo4QjPBuSyuVtsZYRq7Epei359PaPcTEySVL+nw48ff4ScaJtk2+HJ/+ytK5ht2E4wLMw+Yrc0dm9nKxxKCRPB1ZpoRIcm2CXj8vWzu2RMD+9tVYUL4ikjxqJoYQ6HpYSJkbKa0OcAdeKbJ8ghqCExDbFyc7C0fUFAXBogzQAGT06CQNL7V4aW+RQznOY1G6C6XWEhbvJQrNf4HsGsh+M99JClQ7grLJLbC8ADfM56zQT2CbdyAWikThGFJH6qDNiFpRviXUzWdp3wGvZovcr4WETGdjoPyhJ2aGYVnQqRlZufV/T3/hqNDy9EPc/BZSb5aDlckSGOirXnKa5slleQ+w5HWblTmq7r5Sba82q3GjF/Fy7e5EjZRxXsjpsCpY8oJpgDUElXqhsJuuVKOXuEKHDJXplW8gNczWXy3rJwkS1vrSt0Q8Ltli9+0sqAhswXUlhYQ9EwXFJxFl5Sn5DlSoIslRVsLSL14sAy99Qpi57/PQyNDGfxTO/j9TtcKV1idokWdF/V66MW0qPOrW1aMm+oqMIdDXiqmw9qFjJEjyymywOkfk6C6wNdLohcTxrbV8V5kDBs4A+fogjjT+24EnMUZu7pSSnNaC9AVF1uv5Ijf78GWzY85GBoxSiL0XGmN7W3GTN2adzs0vMoAndQSSc955LxC9d3s0l5bjdYTR8crK7Cr0bnt0GFkjknfmcPez87gBWWOBvy6fXhw3nnou0kdry7M67mj60NPaB96ztHQyFBig/rOHv5Z0f8eN60ItkSMuqGuj3hsXlzUQtHElW4PeOy3VPQZ2ZD3+/U3G/o+Iwua9vsBkzpdZDitQBj8WuuXku4WPJU3C7yiTN2EClY1twCvsh1sCPkaScIeiKQRtjS69e5zZyTfnRRoEwBm25quGFcrUy5WmFXVG4OO1vv6PSCjZERKIm7U5COaJo39lU/lDWY0SQt1pDxKRFVNVaykxrx3NLWdUgqc5gtltDSvKpCywYaLuDr6cfcF41g29IppnjFs4KQpo1pX4q2uEv1X79W9n99K/yh/Fy4qtKX4u3BOa8lpdQc4ZgyaGV9vHTUcNa4I5Dap8eVJbgyyTvLL5yJHhREAz+wp2q+Mmp4euiAfZpBrR7nKyKX/qwK5PWa4yshR46pAbpMal1oZ7X8513eh1HRi7WJ+mDGvz0ZdoeRWg6sCuT1muELJUeOqQG6TGhdeKAH4dpWS+nr4xX7xfPjwbw/Qx/8B&lt;/diagram&gt;&lt;/mxfile&gt;\" style=\"background-color: rgb(255, 255, 255);\"><defs/><g><path d=\"M 80 196.76 L 80 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 80 202.76 L 76 194.76 L 80 196.76 L 84 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 80 27.24 L 84 35.24 L 80 33.24 L 76 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"40\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 41px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1N}} V</div></div></div></foreignObject><text x=\"80\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1N}}V</text></switch></g><path d=\"M 130 196.76 L 130 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 130 202.76 L 126 194.76 L 130 196.76 L 134 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 130 87.24 L 134 95.24 L 130 93.24 L 126 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"90\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 91px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2N}} V</div></div></div></foreignObject><text x=\"130\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2N}} V</text></switch></g><path d=\"M 180 196.76 L 180 153.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 180 202.76 L 176 194.76 L 180 196.76 L 184 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 180 147.24 L 184 155.24 L 180 153.24 L 176 155.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"140\" y=\"165\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 175px; margin-left: 141px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL3N}} V</div></div></div></foreignObject><text x=\"180\" y=\"179\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL3N}} V</text></switch></g><path d=\"M 30 205 L 240 205\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"195\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 205px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">N</div></div></div></foreignObject><text x=\"20\" y=\"209\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">N</text></switch></g><path d=\"M 230 76.76 L 230 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 230 82.76 L 226 74.76 L 230 76.76 L 234 74.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 230 27.24 L 234 35.24 L 230 33.24 L 226 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L2}} V</div></div></div></foreignObject><text x=\"230\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L2}} V</text></switch></g><path d=\"M 229.76 136.76 L 229.76 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 229.76 142.76 L 225.76 134.76 L 229.76 136.76 L 233.76 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 229.76 87.24 L 233.76 95.24 L 229.76 93.24 L 225.76 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2L3}} V</div></div></div></foreignObject><text x=\"230\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2L3}} V</text></switch></g><path d=\"M 30 25 L 480 25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"15\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 25px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L1</div></div></div></foreignObject><text x=\"20\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1</text></switch></g><rect x=\"370\" y=\"15\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 25px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL1}} A</div></div></div></foreignObject><text x=\"410\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL1}} A</text></switch></g><path d=\"M 30 85 L 480 85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"75\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 85px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L2</div></div></div></foreignObject><text x=\"20\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2</text></switch></g><rect x=\"370\" y=\"75\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 85px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL2}} A</div></div></div></foreignObject><text x=\"410\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL2}} A</text></switch></g><path d=\"M 30 145 L 480 145\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"135\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 145px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L3</div></div></div></foreignObject><text x=\"20\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3</text></switch></g><path d=\"M 320 136.76 L 320 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 320 142.76 L 316 134.76 L 320 136.76 L 324 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 320 27.24 L 324 35.24 L 320 33.24 L 316 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"370\" y=\"135\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 145px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL3}} A</div></div></div></foreignObject><text x=\"410\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL3}} A</text></switch></g><rect x=\"280\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 281px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L3}} V</div></div></div></foreignObject><text x=\"320\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L3}} V</text></switch></g><rect x=\"490\" y=\"0\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 25px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L1 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L1 kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L1 kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1 kW...</text></switch></g><rect x=\"490\" y=\"60\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 85px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L2 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L2 kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L2 kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2 kW...</text></switch></g><rect x=\"490\" y=\"120\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 145px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3 kW...</text></switch></g></g><switch><g requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"/><a transform=\"translate(0,-5)\" xlink:href=\"https://desk.draw.io/support/solutions/articles/16000042487\" target=\"_blank\"><text text-anchor=\"middle\" font-size=\"10px\" x=\"50%\" y=\"100%\">Viewer does not support full SVG 1.1</text></a></switch></svg>",
+        "template": "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" content=\"&lt;mxfile host=&quot;Electron&quot; modified=&quot;2021-07-04T18:59:52.823Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.9.13 Chrome/80.0.3987.163 Electron/8.2.1 Safari/537.36&quot; etag=&quot;1OluWO9qAZzVOdAMDwA4&quot; version=&quot;12.9.13&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;3OBx4FIYkCEcJKEvSmJ7&quot; name=&quot;Página-1&quot;&gt;7VxRc9o4EP41PObGkowxjwnt9WaO69w0M+2zagujVliuLAK5X38SlgFbTgipYxuiF2J2pZX87X6rlWwyQrPV9pPA2fIfHhM2gl68HaEPIwgnYag+teCxEASeXwgSQeNCBA6Ce/ofMULPSNc0JnmloeScSZpVhRFPUxLJigwLwTfVZgvOqqNmOCGW4D7CzJZ+o7FcFtIQTg7yvwhNluXIIJgWmhUuG5s7yZc45psjEfo4QjPBuSyuVtsZYRq7Epei359PaPcTEySVL+nw48ff4ScaJtk2+HJ/+ytK5ht2E4wLMw+Yrc0dm9nKxxKCRPB1ZpoRIcm2CXj8vWzu2RMD+9tVYUL4ikjxqJoYQ6HpYSJkbKa0OcAdeKbJ8ghqCExDbFyc7C0fUFAXBogzQAGT06CQNL7V4aW+RQznOY1G6C6XWEhbvJQrNf4HsGsh+M99JClQ7grLJLbC8ADfM56zQT2CbdyAWikThGFJH6qDNiFpRviXUzWdp3wGvZovcr4WETGdjoPyhJ2aGYVnQqRlZufV/T3/hqNDy9EPc/BZSb5aDlckSGOirXnKa5slleQ+w5HWblTmq7r5Sba82q3GjF/Fy7e5EjZRxXsjpsCpY8oJpgDUElXqhsJuuVKOXuEKHDJXplW8gNczWXy3rJwkS1vrSt0Q8Ltli9+0sqAhswXUlhYQ9EwXFJxFl5Sn5DlSoIslRVsLSL14sAy99Qpi57/PQyNDGfxTO/j9TtcKV1idokWdF/V66MW0qPOrW1aMm+oqMIdDXiqmw9qFjJEjyymywOkfk6C6wNdLohcTxrbV8V5kDBs4A+fogjjT+24EnMUZu7pSSnNaC9AVF1uv5Ijf78GWzY85GBoxSiL0XGmN7W3GTN2adzs0vMoAndQSSc955LxC9d3s0l5bjdYTR8crK7Cr0bnt0GFkjknfmcPez87gBWWOBvy6fXhw3nnou0kdry7M67mj60NPaB96ztHQyFBig/rOHv5Z0f8eN60ItkSMuqGuj3hsXlzUQtHElW4PeOy3VPQZ2ZD3+/U3G/o+Iwua9vsBkzpdZDitQBj8WuuXku4WPJU3C7yiTN2EClY1twCvsh1sCPkaScIeiKQRtjS69e5zZyTfnRRoEwBm25quGFcrUy5WmFXVG4OO1vv6PSCjZERKIm7U5COaJo39lU/lDWY0SQt1pDxKRFVNVaykxrx3NLWdUgqc5gtltDSvKpCywYaLuDr6cfcF41g29IppnjFs4KQpo1pX4q2uEv1X79W9n99K/yh/Fy4qtKX4u3BOa8lpdQc4ZgyaGV9vHTUcNa4I5Dap8eVJbgyyTvLL5yJHhREAz+wp2q+Mmp4euiAfZpBrR7nKyKX/qwK5PWa4yshR46pAbpMal1oZ7X8513eh1HRi7WJ+mDGvz0ZdoeRWg6sCuT1muELJUeOqQG6TGhdeKAH4dpWS+nr4xX7xfPjwbw/Qx/8B&lt;/diagram&gt;&lt;/mxfile&gt;\" style=\"background-color: rgb(255, 255, 255);\"><defs/><g><path d=\"M 80 196.76 L 80 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 80 202.76 L 76 194.76 L 80 196.76 L 84 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 80 27.24 L 84 35.24 L 80 33.24 L 76 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"40\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 41px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1N}} V</div></div></div></foreignObject><text x=\"80\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1N}}V</text></switch></g><path d=\"M 130 196.76 L 130 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 130 202.76 L 126 194.76 L 130 196.76 L 134 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 130 87.24 L 134 95.24 L 130 93.24 L 126 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"90\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 91px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2N}} V</div></div></div></foreignObject><text x=\"130\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2N}} V</text></switch></g><path d=\"M 180 196.76 L 180 153.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 180 202.76 L 176 194.76 L 180 196.76 L 184 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 180 147.24 L 184 155.24 L 180 153.24 L 176 155.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"140\" y=\"165\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 175px; margin-left: 141px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL3N}} V</div></div></div></foreignObject><text x=\"180\" y=\"179\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL3N}} V</text></switch></g><path d=\"M 30 205 L 240 205\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"195\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 205px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">N</div></div></div></foreignObject><text x=\"20\" y=\"209\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">N</text></switch></g><path d=\"M 230 76.76 L 230 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 230 82.76 L 226 74.76 L 230 76.76 L 234 74.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 230 27.24 L 234 35.24 L 230 33.24 L 226 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L2}} V</div></div></div></foreignObject><text x=\"230\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L2}} V</text></switch></g><path d=\"M 229.76 136.76 L 229.76 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 229.76 142.76 L 225.76 134.76 L 229.76 136.76 L 233.76 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 229.76 87.24 L 233.76 95.24 L 229.76 93.24 L 225.76 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2L3}} V</div></div></div></foreignObject><text x=\"230\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2L3}} V</text></switch></g><path d=\"M 30 25 L 480 25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"15\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 25px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L1</div></div></div></foreignObject><text x=\"20\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1</text></switch></g><rect x=\"370\" y=\"15\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 25px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL1}} A</div></div></div></foreignObject><text x=\"410\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL1}} A</text></switch></g><path d=\"M 30 85 L 480 85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"75\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 85px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L2</div></div></div></foreignObject><text x=\"20\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2</text></switch></g><rect x=\"370\" y=\"75\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 85px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL2}} A</div></div></div></foreignObject><text x=\"410\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL2}} A</text></switch></g><path d=\"M 30 145 L 480 145\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"135\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 145px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L3</div></div></div></foreignObject><text x=\"20\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3</text></switch></g><path d=\"M 320 136.76 L 320 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 320 142.76 L 316 134.76 L 320 136.76 L 324 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 320 27.24 L 324 35.24 L 320 33.24 L 316 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"370\" y=\"135\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 145px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL3}} A</div></div></div></foreignObject><text x=\"410\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL3}} A</text></switch></g><rect x=\"280\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 281px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L3}} V</div></div></div></foreignObject><text x=\"320\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L3}} V</text></switch></g><rect x=\"490\" y=\"0\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 25px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1 kW...</text></switch></g><rect x=\"490\" y=\"60\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 85px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2 kW...</text></switch></g><rect x=\"490\" y=\"120\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 145px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">L3 kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3 kW...</text></switch></g></g><switch><g requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"/><a transform=\"translate(0,-5)\" xlink:href=\"https://desk.draw.io/support/solutions/articles/16000042487\" target=\"_blank\"><text text-anchor=\"middle\" font-size=\"10px\" x=\"50%\" y=\"100%\">Viewer does not support full SVG 1.1</text></a></switch></svg>",
         "output": "str",
         "x": 130,
         "y": 30,
@@ -8881,7 +8451,7 @@
         "name": "",
         "order": 2,
         "width": "12",
-        "height": "4",
+        "height": "5",
         "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -8923,7 +8493,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 490,
         "y": 290,
@@ -9022,7 +8592,7 @@
         "delay": "100",
         "topic": "Ref",
         "x": 150,
-        "y": 500,
+        "y": 470,
         "wires": [
             [
                 "6f296e4d.6b03a"
@@ -9049,7 +8619,7 @@
         "payloadType": "bool",
         "topic": "Send",
         "x": 160,
-        "y": 540,
+        "y": 510,
         "wires": [
             [
                 "8da77a70.699258"
@@ -9076,7 +8646,7 @@
         "payloadType": "bool",
         "topic": "Basic",
         "x": 150,
-        "y": 640,
+        "y": 610,
         "wires": [
             [
                 "267fdbe0.520b94"
@@ -9103,7 +8673,7 @@
         "payloadType": "bool",
         "topic": "Basic",
         "x": 150,
-        "y": 680,
+        "y": 650,
         "wires": [
             [
                 "76ade389.49748c"
@@ -9130,7 +8700,7 @@
         "payloadType": "bool",
         "topic": "Basic",
         "x": 150,
-        "y": 720,
+        "y": 690,
         "wires": [
             [
                 "dba80e92.0a13d"
@@ -9146,14 +8716,14 @@
         "name": "",
         "order": 0,
         "width": "24",
-        "height": "5",
+        "height": "6",
         "format": "",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 770,
-        "y": 200,
+        "y": 180,
         "wires": [
             []
         ]
@@ -9196,7 +8766,7 @@
         ],
         "outputs": 1,
         "x": 770,
-        "y": 300,
+        "y": 270,
         "wires": [
             []
         ]
@@ -9215,7 +8785,7 @@
         "outputs": 0,
         "cts": false,
         "x": 770,
-        "y": 340,
+        "y": 310,
         "wires": []
     },
     {
@@ -10105,26 +9675,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 40,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "d2d62409.49e708",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "44ab73f9.6a72cc"
-        ],
-        "x": 535,
-        "y": 40,
-        "wires": [
-            [
-                "72c4f54c.d77d5c"
-            ]
         ]
     },
     {
@@ -10141,26 +9695,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 80,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "4075463c.5f9318",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "f7b106.0da29ef8"
-        ],
-        "x": 535,
-        "y": 80,
-        "wires": [
-            [
-                "3cd5b437.b7123c"
-            ]
         ]
     },
     {
@@ -10177,26 +9715,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 120,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "31f4417e.e5dbce",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "7cc5cf5a.1a576"
-        ],
-        "x": 535,
-        "y": 120,
-        "wires": [
-            [
-                "750a7839.f9a8b8"
-            ]
         ]
     },
     {
@@ -10213,26 +9735,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 160,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "29f636aa.aca62a",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "97bae11c.61449"
-        ],
-        "x": 535,
-        "y": 160,
-        "wires": [
-            [
-                "225632d7.f15e1e"
-            ]
         ]
     },
     {
@@ -10249,26 +9755,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 200,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ab1baf8f.ec288",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "d4a566c6.c4e018"
-        ],
-        "x": 535,
-        "y": 200,
-        "wires": [
-            [
-                "1d80f696.9baeb9"
-            ]
         ]
     },
     {
@@ -10285,26 +9775,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 240,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "c31beae2.7f8088",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "8b96bde.d92114"
-        ],
-        "x": 535,
-        "y": 240,
-        "wires": [
-            [
-                "ae9c6322.e6d4b"
-            ]
         ]
     },
     {
@@ -10321,26 +9795,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 280,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "2bcc22e5.f6d62e",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "21c4c3.0b609b3e"
-        ],
-        "x": 535,
-        "y": 280,
-        "wires": [
-            [
-                "7d436b9d.420ba4"
-            ]
         ]
     },
     {
@@ -10357,170 +9815,10 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 810,
+        "x": 750,
         "y": 320,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e47696d4.4ad568",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "9d882c1.be806d"
-        ],
-        "x": 535,
-        "y": 320,
-        "wires": [
-            [
-                "9509c08e.1839c"
-            ]
-        ]
-    },
-    {
-        "id": "afa19e55.c9111",
-        "type": "ui_template",
-        "z": "77e50510.f482bc",
-        "group": "29200dbc.237402",
-        "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "4",
-        "format": "",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 810,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "18d69e0b.05d942",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "4222ac6e.f706d4"
-        ],
-        "x": 535,
-        "y": 360,
-        "wires": [
-            [
-                "696be502.d9083c"
-            ]
-        ]
-    },
-    {
-        "id": "41dce1b4.0f284",
-        "type": "ui_template",
-        "z": "77e50510.f482bc",
-        "group": "89a21bf7.01be28",
-        "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "4",
-        "format": "",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 810,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6d2a52d9.598f2c",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "b8f3cd0c.b70a2"
-        ],
-        "x": 535,
-        "y": 400,
-        "wires": [
-            [
-                "50495f3.c8980a"
-            ]
-        ]
-    },
-    {
-        "id": "1b11bf35.86ad31",
-        "type": "ui_template",
-        "z": "77e50510.f482bc",
-        "group": "89bc9827.8fecb8",
-        "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "4",
-        "format": "",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 810,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b9c1f438.e74928",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "dfc5bdb9.d9a96"
-        ],
-        "x": 535,
-        "y": 440,
-        "wires": [
-            [
-                "bf5491a6.b85a3"
-            ]
-        ]
-    },
-    {
-        "id": "3252cd47.752d02",
-        "type": "ui_template",
-        "z": "77e50510.f482bc",
-        "group": "a08a84e6.da47b8",
-        "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "4",
-        "format": "",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 810,
-        "y": 480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c48fce04.4a833",
-        "type": "link in",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "links": [
-            "ee4c814.2461e8"
-        ],
-        "x": 535,
-        "y": 480,
-        "wires": [
-            [
-                "fac6c681.3278d8"
-            ]
         ]
     },
     {
@@ -10542,7 +9840,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 120,
-        "y": 300,
+        "y": 270,
         "wires": [
             [
                 "35696a34.d09d86"
@@ -10570,7 +9868,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 300,
+        "y": 270,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -10588,7 +9886,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Frecuancia",
+                "to": "Frecuencia",
                 "tot": "str"
             }
         ],
@@ -10598,7 +9896,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 340,
+        "y": 310,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -10624,7 +9922,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 450,
-        "y": 380,
+        "y": 350,
         "wires": [
             [
                 "3d0c56be.4680ca"
@@ -10644,7 +9942,7 @@
         "finalize": "",
         "libs": [],
         "x": 590,
-        "y": 380,
+        "y": 350,
         "wires": [
             [
                 "24e0f6e3.56cf0a"
@@ -10836,10 +10134,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    \n                                    <li class=\"list-group-item\">{{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">{{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://localhost:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    \n                                    <li class=\"list-group-item\">{{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">{{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://aic.local:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
-        "x": 470,
-        "y": 170,
+        "x": 440,
+        "y": 110,
         "wires": [
             [
                 "bde7292f.835a18"
@@ -10860,8 +10158,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 660,
-        "y": 170,
+        "x": 640,
+        "y": 110,
         "wires": [
             []
         ]
@@ -12444,74 +11742,81 @@
         "id": "f9459856.a20048",
         "type": "ui_date_picker",
         "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
         "name": "",
         "label": "Inicio",
         "group": "bcbb6e99.54feb",
-        "order": 1,
-        "width": "12",
+        "order": 4,
+        "width": "8",
         "height": "1",
         "passthru": true,
         "topic": "",
-        "x": 70,
-        "y": 30,
+        "topicType": "str",
+        "x": 370,
+        "y": 150,
         "wires": [
-            []
+            [
+                "0df115234158a212"
+            ]
         ]
     },
     {
         "id": "2abc6c83.552854",
         "type": "ui_date_picker",
         "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
         "name": "",
         "label": "Fin",
         "group": "bcbb6e99.54feb",
-        "order": 2,
-        "width": "12",
+        "order": 5,
+        "width": "8",
         "height": "1",
         "passthru": true,
         "topic": "",
-        "x": 190,
-        "y": 30,
+        "topicType": "str",
+        "x": 90,
+        "y": 150,
         "wires": [
-            []
+            [
+                "9260d9d87fb376e7"
+            ]
         ]
     },
     {
         "id": "46c48181.a48d7",
         "type": "ui_dropdown",
         "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
         "name": "Variable",
         "label": "",
         "tooltip": "",
         "place": "Seleccione una variable",
         "group": "bcbb6e99.54feb",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
+        "order": 2,
+        "width": "8",
+        "height": "1",
+        "passthru": false,
         "multiple": false,
-        "options": [
-            {
-                "label": "Temperatura",
-                "value": "Temperatura",
-                "type": "str"
-            }
-        ],
+        "options": [],
         "payload": "",
         "topic": "",
-        "x": 320,
-        "y": 30,
+        "topicType": "str",
+        "x": 610,
+        "y": 200,
         "wires": [
-            []
+            [
+                "bb37d9a704c9f960"
+            ]
         ]
     },
     {
         "id": "bd970623.7adcd8",
         "type": "ui_chart",
         "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
         "name": "Gráfico de históricos",
         "group": "bcbb6e99.54feb",
-        "order": 4,
+        "order": 7,
         "width": "24",
         "height": "5",
         "label": "",
@@ -12519,7 +11824,7 @@
         "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
-        "nodata": "",
+        "nodata": "Sin datos",
         "dot": false,
         "ymin": "",
         "ymax": "",
@@ -12541,8 +11846,9 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 360,
-        "y": 70,
+        "useDifferentColor": false,
+        "x": 820,
+        "y": 370,
         "wires": [
             []
         ]
@@ -12570,22 +11876,6 @@
         "x": 675,
         "y": 340,
         "wires": []
-    },
-    {
-        "id": "cb972615.9b3328",
-        "type": "link in",
-        "z": "8d6d8b52.723518",
-        "name": "",
-        "links": [
-            "584b677d.8d2c78"
-        ],
-        "x": 225,
-        "y": 70,
-        "wires": [
-            [
-                "bd970623.7adcd8"
-            ]
-        ]
     },
     {
         "id": "c4d0ad79.75405",
@@ -12824,7 +12114,7 @@
         "z": "a70735f4.fb54d8",
         "g": "565d8ee7.eb7be",
         "name": "General json para visualización",
-        "func": "Cluster         = global.get(\"Cluster\")||[];\nmsg.disponible  = [];\nmsg.sensor      = [];\n\n// Extraer información sobre SCP Disponibles\nfor(var i=0; i<Cluster.length; i+=1){\n    msg.disponible.push(Cluster[i].Disponible);\n    msg.disponible[i]= msg.disponible[i]== \"No\" ? false:true;\n    \n    if(msg.disponible[i]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    node.send(msg)\n}\n\n// Extraer información sobre SCP con sensor de fondo\nfor(var j=0; j<Cluster.length; j+=1){\n    msg.sensor.push(Cluster[j].Sensor);\n    msg.sensor[j] = msg.sensor[j] == \"Ninguno\" || msg.sensor[j]== \" -- \" ? false:true;\n    if(msg.sensor[j]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Datos_de_fondo_SCP_\"+[j+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Datos_de_fondo_SCP_\"+[j+1]]}\n        }\n    }\n    node.send(msg)\n}\nreturn msg;",
+        "func": "var Cluster         = global.get(\"Cluster\")||[];\nmsg.disponible  = [];\nmsg.sensor      = [];\n\n// Extraer información sobre SCP Disponibles\nfor(var i=0; i<Cluster.length; i+=1){\n    msg.disponible.push(Cluster[i].Disponible);\n    msg.disponible[i]= msg.disponible[i]== \"No\" ? false:true;\n    \n    if(msg.disponible[i]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Despliegue_general_SCP_\"+[i+1], \"Instrumentación_pozos_SCP_\"+[i+1]]}\n        }\n    }\n    node.send(msg)\n}\n\n// Extraer información sobre SCP con sensor de fondo\nfor(var j=0; j<Cluster.length; j+=1){\n    msg.sensor.push(Cluster[j].Sensor);\n    msg.sensor[j] = msg.sensor[j] == \"Ninguno\" || msg.sensor[j]== \" -- \" ? false:true;\n    if(msg.sensor[j]){\n        msg.payload = {\n            \"group\": {\"show\": [\"Datos_de_fondo_SCP_\"+[j+1]]}\n        }\n    }\n    else{\n        msg.payload = {\n            \"group\": {\"hide\": [\"Datos_de_fondo_SCP_\"+[j+1]]}\n        }\n    }\n    node.send(msg)\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12862,7 +12152,7 @@
         "type": "function",
         "z": "5c22c23.3efb43c",
         "name": "Data",
-        "func": "var Cluster             = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData         = global.get(\"Cluster\")||[];\n\nvar SCP                 = env.get(\"SCP\")||0;\nmsg.Hz                  = Cluster[\"SCP\"+(SCP+1)].VSD.Frecuencia;\nmsg.kW                  = Cluster[\"SCP\"+(SCP+1)].VSD.Corriente_Motor;\nmsg.A_VSD               = Cluster[\"SCP\"+(SCP+1)].VSD.Corriente_VSD;\nmsg.V_VSD               = Cluster[\"SCP\"+(SCP+1)].VSD.Voltaje_VSD;\nmsg.A_Tx                = Cluster[\"SCP\"+(SCP+1)].VSD.Corriente_Motor;\nmsg.V_Tx                = Cluster[\"SCP\"+(SCP+1)].VSD.Voltaje_Motor;\nestatus                 = Cluster[\"SCP\"+(SCP+1)].VSD.Estado;\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP+1)].DHOLE.PIP).toFixed(3);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Temperatura_Motor).toFixed(3);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Temperatura_Entrada).toFixed(3);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Vibracion).toFixed(3);\nmsg.Corriente_Fuga      = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Corriente_Fuga).toFixed(3);\n\nmsg.payload             = getAlert();\n\nmsg.alert               = msg.payload[1];\nmsg.alertMsg            = msg.payload[0];\n\nmsg.type                = getClusterData(\"ALS\");        //ClusterData[SCP][\"ALS\"]       ||\"ESP\";\nmsg.wellName            = getClusterData(\"Nombre\");     //ClusterData[SCP][\"Nombre\"]    ||\"--\";\nmsg.VSD                 = getClusterData(\"Variador\");   //ClusterData[SCP][\"Variador\"]  ||\"--\";\n\nfunction getAlert(){\n    var resp=\"\";\n    switch (estatus){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n        \n        case 2:\n            resp = [\"VSD Alarma\",\"alert-warning\"];\n            break;\n        \n        case 3:\n            resp = [\"VSD Falla!\",\"alert-danger\"];\n            break;\n            \n        case 4:\n            resp = [\"VSD Falla COMM\",\"alert-warning\"];\n            break;\n        \n        case 5:\n            resp = [\"Equipo Apagado\",\"alert-dark\"];\n            break;\n            \n        case 6:\n            resp = [\"VSD Sin Tension\",\"alert-warning\"];\n            break;\n    }\n    return resp\n}\n\nfunction getClusterData(field){\n    try {\n        return ClusterData[SCP][field];\n    } \n    catch (error) {\n        console.error(\"--\");\n    }\n}\n\nreturn msg;",
+        "func": "var Cluster             = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData         = global.get(\"Cluster\")||[];\n\nvar SCP                 = env.get(\"SCP\")||0;\nvar estatus = Cluster[\"SCP\" + (SCP + 1)].VSD.Estado;\nmsg.Hz                  = (Cluster[\"SCP\" + (SCP + 1)].VSD.Frecuencia).toFixed(3);\nmsg.kW                  = (Cluster[\"SCP\" + (SCP + 1)].VSD.Corriente_Motor).toFixed(3);\nmsg.A_VSD               = (Cluster[\"SCP\" + (SCP + 1)].VSD.Corriente_VSD).toFixed(3);\nmsg.V_VSD               = (Cluster[\"SCP\" + (SCP + 1)].VSD.Voltaje_VSD).toFixed(3);\nmsg.A_Tx                = (Cluster[\"SCP\" + (SCP + 1)].VSD.Corriente_Motor).toFixed(3);\nmsg.V_Tx                = (Cluster[\"SCP\" + (SCP + 1)].VSD.Voltaje_Motor).toFixed(3);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP+1)].DHOLE.PIP).toFixed(3);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Temperatura_Motor).toFixed(3);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Temperatura_Entrada).toFixed(3);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Vibracion).toFixed(3);\nmsg.Corriente_Fuga      = (Cluster[\"SCP\"+(SCP+1)].DHOLE.Corriente_Fuga).toFixed(3);\n\nmsg.payload             = getAlert();\nmsg.alert               = msg.payload[1];\nmsg.alertMsg            = msg.payload[0];\n\nmsg.type                = getClusterData(\"ALS\");        //ClusterData[SCP][\"ALS\"]       ||\"ESP\";\nmsg.wellName            = getClusterData(\"Nombre\");     //ClusterData[SCP][\"Nombre\"]    ||\"--\";\nmsg.VSD                 = getClusterData(\"Variador\");   //ClusterData[SCP][\"Variador\"]  ||\"--\";\n\nfunction getAlert(){\n    var resp=\"\";\n    switch (estatus){\n        case 0:\n            resp = [\"Equipo operativo!\",\"alert-success\"];\n            break;\n    \n        case 1:\n            resp = [\"Equipo detenido!\",\"alert-danger\"];\n            break;\n        \n        case 2:\n            resp = [\"VSD Alarma\",\"alert-warning\"];\n            break;\n        \n        case 3:\n            resp = [\"VSD Falla!\",\"alert-danger\"];\n            break;\n            \n        case 4:\n            resp = [\"VSD Falla COMM\",\"alert-warning\"];\n            break;\n        \n        case 5:\n            resp = [\"Equipo Apagado\",\"alert-dark\"];\n            break;\n            \n        case 6:\n            resp = [\"VSD Sin Tension\",\"alert-warning\"];\n            break;\n    }\n    return resp\n}\n\nfunction getClusterData(field){\n    try {\n        return ClusterData[SCP][field];\n    } \n    catch (error) {\n        console.error(\"--\");\n    }\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12885,8 +12175,7 @@
         "y": 60,
         "wires": [
             [
-                "c0ad00ca.fe8c4",
-                "ae9a42f6.bffee"
+                "c0ad00ca.fe8c4"
             ]
         ]
     },
@@ -13150,7 +12439,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            {{{menu}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 1400,
         "y": 20,
@@ -13370,7 +12659,7 @@
         "name": "",
         "env": [],
         "x": 590,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
                 "526b68fa.fc36e8"
@@ -13396,7 +12685,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 120,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
                 "c4b00d9d.c758e"
@@ -13437,14 +12726,14 @@
         "z": "e997ba3b.48cc18",
         "g": "222c08a.f1e28f8",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"];} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Frecuencia          = (Cluster[\"SCP\"+(SCP)].VSD.Frecuencia).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Frecuencia          = (Cluster[\"SCP\"+(SCP)].VSD.Frecuencia).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 330,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
                 "e13ed5c.7271528"
@@ -13498,7 +12787,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <style>\n                td,h5 {text-align:center;}\n                #Alert{background-color: coral;}\n            </style>\n        </div>\n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
         "x": 400,
         "y": 40,
@@ -13736,7 +13025,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div>\n            <div ng-bind-html=\"msg.ALS\"></div>\n            <div ng-bind-html=\"msg.Table\"></div>\n            <div ng-bind-html=\"msg.Alert\"></div>\n            <style>td,h5 {text-align:center;}</style>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
         "x": 400,
         "y": 40,
@@ -13750,7 +13039,7 @@
         "z": "77e50510.f482bc",
         "name": "",
         "env": [],
-        "x": 650,
+        "x": 590,
         "y": 40,
         "wires": [
             [
@@ -13763,7 +13052,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 80,
         "wires": [
             [
@@ -13776,7 +13065,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 120,
         "wires": [
             [
@@ -13789,7 +13078,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 160,
         "wires": [
             [
@@ -13802,7 +13091,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 200,
         "wires": [
             [
@@ -13815,7 +13104,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 240,
         "wires": [
             [
@@ -13828,7 +13117,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 280,
         "wires": [
             [
@@ -13841,63 +13130,11 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 650,
+        "x": 590,
         "y": 320,
         "wires": [
             [
                 "6f94e4d.b591f1c"
-            ]
-        ]
-    },
-    {
-        "id": "696be502.d9083c",
-        "type": "subflow:f0c3da0c.524418",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "x": 650,
-        "y": 360,
-        "wires": [
-            [
-                "afa19e55.c9111"
-            ]
-        ]
-    },
-    {
-        "id": "50495f3.c8980a",
-        "type": "subflow:f0c3da0c.524418",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "x": 650,
-        "y": 400,
-        "wires": [
-            [
-                "41dce1b4.0f284"
-            ]
-        ]
-    },
-    {
-        "id": "bf5491a6.b85a3",
-        "type": "subflow:f0c3da0c.524418",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "x": 650,
-        "y": 440,
-        "wires": [
-            [
-                "1b11bf35.86ad31"
-            ]
-        ]
-    },
-    {
-        "id": "fac6c681.3278d8",
-        "type": "subflow:f0c3da0c.524418",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "x": 650,
-        "y": 480,
-        "wires": [
-            [
-                "3252cd47.752d02"
             ]
         ]
     },
@@ -13937,76 +13174,6 @@
         "wires": [
             [
                 "28cd79fb.3dcae6"
-            ]
-        ]
-    },
-    {
-        "id": "316f57da.0f2fc8",
-        "type": "exec",
-        "z": "612ddf44.816d7",
-        "g": "a163450f.bc4438",
-        "command": "echo Slacol1234 | sudo -S systemctl start kiosk.service",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "",
-        "x": 540,
-        "y": 440,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "5f07f1b.ac4631",
-        "type": "delay",
-        "z": "612ddf44.816d7",
-        "g": "a163450f.bc4438",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "10",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 250,
-        "y": 440,
-        "wires": [
-            [
-                "316f57da.0f2fc8"
-            ]
-        ]
-    },
-    {
-        "id": "1b5b2e1c.f68d42",
-        "type": "inject",
-        "z": "612ddf44.816d7",
-        "g": "a163450f.bc4438",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 120,
-        "y": 440,
-        "wires": [
-            [
-                "5f07f1b.ac4631"
             ]
         ]
     },
@@ -14120,7 +13287,7 @@
         "z": "c8989d0a.49ea8",
         "g": "a0798509.56f3c8",
         "name": "Organizar datos por SCPx",
-        "func": "var keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\n\n\nfor(var i=0; i<keys.length; i+=1){\n    keys[i] = keys[i].replace(\"CLUSTER2\",\"SCP1\");\n    keys[i] = keys[i].replace(\"CLUSTER\",\"SCP\");\n    \n    for(var j=0; j<=9; j+=1){\n        keys[i] = keys[i].replace(\".W0\"+j,j);\n    }\n    global.set(\"Cluster.\"+keys[i],values[i],\"memoryOnly\");\n}\nreturn msg;",
+        "func": "var keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\n\nfor(var i=0; i<keys.length; i+=1){\n    keys[i] = keys[i].replace(\"CLUSTER2\",\"SCP1\");\n    keys[i] = keys[i].replace(\"CLUSTER\",\"SCP\");\n    \n    for(var j=0; j<=9; j+=1){\n        keys[i] = keys[i].replace(\".W0\"+j,j.toString());\n    }\n    global.set(\"Cluster.\"+keys[i],values[i],\"memoryOnly\");\n}\nreturn msg;",
         "outputs": 0,
         "noerr": 0,
         "initialize": "",
@@ -15262,7 +14429,7 @@
         "to": "",
         "reg": false,
         "x": 370,
-        "y": 500,
+        "y": 470,
         "wires": [
             []
         ]
@@ -15302,7 +14469,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 640,
+        "y": 610,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -15344,7 +14511,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 680,
+        "y": 650,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -15386,7 +14553,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 720,
+        "y": 690,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -15406,7 +14573,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 670,
+        "y": 640,
         "wires": [
             [
                 "35e356e7.8ebc5a"
@@ -15872,7 +15039,7 @@
             "c5614143.9411"
         ],
         "x": 675,
-        "y": 670,
+        "y": 640,
         "wires": []
     },
     {
@@ -15905,7 +15072,7 @@
         "finalize": "",
         "libs": [],
         "x": 330,
-        "y": 310,
+        "y": 280,
         "wires": [
             [
                 "cce135f5.fcfef8"
@@ -15928,7 +15095,7 @@
         "finalize": "",
         "libs": [],
         "x": 380,
-        "y": 540,
+        "y": 510,
         "wires": [
             [
                 "43030a29.bfdeb4"
@@ -15945,7 +15112,7 @@
             "9a082d5b.6a6e5"
         ],
         "x": 525,
-        "y": 540,
+        "y": 510,
         "wires": []
     },
     {
@@ -16164,7 +15331,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
+        "x": 830,
         "y": 80,
         "wires": []
     },
@@ -16194,24 +15361,6 @@
         ]
     },
     {
-        "id": "ae9a42f6.bffee",
-        "type": "debug",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "PIP",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 560,
-        "y": 110,
-        "wires": []
-    },
-    {
         "id": "9b6b8f5a.816b1",
         "type": "eth-ip in",
         "z": "c8989d0a.49ea8",
@@ -16239,7 +15388,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
+        "x": 830,
         "y": 130,
         "wires": []
     },
@@ -16255,7 +15404,7 @@
         "finalize": "",
         "libs": [],
         "x": 270,
-        "y": 170,
+        "y": 110,
         "wires": [
             [
                 "72d828d9.a75c08"
@@ -16278,7 +15427,7 @@
         "delay": 300,
         "topic": "",
         "x": 170,
-        "y": 270,
+        "y": 280,
         "wires": [
             [
                 "1388e106.75d21f"
@@ -16324,7 +15473,7 @@
         "delay": 300,
         "topic": "",
         "x": 170,
-        "y": 370,
+        "y": 360,
         "wires": [
             [
                 "71fdaca0.0629f4"
@@ -16347,7 +15496,7 @@
         "delay": 300,
         "topic": "",
         "x": 170,
-        "y": 420,
+        "y": 400,
         "wires": [
             [
                 "8c0f7a27.d809a8"
@@ -16359,7 +15508,7 @@
         "type": "ui_switch",
         "z": "f10e7ce.d57828",
         "name": "",
-        "label": "Habilitar HH",
+        "label": "Hab. HH",
         "tooltip": "",
         "group": "f70aaec9.581ea",
         "order": 2,
@@ -16368,6 +15517,7 @@
         "passthru": true,
         "decouple": "false",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -16377,10 +15527,13 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 190,
-        "y": 470,
+        "animate": true,
+        "x": 150,
+        "y": 460,
         "wires": [
-            []
+            [
+                "9c094ff7.666ed"
+            ]
         ]
     },
     {
@@ -16388,7 +15541,7 @@
         "type": "ui_switch",
         "z": "f10e7ce.d57828",
         "name": "",
-        "label": "Habilitar H",
+        "label": "Hab. H",
         "tooltip": "",
         "group": "f70aaec9.581ea",
         "order": 4,
@@ -16397,6 +15550,7 @@
         "passthru": true,
         "decouple": "false",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -16406,10 +15560,13 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 190,
-        "y": 520,
+        "animate": true,
+        "x": 150,
+        "y": 500,
         "wires": [
-            []
+            [
+                "d9251992.6d23a8"
+            ]
         ]
     },
     {
@@ -16417,7 +15574,7 @@
         "type": "ui_switch",
         "z": "f10e7ce.d57828",
         "name": "",
-        "label": "Habilitar L",
+        "label": "Hab. L",
         "tooltip": "",
         "group": "f70aaec9.581ea",
         "order": 8,
@@ -16426,6 +15583,7 @@
         "passthru": true,
         "decouple": "false",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -16435,10 +15593,13 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 180,
-        "y": 570,
+        "animate": true,
+        "x": 150,
+        "y": 540,
         "wires": [
-            []
+            [
+                "22f97ed0.871a92"
+            ]
         ]
     },
     {
@@ -16446,7 +15607,7 @@
         "type": "ui_switch",
         "z": "f10e7ce.d57828",
         "name": "",
-        "label": "Habilitar LL",
+        "label": "Hab. LL",
         "tooltip": "",
         "group": "f70aaec9.581ea",
         "order": 6,
@@ -16455,6 +15616,7 @@
         "passthru": true,
         "decouple": "false",
         "topic": "",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -16464,10 +15626,13 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 190,
-        "y": 620,
+        "animate": true,
+        "x": 150,
+        "y": 580,
         "wires": [
-            []
+            [
+                "173235da.c52c8a"
+            ]
         ]
     },
     {
@@ -16488,8 +15653,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 730,
-        "y": 300,
+        "x": 160,
+        "y": 630,
         "wires": [
             []
         ]
@@ -16512,8 +15677,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 1110,
-        "y": 300,
+        "x": 490,
+        "y": 630,
         "wires": [
             []
         ]
@@ -16536,8 +15701,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 910,
-        "y": 300,
+        "x": 310,
+        "y": 630,
         "wires": [
             []
         ]
@@ -16551,8 +15716,8 @@
         "variable": "",
         "program": "",
         "name": "TEMP & HUMIDITY",
-        "x": 610,
-        "y": 210,
+        "x": 600,
+        "y": 180,
         "wires": [
             [
                 "34ccd504.f1f4fa"
@@ -16570,8 +15735,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
-        "y": 210,
+        "x": 830,
+        "y": 180,
         "wires": []
     },
     {
@@ -16598,7 +15763,7 @@
         "g": "3383e29e.9b29fe",
         "name": "Gráfico de velocidad de procesador",
         "group": "744bf601.7a0f58",
-        "order": 1,
+        "order": 2,
         "width": "20",
         "height": "3",
         "label": "",
@@ -16650,7 +15815,7 @@
         "colorNormal": "#ff9900",
         "colorOff": "#595959",
         "min": 0,
-        "max": "1500",
+        "max": "2000",
         "segWarn": "500",
         "segHigh": "1200",
         "unit": "MHz",
@@ -16753,8 +15918,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 450,
-        "y": 270,
+        "x": 320,
+        "y": 280,
         "wires": [
             []
         ]
@@ -16778,7 +15943,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 450,
+        "x": 320,
         "y": 320,
         "wires": [
             []
@@ -16803,7 +15968,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 450,
+        "x": 320,
         "y": 360,
         "wires": [
             []
@@ -16828,8 +15993,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
-        "y": 420,
+        "x": 320,
+        "y": 400,
         "wires": [
             []
         ]
@@ -16853,8 +16018,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 450,
-        "y": 480,
+        "x": 320,
+        "y": 460,
         "wires": [
             []
         ]
@@ -16878,8 +16043,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
-        "y": 530,
+        "x": 320,
+        "y": 500,
         "wires": [
             []
         ]
@@ -16903,8 +16068,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 570,
+        "x": 320,
+        "y": 540,
         "wires": [
             []
         ]
@@ -16928,10 +16093,1232 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 420,
-        "y": 620,
+        "x": 320,
+        "y": 580,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "32c1137a7c992fcb",
+        "type": "inject",
+        "z": "c8989d0a.49ea8",
+        "g": "a0798509.56f3c8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 290,
+        "wires": [
+            [
+                "5c6293f5.b173ac"
+            ]
+        ]
+    },
+    {
+        "id": "878a890b1f06b83c",
+        "type": "influxdb batch",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "influxdb": "ab25613c47d557df",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 630,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "23967da5935ba512",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "Preparar datos",
+        "func": "var Cluster = { ...global.get(\"Cluster\", \"memoryOnly\") };\ndelete Cluster.INST_MNF;\ndelete Cluster.PQM;\nvar SCPKeys = Object.keys(Cluster).sort();\n\nvar Fields = [\"VSD\",\"PQM\",\"INST\",\"DHOLE\"];\nvar VSD=[],PQM=[],INST=[],DHOLE=[];\n\n// VSD\nfor (var j = 0; j < SCPKeys.length; j += 1) {\n    VSD.push(Cluster[SCPKeys[j]][\"VSD\"]);\n}\n\n// PQM\nfor (var j = 0; j < SCPKeys.length; j += 1) {\n    PQM.push(Cluster[SCPKeys[j]][\"PQM\"]);\n}\n\n// INST\nfor (var j = 0; j < SCPKeys.length; j += 1) {\n    INST.push(Cluster[SCPKeys[j]][\"INST\"]);\n}\n\n// DHOLE\nfor (var j = 0; j < SCPKeys.length; j += 1) {\n    DHOLE.push(Cluster[SCPKeys[j]][\"DHOLE\"]);\n}\n\n/*\nfor (var i = 0; i < Fields.length; i+=1){\n    for (var j = 0; j < SCPKeys.length; j+=1){\n        Output.push(Cluster[SCPKeys[j]][Fields[i]]);\n    }\n}\n*/\n//msg.payload = Cluster[SCPKeys[0]][Fields[1]];\nmsg.VSD = VSD;\nmsg.PQM = PQM;\nmsg.INST = INST;\nmsg.DHOLE = DHOLE;\nmsg.Tags = SCPKeys;\nmsg.FieldKeys = Fields;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 60,
+        "wires": [
+            [
+                "4a271a88.499184"
+            ]
+        ]
+    },
+    {
+        "id": "3aa65411ebc7a815",
+        "type": "inject",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "180",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "23967da5935ba512"
+            ]
+        ]
+    },
+    {
+        "id": "4a271a88.499184",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "Batch Influx",
+        "func": "for(var i=0; i<msg.VSD.length; i+=1){\n    msg.payload = [\n        {\n            measurement: \"VSD\",\n            fields: msg.VSD[i],\n            tags:{\n                location:msg.Tags[i]\n            },\n            timestamp: new Date()\n        },\n        {\n            measurement: \"PQM\",\n            fields: msg.PQM[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        },\n        {\n            measurement: \"INST\",\n            fields: msg.INST[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        },\n        {\n            measurement: \"DHOLE\",\n            fields: msg.DHOLE[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        }\n    ];\n    node.send(msg);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "878a890b1f06b83c"
+            ]
+        ]
+    },
+    {
+        "id": "114c7054920f76e0",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP1.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP1.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP1.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP1.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP1.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 40,
+        "wires": [
+            [
+                "72c4f54c.d77d5c"
+            ]
+        ]
+    },
+    {
+        "id": "727d84f0fb07bbb5",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP2.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP2.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP2.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP2.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP2.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 80,
+        "wires": [
+            [
+                "3cd5b437.b7123c"
+            ]
+        ]
+    },
+    {
+        "id": "555b09e20526b8d2",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP3.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP3.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP3.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP3.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP3.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 120,
+        "wires": [
+            [
+                "750a7839.f9a8b8"
+            ]
+        ]
+    },
+    {
+        "id": "faa693e0971e341e",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP4.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP4.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP4.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP4.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP4.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "225632d7.f15e1e"
+            ]
+        ]
+    },
+    {
+        "id": "6fa77d5dfe9416cb",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP5.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP5.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP5.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP5.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP5.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 200,
+        "wires": [
+            [
+                "1d80f696.9baeb9"
+            ]
+        ]
+    },
+    {
+        "id": "84d3de4d954c2c72",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP6.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP6.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP6.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP6.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP6.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "ae9c6322.e6d4b"
+            ]
+        ]
+    },
+    {
+        "id": "aae4ec010802f86c",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP7.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP7.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP7.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP7.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP7.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "7d436b9d.420ba4"
+            ]
+        ]
+    },
+    {
+        "id": "baba920ec8f57f7a",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP8.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP8.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP8.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP8.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP8.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 320,
+        "wires": [
+            [
+                "9509c08e.1839c"
+            ]
+        ]
+    },
+    {
+        "id": "d424296eefa95389",
+        "type": "inject",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 60,
+        "wires": [
+            [
+                "114c7054920f76e0",
+                "727d84f0fb07bbb5",
+                "555b09e20526b8d2",
+                "faa693e0971e341e",
+                "6fa77d5dfe9416cb",
+                "84d3de4d954c2c72",
+                "aae4ec010802f86c",
+                "baba920ec8f57f7a"
+            ]
+        ]
+    },
+    {
+        "id": "58c6ce637ca52a6e",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "Query",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "SELECT mean(\"---\") FROM \"***\" WHERE (\"location\" = 'SCPx') AND time >= ... and time <= ,,, GROUP BY time(180s)",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "query.variable",
+                "tot": "flow"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "***",
+                "fromt": "str",
+                "to": "query.measurement",
+                "tot": "flow"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "SCPx",
+                "fromt": "str",
+                "to": "query.SCP",
+                "tot": "flow"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "...",
+                "fromt": "str",
+                "to": "now() - 1h",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": ",,,",
+                "fromt": "str",
+                "to": "now()",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "query",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 370,
+        "wires": [
+            [
+                "3665506425e91752"
+            ]
+        ]
+    },
+    {
+        "id": "3665506425e91752",
+        "type": "influxdb in",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "influxdb": "ab25613c47d557df",
+        "name": "",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 410,
+        "y": 370,
+        "wires": [
+            [
+                "2ff7e9ab026c70a2"
+            ]
+        ]
+    },
+    {
+        "id": "c00140c8ee97580b",
+        "type": "ui_dropdown",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "Tabla",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccione una Tabla",
+        "group": "bcbb6e99.54feb",
+        "order": 1,
+        "width": "8",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Variador",
+                "value": "VSD",
+                "type": "str"
+            },
+            {
+                "label": "PQM",
+                "value": "PQM",
+                "type": "str"
+            },
+            {
+                "label": "Instrumentación",
+                "value": "INST",
+                "type": "str"
+            },
+            {
+                "label": "Fondo",
+                "value": "DHOLE",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 200,
+        "wires": [
+            [
+                "ff78f2ede9c70178",
+                "c2156424fc91640f"
+            ]
+        ]
+    },
+    {
+        "id": "c120cd52ab540547",
+        "type": "ui_dropdown",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "SCP",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccione una Tabla",
+        "group": "bcbb6e99.54feb",
+        "order": 3,
+        "width": "8",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "SCP1",
+                "value": "SCP1",
+                "type": "str"
+            },
+            {
+                "label": "SCP2",
+                "value": "SCP2",
+                "type": "str"
+            },
+            {
+                "label": "SCP3",
+                "value": "SCP3",
+                "type": "str"
+            },
+            {
+                "label": "SCP4",
+                "value": "SCP4",
+                "type": "str"
+            },
+            {
+                "label": "SCP5",
+                "value": "SCP5",
+                "type": "str"
+            },
+            {
+                "label": "SCP6",
+                "value": "SCP6",
+                "type": "str"
+            },
+            {
+                "label": "SCP7",
+                "value": "SCP7",
+                "type": "str"
+            },
+            {
+                "label": "SCP8",
+                "value": "SCP8",
+                "type": "str"
+            },
+            {
+                "label": "SCP9",
+                "value": "SCP9",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "x": 640,
+        "y": 150,
+        "wires": [
+            [
+                "1a6f1c7a1f2f1e47"
+            ]
+        ]
+    },
+    {
+        "id": "0df115234158a212",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "Start",
+        "rules": [
+            {
+                "t": "set",
+                "p": "query.start",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 150,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9260d9d87fb376e7",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "End",
+        "rules": [
+            {
+                "t": "set",
+                "p": "query.end",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 150,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff78f2ede9c70178",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "Measurement",
+        "rules": [
+            {
+                "t": "set",
+                "p": "query.measurement",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "786f3d1e2037748a"
+            ]
+        ]
+    },
+    {
+        "id": "bb37d9a704c9f960",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "variable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "query.variable",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a6f1c7a1f2f1e47",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "SCP",
+        "rules": [
+            {
+                "t": "set",
+                "p": "query.SCP",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 150,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f5439cf5e183f62c",
+        "type": "ui_button",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "",
+        "group": "bcbb6e99.54feb",
+        "order": 6,
+        "width": "8",
+        "height": "1",
+        "passthru": false,
+        "label": "Consultar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 370,
+        "wires": [
+            [
+                "58c6ce637ca52a6e"
+            ]
+        ]
+    },
+    {
+        "id": "786f3d1e2037748a",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "0124a30db1d0a4a1",
+        "name": "",
+        "func": "var Cluster     = {...global.get(\"Cluster\",\"memoryOnly\")};\nvar SCPQuery = flow.get(\"query.SCP\");\n\nvar List = Object.keys(Cluster[SCPQuery][msg.payload]);\nmsg.options = List;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "46c48181.a48d7"
+            ]
+        ]
+    },
+    {
+        "id": "2ff7e9ab026c70a2",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "Data handle",
+        "func": "var data = [];\nfor (var i = 0; i < msg.payload.length; i+=1){\n    //msg.payload[i].mean = msg.payload[i].mean == null ? 0 : msg.payload[i].mean;\n    data.push({ \"x\": Date.parse(msg.payload[i].time), \"y\": msg.payload[i].mean })\n}\nvar chart = [{\n    \"series\":   [\"Test\"],//msg.series,\n    \"data\":     [data],\n    \"labels\":   [\"Test\"]\n}];\nmsg.payload = chart;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 370,
+        "wires": [
+            [
+                "bd970623.7adcd8"
+            ]
+        ]
+    },
+    {
+        "id": "c2156424fc91640f",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "Chart",
+        "func": "msg.payload = []\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 330,
+        "wires": [
+            [
+                "bd970623.7adcd8"
+            ]
+        ]
+    },
+    {
+        "id": "61d261842a5c2715",
+        "type": "inject",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 330,
+        "wires": [
+            [
+                "c2156424fc91640f"
+            ]
+        ]
+    },
+    {
+        "id": "9c9136aa980614d2",
+        "type": "catch",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "",
+        "scope": [
+            "3665506425e91752"
+        ],
+        "uncaught": false,
+        "x": 630,
+        "y": 290,
+        "wires": [
+            [
+                "c2156424fc91640f",
+                "7bc393d6d498860b"
+            ]
+        ]
+    },
+    {
+        "id": "a56f3eb277b66591",
+        "type": "ui_toast",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 990,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "7bc393d6d498860b",
+        "type": "change",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Error en la consulta!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 290,
+        "wires": [
+            [
+                "a56f3eb277b66591"
+            ]
+        ]
+    },
+    {
+        "id": "48a157dbed4f2a98",
+        "type": "ui_ui_control",
+        "z": "827787d0.ede678",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 890,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "942b2e1d2a855f07",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "name": "",
+        "links": [
+            "8edea7ae.674088"
+        ],
+        "x": 175,
+        "y": 890,
+        "wires": [
+            [
+                "65bcc8cd5160b708"
+            ]
+        ]
+    },
+    {
+        "id": "0dbe8e7c70765c89",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "name": "",
+        "links": [
+            "33c5f16c.c8a5ae"
+        ],
+        "x": 175,
+        "y": 930,
+        "wires": [
+            [
+                "1bc0b3c5d5b317ee"
+            ]
+        ]
+    },
+    {
+        "id": "65bcc8cd5160b708",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "name": "No User",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"disable\":[\"Datos_históricos\",\"Temperatura/Humedad\",\"Alarmas/Eventos\",\"Instrumentación_pozos\",\"Instrumentación_manifold\",\"Configuración_clúster\",\"Estado_CCP\",\"Datos_de_fondo\",\"Datos_operativos_pozos\",\"Datos_eléctricos_clúster\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 890,
+        "wires": [
+            [
+                "48a157dbed4f2a98"
+            ]
+        ]
+    },
+    {
+        "id": "1bc0b3c5d5b317ee",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "name": "Admin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"enable\":[\"Datos_históricos\",\"Temperatura/Humedad\",\"Alarmas/Eventos\",\"Instrumentación_pozos\",\"Instrumentación_manifold\",\"Configuración_clúster\",\"Estado_CCP\",\"Datos_de_fondo\",\"Datos_operativos_pozos\",\"Datos_eléctricos_clúster\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 930,
+        "wires": [
+            [
+                "48a157dbed4f2a98"
+            ]
         ]
     }
 ]
