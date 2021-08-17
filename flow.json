@@ -518,7 +518,7 @@
         ],
         "x": 24,
         "y": 9,
-        "w": 742,
+        "w": 722,
         "h": 122
     },
     {
@@ -574,7 +574,9 @@
             "51e191bb.59c8a"
         ],
         "x": 64,
-        "y": 19
+        "y": 19,
+        "w": 682,
+        "h": 962
     },
     {
         "id": "2f18e23b.de32ce",
@@ -9675,7 +9677,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 40,
         "wires": [
             []
@@ -9695,7 +9697,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 80,
         "wires": [
             []
@@ -9715,7 +9717,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 120,
         "wires": [
             []
@@ -9735,7 +9737,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 160,
         "wires": [
             []
@@ -9755,7 +9757,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 200,
         "wires": [
             []
@@ -9775,7 +9777,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 240,
         "wires": [
             []
@@ -9795,7 +9797,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 280,
         "wires": [
             []
@@ -9815,7 +9817,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 750,
+        "x": 720,
         "y": 320,
         "wires": [
             []
@@ -9840,7 +9842,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 120,
-        "y": 270,
+        "y": 280,
         "wires": [
             [
                 "35696a34.d09d86"
@@ -13039,7 +13041,7 @@
         "z": "77e50510.f482bc",
         "name": "",
         "env": [],
-        "x": 590,
+        "x": 560,
         "y": 40,
         "wires": [
             [
@@ -13052,7 +13054,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 80,
         "wires": [
             [
@@ -13065,7 +13067,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 120,
         "wires": [
             [
@@ -13078,7 +13080,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 160,
         "wires": [
             [
@@ -13091,7 +13093,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 200,
         "wires": [
             [
@@ -13104,7 +13106,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 240,
         "wires": [
             [
@@ -13117,7 +13119,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 280,
         "wires": [
             [
@@ -13130,7 +13132,7 @@
         "type": "subflow:f0c3da0c.524418",
         "z": "77e50510.f482bc",
         "name": "",
-        "x": 590,
+        "x": 560,
         "y": 320,
         "wires": [
             [
@@ -13306,7 +13308,7 @@
         "links": [
             "3bd487eb.ca4f88"
         ],
-        "x": 725,
+        "x": 705,
         "y": 50,
         "wires": []
     },
@@ -15065,7 +15067,7 @@
         "z": "e997ba3b.48cc18",
         "g": "89dd768a.673f58",
         "name": "Informacion Corriente Frecuencia",
-        "func": "var Cluster         = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData     = global.get(\"Cluster\")||[];\nvar SCP             = global.get(\"SCP\",\"memoryOnly\")||0;\n\nCorriente_VSD   = Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD;\nFrecuencia     = Cluster[\"SCP\"+(SCP)].VSD.Frecuencia;\nvar msg = { payload: Corriente_VSD};\nvar msg1 = { payload: Frecuencia};\nreturn [msg,msg1];",
+        "func": "var Cluster         = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData     = global.get(\"Cluster\")||[];\nvar SCP             = global.get(\"SCP\",\"memoryOnly\")||0;\n\nvar Corriente_VSD   = Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD;\nvar Frecuencia      = Cluster[\"SCP\"+(SCP)].VSD.Frecuencia;\nvar msg = { payload: Corriente_VSD};\nvar msg1 = { payload: Frecuencia};\nreturn [msg,msg1];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -16253,6 +16255,13 @@
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP1.DHOLE.Corriente_Fuga",
                 "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.0.Nombre",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -16307,6 +16316,13 @@
                 "p": "Corriente_Fuga",
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP2.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.1.Nombre",
                 "tot": "global"
             }
         ],
@@ -16363,6 +16379,13 @@
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP3.DHOLE.Corriente_Fuga",
                 "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.2.Nombre",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -16417,6 +16440,13 @@
                 "p": "Corriente_Fuga",
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP4.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.3.Nombre",
                 "tot": "global"
             }
         ],
@@ -16473,6 +16503,13 @@
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP5.DHOLE.Corriente_Fuga",
                 "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.4.Nombre",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -16527,6 +16564,13 @@
                 "p": "Corriente_Fuga",
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP6.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.5.Nombre",
                 "tot": "global"
             }
         ],
@@ -16583,6 +16627,13 @@
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP7.DHOLE.Corriente_Fuga",
                 "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.6.Nombre",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -16638,6 +16689,13 @@
                 "pt": "msg",
                 "to": "#:(memoryOnly)::Cluster.SCP8.DHOLE.Corriente_Fuga",
                 "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.7.Nombre",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -16661,21 +16719,17 @@
         "props": [
             {
                 "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 60,
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 40,
         "wires": [
             [
                 "114c7054920f76e0",
@@ -16685,7 +16739,8 @@
                 "6fa77d5dfe9416cb",
                 "84d3de4d954c2c72",
                 "aae4ec010802f86c",
-                "baba920ec8f57f7a"
+                "baba920ec8f57f7a",
+                "c9a0d541f5a6b88a"
             ]
         ]
     },
@@ -16846,7 +16901,7 @@
         "name": "SCP",
         "label": "",
         "tooltip": "",
-        "place": "Seleccione una Tabla",
+        "place": "Seleccione un SCP",
         "group": "bcbb6e99.54feb",
         "order": 3,
         "width": "8",
@@ -17318,6 +17373,101 @@
         "wires": [
             [
                 "48a157dbed4f2a98"
+            ]
+        ]
+    },
+    {
+        "id": "a12daefc423c4bb4",
+        "type": "ui_template",
+        "z": "77e50510.f482bc",
+        "group": "29200dbc.237402",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "4",
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 720,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c18bc5dc0cb21eaa",
+        "type": "subflow:f0c3da0c.524418",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "x": 560,
+        "y": 360,
+        "wires": [
+            [
+                "a12daefc423c4bb4"
+            ]
+        ]
+    },
+    {
+        "id": "c9a0d541f5a6b88a",
+        "type": "change",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PIP",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP9.DHOLE.PIP",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Motor",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP9.DHOLE.Temperatura_Motor",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Temperatura_Entrada",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP9.DHOLE.Temperatura_Entrada",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Vibracion",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP9.DHOLE.Vibracion",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "Corriente_Fuga",
+                "pt": "msg",
+                "to": "#:(memoryOnly)::Cluster.SCP9.DHOLE.Corriente_Fuga",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "wellName",
+                "pt": "msg",
+                "to": "Cluster.8.Nombre",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 360,
+        "wires": [
+            [
+                "c18bc5dc0cb21eaa"
             ]
         ]
     }
