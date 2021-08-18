@@ -606,7 +606,9 @@
             "cf57802e.7d258"
         ],
         "x": 8,
-        "y": 13
+        "y": 13,
+        "w": 1844,
+        "h": 214
     },
     {
         "id": "3383e29e.9b29fe",
@@ -896,7 +898,9 @@
             "4a271a88.499184"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 82
     },
     {
         "id": "0124a30db1d0a4a1",
@@ -921,7 +925,9 @@
             "786f3d1e2037748a"
         ],
         "x": 14,
-        "y": 109
+        "y": 109,
+        "w": 822,
+        "h": 132
     },
     {
         "id": "3d15a76f86343f95",
@@ -945,7 +951,9 @@
             "7bc393d6d498860b"
         ],
         "x": 14,
-        "y": 249
+        "y": 249,
+        "w": 1092,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -1045,11 +1053,12 @@
             "ad47f0cc.93af5",
             "7b4bd7a0.fd9398",
             "cad3d4cb.b5bc98",
-            "ebf4df19.2cfb2",
             "1660e38d.24cefc"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -1073,11 +1082,12 @@
             "33f2aa3c.6c08f6",
             "9055a2bd.67028",
             "938193ac.02d98",
-            "ffbe710d.b4cce",
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "ae380c04.45207",
@@ -6523,6 +6533,1485 @@
         "height": 1
     },
     {
+        "id": "a00b93d2e424ac4e",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Eventos",
+        "vartable": {
+            "": {
+                "EVENTOS_P01_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P01_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P02_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P03_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P04_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P05_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P06_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P07_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P08_Arranque_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_CambioProtSobrecargaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_CambioProtSobrecarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_CambioProtSubcarga_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_CambioProtSubcarga_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_ResetRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_Reset_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_ParadaRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_Parada_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_CambioFrecuencia_Remota": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_Cambio_Frecuencia_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_Cambio_TiempoRefProlong_VIEW": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_ArranqueRemoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_P09_Arranque_VIEW": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
+        "id": "15f69da2533413eb",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Alarmas",
+        "vartable": {
+            "": {
+                "DATA_CL1_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL1_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL2_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL3_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL4_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL5_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL6_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL7_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL8_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Alarma_ArranqueCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Alarma_ArranqueLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Alarma_ParadaCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Alarma_ParadaLocal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Cambio_de_VelociReferen": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Cambio_de_VelociReferenCIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Cambio_de_Usuario": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Cambio_de_Usuario_De": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Ejecucion_de_JOG": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Ejecutando_RearranqueA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_del_PowerFlex": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Proteccion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_SobreCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_SubCargaTX": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.STOP_ESD": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Velo_Mayor_Al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Velo_Menor_al_Lim": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.BIT_Cambio_Veloc_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Presion_PIP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Presion_THP": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Temp_Motor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Temp_Entrada": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Vibracion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Corriente_Fuga": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Diferencial_Presion": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Nivel_Fluido": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.BIT_Cambio_T_RefProlong_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.BIT_Cambio_Prot_SobreCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.BIT_Cambio_Prot_SubCarga_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Disparo_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Disparo_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Control_AltoTorq_Ejecutando": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Control_BajoTorq_Ejecutand": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Control_Alto_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Control_Bajo_Torque": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Paro_ProtecTermicMotor": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Mantenimiento_Cabezal": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Proteccion_PIN": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Falla_Proteccion_PFLU": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Bit_Cambio_PwfP_CIMA": {
+                    "type": "BOOL"
+                },
+                "DATA_CL9_ALARMAS.Bit_Cambio_QoP_CIMA": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
         "id": "c8f67d0b.44558",
         "type": "ui_template",
         "z": "56041636.7e55e8",
@@ -10847,30 +12336,14 @@
         ]
     },
     {
-        "id": "ebf4df19.2cfb2",
-        "type": "link in",
-        "z": "242bc9a6.f9b016",
-        "g": "11f55817.139c18",
-        "name": "Actualizar Eventos In",
-        "links": [
-            "f7333c0a.a70d3"
-        ],
-        "x": 159,
-        "y": 160,
-        "wires": [
-            [
-                "75851744.fc50c8"
-            ]
-        ]
-    },
-    {
         "id": "1660e38d.24cefc",
         "type": "link in",
         "z": "242bc9a6.f9b016",
         "g": "11f55817.139c18",
         "name": "Eventos UI-Control",
         "links": [
-            "97407954.a004c8"
+            "97407954.a004c8",
+            "b2246adf6c10ac24"
         ],
         "x": 159,
         "y": 120,
@@ -11116,7 +12589,8 @@
         "links": [
             "4e8f42ac.3431ac",
             "c099945b.08bf98",
-            "5c324370.33dadc"
+            "5c324370.33dadc",
+            "f186c67c61d39f03"
         ],
         "x": 1265,
         "y": 80,
@@ -11154,27 +12628,11 @@
         "g": "cf57802e.7d258",
         "name": "",
         "links": [
-            "97407954.a004c8"
+            "97407954.a004c8",
+            "b2246adf6c10ac24"
         ],
         "x": 1069,
         "y": 120,
-        "wires": [
-            [
-                "d9101c40.6e85a"
-            ]
-        ]
-    },
-    {
-        "id": "ffbe710d.b4cce",
-        "type": "link in",
-        "z": "242bc9a6.f9b016",
-        "g": "cf57802e.7d258",
-        "name": "Actualizar Alarmas In",
-        "links": [
-            "f7333c0a.a70d3"
-        ],
-        "x": 1069,
-        "y": 160,
         "wires": [
             [
                 "d9101c40.6e85a"
@@ -17333,21 +18791,6 @@
         ]
     },
     {
-        "id": "a00b93d2e424ac4e",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.9",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "Eventos",
-        "vartable": {
-            "": {
-                "Eventos_ccp2_Act_ref_prol": {
-                    "type": "BOOL"
-                }
-            }
-        }
-    },
-    {
         "id": "81d9a00531554122",
         "type": "eth-ip in",
         "z": "242bc9a6.f9b016",
@@ -17357,7 +18800,7 @@
         "program": "",
         "name": "",
         "x": 90,
-        "y": 260,
+        "y": 310,
         "wires": [
             [
                 "ae1fee072e1ead94"
@@ -17369,18 +18812,18 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "Eventos",
-        "func": "var keys        = Object.keys(msg.payload);\nvar values      = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\",\"memoryOnly\")||[];\n\nfor (var i = 0; i < keys.length; i+=1){\n    if (values[i] && prevValue[i]!== values[i]){\n        msg.payload = keys[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
+        "func": "var keys        = Object.keys(msg.payload);\nvar values      = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\")||[];\n\nfor (var i = 0; i < keys.length; i+=1){\n    if (values[i] && prevValue[i]!== values[i]){\n        keys[i].replace(\"EVENTOS_\", \"_\");\n        msg.payload = keys[i];\n        msg.sts     = values[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 220,
-        "y": 260,
+        "y": 310,
         "wires": [
             [
                 "2b7f6e0d67c977a9",
-                "28505b968d51c927"
+                "b31cc01e5f203fb5"
             ]
         ]
     },
@@ -17393,193 +18836,8 @@
             "59e817c2.295b38"
         ],
         "x": 315,
-        "y": 260,
+        "y": 310,
         "wires": []
-    },
-    {
-        "id": "28505b968d51c927",
-        "type": "debug",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 350,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "62f9a221ebd17262",
-        "type": "function",
-        "z": "242bc9a6.f9b016",
-        "name": "00",
-        "func": "msg.payload={\n    Evento1:false,\n    Evento2:false,\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 230,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "dfb1536730f13a2d",
-        "type": "function",
-        "z": "242bc9a6.f9b016",
-        "name": "01",
-        "func": "msg.payload={\n    Evento1:false,\n    Evento2:true,\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 230,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "136b1d79949b95eb",
-        "type": "function",
-        "z": "242bc9a6.f9b016",
-        "name": "10",
-        "func": "msg.payload={\n    Evento1:true,\n    Evento2:false,\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 230,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4e3cc5c25012d2e8",
-        "type": "function",
-        "z": "242bc9a6.f9b016",
-        "name": "11",
-        "func": "msg.payload={\n    Evento1:true,\n    Evento2:true,\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 230,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fe44f0c1c322ba51",
-        "type": "inject",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 320,
-        "wires": [
-            [
-                "62f9a221ebd17262"
-            ]
-        ]
-    },
-    {
-        "id": "e9b8d8e44921eed3",
-        "type": "inject",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 360,
-        "wires": [
-            [
-                "dfb1536730f13a2d"
-            ]
-        ]
-    },
-    {
-        "id": "15117fa0374c1434",
-        "type": "inject",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 400,
-        "wires": [
-            [
-                "136b1d79949b95eb"
-            ]
-        ]
-    },
-    {
-        "id": "53e1b79cf96cdcce",
-        "type": "inject",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 440,
-        "wires": [
-            [
-                "4e3cc5c25012d2e8"
-            ]
-        ]
     },
     {
         "id": "4e9bd6df89d50a51",
@@ -17634,5 +18892,142 @@
                 "37c28f5e.42255"
             ]
         ]
+    },
+    {
+        "id": "b31cc01e5f203fb5",
+        "type": "ui_toast",
+        "z": "242bc9a6.f9b016",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 390,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "7e46a489ae849e44",
+        "type": "ui_ui_control",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "events": "all",
+        "x": 100,
+        "y": 260,
+        "wires": [
+            [
+                "95e52cf77ad022eb"
+            ]
+        ]
+    },
+    {
+        "id": "95e52cf77ad022eb",
+        "type": "switch",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Alarmas/Eventos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "b2246adf6c10ac24"
+            ]
+        ]
+    },
+    {
+        "id": "b2246adf6c10ac24",
+        "type": "link out",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "links": [
+            "1660e38d.24cefc",
+            "938193ac.02d98"
+        ],
+        "x": 315,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1a3e525fc4cc8535",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "Alarmas",
+        "func": "var keys        = Object.keys(msg.payload);\nvar values      = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\")||[];\n\nfor (var i = 0; i < keys.length; i+=1){\n    if (values[i] && prevValue[i]!== values[i]){\n        keys[i].replace(\"_ALARMAS\", \"_\");\n        msg.payload = keys[i];\n        msg.sts     = values[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 310,
+        "wires": [
+            [
+                "f186c67c61d39f03",
+                "4c484c2d483f7af7"
+            ]
+        ]
+    },
+    {
+        "id": "7593c87c33252c16",
+        "type": "eth-ip in",
+        "z": "242bc9a6.f9b016",
+        "endpoint": "15f69da2533413eb",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "",
+        "x": 550,
+        "y": 310,
+        "wires": [
+            [
+                "1a3e525fc4cc8535"
+            ]
+        ]
+    },
+    {
+        "id": "f186c67c61d39f03",
+        "type": "link out",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "links": [
+            "33f2aa3c.6c08f6"
+        ],
+        "x": 785,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "4c484c2d483f7af7",
+        "type": "ui_toast",
+        "z": "242bc9a6.f9b016",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 860,
+        "y": 350,
+        "wires": []
     }
 ]
