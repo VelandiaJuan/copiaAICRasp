@@ -515,9 +515,7 @@
             "e2dddcc8.8c593"
         ],
         "x": 24,
-        "y": 9,
-        "w": 722,
-        "h": 122
+        "y": 9
     },
     {
         "id": "cf7122b5.0b85",
@@ -569,13 +567,10 @@
             "8bcc662.c733998",
             "e3f6b9e9.f54018",
             "6f42bb08.a21f74",
-            "51e191bb.59c8a",
-            "0499c7e4d07ef89e"
+            "51e191bb.59c8a"
         ],
         "x": 64,
-        "y": 19,
-        "w": 682,
-        "h": 1012
+        "y": 19
     },
     {
         "id": "2f18e23b.de32ce",
@@ -595,9 +590,7 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 28,
-        "y": 403,
-        "w": 714,
-        "h": 354
+        "y": 403
     },
     {
         "id": "7b6f4b41.106164",
@@ -704,9 +697,7 @@
             "c4b00d9d.c758e"
         ],
         "x": 24,
-        "y": 139,
-        "w": 832,
-        "h": 82
+        "y": 139
     },
     {
         "id": "89dd768a.673f58",
@@ -732,9 +723,7 @@
             "35696a34.d09d86"
         ],
         "x": 24,
-        "y": 229,
-        "w": 822,
-        "h": 162
+        "y": 229
     },
     {
         "id": "a0798509.56f3c8",
@@ -1032,9 +1021,7 @@
             "43030a29.bfdeb4"
         ],
         "x": 54,
-        "y": 429,
-        "w": 512,
-        "h": 122
+        "y": 429
     },
     {
         "id": "11f55817.139c18",
@@ -1167,9 +1154,7 @@
             "35e356e7.8ebc5a"
         ],
         "x": 64,
-        "y": 569,
-        "w": 652,
-        "h": 162
+        "y": 569
     },
     {
         "id": "a80677cf.4274c8",
@@ -9991,7 +9976,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 630,
+        "x": 860,
         "y": 30,
         "wires": [
             []
@@ -10014,47 +9999,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 90,
-        "y": 30,
-        "wires": [
-            [
-                "d7282fd.8390ed",
-                "3da80ba8.9da024",
-                "25c5df2a.68262"
-            ]
-        ]
-    },
-    {
-        "id": "d7282fd.8390ed",
-        "type": "random",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "low": "70",
-        "high": "100",
-        "inte": "true",
-        "property": "payload",
-        "x": 270,
-        "y": 30,
-        "wires": [
-            [
-                "4caf387a.1620e8"
-            ]
-        ]
-    },
-    {
-        "id": "3da80ba8.9da024",
-        "type": "random",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "low": "30",
-        "high": "60",
-        "inte": "true",
-        "property": "payload",
-        "x": 270,
+        "x": 170,
         "y": 70,
         "wires": [
             [
-                "37c28f5e.42255"
+                "25c5df2a.68262"
             ]
         ]
     },
@@ -10077,7 +10026,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
+        "x": 660,
         "y": 30,
         "wires": [
             [
@@ -10104,7 +10053,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
+        "x": 660,
         "y": 70,
         "wires": [
             [
@@ -10121,9 +10070,9 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    \n                                    <li class=\"list-group-item\">{{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">{{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://aic.local:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n    \n                                    <li class=\"list-group-item\">PIT: {{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">PIZIT: {{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://aic.local:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
-        "x": 440,
+        "x": 470,
         "y": 110,
         "wires": [
             [
@@ -10699,7 +10648,8 @@
         "name": "Eventos",
         "links": [
             "6d40adaa.11d2c4",
-            "88c1a42d.f4a528"
+            "88c1a42d.f4a528",
+            "2b7f6e0d67c977a9"
         ],
         "x": 365,
         "y": 80,
@@ -15000,18 +14950,20 @@
         "id": "25c5df2a.68262",
         "type": "function",
         "z": "f10e7ce.d57828",
-        "name": "Random",
-        "func": "var INST_MNF     = global.get(\"Cluster.INST_MNF\",\"memoryOnly\")||[];\nmsg.PIT     = (INST_MNF.PIT_Presion).toFixed(2);\n\nmsg.PIZIT   = (INST_MNF.FIT_Flujo).toFixed(2);\n\nreturn msg;",
+        "name": "Data",
+        "func": "var INST_MNF     = global.get(\"Cluster.INST_MNF\",\"memoryOnly\")||[];\nmsg.PIT     = (INST_MNF.PIT_Presion).toFixed(2);\nmsg.PIZIT   = (INST_MNF.FIT_Flujo).toFixed(2);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 270,
-        "y": 110,
+        "x": 290,
+        "y": 70,
         "wires": [
             [
-                "72d828d9.a75c08"
+                "72d828d9.a75c08",
+                "91814640d5b07307",
+                "4e9bd6df89d50a51"
             ]
         ]
     },
@@ -15526,8 +15478,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 280,
+        "x": 580,
+        "y": 150,
         "wires": [
             []
         ]
@@ -15551,8 +15503,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 320,
+        "x": 580,
+        "y": 190,
         "wires": [
             []
         ]
@@ -15576,8 +15528,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 360,
+        "x": 580,
+        "y": 230,
         "wires": [
             []
         ]
@@ -15601,8 +15553,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 400,
+        "x": 580,
+        "y": 270,
         "wires": [
             []
         ]
@@ -15626,8 +15578,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 460,
+        "x": 580,
+        "y": 320,
         "wires": [
             []
         ]
@@ -15651,8 +15603,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 500,
+        "x": 580,
+        "y": 360,
         "wires": [
             []
         ]
@@ -15676,8 +15628,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 540,
+        "x": 580,
+        "y": 400,
         "wires": [
             []
         ]
@@ -15701,8 +15653,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 580,
+        "x": 580,
+        "y": 440,
         "wires": [
             []
         ]
@@ -17378,6 +17330,309 @@
         "y": 150,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "a00b93d2e424ac4e",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.9",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Eventos",
+        "vartable": {
+            "": {
+                "Eventos_ccp2_Act_ref_prol": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
+        "id": "81d9a00531554122",
+        "type": "eth-ip in",
+        "z": "242bc9a6.f9b016",
+        "endpoint": "a00b93d2e424ac4e",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "",
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "ae1fee072e1ead94"
+            ]
+        ]
+    },
+    {
+        "id": "ae1fee072e1ead94",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "Eventos",
+        "func": "var keys        = Object.keys(msg.payload);\nvar values      = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\",\"memoryOnly\")||[];\n\nfor (var i = 0; i < keys.length; i+=1){\n    if (values[i] && prevValue[i]!== values[i]){\n        msg.payload = keys[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 260,
+        "wires": [
+            [
+                "2b7f6e0d67c977a9",
+                "28505b968d51c927"
+            ]
+        ]
+    },
+    {
+        "id": "2b7f6e0d67c977a9",
+        "type": "link out",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "links": [
+            "59e817c2.295b38"
+        ],
+        "x": 315,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "28505b968d51c927",
+        "type": "debug",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "62f9a221ebd17262",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "00",
+        "func": "msg.payload={\n    Evento1:false,\n    Evento2:false,\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dfb1536730f13a2d",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "01",
+        "func": "msg.payload={\n    Evento1:false,\n    Evento2:true,\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "136b1d79949b95eb",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "10",
+        "func": "msg.payload={\n    Evento1:true,\n    Evento2:false,\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e3cc5c25012d2e8",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "11",
+        "func": "msg.payload={\n    Evento1:true,\n    Evento2:true,\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe44f0c1c322ba51",
+        "type": "inject",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 320,
+        "wires": [
+            [
+                "62f9a221ebd17262"
+            ]
+        ]
+    },
+    {
+        "id": "e9b8d8e44921eed3",
+        "type": "inject",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "dfb1536730f13a2d"
+            ]
+        ]
+    },
+    {
+        "id": "15117fa0374c1434",
+        "type": "inject",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "136b1d79949b95eb"
+            ]
+        ]
+    },
+    {
+        "id": "53e1b79cf96cdcce",
+        "type": "inject",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "4e3cc5c25012d2e8"
+            ]
+        ]
+    },
+    {
+        "id": "4e9bd6df89d50a51",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "PIT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PIT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 30,
+        "wires": [
+            [
+                "4caf387a.1620e8"
+            ]
+        ]
+    },
+    {
+        "id": "91814640d5b07307",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "PIZIT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PIZIT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 70,
+        "wires": [
+            [
+                "37c28f5e.42255"
+            ]
         ]
     }
 ]
