@@ -422,7 +422,9 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13
+        "y": 13,
+        "w": 1324,
+        "h": 810
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -976,7 +978,9 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243
+        "y": 243,
+        "w": 928,
+        "h": 554
     },
     {
         "id": "eb91dac5.690838",
@@ -1005,7 +1009,9 @@
             "5a12c1a2.71ef8"
         ],
         "x": 154,
-        "y": 39
+        "y": 39,
+        "w": 1272,
+        "h": 192
     },
     {
         "id": "b710a90e.0dd388",
@@ -1183,7 +1189,9 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649
+        "y": 649,
+        "w": 242,
+        "h": 122
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -1202,7 +1210,9 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269
+        "y": 269,
+        "w": 173,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -1222,7 +1232,9 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479
+        "y": 479,
+        "w": 372,
+        "h": 162
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -8007,6 +8019,21 @@
                 },
                 "DATA_CL9_ALARMAS.Bit_Cambio_QoP_CIMA": {
                     "type": "BOOL"
+                },
+                "CSUR_CL001_110_PZIT_101.AlmHH": {
+                    "type": "BOOL"
+                },
+                "CSUR_CL001_110_PZIT_101.AlmH": {
+                    "type": "BOOL"
+                },
+                "CSUR_CL001_110_PZIT_101.AlmL": {
+                    "type": "BOOL"
+                },
+                "CSUR_CL001_110_PZIT_101.AlmLL": {
+                    "type": "BOOL"
+                },
+                "Parada_Pozos_ESD_LL": {
+                    "type": "BOOL"
                 }
             }
         }
@@ -9213,7 +9240,8 @@
         "g": "f3c2e7cf.5ed158",
         "name": "Acciones de usuario",
         "links": [
-            "ad87cee4.7dbb5"
+            "ad87cee4.7dbb5",
+            "b2a2301fc5885db4"
         ],
         "x": 585,
         "y": 510,
@@ -19028,6 +19056,43 @@
         "name": "",
         "x": 860,
         "y": 350,
+        "wires": []
+    },
+    {
+        "id": "84e4bd271a6b09f0",
+        "type": "inject",
+        "z": "827787d0.ede678",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 210,
+        "y": 970,
+        "wires": [
+            [
+                "b2a2301fc5885db4"
+            ]
+        ]
+    },
+    {
+        "id": "b2a2301fc5885db4",
+        "type": "link out",
+        "z": "827787d0.ede678",
+        "name": "",
+        "links": [
+            "fbd8c1e9.7d493"
+        ],
+        "x": 295,
+        "y": 970,
         "wires": []
     }
 ]
