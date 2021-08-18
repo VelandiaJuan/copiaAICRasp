@@ -10488,6 +10488,11 @@
                 "color": "red",
                 "value": "1",
                 "valueType": "num"
+            },
+            {
+                "color": "yellow",
+                "value": "2",
+                "valueType": "num"
             }
         ],
         "allowColorForValueInMessage": false,
@@ -11124,7 +11129,7 @@
         "type": "function",
         "z": "93634831.aed548",
         "name": "",
-        "func": "var CCP         = global.get(\"CCP\",\"memoryOnly\")||[];\nmsg.Tension     = CCP.UPS_Bateria_Voltaje; \nmsg.Carga       = CCP.UPS_Bateria_Porc_Carga; \nmsg.TReman      = CCP.UPS_Bateria_Tiempo_Reman; \non_off          = CCP.UPS_Bateria_Tiempo_Reman; \nUPS_Falla       = CCP.UPS_Falla; \n\nvar msg1        = { payload: on_off};\nvar msg2        = { payload: UPS_Falla};\nreturn [msg,msg1,msg2];",
+        "func": "var CCP         = global.get(\"CCP\",\"memoryOnly\")||[];\nmsg.Tension     = CCP.UPS_Bateria_Voltaje; \nmsg.Carga       = CCP.UPS_Bateria_Porc_Carga; \nmsg.TReman      = CCP.UPS_Bateria_Tiempo_Reman; \nvar on_off          = CCP.UPS_Bateria_Tiempo_Reman; \nvar UPS_Falla       = CCP.UPS_Falla; \n\nvar msg1        = { payload: on_off};\nvar msg2        = { payload: UPS_Falla};\nreturn [msg,msg1,msg2];",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
@@ -16753,10 +16758,10 @@
                 "3e7176c02d57fe4b",
                 "96ada6f2934db373",
                 "698edc58289bb46b",
-                "e744df7b746f640f",
                 "4fffcddd14dcf8ba",
                 "1b0193143db63bd0",
-                "ff105a49c624aed7"
+                "ff105a49c624aed7",
+                "69711da5e2395d69"
             ]
         ]
     },
@@ -19309,7 +19314,7 @@
         ]
     },
     {
-        "id": "e744df7b746f640f",
+        "id": "69711da5e2395d69",
         "type": "change",
         "z": "f10e7ce.d57828",
         "name": "",
@@ -19333,6 +19338,750 @@
             [
                 "5893c294.3213dc"
             ]
+        ]
+    },
+    {
+        "id": "76f6d47190d67f95",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 360,
+        "y": 690,
+        "wires": [
+            [
+                "224439b7.e88da6"
+            ]
+        ]
+    },
+    {
+        "id": "97ed45b8b8dab0c5",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 360,
+        "y": 730,
+        "wires": [
+            [
+                "224439b7.e88da6"
+            ]
+        ]
+    },
+    {
+        "id": "53f72ad97fea8ef5",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 360,
+        "y": 770,
+        "wires": [
+            [
+                "224439b7.e88da6"
+            ]
+        ]
+    },
+    {
+        "id": "3f6a3b162d8e1c1a",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 360,
+        "y": 820,
+        "wires": [
+            [
+                "7688fc6a.4a83a4"
+            ]
+        ]
+    },
+    {
+        "id": "d25618b5f240648d",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 360,
+        "y": 860,
+        "wires": [
+            [
+                "7688fc6a.4a83a4"
+            ]
+        ]
+    },
+    {
+        "id": "4c3d7e952177bc4d",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 360,
+        "y": 900,
+        "wires": [
+            [
+                "7688fc6a.4a83a4"
+            ]
+        ]
+    },
+    {
+        "id": "aaa8d3fac9b306e9",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 360,
+        "y": 950,
+        "wires": [
+            [
+                "2a6e31cf.58775e"
+            ]
+        ]
+    },
+    {
+        "id": "a6c7bd64bf55a365",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 360,
+        "y": 990,
+        "wires": [
+            [
+                "2a6e31cf.58775e"
+            ]
+        ]
+    },
+    {
+        "id": "c3c3a99a013fd062",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 360,
+        "y": 1030,
+        "wires": [
+            [
+                "2a6e31cf.58775e"
+            ]
+        ]
+    },
+    {
+        "id": "a906b474293a0927",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 780,
+        "y": 690,
+        "wires": [
+            [
+                "cfe72ee3.ef8ad"
+            ]
+        ]
+    },
+    {
+        "id": "6b9c315d1ac8e819",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 780,
+        "y": 730,
+        "wires": [
+            [
+                "cfe72ee3.ef8ad"
+            ]
+        ]
+    },
+    {
+        "id": "fcf4047119c4a62a",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 780,
+        "y": 770,
+        "wires": [
+            [
+                "cfe72ee3.ef8ad"
+            ]
+        ]
+    },
+    {
+        "id": "68b084c43ebcc1de",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 780,
+        "y": 820,
+        "wires": [
+            [
+                "9f8a1bfe.76d598"
+            ]
+        ]
+    },
+    {
+        "id": "b15cdb3f2deea15b",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 780,
+        "y": 860,
+        "wires": [
+            [
+                "9f8a1bfe.76d598"
+            ]
+        ]
+    },
+    {
+        "id": "b92923e9f05cb1dd",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 780,
+        "y": 900,
+        "wires": [
+            [
+                "9f8a1bfe.76d598"
+            ]
+        ]
+    },
+    {
+        "id": "fab7d5841aa9d7ff",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 780,
+        "y": 950,
+        "wires": [
+            [
+                "11c83a9a.542825"
+            ]
+        ]
+    },
+    {
+        "id": "43a78bfd6d18e4c6",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 780,
+        "y": 990,
+        "wires": [
+            [
+                "11c83a9a.542825"
+            ]
+        ]
+    },
+    {
+        "id": "80b20777f9d4b8b7",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 780,
+        "y": 1030,
+        "wires": [
+            [
+                "11c83a9a.542825"
+            ]
+        ]
+    },
+    {
+        "id": "50fe4ece36333a63",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 360,
+        "y": 1080,
+        "wires": [
+            [
+                "32fad925.551816"
+            ]
+        ]
+    },
+    {
+        "id": "d481432fd5de2622",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 360,
+        "y": 1120,
+        "wires": [
+            [
+                "32fad925.551816"
+            ]
+        ]
+    },
+    {
+        "id": "1acd6c4f42c33a71",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 360,
+        "y": 1160,
+        "wires": [
+            [
+                "32fad925.551816"
+            ]
+        ]
+    },
+    {
+        "id": "a722a1e49aa924b3",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 590,
+        "y": 690,
+        "wires": [
+            [
+                "da544bac.502c68"
+            ]
+        ]
+    },
+    {
+        "id": "329f35f8c860073b",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 590,
+        "y": 730,
+        "wires": [
+            [
+                "da544bac.502c68"
+            ]
+        ]
+    },
+    {
+        "id": "f81028b43a05a653",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 590,
+        "y": 770,
+        "wires": [
+            [
+                "da544bac.502c68"
+            ]
+        ]
+    },
+    {
+        "id": "814cc0b5bae30113",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 590,
+        "y": 820,
+        "wires": [
+            [
+                "2c30ffb2.e51b7"
+            ]
+        ]
+    },
+    {
+        "id": "c02538097520e867",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 590,
+        "y": 860,
+        "wires": [
+            [
+                "2c30ffb2.e51b7"
+            ]
+        ]
+    },
+    {
+        "id": "591716298bf2aa1b",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 590,
+        "y": 900,
+        "wires": [
+            [
+                "2c30ffb2.e51b7"
+            ]
+        ]
+    },
+    {
+        "id": "e7fa387471427bb1",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 590,
+        "y": 950,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0228e74eb588531a",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 590,
+        "y": 990,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8108c75c337c0259",
+        "type": "inject",
+        "z": "93634831.aed548",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 590,
+        "y": 1030,
+        "wires": [
+            []
         ]
     }
 ]
