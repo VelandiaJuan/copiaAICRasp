@@ -606,9 +606,7 @@
             "cf57802e.7d258"
         ],
         "x": 8,
-        "y": 13,
-        "w": 1844,
-        "h": 214
+        "y": 13
     },
     {
         "id": "3383e29e.9b29fe",
@@ -1051,9 +1049,7 @@
             "1660e38d.24cefc"
         ],
         "x": 34,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -1081,9 +1077,7 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "ae380c04.45207",
@@ -9997,7 +9991,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 630,
+        "x": 860,
         "y": 30,
         "wires": [
             []
@@ -10020,47 +10014,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 90,
-        "y": 30,
-        "wires": [
-            [
-                "d7282fd.8390ed",
-                "3da80ba8.9da024",
-                "25c5df2a.68262"
-            ]
-        ]
-    },
-    {
-        "id": "d7282fd.8390ed",
-        "type": "random",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "low": "70",
-        "high": "100",
-        "inte": "true",
-        "property": "payload",
-        "x": 270,
-        "y": 30,
-        "wires": [
-            [
-                "4caf387a.1620e8"
-            ]
-        ]
-    },
-    {
-        "id": "3da80ba8.9da024",
-        "type": "random",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "low": "30",
-        "high": "60",
-        "inte": "true",
-        "property": "payload",
-        "x": 270,
+        "x": 170,
         "y": 70,
         "wires": [
             [
-                "37c28f5e.42255"
+                "25c5df2a.68262"
             ]
         ]
     },
@@ -10083,7 +10041,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
+        "x": 660,
         "y": 30,
         "wires": [
             [
@@ -10110,7 +10068,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
+        "x": 660,
         "y": 70,
         "wires": [
             [
@@ -10127,9 +10085,9 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n                                    \n                                    <li class=\"list-group-item\">{{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">{{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://aic.local:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container mt-2\">\n            <div class=\"row\">\n                <div class=\"col\">\n                    <div class=\"row\">\n                        <div class=\"col\">\n                            <div class=\"card\">\n                                <ul class=\"list-group list-group-flush\">\n    \n                                    <li class=\"list-group-item\">PIT: {{PIT}} <strong>psi</strong></li>\n                                    \n                                    <li class=\"list-group-item\">PIZIT: {{PIZIT}} <strong>psi</strong></li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n                    {{!--<div class=\"row\">\n                        <div class=\"col mt-3\">\n                            <div class=\"alert alert-warning\" role=\"alert\">\n                                Instrumentación medidor másico <strong>no disponible</strong>!\n                            </div>\n                        </div>\n                    </div>--}}\n                </div>\n  {{!--              <div class=\"col\">\n                    <img src=\"http://aic.local:1880/swcpro-images/Manifold4.PNG\" class=\"img-fluid\" alt=\"Responsive image\">\n                </div>--}}\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n\n    \n    </body>\n</html>",
         "output": "str",
-        "x": 440,
+        "x": 470,
         "y": 110,
         "wires": [
             [
@@ -15007,18 +14965,20 @@
         "id": "25c5df2a.68262",
         "type": "function",
         "z": "f10e7ce.d57828",
-        "name": "Random",
-        "func": "var INST_MNF     = global.get(\"Cluster.INST_MNF\",\"memoryOnly\")||[];\nmsg.PIT     = (INST_MNF.PIT_Presion).toFixed(2);\n\nmsg.PIZIT   = (INST_MNF.FIT_Flujo).toFixed(2);\n\nreturn msg;",
+        "name": "Data",
+        "func": "var INST_MNF     = global.get(\"Cluster.INST_MNF\",\"memoryOnly\")||[];\nmsg.PIT     = (INST_MNF.PIT_Presion).toFixed(2);\nmsg.PIZIT   = (INST_MNF.FIT_Flujo).toFixed(2);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 270,
-        "y": 110,
+        "x": 290,
+        "y": 70,
         "wires": [
             [
-                "72d828d9.a75c08"
+                "72d828d9.a75c08",
+                "91814640d5b07307",
+                "4e9bd6df89d50a51"
             ]
         ]
     },
@@ -15533,8 +15493,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 280,
+        "x": 580,
+        "y": 150,
         "wires": [
             []
         ]
@@ -15558,8 +15518,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 320,
+        "x": 580,
+        "y": 190,
         "wires": [
             []
         ]
@@ -15583,8 +15543,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 360,
+        "x": 580,
+        "y": 230,
         "wires": [
             []
         ]
@@ -15608,8 +15568,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 400,
+        "x": 580,
+        "y": 270,
         "wires": [
             []
         ]
@@ -15633,8 +15593,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 460,
+        "x": 580,
+        "y": 320,
         "wires": [
             []
         ]
@@ -15658,8 +15618,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 500,
+        "x": 580,
+        "y": 360,
         "wires": [
             []
         ]
@@ -15683,8 +15643,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 540,
+        "x": 580,
+        "y": 400,
         "wires": [
             []
         ]
@@ -15708,8 +15668,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 580,
+        "x": 580,
+        "y": 440,
         "wires": [
             []
         ]
@@ -17537,6 +17497,60 @@
         "wires": [
             [
                 "4e3cc5c25012d2e8"
+            ]
+        ]
+    },
+    {
+        "id": "4e9bd6df89d50a51",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "PIT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PIT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 30,
+        "wires": [
+            [
+                "4caf387a.1620e8"
+            ]
+        ]
+    },
+    {
+        "id": "91814640d5b07307",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "PIZIT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PIZIT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 70,
+        "wires": [
+            [
+                "37c28f5e.42255"
             ]
         ]
     }
