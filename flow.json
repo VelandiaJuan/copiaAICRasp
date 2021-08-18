@@ -422,9 +422,7 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13,
-        "w": 1324,
-        "h": 810
+        "y": 13
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -517,7 +515,9 @@
             "e2dddcc8.8c593"
         ],
         "x": 24,
-        "y": 9
+        "y": 9,
+        "w": 722,
+        "h": 122
     },
     {
         "id": "cf7122b5.0b85",
@@ -572,7 +572,9 @@
             "51e191bb.59c8a"
         ],
         "x": 64,
-        "y": 19
+        "y": 19,
+        "w": 682,
+        "h": 962
     },
     {
         "id": "2f18e23b.de32ce",
@@ -592,7 +594,9 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 28,
-        "y": 403
+        "y": 403,
+        "w": 714,
+        "h": 354
     },
     {
         "id": "7b6f4b41.106164",
@@ -701,7 +705,9 @@
             "c4b00d9d.c758e"
         ],
         "x": 24,
-        "y": 139
+        "y": 139,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "89dd768a.673f58",
@@ -727,7 +733,9 @@
             "35696a34.d09d86"
         ],
         "x": 24,
-        "y": 229
+        "y": 229,
+        "w": 822,
+        "h": 162
     },
     {
         "id": "a0798509.56f3c8",
@@ -900,9 +908,7 @@
             "4a271a88.499184"
         ],
         "x": 14,
-        "y": 19,
-        "w": 752,
-        "h": 82
+        "y": 19
     },
     {
         "id": "0124a30db1d0a4a1",
@@ -927,9 +933,7 @@
             "786f3d1e2037748a"
         ],
         "x": 14,
-        "y": 109,
-        "w": 822,
-        "h": 132
+        "y": 109
     },
     {
         "id": "3d15a76f86343f95",
@@ -953,9 +957,7 @@
             "7bc393d6d498860b"
         ],
         "x": 14,
-        "y": 249,
-        "w": 1092,
-        "h": 162
+        "y": 249
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -978,9 +980,7 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243,
-        "w": 928,
-        "h": 554
+        "y": 243
     },
     {
         "id": "eb91dac5.690838",
@@ -1009,9 +1009,7 @@
             "5a12c1a2.71ef8"
         ],
         "x": 154,
-        "y": 39,
-        "w": 1272,
-        "h": 192
+        "y": 39
     },
     {
         "id": "b710a90e.0dd388",
@@ -1035,7 +1033,9 @@
             "43030a29.bfdeb4"
         ],
         "x": 54,
-        "y": 429
+        "y": 429,
+        "w": 512,
+        "h": 122
     },
     {
         "id": "11f55817.139c18",
@@ -1170,7 +1170,9 @@
             "35e356e7.8ebc5a"
         ],
         "x": 64,
-        "y": 569
+        "y": 569,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "a80677cf.4274c8",
@@ -1189,9 +1191,7 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649,
-        "w": 242,
-        "h": 122
+        "y": 649
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -1210,9 +1210,7 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269,
-        "w": 173,
-        "h": 202
+        "y": 269
     },
     {
         "id": "be55ea76.ed4478",
@@ -1232,9 +1230,7 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479,
-        "w": 372,
-        "h": 162
+        "y": 479
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -13591,7 +13587,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_L2\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_L3\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_L3\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Corriente L1:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L1\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L2\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L3\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Potencia L1:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L1\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L2\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L3\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L_N_Pro\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L-L:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L_L_Pro\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente:</td>\n                        <td><div ng-bind-html=\"msg.Amp_Pro\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Frecuencia:</td>\n                        <td><div ng-bind-html=\"msg.FP_Pro\"></div></td>\n                        <td><strong>Hz</strong></td>\n                    </tr>\n                    <tr>\n                        <td>THD-I:</td>\n                        <td><div ng-bind-html=\"msg.THD_I_Pro\"></div></td>\n                        <td><strong>%</strong></td>\n                    </tr>\n                    <tr>\n                        <td>THD-V</td>\n                        <td><div ng-bind-html=\"msg.THD_V_Pro\"></div></td>\n                        <td><strong>%</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>    \n        <div class=\"col\">    \n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Real</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_Pro\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>P. Activa</td>\n                        <td><div ng-bind-html=\"msg.KVA_Act_Pro\"></div></td>\n                        <td><strong>KVA</strong></td>\n                    </tr>    \n                    <tr>    \n                        <td>P. Reactiva</td>\n                        <td><div ng-bind-html=\"msg.KVAr_Act_Pro\"></div></td>\n                        <td><strong>KVAR</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col\">    \n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Cos ⏀</td>\n                        <td><div ng-bind-html=\"msg.FP_Pro\"></div></td>\n                        <td><strong></strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
+        "template": "<div class=\"container\">\n    <div class=\"row\">\n        <!-- Primera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L3-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_N\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Segunda columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n\n                <tbody>\n                    <tr>\n                        <td>Tensión L1-L2:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_L2\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L2-L3:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L2_L3\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L1-L3:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L1_L3\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Tercera columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Corriente L1:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L1\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L2:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L2\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente L3:</td>\n                        <td><div ng-bind-html=\"msg.Amp_L3\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <!-- Cuarta columna -->\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Potencia L1:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L1\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L2:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L2\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Potencia L3:</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_L3\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    <!-- Segunda fila -->\n    <div class=\"row\">\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Tensión L-N:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L_N_Pro\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Tensión L-L:</td>\n                        <td><div ng-bind-html=\"msg.Voltaje_L_L_Pro\"></div></td>\n                        <td><strong>V</strong></td>\n                    </tr>\n                    <tr>\n                        <td>Corriente:</td>\n                        <td><div ng-bind-html=\"msg.Amp_Pro\"></div></td>\n                        <td><strong>A</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col\">\n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Frecuencia:</td>\n                        <td><div ng-bind-html=\"msg.Hz_Act_Pro\"></div></td>\n                        <td><strong>Hz</strong></td>\n                    </tr>\n                    <tr>\n                        <td>THD-I:</td>\n                        <td><div ng-bind-html=\"msg.THD_I_Pro\"></div></td>\n                        <td><strong>%</strong></td>\n                    </tr>\n                    <tr>\n                        <td>THD-V</td>\n                        <td><div ng-bind-html=\"msg.THD_V_Pro\"></div></td>\n                        <td><strong>%</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>    \n        <div class=\"col\">    \n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>P. Real</td>\n                        <td><div ng-bind-html=\"msg.KWATT_Act_Pro\"></div></td>\n                        <td><strong>Kw</strong></td>\n                    </tr>\n                    <tr>\n                        <td>P. Activa</td>\n                        <td><div ng-bind-html=\"msg.KVA_Act_Pro\"></div></td>\n                        <td><strong>KVA</strong></td>\n                    </tr>    \n                    <tr>    \n                        <td>P. Reactiva</td>\n                        <td><div ng-bind-html=\"msg.KVAr_Act_Pro\"></div></td>\n                        <td><strong>KVAR</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n        <div class=\"col\">    \n            <table class=\"table table-sm table-striped\">\n                <tbody>\n                    <tr>\n                        <td>Cos ⏀</td>\n                        <td><div ng-bind-html=\"msg.FP_Pro\"></div></td>\n                        <td><strong></strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
         "x": 990,
         "y": 60,
@@ -13766,7 +13762,7 @@
         "z": "e997ba3b.48cc18",
         "g": "222c08a.f1e28f8",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Frecuencia          = (Cluster[\"SCP\"+(SCP)].VSD.Frecuencia).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\n\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n// Extraser nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Frecuencia          = (Cluster[\"SCP\"+(SCP)].VSD.Frecuencia).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16464,13 +16460,13 @@
         "order": 2,
         "width": "4",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
         "delay": 300,
         "topic": "",
         "topicType": "str",
-        "x": 170,
-        "y": 280,
+        "x": 580,
+        "y": 190,
         "wires": [
             [
                 "1388e106.75d21f"
@@ -16488,16 +16484,16 @@
         "order": 4,
         "width": "4",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
         "delay": 300,
         "topic": "",
         "topicType": "str",
-        "x": 170,
-        "y": 320,
+        "x": 580,
+        "y": 230,
         "wires": [
             [
-                "8ceab0f0.39ee4"
+                "dc26c04555c849e9"
             ]
         ]
     },
@@ -16512,16 +16508,16 @@
         "order": 8,
         "width": "4",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
         "delay": 300,
         "topic": "",
         "topicType": "str",
-        "x": 170,
-        "y": 360,
+        "x": 580,
+        "y": 270,
         "wires": [
             [
-                "71fdaca0.0629f4"
+                "ec32e13194609ef9"
             ]
         ]
     },
@@ -16536,16 +16532,16 @@
         "order": 6,
         "width": "4",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "mode": "number",
         "delay": 300,
         "topic": "",
         "topicType": "str",
-        "x": 170,
-        "y": 400,
+        "x": 580,
+        "y": 310,
         "wires": [
             [
-                "8c0f7a27.d809a8"
+                "41deb6b1c279c3b9"
             ]
         ]
     },
@@ -16574,11 +16570,11 @@
         "officon": "",
         "offcolor": "",
         "animate": true,
-        "x": 150,
-        "y": 460,
+        "x": 600,
+        "y": 350,
         "wires": [
             [
-                "9c094ff7.666ed"
+                "24d9e3e264824528"
             ]
         ]
     },
@@ -16607,11 +16603,11 @@
         "officon": "",
         "offcolor": "",
         "animate": true,
-        "x": 150,
-        "y": 500,
+        "x": 600,
+        "y": 400,
         "wires": [
             [
-                "d9251992.6d23a8"
+                "2e4ab688aee27693"
             ]
         ]
     },
@@ -16619,8 +16615,8 @@
         "id": "8b190b36.c8b5b8",
         "type": "ui_switch",
         "z": "f10e7ce.d57828",
-        "name": "",
-        "label": "Hab. L",
+        "name": "Habilitar L",
+        "label": "Habilitar",
         "tooltip": "",
         "group": "f70aaec9.581ea",
         "order": 7,
@@ -16640,11 +16636,11 @@
         "officon": "",
         "offcolor": "",
         "animate": true,
-        "x": 150,
-        "y": 540,
+        "x": 600,
+        "y": 450,
         "wires": [
             [
-                "22f97ed0.871a92"
+                "63eec3feebb8bcb6"
             ]
         ]
     },
@@ -16652,8 +16648,8 @@
         "id": "3361a564.d48dfa",
         "type": "ui_switch",
         "z": "f10e7ce.d57828",
-        "name": "",
-        "label": "Hab. LL",
+        "name": "Habilitar LL",
+        "label": "Habilitar",
         "tooltip": "",
         "group": "f70aaec9.581ea",
         "order": 5,
@@ -16673,11 +16669,11 @@
         "officon": "",
         "offcolor": "",
         "animate": true,
-        "x": 150,
-        "y": 580,
+        "x": 600,
+        "y": 500,
         "wires": [
             [
-                "173235da.c52c8a"
+                "d290c31a9897c8de"
             ]
         ]
     },
@@ -16699,10 +16695,12 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 160,
-        "y": 630,
+        "x": 570,
+        "y": 550,
         "wires": [
-            []
+            [
+                "cc948320a076185b"
+            ]
         ]
     },
     {
@@ -16724,7 +16722,7 @@
         "payloadType": "str",
         "topic": "",
         "x": 490,
-        "y": 630,
+        "y": 790,
         "wires": [
             []
         ]
@@ -16747,10 +16745,19 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 310,
-        "y": 630,
+        "x": 210,
+        "y": 190,
         "wires": [
-            []
+            [
+                "af7b84cbace278b1",
+                "3e7176c02d57fe4b",
+                "96ada6f2934db373",
+                "698edc58289bb46b",
+                "e744df7b746f640f",
+                "4fffcddd14dcf8ba",
+                "1b0193143db63bd0",
+                "ff105a49c624aed7"
+            ]
         ]
     },
     {
@@ -16943,206 +16950,6 @@
                 "be4a90f3.ab244",
                 "559b8847.1b9b48"
             ]
-        ]
-    },
-    {
-        "id": "1388e106.75d21f",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 150,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8ceab0f0.39ee4",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "71fdaca0.0629f4",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 230,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8c0f7a27.d809a8",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 270,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9c094ff7.666ed",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d9251992.6d23a8",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "22f97ed0.871a92",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "173235da.c52c8a",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 440,
-        "wires": [
-            []
         ]
     },
     {
@@ -19094,5 +18901,438 @@
         "x": 295,
         "y": 970,
         "wires": []
+    },
+    {
+        "id": "1388e106.75d21f",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.HH",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc26c04555c849e9",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.H",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 230,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec32e13194609ef9",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.L",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 270,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41deb6b1c279c3b9",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.LL",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 310,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24d9e3e264824528",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.Enable.HH",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 350,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e4ab688aee27693",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.Enable.H",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63eec3feebb8bcb6",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.Enable.L",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 450,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d290c31a9897c8de",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Manifold.Enable.LL",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "af7b84cbace278b1",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.HH",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 190,
+        "wires": [
+            [
+                "df7e51cb.20a61"
+            ]
+        ]
+    },
+    {
+        "id": "3e7176c02d57fe4b",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.H",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 230,
+        "wires": [
+            [
+                "78ddc0d7.477c7"
+            ]
+        ]
+    },
+    {
+        "id": "96ada6f2934db373",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.L",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 270,
+        "wires": [
+            [
+                "a5be34b4.80c1d8"
+            ]
+        ]
+    },
+    {
+        "id": "698edc58289bb46b",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.LL",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 310,
+        "wires": [
+            [
+                "289c0fec.d68e1"
+            ]
+        ]
+    },
+    {
+        "id": "cc948320a076185b",
+        "type": "function",
+        "z": "f10e7ce.d57828",
+        "name": "flow to global",
+        "func": "var Manifold = {...flow.get(\"Manifold\")}\nglobal.set(\"Manifold\", Manifold);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 550,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff105a49c624aed7",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.Enable.LL",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 500,
+        "wires": [
+            [
+                "3361a564.d48dfa"
+            ]
+        ]
+    },
+    {
+        "id": "1b0193143db63bd0",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.Enable.L",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 450,
+        "wires": [
+            [
+                "8b190b36.c8b5b8"
+            ]
+        ]
+    },
+    {
+        "id": "4fffcddd14dcf8ba",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.Enable.H",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 400,
+        "wires": [
+            [
+                "468ce789.d74268"
+            ]
+        ]
+    },
+    {
+        "id": "e744df7b746f640f",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Manifold.Enable.HH",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 350,
+        "wires": [
+            [
+                "5893c294.3213dc"
+            ]
+        ]
     }
 ]
