@@ -422,7 +422,9 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13
+        "y": 13,
+        "w": 1324,
+        "h": 810
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -443,10 +445,14 @@
             "c8aa3a95.12b518",
             "20b8681c.81fd48",
             "8c73338.8deb8d",
-            "3ccbaa0b.2db096"
+            "3ccbaa0b.2db096",
+            "92e91e1093aaf5ad",
+            "d6ab34e343403b11"
         ],
         "x": 4,
-        "y": 19
+        "y": 19,
+        "w": 1232,
+        "h": 132
     },
     {
         "id": "ced3da32.aec848",
@@ -465,10 +471,13 @@
             "4f4b6b53.48e6c4",
             "cd3f340c.1706c8",
             "55a12d87.aee714",
-            "be5b89ed.6c6bf8"
+            "be5b89ed.6c6bf8",
+            "07b48bdb3d7a1146"
         ],
         "x": 4,
-        "y": 159
+        "y": 159,
+        "w": 762,
+        "h": 82
     },
     {
         "id": "35aaa239.8bb89e",
@@ -488,10 +497,13 @@
             "4b8dd61f.d7e538",
             "71e3e381.f6111c",
             "2cb9269.d9e5fda",
-            "d0e8a077.56e6f"
+            "d0e8a077.56e6f",
+            "74501f05475f86aa"
         ],
         "x": 4,
-        "y": 249
+        "y": 249,
+        "w": 862,
+        "h": 82
     },
     {
         "id": "73a228cd.9d45d8",
@@ -512,10 +524,13 @@
             "bcf4fff3.6451c",
             "9959ff.cbb026",
             "a98b506e.03e03",
-            "e2dddcc8.8c593"
+            "e2dddcc8.8c593",
+            "497d069ace6c58db"
         ],
         "x": 24,
-        "y": 9
+        "y": 9,
+        "w": 722,
+        "h": 132
     },
     {
         "id": "cf7122b5.0b85",
@@ -567,10 +582,13 @@
             "8bcc662.c733998",
             "e3f6b9e9.f54018",
             "6f42bb08.a21f74",
-            "51e191bb.59c8a"
+            "51e191bb.59c8a",
+            "3a0d6f42a0326a49"
         ],
         "x": 64,
-        "y": 19
+        "y": 19,
+        "w": 682,
+        "h": 962
     },
     {
         "id": "2f18e23b.de32ce",
@@ -590,7 +608,9 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 28,
-        "y": 403
+        "y": 403,
+        "w": 714,
+        "h": 354
     },
     {
         "id": "7b6f4b41.106164",
@@ -606,7 +626,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 214
     },
     {
         "id": "3383e29e.9b29fe",
@@ -630,10 +652,13 @@
             "9ce98c30.594c6",
             "d43fb27a.273b3",
             "952a36cb.eb5738",
-            "941040e3.a0af"
+            "941040e3.a0af",
+            "f3d9921133a061ba"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 912,
+        "h": 312
     },
     {
         "id": "c58d9126.1869c",
@@ -651,10 +676,13 @@
             "d17b6cd1.dd167",
             "31bedd83.c1a8a2",
             "7ce5179f.e149d8",
-            "5657a4b8.0747bc"
+            "5657a4b8.0747bc",
+            "6b495dea3c3c58f6"
         ],
         "x": 34,
-        "y": 469
+        "y": 469,
+        "w": 832,
+        "h": 152
     },
     {
         "id": "565d8ee7.eb7be",
@@ -676,7 +704,9 @@
             "4d0e06bdae13bc30"
         ],
         "x": 34,
-        "y": 629
+        "y": 629,
+        "w": 792,
+        "h": 162
     },
     {
         "id": "222c08a.f1e28f8",
@@ -695,10 +725,13 @@
             "526b68fa.fc36e8",
             "e13ed5c.7271528",
             "14b55c52.d0b904",
-            "c4b00d9d.c758e"
+            "c4b00d9d.c758e",
+            "5567a1905fc845f8"
         ],
         "x": 24,
-        "y": 139
+        "y": 139,
+        "w": 1002,
+        "h": 82
     },
     {
         "id": "89dd768a.673f58",
@@ -721,10 +754,13 @@
             "ad7c56ce.ca1d48",
             "950d5f47.f3248",
             "3d0c56be.4680ca",
-            "35696a34.d09d86"
+            "35696a34.d09d86",
+            "fc79fa3d5c4ef319"
         ],
-        "x": 24,
-        "y": 229
+        "x": 14,
+        "y": 229,
+        "w": 1002,
+        "h": 162
     },
     {
         "id": "a0798509.56f3c8",
@@ -785,10 +821,13 @@
             "d84a013f.273ce",
             "c308cca6.9801f",
             "7a6b25d4.b897ec",
-            "1fefef6a.bb0941"
+            "1fefef6a.bb0941",
+            "bc9c5ac0d96caaba"
         ],
         "x": 34,
-        "y": 39
+        "y": 49,
+        "w": 1112,
+        "h": 422
     },
     {
         "id": "657e2074.735a3",
@@ -929,7 +968,9 @@
             "a5e0eceee8ac8557"
         ],
         "x": 4,
-        "y": 419
+        "y": 419,
+        "w": 892,
+        "h": 202
     },
     {
         "id": "0124a30db1d0a4a1",
@@ -954,7 +995,9 @@
             "786f3d1e2037748a"
         ],
         "x": 14,
-        "y": 109
+        "y": 109,
+        "w": 822,
+        "h": 132
     },
     {
         "id": "3d15a76f86343f95",
@@ -975,10 +1018,13 @@
             "61d261842a5c2715",
             "9c9136aa980614d2",
             "a56f3eb277b66591",
-            "7bc393d6d498860b"
+            "7bc393d6d498860b",
+            "e0ce49bc51ae4dbd"
         ],
         "x": 14,
-        "y": 249
+        "y": 249,
+        "w": 1092,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -1001,7 +1047,9 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243
+        "y": 243,
+        "w": 928,
+        "h": 554
     },
     {
         "id": "eb91dac5.690838",
@@ -1030,7 +1078,9 @@
             "5a12c1a2.71ef8"
         ],
         "x": 154,
-        "y": 39
+        "y": 39,
+        "w": 1272,
+        "h": 192
     },
     {
         "id": "b710a90e.0dd388",
@@ -1054,7 +1104,9 @@
             "43030a29.bfdeb4"
         ],
         "x": 54,
-        "y": 429
+        "y": 429,
+        "w": 512,
+        "h": 122
     },
     {
         "id": "11f55817.139c18",
@@ -1081,7 +1133,9 @@
             "1660e38d.24cefc"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -1108,7 +1162,9 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "ae380c04.45207",
@@ -1185,7 +1241,9 @@
             "35e356e7.8ebc5a"
         ],
         "x": 64,
-        "y": 569
+        "y": 569,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "a80677cf.4274c8",
@@ -1204,7 +1262,9 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649
+        "y": 649,
+        "w": 242,
+        "h": 122
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -1223,7 +1283,9 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269
+        "y": 269,
+        "w": 172,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -1243,7 +1305,9 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479
+        "y": 479,
+        "w": 372,
+        "h": 162
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -9567,7 +9631,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 1010,
+        "x": 1150,
         "y": 110,
         "wires": [
             []
@@ -9585,7 +9649,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
+        "x": 950,
         "y": 110,
         "wires": [
             [
@@ -9615,7 +9679,7 @@
         "y": 110,
         "wires": [
             [
-                "c8aa3a95.12b518"
+                "92e91e1093aaf5ad"
             ]
         ]
     },
@@ -9658,7 +9722,7 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 500,
+        "x": 610,
         "y": 60,
         "wires": [
             [
@@ -9678,7 +9742,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 690,
         "y": 110,
         "wires": [
             [
@@ -9702,7 +9766,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 290,
+        "x": 430,
         "y": 110,
         "wires": [
             [
@@ -9730,7 +9794,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 730,
+        "x": 840,
         "y": 60,
         "wires": [
             []
@@ -9745,11 +9809,11 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 215,
+        "x": 125,
         "y": 60,
         "wires": [
             [
-                "3ccbaa0b.2db096"
+                "d6ab34e343403b11"
             ]
         ]
     },
@@ -9773,7 +9837,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
+        "x": 440,
         "y": 60,
         "wires": [
             [
@@ -9796,7 +9860,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 550,
+        "x": 680,
         "y": 200,
         "wires": [
             []
@@ -9814,7 +9878,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 230,
+        "x": 360,
         "y": 200,
         "wires": [
             [
@@ -9844,7 +9908,7 @@
         "y": 200,
         "wires": [
             [
-                "cd3f340c.1706c8"
+                "07b48bdb3d7a1146"
             ]
         ]
     },
@@ -9891,7 +9955,7 @@
         "g": "ced3da32.aec848",
         "name": "",
         "env": [],
-        "x": 390,
+        "x": 520,
         "y": 200,
         "wires": [
             [
@@ -9921,7 +9985,7 @@
         "y": 290,
         "wires": [
             [
-                "d0e8a077.56e6f"
+                "74501f05475f86aa"
             ]
         ]
     },
@@ -9940,7 +10004,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 630,
+        "x": 780,
         "y": 290,
         "wires": [
             []
@@ -9958,7 +10022,7 @@
         "syntax": "mustache",
         "template": "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td>480<strong> V[L-L]</strong></td>\n                        <td>240<strong> V[LN]</strong></td>\n                    </tr>\n                    <tr>\n                        <td>10<strong> A</strong></td>\n                        <td>120<strong> W</strong></td>\n                    </tr>\n                    <tr>\n                        <td>12<strong> VA</strong></td>\n                        <td>3<strong> VAR</strong></td>\n                    </tr>\n                    <tr>\n                        <td>60<strong> Hz</strong></td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n    \n    <!--<div class=\"row\">\n        <h5>Factor de potencia</h5>\n    </div>-->\n    <div class=\"row\">\n        <div class=\"table-responsive table-sm\">\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td><strong>FP L1: </strong>0.9</td>\n                        <td><strong>FP L2: </strong>0.85</td>\n                        <td><strong>FP L3: </strong>0.95</td>\n                    </tr>\n                </tbody>\n            </table>\n            <table class=\"table table-bordered table-striped\">\n                <tbody>\n                    <tr>\n                        <td><strong>FP Prom: </strong>0.8</td>\n                        <td><strong>Ángulo Prom: </strong>45</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>\n</div>",
         "output": "str",
-        "x": 360,
+        "x": 510,
         "y": 290,
         "wires": [
             [
@@ -9978,7 +10042,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            {{{row}}}\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
-        "x": 490,
+        "x": 640,
         "y": 290,
         "wires": [
             [
@@ -9998,7 +10062,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 230,
+        "x": 380,
         "y": 290,
         "wires": [
             [
@@ -10205,7 +10269,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 770,
+        "x": 940,
         "y": 180,
         "wires": [
             []
@@ -10248,7 +10312,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 770,
+        "x": 940,
         "y": 270,
         "wires": [
             []
@@ -10267,7 +10331,7 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 770,
+        "x": 940,
         "y": 310,
         "wires": []
     },
@@ -11133,7 +11197,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
+        "x": 500,
         "y": 480,
         "wires": [
             [
@@ -11327,11 +11391,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 120,
+        "x": 110,
         "y": 280,
         "wires": [
             [
-                "35696a34.d09d86"
+                "fc79fa3d5c4ef319"
             ]
         ]
     },
@@ -11355,7 +11419,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
+        "x": 760,
         "y": 270,
         "wires": [
             [
@@ -11383,7 +11447,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
+        "x": 760,
         "y": 310,
         "wires": [
             [
@@ -11409,7 +11473,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 450,
+        "x": 620,
         "y": 350,
         "wires": [
             [
@@ -11429,7 +11493,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 590,
+        "x": 760,
         "y": 350,
         "wires": [
             [
@@ -11492,8 +11556,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 860,
-        "y": 30,
+        "x": 960,
+        "y": 50,
         "wires": [
             []
         ]
@@ -11546,7 +11610,7 @@
         "y": 30,
         "wires": [
             [
-                "b8e568d1.c2ac08"
+                "214dc89d29fb68c3"
             ]
         ]
     },
@@ -11573,7 +11637,7 @@
         "y": 70,
         "wires": [
             [
-                "b8e568d1.c2ac08"
+                "214dc89d29fb68c3"
             ]
         ]
     },
@@ -11592,7 +11656,7 @@
         "y": 110,
         "wires": [
             [
-                "bde7292f.835a18"
+                "d7fd2dc1cb23ba44"
             ]
         ]
     },
@@ -11610,7 +11674,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 640,
+        "x": 800,
         "y": 110,
         "wires": [
             []
@@ -11878,18 +11942,7 @@
         "y": 60,
         "wires": [
             [
-                "cf54e9f1.20a918",
-                "7258894.b266978",
-                "2f875fdd.421d5",
-                "262d2195.1a4a7e",
-                "68cc7327.b8b70c",
-                "23b75c2c.848eb4",
-                "8fac6d8a.1f21f",
-                "27fdcd18.a55762",
-                "8bcc662.c733998",
-                "e3f6b9e9.f54018",
-                "6f42bb08.a21f74",
-                "51e191bb.59c8a"
+                "3a0d6f42a0326a49"
             ]
         ]
     },
@@ -11913,7 +11966,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 310,
+        "x": 280,
         "y": 510,
         "wires": [
             [
@@ -11985,7 +12038,7 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 640,
+        "x": 750,
         "y": 510,
         "wires": []
     },
@@ -12005,11 +12058,11 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 450,
+        "x": 420,
         "y": 510,
         "wires": [
             [
-                "2f6dd56b.2afc3a"
+                "6b495dea3c3c58f6"
             ]
         ]
     },
@@ -12025,11 +12078,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
+        "x": 430,
         "y": 550,
         "wires": [
             [
-                "2f6dd56b.2afc3a"
+                "6b495dea3c3c58f6"
             ]
         ]
     },
@@ -12340,7 +12393,7 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 620,
+        "x": 640,
         "y": 120,
         "wires": [
             []
@@ -12602,7 +12655,7 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 1520,
+        "x": 1550,
         "y": 120,
         "wires": [
             []
@@ -12756,14 +12809,11 @@
         "name": "",
         "props": [
             {
-                "p": "payload",
-                "v": "true",
-                "vt": "bool"
+                "p": "payload"
             },
             {
                 "p": "topic",
-                "v": "",
-                "vt": "string"
+                "vt": "str"
             }
         ],
         "repeat": "5",
@@ -12773,13 +12823,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 120,
-        "y": 130,
+        "x": 170,
+        "y": 170,
         "wires": [
             [
-                "88ac83a3.561a3",
-                "952a36cb.eb5738",
-                "941040e3.a0af"
+                "f3d9921133a061ba"
             ]
         ]
     },
@@ -12832,7 +12880,7 @@
         "tickmode": "off",
         "peakmode": false,
         "peaktime": 3000,
-        "x": 490,
+        "x": 680,
         "y": 70,
         "wires": []
     },
@@ -12874,7 +12922,7 @@
         "tickmode": "off",
         "peakmode": false,
         "peaktime": 3000,
-        "x": 480,
+        "x": 670,
         "y": 250,
         "wires": []
     },
@@ -12916,7 +12964,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 530,
+        "x": 720,
         "y": 110,
         "wires": [
             [
@@ -12962,7 +13010,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 520,
+        "x": 710,
         "y": 290,
         "wires": [
             [
@@ -13079,7 +13127,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 820,
+        "x": 980,
         "y": 370,
         "wires": [
             []
@@ -13094,7 +13142,7 @@
         "links": [
             "cb972615.9b3328"
         ],
-        "x": 675,
+        "x": 865,
         "y": 110,
         "wires": []
     },
@@ -13105,7 +13153,7 @@
         "g": "3383e29e.9b29fe",
         "name": "Humedad",
         "links": [],
-        "x": 655,
+        "x": 845,
         "y": 290,
         "wires": []
     },
@@ -13700,7 +13748,7 @@
         "g": "222c08a.f1e28f8",
         "name": "",
         "env": [],
-        "x": 590,
+        "x": 760,
         "y": 180,
         "wires": [
             [
@@ -13730,7 +13778,7 @@
         "y": 180,
         "wires": [
             [
-                "c4b00d9d.c758e"
+                "5567a1905fc845f8"
             ]
         ]
     },
@@ -13774,7 +13822,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 500,
         "y": 180,
         "wires": [
             [
@@ -14016,7 +14064,7 @@
         "y": 90,
         "wires": [
             [
-                "4c3a9b2b.9e2814"
+                "497d069ace6c58db"
             ]
         ]
     },
@@ -14376,8 +14424,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 460,
-        "y": 330,
+        "x": 700,
+        "y": 340,
         "wires": [
             [
                 "ca8542a4.5ca1d",
@@ -14401,8 +14449,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "topic",
-        "x": 480,
-        "y": 130,
+        "x": 720,
+        "y": 140,
         "wires": [
             [
                 "f4be3cec.c935f"
@@ -14473,8 +14521,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 470,
-        "y": 80,
+        "x": 710,
+        "y": 90,
         "wires": [
             [
                 "4c365ddf.1dae34"
@@ -14511,8 +14559,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 470,
-        "y": 180,
+        "x": 710,
+        "y": 190,
         "wires": [
             [
                 "43505e5f.1b221"
@@ -14568,8 +14616,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 470,
-        "y": 230,
+        "x": 710,
+        "y": 240,
         "wires": [
             [
                 "cfa9bf86.2a8a3"
@@ -14625,8 +14673,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 500,
-        "y": 280,
+        "x": 740,
+        "y": 290,
         "wires": [
             [
                 "3a0224.13cb4ddc"
@@ -14652,8 +14700,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 460,
-        "y": 380,
+        "x": 700,
+        "y": 390,
         "wires": [
             [
                 "bbcf7cf4.41f79"
@@ -14679,8 +14727,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 440,
-        "y": 420,
+        "x": 680,
+        "y": 430,
         "wires": [
             [
                 "e2c69396.80d27"
@@ -14707,8 +14755,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 730,
-        "y": 130,
+        "x": 970,
+        "y": 140,
         "wires": [
             []
         ]
@@ -14733,8 +14781,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
-        "y": 180,
+        "x": 960,
+        "y": 190,
         "wires": [
             []
         ]
@@ -14759,8 +14807,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 730,
-        "y": 230,
+        "x": 970,
+        "y": 240,
         "wires": [
             []
         ]
@@ -14785,8 +14833,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 730,
-        "y": 280,
+        "x": 970,
+        "y": 290,
         "wires": [
             []
         ]
@@ -14811,8 +14859,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 330,
+        "x": 980,
+        "y": 340,
         "wires": [
             []
         ]
@@ -14829,8 +14877,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 720,
-        "y": 380,
+        "x": 960,
+        "y": 390,
         "wires": [
             [
                 "c308cca6.9801f"
@@ -14849,8 +14897,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 420,
+        "x": 950,
+        "y": 430,
         "wires": [
             [
                 "c308cca6.9801f"
@@ -14869,8 +14917,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 270,
-        "y": 230,
+        "x": 510,
+        "y": 240,
         "wires": [
             [
                 "a5204587.b883d8"
@@ -14901,8 +14949,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
-        "y": 80,
+        "x": 960,
+        "y": 90,
         "wires": [
             []
         ]
@@ -14921,7 +14969,7 @@
         "y": 230,
         "wires": [
             [
-                "4c43476f.e5a758"
+                "bc9c5ac0d96caaba"
             ]
         ]
     },
@@ -14934,8 +14982,8 @@
         "links": [
             "bcf4fff3.6451c"
         ],
-        "x": 865,
-        "y": 420,
+        "x": 1105,
+        "y": 430,
         "wires": []
     },
     {
@@ -15053,8 +15101,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 280,
-        "y": 390,
+        "x": 520,
+        "y": 400,
         "wires": []
     },
     {
@@ -15083,7 +15131,7 @@
         "y": 290,
         "wires": [
             [
-                "4c43476f.e5a758"
+                "bc9c5ac0d96caaba"
             ]
         ]
     },
@@ -16115,7 +16163,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 500,
         "y": 280,
         "wires": [
             [
@@ -16397,11 +16445,11 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 360,
+        "x": 230,
         "y": 480,
         "wires": [
             [
-                "a8c657a3.ea77b8"
+                "b8153e22292e4a2e"
             ]
         ]
     },
@@ -16808,7 +16856,7 @@
         "g": "3383e29e.9b29fe",
         "name": "",
         "env": [],
-        "x": 300,
+        "x": 490,
         "y": 170,
         "wires": [
             [
@@ -16859,7 +16907,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 570,
+        "x": 760,
         "y": 190,
         "wires": [
             []
@@ -16903,7 +16951,7 @@
         "tickmode": "off",
         "peakmode": false,
         "peaktime": 3000,
-        "x": 490,
+        "x": 680,
         "y": 150,
         "wires": []
     },
@@ -16927,7 +16975,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 300,
+        "x": 490,
         "y": 100,
         "wires": [
             []
@@ -16953,7 +17001,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 300,
+        "x": 490,
         "y": 260,
         "wires": [
             [
@@ -17563,15 +17611,7 @@
         "y": 40,
         "wires": [
             [
-                "114c7054920f76e0",
-                "727d84f0fb07bbb5",
-                "555b09e20526b8d2",
-                "faa693e0971e341e",
-                "6fa77d5dfe9416cb",
-                "84d3de4d954c2c72",
-                "aae4ec010802f86c",
-                "baba920ec8f57f7a",
-                "c9a0d541f5a6b88a"
+                "103088653aeca662"
             ]
         ]
     },
@@ -17993,7 +18033,7 @@
         "y": 370,
         "wires": [
             [
-                "bd970623.7adcd8"
+                "e0ce49bc51ae4dbd"
             ]
         ]
     },
@@ -18013,7 +18053,7 @@
         "y": 330,
         "wires": [
             [
-                "bd970623.7adcd8"
+                "e0ce49bc51ae4dbd"
             ]
         ]
     },
@@ -18341,15 +18381,7 @@
         "y": 70,
         "wires": [
             [
-                "9d63ab44868ad170",
-                "b9c80d3b8af7c30e",
-                "b058e14902495e3a",
-                "ef6e836c576663ee",
-                "d58d1c57851301f4",
-                "96331d5b05c57b03",
-                "afae1f73e6bb4a4f",
-                "7b2d989ed98766dc",
-                "aaf1518c93fcd48b"
+                "fb178b34866c6df4"
             ]
         ]
     },
@@ -18557,8 +18589,8 @@
             "35696a34.d09d86"
         ],
         "uncaught": false,
-        "x": 920,
-        "y": 180,
+        "x": 1000,
+        "y": 100,
         "wires": [
             []
         ]
@@ -18633,7 +18665,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 220,
+        "x": 240,
         "y": 310,
         "wires": [
             [
@@ -18650,7 +18682,7 @@
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 315,
+        "x": 335,
         "y": 310,
         "wires": []
     },
@@ -18736,7 +18768,8 @@
         "y": 260,
         "wires": [
             [
-                "95e52cf77ad022eb"
+                "95e52cf77ad022eb",
+                "625ac49681e920bd"
             ]
         ]
     },
@@ -20793,7 +20826,7 @@
         "z": "c8989d0a.49ea8",
         "g": "a0798509.56f3c8",
         "name": "SCP9Filtro",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20839,5 +20872,496 @@
         "x": 820,
         "y": 230,
         "wires": []
+    },
+    {
+        "id": "625ac49681e920bd",
+        "type": "change",
+        "z": "242bc9a6.f9b016",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::pantalla",
+                "pt": "global",
+                "to": "name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a0d6f42a0326a49",
+        "type": "switch",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Despliegue general",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "cf54e9f1.20a918",
+                "7258894.b266978",
+                "2f875fdd.421d5",
+                "262d2195.1a4a7e",
+                "68cc7327.b8b70c",
+                "23b75c2c.848eb4",
+                "8fac6d8a.1f21f",
+                "8bcc662.c733998",
+                "e3f6b9e9.f54018",
+                "6f42bb08.a21f74",
+                "51e191bb.59c8a",
+                "27fdcd18.a55762"
+            ]
+        ]
+    },
+    {
+        "id": "92e91e1093aaf5ad",
+        "type": "switch",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos eléctricos clúster",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 110,
+        "wires": [
+            [
+                "c8aa3a95.12b518"
+            ]
+        ]
+    },
+    {
+        "id": "07b48bdb3d7a1146",
+        "type": "switch",
+        "z": "aa547d69.9cb8e",
+        "g": "ced3da32.aec848",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos eléctricos clúster",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "cd3f340c.1706c8"
+            ]
+        ]
+    },
+    {
+        "id": "74501f05475f86aa",
+        "type": "switch",
+        "z": "aa547d69.9cb8e",
+        "g": "35aaa239.8bb89e",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos eléctricos clúster",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 290,
+        "wires": [
+            [
+                "d0e8a077.56e6f"
+            ]
+        ]
+    },
+    {
+        "id": "d6ab34e343403b11",
+        "type": "switch",
+        "z": "aa547d69.9cb8e",
+        "g": "aafad2ba.dcc8b",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos eléctricos clúster",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "3ccbaa0b.2db096"
+            ]
+        ]
+    },
+    {
+        "id": "497d069ace6c58db",
+        "type": "switch",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos operativos pozos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 280,
+        "y": 100,
+        "wires": [
+            [
+                "4c3a9b2b.9e2814"
+            ]
+        ]
+    },
+    {
+        "id": "5567a1905fc845f8",
+        "type": "switch",
+        "z": "e997ba3b.48cc18",
+        "g": "222c08a.f1e28f8",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos operativos pozos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 180,
+        "wires": [
+            [
+                "c4b00d9d.c758e"
+            ]
+        ]
+    },
+    {
+        "id": "fc79fa3d5c4ef319",
+        "type": "switch",
+        "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos operativos pozos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "35696a34.d09d86"
+            ]
+        ]
+    },
+    {
+        "id": "103088653aeca662",
+        "type": "switch",
+        "z": "77e50510.f482bc",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos de fondo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "114c7054920f76e0",
+                "727d84f0fb07bbb5",
+                "555b09e20526b8d2",
+                "faa693e0971e341e",
+                "6fa77d5dfe9416cb",
+                "84d3de4d954c2c72",
+                "aae4ec010802f86c",
+                "baba920ec8f57f7a",
+                "c9a0d541f5a6b88a"
+            ]
+        ]
+    },
+    {
+        "id": "b8153e22292e4a2e",
+        "type": "switch",
+        "z": "93634831.aed548",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Estado CCP",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [
+                "a8c657a3.ea77b8"
+            ]
+        ]
+    },
+    {
+        "id": "bc9c5ac0d96caaba",
+        "type": "switch",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Configuración clúster",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "4c43476f.e5a758"
+            ]
+        ]
+    },
+    {
+        "id": "6b495dea3c3c58f6",
+        "type": "switch",
+        "z": "a70735f4.fb54d8",
+        "g": "c58d9126.1869c",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Configuración clúster",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 560,
+        "y": 510,
+        "wires": [
+            [
+                "2f6dd56b.2afc3a"
+            ]
+        ]
+    },
+    {
+        "id": "d7fd2dc1cb23ba44",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 110,
+        "wires": [
+            [
+                "bde7292f.835a18"
+            ]
+        ]
+    },
+    {
+        "id": "214dc89d29fb68c3",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 820,
+        "y": 50,
+        "wires": [
+            [
+                "b8e568d1.c2ac08"
+            ]
+        ]
+    },
+    {
+        "id": "fb178b34866c6df4",
+        "type": "switch",
+        "z": "75f74480.41235c",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación pozos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "9d63ab44868ad170",
+                "b9c80d3b8af7c30e",
+                "b058e14902495e3a",
+                "ef6e836c576663ee",
+                "d58d1c57851301f4",
+                "96331d5b05c57b03",
+                "afae1f73e6bb4a4f",
+                "7b2d989ed98766dc",
+                "aaf1518c93fcd48b"
+            ]
+        ]
+    },
+    {
+        "id": "e0ce49bc51ae4dbd",
+        "type": "switch",
+        "z": "8d6d8b52.723518",
+        "g": "3d15a76f86343f95",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Datos históricos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 370,
+        "wires": [
+            [
+                "bd970623.7adcd8"
+            ]
+        ]
+    },
+    {
+        "id": "f3d9921133a061ba",
+        "type": "switch",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "pantalla",
+        "property": "pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Temperatura/Humedad",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 170,
+        "wires": [
+            [
+                "952a36cb.eb5738",
+                "88ac83a3.561a3",
+                "941040e3.a0af"
+            ]
+        ]
     }
 ]
