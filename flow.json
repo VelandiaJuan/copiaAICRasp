@@ -515,9 +515,7 @@
             "e2dddcc8.8c593"
         ],
         "x": 24,
-        "y": 9,
-        "w": 722,
-        "h": 122
+        "y": 9
     },
     {
         "id": "cf7122b5.0b85",
@@ -572,9 +570,7 @@
             "51e191bb.59c8a"
         ],
         "x": 64,
-        "y": 19,
-        "w": 682,
-        "h": 962
+        "y": 19
     },
     {
         "id": "2f18e23b.de32ce",
@@ -594,9 +590,7 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 28,
-        "y": 403,
-        "w": 714,
-        "h": 354
+        "y": 403
     },
     {
         "id": "7b6f4b41.106164",
@@ -611,10 +605,8 @@
             "11f55817.139c18",
             "cf57802e.7d258"
         ],
-        "x": 8,
-        "y": 13,
-        "w": 1844,
-        "h": 214
+        "x": -2,
+        "y": 13
     },
     {
         "id": "3383e29e.9b29fe",
@@ -641,7 +633,9 @@
             "941040e3.a0af"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 722,
+        "h": 312
     },
     {
         "id": "c58d9126.1869c",
@@ -680,7 +674,8 @@
             "efb9c720.028178",
             "3c86f494.e87d6c",
             "25c9193d.eeb826",
-            "3d470773.63aa78"
+            "3d470773.63aa78",
+            "4d0e06bdae13bc30"
         ],
         "x": 34,
         "y": 629
@@ -705,9 +700,7 @@
             "c4b00d9d.c758e"
         ],
         "x": 24,
-        "y": 139,
-        "w": 832,
-        "h": 82
+        "y": 139
     },
     {
         "id": "89dd768a.673f58",
@@ -733,9 +726,7 @@
             "35696a34.d09d86"
         ],
         "x": 24,
-        "y": 229,
-        "w": 822,
-        "h": 162
+        "y": 229
     },
     {
         "id": "a0798509.56f3c8",
@@ -762,7 +753,7 @@
         ],
         "x": 34,
         "y": 19,
-        "w": 442,
+        "w": 432,
         "h": 482
     },
     {
@@ -905,10 +896,21 @@
             "878a890b1f06b83c",
             "23967da5935ba512",
             "3aa65411ebc7a815",
-            "4a271a88.499184"
+            "4a271a88.499184",
+            "47508807837c97b4",
+            "0b9836a4134b4128",
+            "e0f4cbaaaaf020e2",
+            "d2ee0ed3548653a8",
+            "317eddee7e4a0e6b",
+            "5dfbdce460529fee",
+            "7faf834e22509f6f",
+            "7017fe7023b5fe29",
+            "a5e0eceee8ac8557"
         ],
-        "x": 14,
-        "y": 19
+        "x": 4,
+        "y": 419,
+        "w": 892,
+        "h": 202
     },
     {
         "id": "0124a30db1d0a4a1",
@@ -933,7 +935,9 @@
             "786f3d1e2037748a"
         ],
         "x": 14,
-        "y": 109
+        "y": 109,
+        "w": 822,
+        "h": 132
     },
     {
         "id": "3d15a76f86343f95",
@@ -957,7 +961,9 @@
             "7bc393d6d498860b"
         ],
         "x": 14,
-        "y": 249
+        "y": 249,
+        "w": 1092,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -1033,9 +1039,7 @@
             "43030a29.bfdeb4"
         ],
         "x": 54,
-        "y": 429,
-        "w": 512,
-        "h": 122
+        "y": 429
     },
     {
         "id": "11f55817.139c18",
@@ -1061,10 +1065,8 @@
             "cad3d4cb.b5bc98",
             "1660e38d.24cefc"
         ],
-        "x": 34,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "x": 24,
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -1091,9 +1093,7 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "ae380c04.45207",
@@ -1170,9 +1170,7 @@
             "35e356e7.8ebc5a"
         ],
         "x": 64,
-        "y": 569,
-        "w": 652,
-        "h": 162
+        "y": 569
     },
     {
         "id": "a80677cf.4274c8",
@@ -6519,7 +6517,7 @@
     {
         "id": "ab25613c47d557df",
         "type": "influxdb",
-        "hostname": "aic.local",
+        "hostname": "192.168.2.8",
         "port": "8086",
         "protocol": "http",
         "database": "AIC",
@@ -8014,21 +8012,6 @@
                     "type": "BOOL"
                 },
                 "DATA_CL9_ALARMAS.Bit_Cambio_QoP_CIMA": {
-                    "type": "BOOL"
-                },
-                "CSUR_CL001_110_PZIT_101.AlmHH": {
-                    "type": "BOOL"
-                },
-                "CSUR_CL001_110_PZIT_101.AlmH": {
-                    "type": "BOOL"
-                },
-                "CSUR_CL001_110_PZIT_101.AlmL": {
-                    "type": "BOOL"
-                },
-                "CSUR_CL001_110_PZIT_101.AlmLL": {
-                    "type": "BOOL"
-                },
-                "Parada_Pozos_ESD_LL": {
                     "type": "BOOL"
                 }
             }
@@ -12087,11 +12070,12 @@
         "z": "242bc9a6.f9b016",
         "g": "11f55817.139c18",
         "name": "Events",
-        "func": "var event   = flow.get('Events')||[];\nvar id      = flow.get('id')||0;\nvar date    = new Date();\n\n// Date\nvar year    = date.getFullYear();\nvar month   = date.getMonth()+1;\nvar day     = date.getDate();\n\n//Time\nvar hours   = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\nmsg.payload={\n            'no':id,\n            'fecha':month+'/'+day+'/'+year,\n            'hora':hours+':'+minutes+':'+seconds,\n            'evento':msg.payload\n}\n\n// Adjuntar evento\nevent.unshift(msg.payload);\n\n// Limitar número de eventos\nevent = event.slice(0,99);\n\n// Guardar eventos en el contexto\nflow.set('Events',event);\n\n// incrementar ID de evento\nid++\n\n// Reiniciar ID\nif(id==1000){id=0;}\nflow.set('id',id);\n\nmsg.payload = event;\nreturn msg;",
+        "func": "var event   = flow.get('Events')||[];\nvar id      = flow.get('id')||0;\nvar date    = new Date();\n\n// Date\nvar year    = date.getFullYear();\nvar month   = date.getMonth()+1;\nvar day     = date.getDate();\n\n//Time\nvar hours   = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\nmsg.payload={\n            'no':id,\n            'fecha':month+'/'+day+'/'+year,\n            'hora':hours+':'+minutes+':'+seconds,\n            'evento':msg.payload\n}\n\n// Adjuntar evento\nevent.unshift(msg.payload);\n\n// Limitar número de eventos\nevent = event.slice(0,29);\n\n// Guardar eventos en el contexto\nflow.set('Events',event);\n\n// incrementar ID de evento\nid++\n\n// Reiniciar ID\nif(id==1000){id=0;}\nflow.set('id',id);\n\nmsg.payload = event;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 450,
         "y": 80,
         "wires": [
@@ -12635,7 +12619,7 @@
         "z": "242bc9a6.f9b016",
         "g": "cf57802e.7d258",
         "name": "Alarms",
-        "func": "var Alarm   = flow.get('Alarms')||[];\nvar id      = flow.get('id')||0;\nvar date    = new Date();\n\n// Date\nvar year    = date.getFullYear();\nvar month   = date.getMonth()+1;\nvar day     = date.getDate();\n\n//Time\nvar hours   = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\nmsg.payload={\n            'no':id,\n            'fecha':month+'/'+day+'/'+year,\n            'hora':hours+':'+minutes+':'+seconds,\n            'alarma':msg.payload\n}\n\nAlarm.unshift(msg.payload);\n\n// Limitar número de alarmas\nAlarm = Alarm.slice(0,99);\n\nflow.set('Alarms',Alarm);\n\nid++\n// Reiniciar ID\nif(id==1000){id=0;}\n\nflow.set('id',id);\nmsg.payload = Alarm;\n\nreturn msg;",
+        "func": "var Alarm   = flow.get('Alarms')||[];\nvar id      = flow.get('id')||0;\nvar date    = new Date();\n\n// Date\nvar year    = date.getFullYear();\nvar month   = date.getMonth()+1;\nvar day     = date.getDate();\n\n//Time\nvar hours   = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\n\nmsg.payload={\n            'no':id,\n            'fecha':month+'/'+day+'/'+year,\n            'hora':hours+':'+minutes+':'+seconds,\n            'alarma':msg.payload\n}\n\nAlarm.unshift(msg.payload);\n\n// Limitar número de alarmas\nAlarm = Alarm.slice(0,29);\n\nflow.set('Alarms',Alarm);\n\nid++\n// Reiniciar ID\nif(id==1000){id=0;}\n\nflow.set('id',id);\nmsg.payload = Alarm;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12898,9 +12882,9 @@
         "dot": false,
         "ymin": "0",
         "ymax": "500",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlder": "5",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -12916,6 +12900,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
+        "useDifferentColor": false,
         "x": 530,
         "y": 110,
         "wires": [
@@ -12943,9 +12928,9 @@
         "dot": false,
         "ymin": "",
         "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlder": "5",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -12961,6 +12946,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
+        "useDifferentColor": false,
         "x": 520,
         "y": 290,
         "wires": [
@@ -15404,7 +15390,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 150,
-        "y": 730,
+        "y": 750,
         "wires": [
             [
                 "3d470773.63aa78",
@@ -16836,9 +16822,9 @@
         "dot": false,
         "ymin": "",
         "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlder": "5",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -16854,6 +16840,7 @@
             "#c5b0d5"
         ],
         "outputs": 1,
+        "useDifferentColor": false,
         "x": 570,
         "y": 190,
         "wires": [
@@ -17001,8 +16988,8 @@
         "retentionPolicyV18Flux": "",
         "org": "organisation",
         "bucket": "bucket",
-        "x": 630,
-        "y": 60,
+        "x": 750,
+        "y": 460,
         "wires": []
     },
     {
@@ -17017,8 +17004,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 260,
-        "y": 60,
+        "x": 250,
+        "y": 460,
         "wires": [
             [
                 "4a271a88.499184"
@@ -17043,8 +17030,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
-        "y": 60,
+        "x": 100,
+        "y": 460,
         "wires": [
             [
                 "23967da5935ba512"
@@ -17056,15 +17043,15 @@
         "type": "function",
         "z": "8d6d8b52.723518",
         "g": "b63b6f51b95b7150",
-        "name": "Batch Influx",
-        "func": "for(var i=0; i<msg.VSD.length; i+=1){\n    msg.payload = [\n        {\n            measurement: \"VSD\",\n            fields: msg.VSD[i],\n            tags:{\n                location:msg.Tags[i]\n            },\n            timestamp: new Date()\n        },\n        {\n            measurement: \"PQM\",\n            fields: msg.PQM[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        },\n        {\n            measurement: \"INST\",\n            fields: msg.INST[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        },\n        {\n            measurement: \"DHOLE\",\n            fields: msg.DHOLE[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        }\n    ];\n    node.send(msg);\n}\nreturn msg;",
+        "name": "Batch Influx VSD",
+        "func": "for(var i=0; i<msg.VSD.length; i+=1){\n    msg.payload = [\n        {\n            measurement: \"VSD\",\n            fields: msg.VSD[i],\n            tags:{\n                location:msg.Tags[i]\n            },\n            timestamp: new Date()\n        }\n    ];\n    node.send(msg);\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 60,
+        "x": 440,
+        "y": 460,
         "wires": [
             [
                 "878a890b1f06b83c"
@@ -20082,6 +20069,279 @@
         "y": 1030,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "4d0e06bdae13bc30",
+        "type": "inject",
+        "z": "a70735f4.fb54d8",
+        "g": "565d8ee7.eb7be",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 150,
+        "y": 710,
+        "wires": [
+            [
+                "cce204b9.8dd2e8"
+            ]
+        ]
+    },
+    {
+        "id": "47508807837c97b4",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "Batch Influx PQM",
+        "func": "for (var i = 0; i < msg.PQM.length; i+=1){\n    msg.payload = [\n        {\n            measurement: \"PQM\",\n            fields: msg.PQM[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        }\n    ];\n    node.send(msg);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 500,
+        "wires": [
+            [
+                "d2ee0ed3548653a8"
+            ]
+        ]
+    },
+    {
+        "id": "0b9836a4134b4128",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "Batch Influx INST",
+        "func": "for (var i = 0; i < msg.INST.length; i+=1){\n    msg.payload = [\n        {\n            measurement: \"INST\",\n            fields: msg.INST[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        }\n    ];\n    node.send(msg);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "317eddee7e4a0e6b"
+            ]
+        ]
+    },
+    {
+        "id": "d101244d5c4c16d7",
+        "type": "influxdb in",
+        "z": "8d6d8b52.723518",
+        "influxdb": "ab25613c47d557df",
+        "name": "",
+        "query": "SELECT * FROM INST",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "organisation",
+        "x": 260,
+        "y": 690,
+        "wires": [
+            [
+                "12837f17b99af27b"
+            ]
+        ]
+    },
+    {
+        "id": "c15a699717ee2a54",
+        "type": "inject",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 770,
+        "wires": [
+            [
+                "d101244d5c4c16d7"
+            ]
+        ]
+    },
+    {
+        "id": "12837f17b99af27b",
+        "type": "debug",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 690,
+        "wires": []
+    },
+    {
+        "id": "a20a74e8e3018f92",
+        "type": "debug",
+        "z": "8d6d8b52.723518",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "e0f4cbaaaaf020e2",
+        "type": "function",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "Batch Influx DHOLE",
+        "func": "for (var i = 0; i < msg.DHOLE.length; i+=1){\n    msg.payload = [\n        {\n            measurement: \"DHOLE\",\n            fields: msg.DHOLE[i],\n            tags: {\n                location: msg.Tags[i]\n            },\n            timestamp: new Date()\n        }\n    ];\n    node.send(msg);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 580,
+        "wires": [
+            [
+                "5dfbdce460529fee"
+            ]
+        ]
+    },
+    {
+        "id": "d2ee0ed3548653a8",
+        "type": "influxdb batch",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "influxdb": "ab25613c47d557df",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 750,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "317eddee7e4a0e6b",
+        "type": "influxdb batch",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "influxdb": "ab25613c47d557df",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 750,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5dfbdce460529fee",
+        "type": "influxdb batch",
+        "z": "8d6d8b52.723518",
+        "d": true,
+        "g": "b63b6f51b95b7150",
+        "influxdb": "ab25613c47d557df",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 750,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7faf834e22509f6f",
+        "type": "complete",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "",
+        "scope": [
+            "878a890b1f06b83c"
+        ],
+        "uncaught": false,
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "47508807837c97b4"
+            ]
+        ]
+    },
+    {
+        "id": "7017fe7023b5fe29",
+        "type": "complete",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "",
+        "scope": [
+            "d2ee0ed3548653a8"
+        ],
+        "uncaught": false,
+        "x": 250,
+        "y": 540,
+        "wires": [
+            [
+                "0b9836a4134b4128"
+            ]
+        ]
+    },
+    {
+        "id": "a5e0eceee8ac8557",
+        "type": "complete",
+        "z": "8d6d8b52.723518",
+        "g": "b63b6f51b95b7150",
+        "name": "",
+        "scope": [
+            "317eddee7e4a0e6b"
+        ],
+        "uncaught": false,
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "e0f4cbaaaaf020e2"
+            ]
         ]
     }
 ]
