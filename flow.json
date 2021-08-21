@@ -422,7 +422,9 @@
             "eb91dac5.690838"
         ],
         "x": 128,
-        "y": 13
+        "y": 13,
+        "w": 1324,
+        "h": 810
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -437,7 +439,6 @@
         "nodes": [
             "5b529f4c.7ffeb",
             "6c9ed5d3.e7799c",
-            "76a74813.5dd3f8",
             "23815ef1.931a32",
             "3ea5879e.bf0588",
             "c8aa3a95.12b518",
@@ -445,8 +446,10 @@
             "8c73338.8deb8d",
             "3ccbaa0b.2db096"
         ],
-        "x": 4,
-        "y": 19
+        "x": 144,
+        "y": 19,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "ced3da32.aec848",
@@ -464,11 +467,12 @@
         "nodes": [
             "4f4b6b53.48e6c4",
             "cd3f340c.1706c8",
-            "55a12d87.aee714",
             "be5b89ed.6c6bf8"
         ],
-        "x": 4,
-        "y": 159
+        "x": 144,
+        "y": 159,
+        "w": 492,
+        "h": 82
     },
     {
         "id": "35aaa239.8bb89e",
@@ -491,7 +495,9 @@
             "d0e8a077.56e6f"
         ],
         "x": 4,
-        "y": 249
+        "y": 249,
+        "w": 712,
+        "h": 82
     },
     {
         "id": "73a228cd.9d45d8",
@@ -515,7 +521,9 @@
             "e2dddcc8.8c593"
         ],
         "x": 24,
-        "y": 9
+        "y": 9,
+        "w": 722,
+        "h": 122
     },
     {
         "id": "cf7122b5.0b85",
@@ -555,7 +563,6 @@
             "128332bd.e6e68d",
             "f1b95f94.7eed7",
             "b2bf4260.68812",
-            "efde2660.167898",
             "cf54e9f1.20a918",
             "7258894.b266978",
             "2f875fdd.421d5",
@@ -567,10 +574,12 @@
             "8bcc662.c733998",
             "e3f6b9e9.f54018",
             "6f42bb08.a21f74",
-            "51e191bb.59c8a"
+            "3a8ee80b66b02945"
         ],
-        "x": 64,
-        "y": 19
+        "x": 134,
+        "y": 19,
+        "w": 612,
+        "h": 962
     },
     {
         "id": "2f18e23b.de32ce",
@@ -590,7 +599,9 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 28,
-        "y": 403
+        "y": 403,
+        "w": 714,
+        "h": 354
     },
     {
         "id": "7b6f4b41.106164",
@@ -606,7 +617,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 214
     },
     {
         "id": "3383e29e.9b29fe",
@@ -618,7 +631,6 @@
             "label": true
         },
         "nodes": [
-            "798ac169.6edda",
             "20490d7e.8acac2",
             "4906fc64.1e6a14",
             "be4a90f3.ab244",
@@ -630,10 +642,13 @@
             "9ce98c30.594c6",
             "d43fb27a.273b3",
             "952a36cb.eb5738",
-            "941040e3.a0af"
+            "941040e3.a0af",
+            "c550977af6059634"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 312
     },
     {
         "id": "c58d9126.1869c",
@@ -654,7 +669,9 @@
             "5657a4b8.0747bc"
         ],
         "x": 34,
-        "y": 469
+        "y": 469,
+        "w": 732,
+        "h": 152
     },
     {
         "id": "565d8ee7.eb7be",
@@ -676,7 +693,9 @@
             "4d0e06bdae13bc30"
         ],
         "x": 34,
-        "y": 629
+        "y": 629,
+        "w": 792,
+        "h": 162
     },
     {
         "id": "222c08a.f1e28f8",
@@ -694,11 +713,12 @@
         "nodes": [
             "526b68fa.fc36e8",
             "e13ed5c.7271528",
-            "14b55c52.d0b904",
             "c4b00d9d.c758e"
         ],
-        "x": 24,
-        "y": 139
+        "x": 84,
+        "y": 139,
+        "w": 692,
+        "h": 82
     },
     {
         "id": "89dd768a.673f58",
@@ -716,15 +736,17 @@
         "nodes": [
             "24e0f6e3.56cf0a",
             "913b55ec.761bd8",
-            "325d343f.cbe57c",
             "cce135f5.fcfef8",
             "ad7c56ce.ca1d48",
             "950d5f47.f3248",
             "3d0c56be.4680ca",
-            "35696a34.d09d86"
+            "35696a34.d09d86",
+            "0f5035d1683b4be8"
         ],
-        "x": 24,
-        "y": 229
+        "x": 84,
+        "y": 229,
+        "w": 762,
+        "h": 162
     },
     {
         "id": "a0798509.56f3c8",
@@ -746,13 +768,11 @@
             "7f00280b.114ba8",
             "7ecb5f7a.538eb",
             "e173641d.7e7c38",
-            "b34b9630.1b9f88",
-            "17b2acb9c3091c3d",
-            "cb7c447dc44411d7"
+            "b34b9630.1b9f88"
         ],
         "x": 34,
         "y": 19,
-        "w": 472,
+        "w": 442,
         "h": 482
     },
     {
@@ -788,7 +808,9 @@
             "1fefef6a.bb0941"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 872,
+        "h": 422
     },
     {
         "id": "657e2074.735a3",
@@ -869,13 +891,12 @@
             "2b8253bcf666b1eb",
             "e75a1ed3ba54436f",
             "90a983b6aa59a476",
-            "dcb5846eac15639a",
-            "6fbdcd9701d78504"
+            "dcb5846eac15639a"
         ],
         "x": 34,
-        "y": 499,
+        "y": 509,
         "w": 848,
-        "h": 1008
+        "h": 998
     },
     {
         "id": "a17f12b7.aff7a",
@@ -929,7 +950,9 @@
             "a5e0eceee8ac8557"
         ],
         "x": 4,
-        "y": 419
+        "y": 419,
+        "w": 892,
+        "h": 202
     },
     {
         "id": "0124a30db1d0a4a1",
@@ -954,7 +977,9 @@
             "786f3d1e2037748a"
         ],
         "x": 14,
-        "y": 109
+        "y": 109,
+        "w": 822,
+        "h": 132
     },
     {
         "id": "3d15a76f86343f95",
@@ -978,7 +1003,9 @@
             "7bc393d6d498860b"
         ],
         "x": 14,
-        "y": 249
+        "y": 249,
+        "w": 1092,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -1001,7 +1028,9 @@
             "723d59b.85ed6a8"
         ],
         "x": 154,
-        "y": 243
+        "y": 243,
+        "w": 928,
+        "h": 554
     },
     {
         "id": "eb91dac5.690838",
@@ -1030,7 +1059,9 @@
             "5a12c1a2.71ef8"
         ],
         "x": 154,
-        "y": 39
+        "y": 39,
+        "w": 1272,
+        "h": 192
     },
     {
         "id": "b710a90e.0dd388",
@@ -1054,7 +1085,9 @@
             "43030a29.bfdeb4"
         ],
         "x": 54,
-        "y": 429
+        "y": 429,
+        "w": 512,
+        "h": 122
     },
     {
         "id": "11f55817.139c18",
@@ -1081,7 +1114,9 @@
             "1660e38d.24cefc"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -1108,7 +1143,9 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 162
     },
     {
         "id": "ae380c04.45207",
@@ -1185,7 +1222,9 @@
             "35e356e7.8ebc5a"
         ],
         "x": 64,
-        "y": 569
+        "y": 569,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "a80677cf.4274c8",
@@ -1204,7 +1243,9 @@
             "6d40adaa.11d2c4"
         ],
         "x": 684,
-        "y": 649
+        "y": 649,
+        "w": 242,
+        "h": 122
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -1223,7 +1264,9 @@
             "42f85e00.83b314"
         ],
         "x": 684,
-        "y": 269
+        "y": 269,
+        "w": 174,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -1243,7 +1286,9 @@
             "d1a73825.d89578"
         ],
         "x": 684,
-        "y": 479
+        "y": 479,
+        "w": 372,
+        "h": 162
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -2313,21 +2358,6 @@
                 "CLUSTER.W06.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W06.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W06.VSD.Estado": {
                     "type": "INT"
                 },
@@ -2353,21 +2383,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W06.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W06.VSD.Confirmaciones_Escritura": {
@@ -2467,24 +2482,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W06.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W06.PQM.Voltaje_L_L_Pro": {
@@ -2601,34 +2598,10 @@
                 "CLUSTER.W06.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W06.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W06.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W06.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W06.INST.THP_PIT_PV": {
@@ -2637,43 +2610,10 @@
                 "CLUSTER.W06.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W06.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W06.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W06.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W06.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W06.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W06.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W06.DHOLE.PIP": {
@@ -2695,15 +2635,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W06.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W06.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -2748,21 +2679,6 @@
                 "CLUSTER.W01.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W01.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W01.VSD.Estado": {
                     "type": "INT"
                 },
@@ -2788,21 +2704,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W01.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W01.VSD.Confirmaciones_Escritura": {
@@ -2902,24 +2803,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W01.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W01.PQM.Voltaje_L_L_Pro": {
@@ -3036,34 +2919,10 @@
                 "CLUSTER.W01.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W01.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W01.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W01.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W01.INST.THP_PIT_PV": {
@@ -3072,43 +2931,10 @@
                 "CLUSTER.W01.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W01.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W01.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W01.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W01.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W01.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W01.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W01.DHOLE.PIP": {
@@ -3130,15 +2956,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W01.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W01.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -3183,21 +3000,6 @@
                 "CLUSTER.W02.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W02.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W02.VSD.Estado": {
                     "type": "INT"
                 },
@@ -3223,21 +3025,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W02.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W02.VSD.Confirmaciones_Escritura": {
@@ -3337,24 +3124,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W02.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W02.PQM.Voltaje_L_L_Pro": {
@@ -3471,34 +3240,10 @@
                 "CLUSTER.W02.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W02.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W02.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W02.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W02.INST.THP_PIT_PV": {
@@ -3507,43 +3252,10 @@
                 "CLUSTER.W02.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W02.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W02.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W02.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W02.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W02.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W02.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W02.DHOLE.PIP": {
@@ -3565,15 +3277,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W02.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W02.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -3618,21 +3321,6 @@
                 "CLUSTER.W03.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W03.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W03.VSD.Estado": {
                     "type": "INT"
                 },
@@ -3658,21 +3346,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W03.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W03.VSD.Confirmaciones_Escritura": {
@@ -3772,24 +3445,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W03.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W03.PQM.Voltaje_L_L_Pro": {
@@ -3906,34 +3561,10 @@
                 "CLUSTER.W03.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W03.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W03.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W03.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W03.INST.THP_PIT_PV": {
@@ -3942,43 +3573,10 @@
                 "CLUSTER.W03.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W03.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W03.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W03.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W03.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W03.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W03.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W03.DHOLE.PIP": {
@@ -4000,15 +3598,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W03.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W03.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -4053,21 +3642,6 @@
                 "CLUSTER.W04.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W04.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W04.VSD.Estado": {
                     "type": "INT"
                 },
@@ -4093,21 +3667,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W04.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W04.VSD.Confirmaciones_Escritura": {
@@ -4207,24 +3766,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W04.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W04.PQM.Voltaje_L_L_Pro": {
@@ -4341,34 +3882,10 @@
                 "CLUSTER.W04.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W04.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W04.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W04.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W04.INST.THP_PIT_PV": {
@@ -4377,43 +3894,10 @@
                 "CLUSTER.W04.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W04.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W04.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W04.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W04.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W04.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W04.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W04.DHOLE.PIP": {
@@ -4435,15 +3919,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W04.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W04.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -4488,21 +3963,6 @@
                 "CLUSTER.W05.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W05.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W05.VSD.Estado": {
                     "type": "INT"
                 },
@@ -4528,21 +3988,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W05.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W05.VSD.Confirmaciones_Escritura": {
@@ -4642,24 +4087,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W05.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W05.PQM.Voltaje_L_L_Pro": {
@@ -4776,34 +4203,10 @@
                 "CLUSTER.W05.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W05.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W05.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W05.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W05.INST.THP_PIT_PV": {
@@ -4812,43 +4215,10 @@
                 "CLUSTER.W05.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W05.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W05.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W05.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W05.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W05.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W05.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W05.DHOLE.PIP": {
@@ -4870,15 +4240,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W05.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W05.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -4923,21 +4284,6 @@
                 "CLUSTER.W07.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W07.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W07.VSD.Estado": {
                     "type": "INT"
                 },
@@ -4963,21 +4309,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W07.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W07.VSD.Confirmaciones_Escritura": {
@@ -5077,24 +4408,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W07.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W07.PQM.Voltaje_L_L_Pro": {
@@ -5211,34 +4524,10 @@
                 "CLUSTER.W07.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W07.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W07.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W07.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W07.INST.THP_PIT_PV": {
@@ -5247,43 +4536,10 @@
                 "CLUSTER.W07.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W07.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W07.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W07.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W07.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W07.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W07.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W07.DHOLE.PIP": {
@@ -5305,15 +4561,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W07.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W07.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -5358,21 +4605,6 @@
                 "CLUSTER.W08.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W08.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W08.VSD.Estado": {
                     "type": "INT"
                 },
@@ -5398,21 +4630,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W08.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W08.VSD.Confirmaciones_Escritura": {
@@ -5512,24 +4729,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W08.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W08.PQM.Voltaje_L_L_Pro": {
@@ -5646,34 +4845,10 @@
                 "CLUSTER.W08.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W08.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W08.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W08.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W08.INST.THP_PIT_PV": {
@@ -5682,43 +4857,10 @@
                 "CLUSTER.W08.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W08.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W08.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W08.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W08.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W08.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W08.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W08.DHOLE.PIP": {
@@ -5740,15 +4882,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W08.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W08.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -5793,21 +4926,6 @@
                 "CLUSTER.W09.VSD.Selec_Parada_General": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W09.VSD.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.VSD.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.VSD.SpareBool3": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.VSD.SpareBool4": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.VSD.SpareBool5": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W09.VSD.Estado": {
                     "type": "INT"
                 },
@@ -5833,21 +4951,6 @@
                     "type": "INT"
                 },
                 "CLUSTER.W09.VSD.Torque_porcentual": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.VSD.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.VSD.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.VSD.SpareInt3": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.VSD.SpareInt4": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.VSD.SpareInt5": {
                     "type": "INT"
                 },
                 "CLUSTER.W09.VSD.Confirmaciones_Escritura": {
@@ -5947,24 +5050,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W09.VSD.Valor_T_RefProlongada_HZ_PD": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.VSD.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.VSD.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.VSD.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.VSD.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.VSD.SpareReal5": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.VSD.SpareReal": {
                     "type": "REAL"
                 },
                 "CLUSTER.W09.PQM.Voltaje_L_L_Pro": {
@@ -6081,34 +5166,10 @@
                 "CLUSTER.W09.PQM.THD_V_L3": {
                     "type": "REAL"
                 },
-                "CLUSTER.W09.PQM.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.PQM.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.PQM.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.PQM.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.PQM.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W09.INST.THP_PIT_Dev_Stat": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W09.INST.THT_TIT_Dev_Stat": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.INST.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.INST.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.INST.SpareBool3": {
                     "type": "BOOL"
                 },
                 "CLUSTER.W09.INST.THP_PIT_PV": {
@@ -6117,43 +5178,10 @@
                 "CLUSTER.W09.INST.THT_TIT_PV": {
                     "type": "REAL"
                 },
-                "CLUSTER.W09.INST.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.INST.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.INST.SpareReal3": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.INST.SpareReal4": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.INST.SpareReal5": {
-                    "type": "REAL"
-                },
                 "CLUSTER.W09.DHOLE.Estado_Comm": {
                     "type": "BOOL"
                 },
-                "CLUSTER.W09.DHOLE.SpareBool1": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.DHOLE.SpareBool2": {
-                    "type": "BOOL"
-                },
-                "CLUSTER.W09.DHOLE.SpareBool3": {
-                    "type": "BOOL"
-                },
                 "CLUSTER.W09.DHOLE.Marca": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.DHOLE.SpareInt1": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.DHOLE.SpareInt2": {
-                    "type": "INT"
-                },
-                "CLUSTER.W09.DHOLE.SpareInt3": {
                     "type": "INT"
                 },
                 "CLUSTER.W09.DHOLE.PIP": {
@@ -6175,15 +5203,6 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W09.DHOLE.Corriente_Fuga": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.DHOLE.SpareReal1": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.DHOLE.SpareReal2": {
-                    "type": "REAL"
-                },
-                "CLUSTER.W09.DHOLE.SpareReal3": {
                     "type": "REAL"
                 }
             }
@@ -9594,32 +8613,6 @@
         ]
     },
     {
-        "id": "76a74813.5dd3f8",
-        "type": "inject",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 100,
-        "y": 110,
-        "wires": [
-            [
-                "c8aa3a95.12b518"
-            ]
-        ]
-    },
-    {
         "id": "23815ef1.931a32",
         "type": "ui_dropdown",
         "z": "aa547d69.9cb8e",
@@ -9819,32 +8812,6 @@
         "wires": [
             [
                 "be5b89ed.6c6bf8"
-            ]
-        ]
-    },
-    {
-        "id": "55a12d87.aee714",
-        "type": "inject",
-        "z": "aa547d69.9cb8e",
-        "g": "ced3da32.aec848",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "5",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 100,
-        "y": 200,
-        "wires": [
-            [
-                "cd3f340c.1706c8"
             ]
         ]
     },
@@ -10205,7 +9172,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 770,
+        "x": 690,
         "y": 180,
         "wires": [
             []
@@ -11310,32 +10277,6 @@
         ]
     },
     {
-        "id": "325d343f.cbe57c",
-        "type": "inject",
-        "z": "e997ba3b.48cc18",
-        "g": "89dd768a.673f58",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 120,
-        "y": 280,
-        "wires": [
-            [
-                "35696a34.d09d86"
-            ]
-        ]
-    },
-    {
         "id": "cce135f5.fcfef8",
         "type": "change",
         "z": "e997ba3b.48cc18",
@@ -11496,31 +10437,6 @@
         "y": 30,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e3375a60.26fe18",
-        "type": "inject",
-        "z": "f10e7ce.d57828",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "3",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 170,
-        "y": 70,
-        "wires": [
-            [
-                "25c5df2a.68262"
-            ]
         ]
     },
     {
@@ -11854,43 +10770,6 @@
         "y": 510,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "efde2660.167898",
-        "type": "inject",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "3",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 160,
-        "y": 60,
-        "wires": [
-            [
-                "cf54e9f1.20a918",
-                "7258894.b266978",
-                "2f875fdd.421d5",
-                "262d2195.1a4a7e",
-                "68cc7327.b8b70c",
-                "23b75c2c.848eb4",
-                "8fac6d8a.1f21f",
-                "27fdcd18.a55762",
-                "8bcc662.c733998",
-                "e3f6b9e9.f54018",
-                "6f42bb08.a21f74",
-                "51e191bb.59c8a"
-            ]
         ]
     },
     {
@@ -12747,41 +11626,6 @@
         "x": 320,
         "y": 30,
         "wires": []
-    },
-    {
-        "id": "798ac169.6edda",
-        "type": "inject",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "name": "",
-        "props": [
-            {
-                "p": "payload",
-                "v": "true",
-                "vt": "bool"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "5",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 120,
-        "y": 130,
-        "wires": [
-            [
-                "88ac83a3.561a3",
-                "952a36cb.eb5738",
-                "941040e3.a0af"
-            ]
-        ]
     },
     {
         "id": "20490d7e.8acac2",
@@ -13700,37 +12544,11 @@
         "g": "222c08a.f1e28f8",
         "name": "",
         "env": [],
-        "x": 590,
+        "x": 510,
         "y": 180,
         "wires": [
             [
                 "526b68fa.fc36e8"
-            ]
-        ]
-    },
-    {
-        "id": "14b55c52.d0b904",
-        "type": "inject",
-        "z": "e997ba3b.48cc18",
-        "g": "222c08a.f1e28f8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "3",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 120,
-        "y": 180,
-        "wires": [
-            [
-                "c4b00d9d.c758e"
             ]
         ]
     },
@@ -13774,7 +12592,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 250,
         "y": 180,
         "wires": [
             [
@@ -15362,8 +14180,6 @@
         "y": 460,
         "wires": [
             [
-                "17b2acb9c3091c3d",
-                "6fbdcd9701d78504",
                 "5c6293f5.b173ac"
             ]
         ]
@@ -16360,8 +15176,7 @@
         "y": 80,
         "wires": [
             [
-                "4174382c.717b18",
-                "fc2cb0743c1772c6"
+                "4174382c.717b18"
             ]
         ]
     },
@@ -16379,31 +15194,6 @@
         "x": 830,
         "y": 80,
         "wires": []
-    },
-    {
-        "id": "662c153f.eed85c",
-        "type": "inject",
-        "z": "93634831.aed548",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 360,
-        "y": 480,
-        "wires": [
-            [
-                "a8c657a3.ea77b8"
-            ]
-        ]
     },
     {
         "id": "9b6b8f5a.816b1",
@@ -17543,39 +16333,6 @@
         ]
     },
     {
-        "id": "d424296eefa95389",
-        "type": "inject",
-        "z": "77e50510.f482bc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 170,
-        "y": 40,
-        "wires": [
-            [
-                "114c7054920f76e0",
-                "727d84f0fb07bbb5",
-                "555b09e20526b8d2",
-                "faa693e0971e341e",
-                "6fa77d5dfe9416cb",
-                "84d3de4d954c2c72",
-                "aae4ec010802f86c",
-                "baba920ec8f57f7a",
-                "c9a0d541f5a6b88a"
-            ]
-        ]
-    },
-    {
         "id": "58c6ce637ca52a6e",
         "type": "change",
         "z": "8d6d8b52.723518",
@@ -18321,39 +17078,6 @@
         "wires": []
     },
     {
-        "id": "595ee215c03f45b0",
-        "type": "inject",
-        "z": "75f74480.41235c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 190,
-        "y": 70,
-        "wires": [
-            [
-                "9d63ab44868ad170",
-                "b9c80d3b8af7c30e",
-                "b058e14902495e3a",
-                "ef6e836c576663ee",
-                "d58d1c57851301f4",
-                "96331d5b05c57b03",
-                "afae1f73e6bb4a4f",
-                "7b2d989ed98766dc",
-                "aaf1518c93fcd48b"
-            ]
-        ]
-    },
-    {
         "id": "9d63ab44868ad170",
         "type": "function",
         "z": "75f74480.41235c",
@@ -18559,33 +17283,6 @@
         "uncaught": false,
         "x": 920,
         "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0499c7e4d07ef89e",
-        "type": "catch",
-        "z": "56041636.7e55e8",
-        "g": "cf7122b5.0b85",
-        "name": "",
-        "scope": [
-            "cf54e9f1.20a918",
-            "7258894.b266978",
-            "2f875fdd.421d5",
-            "262d2195.1a4a7e",
-            "68cc7327.b8b70c",
-            "23b75c2c.848eb4",
-            "8fac6d8a.1f21f",
-            "27fdcd18.a55762",
-            "8bcc662.c733998",
-            "e3f6b9e9.f54018",
-            "6f42bb08.a21f74",
-            "51e191bb.59c8a"
-        ],
-        "uncaught": false,
-        "x": 330,
-        "y": 990,
         "wires": [
             []
         ]
@@ -20767,77 +19464,506 @@
         ]
     },
     {
-        "id": "17b2acb9c3091c3d",
-        "type": "rbe",
-        "z": "c8989d0a.49ea8",
-        "g": "a0798509.56f3c8",
+        "id": "fc7244ba9e714f72",
+        "type": "ui_ui_control",
+        "z": "8d6d8b52.723518",
         "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 240,
-        "y": 458,
+        "events": "change",
+        "x": 400,
+        "y": 50,
         "wires": [
             [
-                "cb7c447dc44411d7"
+                "f2d277d249c305af"
             ]
         ]
     },
     {
-        "id": "cb7c447dc44411d7",
+        "id": "f2d277d249c305af",
         "type": "debug",
-        "z": "c8989d0a.49ea8",
-        "g": "a0798509.56f3c8",
-        "name": "SCP9Filtro",
+        "z": "8d6d8b52.723518",
+        "name": "",
         "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
-        "complete": "payload",
+        "tostatus": true,
+        "complete": "name",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "group",
         "statusType": "auto",
-        "x": 390,
-        "y": 460,
+        "x": 620,
+        "y": 50,
         "wires": []
     },
     {
-        "id": "6fbdcd9701d78504",
-        "type": "debug",
+        "id": "4672a021ddf31339",
+        "type": "change",
         "z": "c8989d0a.49ea8",
-        "g": "b5f921be.8080a",
-        "name": "SCP9Solo",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 260,
-        "y": 540,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Dash",
+                "pt": "global",
+                "to": "name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 330,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b20a31806f404128",
+        "type": "ui_ui_control",
+        "z": "c8989d0a.49ea8",
+        "name": "",
+        "events": "change",
+        "x": 630,
+        "y": 270,
+        "wires": [
+            [
+                "4672a021ddf31339"
+            ]
+        ]
+    },
+    {
+        "id": "ccec833d56700325",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "name": "",
+        "property": "Dash",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Despliegue general",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Usuarios",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Datos eléctricos clúster",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Datos operativos pozos",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Datos Fondo",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Estado CCP",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Configuración clúster",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Instrumentación pozos",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Alarmas/Eventos",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Temperatura/Humedad",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Datos históricos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 12,
+        "x": 990,
+        "y": 330,
+        "wires": [
+            [
+                "46fff9380f5ee886"
+            ],
+            [
+                "83608dafd4662659"
+            ],
+            [
+                "bc99cf40ab6d6e51"
+            ],
+            [
+                "d0b26cc2905c02ad"
+            ],
+            [
+                "f262b6131e015939"
+            ],
+            [
+                "0c2335585731858a"
+            ],
+            [
+                "8a42d6f60daba191"
+            ],
+            [
+                "186f2a0e0cf031bd"
+            ],
+            [
+                "0bea077dd52f0325"
+            ],
+            [
+                "504e4ed2c3e0f61e"
+            ],
+            [
+                "9edb05fa97916009"
+            ],
+            [
+                "0af77ddbb1ce4317"
+            ]
+        ]
+    },
+    {
+        "id": "1b6860221d0e8472",
+        "type": "inject",
+        "z": "c8989d0a.49ea8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 830,
+        "y": 310,
+        "wires": [
+            [
+                "ccec833d56700325"
+            ]
+        ]
+    },
+    {
+        "id": "d0b26cc2905c02ad",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Datos operativos pozos",
+        "links": [
+            "0f5035d1683b4be8"
+        ],
+        "x": 1225,
+        "y": 170,
         "wires": []
     },
     {
-        "id": "fc2cb0743c1772c6",
-        "type": "debug",
+        "id": "f262b6131e015939",
+        "type": "link out",
         "z": "c8989d0a.49ea8",
-        "name": "LecturaCluster",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 820,
+        "name": "Datos Fondo",
+        "links": [
+            "c764fc265b3ad273"
+        ],
+        "x": 1225,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "0c2335585731858a",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Estado CCP",
+        "links": [
+            "75ecea147bcb6293"
+        ],
+        "x": 1225,
         "y": 230,
         "wires": []
+    },
+    {
+        "id": "8a42d6f60daba191",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Configuración clúster",
+        "links": [],
+        "x": 1225,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "186f2a0e0cf031bd",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Instrumentación manifold",
+        "links": [
+            "06263b94b182144c"
+        ],
+        "x": 1225,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "0bea077dd52f0325",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Instrumentación pozos",
+        "links": [
+            "5d580a3ade09bc2a"
+        ],
+        "x": 1225,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "504e4ed2c3e0f61e",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Alarmas/Eventos",
+        "links": [],
+        "x": 1225,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "bc99cf40ab6d6e51",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Datos eléctricos clúster",
+        "links": [
+            "8531d637ba42e7a9"
+        ],
+        "x": 1225,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "83608dafd4662659",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Usuarios",
+        "links": [],
+        "x": 1225,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "46fff9380f5ee886",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Despliegue general",
+        "links": [
+            "3a8ee80b66b02945"
+        ],
+        "x": 1225,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0af77ddbb1ce4317",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Datos históricos",
+        "links": [],
+        "x": 1225,
+        "y": 410,
+        "wires": []
+    },
+    {
+        "id": "9edb05fa97916009",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "name": "Temperatura/Humedad",
+        "links": [
+            "c550977af6059634"
+        ],
+        "x": 1225,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "3a8ee80b66b02945",
+        "type": "link in",
+        "z": "56041636.7e55e8",
+        "g": "cf7122b5.0b85",
+        "name": "",
+        "links": [
+            "46fff9380f5ee886"
+        ],
+        "x": 175,
+        "y": 120,
+        "wires": [
+            [
+                "cf54e9f1.20a918",
+                "7258894.b266978",
+                "2f875fdd.421d5",
+                "262d2195.1a4a7e",
+                "68cc7327.b8b70c",
+                "23b75c2c.848eb4",
+                "8fac6d8a.1f21f",
+                "27fdcd18.a55762",
+                "8bcc662.c733998"
+            ]
+        ]
+    },
+    {
+        "id": "8531d637ba42e7a9",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "name": "",
+        "links": [
+            "bc99cf40ab6d6e51"
+        ],
+        "x": 105,
+        "y": 160,
+        "wires": [
+            [
+                "c8aa3a95.12b518",
+                "cd3f340c.1706c8"
+            ]
+        ]
+    },
+    {
+        "id": "0f5035d1683b4be8",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "89dd768a.673f58",
+        "name": "",
+        "links": [
+            "d0b26cc2905c02ad"
+        ],
+        "x": 125,
+        "y": 280,
+        "wires": [
+            [
+                "35696a34.d09d86",
+                "c4b00d9d.c758e"
+            ]
+        ]
+    },
+    {
+        "id": "75ecea147bcb6293",
+        "type": "link in",
+        "z": "93634831.aed548",
+        "name": "",
+        "links": [
+            "0c2335585731858a"
+        ],
+        "x": 325,
+        "y": 420,
+        "wires": [
+            [
+                "a8c657a3.ea77b8"
+            ]
+        ]
+    },
+    {
+        "id": "c764fc265b3ad273",
+        "type": "link in",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "links": [
+            "f262b6131e015939"
+        ],
+        "x": 145,
+        "y": 150,
+        "wires": [
+            [
+                "114c7054920f76e0",
+                "727d84f0fb07bbb5",
+                "555b09e20526b8d2",
+                "faa693e0971e341e",
+                "6fa77d5dfe9416cb",
+                "84d3de4d954c2c72",
+                "aae4ec010802f86c",
+                "baba920ec8f57f7a",
+                "c9a0d541f5a6b88a"
+            ]
+        ]
+    },
+    {
+        "id": "06263b94b182144c",
+        "type": "link in",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "links": [
+            "186f2a0e0cf031bd"
+        ],
+        "x": 105,
+        "y": 130,
+        "wires": [
+            [
+                "25c5df2a.68262"
+            ]
+        ]
+    },
+    {
+        "id": "5d580a3ade09bc2a",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 105,
+        "y": 180,
+        "wires": [
+            [
+                "9d63ab44868ad170",
+                "b9c80d3b8af7c30e",
+                "b058e14902495e3a",
+                "ef6e836c576663ee",
+                "d58d1c57851301f4",
+                "96331d5b05c57b03",
+                "afae1f73e6bb4a4f",
+                "7b2d989ed98766dc",
+                "aaf1518c93fcd48b"
+            ]
+        ]
+    },
+    {
+        "id": "c550977af6059634",
+        "type": "link in",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "links": [
+            "9edb05fa97916009"
+        ],
+        "x": 55,
+        "y": 220,
+        "wires": [
+            [
+                "941040e3.a0af",
+                "88ac83a3.561a3",
+                "952a36cb.eb5738"
+            ]
+        ]
     }
 ]
