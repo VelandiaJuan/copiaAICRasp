@@ -550,9 +550,9 @@
             "eb91dac5.690838"
         ],
         "x": 108,
-        "y": -7,
-        "w": 1514,
-        "h": 1170
+        "y": -2,
+        "w": 1544,
+        "h": 1165
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -648,9 +648,9 @@
             "b710a90e.0dd388",
             "dbdbcfdd.62eb8"
         ],
-        "x": 28,
-        "y": 433,
-        "w": 714,
+        "x": 18,
+        "y": 443,
+        "w": 924,
         "h": 354
     },
     {
@@ -667,9 +667,7 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13,
-        "w": 1854,
-        "h": 214
+        "y": 13
     },
     {
         "id": "3383e29e.9b29fe",
@@ -796,9 +794,7 @@
             "b34b9630.1b9f88"
         ],
         "x": 34,
-        "y": 19,
-        "w": 432,
-        "h": 482
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -837,11 +833,16 @@
             "e1a1828f.a11a1",
             "3c8ee25.f40d61e",
             "e79f92cb.051d2",
-            "e4b5dae8.60ec38"
+            "d606cc2eb82614c4",
+            "1631872f41b735e9",
+            "5514b78d001cbc1f",
+            "849943e135a62c23",
+            "132057c336636b15",
+            "a4ad7aa3ddaa4d48"
         ],
-        "x": 24,
+        "x": 14,
         "y": 19,
-        "w": 962,
+        "w": 972,
         "h": 612
     },
     {
@@ -885,9 +886,7 @@
             "c5614143.9411"
         ],
         "x": 944,
-        "y": 509,
-        "w": 472,
-        "h": 1412
+        "y": 509
     },
     {
         "id": "b5f921be.8080a",
@@ -926,9 +925,7 @@
             "dcb5846eac15639a"
         ],
         "x": 34,
-        "y": 509,
-        "w": 848,
-        "h": 998
+        "y": 509
     },
     {
         "id": "a17f12b7.aff7a",
@@ -953,9 +950,7 @@
             "c738a47b.f465d8"
         ],
         "x": 34,
-        "y": 1529,
-        "w": 642,
-        "h": 482
+        "y": 1529
     },
     {
         "id": "b63b6f51b95b7150",
@@ -1273,6 +1268,24 @@
         "h": 162
     },
     {
+        "id": "abb738cb.8ddee8",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "name": "Pulsar si no se visualizan los comandos de VSD",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "cde9f305.f283b",
+            "95f4a6d3.f04848",
+            "38326b9.ab69394"
+        ],
+        "x": 34,
+        "y": 819,
+        "w": 522,
+        "h": 82
+    },
+    {
         "id": "f3c2e7cf.5ed158",
         "type": "group",
         "z": "827787d0.ede678",
@@ -1321,14 +1334,23 @@
             "3a348318.fe982c",
             "cf6714f4.9f00d8",
             "fe313f3f60b02976",
-            "6db737c8.7e14b8",
             "8848fdb4.e1147",
-            "84aaea45.62df68"
+            "84aaea45.62df68",
+            "f03411361a645322",
+            "748f4101adbefe46",
+            "58426603e53c70fa",
+            "4b17751ebc57a5ed",
+            "d743caff7b4eb7ea",
+            "9ec90bcb541a6450",
+            "d32ed91c1441b056",
+            "0d5664d2170d33af",
+            "cdc77e6065d8cd24",
+            "6db737c8.7e14b8"
         ],
         "x": 134,
-        "y": 19,
-        "w": 1462,
-        "h": 302
+        "y": 24,
+        "w": 1492,
+        "h": 317
     },
     {
         "id": "b710a90e.0dd388",
@@ -1349,11 +1371,15 @@
             "1acb0c29.0ddee4",
             "6f296e4d.6b03a",
             "8da77a70.699258",
-            "43030a29.bfdeb4"
+            "43030a29.bfdeb4",
+            "4f0f95d20ace4f11",
+            "eb8a1dd1dcdda232",
+            "830976eab8f4f381",
+            "73a0e10d206dda45"
         ],
-        "x": 54,
-        "y": 459,
-        "w": 512,
+        "x": 44,
+        "y": 469,
+        "w": 672,
         "h": 122
     },
     {
@@ -1381,9 +1407,7 @@
             "1660e38d.24cefc"
         ],
         "x": 24,
-        "y": 39,
-        "w": 902,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -1410,9 +1434,7 @@
             "f4dc844c.b0f888"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 162
+        "y": 39
     },
     {
         "id": "ae380c04.45207",
@@ -1435,9 +1457,7 @@
             "96bc7a3e.788358"
         ],
         "x": 604,
-        "y": 579,
-        "w": 252,
-        "h": 482
+        "y": 579
     },
     {
         "id": "e983f2eb.cc849",
@@ -1460,9 +1480,7 @@
             "d4eaa542.9ff2f8"
         ],
         "x": 604,
-        "y": 1079,
-        "w": 252,
-        "h": 402
+        "y": 1079
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -1486,11 +1504,15 @@
             "76ade389.49748c",
             "267fdbe0.520b94",
             "ede56ecd.3a66e",
-            "35e356e7.8ebc5a"
+            "35e356e7.8ebc5a",
+            "d5b68383e0fa3ac5",
+            "7a5b3d3ed4c1fd60",
+            "6d798de8bb5871d5",
+            "c67e67947dd0aea4"
         ],
-        "x": 64,
-        "y": 599,
-        "w": 652,
+        "x": 44,
+        "y": 609,
+        "w": 872,
         "h": 162
     },
     {
@@ -1557,24 +1579,6 @@
         "y": 819,
         "w": 372,
         "h": 162
-    },
-    {
-        "id": "abb738cb.8ddee8",
-        "type": "group",
-        "z": "e997ba3b.48cc18",
-        "name": "Pulsar si no se visualizan los comandos de ",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "cde9f305.f283b",
-            "95f4a6d3.f04848",
-            "38326b9.ab69394"
-        ],
-        "x": 464,
-        "y": 819,
-        "w": 522,
-        "h": 82
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -7933,8 +7937,8 @@
         "g": "eb91dac5.690838",
         "name": "Usuario",
         "env": [],
-        "x": 1260,
-        "y": 60,
+        "x": 1140,
+        "y": 100,
         "wires": [
             [
                 "cf6714f4.9f00d8",
@@ -7958,7 +7962,7 @@
         "order": 6,
         "width": "4",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "label": "Cerrar sesión",
         "tooltip": "",
         "color": "",
@@ -7967,13 +7971,13 @@
         "payload": "",
         "payloadType": "num",
         "topic": "Cerrar sesión",
-        "x": 960,
-        "y": 140,
+        "topicType": "str",
+        "x": 840,
+        "y": 170,
         "wires": [
             [
                 "df6fb5ca.5f8af8",
-                "2ffa7be0.763644",
-                "2066be8e.5c6832"
+                "6db737c8.7e14b8"
             ]
         ]
     },
@@ -8020,8 +8024,9 @@
         "payload": "",
         "payloadType": "str",
         "topic": "Iniciar sesión",
-        "x": 1170,
-        "y": 280,
+        "topicType": "str",
+        "x": 840,
+        "y": 290,
         "wires": [
             [
                 "df6fb5ca.5f8af8"
@@ -8045,7 +8050,7 @@
         "delay": "1",
         "topic": "password",
         "x": 1170,
-        "y": 200,
+        "y": 170,
         "wires": [
             [
                 "df6fb5ca.5f8af8"
@@ -8164,7 +8169,8 @@
         "wires": [
             [
                 "be50258c.07bb98",
-                "6e26c35e.a97f8c"
+                "6e26c35e.a97f8c",
+                "f03411361a645322"
             ]
         ]
     },
@@ -8277,8 +8283,8 @@
         "type": "switch",
         "z": "827787d0.ede678",
         "g": "eb91dac5.690838",
-        "name": "",
-        "property": "UserStatus",
+        "name": "userstatus",
+        "property": "#:(memoryOnly)::UserStatus",
         "propertyType": "global",
         "rules": [
             {
@@ -8290,11 +8296,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 750,
+        "x": 690,
         "y": 120,
         "wires": [
             [
-                "28cd79fb.3dcae6"
+                "0d5664d2170d33af"
             ]
         ]
     },
@@ -8661,8 +8667,8 @@
         "mode": "number",
         "delay": "100",
         "topic": "Ref",
-        "x": 150,
-        "y": 500,
+        "x": 330,
+        "y": 510,
         "wires": [
             [
                 "6f296e4d.6b03a"
@@ -8688,8 +8694,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "Send",
-        "x": 160,
-        "y": 540,
+        "x": 340,
+        "y": 550,
         "wires": [
             [
                 "8da77a70.699258"
@@ -8715,8 +8721,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "Basic",
-        "x": 150,
-        "y": 640,
+        "x": 350,
+        "y": 650,
         "wires": [
             [
                 "267fdbe0.520b94"
@@ -8742,8 +8748,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "Basic",
-        "x": 150,
-        "y": 680,
+        "x": 350,
+        "y": 690,
         "wires": [
             [
                 "76ade389.49748c"
@@ -8769,8 +8775,8 @@
         "payload": "true",
         "payloadType": "bool",
         "topic": "Basic",
-        "x": 150,
-        "y": 720,
+        "x": 350,
+        "y": 730,
         "wires": [
             [
                 "dba80e92.0a13d"
@@ -12462,7 +12468,10 @@
         "g": "73a228cd.9d45d8",
         "name": "Pozo Escritura",
         "links": [
-            "3bd487eb.ca4f88"
+            "3bd487eb.ca4f88",
+            "4483df6de3db9b28",
+            "830976eab8f4f381",
+            "c67e67947dd0aea4"
         ],
         "x": 705,
         "y": 50,
@@ -12624,6 +12633,11 @@
             {
                 "label": "PCP",
                 "value": "PCP",
+                "type": "str"
+            },
+            {
+                "label": "---",
+                "value": "---",
                 "type": "str"
             }
         ],
@@ -12984,7 +12998,7 @@
         "z": "a70735f4.fb54d8",
         "g": "73df5953.fc56e8",
         "name": "Leer",
-        "func": "var Cluster = global.get(\"Cluster\")||[];\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\n\n// Nombre\ntry{Nombre = MSG(Cluster[msg.payload].Nombre);}\ncatch(error){Nombre = MSG(\"\");}\n\n// Typo levantamiento\ntry{ALS = MSG(Cluster[msg.payload].ALS);}\ncatch(error){ALS = MSG(0);}\n\n// Variador\ntry{Variador = MSG(Cluster[msg.payload].Variador);}\ncatch(error){Variador = MSG(0);}\n\n// Sendor de fondo\ntry{Sensor = MSG(Cluster[msg.payload].Sensor);}\ncatch(error){Sensor = MSG(0);}\n\n// Disponible\ntry{Disponible = MSG(Cluster[msg.payload].Disponible);}\ncatch(error){Disponible = MSG(false);}\n\n// Disparo del breaker\ntry{Disparo = MSG(Cluster[msg.payload].Disparo);}\ncatch(error){Disparo = MSG(false);}\n\n// Ajuste de la información leida para cargar en los cajetines\nNombre.payload      = Nombre.payload == \" -- \" ? \"\":Nombre.payload;\nDisponible.payload  = Disponible.payload == \"No\" ? false:true;\nDisparo.payload  = Disparo.payload == \"No\" ? false:true;\n\nnode.status({fill:\"green\",shape:\"dot\",text:Nombre.payload});\n\nreturn [Nombre,ALS,Variador,Sensor,Disponible,Disparo];\n\nfunction MSG(message){\n    return {payload: message}\n}\n\n",
+        "func": "var Cluster = global.get(\"Cluster\")||[];\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\nvar ALS; var Variador; var Sensor;\n\n// Nombre\ntry{Nombre = MSG(Cluster[msg.payload].Nombre);}\ncatch(error){Nombre = MSG(\"\");}\n\n// Typo levantamiento\ntry{ALS = MSG(Cluster[msg.payload].ALS);}\ncatch(error){ALS = MSG(0);}\n\n// Variador\ntry{Variador = MSG(Cluster[msg.payload].Variador);}\ncatch(error){Variador = MSG(0);}\n\n// Sendor de fondo\ntry{Sensor = MSG(Cluster[msg.payload].Sensor);}\ncatch(error){Sensor = MSG(0);}\n\n// Disponible\ntry{Disponible = MSG(Cluster[msg.payload].Disponible);}\ncatch(error){Disponible = MSG(false);}\n\n// Disparo del breaker\ntry{Disparo = MSG(Cluster[msg.payload].Disparo);}\ncatch(error){Disparo = MSG(false);}\n\n// Ajuste de la información leida para cargar en los cajetines\nNombre.payload      = Nombre.payload == \" -- \" ? \"\":Nombre.payload;\nDisponible.payload  = Disponible.payload == \"No\" ? false:true;\nDisparo.payload  = Disparo.payload == \"No\" ? false:true;\n\nnode.status({fill:\"green\",shape:\"dot\",text:Nombre.payload});\n\nreturn [Nombre,ALS,Variador,Sensor,Disponible,Disparo];\n\nfunction MSG(message){\n    return {payload: message}\n}\n\n",
         "outputs": 6,
         "noerr": 0,
         "initialize": "",
@@ -13475,8 +13489,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
-        "y": 500,
+        "x": 550,
+        "y": 510,
         "wires": [
             []
         ]
@@ -13515,8 +13529,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 640,
+        "x": 530,
+        "y": 650,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -13557,8 +13571,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 680,
+        "x": 530,
+        "y": 690,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -13599,8 +13613,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 720,
+        "x": 530,
+        "y": 730,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -13619,8 +13633,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 540,
-        "y": 670,
+        "x": 740,
+        "y": 680,
         "wires": [
             [
                 "35e356e7.8ebc5a"
@@ -14085,8 +14099,8 @@
         "links": [
             "c5614143.9411"
         ],
-        "x": 675,
-        "y": 670,
+        "x": 875,
+        "y": 680,
         "wires": []
     },
     {
@@ -14141,8 +14155,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 540,
+        "x": 530,
+        "y": 550,
         "wires": [
             [
                 "43030a29.bfdeb4"
@@ -14158,8 +14172,8 @@
         "links": [
             "9a082d5b.6a6e5"
         ],
-        "x": 525,
-        "y": 540,
+        "x": 675,
+        "y": 550,
         "wires": []
     },
     {
@@ -16051,7 +16065,8 @@
         "y": 1260,
         "wires": [
             [
-                "65bcc8cd5160b708"
+                "65bcc8cd5160b708",
+                "dfb489f4.c2aa88"
             ]
         ]
     },
@@ -18689,7 +18704,7 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://raspberrypi.local:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        //p.text(new Date().getDate() + '/' + (new Date().getMonth()+1) + '/' + new Date().getFullYear() + ', ' + new Date().getHours() + ':' +(new Date().getMinutes()>9 ?\n        //new Date().getMinutes() : ('0'+new Date().getMinutes()) ) + ':' + (new Date().getSeconds()>9 ? new Date().getSeconds() : ('0'+new Date().getSeconds()) ));\n        p.text(formatDate());\n        //p.text(new Date().toLocaleString());\n        }\n\n        function formatDate(){\n            var date = new Date(); var day = date.getDate(); var month = date.getMonth()+1; var year = date.getFullYear(); var hour = date.getHours(); var minutes = date.getMinutes();\n            if (month == 1) month = \"enero\"; if (month == 2) month = \"febrero\"; if (month == 3) month = \"marzo\"; if (month == 4) month = \"abril\"; if (month == 5) month = \"mayo\";\n            if (month == 6) month = \"junio\"; if (month == 7) month = \"julio\"; if (month == 8) month = \"agosto\"; if (month == 9) month = \"septiem.\"; if (month == 10) month = \"octubre\";\n            if (month == 11) month = \"noviem.\"; if (month == 12) month = \"diciem.\";\n            var stringdate = day + \" de \" + month + \" \" + year + \"; \" + hour + \":\" + (minutes < 10 ? (\"0\"+minutes) : minutes);\n            return stringdate;\n        }\n        \n        clockInterval = setInterval(displayTime, 10000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 5000);\n    });\n</script>",
+        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://aic.local:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        //p.text(new Date().getDate() + '/' + (new Date().getMonth()+1) + '/' + new Date().getFullYear() + ', ' + new Date().getHours() + ':' +(new Date().getMinutes()>9 ?\n        //new Date().getMinutes() : ('0'+new Date().getMinutes()) ) + ':' + (new Date().getSeconds()>9 ? new Date().getSeconds() : ('0'+new Date().getSeconds()) ));\n        p.text(formatDate());\n        //p.text(new Date().toLocaleString());\n        }\n\n        function formatDate(){\n            var date = new Date(); var day = date.getDate(); var month = date.getMonth()+1; var year = date.getFullYear(); var hour = date.getHours(); var minutes = date.getMinutes();\n            if (month == 1) month = \"enero\"; if (month == 2) month = \"febrero\"; if (month == 3) month = \"marzo\"; if (month == 4) month = \"abril\"; if (month == 5) month = \"mayo\";\n            if (month == 6) month = \"junio\"; if (month == 7) month = \"julio\"; if (month == 8) month = \"agosto\"; if (month == 9) month = \"septiem.\"; if (month == 10) month = \"octubre\";\n            if (month == 11) month = \"noviem.\"; if (month == 12) month = \"diciem.\";\n            var stringdate = day + \" de \" + month + \" \" + year + \"; \" + hour + \":\" + (minutes < 10 ? (\"0\"+minutes) : minutes);\n            return stringdate;\n        }\n        \n        clockInterval = setInterval(displayTime, 10000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 5000);\n    });\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -19352,7 +19367,9 @@
             "84aaea45.62df68",
             "d7cd494c.1530b8",
             "e4b5dae8.60ec38",
-            "8c73338.8deb8d"
+            "8c73338.8deb8d",
+            "4f0f95d20ace4f11",
+            "7a5b3d3ed4c1fd60"
         ],
         "x": 315,
         "y": 60,
@@ -19410,7 +19427,8 @@
             "a70d3a96.909ad8",
             "6a0bf8d7.0890e8",
             "2e7398ab.9df698",
-            "34176071.91618"
+            "34176071.91618",
+            "051525e1e89317d0"
         ],
         "x": 595,
         "y": 60,
@@ -19451,16 +19469,13 @@
         "y": 80,
         "wires": [
             [
-                "fe313f3f60b02976",
-                "6db737c8.7e14b8"
+                "fe313f3f60b02976"
             ],
             [
-                "fe313f3f60b02976",
-                "6db737c8.7e14b8"
+                "fe313f3f60b02976"
             ],
             [
-                "fe313f3f60b02976",
-                "6db737c8.7e14b8"
+                "fe313f3f60b02976"
             ],
             [
                 "fe313f3f60b02976"
@@ -19476,9 +19491,10 @@
         "links": [
             "423ba16e.29911",
             "796231.bc704dd",
-            "16721766.34f389"
+            "16721766.34f389",
+            "cdc77e6065d8cd24"
         ],
-        "x": 1555,
+        "x": 1585,
         "y": 80,
         "wires": []
     },
@@ -19954,7 +19970,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://raspberrypi.local:1880/swcpro-images/ESP.png\" style=\"width:80%;\">\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            </div>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://aic.local:1880/swcpro-images/ESP.png\" style=\"width:80%;\">\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            </div>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 450,
         "y": 100,
@@ -19971,7 +19987,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://raspberrypi.local:1880/swcpro-images/PCP.png\" style=\"width:78%;\">\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            </div>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://aic.local:1880/swcpro-images/PCP.png\" style=\"width:78%;\">\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            </div>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 450,
         "y": 140,
@@ -20225,7 +20241,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://raspberrypi.local:1880/swcpro-images/UNDEFINED.png\" style=\"width:80%;\">\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            </div>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://aic.local:1880/swcpro-images/UNDEFINED.png\" style=\"width:80%;\">\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            </div>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 460,
         "y": 180,
@@ -21111,22 +21127,6 @@
         ]
     },
     {
-        "id": "f8bc6dff.92188",
-        "type": "link in",
-        "z": "827787d0.ede678",
-        "name": "",
-        "links": [
-            "d771570222095b31"
-        ],
-        "x": 175,
-        "y": 1220,
-        "wires": [
-            [
-                "8502d720.bffb98"
-            ]
-        ]
-    },
-    {
         "id": "16721766.34f389",
         "type": "link in",
         "z": "827787d0.ede678",
@@ -21194,35 +21194,6 @@
         ]
     },
     {
-        "id": "6db737c8.7e14b8",
-        "type": "change",
-        "z": "827787d0.ede678",
-        "g": "eb91dac5.690838",
-        "name": "clear",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 990,
-        "y": 240,
-        "wires": [
-            [
-                "2ffa7be0.763644",
-                "2066be8e.5c6832"
-            ]
-        ]
-    },
-    {
         "id": "8848fdb4.e1147",
         "type": "debug",
         "z": "827787d0.ede678",
@@ -21236,7 +21207,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1480,
+        "x": 1430,
         "y": 200,
         "wires": []
     },
@@ -21253,7 +21224,7 @@
         "y": 80,
         "wires": [
             [
-                "28cd79fb.3dcae6"
+                "0d5664d2170d33af"
             ]
         ]
     },
@@ -21324,7 +21295,7 @@
         "g": "73df5953.fc56e8",
         "group": "c5f05af1.a4c158",
         "name": "",
-        "order": 3,
+        "order": 10,
         "width": "1",
         "height": "1",
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
@@ -21373,30 +21344,13 @@
         ]
     },
     {
-        "id": "e4b5dae8.60ec38",
-        "type": "link in",
-        "z": "a70735f4.fb54d8",
-        "g": "73df5953.fc56e8",
-        "name": "",
-        "links": [
-            "d771570222095b31"
-        ],
-        "x": 435,
-        "y": 60,
-        "wires": [
-            [
-                "e79f92cb.051d2"
-            ]
-        ]
-    },
-    {
         "id": "e79f92cb.051d2",
         "type": "delay",
         "z": "a70735f4.fb54d8",
         "g": "73df5953.fc56e8",
         "name": "",
         "pauseType": "delay",
-        "timeout": "20",
+        "timeout": "24",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -21405,35 +21359,13 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "allowrate": false,
         "x": 540,
         "y": 60,
         "wires": [
             [
-                "8f998740.76cd68"
-            ]
-        ]
-    },
-    {
-        "id": "8502d720.bffb98",
-        "type": "delay",
-        "z": "827787d0.ede678",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "20",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 280,
-        "y": 1220,
-        "wires": [
-            [
-                "65bcc8cd5160b708",
-                "483fc445.43bcfc"
+                "132057c336636b15",
+                "a4ad7aa3ddaa4d48"
             ]
         ]
     },
@@ -21574,7 +21506,7 @@
         "g": "abb738cb.8ddee8",
         "name": "",
         "events": "all",
-        "x": 900,
+        "x": 470,
         "y": 860,
         "wires": [
             []
@@ -21600,7 +21532,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
+        "x": 290,
         "y": 860,
         "wires": [
             [
@@ -21626,11 +21558,671 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 560,
+        "x": 130,
         "y": 860,
         "wires": [
             [
                 "95f4a6d3.f04848"
+            ]
+        ]
+    },
+    {
+        "id": "5514b78d001cbc1f",
+        "type": "udp in",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "",
+        "iface": "",
+        "port": "5506",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "utf8",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "d606cc2eb82614c4"
+            ]
+        ]
+    },
+    {
+        "id": "1631872f41b735e9",
+        "type": "debug",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 400,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d606cc2eb82614c4",
+        "type": "rbe",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 240,
+        "y": 60,
+        "wires": [
+            [
+                "1631872f41b735e9",
+                "849943e135a62c23"
+            ]
+        ]
+    },
+    {
+        "id": "849943e135a62c23",
+        "type": "switch",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "launching",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "launching",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "e79f92cb.051d2"
+            ]
+        ]
+    },
+    {
+        "id": "132057c336636b15",
+        "type": "link out",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "",
+        "links": [
+            "bcf9dc7916d17420",
+            "1344be01232a7469"
+        ],
+        "x": 645,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "1344be01232a7469",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "name": "",
+        "links": [
+            "132057c336636b15"
+        ],
+        "x": 175,
+        "y": 1220,
+        "wires": [
+            [
+                "65bcc8cd5160b708",
+                "dfb489f4.c2aa88"
+            ]
+        ]
+    },
+    {
+        "id": "97dbd993419dd9ea",
+        "type": "udp out",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "addr": "192.168.2.4",
+        "iface": "",
+        "port": "5505",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 310,
+        "y": 830,
+        "wires": []
+    },
+    {
+        "id": "0bff3fdc273f8d22",
+        "type": "inject",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "payload": "Inicializar",
+        "payloadType": "str",
+        "x": 120,
+        "y": 830,
+        "wires": [
+            [
+                "6c5f583711cd5123",
+                "97dbd993419dd9ea"
+            ]
+        ]
+    },
+    {
+        "id": "6c5f583711cd5123",
+        "type": "debug",
+        "z": "a70735f4.fb54d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 280,
+        "y": 870,
+        "wires": []
+    },
+    {
+        "id": "a4ad7aa3ddaa4d48",
+        "type": "delay",
+        "z": "a70735f4.fb54d8",
+        "g": "73df5953.fc56e8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 700,
+        "y": 60,
+        "wires": [
+            [
+                "8f998740.76cd68"
+            ]
+        ]
+    },
+    {
+        "id": "4f0f95d20ace4f11",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "b710a90e.0dd388",
+        "name": "",
+        "links": [
+            "d771570222095b31"
+        ],
+        "x": 85,
+        "y": 550,
+        "wires": [
+            [
+                "eb8a1dd1dcdda232"
+            ]
+        ]
+    },
+    {
+        "id": "eb8a1dd1dcdda232",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "g": "b710a90e.0dd388",
+        "name": "disabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 550,
+        "wires": [
+            [
+                "1acb0c29.0ddee4"
+            ]
+        ]
+    },
+    {
+        "id": "d5b68383e0fa3ac5",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "g": "dbdbcfdd.62eb8",
+        "name": "disabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 710,
+        "wires": [
+            [
+                "64748d27.b27004",
+                "26c5e6f4.5cc1fa",
+                "2526682.c405998"
+            ]
+        ]
+    },
+    {
+        "id": "7a5b3d3ed4c1fd60",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "dbdbcfdd.62eb8",
+        "name": "",
+        "links": [
+            "d771570222095b31"
+        ],
+        "x": 85,
+        "y": 710,
+        "wires": [
+            [
+                "d5b68383e0fa3ac5"
+            ]
+        ]
+    },
+    {
+        "id": "830976eab8f4f381",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "b710a90e.0dd388",
+        "name": "",
+        "links": [
+            "e2dddcc8.8c593"
+        ],
+        "x": 85,
+        "y": 510,
+        "wires": [
+            [
+                "73a0e10d206dda45"
+            ]
+        ]
+    },
+    {
+        "id": "73a0e10d206dda45",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "g": "b710a90e.0dd388",
+        "name": "enabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 510,
+        "wires": [
+            [
+                "1acb0c29.0ddee4"
+            ]
+        ]
+    },
+    {
+        "id": "6d798de8bb5871d5",
+        "type": "change",
+        "z": "e997ba3b.48cc18",
+        "g": "dbdbcfdd.62eb8",
+        "name": "enabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 670,
+        "wires": [
+            [
+                "64748d27.b27004",
+                "26c5e6f4.5cc1fa",
+                "2526682.c405998"
+            ]
+        ]
+    },
+    {
+        "id": "c67e67947dd0aea4",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "dbdbcfdd.62eb8",
+        "name": "",
+        "links": [
+            "e2dddcc8.8c593"
+        ],
+        "x": 85,
+        "y": 670,
+        "wires": [
+            [
+                "6d798de8bb5871d5"
+            ]
+        ]
+    },
+    {
+        "id": "f03411361a645322",
+        "type": "switch",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "Pantalla",
+        "property": "#:(memoryOnly)::Navegacion.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Usuarios",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 280,
+        "y": 210,
+        "wires": [
+            [
+                "58426603e53c70fa"
+            ]
+        ]
+    },
+    {
+        "id": "4b17751ebc57a5ed",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "disabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 210,
+        "wires": [
+            [
+                "28cd79fb.3dcae6"
+            ]
+        ]
+    },
+    {
+        "id": "748f4101adbefe46",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "enabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 170,
+        "wires": [
+            [
+                "e04fbd1c.98ffe"
+            ]
+        ]
+    },
+    {
+        "id": "58426603e53c70fa",
+        "type": "switch",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "userstatus",
+        "property": "#:(memoryOnly)::UserStatus",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 440,
+        "y": 210,
+        "wires": [
+            [
+                "748f4101adbefe46",
+                "4b17751ebc57a5ed"
+            ],
+            [
+                "d743caff7b4eb7ea",
+                "9ec90bcb541a6450"
+            ]
+        ]
+    },
+    {
+        "id": "d743caff7b4eb7ea",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "enabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "28cd79fb.3dcae6"
+            ]
+        ]
+    },
+    {
+        "id": "9ec90bcb541a6450",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "disabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 300,
+        "wires": [
+            [
+                "e04fbd1c.98ffe"
+            ]
+        ]
+    },
+    {
+        "id": "d32ed91c1441b056",
+        "type": "inject",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Close",
+        "payloadType": "str",
+        "x": 470,
+        "y": 80,
+        "wires": [
+            [
+                "3a348318.fe982c"
+            ]
+        ]
+    },
+    {
+        "id": "0d5664d2170d33af",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Cerrar sesión",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 100,
+        "wires": [
+            [
+                "df6fb5ca.5f8af8",
+                "6db737c8.7e14b8"
+            ]
+        ]
+    },
+    {
+        "id": "cdc77e6065d8cd24",
+        "type": "link in",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "links": [
+            "fe313f3f60b02976"
+        ],
+        "x": 325,
+        "y": 270,
+        "wires": [
+            [
+                "58426603e53c70fa"
+            ]
+        ]
+    },
+    {
+        "id": "6db737c8.7e14b8",
+        "type": "change",
+        "z": "827787d0.ede678",
+        "g": "eb91dac5.690838",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 210,
+        "wires": [
+            [
+                "2ffa7be0.763644",
+                "2066be8e.5c6832"
             ]
         ]
     }
