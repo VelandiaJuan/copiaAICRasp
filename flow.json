@@ -574,9 +574,7 @@
             "de4e0f41.31db"
         ],
         "x": 34,
-        "y": 19,
-        "w": 952,
-        "h": 202
+        "y": 19
     },
     {
         "id": "ced3da32.aec848",
@@ -599,9 +597,7 @@
             "34176071.91618"
         ],
         "x": 34,
-        "y": 239,
-        "w": 692,
-        "h": 82
+        "y": 239
     },
     {
         "id": "73a228cd.9d45d8",
@@ -625,9 +621,7 @@
             "e2dddcc8.8c593"
         ],
         "x": 24,
-        "y": 9,
-        "w": 722,
-        "h": 122
+        "y": 9
     },
     {
         "id": "2f18e23b.de32ce",
@@ -647,9 +641,7 @@
             "dbdbcfdd.62eb8"
         ],
         "x": 18,
-        "y": 443,
-        "w": 924,
-        "h": 354
+        "y": 443
     },
     {
         "id": "7b6f4b41.106164",
@@ -689,12 +681,14 @@
             "88ac83a3.561a3",
             "9ce98c30.594c6",
             "d43fb27a.273b3",
-            "952a36cb.eb5738",
             "941040e3.a0af",
-            "c550977af6059634"
+            "eea2d73aee775691",
+            "fd6e80029bee60cb"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 722,
+        "h": 312
     },
     {
         "id": "c58d9126.1869c",
@@ -738,9 +732,7 @@
             "c4b00d9d.c758e"
         ],
         "x": 34,
-        "y": 139,
-        "w": 692,
-        "h": 82
+        "y": 139
     },
     {
         "id": "89dd768a.673f58",
@@ -767,9 +759,7 @@
             "6e6e936e.a9934c"
         ],
         "x": 34,
-        "y": 239,
-        "w": 912,
-        "h": 162
+        "y": 239
     },
     {
         "id": "a0798509.56f3c8",
@@ -1059,9 +1049,7 @@
             "57ede147.60f24"
         ],
         "x": 14,
-        "y": 159,
-        "w": 612,
-        "h": 402
+        "y": 159
     },
     {
         "id": "2460c5857e335b2a",
@@ -1076,9 +1064,7 @@
             "bb4f0d3ff3b1228d"
         ],
         "x": 374,
-        "y": 19,
-        "w": 262,
-        "h": 82
+        "y": 19
     },
     {
         "id": "4b365b01ccda0f75",
@@ -1098,14 +1084,11 @@
             "abe44c2992cd1a70",
             "fcdb7af2.876b28",
             "49d618a2.f49ef8",
-            "51a9c959.c7eb58",
             "aaacd5e7.c46048",
             "fb2c57dc.220888"
         ],
         "x": 634,
-        "y": 579,
-        "w": 652,
-        "h": 402
+        "y": 579
     },
     {
         "id": "4e67a9385d518b82",
@@ -1130,9 +1113,7 @@
             "92f1c259.a4c0e"
         ],
         "x": 14,
-        "y": 579,
-        "w": 612,
-        "h": 402
+        "y": 579
     },
     {
         "id": "b6605ce64abd18da",
@@ -1157,9 +1138,7 @@
             "a70d3a96.909ad8"
         ],
         "x": 1294,
-        "y": 579,
-        "w": 672,
-        "h": 402
+        "y": 579
     },
     {
         "id": "bda7f263f6acaf86",
@@ -1175,9 +1154,7 @@
             "1bb5c8ea1d0c0d92"
         ],
         "x": 14,
-        "y": 19,
-        "w": 342,
-        "h": 122
+        "y": 19
     },
     {
         "id": "da4321a277ed136b",
@@ -1202,9 +1179,7 @@
             "489679e0.836f98"
         ],
         "x": 1294,
-        "y": 159,
-        "w": 672,
-        "h": 402
+        "y": 159
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1229,9 +1204,7 @@
             "f4884d0f.b1f14"
         ],
         "x": 634,
-        "y": 159,
-        "w": 652,
-        "h": 402
+        "y": 159
     },
     {
         "id": "7fbb2051.f9a34",
@@ -1248,9 +1221,7 @@
             "91d3e80e.c03918"
         ],
         "x": 654,
-        "y": 19,
-        "w": 542,
-        "h": 122
+        "y": 19
     },
     {
         "id": "75f31187.e0b7f",
@@ -1271,9 +1242,7 @@
             "7e72fdf0.07cc44"
         ],
         "x": 14,
-        "y": 999,
-        "w": 622,
-        "h": 162
+        "y": 999
     },
     {
         "id": "abb738cb.8ddee8",
@@ -1289,9 +1258,79 @@
             "38326b9.ab69394"
         ],
         "x": 34,
-        "y": 819,
-        "w": 522,
-        "h": 82
+        "y": 819
+    },
+    {
+        "id": "59aef1108925738c",
+        "type": "group",
+        "z": "f10e7ce.d57828",
+        "name": "Estado de Leds por alarmas de presion en Manifold",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "33df38cfcbab690d",
+            "902bdb9fc38ee480",
+            "1967b67b90c5ed74",
+            "3c0937a85ac4d1e7",
+            "a28d437884442542",
+            "f6e8c5d9530a08e4",
+            "d0f1797b6dc30340",
+            "aafb59beaa98e8d2",
+            "ccce3b3183ef7ef5",
+            "513cd77bc2137523",
+            "11a0c7f5e9e0c63f",
+            "a9b30f8809736982",
+            "95e0abaa4d3807d6",
+            "2cb852cbf849386f",
+            "3b254fd384186695",
+            "538d4bc1eb3f4112",
+            "eb14c9e48c987286",
+            "289a225e8f344048",
+            "d367b4e8c206e88f",
+            "9d6b734a60d53a67",
+            "c286da531abb17d2",
+            "1cb75c52b5292adc",
+            "99ada7f4d2d0da6c",
+            "b691ef5594b3350f",
+            "aa0ef88b6e72d839",
+            "841b494079132fd9",
+            "7aed5c4b58e25e2a",
+            "f3a8afa0d7f89adc",
+            "fb19e69761871bb6",
+            "c8e72f83fb835279",
+            "55ead77e1a545c0a",
+            "407a92d7f024b967",
+            "c61015bedb03a32c",
+            "591f13bfb212e712",
+            "06be29fcb8bed08a",
+            "2f9fa4276e2933c0",
+            "7274aa81632ed36e",
+            "fdffb3c943f485c5",
+            "15861bfc0af48cd3",
+            "fd74dbeeaeae745f",
+            "19c4771cd0cbbb0b",
+            "edb828b8cfc9d5d6",
+            "6bc0dce5c59a0bf9",
+            "e8132ddfc9d36e8e",
+            "43664a9a936cab15",
+            "ede8d7320ea2ceef",
+            "99363858a71684ce",
+            "9e58d1c2188f0595",
+            "0d5dc907595b3d5f",
+            "bab449013b35a696",
+            "c1dd1240b9164d47",
+            "f034ade4d9c2d1d4",
+            "5dfeb4d8a2d9e5cd",
+            "d7bde738548f8f62",
+            "efe916c8c883d252",
+            "1cf70bcb1da5e9f7",
+            "db91ab0ef025c9e2"
+        ],
+        "x": 394,
+        "y": 1059,
+        "w": 1482,
+        "h": 522
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -1382,9 +1421,7 @@
             "73a0e10d206dda45"
         ],
         "x": 44,
-        "y": 469,
-        "w": 672,
-        "h": 122
+        "y": 469
     },
     {
         "id": "11f55817.139c18",
@@ -1523,9 +1560,7 @@
             "c67e67947dd0aea4"
         ],
         "x": 44,
-        "y": 609,
-        "w": 872,
-        "h": 162
+        "y": 609
     },
     {
         "id": "a80677cf.4274c8",
@@ -5731,366 +5766,6 @@
         "height": 1
     },
     {
-        "id": "a00b93d2e424ac4e",
-        "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
-        "slot": "0",
-        "cycletime": "500",
-        "name": "Eventos",
-        "vartable": {
-            "": {
-                "EVENTOS_P01_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P01_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P02_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P03_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P04_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P05_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P06_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P07_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P08_Arranque_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_CambioProtSobrecargaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_CambioProtSobrecarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_CambioProtSubcarga_Remoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_CambioProtSubcarga_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_ResetRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_Reset_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_ParadaRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_Parada_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_CambioFrecuencia_Remota": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_Cambio_Frecuencia_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_Cambio_TiempoRefProlong_VIEW": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_ArranqueRemoto": {
-                    "type": "BOOL"
-                },
-                "EVENTOS_P09_Arranque_VIEW": {
-                    "type": "BOOL"
-                }
-            }
-        }
-    },
-    {
         "id": "15f69da2533413eb",
         "type": "eth-ip endpoint",
         "address": "192.168.2.11",
@@ -7298,6 +6973,145 @@
         "height": 1
     },
     {
+        "id": "d3a6ac1024bb182d",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.11",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Shutdown",
+        "vartable": {
+            "": {
+                "Tiempo_Disparo_YY": {
+                    "type": "DINT"
+                },
+                "Tiempo_Disparo_YY_2": {
+                    "type": "DINT"
+                },
+                "Tiempo_Disparo_YY_3": {
+                    "type": "DINT"
+                },
+                "TON_RECUPERACION": {
+                    "type": "DINT"
+                },
+                "RESET_DISPARO": {
+                    "type": "BOOL"
+                },
+                "HABILITAR_PIT_HH": {
+                    "type": "BOOL"
+                },
+                "HABILITAR_PIT_H": {
+                    "type": "BOOL"
+                },
+                "HABILITAR_PIT_L": {
+                    "type": "BOOL"
+                },
+                "HABILITAR_PIT_LL": {
+                    "type": "BOOL"
+                },
+                "VALOR_INGRESADO_PIT_HH_HMI": {
+                    "type": "REAL"
+                },
+                "VALOR_INGRESADO_PIT_H_HMI": {
+                    "type": "REAL"
+                },
+                "VALOR_INGRESADO_PIT_L_HMI": {
+                    "type": "REAL"
+                },
+                "VALOR_INGRESADO_PIT_LL_HMI": {
+                    "type": "REAL"
+                }
+            }
+        }
+    },
+    {
+        "id": "de2b86608c937305",
+        "type": "ui_group",
+        "name": "ESTADO DE PRESIÓN EN MANIFOLD",
+        "tab": "6a3fd4b.86cdb2c",
+        "order": 5,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "57f1d7d046a4b187",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.11",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Estatus Shutdown",
+        "vartable": {
+            "": {
+                "TON_1.DN": {
+                    "type": "BOOL"
+                },
+                "TON_2.DN": {
+                    "type": "BOOL"
+                },
+                "TON_3.DN": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_HS_101.DI": {
+                    "type": "BOOL"
+                },
+                "PERMISIVO.UPS_Comunicando": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_PZIT_101.AlmLL": {
+                    "type": "BOOL"
+                },
+                "PERMISIVO_COMUNICACIONES": {
+                    "type": "BOOL"
+                },
+                "PERMISIVO.UPS_Bateria_Cargada": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_PZIT_101.TimerAlarmHH.DN": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_PZIT_101.TimerAlarmH.DN": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_PZIT_101.TimerAlarmL.DN": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_PZIT_101.TimerAlarmLL.DN": {
+                    "type": "BOOL"
+                },
+                "RUB_CL001_110_PZIT_101.DeviceFail": {
+                    "type": "BOOL"
+                },
+                "CLUSTER.INST_MNF.FIT_Dev_Stat": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
+        "id": "a00b93d2e424ac4e",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.11",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Eventos",
+        "vartable": {
+            "": {
+                "EVENTOS_W01.Act_Ref_prol_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_W02.Act_Ref_prol_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_W03.Act_Ref_prol_Remoto": {
+                    "type": "BOOL"
+                },
+                "EVENTOS_W04.Act_Ref_prol_Remoto": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
         "id": "e73d17ea.0c5538",
         "type": "template",
         "z": "18e29a89.99dbb5",
@@ -8094,7 +7908,7 @@
         "duration": "10",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "hr",
         "reset": "reset",
         "bytopic": "all",
         "topic": "topic",
@@ -10697,7 +10511,11 @@
         "links": [
             "6d40adaa.11d2c4",
             "88c1a42d.f4a528",
-            "2b7f6e0d67c977a9"
+            "2b7f6e0d67c977a9",
+            "edb828b8cfc9d5d6",
+            "efe916c8c883d252",
+            "1cf70bcb1da5e9f7",
+            "db91ab0ef025c9e2"
         ],
         "x": 365,
         "y": 80,
@@ -11149,7 +10967,11 @@
             "4e8f42ac.3431ac",
             "c099945b.08bf98",
             "5c324370.33dadc",
-            "f186c67c61d39f03"
+            "f186c67c61d39f03",
+            "2cb852cbf849386f",
+            "1cb75c52b5292adc",
+            "7aed5c4b58e25e2a",
+            "407a92d7f024b967"
         ],
         "x": 1265,
         "y": 80,
@@ -12014,7 +11836,8 @@
         "y": 70,
         "wires": [
             [
-                "26433f36.0b2a"
+                "26433f36.0b2a",
+                "d4786a2e0fb3e171"
             ]
         ]
     },
@@ -12027,7 +11850,8 @@
         "y": 110,
         "wires": [
             [
-                "eb6487da.4cc148"
+                "eb6487da.4cc148",
+                "11532b30efceb4da"
             ]
         ]
     },
@@ -12040,7 +11864,8 @@
         "y": 150,
         "wires": [
             [
-                "b117fac5.2ceca8"
+                "b117fac5.2ceca8",
+                "9cf1e9053386b6a7"
             ]
         ]
     },
@@ -12053,7 +11878,8 @@
         "y": 190,
         "wires": [
             [
-                "a8805e10.ff9ac"
+                "a8805e10.ff9ac",
+                "335e6341be902c5f"
             ]
         ]
     },
@@ -12066,7 +11892,8 @@
         "y": 230,
         "wires": [
             [
-                "16fcfb0f.84a625"
+                "16fcfb0f.84a625",
+                "9642b482e1d284f7"
             ]
         ]
     },
@@ -12079,7 +11906,8 @@
         "y": 270,
         "wires": [
             [
-                "5315807d.21e8b"
+                "5315807d.21e8b",
+                "40e3c601d116d8ea"
             ]
         ]
     },
@@ -12092,7 +11920,8 @@
         "y": 310,
         "wires": [
             [
-                "921cfaa1.d93a18"
+                "921cfaa1.d93a18",
+                "c96ff7dbb77697d4"
             ]
         ]
     },
@@ -12105,7 +11934,8 @@
         "y": 350,
         "wires": [
             [
-                "bdea598e.e672c8"
+                "bdea598e.e672c8",
+                "23a11132269052f4"
             ]
         ]
     },
@@ -12118,7 +11948,8 @@
         "y": 390,
         "wires": [
             [
-                "60782f0e.b5513"
+                "60782f0e.b5513",
+                "50b132afc0cc64c4"
             ]
         ]
     },
@@ -14701,11 +14532,12 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 570,
-        "y": 550,
+        "x": 600,
+        "y": 820,
         "wires": [
             [
-                "cc948320a076185b"
+                "cc948320a076185b",
+                "af917ed23cdcfc3e"
             ]
         ]
     },
@@ -14727,8 +14559,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 490,
-        "y": 790,
+        "x": 360,
+        "y": 990,
         "wires": [
             []
         ]
@@ -14903,32 +14735,6 @@
         "x": 490,
         "y": 150,
         "wires": []
-    },
-    {
-        "id": "952a36cb.eb5738",
-        "type": "change",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "#:(memoryOnly)::DATA_CL_temp_SCC",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 300,
-        "y": 100,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "941040e3.a0af",
@@ -16468,43 +16274,6 @@
         ]
     },
     {
-        "id": "81d9a00531554122",
-        "type": "eth-ip in",
-        "z": "242bc9a6.f9b016",
-        "endpoint": "a00b93d2e424ac4e",
-        "mode": "all",
-        "variable": "",
-        "program": "",
-        "name": "",
-        "x": 90,
-        "y": 310,
-        "wires": [
-            [
-                "ae1fee072e1ead94"
-            ]
-        ]
-    },
-    {
-        "id": "ae1fee072e1ead94",
-        "type": "function",
-        "z": "242bc9a6.f9b016",
-        "name": "Eventos",
-        "func": "var keys        = Object.keys(msg.payload);\nvar values      = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\")||[];\n\nfor (var i = 0; i < keys.length; i+=1){\n    if (values[i] && prevValue[i]!== values[i]){\n        keys[i].replace(\"EVENTOS_\", \"_\");\n        msg.payload = keys[i];\n        msg.sts     = values[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 220,
-        "y": 310,
-        "wires": [
-            [
-                "2b7f6e0d67c977a9",
-                "b31cc01e5f203fb5"
-            ]
-        ]
-    },
-    {
         "id": "2b7f6e0d67c977a9",
         "type": "link out",
         "z": "242bc9a6.f9b016",
@@ -16512,7 +16281,7 @@
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 315,
+        "x": 325,
         "y": 310,
         "wires": []
     },
@@ -17056,6 +16825,7 @@
         "id": "cc948320a076185b",
         "type": "function",
         "z": "f10e7ce.d57828",
+        "d": true,
         "name": "flow to global",
         "func": "var Manifold = {...flow.get(\"Manifold\")}\nglobal.set(\"Manifold\", Manifold);\nreturn msg;",
         "outputs": 1,
@@ -17063,8 +16833,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 550,
+        "x": 780,
+        "y": 730,
         "wires": [
             []
         ]
@@ -18601,49 +18371,6 @@
         ]
     },
     {
-        "id": "5d580a3ade09bc2a",
-        "type": "link in",
-        "z": "75f74480.41235c",
-        "name": "",
-        "links": [
-            "0bea077dd52f0325"
-        ],
-        "x": 105,
-        "y": 180,
-        "wires": [
-            [
-                "9d63ab44868ad170",
-                "b9c80d3b8af7c30e",
-                "b058e14902495e3a",
-                "ef6e836c576663ee",
-                "d58d1c57851301f4",
-                "96331d5b05c57b03",
-                "afae1f73e6bb4a4f",
-                "7b2d989ed98766dc",
-                "aaf1518c93fcd48b"
-            ]
-        ]
-    },
-    {
-        "id": "c550977af6059634",
-        "type": "link in",
-        "z": "612ddf44.816d7",
-        "g": "3383e29e.9b29fe",
-        "name": "",
-        "links": [
-            "9edb05fa97916009"
-        ],
-        "x": 55,
-        "y": 220,
-        "wires": [
-            [
-                "941040e3.a0af",
-                "88ac83a3.561a3",
-                "952a36cb.eb5738"
-            ]
-        ]
-    },
-    {
         "id": "1d7786b655969182",
         "type": "link in",
         "z": "8d6d8b52.723518",
@@ -19398,7 +19125,9 @@
             "c764fc265b3ad273",
             "0f5035d1683b4be8",
             "d468ea026ad9b844",
-            "e5a6c5fa49339c62"
+            "e5a6c5fa49339c62",
+            "cc3617474ff6f996",
+            "eea2d73aee775691"
         ],
         "x": 595,
         "y": 60,
@@ -22498,6 +22227,1984 @@
         "wires": [
             [
                 "be8dd0f7b0135422"
+            ]
+        ]
+    },
+    {
+        "id": "af917ed23cdcfc3e",
+        "type": "function",
+        "z": "f10e7ce.d57828",
+        "name": "",
+        "func": "var Habilitar_PIT_HH    = flow.get(\"Manifold.Enable.HH\")||false;\nvar Habilitar_PIT_H     = flow.get(\"Manifold.Enable.H\")||false;\nvar Habilitar_PIT_L     = flow.get(\"Manifold.Enable.L\")||false;\nvar Habilitar_PIT_LL    = flow.get(\"Manifold.Enable.LL\")||false;\nvar Valor_PIT_HH        = flow.get(\"Manifold.HH\")||0;\nvar Valor_PIT_H         = flow.get(\"Manifold.H\")||0;\nvar Valor_PIT_L         = flow.get(\"Manifold.L\")||0;\nvar Valor_PIT_LL        = flow.get(\"Manifold.LL\")||0;\n\nvar msg0 = { payload: Habilitar_PIT_HH }\nvar msg1 = { payload: Habilitar_PIT_H }\nvar msg2 = { payload: Habilitar_PIT_L }\nvar msg3 = { payload: Habilitar_PIT_LL}\n\nvar msg4 = { payload: Valor_PIT_HH }\nvar msg5 = { payload: Valor_PIT_H }\nvar msg6 = { payload: Valor_PIT_L }\nvar msg7 = { payload: Valor_PIT_LL }\n\nreturn [msg0, msg1, msg2, msg3, msg4, msg5, msg6, msg7]\n\nreturn [msg0, msg1, msg2, msg3];",
+        "outputs": 8,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 820,
+        "wires": [
+            [
+                "23ffb5eda298bcff"
+            ],
+            [
+                "5191c9f8b0883c24"
+            ],
+            [
+                "52cb60edec8c3b2b"
+            ],
+            [
+                "b7635da86a4660b3"
+            ],
+            [
+                "a16a48384e3f38dd"
+            ],
+            [
+                "44e6ef93f1a27458"
+            ],
+            [
+                "79d7a71622c61ad5"
+            ],
+            [
+                "db8a2cdc8a7c8fb0"
+            ]
+        ]
+    },
+    {
+        "id": "23ffb5eda298bcff",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "HABILITAR_PIT_HH",
+        "program": "",
+        "name": "",
+        "x": 1010,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "5191c9f8b0883c24",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "HABILITAR_PIT_H",
+        "program": "",
+        "name": "",
+        "x": 1000,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "52cb60edec8c3b2b",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "HABILITAR_PIT_L",
+        "program": "",
+        "name": "",
+        "x": 1000,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "b7635da86a4660b3",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "HABILITAR_PIT_LL",
+        "program": "",
+        "name": "",
+        "x": 1010,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "a16a48384e3f38dd",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "VALOR_INGRESADO_PIT_HH_HMI",
+        "program": "",
+        "name": "",
+        "x": 1060,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "44e6ef93f1a27458",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "VALOR_INGRESADO_PIT_H_HMI",
+        "program": "",
+        "name": "",
+        "x": 1050,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "79d7a71622c61ad5",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "VALOR_INGRESADO_PIT_L_HMI",
+        "program": "",
+        "name": "",
+        "x": 1050,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "db8a2cdc8a7c8fb0",
+        "type": "eth-ip out",
+        "z": "f10e7ce.d57828",
+        "endpoint": "d3a6ac1024bb182d",
+        "variable": "VALOR_INGRESADO_PIT_LL_HMI",
+        "program": "",
+        "name": "",
+        "x": 1060,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "33df38cfcbab690d",
+        "type": "ui_led",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "group": "de2b86608c937305",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "label": "Estado HH presión presión en manifold",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Estado HH presión en manifold",
+        "x": 930,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "902bdb9fc38ee480",
+        "type": "ui_led",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "group": "de2b86608c937305",
+        "order": 3,
+        "width": "12",
+        "height": "1",
+        "label": "Estado H presión en manifold",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Estado H presión en manifold",
+        "x": 930,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "1967b67b90c5ed74",
+        "type": "ui_led",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "group": "de2b86608c937305",
+        "order": 4,
+        "width": "12",
+        "height": "1",
+        "label": "Estado L presión en manifold",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Estado L presión en manifold",
+        "x": 920,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "3c0937a85ac4d1e7",
+        "type": "ui_led",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "group": "de2b86608c937305",
+        "order": 2,
+        "width": "12",
+        "height": "1",
+        "label": "Estado LL presión en manifold",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Estado LL presión en manifold",
+        "x": 930,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "a28d437884442542",
+        "type": "eth-ip in",
+        "z": "f10e7ce.d57828",
+        "d": true,
+        "g": "59aef1108925738c",
+        "endpoint": "57f1d7d046a4b187",
+        "mode": "single",
+        "variable": "RUB_CL001_110_PZIT_101.TimerAlarmHH.DN",
+        "program": "",
+        "name": "Activación HH Manifold",
+        "x": 520,
+        "y": 1120,
+        "wires": [
+            [
+                "ccce3b3183ef7ef5",
+                "591f13bfb212e712"
+            ]
+        ]
+    },
+    {
+        "id": "f6e8c5d9530a08e4",
+        "type": "eth-ip in",
+        "z": "f10e7ce.d57828",
+        "d": true,
+        "g": "59aef1108925738c",
+        "endpoint": "57f1d7d046a4b187",
+        "mode": "single",
+        "variable": "RUB_CL001_110_PZIT_101.TimerAlarmH.DN",
+        "program": "",
+        "name": "Activación H Manifold",
+        "x": 520,
+        "y": 1240,
+        "wires": [
+            [
+                "3b254fd384186695",
+                "06be29fcb8bed08a"
+            ]
+        ]
+    },
+    {
+        "id": "d0f1797b6dc30340",
+        "type": "eth-ip in",
+        "z": "f10e7ce.d57828",
+        "d": true,
+        "g": "59aef1108925738c",
+        "endpoint": "57f1d7d046a4b187",
+        "mode": "single",
+        "variable": "RUB_CL001_110_PZIT_101.TimerAlarmL.DN",
+        "program": "",
+        "name": "Activación L Manifold",
+        "x": 520,
+        "y": 1360,
+        "wires": [
+            [
+                "538d4bc1eb3f4112",
+                "2f9fa4276e2933c0"
+            ]
+        ]
+    },
+    {
+        "id": "aafb59beaa98e8d2",
+        "type": "eth-ip in",
+        "z": "f10e7ce.d57828",
+        "d": true,
+        "g": "59aef1108925738c",
+        "endpoint": "57f1d7d046a4b187",
+        "mode": "single",
+        "variable": "RUB_CL001_110_PZIT_101.TimerAlarmLL.DN",
+        "program": "",
+        "name": "Activación LL Manifold",
+        "x": 520,
+        "y": 1480,
+        "wires": [
+            [
+                "eb14c9e48c987286",
+                "7274aa81632ed36e"
+            ]
+        ]
+    },
+    {
+        "id": "ccce3b3183ef7ef5",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "LED HH ON",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 1100,
+        "wires": [
+            [
+                "33df38cfcbab690d"
+            ]
+        ]
+    },
+    {
+        "id": "513cd77bc2137523",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT HH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold HH es mayor a la configurada, por favor verificar el estado de la presión",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1140,
+        "wires": [
+            [
+                "11a0c7f5e9e0c63f"
+            ]
+        ]
+    },
+    {
+        "id": "11a0c7f5e9e0c63f",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1140,
+        "wires": [
+            [
+                "a9b30f8809736982"
+            ]
+        ]
+    },
+    {
+        "id": "a9b30f8809736982",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1140,
+        "wires": [
+            [
+                "95e0abaa4d3807d6"
+            ]
+        ]
+    },
+    {
+        "id": "95e0abaa4d3807d6",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Alarma por HH PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alarma por presión HH en manifold, supera el límite establecido",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ALARMA PRESION HH EN MANIFOLD!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 1140,
+        "wires": [
+            [
+                "2cb852cbf849386f",
+                "c61015bedb03a32c"
+            ]
+        ]
+    },
+    {
+        "id": "2cb852cbf849386f",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "33f2aa3c.6c08f6"
+        ],
+        "x": 1575,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "3b254fd384186695",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "LED H ON",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 1220,
+        "wires": [
+            [
+                "902bdb9fc38ee480"
+            ]
+        ]
+    },
+    {
+        "id": "538d4bc1eb3f4112",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "LED L ON",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 1340,
+        "wires": [
+            [
+                "1967b67b90c5ed74"
+            ]
+        ]
+    },
+    {
+        "id": "eb14c9e48c987286",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "LED LL ON",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación manifold",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 1460,
+        "wires": [
+            [
+                "3c0937a85ac4d1e7"
+            ]
+        ]
+    },
+    {
+        "id": "289a225e8f344048",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT H",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold H es mayor a la configurada, por favor verificar el estado de la presión",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1260,
+        "wires": [
+            [
+                "d367b4e8c206e88f"
+            ]
+        ]
+    },
+    {
+        "id": "d367b4e8c206e88f",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1260,
+        "wires": [
+            [
+                "9d6b734a60d53a67"
+            ]
+        ]
+    },
+    {
+        "id": "9d6b734a60d53a67",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1260,
+        "wires": [
+            [
+                "c286da531abb17d2"
+            ]
+        ]
+    },
+    {
+        "id": "c286da531abb17d2",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Alarma por H PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alarma por presión H en manifold, supera el límite establecido",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ALARMA PRESION H EN MANIFOLD!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 1260,
+        "wires": [
+            [
+                "1cb75c52b5292adc",
+                "c61015bedb03a32c"
+            ]
+        ]
+    },
+    {
+        "id": "1cb75c52b5292adc",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "33f2aa3c.6c08f6"
+        ],
+        "x": 1575,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "99ada7f4d2d0da6c",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT L",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold L es mayor a la configurada, por favor verificar el estado de la presión",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1380,
+        "wires": [
+            [
+                "b691ef5594b3350f"
+            ]
+        ]
+    },
+    {
+        "id": "b691ef5594b3350f",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1380,
+        "wires": [
+            [
+                "aa0ef88b6e72d839"
+            ]
+        ]
+    },
+    {
+        "id": "aa0ef88b6e72d839",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1380,
+        "wires": [
+            [
+                "841b494079132fd9"
+            ]
+        ]
+    },
+    {
+        "id": "841b494079132fd9",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Alarma por L PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alarma por presión L en manifold, supera el límite establecido",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ALARMA PRESION L EN MANIFOLD!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1410,
+        "y": 1380,
+        "wires": [
+            [
+                "7aed5c4b58e25e2a",
+                "c61015bedb03a32c"
+            ]
+        ]
+    },
+    {
+        "id": "7aed5c4b58e25e2a",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "33f2aa3c.6c08f6"
+        ],
+        "x": 1575,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "f3a8afa0d7f89adc",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT LL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold LL es mayor a la configurada, por favor verificar el estado de la presión",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1500,
+        "wires": [
+            [
+                "fb19e69761871bb6"
+            ]
+        ]
+    },
+    {
+        "id": "fb19e69761871bb6",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1500,
+        "wires": [
+            [
+                "c8e72f83fb835279"
+            ]
+        ]
+    },
+    {
+        "id": "c8e72f83fb835279",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1500,
+        "wires": [
+            [
+                "55ead77e1a545c0a"
+            ]
+        ]
+    },
+    {
+        "id": "55ead77e1a545c0a",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Alarma por LL PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alarma por presión LL en manifold, supera el límite establecido",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ALARMA PRESION LL EN MANIFOLD!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 1500,
+        "wires": [
+            [
+                "407a92d7f024b967",
+                "c61015bedb03a32c"
+            ]
+        ]
+    },
+    {
+        "id": "407a92d7f024b967",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "33f2aa3c.6c08f6"
+        ],
+        "x": 1575,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "c61015bedb03a32c",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1760,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "591f13bfb212e712",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento HH",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 1160,
+        "wires": [
+            [
+                "513cd77bc2137523"
+            ],
+            [
+                "fdffb3c943f485c5"
+            ]
+        ]
+    },
+    {
+        "id": "06be29fcb8bed08a",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento H",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 1280,
+        "wires": [
+            [
+                "289a225e8f344048"
+            ],
+            [
+                "6bc0dce5c59a0bf9"
+            ]
+        ]
+    },
+    {
+        "id": "2f9fa4276e2933c0",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento L",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 1400,
+        "wires": [
+            [
+                "99ada7f4d2d0da6c"
+            ],
+            [
+                "99363858a71684ce"
+            ]
+        ]
+    },
+    {
+        "id": "7274aa81632ed36e",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento LL",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 1520,
+        "wires": [
+            [
+                "f3a8afa0d7f89adc"
+            ],
+            [
+                "c1dd1240b9164d47"
+            ]
+        ]
+    },
+    {
+        "id": "fdffb3c943f485c5",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT HH",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold HH normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1180,
+        "wires": [
+            [
+                "15861bfc0af48cd3"
+            ]
+        ]
+    },
+    {
+        "id": "15861bfc0af48cd3",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1180,
+        "wires": [
+            [
+                "fd74dbeeaeae745f"
+            ]
+        ]
+    },
+    {
+        "id": "fd74dbeeaeae745f",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1180,
+        "wires": [
+            [
+                "19c4771cd0cbbb0b"
+            ]
+        ]
+    },
+    {
+        "id": "19c4771cd0cbbb0b",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento por HH PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold HH normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": " PRESION HH EN MANIFOLD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 1180,
+        "wires": [
+            [
+                "edb828b8cfc9d5d6",
+                "c61015bedb03a32c"
+            ]
+        ]
+    },
+    {
+        "id": "edb828b8cfc9d5d6",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "59e817c2.295b38"
+        ],
+        "x": 1575,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "6bc0dce5c59a0bf9",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT H",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold H normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1300,
+        "wires": [
+            [
+                "e8132ddfc9d36e8e"
+            ]
+        ]
+    },
+    {
+        "id": "e8132ddfc9d36e8e",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1300,
+        "wires": [
+            [
+                "43664a9a936cab15"
+            ]
+        ]
+    },
+    {
+        "id": "43664a9a936cab15",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1300,
+        "wires": [
+            [
+                "ede8d7320ea2ceef"
+            ]
+        ]
+    },
+    {
+        "id": "ede8d7320ea2ceef",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento por H PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold H normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "PRESION H EN MANIFOLD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 1300,
+        "wires": [
+            [
+                "c61015bedb03a32c",
+                "efe916c8c883d252"
+            ]
+        ]
+    },
+    {
+        "id": "99363858a71684ce",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT L",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold L normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1420,
+        "wires": [
+            [
+                "9e58d1c2188f0595"
+            ]
+        ]
+    },
+    {
+        "id": "9e58d1c2188f0595",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1420,
+        "wires": [
+            [
+                "0d5dc907595b3d5f"
+            ]
+        ]
+    },
+    {
+        "id": "0d5dc907595b3d5f",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1420,
+        "wires": [
+            [
+                "bab449013b35a696"
+            ]
+        ]
+    },
+    {
+        "id": "bab449013b35a696",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento por L PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold L normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "PRESION L EN MANIFOLD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1410,
+        "y": 1420,
+        "wires": [
+            [
+                "c61015bedb03a32c",
+                "db91ab0ef025c9e2"
+            ]
+        ]
+    },
+    {
+        "id": "c1dd1240b9164d47",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Mensaje PIT LL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold LL normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1540,
+        "wires": [
+            [
+                "f034ade4d9c2d1d4"
+            ]
+        ]
+    },
+    {
+        "id": "f034ade4d9c2d1d4",
+        "type": "ui_toast",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "ACEPTAR",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1540,
+        "wires": [
+            [
+                "5dfeb4d8a2d9e5cd"
+            ]
+        ]
+    },
+    {
+        "id": "5dfeb4d8a2d9e5cd",
+        "type": "switch",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "ACEPTAR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ACEPTAR",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 1540,
+        "wires": [
+            [
+                "d7bde738548f8f62"
+            ]
+        ]
+    },
+    {
+        "id": "d7bde738548f8f62",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "Evento por LL PIT manifold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Presión en manifold LL normalizada",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "PRESION LL EN MANIFOLD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 1540,
+        "wires": [
+            [
+                "c61015bedb03a32c",
+                "1cf70bcb1da5e9f7"
+            ]
+        ]
+    },
+    {
+        "id": "efe916c8c883d252",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "59e817c2.295b38"
+        ],
+        "x": 1575,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "1cf70bcb1da5e9f7",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "59e817c2.295b38"
+        ],
+        "x": 1575,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "db91ab0ef025c9e2",
+        "type": "link out",
+        "z": "f10e7ce.d57828",
+        "g": "59aef1108925738c",
+        "name": "",
+        "links": [
+            "59e817c2.295b38"
+        ],
+        "x": 1575,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "ee676d04eaccf64c",
+        "type": "switch",
+        "z": "75f74480.41235c",
+        "name": "Pantalla",
+        "property": "#:(memoryOnly)::Navegacion.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Instrumentación pozos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 200,
+        "y": 230,
+        "wires": [
+            [
+                "9d63ab44868ad170",
+                "b9c80d3b8af7c30e",
+                "b058e14902495e3a",
+                "ef6e836c576663ee",
+                "d58d1c57851301f4",
+                "96331d5b05c57b03",
+                "afae1f73e6bb4a4f",
+                "7b2d989ed98766dc",
+                "aaf1518c93fcd48b",
+                "d417f74d72362a1f"
+            ]
+        ]
+    },
+    {
+        "id": "cc3617474ff6f996",
+        "type": "link in",
+        "z": "75f74480.41235c",
+        "name": "",
+        "links": [
+            "bb4f0d3ff3b1228d"
+        ],
+        "x": 95,
+        "y": 230,
+        "wires": [
+            [
+                "ee676d04eaccf64c"
+            ]
+        ]
+    },
+    {
+        "id": "d4786a2e0fb3e171",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "11532b30efceb4da",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "9cf1e9053386b6a7",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "335e6341be902c5f",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "9642b482e1d284f7",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "40e3c601d116d8ea",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 270,
+        "wires": []
+    },
+    {
+        "id": "c96ff7dbb77697d4",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "23a11132269052f4",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "50b132afc0cc64c4",
+        "type": "debug",
+        "z": "75f74480.41235c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "template",
+        "targetType": "msg",
+        "statusVal": "template",
+        "statusType": "auto",
+        "x": 920,
+        "y": 390,
+        "wires": []
+    },
+    {
+        "id": "d417f74d72362a1f",
+        "type": "function",
+        "z": "75f74480.41235c",
+        "name": "show tabs",
+        "func": "var i;\nvar Cluster = global.get(\"Cluster\")||[];\nvar show = []; var hide =[];\nfor (i=0;i<10;i++){\n    if (Cluster[i].Disponible == \"Si\")\n        show.push(\"Instrumentación_pozos_SCP_\" + (i+1));\n    else \n        hide.push(\"Instrumentación_pozos_SCP_\" + (i + 1));\n}\n\n\nmsg.payload = {\n    \"group\": {\n        \"show\": show,\n        \"hide\": hide\n    }\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 560,
+        "wires": [
+            [
+                "f56aec34147ef90a"
+            ]
+        ]
+    },
+    {
+        "id": "f56aec34147ef90a",
+        "type": "rbe",
+        "z": "75f74480.41235c",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "0dccefd6676bb60d"
+            ]
+        ]
+    },
+    {
+        "id": "0dccefd6676bb60d",
+        "type": "ui_ui_control",
+        "z": "75f74480.41235c",
+        "name": "",
+        "events": "all",
+        "x": 720,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec54ff4a771d0db2",
+        "type": "function",
+        "z": "242bc9a6.f9b016",
+        "name": "Eventos",
+        "func": "var aux1 = [], aux2 = [], aux3 = [];\nvar keys = Object.keys(msg.payload);\nvar values = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\") || [];\n\nfor (var i = 0; i < keys.length; i++) {\n    if (values[i] && prevValue[i] != values[i]) {\n        aux1[i] = keys[i].replace(\"EVENTOS_\", \" \");\n        aux2[i] = aux1[i].replace(\"W0\", \"Cluster \");\n        aux3[i] = aux2[i].replace(\".\", \" \");\n        msg.payload = aux3[i];\n        msg.sts = values[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 310,
+        "wires": [
+            [
+                "2b7f6e0d67c977a9",
+                "b31cc01e5f203fb5"
+            ]
+        ]
+    },
+    {
+        "id": "81d9a00531554122",
+        "type": "eth-ip in",
+        "z": "242bc9a6.f9b016",
+        "endpoint": "a00b93d2e424ac4e",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "",
+        "x": 90,
+        "y": 310,
+        "wires": [
+            [
+                "ec54ff4a771d0db2"
+            ]
+        ]
+    },
+    {
+        "id": "fd6e80029bee60cb",
+        "type": "switch",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "Pantalla",
+        "property": "#:(memoryOnly)::Navegacion.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Temperatura/Humedad",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 150,
+        "y": 170,
+        "wires": [
+            [
+                "88ac83a3.561a3",
+                "941040e3.a0af"
+            ]
+        ]
+    },
+    {
+        "id": "eea2d73aee775691",
+        "type": "link in",
+        "z": "612ddf44.816d7",
+        "g": "3383e29e.9b29fe",
+        "name": "",
+        "links": [
+            "bb4f0d3ff3b1228d"
+        ],
+        "x": 55,
+        "y": 170,
+        "wires": [
+            [
+                "fd6e80029bee60cb"
             ]
         ]
     }
