@@ -708,9 +708,7 @@
             "color": "#000000"
         },
         "nodes": [
-            "5b529f4c.7ffeb",
             "6c9ed5d3.e7799c",
-            "23815ef1.931a32",
             "3ea5879e.bf0588",
             "c8aa3a95.12b518",
             "20b8681c.81fd48",
@@ -719,27 +717,6 @@
         ],
         "x": 144,
         "y": 19
-    },
-    {
-        "id": "ced3da32.aec848",
-        "type": "group",
-        "z": "aa547d69.9cb8e",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "4f4b6b53.48e6c4",
-            "cd3f340c.1706c8",
-            "be5b89ed.6c6bf8"
-        ],
-        "x": 144,
-        "y": 159
     },
     {
         "id": "73a228cd.9d45d8",
@@ -2622,6 +2599,28 @@
         "y": 69
     },
     {
+        "id": "b75b4b5233e4eb65",
+        "type": "group",
+        "z": "a409994f70cf4cc4",
+        "name": "Navegación Datos Eléctricos Cluster",
+        "style": {
+            "fill": "#7f8faf",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "27d20979e826e75b",
+            "41187449c97f31d7",
+            "2b555d81f96082f5",
+            "abc9b8b81ab87e58",
+            "053623fb4ec2e26f",
+            "159e02453a96d08e",
+            "80c3d5cca8f0000d"
+        ],
+        "x": 94,
+        "y": 1279
+    },
+    {
         "id": "eb91dac5.690838",
         "type": "group",
         "z": "827787d0.ede678",
@@ -3179,16 +3178,6 @@
         "collapse": false
     },
     {
-        "id": "760e85bd.1f3e7c",
-        "type": "ui_group",
-        "name": "ARMÓNICOS Y VALORES MEDIOS - CCP",
-        "tab": "55735b30.433a74",
-        "order": 2,
-        "disp": true,
-        "width": "20",
-        "collapse": false
-    },
-    {
         "id": "b202b2e3.2b03e",
         "type": "ui_spacer",
         "name": "spacer",
@@ -3281,11 +3270,11 @@
     {
         "id": "cc789a9d.61fab8",
         "type": "ui_group",
-        "name": "ANÁLISIS ELÉCTRICO CCP ",
+        "name": "Analisis electrico CCP",
         "tab": "55735b30.433a74",
-        "order": 1,
-        "disp": true,
-        "width": "20",
+        "order": 2,
+        "disp": false,
+        "width": "24",
         "collapse": false
     },
     {
@@ -8818,16 +8807,6 @@
         "collapse": false
     },
     {
-        "id": "ff7f1076a29a45c2",
-        "type": "ui_group",
-        "name": "Status Bar",
-        "tab": "55735b30.433a74",
-        "order": 3,
-        "disp": false,
-        "width": "1",
-        "collapse": false
-    },
-    {
         "id": "635d0425f87c74f8",
         "type": "ui_group",
         "name": "Status Bar",
@@ -12563,6 +12542,16 @@
         "collapse": false
     },
     {
+        "id": "e3d7c8c1d1b0ce27",
+        "type": "ui_group",
+        "name": "Navbar",
+        "tab": "55735b30.433a74",
+        "order": 1,
+        "disp": false,
+        "width": "24",
+        "collapse": false
+    },
+    {
         "id": "e73d17ea.0c5538",
         "type": "template",
         "z": "18e29a89.99dbb5",
@@ -15386,7 +15375,8 @@
         "g": "2fc820d53f174088",
         "name": "Datos eléctricos clúster",
         "links": [
-            "8531d637ba42e7a9"
+            "8531d637ba42e7a9",
+            "d4e4552a6e429ca2"
         ],
         "x": 1855,
         "y": 2030,
@@ -19749,50 +19739,6 @@
         "wires": []
     },
     {
-        "id": "5b529f4c.7ffeb",
-        "type": "ui_chart",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "Gráfico",
-        "group": "760e85bd.1f3e7c",
-        "order": 3,
-        "width": "20",
-        "height": "5",
-        "label": "{{msg.label}}",
-        "chartType": "bar",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#f20707",
-            "#033e8c",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1010,
-        "y": 110,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "6c9ed5d3.e7799c",
         "type": "function",
         "z": "aa547d69.9cb8e",
@@ -19807,56 +19753,7 @@
         "x": 810,
         "y": 110,
         "wires": [
-            [
-                "5b529f4c.7ffeb"
-            ]
-        ]
-    },
-    {
-        "id": "23815ef1.931a32",
-        "type": "ui_dropdown",
-        "z": "aa547d69.9cb8e",
-        "g": "aafad2ba.dcc8b",
-        "name": "",
-        "label": "Seleccione ",
-        "tooltip": "",
-        "place": "Select option",
-        "group": "760e85bd.1f3e7c",
-        "order": 1,
-        "width": 8,
-        "height": 1,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "Línea 1 ",
-                "value": "Linea1",
-                "type": "str"
-            },
-            {
-                "label": "Línea 2",
-                "value": "Linea2",
-                "type": "str"
-            },
-            {
-                "label": "Línea 3 ",
-                "value": "Linea3",
-                "type": "str"
-            },
-            {
-                "label": "Promedio",
-                "value": "LineaP",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "",
-        "x": 500,
-        "y": 60,
-        "wires": [
-            [
-                "20b8681c.81fd48"
-            ]
+            []
         ]
     },
     {
@@ -19970,29 +19867,6 @@
         "x": 330,
         "y": 60,
         "wires": [
-            [
-                "23815ef1.931a32"
-            ]
-        ]
-    },
-    {
-        "id": "4f4b6b53.48e6c4",
-        "type": "ui_template",
-        "z": "aa547d69.9cb8e",
-        "g": "ced3da32.aec848",
-        "group": "cc789a9d.61fab8",
-        "name": "",
-        "order": 1,
-        "width": 20,
-        "height": "7",
-        "format": "",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 550,
-        "y": 200,
-        "wires": [
             []
         ]
     },
@@ -20000,19 +19874,35 @@
         "id": "cd3f340c.1706c8",
         "type": "function",
         "z": "aa547d69.9cb8e",
-        "g": "ced3da32.aec848",
-        "name": "Random",
+        "name": "Datos Eléctricos",
         "func": "var PQM_Cluster = global.get(\"Cluster.PQM\",\"memoryOnly\")||[];\n        \nmsg.VL1N    = PQM_Cluster.Voltaje_L1_N;\nmsg.VL2N    = PQM_Cluster.Voltaje_L2_N;\nmsg.VL3N    = PQM_Cluster.Voltaje_L3_N;\n\nmsg.VL1L2   = PQM_Cluster.Voltaje_L1_L2;\nmsg.VL2L3   = PQM_Cluster.Voltaje_L2_L3;\nmsg.VL1L3   = PQM_Cluster.Voltaje_L1_L3;\n\nmsg.CL1     = PQM_Cluster.Amp_L1;\nmsg.CL2     = PQM_Cluster.Amp_L2;\nmsg.CL3     = PQM_Cluster.Amp_L3;\n\nmsg.L1_kW   = PQM_Cluster.KWATT_Act_L1;\nmsg.L2_kW   = PQM_Cluster.KWATT_Act_L2;\nmsg.L3_kW   = PQM_Cluster.KWATT_Act_L3;\n\nmsg.L1_kVA  = PQM_Cluster.KVA_Act_L1;\nmsg.L2_kVA  = PQM_Cluster.KVA_Act_L2;\nmsg.L3_kVA  = PQM_Cluster.KVA_Act_L3;\n\nmsg.L1_kVAR = PQM_Cluster.KVAr_Act_L1;\nmsg.L2_kVAR = PQM_Cluster.KVAr_Act_L2;\nmsg.L3_kVAR = PQM_Cluster.KVAr_Act_L3;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 230,
-        "y": 200,
+        "x": 190,
+        "y": 220,
         "wires": [
             [
-                "be5b89ed.6c6bf8"
+                "9a5e2769197ec091",
+                "1e198fdd729abbe4",
+                "74b5b171e69e432f",
+                "8c85a2863fa5d796",
+                "fb327ab1ca42c55c",
+                "d7e7d882e120bbac",
+                "d7424337f0afdb1e",
+                "33fbc077863bf214",
+                "92879f0db2d33c77",
+                "a022b1638c40e2d4",
+                "c499dcb5ef5697b0",
+                "762a782f6f35ebe6",
+                "61956eafcbc929ed",
+                "685b153041347c40",
+                "ddf34afe525e8000",
+                "ce2acc58edb02677",
+                "7617e107945bf319",
+                "7c6447ff989f473e"
             ]
         ]
     },
@@ -20020,15 +19910,12 @@
         "id": "be5b89ed.6c6bf8",
         "type": "subflow:5df787f2.bf5f88",
         "z": "aa547d69.9cb8e",
-        "g": "ced3da32.aec848",
         "name": "",
         "env": [],
-        "x": 390,
-        "y": 200,
+        "x": 150,
+        "y": 330,
         "wires": [
-            [
-                "4f4b6b53.48e6c4"
-            ]
+            []
         ]
     },
     {
@@ -20043,8 +19930,7 @@
         "y": 160,
         "wires": [
             [
-                "c8aa3a95.12b518",
-                "cd3f340c.1706c8"
+                "c8aa3a95.12b518"
             ]
         ]
     },
@@ -22291,6 +22177,7 @@
         "id": "241dfec3.4e5d22",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22401,6 +22288,7 @@
         "id": "cdfc8184.a456f",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22426,6 +22314,7 @@
         "id": "4be1b6ac.d8bb08",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22502,6 +22391,7 @@
         "id": "93611897.3f7328",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22590,6 +22480,7 @@
         "id": "af662aac.5acf38",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22695,6 +22586,7 @@
         "id": "198e6349.0a5cfd",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22720,6 +22612,7 @@
         "id": "c1e936e8.a01258",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22791,6 +22684,7 @@
         "id": "f43fcdbe.bcd49",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22901,6 +22795,7 @@
         "id": "a908cf9f.55ba",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -22977,6 +22872,7 @@
         "id": "972dc7b4.b12ff8",
         "type": "inject",
         "z": "93634831.aed548",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -33143,7 +33039,9 @@
             "655bf08f62314f41",
             "66f51e8cdf3572d1",
             "be1489e57b9c2385",
-            "1050ca2d9c778716"
+            "1050ca2d9c778716",
+            "abc9b8b81ab87e58",
+            "053623fb4ec2e26f"
         ],
         "x": 135,
         "y": 80,
@@ -33170,7 +33068,8 @@
             "ee0ae928d7535b2a",
             "f155df4497b141e5",
             "6d463b90a47e15cd",
-            "2b6a469ea59143dc"
+            "2b6a469ea59143dc",
+            "80c3d5cca8f0000d"
         ],
         "x": 645,
         "y": 80,
@@ -35417,7 +35316,9 @@
             "bb3621a3ed07766a",
             "d5d8adffe7cc2752",
             "946e95ed38971380",
-            "a693175dc28851ee"
+            "a693175dc28851ee",
+            "abc9b8b81ab87e58",
+            "053623fb4ec2e26f"
         ],
         "x": 155,
         "y": 210,
@@ -40928,7 +40829,7 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "pos",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\ncontext.set(\"status\",status,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\n//var led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled }\n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\n/*function getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}*/",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled }\n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
         "outputs": 19,
         "noerr": 0,
         "initialize": "",
@@ -41171,14 +41072,14 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 9,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIP",
+        "label": "P. entrada",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
-        "x": 590,
+        "x": 600,
         "y": 340,
         "wires": []
     },
@@ -41188,7 +41089,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 10,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41205,7 +41106,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41222,7 +41123,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41239,7 +41140,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 13,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41497,14 +41398,14 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 9,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIP",
+        "label": "P. entrada",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
-        "x": 1400,
+        "x": 1410,
         "y": 340,
         "wires": []
     },
@@ -41514,7 +41415,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 10,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41531,7 +41432,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41548,7 +41449,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41565,7 +41466,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 13,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41712,14 +41613,14 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 9,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIP",
+        "label": "P. entrada",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
-        "x": 2180,
+        "x": 2190,
         "y": 340,
         "wires": []
     },
@@ -41729,7 +41630,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 10,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41746,7 +41647,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41763,7 +41664,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41780,7 +41681,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 13,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41927,14 +41828,14 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 9,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIP",
+        "label": "P. entrada",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
-        "x": 2950,
+        "x": 2960,
         "y": 340,
         "wires": []
     },
@@ -41944,7 +41845,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 10,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41961,7 +41862,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 12,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -41978,7 +41879,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 13,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -42012,7 +41913,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
@@ -43177,6 +43078,7 @@
         "id": "c29d3b17f539b594",
         "type": "change",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "e00b7d1188a4ce2f",
         "name": "Simular PLC",
         "rules": [
@@ -43220,9 +43122,7 @@
         "x": 170,
         "y": 1040,
         "wires": [
-            [
-                "c29d3b17f539b594"
-            ]
+            []
         ]
     },
     {
@@ -45166,6 +45066,532 @@
                 "6d4ca22faacfb6a7",
                 "7026ba7070318c79",
                 "d6e9e6cb27b824f9"
+            ]
+        ]
+    },
+    {
+        "id": "27d20979e826e75b",
+        "type": "ui_template",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "group": "e3d7c8c1d1b0ce27",
+        "name": "Navegacion Datos Eléctricos Cluster",
+        "order": 1,
+        "width": "24",
+        "height": 1,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Analisis_Electrico-tab\" data-toggle=\"tab\" href=\"#nav-Analisis_Electrico\" role=\"tab\"\n                aria-controls=\"nav-Analisis_Electrico\" aria-selected=\"true\" ng-click=\"send({payload:Analisis_Electrico()})\">Análisis eléctrico CCP</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Estado_CCP-tab\" data-toggle=\"tab\" href=\"#nav-Estado_CCP\" role=\"tab\" \n                aria-controls=\"nav-Estado_CCP\" aria-selected=\"false\" ng-click=\"send({payload:Estado_CCP()})\">Estado CCP</a>\n            \n        </div>\n    </nav>\n\n    <script>\n        this.scope.Analisis_Electrico = function() { return \"Analisis_Electrico\"; };\n        this.scope.Estado_CCP = function() { return \"Estado_CCP\"; };\n        \n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 270,
+        "y": 1370,
+        "wires": [
+            [
+                "41187449c97f31d7"
+            ]
+        ]
+    },
+    {
+        "id": "41187449c97f31d7",
+        "type": "switch",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Analisis_Electrico",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Estado_CCP",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 1370,
+        "wires": [
+            [
+                "2b555d81f96082f5"
+            ],
+            [
+                "159e02453a96d08e"
+            ]
+        ]
+    },
+    {
+        "id": "2b555d81f96082f5",
+        "type": "change",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "Configuración de pozos",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"Configuración_clúster_CONFIGURACIÓN\",\t                \"Configuración_clúster_POZOS_CONFIGURADOS\"],\t       \"hide\":[ \"Configuración_clúster_ESTADO_PERMISIVOS_DE_SHUTDOWN\",\t                \"Configuración_clúster_CONFIGURACIÓN_DE_SHUTDOWN_GENERAL_DE_POZOS\"\t       ]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 1350,
+        "wires": [
+            [
+                "abc9b8b81ab87e58"
+            ]
+        ]
+    },
+    {
+        "id": "abc9b8b81ab87e58",
+        "type": "link out",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "",
+        "links": [
+            "82aa836a1d0ebabd",
+            "a908951142dcc258"
+        ],
+        "x": 815,
+        "y": 1350,
+        "wires": []
+    },
+    {
+        "id": "053623fb4ec2e26f",
+        "type": "link out",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "",
+        "links": [
+            "82aa836a1d0ebabd",
+            "a908951142dcc258"
+        ],
+        "x": 815,
+        "y": 1390,
+        "wires": []
+    },
+    {
+        "id": "159e02453a96d08e",
+        "type": "change",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "Lógica de shutdown",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_clúster_CONFIGURACIÓN\",\t                \"Configuración_clúster_POZOS_CONFIGURADOS\"],\t       \"show\":[ \"Configuración_clúster_ESTADO_PERMISIVOS_DE_SHUTDOWN\",\t                \"Configuración_clúster_CONFIGURACIÓN_DE_SHUTDOWN_GENERAL_DE_POZOS\"\t       ]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1390,
+        "wires": [
+            [
+                "053623fb4ec2e26f"
+            ]
+        ]
+    },
+    {
+        "id": "80c3d5cca8f0000d",
+        "type": "link in",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "",
+        "links": [
+            "b56aa71999519568"
+        ],
+        "x": 515,
+        "y": 1320,
+        "wires": [
+            [
+                "2b555d81f96082f5"
+            ]
+        ]
+    },
+    {
+        "id": "9a5e2769197ec091",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 2,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Voltaje L1-L2",
+        "format": "{{msg.VL1L2}} VAC",
+        "layout": "col-center",
+        "x": 570,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d4e4552a6e429ca2",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "name": "",
+        "links": [
+            "bc99cf40ab6d6e51"
+        ],
+        "x": 65,
+        "y": 220,
+        "wires": [
+            [
+                "cd3f340c.1706c8"
+            ]
+        ]
+    },
+    {
+        "id": "1e198fdd729abbe4",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 3,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Voltaje L2-L3",
+        "format": "{{msg.VL2L3}} VAC",
+        "layout": "col-center",
+        "x": 570,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "74b5b171e69e432f",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Voltaje L1-L3",
+        "format": "{{msg.VL1L3}} VAC",
+        "layout": "col-center",
+        "x": 570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8c85a2863fa5d796",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Voltaje L1-N",
+        "format": "{{msg.VL1N}} VAC",
+        "layout": "col-center",
+        "x": 400,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "fb327ab1ca42c55c",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 6,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Voltaje L2-N",
+        "format": "{{msg.VL2N}} VAC",
+        "layout": "col-center",
+        "x": 400,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d7e7d882e120bbac",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 7,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Voltaje L3-N",
+        "format": "{{msg.VL3N}} VAC",
+        "layout": "col-center",
+        "x": 400,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d7424337f0afdb1e",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 8,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Corriente L1",
+        "format": "{{msg.CL1}} A",
+        "layout": "col-center",
+        "x": 740,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "33fbc077863bf214",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 9,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Corriente L2",
+        "format": "{{msg.CL2}} A",
+        "layout": "col-center",
+        "x": 740,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "92879f0db2d33c77",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 10,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "Corriente L3",
+        "format": "{{msg.CL3}} A",
+        "layout": "col-center",
+        "x": 740,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a022b1638c40e2d4",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 11,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Activa L1",
+        "format": "{{msg.L1_kW}} kW",
+        "layout": "col-center",
+        "x": 910,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c499dcb5ef5697b0",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 12,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Activa L2",
+        "format": "{{msg.L2_kW}} kW",
+        "layout": "col-center",
+        "x": 910,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "762a782f6f35ebe6",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 13,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Activa L3",
+        "format": "{{msg.L3_kW}} kW",
+        "layout": "col-center",
+        "x": 910,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "61956eafcbc929ed",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 14,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Aparente L1",
+        "format": "{{msg.L1_kVA}} kVA",
+        "layout": "col-center",
+        "x": 1090,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ddf34afe525e8000",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 15,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Aparente L2",
+        "format": "{{msg.L2_kVA}} kVA",
+        "layout": "col-center",
+        "x": 1090,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "685b153041347c40",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 16,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Aparente  L3",
+        "format": "{{msg.L3_kVA}} kVA",
+        "layout": "col-center",
+        "x": 1090,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ce2acc58edb02677",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 17,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Reactiva L1",
+        "format": "{{msg.L1_kVAR}} kVAR",
+        "layout": "col-center",
+        "x": 1280,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7617e107945bf319",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 18,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Reactiva L2",
+        "format": "{{msg.L2_kVAR}} kVAR",
+        "layout": "col-center",
+        "x": 1280,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "7c6447ff989f473e",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "order": 19,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "P. Reactiva L3",
+        "format": "{{msg.L3_kVAR}} kVAR",
+        "layout": "col-center",
+        "x": 1280,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "9f7411a7cc83b029",
+        "type": "ui_template",
+        "z": "aa547d69.9cb8e",
+        "group": "cc789a9d.61fab8",
+        "name": "Titulo Datos eléctricos",
+        "order": 1,
+        "width": "24",
+        "height": "2",
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 450,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3d47a3e10781e4d",
+        "type": "template",
+        "z": "aa547d69.9cb8e",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0099</center></b></h1>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 270,
+        "y": 410,
+        "wires": [
+            [
+                "9f7411a7cc83b029"
+            ]
+        ]
+    },
+    {
+        "id": "55406b6aa68c4337",
+        "type": "inject",
+        "z": "aa547d69.9cb8e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 120,
+        "y": 410,
+        "wires": [
+            [
+                "d3d47a3e10781e4d"
             ]
         ]
     }
