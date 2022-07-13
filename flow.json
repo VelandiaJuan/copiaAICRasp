@@ -716,7 +716,9 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -747,7 +749,9 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29
+        "y": 29,
+        "w": 812,
+        "h": 252
     },
     {
         "id": "2f18e23b.de32ce",
@@ -777,7 +781,9 @@
             "528f3613fd9dc550"
         ],
         "x": 68,
-        "y": 299
+        "y": 299,
+        "w": 1234,
+        "h": 468
     },
     {
         "id": "7b6f4b41.106164",
@@ -838,7 +844,9 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "a0798509.56f3c8",
@@ -872,9 +880,7 @@
             "6fb595d3bba0fc4b"
         ],
         "x": 34,
-        "y": 19,
-        "w": 432,
-        "h": 962
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -960,9 +966,7 @@
             "c5614143.9411"
         ],
         "x": 494,
-        "y": 19,
-        "w": 472,
-        "h": 1642
+        "y": 19
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1005,9 +1009,7 @@
             "b2b70770f04451e4"
         ],
         "x": 1514,
-        "y": 19,
-        "w": 732,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1c17956307e44e29",
@@ -1043,9 +1045,7 @@
             "aeece35ccc591620"
         ],
         "x": 84,
-        "y": 19,
-        "w": 692,
-        "h": 642
+        "y": 19
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1079,9 +1079,7 @@
             "2545a2c9037578c0"
         ],
         "x": 844,
-        "y": 19,
-        "w": 702,
-        "h": 602
+        "y": 19
     },
     {
         "id": "da4321a277ed136b",
@@ -1120,9 +1118,7 @@
             "8c0abdf5a7d1991f"
         ],
         "x": 1564,
-        "y": 19,
-        "w": 742,
-        "h": 602
+        "y": 19
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1164,7 +1160,9 @@
             "fe0f305772eadaa5"
         ],
         "x": 94,
-        "y": 39
+        "y": 39,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "1c7df9ba6cc1a3d4",
@@ -1184,7 +1182,9 @@
             "03598c96d1c54dd4"
         ],
         "x": 88,
-        "y": 103
+        "y": 103,
+        "w": 494,
+        "h": 324
     },
     {
         "id": "091089867260e133",
@@ -1206,7 +1206,9 @@
             "4f21a66cdc5abf28"
         ],
         "x": 14,
-        "y": 13
+        "y": 13,
+        "w": 1238,
+        "h": 1334
     },
     {
         "id": "6c7554a242bcd1a6",
@@ -1227,7 +1229,9 @@
             "683bbc40139c0fac"
         ],
         "x": 1294,
-        "y": 569
+        "y": 569,
+        "w": 872,
+        "h": 242
     },
     {
         "id": "ad1eed9908ed5e2a",
@@ -1253,7 +1257,9 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779
+        "y": 779,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "53d376e89282424a",
@@ -1281,7 +1287,9 @@
             "0debf976b06e3a63"
         ],
         "x": 1294,
-        "y": 859
+        "y": 859,
+        "w": 1312,
+        "h": 242
     },
     {
         "id": "cd21ba46bdc44b70",
@@ -1352,7 +1360,9 @@
             "84aff144b0f6a8ab"
         ],
         "x": 94,
-        "y": 179
+        "y": 179,
+        "w": 1282,
+        "h": 322
     },
     {
         "id": "916a665ce9bddd15",
@@ -1374,7 +1384,9 @@
             "8c284c7bfec72391"
         ],
         "x": 94,
-        "y": 509
+        "y": 509,
+        "w": 722,
+        "h": 162
     },
     {
         "id": "bc8cd5f1dc716592",
@@ -1405,7 +1417,9 @@
             "04b67cfaf68ce34c"
         ],
         "x": 1294,
-        "y": 359
+        "y": 359,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "4d8509ae5df6e2f9",
@@ -1452,7 +1466,9 @@
             "fc8b30aa16df9d26"
         ],
         "x": 1304,
-        "y": 9
+        "y": 9,
+        "w": 1382,
+        "h": 312
     },
     {
         "id": "f98bc2e0af73e621",
@@ -1594,7 +1610,9 @@
             "236bdf2185357ce8"
         ],
         "x": 94,
-        "y": 679
+        "y": 679,
+        "w": 2042,
+        "h": 232
     },
     {
         "id": "27d017f01b6dc239",
@@ -1637,9 +1655,7 @@
             "6fb4d7510fdd7772"
         ],
         "x": 2254,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1692,9 +1708,7 @@
             "d1bcaebfeab23d41"
         ],
         "x": 3034,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "2282018314ee7576",
@@ -1723,7 +1737,9 @@
             "0832a6b33e1f520c"
         ],
         "x": 634,
-        "y": 119
+        "y": 119,
+        "w": 538,
+        "h": 649.5
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1748,7 +1764,9 @@
             "9bf920288bfd3453"
         ],
         "x": 94,
-        "y": 919
+        "y": 919,
+        "w": 702,
+        "h": 182
     },
     {
         "id": "1f826a1bd0d089b5",
@@ -1791,9 +1809,7 @@
             "dc662dbf83f0e930"
         ],
         "x": 974,
-        "y": 19,
-        "w": 492,
-        "h": 1642
+        "y": 19
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1822,7 +1838,9 @@
             "c4b00d9d.c758e"
         ],
         "x": 74,
-        "y": 979
+        "y": 979,
+        "w": 872,
+        "h": 362
     },
     {
         "id": "2fc820d53f174088",
@@ -1857,9 +1875,7 @@
             "0af77ddbb1ce4317"
         ],
         "x": 1514,
-        "y": 1719,
-        "w": 482,
-        "h": 622
+        "y": 1719
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1889,7 +1905,9 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979
+        "y": 979,
+        "w": 1132,
+        "h": 282
     },
     {
         "id": "7d0f955071a4055a",
@@ -1923,9 +1941,7 @@
             "571503a1551ddd48"
         ],
         "x": 1514,
-        "y": 1139,
-        "w": 832,
-        "h": 562
+        "y": 1139
     },
     {
         "id": "cff3928797d25d39",
@@ -1956,9 +1972,7 @@
             "75b2e87e6760a38b"
         ],
         "x": 3814,
-        "y": 19,
-        "w": 632,
-        "h": 922
+        "y": 19
     },
     {
         "id": "b06bbdd518536a01",
@@ -2237,7 +2251,9 @@
             "bfa48676.a364f8"
         ],
         "x": 114,
-        "y": 439
+        "y": 439,
+        "w": 412,
+        "h": 149.5
     },
     {
         "id": "0439b4a0bf2b8cc0",
@@ -2258,7 +2274,9 @@
             "2b6a469ea59143dc"
         ],
         "x": 94,
-        "y": 1109
+        "y": 1109,
+        "w": 742,
+        "h": 152
     },
     {
         "id": "5b44b24d93b88118",
@@ -2406,9 +2424,7 @@
             "38705d0965924c63"
         ],
         "x": 2314,
-        "y": 19,
-        "w": 772,
-        "h": 602
+        "y": 19
     },
     {
         "id": "80e529568099f818",
@@ -2444,9 +2460,7 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 709,
-        "w": 772,
-        "h": 82
+        "y": 709
     },
     {
         "id": "47c7e078aa019952",
@@ -2481,9 +2495,7 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999,
-        "w": 342,
-        "h": 82
+        "y": 999
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2614,11 +2626,13 @@
             "2b555d81f96082f5",
             "abc9b8b81ab87e58",
             "053623fb4ec2e26f",
-            "159e02453a96d08e",
-            "80c3d5cca8f0000d"
+            "80c3d5cca8f0000d",
+            "db4708faaa5ac7b5"
         ],
         "x": 94,
-        "y": 1279
+        "y": 1279,
+        "w": 762,
+        "h": 152
     },
     {
         "id": "eb91dac5.690838",
@@ -2770,7 +2784,9 @@
             "5c6c269da4720bd1"
         ],
         "x": 94,
-        "y": 539
+        "y": 539,
+        "w": 1182,
+        "h": 202
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -2849,7 +2865,9 @@
             "449b37406b29dc93"
         ],
         "x": 114,
-        "y": 319
+        "y": 319,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "03598c96d1c54dd4",
@@ -2871,7 +2889,9 @@
             "9165803bd4c9d17a"
         ],
         "x": 114,
-        "y": 129
+        "y": 129,
+        "w": 442,
+        "h": 162
     },
     {
         "id": "a319327ca6e39904",
@@ -2894,7 +2914,9 @@
             "437520c765d815cd"
         ],
         "x": 354,
-        "y": 39
+        "y": 39,
+        "w": 812,
+        "h": 202
     },
     {
         "id": "a9302b21b3a7c502",
@@ -2915,7 +2937,9 @@
             "61dced0eece2974c"
         ],
         "x": 354,
-        "y": 259
+        "y": 259,
+        "w": 832,
+        "h": 162
     },
     {
         "id": "fc67f9d106ee5bd9",
@@ -2938,7 +2962,9 @@
             "ce97eb62a1366cdb"
         ],
         "x": 354,
-        "y": 439
+        "y": 439,
+        "w": 832,
+        "h": 202
     },
     {
         "id": "cdb98853e2a9e9bf",
@@ -2959,7 +2985,9 @@
             "6bf1019fee5cf90f"
         ],
         "x": 354,
-        "y": 659
+        "y": 659,
+        "w": 772,
+        "h": 162
     },
     {
         "id": "4f21a66cdc5abf28",
@@ -2995,7 +3023,9 @@
             "905b1b0d5d78ff65"
         ],
         "x": 334,
-        "y": 839
+        "y": 839,
+        "w": 892,
+        "h": 482
     },
     {
         "id": "cacd646bcfbdbb4d",
@@ -3013,7 +3043,9 @@
             "351eccb8791a5abd"
         ],
         "x": 874,
-        "y": 151.5
+        "y": 151.5,
+        "w": 272,
+        "h": 277
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -12547,6 +12579,16 @@
         "name": "Navbar",
         "tab": "55735b30.433a74",
         "order": 1,
+        "disp": false,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "b8f5aab875cab5af",
+        "type": "ui_group",
+        "name": "Estado CCP",
+        "tab": "55735b30.433a74",
+        "order": 3,
         "disp": false,
         "width": "24",
         "collapse": false
@@ -45077,7 +45119,7 @@
         "group": "e3d7c8c1d1b0ce27",
         "name": "Navegacion Datos Eléctricos Cluster",
         "order": 1,
-        "width": "24",
+        "width": 24,
         "height": 1,
         "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Analisis_Electrico-tab\" data-toggle=\"tab\" href=\"#nav-Analisis_Electrico\" role=\"tab\"\n                aria-controls=\"nav-Analisis_Electrico\" aria-selected=\"true\" ng-click=\"send({payload:Analisis_Electrico()})\">Análisis eléctrico CCP</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Estado_CCP-tab\" data-toggle=\"tab\" href=\"#nav-Estado_CCP\" role=\"tab\" \n                aria-controls=\"nav-Estado_CCP\" aria-selected=\"false\" ng-click=\"send({payload:Estado_CCP()})\">Estado CCP</a>\n            \n        </div>\n    </nav>\n\n    <script>\n        this.scope.Analisis_Electrico = function() { return \"Analisis_Electrico\"; };\n        this.scope.Estado_CCP = function() { return \"Estado_CCP\"; };\n        \n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
@@ -45122,7 +45164,7 @@
                 "2b555d81f96082f5"
             ],
             [
-                "159e02453a96d08e"
+                "db4708faaa5ac7b5"
             ]
         ]
     },
@@ -45131,13 +45173,13 @@
         "type": "change",
         "z": "a409994f70cf4cc4",
         "g": "b75b4b5233e4eb65",
-        "name": "Configuración de pozos",
+        "name": "Análisis eléctrico CCP",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[ \"Configuración_clúster_CONFIGURACIÓN\",\t                \"Configuración_clúster_POZOS_CONFIGURADOS\"],\t       \"hide\":[ \"Configuración_clúster_ESTADO_PERMISIVOS_DE_SHUTDOWN\",\t                \"Configuración_clúster_CONFIGURACIÓN_DE_SHUTDOWN_GENERAL_DE_POZOS\"\t       ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"Datos_eléctricos_clúster_Analisis_electrico_CCP\"],\t       \"hide\":[ \"Datos_eléctricos_clúster_Estado_CCP\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -45146,7 +45188,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
+        "x": 660,
         "y": 1350,
         "wires": [
             [
@@ -45183,34 +45225,6 @@
         "wires": []
     },
     {
-        "id": "159e02453a96d08e",
-        "type": "change",
-        "z": "a409994f70cf4cc4",
-        "g": "b75b4b5233e4eb65",
-        "name": "Lógica de shutdown",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_clúster_CONFIGURACIÓN\",\t                \"Configuración_clúster_POZOS_CONFIGURADOS\"],\t       \"show\":[ \"Configuración_clúster_ESTADO_PERMISIVOS_DE_SHUTDOWN\",\t                \"Configuración_clúster_CONFIGURACIÓN_DE_SHUTDOWN_GENERAL_DE_POZOS\"\t       ]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 660,
-        "y": 1390,
-        "wires": [
-            [
-                "053623fb4ec2e26f"
-            ]
-        ]
-    },
-    {
         "id": "80c3d5cca8f0000d",
         "type": "link in",
         "z": "a409994f70cf4cc4",
@@ -45233,8 +45247,8 @@
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
         "order": 2,
-        "width": "4",
-        "height": "2",
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Voltaje L1-L2",
         "format": "{{msg.VL1L2}} VAC",
@@ -45255,7 +45269,8 @@
         "y": 220,
         "wires": [
             [
-                "cd3f340c.1706c8"
+                "cd3f340c.1706c8",
+                "d3d47a3e10781e4d"
             ]
         ]
     },
@@ -45264,9 +45279,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 3,
-        "width": "4",
-        "height": "2",
+        "order": 8,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Voltaje L2-L3",
         "format": "{{msg.VL2L3}} VAC",
@@ -45280,9 +45295,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 4,
-        "width": "4",
-        "height": "2",
+        "order": 14,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Voltaje L1-L3",
         "format": "{{msg.VL1L3}} VAC",
@@ -45296,9 +45311,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 5,
-        "width": "4",
-        "height": "2",
+        "order": 3,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Voltaje L1-N",
         "format": "{{msg.VL1N}} VAC",
@@ -45312,9 +45327,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 6,
-        "width": "4",
-        "height": "2",
+        "order": 9,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Voltaje L2-N",
         "format": "{{msg.VL2N}} VAC",
@@ -45328,9 +45343,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 7,
-        "width": "4",
-        "height": "2",
+        "order": 15,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Voltaje L3-N",
         "format": "{{msg.VL3N}} VAC",
@@ -45344,9 +45359,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 8,
-        "width": "4",
-        "height": "2",
+        "order": 4,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Corriente L1",
         "format": "{{msg.CL1}} A",
@@ -45360,9 +45375,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 9,
-        "width": "4",
-        "height": "2",
+        "order": 10,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Corriente L2",
         "format": "{{msg.CL2}} A",
@@ -45376,9 +45391,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 10,
-        "width": "4",
-        "height": "2",
+        "order": 16,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "Corriente L3",
         "format": "{{msg.CL3}} A",
@@ -45392,9 +45407,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 11,
-        "width": "4",
-        "height": "2",
+        "order": 5,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Activa L1",
         "format": "{{msg.L1_kW}} kW",
@@ -45408,9 +45423,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 12,
-        "width": "4",
-        "height": "2",
+        "order": 11,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Activa L2",
         "format": "{{msg.L2_kW}} kW",
@@ -45424,9 +45439,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 13,
-        "width": "4",
-        "height": "2",
+        "order": 17,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Activa L3",
         "format": "{{msg.L3_kW}} kW",
@@ -45440,9 +45455,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 14,
-        "width": "4",
-        "height": "2",
+        "order": 6,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Aparente L1",
         "format": "{{msg.L1_kVA}} kVA",
@@ -45456,9 +45471,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 15,
-        "width": "4",
-        "height": "2",
+        "order": 12,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Aparente L2",
         "format": "{{msg.L2_kVA}} kVA",
@@ -45472,9 +45487,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 16,
-        "width": "4",
-        "height": "2",
+        "order": 18,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Aparente  L3",
         "format": "{{msg.L3_kVA}} kVA",
@@ -45488,9 +45503,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 17,
-        "width": "4",
-        "height": "2",
+        "order": 7,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Reactiva L1",
         "format": "{{msg.L1_kVAR}} kVAR",
@@ -45504,9 +45519,9 @@
         "type": "ui_text",
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
-        "order": 18,
-        "width": "4",
-        "height": "2",
+        "order": 13,
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Reactiva L2",
         "format": "{{msg.L2_kVAR}} kVAR",
@@ -45521,8 +45536,8 @@
         "z": "aa547d69.9cb8e",
         "group": "cc789a9d.61fab8",
         "order": 19,
-        "width": "4",
-        "height": "2",
+        "width": 4,
+        "height": 2,
         "name": "",
         "label": "P. Reactiva L3",
         "format": "{{msg.L3_kVAR}} kVAR",
@@ -45538,8 +45553,8 @@
         "group": "cc789a9d.61fab8",
         "name": "Titulo Datos eléctricos",
         "order": 1,
-        "width": "24",
-        "height": "2",
+        "width": 24,
+        "height": 2,
         "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -45571,27 +45586,30 @@
         ]
     },
     {
-        "id": "55406b6aa68c4337",
-        "type": "inject",
-        "z": "aa547d69.9cb8e",
-        "name": "",
-        "props": [
+        "id": "db4708faaa5ac7b5",
+        "type": "change",
+        "z": "a409994f70cf4cc4",
+        "g": "b75b4b5233e4eb65",
+        "name": "Estado CCP",
+        "rules": [
             {
-                "p": "payload"
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Datos_eléctricos_clúster_Analisis_electrico_CCP\"],\t       \"show\":[ \"Datos_eléctricos_clúster_Estado_CCP\"]\t   }\t}",
+                "tot": "jsonata"
             }
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 120,
-        "y": 410,
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 1390,
         "wires": [
             [
-                "d3d47a3e10781e4d"
+                "053623fb4ec2e26f"
             ]
         ]
     }
