@@ -716,9 +716,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19,
-        "w": 812,
-        "h": 132
+        "y": 19
     },
     {
         "id": "73a228cd.9d45d8",
@@ -880,7 +878,9 @@
             "6fb595d3bba0fc4b"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -966,7 +966,9 @@
             "c5614143.9411"
         ],
         "x": 494,
-        "y": 19
+        "y": 19,
+        "w": 472,
+        "h": 1642
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1009,7 +1011,9 @@
             "b2b70770f04451e4"
         ],
         "x": 1514,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "1c17956307e44e29",
@@ -1160,9 +1164,7 @@
             "fe0f305772eadaa5"
         ],
         "x": 94,
-        "y": 39,
-        "w": 592,
-        "h": 122
+        "y": 39
     },
     {
         "id": "1c7df9ba6cc1a3d4",
@@ -1182,9 +1184,7 @@
             "03598c96d1c54dd4"
         ],
         "x": 88,
-        "y": 103,
-        "w": 494,
-        "h": 324
+        "y": 103
     },
     {
         "id": "091089867260e133",
@@ -1206,9 +1206,7 @@
             "4f21a66cdc5abf28"
         ],
         "x": 14,
-        "y": 13,
-        "w": 1238,
-        "h": 1334
+        "y": 13
     },
     {
         "id": "6c7554a242bcd1a6",
@@ -1229,9 +1227,7 @@
             "683bbc40139c0fac"
         ],
         "x": 1294,
-        "y": 569,
-        "w": 872,
-        "h": 242
+        "y": 569
     },
     {
         "id": "ad1eed9908ed5e2a",
@@ -1287,9 +1283,7 @@
             "0debf976b06e3a63"
         ],
         "x": 1294,
-        "y": 859,
-        "w": 1312,
-        "h": 242
+        "y": 859
     },
     {
         "id": "cd21ba46bdc44b70",
@@ -1318,7 +1312,9 @@
             "c0e8b2a38c8e9384"
         ],
         "x": 14,
-        "y": 21.5
+        "y": 21.5,
+        "w": 612,
+        "h": 419.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1360,9 +1356,7 @@
             "84aff144b0f6a8ab"
         ],
         "x": 94,
-        "y": 179,
-        "w": 1282,
-        "h": 322
+        "y": 179
     },
     {
         "id": "916a665ce9bddd15",
@@ -1384,9 +1378,7 @@
             "8c284c7bfec72391"
         ],
         "x": 94,
-        "y": 509,
-        "w": 722,
-        "h": 162
+        "y": 509
     },
     {
         "id": "bc8cd5f1dc716592",
@@ -1417,9 +1409,7 @@
             "04b67cfaf68ce34c"
         ],
         "x": 1294,
-        "y": 359,
-        "w": 1052,
-        "h": 182
+        "y": 359
     },
     {
         "id": "4d8509ae5df6e2f9",
@@ -1466,9 +1456,7 @@
             "fc8b30aa16df9d26"
         ],
         "x": 1304,
-        "y": 9,
-        "w": 1382,
-        "h": 312
+        "y": 9
     },
     {
         "id": "f98bc2e0af73e621",
@@ -1496,7 +1484,9 @@
             "b0cefaad1317dbb0"
         ],
         "x": 644,
-        "y": 39
+        "y": 39,
+        "w": 762,
+        "h": 402
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1529,7 +1519,9 @@
             "6ae987f442317d17"
         ],
         "x": 1444,
-        "y": 31.5
+        "y": 31.5,
+        "w": 672,
+        "h": 509.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1562,7 +1554,9 @@
             "c2142d4e72432c49"
         ],
         "x": 2134,
-        "y": 29
+        "y": 29,
+        "w": 702,
+        "h": 462
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1610,9 +1604,7 @@
             "236bdf2185357ce8"
         ],
         "x": 94,
-        "y": 679,
-        "w": 2042,
-        "h": 232
+        "y": 679
     },
     {
         "id": "27d017f01b6dc239",
@@ -1655,7 +1647,9 @@
             "6fb4d7510fdd7772"
         ],
         "x": 2254,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1708,7 +1702,9 @@
             "d1bcaebfeab23d41"
         ],
         "x": 3034,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1737,9 +1733,7 @@
             "0832a6b33e1f520c"
         ],
         "x": 634,
-        "y": 119,
-        "w": 538,
-        "h": 649.5
+        "y": 119
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1764,9 +1758,7 @@
             "9bf920288bfd3453"
         ],
         "x": 94,
-        "y": 919,
-        "w": 702,
-        "h": 182
+        "y": 919
     },
     {
         "id": "1f826a1bd0d089b5",
@@ -1809,7 +1801,9 @@
             "dc662dbf83f0e930"
         ],
         "x": 974,
-        "y": 19
+        "y": 19,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1875,7 +1869,9 @@
             "0af77ddbb1ce4317"
         ],
         "x": 1514,
-        "y": 1719
+        "y": 1719,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1941,7 +1937,9 @@
             "571503a1551ddd48"
         ],
         "x": 1514,
-        "y": 1139
+        "y": 1139,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1972,7 +1970,9 @@
             "75b2e87e6760a38b"
         ],
         "x": 3814,
-        "y": 19
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2210,7 +2210,9 @@
             "e123891250972186"
         ],
         "x": 1554,
-        "y": 19
+        "y": 19,
+        "w": 1722,
+        "h": 832
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2235,7 +2237,9 @@
             "3e1f18e73ad342b7"
         ],
         "x": 124,
-        "y": 679
+        "y": 679,
+        "w": 1202,
+        "h": 152
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2251,9 +2255,7 @@
             "bfa48676.a364f8"
         ],
         "x": 114,
-        "y": 439,
-        "w": 412,
-        "h": 149.5
+        "y": 439
     },
     {
         "id": "0439b4a0bf2b8cc0",
@@ -2274,9 +2276,7 @@
             "2b6a469ea59143dc"
         ],
         "x": 94,
-        "y": 1109,
-        "w": 742,
-        "h": 152
+        "y": 1109
     },
     {
         "id": "5b44b24d93b88118",
@@ -2337,7 +2337,9 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19
+        "y": 19,
+        "w": 712,
+        "h": 502
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2385,7 +2387,9 @@
             "df95654a91fb1023"
         ],
         "x": 124,
-        "y": 19
+        "y": 19,
+        "w": 652,
+        "h": 652
     },
     {
         "id": "4e67a9385d518b82",
@@ -2439,9 +2443,7 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 369,
-        "w": 262,
-        "h": 82
+        "y": 369
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2479,7 +2481,9 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 14,
-        "y": 509
+        "y": 509,
+        "w": 812,
+        "h": 82
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2495,7 +2499,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2630,9 +2636,7 @@
             "db4708faaa5ac7b5"
         ],
         "x": 94,
-        "y": 1279,
-        "w": 762,
-        "h": 152
+        "y": 1279
     },
     {
         "id": "eb91dac5.690838",
@@ -2865,9 +2869,7 @@
             "449b37406b29dc93"
         ],
         "x": 114,
-        "y": 319,
-        "w": 352,
-        "h": 82
+        "y": 319
     },
     {
         "id": "03598c96d1c54dd4",
@@ -2889,9 +2891,7 @@
             "9165803bd4c9d17a"
         ],
         "x": 114,
-        "y": 129,
-        "w": 442,
-        "h": 162
+        "y": 129
     },
     {
         "id": "a319327ca6e39904",
@@ -2914,9 +2914,7 @@
             "437520c765d815cd"
         ],
         "x": 354,
-        "y": 39,
-        "w": 812,
-        "h": 202
+        "y": 39
     },
     {
         "id": "a9302b21b3a7c502",
@@ -2937,9 +2935,7 @@
             "61dced0eece2974c"
         ],
         "x": 354,
-        "y": 259,
-        "w": 832,
-        "h": 162
+        "y": 259
     },
     {
         "id": "fc67f9d106ee5bd9",
@@ -2962,9 +2958,7 @@
             "ce97eb62a1366cdb"
         ],
         "x": 354,
-        "y": 439,
-        "w": 832,
-        "h": 202
+        "y": 439
     },
     {
         "id": "cdb98853e2a9e9bf",
@@ -2985,9 +2979,7 @@
             "6bf1019fee5cf90f"
         ],
         "x": 354,
-        "y": 659,
-        "w": 772,
-        "h": 162
+        "y": 659
     },
     {
         "id": "4f21a66cdc5abf28",
@@ -3023,9 +3015,7 @@
             "905b1b0d5d78ff65"
         ],
         "x": 334,
-        "y": 839,
-        "w": 892,
-        "h": 482
+        "y": 839
     },
     {
         "id": "cacd646bcfbdbb4d",
@@ -3043,9 +3033,7 @@
             "351eccb8791a5abd"
         ],
         "x": 874,
-        "y": 151.5,
-        "w": 272,
-        "h": 277
+        "y": 151.5
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -20496,7 +20484,7 @@
         "z": "e997ba3b.48cc18",
         "g": "89dd768a.673f58",
         "name": "Informacion Corriente Frecuencia",
-        "func": "var Cluster         = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData     = global.get(\"Cluster\")||[];\nvar SCP             = global.get(\"SCP\",\"memoryOnly\")||0;\nvar antSCP = context.get(\"ant\",\"memoryOnly\")||SCP;\nvar time = msg.payload;\n\nvar Corriente_VSD   = Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD;\nvar Frecuencia      = Cluster[\"SCP\"+(SCP)].VSD.Frecuencia;\n////\nvar data = context.get(\"data\",\"memoryOnly\")||null;\nif (antSCP!=SCP) data = null;\n\nif (data == null) {\n    data = {\n        'Corriente_VSD': [{ \"x\": time, \"y\": Corriente_VSD }],\n        'Frecuencia': [{ \"x\": time, \"y\": Frecuencia }]\n    };\n}\nelse {\n    if (data.Corriente_VSD.length > 15) {\n        data.Corriente_VSD.shift();\n        data.Frecuencia.shift();\n    }\n    data.Corriente_VSD.push({ \"x\": time, \"y\": Corriente_VSD });\n    data.Frecuencia.push({ \"x\": time, \"y\": Frecuencia });\n}\n\ncontext.set(\"data\", data, \"memoryOnly\");\ncontext.set(\"ant\", SCP,\"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + Corriente_VSD.toFixed(1) + \" (A)\");\nseries.push(\"Frec. Actual \" + Frecuencia.toFixed(1) + \" (Hz)\");\n\nvar datan = [];\n\ndatan.push(data.Corriente_VSD);\ndatan.push(data.Frecuencia);\n\nvar chart = [{\n    \"series\": series,\n    \"data\": datan,\n    \"labels\": [\"\"]\n}];\n\nmsg.payload = chart;\n\nreturn msg;",
+        "func": "var Cluster         = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData     = global.get(\"Cluster\")||[];\nvar SCP             = global.get(\"SCP\",\"memoryOnly\")||0;\nvar antSCP = context.get(\"ant\",\"memoryOnly\")||SCP;\nvar time = msg.payload;\n\nvar Corriente_VSD   = Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD;\nvar Frecuencia      = Cluster[\"SCP\"+(SCP)].VSD.Frecuencia;\n////\nvar data = context.get(\"data\",\"memoryOnly\")||null;\nif (antSCP!=SCP) data = null;\n\nif (data == null) {\n    data = {\n        'Corriente_VSD': [{ \"x\": time, \"y\": Corriente_VSD }],\n        'Frecuencia': [{ \"x\": time, \"y\": Frecuencia }]\n    };\n}\nelse {\n    if (data.Corriente_VSD.length > 15) {\n        data.Corriente_VSD.shift();\n        data.Frecuencia.shift();\n    }\n    data.Corriente_VSD.push({ \"x\": time, \"y\": Corriente_VSD });\n    data.Frecuencia.push({ \"x\": time, \"y\": Frecuencia });\n}\n\ncontext.set(\"data\", data, \"memoryOnly\");\ncontext.set(\"ant\", SCP,\"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Corriente Actual \" + Corriente_VSD.toFixed(1) + \" (A)\");\nseries.push(\"Frec. Actual \" + Frecuencia.toFixed(1) + \" (Hz)\");\n\nvar datan = [];\n\ndatan.push(data.Corriente_VSD);\ndatan.push(data.Frecuencia);\n\nvar chart = [{\n    \"series\": series,\n    \"data\": datan,\n    \"labels\": [\"\"]\n}];\n\nmsg.payload = chart;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21474,7 +21462,7 @@
         "z": "e997ba3b.48cc18",
         "g": "d516d3f7ea6bbe72",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2)||\"-----\";\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2)||\"-----\";\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\n//msg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\n//msg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\n//msg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\n//msg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\n//msg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\n//msg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\n//msg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\n//msg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\n// msg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\n// msg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\n// msg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\n// msg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\n// msg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\n//msg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\n//msg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21694,7 +21682,7 @@
         "z": "e997ba3b.48cc18",
         "g": "bf3daf7cc69dc1e0",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\n// msg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\n// msg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\n// msg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\n// msg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\n// msg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\n// msg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\n// msg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\n// msg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\n// msg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\n// msg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\n// msg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\n// msg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\n// msg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\n// msg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \n// msg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -29133,6 +29121,7 @@
         "id": "cc874412dbfe50f6",
         "type": "template",
         "z": "f10e7ce.d57828",
+        "d": true,
         "g": "9d8df5b4f6b8aaf2",
         "name": "Imagen Manifold",
         "field": "template",
@@ -29153,6 +29142,7 @@
         "id": "f223c3aaed263f14",
         "type": "ui_template",
         "z": "f10e7ce.d57828",
+        "d": true,
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
         "name": "",
@@ -29174,6 +29164,7 @@
         "id": "5ac373589c1d1849",
         "type": "link in",
         "z": "f10e7ce.d57828",
+        "d": true,
         "g": "9d8df5b4f6b8aaf2",
         "name": "",
         "links": [
@@ -29194,11 +29185,11 @@
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
         "order": 2,
-        "width": "3",
+        "width": "6",
         "height": "2",
         "name": "FIT",
         "label": "FIT",
-        "format": "<font size =2px>{{msg.FIT_FLUJO_TOTAL}} ",
+        "format": "<font size =4px>{{msg.FIT_FLUJO_TOTAL}} ",
         "layout": "col-center",
         "x": 450,
         "y": 140,
@@ -29211,11 +29202,11 @@
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
         "order": 1,
-        "width": 3,
+        "width": "6",
         "height": 2,
         "name": "PIT",
         "label": "PIT",
-        "format": "<font size =2px>{{msg.PIT}}",
+        "format": "<font size =4px>{{msg.PIT}}",
         "layout": "col-center",
         "x": 450,
         "y": 60,
@@ -29228,11 +29219,11 @@
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
         "order": 3,
-        "width": 3,
+        "width": "6",
         "height": 2,
         "name": "Densidad",
         "label": "Densidad",
-        "format": "<font size =2px>{{msg.FIT_DENSIDAD}} ",
+        "format": "<font size =4px>{{msg.FIT_DENSIDAD}} ",
         "layout": "col-center",
         "x": 460,
         "y": 100,
@@ -29245,11 +29236,11 @@
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
         "order": 4,
-        "width": 3,
+        "width": "6",
         "height": 2,
         "name": "Temperatura",
         "label": "Temperatura",
-        "format": "<font size =2px>{{msg.FIT_TEMPERATURA}} ",
+        "format": "<font size =4px>{{msg.FIT_TEMPERATURA}} ",
         "layout": "col-center",
         "x": 470,
         "y": 180,
