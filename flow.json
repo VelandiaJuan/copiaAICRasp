@@ -747,9 +747,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -779,9 +777,7 @@
             "528f3613fd9dc550"
         ],
         "x": 68,
-        "y": 299,
-        "w": 1234,
-        "h": 468
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -797,7 +793,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 224
     },
     {
         "id": "c58d9126.1869c",
@@ -842,9 +840,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -867,7 +863,6 @@
             "7ecb5f7a.538eb",
             "e173641d.7e7c38",
             "b34b9630.1b9f88",
-            "92b194932f24c1c6",
             "2679c3cd140bc8c2",
             "fe6bf172581b9587",
             "819e68e2c0cd8ee0",
@@ -875,11 +870,12 @@
             "2db92c65aacef0e5",
             "75f9fd6db8f3d35d",
             "678e40a940ceb830",
-            "6fb595d3bba0fc4b"
+            "6fb595d3bba0fc4b",
+            "1610d1c8441e6122"
         ],
         "x": 34,
         "y": 19,
-        "w": 432,
+        "w": 552,
         "h": 962
     },
     {
@@ -1049,7 +1045,9 @@
             "aeece35ccc591620"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 692,
+        "h": 642
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1083,7 +1081,9 @@
             "2545a2c9037578c0"
         ],
         "x": 844,
-        "y": 19
+        "y": 19,
+        "w": 702,
+        "h": 602
     },
     {
         "id": "da4321a277ed136b",
@@ -1122,7 +1122,9 @@
             "8c0abdf5a7d1991f"
         ],
         "x": 1564,
-        "y": 19
+        "y": 19,
+        "w": 742,
+        "h": 602
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1253,9 +1255,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779,
-        "w": 1052,
-        "h": 182
+        "y": 779
     },
     {
         "id": "53d376e89282424a",
@@ -1312,9 +1312,7 @@
             "c0e8b2a38c8e9384"
         ],
         "x": 14,
-        "y": 21.5,
-        "w": 612,
-        "h": 419.5
+        "y": 21.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1484,9 +1482,7 @@
             "b0cefaad1317dbb0"
         ],
         "x": 644,
-        "y": 39,
-        "w": 762,
-        "h": 402
+        "y": 39
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1519,9 +1515,7 @@
             "6ae987f442317d17"
         ],
         "x": 1444,
-        "y": 31.5,
-        "w": 672,
-        "h": 509.5
+        "y": 31.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1554,9 +1548,7 @@
             "c2142d4e72432c49"
         ],
         "x": 2134,
-        "y": 29,
-        "w": 702,
-        "h": 462
+        "y": 29
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1832,9 +1824,7 @@
             "c4b00d9d.c758e"
         ],
         "x": 74,
-        "y": 979,
-        "w": 872,
-        "h": 362
+        "y": 979
     },
     {
         "id": "2fc820d53f174088",
@@ -1901,9 +1891,7 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979,
-        "w": 1132,
-        "h": 282
+        "y": 979
     },
     {
         "id": "7d0f955071a4055a",
@@ -2428,7 +2416,9 @@
             "38705d0965924c63"
         ],
         "x": 2314,
-        "y": 19
+        "y": 19,
+        "w": 772,
+        "h": 602
     },
     {
         "id": "80e529568099f818",
@@ -2443,7 +2433,9 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 369
+        "y": 319,
+        "w": 262,
+        "h": 82
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2462,7 +2454,9 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 709
+        "y": 709,
+        "w": 772,
+        "h": 82
     },
     {
         "id": "47c7e078aa019952",
@@ -2481,9 +2475,7 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 14,
-        "y": 509,
-        "w": 812,
-        "h": 82
+        "y": 509
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2639,6 +2631,30 @@
         "y": 1279
     },
     {
+        "id": "fd043472d98f9c2f",
+        "type": "group",
+        "z": "e521d174e7104ca1",
+        "name": "Estado de comunicación HMI - PLC",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9d98a2129132376e",
+            "197d21ec14a2be14",
+            "c51623889408d427",
+            "53d8091c95b2bb91",
+            "1f632255cb1722ff",
+            "1756efa5047ff391",
+            "23cd048150c665a3",
+            "4e7a6d85a6662864",
+            "05aa201180649b16"
+        ],
+        "x": 34,
+        "y": 409,
+        "w": 842,
+        "h": 182
+    },
+    {
         "id": "eb91dac5.690838",
         "type": "group",
         "z": "827787d0.ede678",
@@ -2722,7 +2738,9 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -2750,7 +2768,9 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 172
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -2788,9 +2808,7 @@
             "5c6c269da4720bd1"
         ],
         "x": 94,
-        "y": 539,
-        "w": 1182,
-        "h": 202
+        "y": 539
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -12582,6 +12600,36 @@
         "collapse": false
     },
     {
+        "id": "840b5464d21970fd",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.211",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Status_COM_HMI_PLC",
+        "vartable": {
+            "": {
+                "Comunicacion_HMI_PLC": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
+        "id": "9672b85c4451585b",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.211",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "Status_COM_HMI_PLC",
+        "vartable": {
+            "": {
+                "Status_Com_PLC_HMI_1.TT": {
+                    "type": "BOOL"
+                }
+            }
+        }
+    },
+    {
         "id": "e73d17ea.0c5538",
         "type": "template",
         "z": "18e29a89.99dbb5",
@@ -13609,7 +13657,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 450,
         "y": 60,
         "wires": []
     },
@@ -13845,7 +13893,7 @@
         "y": 310,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13863,8 +13911,7 @@
         "y": 60,
         "wires": [
             [
-                "5c6293f5.b173ac",
-                "92b194932f24c1c6"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13882,7 +13929,7 @@
         "y": 110,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13900,7 +13947,7 @@
         "y": 160,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13918,7 +13965,7 @@
         "y": 210,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13936,7 +13983,7 @@
         "y": 260,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13954,7 +14001,7 @@
         "y": 360,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13972,7 +14019,7 @@
         "y": 410,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -13990,7 +14037,7 @@
         "y": 460,
         "wires": [
             [
-                "5c6293f5.b173ac"
+                "1610d1c8441e6122"
             ]
         ]
     },
@@ -15426,24 +15473,6 @@
         "wires": []
     },
     {
-        "id": "92b194932f24c1c6",
-        "type": "debug",
-        "z": "c8989d0a.49ea8",
-        "g": "a0798509.56f3c8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 300,
-        "y": 120,
-        "wires": []
-    },
-    {
         "id": "2679c3cd140bc8c2",
         "type": "eth-ip in",
         "z": "c8989d0a.49ea8",
@@ -15457,9 +15486,7 @@
         "x": 110,
         "y": 520,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -15476,9 +15503,7 @@
         "x": 110,
         "y": 580,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -15495,9 +15520,7 @@
         "x": 110,
         "y": 640,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -15514,9 +15537,7 @@
         "x": 110,
         "y": 700,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -15533,9 +15554,7 @@
         "x": 110,
         "y": 760,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -15552,9 +15571,7 @@
         "x": 110,
         "y": 820,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -15588,9 +15605,7 @@
         "x": 110,
         "y": 940,
         "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
+            []
         ]
     },
     {
@@ -28282,7 +28297,7 @@
         "type": "change",
         "z": "a70735f4.fb54d8",
         "g": "5b44b24d93b88118",
-        "name": "Evento SHUTDOWN ON",
+        "name": "Evento SHUTDOWN OFF",
         "rules": [
             {
                 "t": "set",
@@ -29708,7 +29723,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Alarma por presión HH en manifold, supera el límite establecido",
+                "to": "Alarma por alta-alta presión en manifold, supera el límite establecido",
                 "tot": "str"
             },
             {
@@ -29728,8 +29743,7 @@
         "y": 100,
         "wires": [
             [
-                "b13f7069320f03ce",
-                "d4977ee073eac802"
+                "b13f7069320f03ce"
             ]
         ]
     },
@@ -29740,7 +29754,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "33f2aa3c.6c08f6"
+            "33f2aa3c.6c08f6",
+            "a63a7d4884a36264"
         ],
         "x": 2735,
         "y": 100,
@@ -29919,7 +29934,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Alarma por presión H en manifold, supera el límite establecido",
+                "to": "Alarma por alta presión en manifold, supera el límite establecido",
                 "tot": "str"
             },
             {
@@ -29939,8 +29954,7 @@
         "y": 220,
         "wires": [
             [
-                "d27d1f89019d8a16",
-                "d4977ee073eac802"
+                "d27d1f89019d8a16"
             ]
         ]
     },
@@ -29951,7 +29965,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "33f2aa3c.6c08f6"
+            "33f2aa3c.6c08f6",
+            "a63a7d4884a36264"
         ],
         "x": 2735,
         "y": 220,
@@ -30052,7 +30067,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Alarma por presión L en manifold, supera el límite establecido",
+                "to": "Alarma por baja presión en manifold, supera el límite establecido",
                 "tot": "str"
             },
             {
@@ -30072,8 +30087,7 @@
         "y": 340,
         "wires": [
             [
-                "2e04301f0ad2bc1c",
-                "d4977ee073eac802"
+                "2e04301f0ad2bc1c"
             ]
         ]
     },
@@ -30084,7 +30098,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "33f2aa3c.6c08f6"
+            "33f2aa3c.6c08f6",
+            "a63a7d4884a36264"
         ],
         "x": 2735,
         "y": 340,
@@ -30185,7 +30200,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Alarma por presión LL en manifold, supera el límite establecido",
+                "to": "Alarma por baja-baja presión en manifold, supera el límite establecido",
                 "tot": "str"
             },
             {
@@ -30205,8 +30220,7 @@
         "y": 460,
         "wires": [
             [
-                "34e61f0acdfbe811",
-                "d4977ee073eac802"
+                "34e61f0acdfbe811"
             ]
         ]
     },
@@ -30217,7 +30231,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "33f2aa3c.6c08f6"
+            "33f2aa3c.6c08f6",
+            "8be5483005b96d16"
         ],
         "x": 2735,
         "y": 460,
@@ -30457,7 +30472,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Presión en manifold HH normalizada",
+                "to": "Alta-alta presión en manifold normalizada",
                 "tot": "str"
             },
             {
@@ -30477,8 +30492,7 @@
         "y": 140,
         "wires": [
             [
-                "8c4ae2530865a4bc",
-                "d4977ee073eac802"
+                "8c4ae2530865a4bc"
             ]
         ]
     },
@@ -30489,7 +30503,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "59e817c2.295b38"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
         "x": 2735,
         "y": 140,
@@ -30590,7 +30605,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Presión en manifold H normalizada",
+                "to": "Alta presión en manifold normalizada",
                 "tot": "str"
             },
             {
@@ -30610,7 +30625,6 @@
         "y": 260,
         "wires": [
             [
-                "d4977ee073eac802",
                 "c98c6a0b37ce9501"
             ]
         ]
@@ -30710,7 +30724,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Presión en manifold L normalizada",
+                "to": "Baja presión en manifold normalizada",
                 "tot": "str"
             },
             {
@@ -30730,7 +30744,6 @@
         "y": 380,
         "wires": [
             [
-                "d4977ee073eac802",
                 "8cf04e500b246f90"
             ]
         ]
@@ -30830,7 +30843,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Presión en manifold LL normalizada",
+                "to": "Baja-Baja presión en manifold normalizada",
                 "tot": "str"
             },
             {
@@ -30850,7 +30863,6 @@
         "y": 500,
         "wires": [
             [
-                "d4977ee073eac802",
                 "35cde5193b778c94"
             ]
         ]
@@ -30875,7 +30887,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "59e817c2.295b38"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
         "x": 2735,
         "y": 500,
@@ -30888,7 +30901,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "59e817c2.295b38"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
         "x": 2735,
         "y": 380,
@@ -40692,7 +40706,7 @@
         "topic": "",
         "payloadType": "date",
         "x": 150,
-        "y": 410,
+        "y": 360,
         "wires": [
             [
                 "87857b683465f57d"
@@ -40731,7 +40745,7 @@
             "bd69a1d2a9aacce2"
         ],
         "x": 255,
-        "y": 410,
+        "y": 360,
         "wires": []
     },
     {
@@ -45601,6 +45615,406 @@
         "wires": [
             [
                 "053623fb4ec2e26f"
+            ]
+        ]
+    },
+    {
+        "id": "9d98a2129132376e",
+        "type": "inject",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 140,
+        "y": 450,
+        "wires": [
+            [
+                "197d21ec14a2be14"
+            ]
+        ]
+    },
+    {
+        "id": "197d21ec14a2be14",
+        "type": "function",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "",
+        "func": "var Bandera = context.get(\"Bandera\", 'memoryOnly');\nif (Bandera) {\n    context.set(\"Bandera\", false, 'memoryOnly');\n}\nelse {\n    context.set(\"Bandera\", true, 'memoryOnly');\n}\nmsg.payload = Bandera;\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Bandera: \" + msg.payload });\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 450,
+        "wires": [
+            [
+                "c51623889408d427"
+            ]
+        ]
+    },
+    {
+        "id": "c51623889408d427",
+        "type": "eth-ip out",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "endpoint": "840b5464d21970fd",
+        "variable": "Comunicacion_HMI_PLC",
+        "program": "",
+        "name": "",
+        "x": 460,
+        "y": 450,
+        "wires": []
+    },
+    {
+        "id": "53d8091c95b2bb91",
+        "type": "eth-ip in",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "endpoint": "9672b85c4451585b",
+        "mode": "single",
+        "variable": "Status_Com_PLC_HMI_1.TT",
+        "program": "",
+        "name": "",
+        "x": 180,
+        "y": 530,
+        "wires": [
+            [
+                "1756efa5047ff391",
+                "1f632255cb1722ff"
+            ]
+        ]
+    },
+    {
+        "id": "1f632255cb1722ff",
+        "type": "delay",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 400,
+        "y": 550,
+        "wires": [
+            [
+                "23cd048150c665a3"
+            ]
+        ]
+    },
+    {
+        "id": "1756efa5047ff391",
+        "type": "change",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 510,
+        "wires": [
+            [
+                "23cd048150c665a3"
+            ]
+        ]
+    },
+    {
+        "id": "23cd048150c665a3",
+        "type": "trigger",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "reset",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 580,
+        "y": 510,
+        "wires": [
+            [
+                "4e7a6d85a6662864",
+                "05aa201180649b16"
+            ]
+        ]
+    },
+    {
+        "id": "4e7a6d85a6662864",
+        "type": "debug",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 740,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "05aa201180649b16",
+        "type": "change",
+        "z": "e521d174e7104ca1",
+        "g": "fd043472d98f9c2f",
+        "name": "Status_PLC_COM",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Status_PLC_COM",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 510,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ecaa3f7e96aa7c9",
+        "type": "ui_toast",
+        "z": "e521d174e7104ca1",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "Notificación borde rojo",
+        "x": 490,
+        "y": 650,
+        "wires": []
+    },
+    {
+        "id": "2c792793e7d5550b",
+        "type": "ui_toast",
+        "z": "e521d174e7104ca1",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "Notificación borde verde",
+        "x": 500,
+        "y": 690,
+        "wires": []
+    },
+    {
+        "id": "33e2930d13a2ec2b",
+        "type": "ui_toast",
+        "z": "e521d174e7104ca1",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "yellow",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "Notificación borde amarillo",
+        "x": 510,
+        "y": 730,
+        "wires": []
+    },
+    {
+        "id": "8be5483005b96d16",
+        "type": "link in",
+        "z": "e521d174e7104ca1",
+        "name": "Notificación roja",
+        "links": [
+            "34e61f0acdfbe811"
+        ],
+        "x": 185,
+        "y": 650,
+        "wires": [
+            [
+                "13a0ab20e1347082"
+            ]
+        ]
+    },
+    {
+        "id": "6c2bad5b885f74fd",
+        "type": "link in",
+        "z": "e521d174e7104ca1",
+        "name": "Notificación verde",
+        "links": [
+            "8c4ae2530865a4bc",
+            "8cf04e500b246f90",
+            "35cde5193b778c94"
+        ],
+        "x": 185,
+        "y": 690,
+        "wires": [
+            [
+                "523059800ca77e42"
+            ]
+        ]
+    },
+    {
+        "id": "a63a7d4884a36264",
+        "type": "link in",
+        "z": "e521d174e7104ca1",
+        "name": "Notificación amarilla",
+        "links": [
+            "b13f7069320f03ce",
+            "d27d1f89019d8a16",
+            "2e04301f0ad2bc1c"
+        ],
+        "x": 185,
+        "y": 730,
+        "wires": [
+            [
+                "54a88d0592b86b88"
+            ]
+        ]
+    },
+    {
+        "id": "13a0ab20e1347082",
+        "type": "switch",
+        "z": "e521d174e7104ca1",
+        "name": "",
+        "property": "#:(memoryOnly)::Status_PLC_COM",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 650,
+        "wires": [
+            [
+                "7ecaa3f7e96aa7c9"
+            ]
+        ]
+    },
+    {
+        "id": "1610d1c8441e6122",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "a0798509.56f3c8",
+        "name": "",
+        "property": "#:(memoryOnly)::Status_PLC_COM",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 60,
+        "wires": [
+            [
+                "5c6293f5.b173ac"
+            ]
+        ]
+    },
+    {
+        "id": "523059800ca77e42",
+        "type": "switch",
+        "z": "e521d174e7104ca1",
+        "name": "",
+        "property": "#:(memoryOnly)::Status_PLC_COM",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 690,
+        "wires": [
+            [
+                "2c792793e7d5550b"
+            ]
+        ]
+    },
+    {
+        "id": "54a88d0592b86b88",
+        "type": "switch",
+        "z": "e521d174e7104ca1",
+        "name": "",
+        "property": "#:(memoryOnly)::Status_PLC_COM",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 730,
+        "wires": [
+            [
+                "33e2930d13a2ec2b"
             ]
         ]
     }
