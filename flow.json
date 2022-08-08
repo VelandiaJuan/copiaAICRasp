@@ -70,6 +70,13 @@
         "info": ""
     },
     {
+        "id": "0dd66b875552d6bc",
+        "type": "tab",
+        "label": "Instrumentación pozos",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "242bc9a6.f9b016",
         "type": "tab",
         "label": "Alarmas/Eventos",
@@ -695,7 +702,9 @@
             "eb91dac5.690838"
         ],
         "x": 148,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 414
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -716,7 +725,9 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -747,7 +758,9 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29
+        "y": 29,
+        "w": 812,
+        "h": 252
     },
     {
         "id": "2f18e23b.de32ce",
@@ -777,7 +790,9 @@
             "528f3613fd9dc550"
         ],
         "x": 68,
-        "y": 299
+        "y": 299,
+        "w": 1234,
+        "h": 468
     },
     {
         "id": "7b6f4b41.106164",
@@ -793,9 +808,7 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13,
-        "w": 1854,
-        "h": 224
+        "y": 13
     },
     {
         "id": "c58d9126.1869c",
@@ -818,7 +831,9 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579
+        "y": 579,
+        "w": 722,
+        "h": 192
     },
     {
         "id": "89dd768a.673f58",
@@ -840,7 +855,9 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "a0798509.56f3c8",
@@ -871,11 +888,11 @@
             "75f9fd6db8f3d35d",
             "678e40a940ceb830",
             "6fb595d3bba0fc4b",
-            "1610d1c8441e6122"
+            "88e39700f7042263"
         ],
         "x": 34,
         "y": 19,
-        "w": 552,
+        "w": 432,
         "h": 962
     },
     {
@@ -919,7 +936,9 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59
+        "y": 59,
+        "w": 952,
+        "h": 502
     },
     {
         "id": "657e2074.735a3",
@@ -1148,7 +1167,9 @@
             "fc7ac26950eab4f6"
         ],
         "x": 144,
-        "y": 443
+        "y": 443,
+        "w": 938,
+        "h": 764
     },
     {
         "id": "5e0b04a10149786e",
@@ -1255,7 +1276,9 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779
+        "y": 779,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "53d376e89282424a",
@@ -1312,7 +1335,9 @@
             "c0e8b2a38c8e9384"
         ],
         "x": 14,
-        "y": 21.5
+        "y": 21.5,
+        "w": 612,
+        "h": 419.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1482,7 +1507,9 @@
             "b0cefaad1317dbb0"
         ],
         "x": 644,
-        "y": 39
+        "y": 39,
+        "w": 762,
+        "h": 402
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1515,7 +1542,9 @@
             "6ae987f442317d17"
         ],
         "x": 1444,
-        "y": 31.5
+        "y": 31.5,
+        "w": 672,
+        "h": 509.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1548,7 +1577,9 @@
             "c2142d4e72432c49"
         ],
         "x": 2134,
-        "y": 29
+        "y": 29,
+        "w": 702,
+        "h": 462
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1824,7 +1855,9 @@
             "c4b00d9d.c758e"
         ],
         "x": 74,
-        "y": 979
+        "y": 979,
+        "w": 872,
+        "h": 362
     },
     {
         "id": "2fc820d53f174088",
@@ -1891,7 +1924,9 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979
+        "y": 979,
+        "w": 1132,
+        "h": 282
     },
     {
         "id": "7d0f955071a4055a",
@@ -2024,7 +2059,9 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329
+        "y": 1329,
+        "w": 862,
+        "h": 982
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2097,7 +2134,9 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59
+        "y": 59,
+        "w": 1472,
+        "h": 872
     },
     {
         "id": "1b162d57908931b5",
@@ -2302,7 +2341,9 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949
+        "y": 949,
+        "w": 1742,
+        "h": 362
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2372,7 +2413,11 @@
             "1acd74b8f94c62c5",
             "6d4ca22faacfb6a7",
             "d6e9e6cb27b824f9",
-            "df95654a91fb1023"
+            "df95654a91fb1023",
+            "9a0b9216db14530e",
+            "e37221e3efababac",
+            "a13647535e0c20a6",
+            "c18438482aa78cfc"
         ],
         "x": 124,
         "y": 19,
@@ -2475,7 +2520,9 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 14,
-        "y": 509
+        "y": 509,
+        "w": 812,
+        "h": 82
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2711,7 +2758,9 @@
             "23b5193babb35890"
         ],
         "x": 174,
-        "y": 39
+        "y": 39,
+        "w": 1802,
+        "h": 362
     },
     {
         "id": "11f55817.139c18",
@@ -2738,9 +2787,7 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39,
-        "w": 902,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -2768,9 +2815,7 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 172
+        "y": 39
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -2808,7 +2853,9 @@
             "5c6c269da4720bd1"
         ],
         "x": 94,
-        "y": 539
+        "y": 539,
+        "w": 1182,
+        "h": 202
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -2829,7 +2876,9 @@
             "2672c65f65d99463"
         ],
         "x": 614,
-        "y": 979
+        "y": 979,
+        "w": 362,
+        "h": 202
     },
     {
         "id": "8217afa77c53c8c4",
@@ -2848,7 +2897,9 @@
             "e01f356525ba5066"
         ],
         "x": 644,
-        "y": 469
+        "y": 469,
+        "w": 172,
+        "h": 162
     },
     {
         "id": "fc7ac26950eab4f6",
@@ -2869,7 +2920,9 @@
             "27e5b49204d6a1d6"
         ],
         "x": 644,
-        "y": 679
+        "y": 679,
+        "w": 412,
+        "h": 162
     },
     {
         "id": "af59ebdb307f926a",
@@ -3052,6 +3105,234 @@
         ],
         "x": 874,
         "y": 151.5
+    },
+    {
+        "id": "64cc751322ef5934",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bbae5a0fbe59bcce",
+            "33ac7a0e3663121c",
+            "b25f21c072a89d76",
+            "0b8b05a7b4d325e9",
+            "39e883bf7ad9c69c",
+            "4793bc4fc745636c",
+            "4d3ee88d550db7e3",
+            "9a6313d8c0495a06",
+            "38b713544719c774",
+            "1f0709f959c285f0",
+            "a268c6438f8a7858"
+        ],
+        "x": 154,
+        "y": 39,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "38e22d287129a8ea",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 2",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f9e738f8a1629bbc",
+            "787fd68ca75216ab",
+            "9c6ff010dc9d4920",
+            "8e54d373d18f63d7",
+            "fcce4ee41deefce0",
+            "0ceca3af17b4f17a",
+            "99acea264230fa12",
+            "951d6df4b4cbc7c9",
+            "80d214b62db56bc9",
+            "97b6e1dcfa2ab810",
+            "8e8519153dd1d5b1"
+        ],
+        "x": 154,
+        "y": 289,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "750dd829ec7858d9",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 3",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0ae00dda62a8086b",
+            "79fb845d5e01a13b",
+            "b7ee3e791f2f5bd5",
+            "2b0b3db582739a3f",
+            "d8a8ed3038ebcf62",
+            "4c39ad9710b549bc",
+            "eeb631996f5a5ac1",
+            "d03e529c3124753f",
+            "46298b9bf300450b",
+            "566a0fce5217ea06",
+            "8704fb9191b3c44d"
+        ],
+        "x": 154,
+        "y": 539,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "ea89d8ce08984fd2",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 4",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7d8a9efd01a681e4",
+            "8d32439056797752",
+            "ce0007ba9a293d80",
+            "ee41171b6b15eb17",
+            "bea26cdcb475708b",
+            "a4b198269b7aabe7",
+            "69d637f38fcd9ee8",
+            "b8ab71a82b3187f8",
+            "4b662789f5c979a5",
+            "c508ef59a28bfbec",
+            "0037d0d2bc04a4e0"
+        ],
+        "x": 154,
+        "y": 789,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "4bd44e626bbf406c",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 5",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5f01be5b0e092fc6",
+            "3640b09426630830",
+            "87428f9aeff14226",
+            "0717b76e7038d01c",
+            "7e8f5389d2a93bd6",
+            "d8e8cabcbd54bfc9",
+            "d56907c54e8e1596",
+            "8ce5fe500c5b1513",
+            "ee847912f9e40353",
+            "d081d71ef70e45f4",
+            "4d57b96fde22f032"
+        ],
+        "x": 154,
+        "y": 1039,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "a7308af0919f6403",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 6",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "677cd1ee31d78d8d",
+            "a998910bbff4676e",
+            "72f8401580fcc052",
+            "18ad6cc163845bd6",
+            "8a9f952f13531107",
+            "9fc84a9fe53244bc",
+            "ebccaaefe8e75b09",
+            "d9f8b649767637fb",
+            "6cd2728790313f7e",
+            "c1ab4100666af48a",
+            "b3664ef992bce9bb"
+        ],
+        "x": 154,
+        "y": 1299,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "a1277f9ddcd91b3f",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 7",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "53a1a34c6cc2f81e",
+            "63439e39cc0fdc8c",
+            "d4274be31fc446ca",
+            "20d689eb4b2e46bb",
+            "269b86d499d87a36",
+            "4859dc6a5f988b62",
+            "28dd29257d223ba1",
+            "bf6ba4f89903c541",
+            "492f8b6865dad046"
+        ],
+        "x": 154,
+        "y": 1559,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "67a470604f7a755b",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 8",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "91e016e3f820ccbf",
+            "2a661f24233a555f",
+            "3843b7e2b67ddea2",
+            "96dd2670c2d473f9",
+            "696537aa1984b7bc",
+            "84a81178ab8c3f16",
+            "f8bad344f0b0ea9a",
+            "02fc596005c4eedc",
+            "d6c13c7a5de39416"
+        ],
+        "x": 154,
+        "y": 1819,
+        "w": 552,
+        "h": 242
+    },
+    {
+        "id": "a23f5a3789f2ca13",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 9",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d90da710e1c1ab7a",
+            "8f5a32b3ebe6f9a8",
+            "4a62953eaf5312c2",
+            "b7a3f487dd689d68",
+            "93a3876e9457a1ab",
+            "1bd3155d0ebfa8cd",
+            "1a90063a43a8ea2d",
+            "b88d086ec8d77868",
+            "140bcd1b6259e44e"
+        ],
+        "x": 154,
+        "y": 2079,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -3555,7 +3836,7 @@
     {
         "id": "85d5763f.045ac8",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura SCP1",
@@ -3648,7 +3929,7 @@
     {
         "id": "22187e2f.9cc252",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster6",
@@ -3969,7 +4250,7 @@
     {
         "id": "c91ced06.36697",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster1",
@@ -4290,7 +4571,7 @@
     {
         "id": "142e843a.d193dc",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster2",
@@ -4611,7 +4892,7 @@
     {
         "id": "cf0ff6d3.44eb48",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster3",
@@ -4932,7 +5213,7 @@
     {
         "id": "156aac7a.4ced64",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster4",
@@ -5253,7 +5534,7 @@
     {
         "id": "10df86fc.ea6c49",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster5",
@@ -5574,7 +5855,7 @@
     {
         "id": "13e2de8b.8b4d71",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster7",
@@ -5895,7 +6176,7 @@
     {
         "id": "fc2fa41.df31058",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster8",
@@ -6216,7 +6497,7 @@
     {
         "id": "1a87133f.85b96d",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster9",
@@ -6537,7 +6818,7 @@
     {
         "id": "98638e25.bf675",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos",
@@ -6630,7 +6911,7 @@
     {
         "id": "64765732.d2c008",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia",
@@ -6669,7 +6950,7 @@
     {
         "id": "7ab6ab16.b6db44",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Elect_Cluster",
@@ -6816,7 +7097,7 @@
     {
         "id": "1cc6e030.40038",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "CCP",
@@ -6859,7 +7140,7 @@
     {
         "id": "817c8033.98df9",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "ANALOG INPUT",
@@ -6891,7 +7172,7 @@
     {
         "id": "a00b93d2e424ac4e",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Eventos",
@@ -7659,7 +7940,7 @@
     {
         "id": "15f69da2533413eb",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Alarmas",
@@ -9235,7 +9516,7 @@
     {
         "id": "5b6ea19cad9ae739",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster11",
@@ -9556,7 +9837,7 @@
     {
         "id": "d3d35ba1ab4a64ef",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP12",
@@ -9877,7 +10158,7 @@
     {
         "id": "fefb6112361aa785",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP13",
@@ -10198,7 +10479,7 @@
     {
         "id": "ad34f7b393441a0e",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP14",
@@ -10519,7 +10800,7 @@
     {
         "id": "da18e730fe442b60",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP15",
@@ -10840,7 +11121,7 @@
     {
         "id": "f9b80009a7e932a4",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP16",
@@ -11161,7 +11442,7 @@
     {
         "id": "2525cff1c1dc9074",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP17",
@@ -11482,7 +11763,7 @@
     {
         "id": "97d45cc155f45f9b",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP18",
@@ -11863,7 +12144,7 @@
     {
         "id": "268c0c4d447aa4c7",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia CLUSTER2",
@@ -11902,7 +12183,7 @@
     {
         "id": "27b7293be00c4c3d",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia Cluster ",
@@ -11941,7 +12222,7 @@
     {
         "id": "335779cd65870ad7",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Referencia RPM",
@@ -11978,19 +12259,9 @@
         }
     },
     {
-        "id": "36bd8b8c8298f26a",
-        "type": "ui_group",
-        "name": "Manifold",
-        "tab": "6a3fd4b.86cdb2c",
-        "order": 4,
-        "disp": false,
-        "width": "12",
-        "collapse": false
-    },
-    {
         "id": "1d3f8552365f7228",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos CLUSTER2",
@@ -12083,7 +12354,7 @@
     {
         "id": "96f1a469e6be7df5",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Confirmacion escritura",
@@ -12122,7 +12393,7 @@
     {
         "id": "7d3dc82b6aad9166",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Habilitar disparo de pozo",
@@ -12199,7 +12470,7 @@
     {
         "id": "d3a6ac1024bb182d",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Shutdown",
@@ -12250,7 +12521,7 @@
     {
         "id": "2a41a00be7f37a48",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Estatus Shutdown",
@@ -12417,16 +12688,6 @@
         "group": "a947cc9457fcd9b0",
         "order": 11,
         "width": "6",
-        "height": 1
-    },
-    {
-        "id": "a627d52bd4201c63",
-        "type": "ui_spacer",
-        "z": "f10e7ce.d57828",
-        "name": "spacer",
-        "group": "f70aaec9.581ea",
-        "order": 9,
-        "width": 3,
         "height": 1
     },
     {
@@ -12602,7 +12863,7 @@
     {
         "id": "840b5464d21970fd",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Status_COM_HMI_PLC",
@@ -12617,7 +12878,7 @@
     {
         "id": "9672b85c4451585b",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.211",
+        "address": "20.0.50.24",
         "slot": "0",
         "cycletime": "500",
         "name": "Status_COM_HMI_PLC",
@@ -12628,6 +12889,145 @@
                 }
             }
         }
+    },
+    {
+        "id": "29f4d8a3157bbd64",
+        "type": "ui_tab",
+        "name": "Instrumentación pozos",
+        "icon": "fa-area-chart",
+        "order": 9,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "489a7baf80e178f1",
+        "type": "ui_group",
+        "name": "SCP 5",
+        "tab": "29f4d8a3157bbd64",
+        "order": 5,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "47fd3d535dbc0b67",
+        "type": "ui_group",
+        "name": "SCP 6",
+        "tab": "29f4d8a3157bbd64",
+        "order": 6,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "ce04ff9503714276",
+        "type": "ui_group",
+        "name": "SCP 7",
+        "tab": "29f4d8a3157bbd64",
+        "order": 7,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "b87436fa5ffcfaff",
+        "type": "ui_group",
+        "name": "SCP 8",
+        "tab": "29f4d8a3157bbd64",
+        "order": 8,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "293ed8c46314aa68",
+        "type": "ui_group",
+        "name": "SCP 9",
+        "tab": "29f4d8a3157bbd64",
+        "order": 9,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "ce58b093f470f8dc",
+        "type": "ui_group",
+        "name": "SCP 1",
+        "tab": "29f4d8a3157bbd64",
+        "order": 1,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "26480ddee04313ab",
+        "type": "ui_group",
+        "name": "SCP 2",
+        "tab": "29f4d8a3157bbd64",
+        "order": 2,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "1da706f94581f20c",
+        "type": "ui_group",
+        "name": "SCP 3",
+        "tab": "29f4d8a3157bbd64",
+        "order": 3,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "e7646dae311fa50e",
+        "type": "ui_group",
+        "name": "SCP 4",
+        "tab": "29f4d8a3157bbd64",
+        "order": 4,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "3a8d48e9f6cc41d8",
+        "type": "ui_spacer",
+        "z": "f10e7ce.d57828",
+        "name": "spacer",
+        "group": "f70aaec9.581ea",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1121e76fb8b4cae4",
+        "type": "ui_spacer",
+        "z": "f10e7ce.d57828",
+        "name": "spacer",
+        "group": "f70aaec9.581ea",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "11e1c62b3ff48406",
+        "type": "ui_spacer",
+        "z": "f10e7ce.d57828",
+        "name": "spacer",
+        "group": "ad633f3f.37b43",
+        "order": 5,
+        "width": "6",
+        "height": "2"
+    },
+    {
+        "id": "34190196f3c2b24f",
+        "type": "ui_spacer",
+        "z": "f10e7ce.d57828",
+        "name": "spacer",
+        "group": "ad633f3f.37b43",
+        "order": 7,
+        "width": "6",
+        "height": "2"
     },
     {
         "id": "e73d17ea.0c5538",
@@ -13584,6 +13984,7 @@
         "id": "8849090f.4e1158",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "1a392c2d1fb561f8",
         "endpoint": "85d5763f.045ac8",
         "variable": "POZO_09.VFD.Marca",
@@ -13636,6 +14037,7 @@
         "id": "4d8ad5af.6a2c6c",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "1a392c2d1fb561f8",
         "endpoint": "85d5763f.045ac8",
         "variable": "POZO_08.VFD.Marca",
@@ -13657,7 +14059,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 330,
         "y": 60,
         "wires": []
     },
@@ -13857,6 +14259,7 @@
         "id": "d4eaa542.9ff2f8",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "1a392c2d1fb561f8",
         "endpoint": "85d5763f.045ac8",
         "variable": "CL9_HABILITACION",
@@ -13870,6 +14273,7 @@
         "id": "86e1777f.bab858",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "1a392c2d1fb561f8",
         "endpoint": "85d5763f.045ac8",
         "variable": "CL8_HABILITACION",
@@ -13893,7 +14297,7 @@
         "y": 310,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -13911,7 +14315,7 @@
         "y": 60,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -13929,7 +14333,7 @@
         "y": 110,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -13947,7 +14351,7 @@
         "y": 160,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -13965,7 +14369,7 @@
         "y": 210,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -13983,7 +14387,7 @@
         "y": 260,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -14001,7 +14405,7 @@
         "y": 360,
         "wires": [
             [
-                "1610d1c8441e6122"
+                "5c6293f5.b173ac"
             ]
         ]
     },
@@ -14009,6 +14413,7 @@
         "id": "e173641d.7e7c38",
         "type": "eth-ip in",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "a0798509.56f3c8",
         "endpoint": "fc2fa41.df31058",
         "mode": "all",
@@ -14018,15 +14423,14 @@
         "x": 110,
         "y": 410,
         "wires": [
-            [
-                "1610d1c8441e6122"
-            ]
+            []
         ]
     },
     {
         "id": "b34b9630.1b9f88",
         "type": "eth-ip in",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "a0798509.56f3c8",
         "endpoint": "1a87133f.85b96d",
         "mode": "all",
@@ -14036,9 +14440,7 @@
         "x": 110,
         "y": 460,
         "wires": [
-            [
-                "1610d1c8441e6122"
-            ]
+            []
         ]
     },
     {
@@ -14292,6 +14694,7 @@
         "id": "de245ad1.e52908",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "657e2074.735a3",
         "endpoint": "98638e25.bf675",
         "variable": "CLUSTER.W09.VSD.Arranque_Remoto_PD",
@@ -14305,6 +14708,7 @@
         "id": "a86fabcb.194488",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "657e2074.735a3",
         "endpoint": "98638e25.bf675",
         "variable": "CLUSTER.W09.VSD.Parada_Remota_PD",
@@ -14318,6 +14722,7 @@
         "id": "a4fc6f8.fdca09",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "657e2074.735a3",
         "endpoint": "98638e25.bf675",
         "variable": "CLUSTER.W09.VSD.Reset_Remoto_PD",
@@ -14331,6 +14736,7 @@
         "id": "ac4b1a1d.2a0158",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "657e2074.735a3",
         "endpoint": "98638e25.bf675",
         "variable": "CLUSTER.W08.VSD.Arranque_Remoto_PD",
@@ -14344,6 +14750,7 @@
         "id": "3851f53d.72a3ea",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "657e2074.735a3",
         "endpoint": "98638e25.bf675",
         "variable": "CLUSTER.W08.VSD.Parada_Remota_PD",
@@ -14357,6 +14764,7 @@
         "id": "57de4f88.31f6f",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "657e2074.735a3",
         "endpoint": "98638e25.bf675",
         "variable": "CLUSTER.W08.VSD.Reset_Remoto_PD",
@@ -14676,6 +15084,7 @@
         "id": "311fb58b.d4c35a",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "a17f12b7.aff7a",
         "endpoint": "64765732.d2c008",
         "variable": "CLUSTER.W08.VSD.Referencia_Frecuencia_Remota_PD",
@@ -14689,6 +15098,7 @@
         "id": "c738a47b.f465d8",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "a17f12b7.aff7a",
         "endpoint": "64765732.d2c008",
         "variable": "CLUSTER.W09.VSD.Referencia_Frecuencia_Remota_PD",
@@ -15426,7 +15836,16 @@
             "38f6482655d72263",
             "60866fb9b9b39155",
             "7975142fb5a73f7d",
-            "e9194e7d3d869d61"
+            "e9194e7d3d869d61",
+            "b25f21c072a89d76",
+            "f9e738f8a1629bbc",
+            "79fb845d5e01a13b",
+            "8d32439056797752",
+            "3640b09426630830",
+            "a998910bbff4676e",
+            "63439e39cc0fdc8c",
+            "2a661f24233a555f",
+            "8f5a32b3ebe6f9a8"
         ],
         "x": 1855,
         "y": 2210,
@@ -17717,6 +18136,7 @@
         "id": "a3d00ff25f9f6097",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "7d0f955071a4055a",
         "endpoint": "96f1a469e6be7df5",
         "variable": "CLUSTER.W08.VSD.Confirmaciones_Escritura.0",
@@ -17730,6 +18150,7 @@
         "id": "56f7f39a6e609305",
         "type": "eth-ip out",
         "z": "c8989d0a.49ea8",
+        "d": true,
         "g": "7d0f955071a4055a",
         "endpoint": "96f1a469e6be7df5",
         "variable": "CLUSTER.W09.VSD.Confirmaciones_Escritura.0",
@@ -25180,7 +25601,7 @@
                 "type": "str"
             },
             {
-                "label": "YASKAWA HMS",
+                "label": "YASKAWA QUANTUM",
                 "value": "YASKAWA_HMS",
                 "type": "str"
             }
@@ -28645,7 +29066,7 @@
         "name": "",
         "group": "f70aaec9.581ea",
         "order": 10,
-        "width": "6",
+        "width": 6,
         "height": 1,
         "passthru": false,
         "label": "ACEPTAR",
@@ -29128,7 +29549,9 @@
         "wires": [
             [
                 "25c5df2a.68262",
-                "df95654a91fb1023"
+                "df95654a91fb1023",
+                "9a0b9216db14530e",
+                "c18438482aa78cfc"
             ]
         ]
     },
@@ -29146,30 +29569,6 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <img src=\"http://aic.local:1880/swcpro-images/Manifold.png\" style=\"width:80%;\">\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 290,
-        "y": 220,
-        "wires": [
-            [
-                "f223c3aaed263f14"
-            ]
-        ]
-    },
-    {
-        "id": "f223c3aaed263f14",
-        "type": "ui_template",
-        "z": "f10e7ce.d57828",
-        "d": true,
-        "g": "9d8df5b4f6b8aaf2",
-        "group": "ad633f3f.37b43",
-        "name": "",
-        "order": 5,
-        "width": 12,
-        "height": "5",
-        "format": "<div ng-bind-html=\"msg.payload|trusted\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 460,
         "y": 220,
         "wires": [
             []
@@ -29199,9 +29598,9 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
-        "order": 2,
-        "width": "6",
-        "height": "2",
+        "order": 4,
+        "width": 6,
+        "height": 2,
         "name": "FIT",
         "label": "FIT",
         "format": "<font size =4px>{{msg.FIT_FLUJO_TOTAL}} ",
@@ -29216,8 +29615,8 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
-        "order": 1,
-        "width": "6",
+        "order": 3,
+        "width": 6,
         "height": 2,
         "name": "PIT",
         "label": "PIT",
@@ -29233,8 +29632,8 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
-        "order": 3,
-        "width": "6",
+        "order": 6,
+        "width": 6,
         "height": 2,
         "name": "Densidad",
         "label": "Densidad",
@@ -29250,8 +29649,8 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
-        "order": 4,
-        "width": "6",
+        "order": 8,
+        "width": 6,
         "height": 2,
         "name": "Temperatura",
         "label": "Temperatura",
@@ -40427,14 +40826,14 @@
         "type": "udp out",
         "z": "e521d174e7104ca1",
         "name": "",
-        "addr": "192.168.2.213",
+        "addr": "20.0.50.25",
         "iface": "",
         "port": "5505",
         "ipv": "udp4",
         "outport": "",
         "base64": false,
         "multicast": "false",
-        "x": 320,
+        "x": 310,
         "y": 60,
         "wires": []
     },
@@ -41140,7 +41539,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THP",
+        "label": "PIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 590,
@@ -41157,7 +41556,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THT",
+        "label": "TIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 590,
@@ -41466,7 +41865,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THP",
+        "label": "PIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 1400,
@@ -41483,7 +41882,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THT",
+        "label": "TIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 1400,
@@ -41681,7 +42080,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THP",
+        "label": "PIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2180,
@@ -41698,7 +42097,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THT",
+        "label": "TIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2180,
@@ -41896,7 +42295,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THP",
+        "label": "PIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2950,
@@ -41964,7 +42363,7 @@
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "THT",
+        "label": "TIT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2950,
@@ -45949,30 +46348,6 @@
         ]
     },
     {
-        "id": "1610d1c8441e6122",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "a0798509.56f3c8",
-        "name": "",
-        "property": "#:(memoryOnly)::Status_PLC_COM",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 260,
-        "y": 60,
-        "wires": [
-            [
-                "5c6293f5.b173ac"
-            ]
-        ]
-    },
-    {
         "id": "523059800ca77e42",
         "type": "switch",
         "z": "e521d174e7104ca1",
@@ -46015,6 +46390,2066 @@
         "wires": [
             [
                 "33e2930d13a2ec2b"
+            ]
+        ]
+    },
+    {
+        "id": "88e39700f7042263",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "a0798509.56f3c8",
+        "name": "",
+        "property": "#:(memoryOnly)::Status_PLC_COM",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1437e72f5a804b3b",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "group": "ce04ff9503714276",
+        "name": "THT SCP7",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 540,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "473726524e154a1f",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "group": "ce04ff9503714276",
+        "name": "THP SCP7",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 540,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51081c83c9cef8b7",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "group": "b87436fa5ffcfaff",
+        "name": "THP SCP8",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 540,
+        "y": 2020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9fc8ea3105d14ae",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "group": "b87436fa5ffcfaff",
+        "name": "THT SCP8",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 540,
+        "y": 1980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f78e21de434e722",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "group": "293ed8c46314aa68",
+        "name": "THT SCP9",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 540,
+        "y": 2240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b76a1a9216fb434",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "group": "293ed8c46314aa68",
+        "name": "THP SCP9",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 540,
+        "y": 2280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bbae5a0fbe59bcce",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "name": "SCP1",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP1.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP1.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP1.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "33ac7a0e3663121c",
+                "0b8b05a7b4d325e9"
+            ]
+        ]
+    },
+    {
+        "id": "33ac7a0e3663121c",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "group": "ce58b093f470f8dc",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b25f21c072a89d76",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 180,
+        "wires": [
+            [
+                "bbae5a0fbe59bcce",
+                "4793bc4fc745636c",
+                "9a6313d8c0495a06",
+                "1f0709f959c285f0"
+            ]
+        ]
+    },
+    {
+        "id": "0b8b05a7b4d325e9",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "group": "ce58b093f470f8dc",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "39e883bf7ad9c69c",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "group": "ce58b093f470f8dc",
+        "name": "",
+        "order": 1,
+        "width": "8",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4793bc4fc745636c",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "name": "Pozo SCP1",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[0].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "4d3ee88d550db7e3"
+            ]
+        ]
+    },
+    {
+        "id": "4d3ee88d550db7e3",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "name": "SCP 1",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "39e883bf7ad9c69c"
+            ]
+        ]
+    },
+    {
+        "id": "9a6313d8c0495a06",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "name": "Nombre THT SCP1",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03831</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "38b713544719c774"
+            ]
+        ]
+    },
+    {
+        "id": "38b713544719c774",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "group": "ce58b093f470f8dc",
+        "name": "THT SCP1",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f0709f959c285f0",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "name": "Nombre THP SCP1",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03831</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "a268c6438f8a7858"
+            ]
+        ]
+    },
+    {
+        "id": "a268c6438f8a7858",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "64cc751322ef5934",
+        "group": "ce58b093f470f8dc",
+        "name": "THP SCP1",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9e738f8a1629bbc",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 430,
+        "wires": [
+            [
+                "787fd68ca75216ab",
+                "0ceca3af17b4f17a",
+                "951d6df4b4cbc7c9",
+                "80d214b62db56bc9"
+            ]
+        ]
+    },
+    {
+        "id": "787fd68ca75216ab",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "name": "SCP2",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP2.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP2.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP2.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 370,
+        "wires": [
+            [
+                "9c6ff010dc9d4920",
+                "8e54d373d18f63d7"
+            ]
+        ]
+    },
+    {
+        "id": "9c6ff010dc9d4920",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "group": "26480ddee04313ab",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "8e54d373d18f63d7",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "group": "26480ddee04313ab",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 370,
+        "wires": []
+    },
+    {
+        "id": "fcce4ee41deefce0",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "group": "26480ddee04313ab",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ceca3af17b4f17a",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "name": "Pozo SCP2",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[1].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 410,
+        "wires": [
+            [
+                "99acea264230fa12"
+            ]
+        ]
+    },
+    {
+        "id": "99acea264230fa12",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "name": "SCP 2",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 490,
+        "y": 410,
+        "wires": [
+            [
+                "fcce4ee41deefce0"
+            ]
+        ]
+    },
+    {
+        "id": "951d6df4b4cbc7c9",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "name": "Nombre THT SCP2",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03832</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 450,
+        "wires": [
+            [
+                "97b6e1dcfa2ab810"
+            ]
+        ]
+    },
+    {
+        "id": "80d214b62db56bc9",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "name": "Nombre THP SCP2",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03832</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 490,
+        "wires": [
+            [
+                "8e8519153dd1d5b1"
+            ]
+        ]
+    },
+    {
+        "id": "97b6e1dcfa2ab810",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "group": "26480ddee04313ab",
+        "name": "THT SCP2",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 450,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e8519153dd1d5b1",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "38e22d287129a8ea",
+        "group": "26480ddee04313ab",
+        "name": "THP SCP2",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 490,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ae00dda62a8086b",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "name": "SCP3",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP3.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP3.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP3.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 620,
+        "wires": [
+            [
+                "b7ee3e791f2f5bd5",
+                "2b0b3db582739a3f"
+            ]
+        ]
+    },
+    {
+        "id": "79fb845d5e01a13b",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 680,
+        "wires": [
+            [
+                "0ae00dda62a8086b",
+                "4c39ad9710b549bc",
+                "d03e529c3124753f",
+                "46298b9bf300450b"
+            ]
+        ]
+    },
+    {
+        "id": "b7ee3e791f2f5bd5",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "group": "1da706f94581f20c",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "2b0b3db582739a3f",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "group": "1da706f94581f20c",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "d8a8ed3038ebcf62",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "group": "1da706f94581f20c",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c39ad9710b549bc",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "name": "Pozo SCP3",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[2].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 660,
+        "wires": [
+            [
+                "eeb631996f5a5ac1"
+            ]
+        ]
+    },
+    {
+        "id": "eeb631996f5a5ac1",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "name": "SCP 3",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 490,
+        "y": 660,
+        "wires": [
+            [
+                "d8a8ed3038ebcf62"
+            ]
+        ]
+    },
+    {
+        "id": "d03e529c3124753f",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "name": "Nombre THT SCP3",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03833</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 700,
+        "wires": [
+            [
+                "566a0fce5217ea06"
+            ]
+        ]
+    },
+    {
+        "id": "46298b9bf300450b",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "name": "Nombre THP SCP3",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03833</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 740,
+        "wires": [
+            [
+                "8704fb9191b3c44d"
+            ]
+        ]
+    },
+    {
+        "id": "566a0fce5217ea06",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "group": "1da706f94581f20c",
+        "name": "THT SCP3",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8704fb9191b3c44d",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "750dd829ec7858d9",
+        "group": "1da706f94581f20c",
+        "name": "THP SCP3",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d8a9efd01a681e4",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "name": "SCP4",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP4.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP4.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP4.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 870,
+        "wires": [
+            [
+                "ce0007ba9a293d80",
+                "ee41171b6b15eb17"
+            ]
+        ]
+    },
+    {
+        "id": "8d32439056797752",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 930,
+        "wires": [
+            [
+                "7d8a9efd01a681e4",
+                "a4b198269b7aabe7",
+                "b8ab71a82b3187f8",
+                "4b662789f5c979a5"
+            ]
+        ]
+    },
+    {
+        "id": "ce0007ba9a293d80",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "group": "e7646dae311fa50e",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 830,
+        "wires": []
+    },
+    {
+        "id": "ee41171b6b15eb17",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "group": "e7646dae311fa50e",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 870,
+        "wires": []
+    },
+    {
+        "id": "bea26cdcb475708b",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "group": "e7646dae311fa50e",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 910,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4b198269b7aabe7",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "name": "Pozo SCP4",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[3].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 910,
+        "wires": [
+            [
+                "69d637f38fcd9ee8"
+            ]
+        ]
+    },
+    {
+        "id": "69d637f38fcd9ee8",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "name": "SCP 4",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 490,
+        "y": 910,
+        "wires": [
+            [
+                "bea26cdcb475708b"
+            ]
+        ]
+    },
+    {
+        "id": "b8ab71a82b3187f8",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "name": "Nombre THT SCP4",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03834</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 950,
+        "wires": [
+            [
+                "c508ef59a28bfbec"
+            ]
+        ]
+    },
+    {
+        "id": "4b662789f5c979a5",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "name": "Nombre THP SCP4",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03834</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 370,
+        "y": 990,
+        "wires": [
+            [
+                "0037d0d2bc04a4e0"
+            ]
+        ]
+    },
+    {
+        "id": "c508ef59a28bfbec",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "group": "e7646dae311fa50e",
+        "name": "THT SCP4",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 950,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0037d0d2bc04a4e0",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "ea89d8ce08984fd2",
+        "group": "e7646dae311fa50e",
+        "name": "THP SCP4",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 560,
+        "y": 990,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f01be5b0e092fc6",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "name": "SCP5",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP5.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP5.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP5.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1120,
+        "wires": [
+            [
+                "87428f9aeff14226",
+                "0717b76e7038d01c"
+            ]
+        ]
+    },
+    {
+        "id": "3640b09426630830",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 1180,
+        "wires": [
+            [
+                "5f01be5b0e092fc6",
+                "d8e8cabcbd54bfc9",
+                "8ce5fe500c5b1513",
+                "ee847912f9e40353"
+            ]
+        ]
+    },
+    {
+        "id": "87428f9aeff14226",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "group": "489a7baf80e178f1",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "0717b76e7038d01c",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "group": "489a7baf80e178f1",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7e8f5389d2a93bd6",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "group": "489a7baf80e178f1",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8e8cabcbd54bfc9",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "name": "Pozo SCP5",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[4].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1160,
+        "wires": [
+            [
+                "d56907c54e8e1596"
+            ]
+        ]
+    },
+    {
+        "id": "d56907c54e8e1596",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "name": "SCP 5",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 480,
+        "y": 1160,
+        "wires": [
+            [
+                "7e8f5389d2a93bd6"
+            ]
+        ]
+    },
+    {
+        "id": "8ce5fe500c5b1513",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "name": "Nombre THT SCP5",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03835</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1200,
+        "wires": [
+            [
+                "d081d71ef70e45f4"
+            ]
+        ]
+    },
+    {
+        "id": "ee847912f9e40353",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "name": "Nombre THP SCP5",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03835</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1240,
+        "wires": [
+            [
+                "4d57b96fde22f032"
+            ]
+        ]
+    },
+    {
+        "id": "d081d71ef70e45f4",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "group": "489a7baf80e178f1",
+        "name": "THT SCP5",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d57b96fde22f032",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "4bd44e626bbf406c",
+        "group": "489a7baf80e178f1",
+        "name": "THP SCP5",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "677cd1ee31d78d8d",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "name": "SCP6",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP6.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP6.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP6.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1380,
+        "wires": [
+            [
+                "72f8401580fcc052",
+                "18ad6cc163845bd6"
+            ]
+        ]
+    },
+    {
+        "id": "a998910bbff4676e",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 1440,
+        "wires": [
+            [
+                "677cd1ee31d78d8d",
+                "9fc84a9fe53244bc",
+                "d9f8b649767637fb",
+                "6cd2728790313f7e"
+            ]
+        ]
+    },
+    {
+        "id": "72f8401580fcc052",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "group": "47fd3d535dbc0b67",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "18ad6cc163845bd6",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "group": "47fd3d535dbc0b67",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "8a9f952f13531107",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "group": "47fd3d535dbc0b67",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9fc84a9fe53244bc",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "name": "Pozo SCP6",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[5].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1420,
+        "wires": [
+            [
+                "ebccaaefe8e75b09"
+            ]
+        ]
+    },
+    {
+        "id": "ebccaaefe8e75b09",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "name": "SCP 6",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 480,
+        "y": 1420,
+        "wires": [
+            [
+                "8a9f952f13531107"
+            ]
+        ]
+    },
+    {
+        "id": "d9f8b649767637fb",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "name": "Nombre THT SCP6",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03836</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1460,
+        "wires": [
+            [
+                "c1ab4100666af48a"
+            ]
+        ]
+    },
+    {
+        "id": "6cd2728790313f7e",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "name": "Nombre THP SCP6",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03836</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1500,
+        "wires": [
+            [
+                "b3664ef992bce9bb"
+            ]
+        ]
+    },
+    {
+        "id": "c1ab4100666af48a",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "group": "47fd3d535dbc0b67",
+        "name": "THT SCP6",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3664ef992bce9bb",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "a7308af0919f6403",
+        "group": "47fd3d535dbc0b67",
+        "name": "THP SCP6",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53a1a34c6cc2f81e",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "name": "SCP7",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP7.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP7.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP7.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1620,
+        "wires": [
+            [
+                "d4274be31fc446ca",
+                "20d689eb4b2e46bb"
+            ]
+        ]
+    },
+    {
+        "id": "63439e39cc0fdc8c",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 1700,
+        "wires": [
+            [
+                "53a1a34c6cc2f81e",
+                "4859dc6a5f988b62",
+                "bf6ba4f89903c541",
+                "492f8b6865dad046"
+            ]
+        ]
+    },
+    {
+        "id": "d4274be31fc446ca",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "group": "ce04ff9503714276",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "20d689eb4b2e46bb",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "group": "ce04ff9503714276",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "269b86d499d87a36",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "group": "ce04ff9503714276",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4859dc6a5f988b62",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "name": "Pozo SCP7",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[6].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1680,
+        "wires": [
+            [
+                "28dd29257d223ba1"
+            ]
+        ]
+    },
+    {
+        "id": "28dd29257d223ba1",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "name": "SCP 7",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 480,
+        "y": 1680,
+        "wires": [
+            [
+                "269b86d499d87a36"
+            ]
+        ]
+    },
+    {
+        "id": "bf6ba4f89903c541",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "name": "Nombre THT SCP7",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03837</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1720,
+        "wires": [
+            [
+                "1437e72f5a804b3b"
+            ]
+        ]
+    },
+    {
+        "id": "492f8b6865dad046",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a1277f9ddcd91b3f",
+        "name": "Nombre THP SCP7",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03837</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1760,
+        "wires": [
+            [
+                "473726524e154a1f"
+            ]
+        ]
+    },
+    {
+        "id": "91e016e3f820ccbf",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "name": "SCP8",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP8.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP8.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP8.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1880,
+        "wires": [
+            [
+                "96dd2670c2d473f9",
+                "3843b7e2b67ddea2"
+            ]
+        ]
+    },
+    {
+        "id": "2a661f24233a555f",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 1960,
+        "wires": [
+            [
+                "91e016e3f820ccbf",
+                "84a81178ab8c3f16",
+                "02fc596005c4eedc",
+                "d6c13c7a5de39416"
+            ]
+        ]
+    },
+    {
+        "id": "3843b7e2b67ddea2",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "group": "b87436fa5ffcfaff",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "96dd2670c2d473f9",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "group": "b87436fa5ffcfaff",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "696537aa1984b7bc",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "group": "b87436fa5ffcfaff",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84a81178ab8c3f16",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "name": "Pozo SCP8",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[7].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1940,
+        "wires": [
+            [
+                "f8bad344f0b0ea9a"
+            ]
+        ]
+    },
+    {
+        "id": "f8bad344f0b0ea9a",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "name": "SCP 8",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 480,
+        "y": 1940,
+        "wires": [
+            [
+                "696537aa1984b7bc"
+            ]
+        ]
+    },
+    {
+        "id": "02fc596005c4eedc",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "name": "Nombre THT SCP8",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">-----</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 1980,
+        "wires": [
+            [
+                "b9fc8ea3105d14ae"
+            ]
+        ]
+    },
+    {
+        "id": "d6c13c7a5de39416",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "67a470604f7a755b",
+        "name": "Nombre THP SCP8",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">-----</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 2020,
+        "wires": [
+            [
+                "51081c83c9cef8b7"
+            ]
+        ]
+    },
+    {
+        "id": "d90da710e1c1ab7a",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "name": "SCP9",
+        "func": "var Cluster = global.get(\"Cluster\", \"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP9.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP9.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP9.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 2140,
+        "wires": [
+            [
+                "4a62953eaf5312c2",
+                "b7a3f487dd689d68"
+            ]
+        ]
+    },
+    {
+        "id": "8f5a32b3ebe6f9a8",
+        "type": "link in",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "name": "",
+        "links": [
+            "0bea077dd52f0325"
+        ],
+        "x": 195,
+        "y": 2220,
+        "wires": [
+            [
+                "d90da710e1c1ab7a",
+                "1bd3155d0ebfa8cd",
+                "b88d086ec8d77868",
+                "140bcd1b6259e44e"
+            ]
+        ]
+    },
+    {
+        "id": "4a62953eaf5312c2",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "group": "293ed8c46314aa68",
+        "order": 4,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THP",
+        "format": "<font size =4px>{{msg.THP}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "b7a3f487dd689d68",
+        "type": "ui_text",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "group": "293ed8c46314aa68",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "name": "",
+        "label": "THT",
+        "format": "<font size =4px>{{msg.THT}}",
+        "layout": "col-center",
+        "x": 460,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "93a3876e9457a1ab",
+        "type": "ui_template",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "group": "293ed8c46314aa68",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 620,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1bd3155d0ebfa8cd",
+        "type": "function",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "name": "Pozo SCP9",
+        "func": "var Nombre_del_Pozo = global.get(\"Cluster[8].Nombre\");\nmsg.Wellname = Nombre_del_Pozo;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 2200,
+        "wires": [
+            [
+                "1a90063a43a8ea2d"
+            ]
+        ]
+    },
+    {
+        "id": "1a90063a43a8ea2d",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "name": "SCP 9",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 480,
+        "y": 2200,
+        "wires": [
+            [
+                "93a3876e9457a1ab"
+            ]
+        ]
+    },
+    {
+        "id": "b88d086ec8d77868",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "name": "Nombre THT SCP9",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">-----</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 2240,
+        "wires": [
+            [
+                "1f78e21de434e722"
+            ]
+        ]
+    },
+    {
+        "id": "140bcd1b6259e44e",
+        "type": "template",
+        "z": "0dd66b875552d6bc",
+        "g": "a23f5a3789f2ca13",
+        "name": "Nombre THP SCP9",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">-----</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 2280,
+        "wires": [
+            [
+                "3b76a1a9216fb434"
+            ]
+        ]
+    },
+    {
+        "id": "9a0b9216db14530e",
+        "type": "template",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "SCP 4",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-PT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 260,
+        "y": 100,
+        "wires": [
+            [
+                "e37221e3efababac"
+            ]
+        ]
+    },
+    {
+        "id": "e37221e3efababac",
+        "type": "ui_template",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "group": "ad633f3f.37b43",
+        "name": "Titulo PIT",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 600,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a13647535e0c20a6",
+        "type": "ui_template",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "group": "ad633f3f.37b43",
+        "name": "Titulo FIT",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload |trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 600,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c18438482aa78cfc",
+        "type": "template",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "SCP 4",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-FIT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "a13647535e0c20a6"
             ]
         ]
     }
