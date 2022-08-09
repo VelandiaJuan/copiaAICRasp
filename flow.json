@@ -645,6 +645,36 @@
                         "port": 0
                     }
                 ]
+            },
+            {
+                "x": 320,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "2fa511fe.c77c8e",
+                        "port": 19
+                    }
+                ]
+            },
+            {
+                "x": 320,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "2fa511fe.c77c8e",
+                        "port": 20
+                    }
+                ]
+            },
+            {
+                "x": 320,
+                "y": 340,
+                "wires": [
+                    {
+                        "id": "2fa511fe.c77c8e",
+                        "port": 21
+                    }
+                ]
             }
         ],
         "env": [
@@ -702,9 +732,7 @@
             "eb91dac5.690838"
         ],
         "x": 148,
-        "y": 13,
-        "w": 1854,
-        "h": 414
+        "y": 13
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -725,9 +753,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19,
-        "w": 812,
-        "h": 132
+        "y": 19
     },
     {
         "id": "73a228cd.9d45d8",
@@ -758,9 +784,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -790,9 +814,7 @@
             "528f3613fd9dc550"
         ],
         "x": 68,
-        "y": 299,
-        "w": 1234,
-        "h": 468
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -831,9 +853,7 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579,
-        "w": 722,
-        "h": 192
+        "y": 579
     },
     {
         "id": "89dd768a.673f58",
@@ -855,9 +875,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -936,9 +954,7 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59,
-        "w": 952,
-        "h": 502
+        "y": 59
     },
     {
         "id": "657e2074.735a3",
@@ -1167,9 +1183,7 @@
             "fc7ac26950eab4f6"
         ],
         "x": 144,
-        "y": 443,
-        "w": 938,
-        "h": 764
+        "y": 443
     },
     {
         "id": "5e0b04a10149786e",
@@ -1276,9 +1290,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779,
-        "w": 1052,
-        "h": 182
+        "y": 779
     },
     {
         "id": "53d376e89282424a",
@@ -1320,7 +1332,6 @@
             "bdac1cda867bdcab",
             "e5640f06a750ebcb",
             "37163e74bd4b85e7",
-            "3ccae6818d4bf852",
             "cf36016a415e7a37",
             "6843cf06f4648e4b",
             "731f78948e165ee4",
@@ -1332,12 +1343,15 @@
             "a0f44da51d28e071",
             "0cf47e78b5dd2816",
             "f984444e3f0ca6ae",
-            "c0e8b2a38c8e9384"
+            "c0e8b2a38c8e9384",
+            "a5be9e647a1b2f3b",
+            "fa1c1388f6ea6d9e",
+            "88cdc40fe1b37fa5"
         ],
-        "x": 14,
-        "y": 21.5,
-        "w": 612,
-        "h": 419.5
+        "x": 104,
+        "y": 29,
+        "w": 652,
+        "h": 462
     },
     {
         "id": "adb0e39f299e229e",
@@ -1504,12 +1518,14 @@
             "999c38a49eeae4af",
             "e4bcafa88fdee7a8",
             "aa8b969698a20004",
-            "b0cefaad1317dbb0"
+            "b0cefaad1317dbb0",
+            "4b85a9e2790b7bae",
+            "7ff2646d70c075ac"
         ],
-        "x": 644,
-        "y": 39,
-        "w": 762,
-        "h": 402
+        "x": 784,
+        "y": 29,
+        "w": 682,
+        "h": 462
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1523,7 +1539,6 @@
             "25d6918b6db7b666",
             "d628812c7bd251e5",
             "17590db1c0418c14",
-            "cc994a84d42dcc0e",
             "94dee28cfda89e7a",
             "7308563c128fd127",
             "cade0b57011f86d9",
@@ -1539,12 +1554,15 @@
             "799f45ffce7d8ae1",
             "d1f003b03a60e19b",
             "d25de6de0c651d64",
-            "6ae987f442317d17"
+            "6ae987f442317d17",
+            "88e528e757b091ac",
+            "74909346a2727647",
+            "d4afa70e71dfe781"
         ],
-        "x": 1444,
-        "y": 31.5,
+        "x": 1494,
+        "y": 29,
         "w": 672,
-        "h": 509.5
+        "h": 532
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1558,7 +1576,6 @@
             "d1eef4f9ee9a3a95",
             "f1205c6a282f6189",
             "58b3f4a929359d92",
-            "93696e6a4dc901a8",
             "f1618da6aa38eca9",
             "625f070aa4d112b5",
             "3e156f1b4a291e52",
@@ -1574,12 +1591,15 @@
             "5354fd789c946d60",
             "39a224c4dfa43d19",
             "24235145d79127f3",
-            "c2142d4e72432c49"
+            "c2142d4e72432c49",
+            "0b3df8fe40d049d1",
+            "a19e81c383a7e44c",
+            "3de8b0576878b726"
         ],
-        "x": 2134,
+        "x": 2194,
         "y": 29,
         "w": 702,
-        "h": 462
+        "h": 532
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1855,9 +1875,7 @@
             "c4b00d9d.c758e"
         ],
         "x": 74,
-        "y": 979,
-        "w": 872,
-        "h": 362
+        "y": 979
     },
     {
         "id": "2fc820d53f174088",
@@ -1924,9 +1942,7 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979,
-        "w": 1132,
-        "h": 282
+        "y": 979
     },
     {
         "id": "7d0f955071a4055a",
@@ -2059,9 +2075,7 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329,
-        "w": 862,
-        "h": 982
+        "y": 1329
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2134,9 +2148,7 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59,
-        "w": 1472,
-        "h": 872
+        "y": 59
     },
     {
         "id": "1b162d57908931b5",
@@ -2341,9 +2353,7 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949,
-        "w": 1742,
-        "h": 362
+        "y": 949
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2407,7 +2417,6 @@
             "69711da5e2395d69",
             "06263b94b182144c",
             "cc874412dbfe50f6",
-            "f223c3aaed263f14",
             "5ac373589c1d1849",
             "7026ba7070318c79",
             "1acd74b8f94c62c5",
@@ -2519,8 +2528,8 @@
             "89ff4bb15f48dd5b",
             "9fd4a9ed252b6a9d"
         ],
-        "x": 14,
-        "y": 509,
+        "x": 104,
+        "y": 519,
         "w": 812,
         "h": 82
     },
@@ -2702,6 +2711,216 @@
         "h": 182
     },
     {
+        "id": "64cc751322ef5934",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bbae5a0fbe59bcce",
+            "33ac7a0e3663121c",
+            "b25f21c072a89d76",
+            "0b8b05a7b4d325e9",
+            "39e883bf7ad9c69c",
+            "4793bc4fc745636c",
+            "4d3ee88d550db7e3",
+            "9a6313d8c0495a06",
+            "38b713544719c774",
+            "1f0709f959c285f0",
+            "a268c6438f8a7858"
+        ],
+        "x": 154,
+        "y": 39
+    },
+    {
+        "id": "38e22d287129a8ea",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 2",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f9e738f8a1629bbc",
+            "787fd68ca75216ab",
+            "9c6ff010dc9d4920",
+            "8e54d373d18f63d7",
+            "fcce4ee41deefce0",
+            "0ceca3af17b4f17a",
+            "99acea264230fa12",
+            "951d6df4b4cbc7c9",
+            "80d214b62db56bc9",
+            "97b6e1dcfa2ab810",
+            "8e8519153dd1d5b1"
+        ],
+        "x": 154,
+        "y": 289
+    },
+    {
+        "id": "750dd829ec7858d9",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 3",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0ae00dda62a8086b",
+            "79fb845d5e01a13b",
+            "b7ee3e791f2f5bd5",
+            "2b0b3db582739a3f",
+            "d8a8ed3038ebcf62",
+            "4c39ad9710b549bc",
+            "eeb631996f5a5ac1",
+            "d03e529c3124753f",
+            "46298b9bf300450b",
+            "566a0fce5217ea06",
+            "8704fb9191b3c44d"
+        ],
+        "x": 154,
+        "y": 539
+    },
+    {
+        "id": "ea89d8ce08984fd2",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 4",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7d8a9efd01a681e4",
+            "8d32439056797752",
+            "ce0007ba9a293d80",
+            "ee41171b6b15eb17",
+            "bea26cdcb475708b",
+            "a4b198269b7aabe7",
+            "69d637f38fcd9ee8",
+            "b8ab71a82b3187f8",
+            "4b662789f5c979a5",
+            "c508ef59a28bfbec",
+            "0037d0d2bc04a4e0"
+        ],
+        "x": 154,
+        "y": 789
+    },
+    {
+        "id": "4bd44e626bbf406c",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 5",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5f01be5b0e092fc6",
+            "3640b09426630830",
+            "87428f9aeff14226",
+            "0717b76e7038d01c",
+            "7e8f5389d2a93bd6",
+            "d8e8cabcbd54bfc9",
+            "d56907c54e8e1596",
+            "8ce5fe500c5b1513",
+            "ee847912f9e40353",
+            "d081d71ef70e45f4",
+            "4d57b96fde22f032"
+        ],
+        "x": 154,
+        "y": 1039
+    },
+    {
+        "id": "a7308af0919f6403",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 6",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "677cd1ee31d78d8d",
+            "a998910bbff4676e",
+            "72f8401580fcc052",
+            "18ad6cc163845bd6",
+            "8a9f952f13531107",
+            "9fc84a9fe53244bc",
+            "ebccaaefe8e75b09",
+            "d9f8b649767637fb",
+            "6cd2728790313f7e",
+            "c1ab4100666af48a",
+            "b3664ef992bce9bb"
+        ],
+        "x": 154,
+        "y": 1299
+    },
+    {
+        "id": "a1277f9ddcd91b3f",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 7",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "53a1a34c6cc2f81e",
+            "63439e39cc0fdc8c",
+            "d4274be31fc446ca",
+            "20d689eb4b2e46bb",
+            "269b86d499d87a36",
+            "4859dc6a5f988b62",
+            "28dd29257d223ba1",
+            "bf6ba4f89903c541",
+            "492f8b6865dad046"
+        ],
+        "x": 154,
+        "y": 1559
+    },
+    {
+        "id": "67a470604f7a755b",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 8",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "91e016e3f820ccbf",
+            "2a661f24233a555f",
+            "3843b7e2b67ddea2",
+            "96dd2670c2d473f9",
+            "696537aa1984b7bc",
+            "84a81178ab8c3f16",
+            "f8bad344f0b0ea9a",
+            "02fc596005c4eedc",
+            "d6c13c7a5de39416"
+        ],
+        "x": 154,
+        "y": 1819
+    },
+    {
+        "id": "a23f5a3789f2ca13",
+        "type": "group",
+        "z": "0dd66b875552d6bc",
+        "name": "Instrumentación SCP 9",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d90da710e1c1ab7a",
+            "8f5a32b3ebe6f9a8",
+            "4a62953eaf5312c2",
+            "b7a3f487dd689d68",
+            "93a3876e9457a1ab",
+            "1bd3155d0ebfa8cd",
+            "1a90063a43a8ea2d",
+            "b88d086ec8d77868",
+            "140bcd1b6259e44e"
+        ],
+        "x": 154,
+        "y": 2079
+    },
+    {
         "id": "eb91dac5.690838",
         "type": "group",
         "z": "827787d0.ede678",
@@ -2758,9 +2977,7 @@
             "23b5193babb35890"
         ],
         "x": 174,
-        "y": 39,
-        "w": 1802,
-        "h": 362
+        "y": 39
     },
     {
         "id": "11f55817.139c18",
@@ -2853,9 +3070,7 @@
             "5c6c269da4720bd1"
         ],
         "x": 94,
-        "y": 539,
-        "w": 1182,
-        "h": 202
+        "y": 539
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -2876,9 +3091,7 @@
             "2672c65f65d99463"
         ],
         "x": 614,
-        "y": 979,
-        "w": 362,
-        "h": 202
+        "y": 979
     },
     {
         "id": "8217afa77c53c8c4",
@@ -2897,9 +3110,7 @@
             "e01f356525ba5066"
         ],
         "x": 644,
-        "y": 469,
-        "w": 172,
-        "h": 162
+        "y": 469
     },
     {
         "id": "fc7ac26950eab4f6",
@@ -2920,9 +3131,7 @@
             "27e5b49204d6a1d6"
         ],
         "x": 644,
-        "y": 679,
-        "w": 412,
-        "h": 162
+        "y": 679
     },
     {
         "id": "af59ebdb307f926a",
@@ -3105,234 +3314,6 @@
         ],
         "x": 874,
         "y": 151.5
-    },
-    {
-        "id": "64cc751322ef5934",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 1",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "bbae5a0fbe59bcce",
-            "33ac7a0e3663121c",
-            "b25f21c072a89d76",
-            "0b8b05a7b4d325e9",
-            "39e883bf7ad9c69c",
-            "4793bc4fc745636c",
-            "4d3ee88d550db7e3",
-            "9a6313d8c0495a06",
-            "38b713544719c774",
-            "1f0709f959c285f0",
-            "a268c6438f8a7858"
-        ],
-        "x": 154,
-        "y": 39,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "38e22d287129a8ea",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 2",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f9e738f8a1629bbc",
-            "787fd68ca75216ab",
-            "9c6ff010dc9d4920",
-            "8e54d373d18f63d7",
-            "fcce4ee41deefce0",
-            "0ceca3af17b4f17a",
-            "99acea264230fa12",
-            "951d6df4b4cbc7c9",
-            "80d214b62db56bc9",
-            "97b6e1dcfa2ab810",
-            "8e8519153dd1d5b1"
-        ],
-        "x": 154,
-        "y": 289,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "750dd829ec7858d9",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 3",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0ae00dda62a8086b",
-            "79fb845d5e01a13b",
-            "b7ee3e791f2f5bd5",
-            "2b0b3db582739a3f",
-            "d8a8ed3038ebcf62",
-            "4c39ad9710b549bc",
-            "eeb631996f5a5ac1",
-            "d03e529c3124753f",
-            "46298b9bf300450b",
-            "566a0fce5217ea06",
-            "8704fb9191b3c44d"
-        ],
-        "x": 154,
-        "y": 539,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "ea89d8ce08984fd2",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 4",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "7d8a9efd01a681e4",
-            "8d32439056797752",
-            "ce0007ba9a293d80",
-            "ee41171b6b15eb17",
-            "bea26cdcb475708b",
-            "a4b198269b7aabe7",
-            "69d637f38fcd9ee8",
-            "b8ab71a82b3187f8",
-            "4b662789f5c979a5",
-            "c508ef59a28bfbec",
-            "0037d0d2bc04a4e0"
-        ],
-        "x": 154,
-        "y": 789,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "4bd44e626bbf406c",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 5",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "5f01be5b0e092fc6",
-            "3640b09426630830",
-            "87428f9aeff14226",
-            "0717b76e7038d01c",
-            "7e8f5389d2a93bd6",
-            "d8e8cabcbd54bfc9",
-            "d56907c54e8e1596",
-            "8ce5fe500c5b1513",
-            "ee847912f9e40353",
-            "d081d71ef70e45f4",
-            "4d57b96fde22f032"
-        ],
-        "x": 154,
-        "y": 1039,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "a7308af0919f6403",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 6",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "677cd1ee31d78d8d",
-            "a998910bbff4676e",
-            "72f8401580fcc052",
-            "18ad6cc163845bd6",
-            "8a9f952f13531107",
-            "9fc84a9fe53244bc",
-            "ebccaaefe8e75b09",
-            "d9f8b649767637fb",
-            "6cd2728790313f7e",
-            "c1ab4100666af48a",
-            "b3664ef992bce9bb"
-        ],
-        "x": 154,
-        "y": 1299,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "a1277f9ddcd91b3f",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 7",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "53a1a34c6cc2f81e",
-            "63439e39cc0fdc8c",
-            "d4274be31fc446ca",
-            "20d689eb4b2e46bb",
-            "269b86d499d87a36",
-            "4859dc6a5f988b62",
-            "28dd29257d223ba1",
-            "bf6ba4f89903c541",
-            "492f8b6865dad046"
-        ],
-        "x": 154,
-        "y": 1559,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "67a470604f7a755b",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 8",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "91e016e3f820ccbf",
-            "2a661f24233a555f",
-            "3843b7e2b67ddea2",
-            "96dd2670c2d473f9",
-            "696537aa1984b7bc",
-            "84a81178ab8c3f16",
-            "f8bad344f0b0ea9a",
-            "02fc596005c4eedc",
-            "d6c13c7a5de39416"
-        ],
-        "x": 154,
-        "y": 1819,
-        "w": 552,
-        "h": 242
-    },
-    {
-        "id": "a23f5a3789f2ca13",
-        "type": "group",
-        "z": "0dd66b875552d6bc",
-        "name": "Instrumentación SCP 9",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d90da710e1c1ab7a",
-            "8f5a32b3ebe6f9a8",
-            "4a62953eaf5312c2",
-            "b7a3f487dd689d68",
-            "93a3876e9457a1ab",
-            "1bd3155d0ebfa8cd",
-            "1a90063a43a8ea2d",
-            "b88d086ec8d77868",
-            "140bcd1b6259e44e"
-        ],
-        "x": 154,
-        "y": 2079,
-        "w": 552,
-        "h": 242
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -4243,6 +4224,15 @@
                 },
                 "CLUSTER.W06.DHOLE.Corriente_Fuga": {
                     "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W06.DHOLE.Vibracion_Eje_Z": {
+                    "type": "REAL"
                 }
             }
         }
@@ -4563,6 +4553,15 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W01.DHOLE.Corriente_Fuga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W01.DHOLE.Vibracion_Eje_Z": {
                     "type": "REAL"
                 }
             }
@@ -4885,6 +4884,15 @@
                 },
                 "CLUSTER.W02.DHOLE.Corriente_Fuga": {
                     "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W02.DHOLE.Vibracion_Eje_Z": {
+                    "type": "REAL"
                 }
             }
         }
@@ -5205,6 +5213,15 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W03.DHOLE.Corriente_Fuga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W03.DHOLE.Vibracion_Eje_Z": {
                     "type": "REAL"
                 }
             }
@@ -5527,6 +5544,15 @@
                 },
                 "CLUSTER.W04.DHOLE.Corriente_Fuga": {
                     "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W04.DHOLE.Vibracion_Eje_Z": {
+                    "type": "REAL"
                 }
             }
         }
@@ -5847,6 +5873,15 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W05.DHOLE.Corriente_Fuga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W05.DHOLE.Vibracion_Eje_Z": {
                     "type": "REAL"
                 }
             }
@@ -6169,6 +6204,15 @@
                 },
                 "CLUSTER.W07.DHOLE.Corriente_Fuga": {
                     "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W07.DHOLE.Vibracion_Eje_Z": {
+                    "type": "REAL"
                 }
             }
         }
@@ -6490,6 +6534,15 @@
                 },
                 "CLUSTER.W08.DHOLE.Corriente_Fuga": {
                     "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W08.DHOLE.Vibracion_Eje_Z": {
+                    "type": "REAL"
                 }
             }
         }
@@ -6810,6 +6863,15 @@
                     "type": "REAL"
                 },
                 "CLUSTER.W09.DHOLE.Corriente_Fuga": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Vibracion_Eje_X": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Vibracion_Eje_Y": {
+                    "type": "REAL"
+                },
+                "CLUSTER.W09.DHOLE.Vibracion_Eje_Z": {
                     "type": "REAL"
                 }
             }
@@ -24266,7 +24328,7 @@
         "label": "Presión de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 600,
         "y": 120,
         "wires": []
     },
@@ -24283,7 +24345,7 @@
         "label": "Temperatura de Motor",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 600,
         "y": 160,
         "wires": []
     },
@@ -24300,25 +24362,8 @@
         "label": "Temperatura de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 490,
+        "x": 620,
         "y": 200,
-        "wires": []
-    },
-    {
-        "id": "3ccae6818d4bf852",
-        "type": "ui_text",
-        "z": "77e50510.f482bc",
-        "g": "cd21ba46bdc44b70",
-        "group": "9699862a.4679e8",
-        "order": 7,
-        "width": "6",
-        "height": 2,
-        "name": "",
-        "label": "Vibración",
-        "format": "<font size =4px>{{msg.payload}}",
-        "layout": "col-center",
-        "x": 440,
-        "y": 240,
         "wires": []
     },
     {
@@ -24328,14 +24373,14 @@
         "g": "cd21ba46bdc44b70",
         "group": "9699862a.4679e8",
         "order": 8,
-        "width": "6",
+        "width": "3",
         "height": 2,
         "name": "Corriente de fuga",
-        "label": "Corriente de fuga",
+        "label": "C. fuga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 470,
-        "y": 280,
+        "x": 600,
+        "y": 240,
         "wires": []
     },
     {
@@ -24353,7 +24398,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 550,
+        "x": 680,
         "y": 80,
         "wires": [
             []
@@ -24371,7 +24416,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{payload}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 430,
+        "x": 560,
         "y": 80,
         "wires": [
             [
@@ -24388,8 +24433,8 @@
         "links": [
             "a908951142dcc258"
         ],
-        "x": 515,
-        "y": 400,
+        "x": 435,
+        "y": 450,
         "wires": []
     },
     {
@@ -24412,8 +24457,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
-        "y": 400,
+        "x": 330,
+        "y": 450,
         "wires": [
             [
                 "936b723c7ae7807e"
@@ -24433,7 +24478,7 @@
         "label": "Presión de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1250,
+        "x": 1310,
         "y": 120,
         "wires": []
     },
@@ -24450,7 +24495,7 @@
         "label": "Temperatura de Motor",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1250,
+        "x": 1310,
         "y": 160,
         "wires": []
     },
@@ -24467,7 +24512,7 @@
         "label": "Temperatura de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1270,
+        "x": 1330,
         "y": 200,
         "wires": []
     },
@@ -24478,14 +24523,14 @@
         "g": "f98bc2e0af73e621",
         "group": "40cbe96.5ec1618",
         "order": 7,
-        "width": "6",
+        "width": "3",
         "height": 2,
-        "name": "",
-        "label": "Vibración",
+        "name": "Vibracion eje X",
+        "label": "Vibración X",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1220,
-        "y": 240,
+        "x": 1300,
+        "y": 360,
         "wires": []
     },
     {
@@ -24495,14 +24540,14 @@
         "g": "f98bc2e0af73e621",
         "group": "40cbe96.5ec1618",
         "order": 8,
-        "width": "6",
+        "width": "3",
         "height": 2,
         "name": "Corriente de fuga",
-        "label": "Corriente de fuga",
+        "label": "C. fuga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1250,
-        "y": 280,
+        "x": 1310,
+        "y": 240,
         "wires": []
     },
     {
@@ -24520,7 +24565,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1330,
+        "x": 1390,
         "y": 80,
         "wires": [
             []
@@ -24538,7 +24583,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{payload}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 1210,
+        "x": 1270,
         "y": 80,
         "wires": [
             [
@@ -24566,8 +24611,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 400,
+        "x": 1020,
+        "y": 450,
         "wires": [
             [
                 "acbd54f5d39424b5"
@@ -24583,8 +24628,8 @@
         "links": [
             "a908951142dcc258"
         ],
-        "x": 1295,
-        "y": 400,
+        "x": 1105,
+        "y": 450,
         "wires": []
     },
     {
@@ -24600,7 +24645,7 @@
         "label": "Presión de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1960,
+        "x": 2010,
         "y": 120,
         "wires": []
     },
@@ -24617,7 +24662,7 @@
         "label": "Temperatura de Motor",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1960,
+        "x": 2010,
         "y": 160,
         "wires": []
     },
@@ -24634,25 +24679,8 @@
         "label": "Temperatura de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1980,
+        "x": 2030,
         "y": 200,
-        "wires": []
-    },
-    {
-        "id": "cc994a84d42dcc0e",
-        "type": "ui_text",
-        "z": "77e50510.f482bc",
-        "g": "0ef33a76c589a53f",
-        "group": "12be7692.1a93f9",
-        "order": 7,
-        "width": "6",
-        "height": 2,
-        "name": "",
-        "label": "Vibración",
-        "format": "<font size =4px>{{msg.payload}}",
-        "layout": "col-center",
-        "x": 1930,
-        "y": 240,
         "wires": []
     },
     {
@@ -24662,14 +24690,14 @@
         "g": "0ef33a76c589a53f",
         "group": "12be7692.1a93f9",
         "order": 8,
-        "width": "6",
+        "width": "3",
         "height": 2,
         "name": "Corriente de fuga",
-        "label": "Corriente de fuga",
+        "label": "C. fuga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1960,
-        "y": 280,
+        "x": 2010,
+        "y": 240,
         "wires": []
     },
     {
@@ -24687,7 +24715,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 2040,
+        "x": 2090,
         "y": 80,
         "wires": [
             []
@@ -24705,7 +24733,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{payload}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 1920,
+        "x": 1970,
         "y": 80,
         "wires": [
             [
@@ -24733,8 +24761,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1790,
-        "y": 460,
+        "x": 1840,
+        "y": 480,
         "wires": [
             [
                 "6ae987f442317d17"
@@ -24761,8 +24789,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1790,
-        "y": 500,
+        "x": 1840,
+        "y": 520,
         "wires": [
             [
                 "7bf005f81169b7f3"
@@ -24778,8 +24806,8 @@
         "links": [
             "a908951142dcc258"
         ],
-        "x": 2015,
-        "y": 460,
+        "x": 2065,
+        "y": 480,
         "wires": []
     },
     {
@@ -24791,8 +24819,8 @@
         "links": [
             "a908951142dcc258"
         ],
-        "x": 1875,
-        "y": 500,
+        "x": 1925,
+        "y": 520,
         "wires": []
     },
     {
@@ -24808,8 +24836,8 @@
         "label": "Presión de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2680,
-        "y": 110,
+        "x": 2740,
+        "y": 120,
         "wires": []
     },
     {
@@ -24825,8 +24853,8 @@
         "label": "Temperatura de Motor",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2680,
-        "y": 150,
+        "x": 2740,
+        "y": 160,
         "wires": []
     },
     {
@@ -24842,25 +24870,8 @@
         "label": "Temperatura de entrada",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2700,
-        "y": 190,
-        "wires": []
-    },
-    {
-        "id": "93696e6a4dc901a8",
-        "type": "ui_text",
-        "z": "77e50510.f482bc",
-        "g": "6c28199fa6fc206b",
-        "group": "54c5820f.3a1ccc",
-        "order": 7,
-        "width": "6",
-        "height": 2,
-        "name": "",
-        "label": "Vibración",
-        "format": "<font size =4px>{{msg.payload}}",
-        "layout": "col-center",
-        "x": 2650,
-        "y": 230,
+        "x": 2760,
+        "y": 200,
         "wires": []
     },
     {
@@ -24870,14 +24881,14 @@
         "g": "6c28199fa6fc206b",
         "group": "54c5820f.3a1ccc",
         "order": 8,
-        "width": "6",
+        "width": "3",
         "height": 2,
         "name": "Corriente de fuga",
-        "label": "Corriente de fuga",
+        "label": "C. fuga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2680,
-        "y": 270,
+        "x": 2740,
+        "y": 240,
         "wires": []
     },
     {
@@ -24895,8 +24906,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 2760,
-        "y": 70,
+        "x": 2820,
+        "y": 80,
         "wires": [
             []
         ]
@@ -24913,8 +24924,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{payload}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 2640,
-        "y": 70,
+        "x": 2700,
+        "y": 80,
         "wires": [
             [
                 "625f070aa4d112b5"
@@ -24941,8 +24952,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2560,
-        "y": 410,
+        "x": 2510,
+        "y": 480,
         "wires": [
             [
                 "c2142d4e72432c49"
@@ -24969,8 +24980,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2560,
-        "y": 450,
+        "x": 2510,
+        "y": 520,
         "wires": [
             [
                 "95f83ed13bca6350"
@@ -24986,8 +24997,8 @@
         "links": [
             "a908951142dcc258"
         ],
-        "x": 2785,
-        "y": 410,
+        "x": 2765,
+        "y": 480,
         "wires": []
     },
     {
@@ -24999,8 +25010,8 @@
         "links": [
             "a908951142dcc258"
         ],
-        "x": 2645,
-        "y": 450,
+        "x": 2605,
+        "y": 520,
         "wires": []
     },
     {
@@ -25016,8 +25027,8 @@
         "label": "Temperatura de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 490,
-        "y": 320,
+        "x": 620,
+        "y": 280,
         "wires": []
     },
     {
@@ -25033,8 +25044,8 @@
         "label": "Presión de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 480,
-        "y": 360,
+        "x": 610,
+        "y": 320,
         "wires": []
     },
     {
@@ -25050,8 +25061,8 @@
         "label": "Temperatura de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1270,
-        "y": 320,
+        "x": 1330,
+        "y": 280,
         "wires": []
     },
     {
@@ -25067,8 +25078,8 @@
         "label": "Presión de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1260,
-        "y": 360,
+        "x": 1320,
+        "y": 320,
         "wires": []
     },
     {
@@ -25084,8 +25095,8 @@
         "label": "Temperatura de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1980,
-        "y": 320,
+        "x": 2030,
+        "y": 280,
         "wires": []
     },
     {
@@ -25101,8 +25112,8 @@
         "label": "Presión de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1970,
-        "y": 360,
+        "x": 2020,
+        "y": 320,
         "wires": []
     },
     {
@@ -25118,8 +25129,8 @@
         "label": "Temperatura de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2700,
-        "y": 310,
+        "x": 2760,
+        "y": 280,
         "wires": []
     },
     {
@@ -25135,8 +25146,8 @@
         "label": "Presión de descarga",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2690,
-        "y": 350,
+        "x": 2750,
+        "y": 320,
         "wires": []
     },
     {
@@ -41275,8 +41286,8 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "pos",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled }\n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
-        "outputs": 19,
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\nvar Vibracion_X = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_X\", \"memoryOnly\") || 0;\nvar Vibracion_Y = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Y\", \"memoryOnly\") || 0;\nvar Vibracion_Z = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Z\", \"memoryOnly\") || 0;\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled },\n    { payload: catchdisabled(Vibracion_X, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Y, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Z, 2, \"G\"), enabled: enabled }\n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
+        "outputs": 22,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -41304,7 +41315,10 @@
             [],
             [
                 "5f0f862c.a007a8"
-            ]
+            ],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -41432,7 +41446,10 @@
             [],
             [
                 "29bb553b5154ac9a"
-            ]
+            ],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -41835,7 +41852,10 @@
             [],
             [
                 "081cafd2b18a8c0b"
-            ]
+            ],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -42050,7 +42070,10 @@
             [],
             [
                 "09a2fe0707ac9cef"
-            ]
+            ],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -42222,7 +42245,10 @@
             [],
             [
                 "4c8093fea15c33ac"
-            ]
+            ],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -42642,8 +42668,8 @@
         "g": "cd21ba46bdc44b70",
         "name": "Leer Importante",
         "info": "Si no se visualizan los cajetines correc-\ntamente, `pulsar injects \"viewer\" en los\n4 grupos SCP",
-        "x": 130,
-        "y": 320,
+        "x": 220,
+        "y": 350,
         "wires": []
     },
     {
@@ -42665,8 +42691,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 230,
-        "y": 370,
+        "x": 200,
+        "y": 450,
         "wires": [
             [
                 "5e64a142de84ac39"
@@ -42691,8 +42717,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1060,
-        "y": 390,
+        "x": 900,
+        "y": 450,
         "wires": [
             [
                 "fba119f4cedc1546"
@@ -42718,8 +42744,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 1600,
-        "y": 430,
+        "x": 1650,
+        "y": 450,
         "wires": [
             [
                 "14e5c966f0ac7a55"
@@ -42744,8 +42770,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 2350,
-        "y": 400,
+        "x": 2370,
+        "y": 450,
         "wires": [
             [
                 "bffe69dd0beff361"
@@ -42761,8 +42787,8 @@
         "links": [
             "449b37406b29dc93"
         ],
-        "x": 55,
-        "y": 550,
+        "x": 145,
+        "y": 560,
         "wires": [
             [
                 "b08573f5fa1c7169"
@@ -42796,8 +42822,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 170,
-        "y": 550,
+        "x": 260,
+        "y": 560,
         "wires": [
             [
                 "9bf20bca3a15225d"
@@ -42849,8 +42875,8 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
-        "x": 330,
-        "y": 550,
+        "x": 420,
+        "y": 560,
         "wires": [
             [
                 "89ff4bb15f48dd5b"
@@ -42877,8 +42903,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 600,
-        "y": 550,
+        "x": 690,
+        "y": 560,
         "wires": [
             [
                 "9fd4a9ed252b6a9d"
@@ -42895,8 +42921,8 @@
             "d25de6de0c651d64",
             "24235145d79127f3"
         ],
-        "x": 785,
-        "y": 550,
+        "x": 875,
+        "y": 560,
         "wires": []
     },
     {
@@ -42908,8 +42934,8 @@
         "links": [
             "87857b683465f57d"
         ],
-        "x": 55,
-        "y": 190,
+        "x": 145,
+        "y": 220,
         "wires": [
             [
                 "f984444e3f0ca6ae"
@@ -42934,8 +42960,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 150,
-        "y": 190,
+        "x": 240,
+        "y": 220,
         "wires": [
             [
                 "c0e8b2a38c8e9384"
@@ -42960,8 +42986,8 @@
                 "type": "str"
             }
         ],
-        "x": 280,
-        "y": 190,
+        "x": 370,
+        "y": 220,
         "wires": [
             [
                 "731f78948e165ee4"
@@ -42985,9 +43011,7 @@
             [
                 "37163e74bd4b85e7"
             ],
-            [
-                "3ccae6818d4bf852"
-            ],
+            [],
             [
                 "cf36016a415e7a37"
             ],
@@ -42997,7 +43021,16 @@
             [
                 "140d811fb12cab05"
             ],
-            []
+            [],
+            [
+                "a5be9e647a1b2f3b"
+            ],
+            [
+                "fa1c1388f6ea6d9e"
+            ],
+            [
+                "88cdc40fe1b37fa5"
+            ]
         ]
     },
     {
@@ -43018,7 +43051,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 790,
+        "x": 930,
         "y": 220,
         "wires": [
             [
@@ -43035,7 +43068,7 @@
         "links": [
             "87857b683465f57d"
         ],
-        "x": 685,
+        "x": 825,
         "y": 220,
         "wires": [
             [
@@ -43061,7 +43094,7 @@
                 "type": "str"
             }
         ],
-        "x": 920,
+        "x": 1060,
         "y": 220,
         "wires": [
             [
@@ -43086,9 +43119,7 @@
             [
                 "9c1c13f0850b6142"
             ],
-            [
-                "a6b7268ff5be11dc"
-            ],
+            [],
             [
                 "cb712cd4a0c9a16a"
             ],
@@ -43098,7 +43129,16 @@
             [
                 "d72d7c062d4d29c7"
             ],
-            []
+            [],
+            [
+                "a6b7268ff5be11dc"
+            ],
+            [
+                "4b85a9e2790b7bae"
+            ],
+            [
+                "7ff2646d70c075ac"
+            ]
         ]
     },
     {
@@ -43119,8 +43159,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1590,
-        "y": 200,
+        "x": 1640,
+        "y": 220,
         "wires": [
             [
                 "799f45ffce7d8ae1"
@@ -43136,8 +43176,8 @@
         "links": [
             "87857b683465f57d"
         ],
-        "x": 1485,
-        "y": 200,
+        "x": 1535,
+        "y": 220,
         "wires": [
             [
                 "299beb21057a53c6"
@@ -43162,8 +43202,8 @@
                 "type": "str"
             }
         ],
-        "x": 1720,
-        "y": 200,
+        "x": 1770,
+        "y": 220,
         "wires": [
             [
                 "cade0b57011f86d9"
@@ -43187,9 +43227,7 @@
             [
                 "17590db1c0418c14"
             ],
-            [
-                "cc994a84d42dcc0e"
-            ],
+            [],
             [
                 "94dee28cfda89e7a"
             ],
@@ -43199,7 +43237,16 @@
             [
                 "841b81a75dbd3795"
             ],
-            []
+            [],
+            [
+                "88e528e757b091ac"
+            ],
+            [
+                "74909346a2727647"
+            ],
+            [
+                "d4afa70e71dfe781"
+            ]
         ]
     },
     {
@@ -43220,8 +43267,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2270,
-        "y": 210,
+        "x": 2330,
+        "y": 220,
         "wires": [
             [
                 "5354fd789c946d60"
@@ -43237,8 +43284,8 @@
         "links": [
             "87857b683465f57d"
         ],
-        "x": 2175,
-        "y": 210,
+        "x": 2235,
+        "y": 220,
         "wires": [
             [
                 "a6bb77d2abf09c49"
@@ -43263,8 +43310,8 @@
                 "type": "str"
             }
         ],
-        "x": 2410,
-        "y": 210,
+        "x": 2470,
+        "y": 220,
         "wires": [
             [
                 "3e156f1b4a291e52"
@@ -43288,9 +43335,7 @@
             [
                 "58b3f4a929359d92"
             ],
-            [
-                "93696e6a4dc901a8"
-            ],
+            [],
             [
                 "f1618da6aa38eca9"
             ],
@@ -43300,7 +43345,16 @@
             [
                 "8e67b3b175edf584"
             ],
-            []
+            [],
+            [
+                "0b3df8fe40d049d1"
+            ],
+            [
+                "a19e81c383a7e44c"
+            ],
+            [
+                "3de8b0576878b726"
+            ]
         ]
     },
     {
@@ -43313,8 +43367,8 @@
             "9fd4a9ed252b6a9d",
             "51b0f5a838209f51"
         ],
-        "x": 1565,
-        "y": 480,
+        "x": 1615,
+        "y": 500,
         "wires": [
             [
                 "d1f003b03a60e19b"
@@ -43342,8 +43396,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1650,
-        "y": 480,
+        "x": 1700,
+        "y": 500,
         "wires": [
             [
                 "7eeaa59705bca2d0"
@@ -43374,8 +43428,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2340,
-        "y": 440,
+        "x": 2370,
+        "y": 500,
         "wires": [
             [
                 "ad844df1387fbd1a"
@@ -43395,8 +43449,8 @@
             "9fd4a9ed252b6a9d",
             "51b0f5a838209f51"
         ],
-        "x": 2245,
-        "y": 440,
+        "x": 2285,
+        "y": 500,
         "wires": [
             [
                 "39a224c4dfa43d19"
@@ -43420,8 +43474,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 1920,
-        "y": 460,
+        "x": 1970,
+        "y": 480,
         "wires": [
             [
                 "1a320b572504fdef"
@@ -43445,8 +43499,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 2690,
-        "y": 410,
+        "x": 2660,
+        "y": 480,
         "wires": [
             [
                 "0183201e685f5f8f"
@@ -48452,5 +48506,192 @@
                 "a13647535e0c20a6"
             ]
         ]
+    },
+    {
+        "id": "a5be9e647a1b2f3b",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "cd21ba46bdc44b70",
+        "group": "9699862a.4679e8",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje X",
+        "label": "Vibración X",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 590,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fa1c1388f6ea6d9e",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "cd21ba46bdc44b70",
+        "group": "9699862a.4679e8",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Y",
+        "label": "Vibración Y",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 590,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "88cdc40fe1b37fa5",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "cd21ba46bdc44b70",
+        "group": "9699862a.4679e8",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Z",
+        "label": "Vibración Z",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 590,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "4b85a9e2790b7bae",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "f98bc2e0af73e621",
+        "group": "40cbe96.5ec1618",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Y",
+        "label": "Vibración Y",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 1300,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7ff2646d70c075ac",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "f98bc2e0af73e621",
+        "group": "40cbe96.5ec1618",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Z",
+        "label": "Vibración Z",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 1300,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "88e528e757b091ac",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "0ef33a76c589a53f",
+        "group": "12be7692.1a93f9",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje X",
+        "label": "Vibración X",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 2000,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "74909346a2727647",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "0ef33a76c589a53f",
+        "group": "12be7692.1a93f9",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Y",
+        "label": "Vibración Y",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 2000,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d4afa70e71dfe781",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "0ef33a76c589a53f",
+        "group": "12be7692.1a93f9",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Z",
+        "label": "Vibración Z",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 2000,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "0b3df8fe40d049d1",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "6c28199fa6fc206b",
+        "group": "54c5820f.3a1ccc",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje X",
+        "label": "Vibración X",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 2730,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a19e81c383a7e44c",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "6c28199fa6fc206b",
+        "group": "54c5820f.3a1ccc",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Y",
+        "label": "Vibración Y",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 2730,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "3de8b0576878b726",
+        "type": "ui_text",
+        "z": "77e50510.f482bc",
+        "g": "6c28199fa6fc206b",
+        "group": "54c5820f.3a1ccc",
+        "order": 7,
+        "width": "3",
+        "height": 2,
+        "name": "Vibracion eje Z",
+        "label": "Vibración Z",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 2730,
+        "y": 440,
+        "wires": []
     }
 ]
