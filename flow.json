@@ -784,9 +784,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -816,9 +814,7 @@
             "528f3613fd9dc550"
         ],
         "x": 68,
-        "y": 299,
-        "w": 1234,
-        "h": 468
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -834,7 +830,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 224
     },
     {
         "id": "c58d9126.1869c",
@@ -857,7 +855,9 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579
+        "y": 579,
+        "w": 722,
+        "h": 192
     },
     {
         "id": "89dd768a.673f58",
@@ -879,9 +879,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -915,7 +913,9 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -958,50 +958,9 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59
-    },
-    {
-        "id": "657e2074.735a3",
-        "type": "group",
-        "z": "c8989d0a.49ea8",
-        "name": "Comandos Arranque Paro Reset Remoto SCP1 al 9",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf"
-        },
-        "nodes": [
-            "d2f4febb.5191d",
-            "d938c95c.283108",
-            "47d1f5ad.53fdfc",
-            "e73deb28.ab7c58",
-            "308496cc.1a08fa",
-            "38d893df.8a333c",
-            "8ba61d08.68924",
-            "b804dc17.3c11c",
-            "f853ef97.ea1b",
-            "f7e2b76f.736738",
-            "8d5fdd06.4fa45",
-            "b9f20f86.e4bf1",
-            "8eab2d74.7f1fe",
-            "656bbea4.ffa3f",
-            "160ab9fc.7eb4e6",
-            "e444da6e.5f8128",
-            "25eeaa97.48ca86",
-            "932b0db5.b3daa",
-            "de245ad1.e52908",
-            "a86fabcb.194488",
-            "a4fc6f8.fdca09",
-            "ac4b1a1d.2a0158",
-            "3851f53d.72a3ea",
-            "57de4f88.31f6f",
-            "2bf7ce89.c48ff2",
-            "95c6abd4.4862d8",
-            "7998e18f.da1ef",
-            "ca6808c4.0ce2b8",
-            "c5614143.9411"
-        ],
-        "x": 494,
-        "y": 19
+        "y": 59,
+        "w": 952,
+        "h": 502
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1043,8 +1002,10 @@
             "38c838ee9ea436f4",
             "b2b70770f04451e4"
         ],
-        "x": 1514,
-        "y": 19
+        "x": 1224,
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "1c17956307e44e29",
@@ -1290,9 +1251,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779,
-        "w": 1052,
-        "h": 182
+        "y": 779
     },
     {
         "id": "53d376e89282424a",
@@ -1683,8 +1642,10 @@
             "f22dc9c6cc41bdf9",
             "6fb4d7510fdd7772"
         ],
-        "x": 2254,
-        "y": 19
+        "x": 1984,
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1736,8 +1697,10 @@
             "dcb5846eac15639a",
             "d1bcaebfeab23d41"
         ],
-        "x": 3034,
-        "y": 19
+        "x": 2764,
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1833,8 +1796,10 @@
             "66e21be155c91fee",
             "dc662dbf83f0e930"
         ],
-        "x": 974,
-        "y": 19
+        "x": 504,
+        "y": 2149,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1866,9 +1831,7 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 979,
-        "w": 872,
-        "h": 402
+        "y": 979
     },
     {
         "id": "2fc820d53f174088",
@@ -1902,8 +1865,10 @@
             "bc99cf40ab6d6e51",
             "0af77ddbb1ce4317"
         ],
-        "x": 1514,
-        "y": 1719
+        "x": 2714,
+        "y": 2069,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1933,9 +1898,7 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979,
-        "w": 1132,
-        "h": 282
+        "y": 979
     },
     {
         "id": "7d0f955071a4055a",
@@ -1968,8 +1931,10 @@
             "a031eb47b70f5b16",
             "571503a1551ddd48"
         ],
-        "x": 1514,
-        "y": 1139
+        "x": 1234,
+        "y": 1149,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1999,8 +1964,10 @@
             "136f03e2229f030a",
             "75b2e87e6760a38b"
         ],
-        "x": 3814,
-        "y": 19
+        "x": 3534,
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2064,7 +2031,9 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329
+        "y": 1329,
+        "w": 862,
+        "h": 982
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2137,7 +2106,9 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59
+        "y": 59,
+        "w": 1472,
+        "h": 872
     },
     {
         "id": "1b162d57908931b5",
@@ -2180,7 +2151,6 @@
             "6084c8e393eeb2aa",
             "07704cb1b87a2267",
             "34e61f0acdfbe811",
-            "d4977ee073eac802",
             "ae3e996599f98f19",
             "1c9bf6e628cd597a",
             "eb2f3582baede96f",
@@ -2214,7 +2184,6 @@
             "03548fbdda10483c",
             "991eb055c9a9be2b",
             "34b1e89fd40139d2",
-            "04123de5b32abd3b",
             "a56d3ba5862abf40",
             "4e9d9a11bbb1cce7",
             "113428dcf1574e20",
@@ -2235,10 +2204,13 @@
             "92d91b2b89ea133a",
             "7414bc966287131d",
             "31be1c34ecab20b8",
-            "e123891250972186"
+            "e123891250972186",
+            "d5b941e2a96bbfa3"
         ],
         "x": 1554,
-        "y": 19
+        "y": 19,
+        "w": 1722,
+        "h": 832
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2262,8 +2234,10 @@
             "cb4a6286aca4bd43",
             "3e1f18e73ad342b7"
         ],
-        "x": 124,
-        "y": 679
+        "x": 94,
+        "y": 779,
+        "w": 1202,
+        "h": 152
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2338,7 +2312,9 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949
+        "y": 949,
+        "w": 1742,
+        "h": 362
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2361,7 +2337,9 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19
+        "y": 19,
+        "w": 712,
+        "h": 502
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2411,8 +2389,10 @@
             "a13647535e0c20a6",
             "c18438482aa78cfc"
         ],
-        "x": 124,
-        "y": 19
+        "x": 94,
+        "y": 19,
+        "w": 682,
+        "h": 732
     },
     {
         "id": "4e67a9385d518b82",
@@ -2468,7 +2448,9 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319
+        "y": 319,
+        "w": 262,
+        "h": 82
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2524,7 +2506,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2681,7 +2665,9 @@
             "05aa201180649b16"
         ],
         "x": 34,
-        "y": 409
+        "y": 409,
+        "w": 842,
+        "h": 182
     },
     {
         "id": "64cc751322ef5934",
@@ -2977,7 +2963,9 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -3005,7 +2993,9 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 172
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3043,9 +3033,7 @@
             "5c6c269da4720bd1"
         ],
         "x": 94,
-        "y": 539,
-        "w": 1182,
-        "h": 202
+        "y": 539
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3289,6 +3277,105 @@
         ],
         "x": 874,
         "y": 151.5
+    },
+    {
+        "id": "657e2074.735a3",
+        "type": "group",
+        "z": "c8989d0a.49ea8",
+        "name": "Comandos Arranque Paro Reset Remoto SCP1 al 9",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "d2f4febb.5191d",
+            "d938c95c.283108",
+            "47d1f5ad.53fdfc",
+            "e73deb28.ab7c58",
+            "308496cc.1a08fa",
+            "38d893df.8a333c",
+            "8ba61d08.68924",
+            "b804dc17.3c11c",
+            "f853ef97.ea1b",
+            "f7e2b76f.736738",
+            "8d5fdd06.4fa45",
+            "b9f20f86.e4bf1",
+            "8eab2d74.7f1fe",
+            "656bbea4.ffa3f",
+            "160ab9fc.7eb4e6",
+            "e444da6e.5f8128",
+            "25eeaa97.48ca86",
+            "932b0db5.b3daa",
+            "de245ad1.e52908",
+            "a86fabcb.194488",
+            "a4fc6f8.fdca09",
+            "ac4b1a1d.2a0158",
+            "3851f53d.72a3ea",
+            "57de4f88.31f6f",
+            "2bf7ce89.c48ff2",
+            "95c6abd4.4862d8",
+            "7998e18f.da1ef",
+            "ca6808c4.0ce2b8",
+            "c5614143.9411",
+            "9c6210069781916b",
+            "560727a17bbf3f80",
+            "f52c20a35985e18c",
+            "c01add8e28e8df04",
+            "6642d030e94e2415",
+            "c3aa026afba3312f",
+            "acb3163797abe44e",
+            "0409999916e94e81",
+            "7efaa20c7eb6a1ac",
+            "0ec9bd75b29c9e3a",
+            "791dcb1d44a49629",
+            "c008b2b0aac91403",
+            "632c21a73c32eb67",
+            "387b3499390d4b07",
+            "296fbc2a76bfd265",
+            "159e9f69afa5a53e",
+            "8071daadd6f71ea6",
+            "dc502e5620a2c393",
+            "c8d177b8c8692167",
+            "7da7e38601634bf0",
+            "abe11a7834875975",
+            "bd2e2cacb5c2d7cb",
+            "cfb2c42d93e9e1ee",
+            "280e4cd5c1140e28",
+            "9ad294dc5c727876",
+            "d97988d997fd4a60",
+            "69468fe7909081de",
+            "7bc4ef3f5c4b4a92",
+            "1d502d179b7be8e0",
+            "172b71e894976487",
+            "dd15752aeb11b799",
+            "ded70a60eed08f61",
+            "7a848364d51272bd",
+            "cc8f5681458a511f",
+            "4e08bbbee5c4473c",
+            "15dd3565585026a6",
+            "b3c88e2b31d841b4",
+            "11873da7e7f2bae9",
+            "0e88388fcb5738cd",
+            "39711a34cca25a79",
+            "0fe824e424b384f1",
+            "05d0671af4728704",
+            "cec1dd6e858e10e5",
+            "bff60e66f81afe54",
+            "dcc5b47701793560",
+            "b8aacf8fea75e712",
+            "580281f1bded7cf0",
+            "53068a30972e632b",
+            "3c5071c419d1e925",
+            "2e051054ca5f1154",
+            "7d68ef265d1e3035",
+            "347adb735433a9b4",
+            "deac0149d0aa53fc",
+            "da1899281ec8a4bc"
+        ],
+        "x": 494,
+        "y": 19,
+        "w": 702,
+        "h": 2112
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -14097,7 +14184,7 @@
         "variable": "POZO_02.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 120,
         "wires": []
     },
@@ -14110,7 +14197,7 @@
         "variable": "POZO_03.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 180,
         "wires": []
     },
@@ -14123,7 +14210,7 @@
         "variable": "POZO_05.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 300,
         "wires": []
     },
@@ -14137,7 +14224,7 @@
         "variable": "POZO_09.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 540,
         "wires": []
     },
@@ -14150,7 +14237,7 @@
         "variable": "POZO_07.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 420,
         "wires": []
     },
@@ -14163,7 +14250,7 @@
         "variable": "POZO_06.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 360,
         "wires": []
     },
@@ -14176,7 +14263,7 @@
         "variable": "POZO_04.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 240,
         "wires": []
     },
@@ -14190,7 +14277,7 @@
         "variable": "POZO_08.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 480,
         "wires": []
     },
@@ -14231,7 +14318,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 3150,
+        "x": 2880,
         "y": 520,
         "wires": [
             [
@@ -14252,7 +14339,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3320,
+        "x": 3050,
         "y": 520,
         "wires": [
             [
@@ -14320,7 +14407,7 @@
         "variable": "CL1_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 600,
         "wires": []
     },
@@ -14333,7 +14420,7 @@
         "variable": "CL2_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 660,
         "wires": []
     },
@@ -14346,7 +14433,7 @@
         "variable": "CL3_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 720,
         "wires": []
     },
@@ -14359,7 +14446,7 @@
         "variable": "CL7_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 960,
         "wires": []
     },
@@ -14372,7 +14459,7 @@
         "variable": "CL6_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 900,
         "wires": []
     },
@@ -14385,7 +14472,7 @@
         "variable": "CL5_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 840,
         "wires": []
     },
@@ -14398,7 +14485,7 @@
         "variable": "CL4_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 780,
         "wires": []
     },
@@ -14412,7 +14499,7 @@
         "variable": "CL9_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 1080,
         "wires": []
     },
@@ -14426,7 +14513,7 @@
         "variable": "CL8_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 1020,
         "wires": []
     },
@@ -14599,481 +14686,9 @@
         "variable": "POZO_01.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3660,
+        "x": 3390,
         "y": 60,
         "wires": []
-    },
-    {
-        "id": "d2f4febb.5191d",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W01.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP1",
-        "x": 860,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "d938c95c.283108",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W01.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP1",
-        "x": 860,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "47d1f5ad.53fdfc",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W01.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP1",
-        "x": 850,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "e73deb28.ab7c58",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W02.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP2",
-        "x": 860,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "308496cc.1a08fa",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W02.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP2",
-        "x": 860,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "38d893df.8a333c",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W02.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP2",
-        "x": 850,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "8ba61d08.68924",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W03.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP3",
-        "x": 860,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "b804dc17.3c11c",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W03.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP3",
-        "x": 860,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "f853ef97.ea1b",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W03.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP3",
-        "x": 850,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "f7e2b76f.736738",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W04.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP4",
-        "x": 860,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "8d5fdd06.4fa45",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W04.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP4",
-        "x": 860,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "b9f20f86.e4bf1",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W04.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP4",
-        "x": 850,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "8eab2d74.7f1fe",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W05.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP5",
-        "x": 860,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "656bbea4.ffa3f",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W05.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP5",
-        "x": 860,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "160ab9fc.7eb4e6",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W05.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP5",
-        "x": 850,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "e444da6e.5f8128",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W06.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP6",
-        "x": 860,
-        "y": 960,
-        "wires": []
-    },
-    {
-        "id": "25eeaa97.48ca86",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W06.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP6",
-        "x": 860,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "932b0db5.b3daa",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W06.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP6",
-        "x": 850,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "de245ad1.e52908",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "d": true,
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W09.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP9",
-        "x": 860,
-        "y": 1500,
-        "wires": []
-    },
-    {
-        "id": "a86fabcb.194488",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "d": true,
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W09.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP9",
-        "x": 860,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "a4fc6f8.fdca09",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "d": true,
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W09.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP9",
-        "x": 850,
-        "y": 1620,
-        "wires": []
-    },
-    {
-        "id": "ac4b1a1d.2a0158",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "d": true,
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W08.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP8",
-        "x": 860,
-        "y": 1320,
-        "wires": []
-    },
-    {
-        "id": "3851f53d.72a3ea",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "d": true,
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W08.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP8",
-        "x": 860,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "57de4f88.31f6f",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "d": true,
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W08.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP8",
-        "x": 850,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "2bf7ce89.c48ff2",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W07.VSD.Arranque_Remoto_PD",
-        "program": "",
-        "name": "Arranque SCP7",
-        "x": 860,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "95c6abd4.4862d8",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W07.VSD.Parada_Remota_PD",
-        "program": "",
-        "name": "Parada SCP7",
-        "x": 860,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "7998e18f.da1ef",
-        "type": "eth-ip out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "endpoint": "98638e25.bf675",
-        "variable": "CLUSTER.W07.VSD.Reset_Remoto_PD",
-        "program": "",
-        "name": "Reset SCP7",
-        "x": 850,
-        "y": 1260,
-        "wires": []
-    },
-    {
-        "id": "ca6808c4.0ce2b8",
-        "type": "function",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "func": "var Comandos = global.get(\"Comandos\", \"memoryOnly\") || [];\nvar SCP = global.get(\"SCP\", \"memoryOnly\") || [];\n\nvar Arranque = [], Parada = [], Reset = [];\n\nArranque[SCP] = Comandos[SCP].Arranque_Remoto_PD;\nParada[SCP] = Comandos[SCP].Parada_Remota_PD;\nReset[SCP] = Comandos[SCP].Reset_Remoto_PD;\nswitch (SCP) {\n      case 0:\n            var day = \"--\";\n            break;\n\n      case 1:\n\n            var msg0 = { payload: Arranque[1] };\n            var msg1 = { payload: Parada[1] };\n            var msg2 = { payload: Reset[1] };\n            break;\n      case 2:\n\n            var msg3 = { payload: Arranque[2] };\n            var msg4 = { payload: Parada[2] };\n            var msg5 = { payload: Reset[2] };\n            break;\n\n      case 3:\n\n            var msg6 = { payload: Arranque[3] };\n            var msg7 = { payload: Parada[3] };\n            var msg8 = { payload: Reset[3] };\n            break;\n\n      case 4:\n\n            var msg9 = { payload: Arranque[4] };\n            var msg10 = { payload: Parada[4] };\n            var msg11 = { payload: Reset[4] };\n            break;\n\n      case 5:\n\n            var msg12 = { payload: Reset[5] };\n            var msg13 = { payload: Arranque[5] };\n            var msg14 = { payload: Parada[5] };\n            break;\n\n      case 6:\n\n            var msg15 = { payload: Reset[6] };\n            var msg16 = { payload: Arranque[6] };\n            var msg17 = { payload: Parada[6] };\n            break;\n\n      case 7:\n            var msg18 = { payload: Reset[7] };\n            var msg19 = { payload: Arranque[7] };\n            var msg20 = { payload: Parada[7] };\n            break;\n\n      case 8:\n\n            var msg21 = { payload: Reset[8] };\n            var msg22 = { payload: Arranque[8] };\n            var msg23 = { payload: Parada[8] };\n            break;\n\n      case 9:\n\n            var msg24 = { payload: Reset[9] };\n            var msg25 = { payload: Arranque[9] };\n            var msg26 = { payload: Parada[9] };\n}\n\nreturn [msg0, msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg12, msg13, msg14, msg15, msg16, msg17, msg18, msg19, msg20, msg21, msg22, msg23, msg24, msg25, msg26];",
-        "outputs": 27,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 880,
-        "wires": [
-            [
-                "d2f4febb.5191d"
-            ],
-            [
-                "d938c95c.283108"
-            ],
-            [
-                "47d1f5ad.53fdfc"
-            ],
-            [
-                "e73deb28.ab7c58"
-            ],
-            [
-                "308496cc.1a08fa"
-            ],
-            [
-                "38d893df.8a333c"
-            ],
-            [
-                "8ba61d08.68924"
-            ],
-            [
-                "b804dc17.3c11c"
-            ],
-            [
-                "f853ef97.ea1b"
-            ],
-            [
-                "f7e2b76f.736738"
-            ],
-            [
-                "8d5fdd06.4fa45"
-            ],
-            [
-                "b9f20f86.e4bf1"
-            ],
-            [
-                "8eab2d74.7f1fe"
-            ],
-            [
-                "656bbea4.ffa3f"
-            ],
-            [
-                "160ab9fc.7eb4e6"
-            ],
-            [
-                "e444da6e.5f8128"
-            ],
-            [
-                "25eeaa97.48ca86"
-            ],
-            [
-                "932b0db5.b3daa"
-            ],
-            [
-                "2bf7ce89.c48ff2"
-            ],
-            [
-                "95c6abd4.4862d8"
-            ],
-            [
-                "7998e18f.da1ef"
-            ],
-            [
-                "ac4b1a1d.2a0158"
-            ],
-            [
-                "3851f53d.72a3ea"
-            ],
-            [
-                "57de4f88.31f6f"
-            ],
-            [
-                "de245ad1.e52908"
-            ],
-            [
-                "a86fabcb.194488"
-            ],
-            [
-                "a4fc6f8.fdca09"
-            ]
-        ]
-    },
-    {
-        "id": "c5614143.9411",
-        "type": "link in",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Arranque/ Paro com",
-        "links": [
-            "35e356e7.8ebc5a"
-        ],
-        "x": 535,
-        "y": 880,
-        "wires": [
-            [
-                "ca6808c4.0ce2b8"
-            ]
-        ]
     },
     {
         "id": "9a082d5b.6a6e5",
@@ -15084,7 +14699,7 @@
         "links": [
             "43030a29.bfdeb4"
         ],
-        "x": 1555,
+        "x": 1265,
         "y": 520,
         "wires": [
             [
@@ -15104,7 +14719,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1720,
+        "x": 1430,
         "y": 520,
         "wires": [
             [
@@ -15145,7 +14760,7 @@
         "variable": "CLUSTER.W01.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP1",
-        "x": 2120,
+        "x": 1830,
         "y": 60,
         "wires": []
     },
@@ -15158,7 +14773,7 @@
         "variable": "CLUSTER.W06.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP6",
-        "x": 2120,
+        "x": 1830,
         "y": 660,
         "wires": []
     },
@@ -15171,7 +14786,7 @@
         "variable": "CLUSTER.W02.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP2",
-        "x": 2120,
+        "x": 1830,
         "y": 180,
         "wires": []
     },
@@ -15184,7 +14799,7 @@
         "variable": "CLUSTER.W03.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP3",
-        "x": 2120,
+        "x": 1830,
         "y": 300,
         "wires": []
     },
@@ -15197,7 +14812,7 @@
         "variable": "CLUSTER.W07.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP7",
-        "x": 2120,
+        "x": 1830,
         "y": 780,
         "wires": []
     },
@@ -15210,7 +14825,7 @@
         "variable": "CLUSTER.W04.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP4",
-        "x": 2120,
+        "x": 1830,
         "y": 420,
         "wires": []
     },
@@ -15223,7 +14838,7 @@
         "variable": "CLUSTER.W05.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP5",
-        "x": 2120,
+        "x": 1830,
         "y": 540,
         "wires": []
     },
@@ -15237,7 +14852,7 @@
         "variable": "CLUSTER.W08.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP8",
-        "x": 2120,
+        "x": 1830,
         "y": 900,
         "wires": []
     },
@@ -15251,7 +14866,7 @@
         "variable": "CLUSTER.W09.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP9",
-        "x": 2120,
+        "x": 1830,
         "y": 1020,
         "wires": []
     },
@@ -15262,8 +14877,8 @@
         "g": "2fc820d53f174088",
         "name": "Escritura/ lectura",
         "info": "rojo escritura\nverde lectura",
-        "x": 1720,
-        "y": 1760,
+        "x": 2920,
+        "y": 2110,
         "wires": []
     },
     {
@@ -15276,8 +14891,8 @@
         "variable": "",
         "program": "",
         "name": "Lectura cluster",
-        "x": 1620,
-        "y": 1820,
+        "x": 2820,
+        "y": 2170,
         "wires": [
             [
                 "4174382c.717b18"
@@ -15296,8 +14911,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1840,
-        "y": 1820,
+        "x": 3040,
+        "y": 2170,
         "wires": []
     },
     {
@@ -15310,8 +14925,8 @@
         "variable": "",
         "program": "",
         "name": "UPS",
-        "x": 1590,
-        "y": 1870,
+        "x": 2790,
+        "y": 2220,
         "wires": [
             [
                 "e4076c43.555c2"
@@ -15330,8 +14945,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1860,
-        "y": 1870,
+        "x": 3060,
+        "y": 2220,
         "wires": []
     },
     {
@@ -15344,8 +14959,8 @@
         "variable": "",
         "program": "",
         "name": "TEMP & HUMIDITY",
-        "x": 1630,
-        "y": 1920,
+        "x": 2830,
+        "y": 2270,
         "wires": [
             [
                 "34ccd504.f1f4fa"
@@ -15364,8 +14979,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1860,
-        "y": 1920,
+        "x": 3060,
+        "y": 2270,
         "wires": []
     },
     {
@@ -15381,7 +14996,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 60,
         "wires": [
             [
@@ -15402,7 +15017,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 120,
         "wires": [
             [
@@ -15423,7 +15038,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 180,
         "wires": [
             [
@@ -15444,7 +15059,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 240,
         "wires": [
             [
@@ -15465,7 +15080,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 300,
         "wires": [
             [
@@ -15486,7 +15101,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 360,
         "wires": [
             [
@@ -15507,7 +15122,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 420,
         "wires": [
             [
@@ -15528,7 +15143,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 480,
         "wires": [
             [
@@ -15549,7 +15164,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 540,
         "wires": [
             [
@@ -15570,7 +15185,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 600,
         "wires": [
             [
@@ -15591,7 +15206,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 660,
         "wires": [
             [
@@ -15612,7 +15227,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 720,
         "wires": [
             [
@@ -15633,7 +15248,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 780,
         "wires": [
             [
@@ -15654,7 +15269,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 840,
         "wires": [
             [
@@ -15675,7 +15290,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 900,
         "wires": [
             [
@@ -15696,7 +15311,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 960,
         "wires": [
             [
@@ -15717,7 +15332,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 1020,
         "wires": [
             [
@@ -15738,7 +15353,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3490,
+        "x": 3220,
         "y": 1080,
         "wires": [
             [
@@ -15819,8 +15434,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 12,
-        "x": 1730,
-        "y": 2120,
+        "x": 2930,
+        "y": 2470,
         "wires": [
             [],
             [],
@@ -15870,8 +15485,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 1610,
-        "y": 2120,
+        "x": 2810,
+        "y": 2470,
         "wires": [
             [
                 "ccec833d56700325"
@@ -15890,8 +15505,8 @@
             "7eb552f4b7c7276f",
             "cb7f821f59453b77"
         ],
-        "x": 1855,
-        "y": 2060,
+        "x": 3055,
+        "y": 2410,
         "wires": []
     },
     {
@@ -15903,8 +15518,8 @@
         "links": [
             "75ecea147bcb6293"
         ],
-        "x": 1855,
-        "y": 2120,
+        "x": 3055,
+        "y": 2470,
         "wires": []
     },
     {
@@ -15917,8 +15532,8 @@
             "3895844e0bbc0b79",
             "f286bd61e36aa07c"
         ],
-        "x": 1855,
-        "y": 2150,
+        "x": 3055,
+        "y": 2500,
         "wires": []
     },
     {
@@ -15931,8 +15546,8 @@
             "06263b94b182144c",
             "5ac373589c1d1849"
         ],
-        "x": 1855,
-        "y": 2180,
+        "x": 3055,
+        "y": 2530,
         "wires": []
     },
     {
@@ -15994,8 +15609,8 @@
             "2a661f24233a555f",
             "8f5a32b3ebe6f9a8"
         ],
-        "x": 1855,
-        "y": 2210,
+        "x": 3055,
+        "y": 2560,
         "wires": []
     },
     {
@@ -16007,8 +15622,8 @@
         "links": [
             "938193ac.02d98"
         ],
-        "x": 1855,
-        "y": 2240,
+        "x": 3055,
+        "y": 2590,
         "wires": []
     },
     {
@@ -16021,8 +15636,8 @@
             "8531d637ba42e7a9",
             "d4e4552a6e429ca2"
         ],
-        "x": 1855,
-        "y": 2030,
+        "x": 3055,
+        "y": 2380,
         "wires": []
     },
     {
@@ -16034,8 +15649,8 @@
         "links": [
             "1d7786b655969182"
         ],
-        "x": 1855,
-        "y": 2300,
+        "x": 3055,
+        "y": 2650,
         "wires": []
     },
     {
@@ -16187,7 +15802,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2460,
+        "x": 2190,
         "y": 580,
         "wires": [
             [
@@ -16229,7 +15844,7 @@
         "links": [
             "43030a29.bfdeb4"
         ],
-        "x": 2295,
+        "x": 2025,
         "y": 580,
         "wires": [
             [
@@ -16247,7 +15862,7 @@
         "variable": "CLUSTER2.W01.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP10",
-        "x": 2860,
+        "x": 2590,
         "y": 60,
         "wires": []
     },
@@ -16261,7 +15876,7 @@
         "variable": "CLUSTER2.W02.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP11",
-        "x": 2860,
+        "x": 2590,
         "y": 180,
         "wires": []
     },
@@ -16275,7 +15890,7 @@
         "variable": "CLUSTER2.W03.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP12",
-        "x": 2860,
+        "x": 2590,
         "y": 300,
         "wires": []
     },
@@ -16289,7 +15904,7 @@
         "variable": "CLUSTER2.W04.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP13",
-        "x": 2860,
+        "x": 2590,
         "y": 420,
         "wires": []
     },
@@ -16303,7 +15918,7 @@
         "variable": "CLUSTER2.W05.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP14",
-        "x": 2860,
+        "x": 2590,
         "y": 540,
         "wires": []
     },
@@ -16317,7 +15932,7 @@
         "variable": "CLUSTER2.W06.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP15",
-        "x": 2860,
+        "x": 2590,
         "y": 660,
         "wires": []
     },
@@ -16331,7 +15946,7 @@
         "variable": "CLUSTER2.W07.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP16",
-        "x": 2860,
+        "x": 2590,
         "y": 780,
         "wires": []
     },
@@ -16345,7 +15960,7 @@
         "variable": "CLUSTER2.W08.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP17",
-        "x": 2860,
+        "x": 2590,
         "y": 900,
         "wires": []
     },
@@ -16359,7 +15974,7 @@
         "variable": "CLUSTER2.W09.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP18",
-        "x": 2860,
+        "x": 2590,
         "y": 1020,
         "wires": []
     },
@@ -16373,7 +15988,7 @@
         "variable": "CLUSTER.W01.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP1",
-        "x": 2120,
+        "x": 1830,
         "y": 120,
         "wires": []
     },
@@ -16400,7 +16015,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 100,
         "wires": [
             [
@@ -16434,7 +16049,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 200,
         "wires": [
             [
@@ -16468,7 +16083,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 340,
         "wires": [
             [
@@ -16502,7 +16117,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 460,
         "wires": [
             [
@@ -16536,7 +16151,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 580,
         "wires": [
             [
@@ -16570,7 +16185,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 700,
         "wires": [
             [
@@ -16591,7 +16206,7 @@
         "variable": "CLUSTER.W02.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP2",
-        "x": 2120,
+        "x": 1830,
         "y": 240,
         "wires": []
     },
@@ -16605,7 +16220,7 @@
         "variable": "CLUSTER.W03.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP3",
-        "x": 2120,
+        "x": 1830,
         "y": 360,
         "wires": []
     },
@@ -16619,7 +16234,7 @@
         "variable": "CLUSTER.W04.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP4",
-        "x": 2120,
+        "x": 1830,
         "y": 480,
         "wires": []
     },
@@ -16633,7 +16248,7 @@
         "variable": "CLUSTER.W05.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP5",
-        "x": 2120,
+        "x": 1830,
         "y": 600,
         "wires": []
     },
@@ -16660,7 +16275,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 820,
         "wires": [
             [
@@ -16694,7 +16309,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 940,
         "wires": [
             [
@@ -16728,7 +16343,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 1660,
         "y": 1060,
         "wires": [
             [
@@ -16749,7 +16364,7 @@
         "variable": "CLUSTER.W06.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP6",
-        "x": 2120,
+        "x": 1830,
         "y": 720,
         "wires": []
     },
@@ -16763,7 +16378,7 @@
         "variable": "CLUSTER.W07.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP7",
-        "x": 2120,
+        "x": 1830,
         "y": 840,
         "wires": []
     },
@@ -16777,7 +16392,7 @@
         "variable": "CLUSTER.W08.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP8",
-        "x": 2120,
+        "x": 1830,
         "y": 960,
         "wires": []
     },
@@ -16791,7 +16406,7 @@
         "variable": "CLUSTER.W09.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP9",
-        "x": 2120,
+        "x": 1830,
         "y": 1080,
         "wires": []
     },
@@ -16805,7 +16420,7 @@
         "variable": "CLUSTER2.W01.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP10",
-        "x": 2870,
+        "x": 2600,
         "y": 120,
         "wires": []
     },
@@ -16833,7 +16448,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 100,
         "wires": [
             [
@@ -16868,7 +16483,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 220,
         "wires": [
             [
@@ -16903,7 +16518,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 340,
         "wires": [
             [
@@ -16938,7 +16553,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 460,
         "wires": [
             [
@@ -16973,7 +16588,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 580,
         "wires": [
             [
@@ -17008,7 +16623,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 700,
         "wires": [
             [
@@ -17043,7 +16658,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 820,
         "wires": [
             [
@@ -17078,7 +16693,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 940,
         "wires": [
             [
@@ -17113,7 +16728,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2690,
+        "x": 2420,
         "y": 1060,
         "wires": [
             [
@@ -17134,7 +16749,7 @@
         "variable": "CLUSTER2.W02.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP11",
-        "x": 2870,
+        "x": 2600,
         "y": 240,
         "wires": []
     },
@@ -17148,7 +16763,7 @@
         "variable": "CLUSTER2.W03.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP12",
-        "x": 2870,
+        "x": 2600,
         "y": 360,
         "wires": []
     },
@@ -17162,7 +16777,7 @@
         "variable": "CLUSTER2.W04.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP13",
-        "x": 2870,
+        "x": 2600,
         "y": 480,
         "wires": []
     },
@@ -17176,7 +16791,7 @@
         "variable": "CLUSTER2.W05.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP14",
-        "x": 2870,
+        "x": 2600,
         "y": 600,
         "wires": []
     },
@@ -17190,7 +16805,7 @@
         "variable": "CLUSTER2.W06.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP15",
-        "x": 2870,
+        "x": 2600,
         "y": 720,
         "wires": []
     },
@@ -17204,7 +16819,7 @@
         "variable": "CLUSTER2.W07.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP16",
-        "x": 2870,
+        "x": 2600,
         "y": 840,
         "wires": []
     },
@@ -17218,7 +16833,7 @@
         "variable": "CLUSTER2.W08.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP17",
-        "x": 2870,
+        "x": 2600,
         "y": 960,
         "wires": []
     },
@@ -17232,7 +16847,7 @@
         "variable": "CLUSTER2.W09.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP18",
-        "x": 2870,
+        "x": 2600,
         "y": 1080,
         "wires": []
     },
@@ -17659,8 +17274,8 @@
         "variable": "CLUSTER2.W01.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP10",
-        "x": 1350,
-        "y": 60,
+        "x": 880,
+        "y": 2190,
         "wires": []
     },
     {
@@ -17673,8 +17288,8 @@
         "variable": "CLUSTER2.W01.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP10",
-        "x": 1340,
-        "y": 120,
+        "x": 870,
+        "y": 2250,
         "wires": []
     },
     {
@@ -17687,8 +17302,8 @@
         "variable": "CLUSTER2.W01.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP10",
-        "x": 1340,
-        "y": 180,
+        "x": 870,
+        "y": 2310,
         "wires": []
     },
     {
@@ -17701,8 +17316,8 @@
         "variable": "CLUSTER2.W02.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP11",
-        "x": 1350,
-        "y": 240,
+        "x": 880,
+        "y": 2370,
         "wires": []
     },
     {
@@ -17715,8 +17330,8 @@
         "variable": "CLUSTER2.W02.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP11",
-        "x": 1340,
-        "y": 300,
+        "x": 870,
+        "y": 2430,
         "wires": []
     },
     {
@@ -17729,8 +17344,8 @@
         "variable": "CLUSTER2.W02.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP11",
-        "x": 1340,
-        "y": 360,
+        "x": 870,
+        "y": 2490,
         "wires": []
     },
     {
@@ -17743,8 +17358,8 @@
         "variable": "CLUSTER2.W03.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP12",
-        "x": 1350,
-        "y": 420,
+        "x": 880,
+        "y": 2550,
         "wires": []
     },
     {
@@ -17757,8 +17372,8 @@
         "variable": "CLUSTER2.W03.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP12",
-        "x": 1340,
-        "y": 480,
+        "x": 870,
+        "y": 2610,
         "wires": []
     },
     {
@@ -17771,8 +17386,8 @@
         "variable": "CLUSTER2.W03.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP12",
-        "x": 1340,
-        "y": 540,
+        "x": 870,
+        "y": 2670,
         "wires": []
     },
     {
@@ -17785,8 +17400,8 @@
         "variable": "CLUSTER2.W04.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP13",
-        "x": 1350,
-        "y": 600,
+        "x": 880,
+        "y": 2730,
         "wires": []
     },
     {
@@ -17799,8 +17414,8 @@
         "variable": "CLUSTER2.W04.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP13",
-        "x": 1340,
-        "y": 660,
+        "x": 870,
+        "y": 2790,
         "wires": []
     },
     {
@@ -17813,8 +17428,8 @@
         "variable": "CLUSTER2.W04.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP13",
-        "x": 1340,
-        "y": 720,
+        "x": 870,
+        "y": 2850,
         "wires": []
     },
     {
@@ -17827,8 +17442,8 @@
         "variable": "CLUSTER2.W05.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP14",
-        "x": 1350,
-        "y": 780,
+        "x": 880,
+        "y": 2910,
         "wires": []
     },
     {
@@ -17841,8 +17456,8 @@
         "variable": "CLUSTER2.W05.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP14",
-        "x": 1340,
-        "y": 840,
+        "x": 870,
+        "y": 2970,
         "wires": []
     },
     {
@@ -17855,8 +17470,8 @@
         "variable": "CLUSTER2.W05.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP14",
-        "x": 1340,
-        "y": 900,
+        "x": 870,
+        "y": 3030,
         "wires": []
     },
     {
@@ -17869,8 +17484,8 @@
         "variable": "CLUSTER2.W06.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP15",
-        "x": 1350,
-        "y": 960,
+        "x": 880,
+        "y": 3090,
         "wires": []
     },
     {
@@ -17883,8 +17498,8 @@
         "variable": "CLUSTER2.W06.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP15",
-        "x": 1340,
-        "y": 1020,
+        "x": 870,
+        "y": 3150,
         "wires": []
     },
     {
@@ -17897,8 +17512,8 @@
         "variable": "CLUSTER2.W06.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP15",
-        "x": 1340,
-        "y": 1080,
+        "x": 870,
+        "y": 3210,
         "wires": []
     },
     {
@@ -17911,8 +17526,8 @@
         "variable": "CLUSTER2.W07.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP16",
-        "x": 1350,
-        "y": 1140,
+        "x": 880,
+        "y": 3270,
         "wires": []
     },
     {
@@ -17925,8 +17540,8 @@
         "variable": "CLUSTER2.W07.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP16",
-        "x": 1340,
-        "y": 1200,
+        "x": 870,
+        "y": 3330,
         "wires": []
     },
     {
@@ -17939,8 +17554,8 @@
         "variable": "CLUSTER2.W07.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP16",
-        "x": 1340,
-        "y": 1260,
+        "x": 870,
+        "y": 3390,
         "wires": []
     },
     {
@@ -17953,8 +17568,8 @@
         "variable": "CLUSTER2.W08.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP17",
-        "x": 1350,
-        "y": 1320,
+        "x": 880,
+        "y": 3450,
         "wires": []
     },
     {
@@ -17967,8 +17582,8 @@
         "variable": "CLUSTER2.W08.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP17",
-        "x": 1340,
-        "y": 1380,
+        "x": 870,
+        "y": 3510,
         "wires": []
     },
     {
@@ -17981,8 +17596,8 @@
         "variable": "CLUSTER2.W08.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP17",
-        "x": 1340,
-        "y": 1440,
+        "x": 870,
+        "y": 3570,
         "wires": []
     },
     {
@@ -17995,8 +17610,8 @@
         "variable": "CLUSTER2.W09.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP18",
-        "x": 1350,
-        "y": 1500,
+        "x": 880,
+        "y": 3630,
         "wires": []
     },
     {
@@ -18009,8 +17624,8 @@
         "variable": "CLUSTER2.W09.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP18",
-        "x": 1340,
-        "y": 1560,
+        "x": 870,
+        "y": 3690,
         "wires": []
     },
     {
@@ -18023,8 +17638,8 @@
         "variable": "CLUSTER2.W09.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP18",
-        "x": 1340,
-        "y": 1620,
+        "x": 870,
+        "y": 3750,
         "wires": []
     },
     {
@@ -18040,8 +17655,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 880,
+        "x": 650,
+        "y": 3010,
         "wires": [
             [
                 "bedb727ca2a00ae1"
@@ -18136,8 +17751,8 @@
         "links": [
             "35e356e7.8ebc5a"
         ],
-        "x": 1015,
-        "y": 880,
+        "x": 545,
+        "y": 3010,
         "wires": [
             [
                 "66e21be155c91fee"
@@ -18156,8 +17771,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1740,
-        "y": 1420,
+        "x": 1460,
+        "y": 1430,
         "wires": [
             [
                 "61e1182e7379ccd6"
@@ -18197,8 +17812,8 @@
         "variable": "CLUSTER.W01.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP1",
-        "x": 2220,
-        "y": 1180,
+        "x": 1940,
+        "y": 1190,
         "wires": []
     },
     {
@@ -18210,8 +17825,8 @@
         "variable": "CLUSTER.W02.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP2",
-        "x": 2220,
-        "y": 1240,
+        "x": 1940,
+        "y": 1250,
         "wires": []
     },
     {
@@ -18223,8 +17838,8 @@
         "variable": "CLUSTER.W03.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP3",
-        "x": 2220,
-        "y": 1300,
+        "x": 1940,
+        "y": 1310,
         "wires": []
     },
     {
@@ -18236,8 +17851,8 @@
         "variable": "CLUSTER.W04.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP4",
-        "x": 2220,
-        "y": 1360,
+        "x": 1940,
+        "y": 1370,
         "wires": []
     },
     {
@@ -18249,8 +17864,8 @@
         "variable": "CLUSTER.W05.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP5",
-        "x": 2220,
-        "y": 1420,
+        "x": 1940,
+        "y": 1430,
         "wires": []
     },
     {
@@ -18262,8 +17877,8 @@
         "variable": "CLUSTER.W06.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP6",
-        "x": 2220,
-        "y": 1480,
+        "x": 1940,
+        "y": 1490,
         "wires": []
     },
     {
@@ -18275,8 +17890,8 @@
         "variable": "CLUSTER.W07.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP7",
-        "x": 2220,
-        "y": 1540,
+        "x": 1940,
+        "y": 1550,
         "wires": []
     },
     {
@@ -18289,8 +17904,8 @@
         "variable": "CLUSTER.W08.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP8",
-        "x": 2220,
-        "y": 1600,
+        "x": 1940,
+        "y": 1610,
         "wires": []
     },
     {
@@ -18303,8 +17918,8 @@
         "variable": "CLUSTER.W09.VSD.Confirmaciones_Escritura.0",
         "program": "",
         "name": "Confirmar Ref. SCP9",
-        "x": 2220,
-        "y": 1660,
+        "x": 1940,
+        "y": 1670,
         "wires": []
     },
     {
@@ -18316,8 +17931,8 @@
         "links": [
             "487f7f8226176ed0"
         ],
-        "x": 1555,
-        "y": 1420,
+        "x": 1275,
+        "y": 1430,
         "wires": [
             [
                 "a8c3e91727052407"
@@ -18342,8 +17957,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1180,
+        "x": 1740,
+        "y": 1190,
         "wires": [
             [
                 "ec404e5efb3b7976"
@@ -18368,8 +17983,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1240,
+        "x": 1740,
+        "y": 1250,
         "wires": [
             [
                 "d06936f1429bc8b0"
@@ -18394,8 +18009,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1300,
+        "x": 1740,
+        "y": 1310,
         "wires": [
             [
                 "95cc5c3331f17c1e"
@@ -18420,8 +18035,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1360,
+        "x": 1740,
+        "y": 1370,
         "wires": [
             [
                 "326666b2535769c5"
@@ -18446,8 +18061,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1420,
+        "x": 1740,
+        "y": 1430,
         "wires": [
             [
                 "64ab56dee92d0c71"
@@ -18472,8 +18087,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1480,
+        "x": 1740,
+        "y": 1490,
         "wires": [
             [
                 "991feede4d37d07c"
@@ -18498,8 +18113,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1540,
+        "x": 1740,
+        "y": 1550,
         "wires": [
             [
                 "a754e32d257261b2"
@@ -18524,8 +18139,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1600,
+        "x": 1740,
+        "y": 1610,
         "wires": [
             [
                 "a3d00ff25f9f6097"
@@ -18550,8 +18165,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 2020,
-        "y": 1660,
+        "x": 1740,
+        "y": 1670,
         "wires": [
             [
                 "56f7f39a6e609305"
@@ -18570,7 +18185,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 4010,
+        "x": 3730,
         "y": 480,
         "wires": [
             [
@@ -18630,7 +18245,7 @@
             "3b8100c135a688e5",
             "d1bcaebfeab23d41"
         ],
-        "x": 3855,
+        "x": 3575,
         "y": 480,
         "wires": [
             [
@@ -18647,7 +18262,7 @@
         "variable": "Disparo_Breaker_Pozo1",
         "program": "",
         "name": "Disparo_Breaker_SCP1",
-        "x": 4310,
+        "x": 4030,
         "y": 60,
         "wires": []
     },
@@ -18660,7 +18275,7 @@
         "variable": "Disparo_Breaker_Pozo2",
         "program": "",
         "name": "Disparo_Breaker_SCP2",
-        "x": 4310,
+        "x": 4030,
         "y": 120,
         "wires": []
     },
@@ -18673,7 +18288,7 @@
         "variable": "Disparo_Breaker_Pozo3",
         "program": "",
         "name": "Disparo_Breaker_SCP3",
-        "x": 4310,
+        "x": 4030,
         "y": 180,
         "wires": []
     },
@@ -18686,7 +18301,7 @@
         "variable": "Disparo_Breaker_Pozo4",
         "program": "",
         "name": "Disparo_Breaker_SCP4",
-        "x": 4310,
+        "x": 4030,
         "y": 240,
         "wires": []
     },
@@ -18699,7 +18314,7 @@
         "variable": "Disparo_Breaker_Pozo5",
         "program": "",
         "name": "Disparo_Breaker_SCP5",
-        "x": 4310,
+        "x": 4030,
         "y": 300,
         "wires": []
     },
@@ -18712,7 +18327,7 @@
         "variable": "Disparo_Breaker_Pozo6",
         "program": "",
         "name": "Disparo_Breaker_SCP6",
-        "x": 4310,
+        "x": 4030,
         "y": 360,
         "wires": []
     },
@@ -18725,7 +18340,7 @@
         "variable": "Disparo_Breaker_Pozo7",
         "program": "",
         "name": "Disparo_Breaker_SCP7",
-        "x": 4310,
+        "x": 4030,
         "y": 420,
         "wires": []
     },
@@ -18738,7 +18353,7 @@
         "variable": "Disparo_Breaker_Pozo8",
         "program": "",
         "name": "Disparo_Breaker_SCP8",
-        "x": 4310,
+        "x": 4030,
         "y": 480,
         "wires": []
     },
@@ -18751,7 +18366,7 @@
         "variable": "Disparo_Breaker_Pozo9",
         "program": "",
         "name": "Disparo_Breaker_SCP9",
-        "x": 4310,
+        "x": 4030,
         "y": 540,
         "wires": []
     },
@@ -18764,7 +18379,7 @@
         "variable": "Disparo_Breaker_Pozo10",
         "program": "",
         "name": "Disparo_Breaker_SCP10",
-        "x": 4310,
+        "x": 4030,
         "y": 600,
         "wires": []
     },
@@ -18777,7 +18392,7 @@
         "variable": "Disparo_Breaker_Pozo11",
         "program": "",
         "name": "Disparo_Breaker_SCP11",
-        "x": 4310,
+        "x": 4030,
         "y": 660,
         "wires": []
     },
@@ -18790,7 +18405,7 @@
         "variable": "Disparo_Breaker_Pozo12",
         "program": "",
         "name": "Disparo_Breaker_SCP12",
-        "x": 4310,
+        "x": 4030,
         "y": 720,
         "wires": []
     },
@@ -18803,7 +18418,7 @@
         "variable": "Disparo_Breaker_Pozo13",
         "program": "",
         "name": "Disparo_Breaker_SCP13",
-        "x": 4310,
+        "x": 4030,
         "y": 780,
         "wires": []
     },
@@ -18816,7 +18431,7 @@
         "variable": "Disparo_Breaker_Pozo14",
         "program": "",
         "name": "Disparo_Breaker_SCP14",
-        "x": 4310,
+        "x": 4030,
         "y": 840,
         "wires": []
     },
@@ -18829,7 +18444,7 @@
         "variable": "Disparo_Breaker_Pozo15",
         "program": "",
         "name": "Disparo_Breaker_SCP15",
-        "x": 4310,
+        "x": 4030,
         "y": 900,
         "wires": []
     },
@@ -18842,7 +18457,7 @@
         "links": [
             "53af2f4329cd7e74"
         ],
-        "x": 3215,
+        "x": 2945,
         "y": 480,
         "wires": []
     },
@@ -25716,7 +25331,7 @@
             },
             {
                 "label": "YASKAWA QUANTUM",
-                "value": "YASKAWA_HMS",
+                "value": "YASKAWA QUANTUM",
                 "type": "str"
             }
         ],
@@ -26952,8 +26567,8 @@
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 1715,
-        "y": 830,
+        "x": 1955,
+        "y": 810,
         "wires": []
     },
     {
@@ -27396,10 +27011,6 @@
             "b80012ae1e8aaac0",
             "5d5767109263df02",
             "a009825b9c3ac27e",
-            "991eb055c9a9be2b",
-            "dd0bfe62af67d677",
-            "a1cabd508d95e630",
-            "a230ddb8aeaa2e12",
             "92d91b2b89ea133a"
         ],
         "x": 1645,
@@ -28954,7 +28565,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 270,
+        "y": 350,
         "wires": [
             [
                 "1388e106.75d21f"
@@ -28979,7 +28590,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 310,
+        "y": 390,
         "wires": [
             [
                 "dc26c04555c849e9"
@@ -29004,7 +28615,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 350,
+        "y": 430,
         "wires": [
             [
                 "ec32e13194609ef9"
@@ -29029,7 +28640,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 390,
+        "y": 470,
         "wires": [
             [
                 "41deb6b1c279c3b9"
@@ -29063,7 +28674,7 @@
         "offcolor": "",
         "animate": true,
         "x": 400,
-        "y": 430,
+        "y": 510,
         "wires": [
             [
                 "24d9e3e264824528"
@@ -29097,7 +28708,7 @@
         "offcolor": "",
         "animate": true,
         "x": 400,
-        "y": 480,
+        "y": 560,
         "wires": [
             [
                 "2e4ab688aee27693"
@@ -29131,7 +28742,7 @@
         "offcolor": "",
         "animate": true,
         "x": 390,
-        "y": 530,
+        "y": 610,
         "wires": [
             [
                 "63eec3feebb8bcb6"
@@ -29165,7 +28776,7 @@
         "offcolor": "",
         "animate": true,
         "x": 400,
-        "y": 580,
+        "y": 660,
         "wires": [
             [
                 "d290c31a9897c8de"
@@ -29211,7 +28822,7 @@
         ],
         "uncaught": false,
         "x": 700,
-        "y": 630,
+        "y": 710,
         "wires": [
             []
         ]
@@ -29237,7 +28848,7 @@
         "to": "",
         "reg": false,
         "x": 550,
-        "y": 270,
+        "y": 350,
         "wires": [
             []
         ]
@@ -29263,7 +28874,7 @@
         "to": "",
         "reg": false,
         "x": 540,
-        "y": 310,
+        "y": 390,
         "wires": [
             []
         ]
@@ -29289,7 +28900,7 @@
         "to": "",
         "reg": false,
         "x": 540,
-        "y": 350,
+        "y": 430,
         "wires": [
             []
         ]
@@ -29315,7 +28926,7 @@
         "to": "",
         "reg": false,
         "x": 550,
-        "y": 390,
+        "y": 470,
         "wires": [
             []
         ]
@@ -29341,7 +28952,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 430,
+        "y": 510,
         "wires": [
             []
         ]
@@ -29367,7 +28978,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 480,
+        "y": 560,
         "wires": [
             []
         ]
@@ -29393,7 +29004,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 530,
+        "y": 610,
         "wires": [
             []
         ]
@@ -29419,7 +29030,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 580,
+        "y": 660,
         "wires": [
             []
         ]
@@ -29445,7 +29056,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 270,
+        "y": 350,
         "wires": [
             [
                 "df7e51cb.20a61"
@@ -29473,7 +29084,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 310,
+        "y": 390,
         "wires": [
             [
                 "78ddc0d7.477c7"
@@ -29501,7 +29112,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 350,
+        "y": 430,
         "wires": [
             [
                 "a5be34b4.80c1d8"
@@ -29529,7 +29140,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 390,
+        "y": 470,
         "wires": [
             [
                 "289c0fec.d68e1"
@@ -29557,7 +29168,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 580,
+        "y": 660,
         "wires": [
             [
                 "3361a564.d48dfa"
@@ -29585,7 +29196,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 530,
+        "y": 610,
         "wires": [
             [
                 "8b190b36.c8b5b8"
@@ -29613,7 +29224,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 480,
+        "y": 560,
         "wires": [
             [
                 "468ce789.d74268"
@@ -29641,7 +29252,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 430,
+        "y": 510,
         "wires": [
             [
                 "5893c294.3213dc"
@@ -29658,8 +29269,8 @@
             "186f2a0e0cf031bd",
             "8ee8e5d0d0a0babb"
         ],
-        "x": 165,
-        "y": 100,
+        "x": 135,
+        "y": 180,
         "wires": [
             [
                 "25c5df2a.68262",
@@ -29683,7 +29294,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <img src=\"http://aic.local:1880/swcpro-images/Manifold.png\" style=\"width:80%;\">\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 290,
-        "y": 220,
+        "y": 300,
         "wires": [
             []
         ]
@@ -29699,7 +29310,7 @@
             "186f2a0e0cf031bd"
         ],
         "x": 165,
-        "y": 220,
+        "y": 300,
         "wires": [
             [
                 "cc874412dbfe50f6"
@@ -29720,7 +29331,7 @@
         "format": "<font size =4px>{{msg.FIT_FLUJO_TOTAL}} ",
         "layout": "col-center",
         "x": 450,
-        "y": 140,
+        "y": 180,
         "wires": []
     },
     {
@@ -29754,7 +29365,7 @@
         "format": "<font size =4px>{{msg.FIT_DENSIDAD}} ",
         "layout": "col-center",
         "x": 460,
-        "y": 100,
+        "y": 140,
         "wires": []
     },
     {
@@ -29771,7 +29382,7 @@
         "format": "<font size =4px>{{msg.FIT_TEMPERATURA}} ",
         "layout": "col-center",
         "x": 470,
-        "y": 180,
+        "y": 220,
         "wires": []
     },
     {
@@ -30268,7 +29879,7 @@
         "name": "",
         "links": [
             "33f2aa3c.6c08f6",
-            "a63a7d4884a36264"
+            "8be5483005b96d16"
         ],
         "x": 2735,
         "y": 100,
@@ -30749,25 +30360,6 @@
         ],
         "x": 2735,
         "y": 460,
-        "wires": []
-    },
-    {
-        "id": "d4977ee073eac802",
-        "type": "ui_toast",
-        "z": "f10e7ce.d57828",
-        "g": "1b162d57908931b5",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "topic": "",
-        "name": "",
-        "x": 2920,
-        "y": 320,
         "wires": []
     },
     {
@@ -31387,7 +30979,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "59e817c2.295b38"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
         "x": 2735,
         "y": 260,
@@ -31433,8 +31026,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 780,
+        "x": 370,
+        "y": 880,
         "wires": [
             [
                 "bb9d57fad1dcf950"
@@ -31447,14 +31040,14 @@
         "z": "f10e7ce.d57828",
         "g": "26fe5463b2ea6acd",
         "name": "request",
-        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] == \"UPS_Bateria_Tiempo_Reman\") request.UPS_Bateria_Tiempo_Reman = true;\n    if (msg.payload[i] == \"UPS_Bateria_Porc_Carga\") request.UPS_Bateria_Porc_Carga = true;\n    if (msg.payload[i] == \"UPS_Bateria_Voltaje\") request.UPS_Bateria_Voltaje = true;\n    if (msg.payload[i] == \"Voltaje_L_L_Pro\") request.Voltaje_L_L_Pro = true;\n    if (msg.payload[i] == \"Voltaje_L1_L2\") request.Voltaje_L1_L2 = true;\n    if (msg.payload[i] == \"Voltaje_L2_L3\") request.Voltaje_L2_L3 = true;\n    if (msg.payload[i] == \"Voltaje_L1_L3\") request.Voltaje_L1_L3 = true;\n    if (msg.payload[i] == \"Voltaje_L_N_Pro\") request.Voltaje_L_N_Pro = true;\n    if (msg.payload[i] == \"Voltaje_L2_N\") request.Voltaje_L2_N = true;\n    if (msg.payload[i] == \"FIT_Flujo\") request.FIT_Flujo = true;\n    if (msg.payload[i] == \"FIT_Flujo_Total\") request.FIT_Flujo_Total = true;\n    if (msg.payload[i] == \"FIT_Densidad\") request.FIT_Densidad = true;\n    if (msg.payload[i] == \"FIT_Tempetatura\") request.FIT_Tempetatura = true;\n    if (msg.payload[i] == \"PIT_Presion\") request.PIT_Presion = true;\n    if (msg.payload[i] == \"Amp_Pro\") request.Amp_Pro = true;\n    if (msg.payload[i] == \"KWATT_Act_Pro\") request.KWATT_Act_Pro = true;\n    if (msg.payload[i] == \"KVA_Act_Pro\") request.KVA_Act_Pro = true;\n    if (msg.payload[i] == \"KVAr_Act_Pro\") request.KVAr_Act_Pro = true;\n    if (msg.payload[i] == \"FP_Pro\") request.FP_Pro = true;\n    if (msg.payload[i] == \"THD_I_Pro\") request.THD_I_Pro = true;\n    if (msg.payload[i] == \"THD_V_Pro\") request.THD_V_Pro = true;\n}\n\nmsg.payload = request;\nreturn msg;",
+        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    // if (msg.payload[i] == \"UPS_Bateria_Tiempo_Reman\") request.UPS_Bateria_Tiempo_Reman = true;\n    // if (msg.payload[i] == \"UPS_Bateria_Porc_Carga\") request.UPS_Bateria_Porc_Carga = true;\n    // if (msg.payload[i] == \"UPS_Bateria_Voltaje\") request.UPS_Bateria_Voltaje = true;\n    // if (msg.payload[i] == \"Voltaje_L_L_Pro\") request.Voltaje_L_L_Pro = true;\n    // if (msg.payload[i] == \"Voltaje_L1_L2\") request.Voltaje_L1_L2 = true;\n    // if (msg.payload[i] == \"Voltaje_L2_L3\") request.Voltaje_L2_L3 = true;\n    // if (msg.payload[i] == \"Voltaje_L1_L3\") request.Voltaje_L1_L3 = true;\n    // if (msg.payload[i] == \"Voltaje_L_N_Pro\") request.Voltaje_L_N_Pro = true;\n    // if (msg.payload[i] == \"Voltaje_L2_N\") request.Voltaje_L2_N = true;\n    if (msg.payload[i] == \"FIT_Flujo\") request.FIT_Flujo = true;\n    if (msg.payload[i] == \"FIT_Flujo_Total\") request.FIT_Flujo_Total = true;\n    if (msg.payload[i] == \"FIT_Densidad\") request.FIT_Densidad = true;\n    if (msg.payload[i] == \"FIT_Tempetatura\") request.FIT_Tempetatura = true;\n    if (msg.payload[i] == \"PIT_Presion\") request.PIT_Presion = true;\n    // if (msg.payload[i] == \"Amp_Pro\") request.Amp_Pro = true;\n    // if (msg.payload[i] == \"KWATT_Act_Pro\") request.KWATT_Act_Pro = true;\n    // if (msg.payload[i] == \"KVA_Act_Pro\") request.KVA_Act_Pro = true;\n    // if (msg.payload[i] == \"KVAr_Act_Pro\") request.KVAr_Act_Pro = true;\n    // if (msg.payload[i] == \"FP_Pro\") request.FP_Pro = true;\n    // if (msg.payload[i] == \"THD_I_Pro\") request.THD_I_Pro = true;\n    // if (msg.payload[i] == \"THD_V_Pro\") request.THD_V_Pro = true;\n}\n\nmsg.payload = request;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 720,
+        "x": 340,
+        "y": 820,
         "wires": [
             [
                 "f42b56eb37f8265c"
@@ -31481,8 +31074,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
-        "y": 720,
+        "x": 540,
+        "y": 820,
         "wires": [
             []
         ]
@@ -31527,8 +31120,8 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
-        "x": 210,
-        "y": 720,
+        "x": 180,
+        "y": 820,
         "wires": [
             [
                 "b62a060ca27cb69f"
@@ -31570,8 +31163,8 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
-        "x": 990,
-        "y": 720,
+        "x": 960,
+        "y": 820,
         "wires": [
             [
                 "f58329a789069561"
@@ -31598,8 +31191,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1190,
-        "y": 720,
+        "x": 1160,
+        "y": 820,
         "wires": [
             []
         ]
@@ -31642,8 +31235,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 1020,
-        "y": 780,
+        "x": 990,
+        "y": 880,
         "wires": [
             []
         ]
@@ -31660,8 +31253,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 740,
-        "y": 790,
+        "x": 710,
+        "y": 890,
         "wires": [
             [
                 "cb4a6286aca4bd43"
@@ -31689,8 +31282,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 550,
-        "y": 780,
+        "x": 520,
+        "y": 880,
         "wires": [
             [
                 "02cce9b2e05aa937"
@@ -31720,8 +31313,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 830,
-        "y": 720,
+        "x": 800,
+        "y": 820,
         "wires": [
             [
                 "33646855a267b1b4"
@@ -31741,8 +31334,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 900,
-        "y": 780,
+        "x": 870,
+        "y": 880,
         "wires": [
             [
                 "d3e0d81a17262194"
@@ -31758,8 +31351,8 @@
         "links": [
             "f65144617635e766"
         ],
-        "x": 285,
-        "y": 780,
+        "x": 255,
+        "y": 880,
         "wires": [
             [
                 "22cd2fada9680a04"
@@ -31813,7 +31406,41 @@
             "7fcae5fe0ddd4ef7",
             "c98c6a0b37ce9501",
             "35cde5193b778c94",
-            "8cf04e500b246f90"
+            "8cf04e500b246f90",
+            "acb3163797abe44e",
+            "a4a38a6812fcbe0c",
+            "6f2d66e5045c1f08",
+            "c9431e31a85352c5",
+            "2d18199a5c5712c0",
+            "83fe066f74219d58",
+            "571b11117e80a0d2",
+            "6c9cbc5f13c208de",
+            "2a4b9087d5ee1da1",
+            "04773618fbf0dcda",
+            "dfc052d89d43424b",
+            "154b741a5abdbb7d",
+            "bd2e2cacb5c2d7cb",
+            "cfb2c42d93e9e1ee",
+            "280e4cd5c1140e28",
+            "9ad294dc5c727876",
+            "d97988d997fd4a60",
+            "69468fe7909081de",
+            "7bc4ef3f5c4b4a92",
+            "1d502d179b7be8e0",
+            "172b71e894976487",
+            "2582b79a5a66256a",
+            "7a848364d51272bd",
+            "15dd3565585026a6",
+            "0e88388fcb5738cd",
+            "05d0671af4728704",
+            "dcc5b47701793560",
+            "53068a30972e632b",
+            "7d68ef265d1e3035",
+            "da1899281ec8a4bc",
+            "a230ddb8aeaa2e12",
+            "991eb055c9a9be2b",
+            "dd0bfe62af67d677",
+            "a1cabd508d95e630"
         ],
         "x": 365,
         "y": 80,
@@ -40266,7 +39893,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-03820 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
                 "tot": "str"
             },
             {
@@ -40351,7 +39978,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-03820 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
                 "tot": "str"
             },
             {
@@ -40382,7 +40009,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "1802b7d423c0faa4"
+            "59e817c2.295b38",
+            "8be5483005b96d16"
         ],
         "x": 2785,
         "y": 600,
@@ -40399,7 +40027,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica instrumento de presión FIT",
+                "to": "Falla de alimentación eléctrica instrumento FIT-03830",
                 "tot": "str"
             },
             {
@@ -40483,14 +40111,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica instrumento de presión FIT",
+                "to": "Falla de alimentación eléctrica instrumento FIT-03830",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "ESTADO INSTRUMENTO PIT",
+                "to": "ESTADO INSTRUMENTO FIT",
                 "tot": "str"
             }
         ],
@@ -40514,46 +40142,12 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "1802b7d423c0faa4"
+            "59e817c2.295b38",
+            "8be5483005b96d16"
         ],
         "x": 2785,
         "y": 730,
         "wires": []
-    },
-    {
-        "id": "04123de5b32abd3b",
-        "type": "change",
-        "z": "f10e7ce.d57828",
-        "g": "1b162d57908931b5",
-        "name": "Mensaje FIT en falla",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Falla de alimentación eléctrica instrumento de presión FIT",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ATENCIÓN!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2060,
-        "y": 770,
-        "wires": [
-            [
-                "0946dbe8ddfa9a27"
-            ]
-        ]
     },
     {
         "id": "0946dbe8ddfa9a27",
@@ -40615,14 +40209,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica instrumento de presión FIT",
+                "to": "Instrumento FIT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "ESTADO INSTRUMENTO PIT",
+                "to": "ESTADO INSTRUMENTO FIT",
                 "tot": "str"
             }
         ],
@@ -40646,7 +40240,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "1802b7d423c0faa4"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
         "x": 2785,
         "y": 770,
@@ -40683,13 +40278,13 @@
         "type": "change",
         "z": "f10e7ce.d57828",
         "g": "1b162d57908931b5",
-        "name": "Mensaje PIT en falla",
+        "name": "Mensaje PIT OK",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-03820 manifold normalizado",
+                "to": "Transmisor de presión PT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40705,7 +40300,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2060,
+        "x": 2040,
         "y": 640,
         "wires": [
             [
@@ -40773,7 +40368,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-03820 manifold normalizado",
+                "to": "Transmisor de presión PT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40804,7 +40399,8 @@
         "g": "1b162d57908931b5",
         "name": "",
         "links": [
-            "1802b7d423c0faa4"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
         "x": 2785,
         "y": 640,
@@ -40821,7 +40417,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-00990 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-03830 Manifold",
                 "tot": "str"
             },
             {
@@ -40905,7 +40501,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-00990 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-03830 Manifold",
                 "tot": "str"
             }
         ],
@@ -45620,7 +45216,7 @@
                 "34b1e89fd40139d2"
             ],
             [
-                "04123de5b32abd3b"
+                "d5b941e2a96bbfa3"
             ]
         ]
     },
@@ -45663,7 +45259,7 @@
         "finalize": "",
         "libs": [],
         "x": 290,
-        "y": 140,
+        "y": 180,
         "wires": [
             [
                 "6d4ca22faacfb6a7",
@@ -46435,13 +46031,16 @@
         "z": "e521d174e7104ca1",
         "name": "Notificación roja",
         "links": [
-            "34e61f0acdfbe811"
+            "34e61f0acdfbe811",
+            "b13f7069320f03ce",
+            "991eb055c9a9be2b",
+            "dd0bfe62af67d677"
         ],
-        "x": 185,
+        "x": 355,
         "y": 650,
         "wires": [
             [
-                "13a0ab20e1347082"
+                "7ecaa3f7e96aa7c9"
             ]
         ]
     },
@@ -46453,13 +46052,48 @@
         "links": [
             "8c4ae2530865a4bc",
             "8cf04e500b246f90",
-            "35cde5193b778c94"
+            "35cde5193b778c94",
+            "acb3163797abe44e",
+            "afb58a546368ee20",
+            "acd53fe898395050",
+            "a4a38a6812fcbe0c",
+            "6f2d66e5045c1f08",
+            "c9431e31a85352c5",
+            "2d18199a5c5712c0",
+            "83fe066f74219d58",
+            "571b11117e80a0d2",
+            "6c9cbc5f13c208de",
+            "2a4b9087d5ee1da1",
+            "04773618fbf0dcda",
+            "dfc052d89d43424b",
+            "154b741a5abdbb7d",
+            "bd2e2cacb5c2d7cb",
+            "cfb2c42d93e9e1ee",
+            "280e4cd5c1140e28",
+            "9ad294dc5c727876",
+            "d97988d997fd4a60",
+            "69468fe7909081de",
+            "7bc4ef3f5c4b4a92",
+            "1d502d179b7be8e0",
+            "172b71e894976487",
+            "2582b79a5a66256a",
+            "7a848364d51272bd",
+            "15dd3565585026a6",
+            "0e88388fcb5738cd",
+            "05d0671af4728704",
+            "dcc5b47701793560",
+            "53068a30972e632b",
+            "7d68ef265d1e3035",
+            "da1899281ec8a4bc",
+            "c98c6a0b37ce9501",
+            "a230ddb8aeaa2e12",
+            "a1cabd508d95e630"
         ],
-        "x": 185,
+        "x": 355,
         "y": 690,
         "wires": [
             [
-                "523059800ca77e42"
+                "2c792793e7d5550b"
             ]
         ]
     },
@@ -46469,80 +46103,10 @@
         "z": "e521d174e7104ca1",
         "name": "Notificación amarilla",
         "links": [
-            "b13f7069320f03ce",
             "d27d1f89019d8a16",
             "2e04301f0ad2bc1c"
         ],
-        "x": 185,
-        "y": 730,
-        "wires": [
-            [
-                "54a88d0592b86b88"
-            ]
-        ]
-    },
-    {
-        "id": "13a0ab20e1347082",
-        "type": "switch",
-        "z": "e521d174e7104ca1",
-        "name": "",
-        "property": "#:(memoryOnly)::Status_PLC_COM",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 270,
-        "y": 650,
-        "wires": [
-            [
-                "7ecaa3f7e96aa7c9"
-            ]
-        ]
-    },
-    {
-        "id": "523059800ca77e42",
-        "type": "switch",
-        "z": "e521d174e7104ca1",
-        "name": "",
-        "property": "#:(memoryOnly)::Status_PLC_COM",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 270,
-        "y": 690,
-        "wires": [
-            [
-                "2c792793e7d5550b"
-            ]
-        ]
-    },
-    {
-        "id": "54a88d0592b86b88",
-        "type": "switch",
-        "z": "e521d174e7104ca1",
-        "name": "",
-        "property": "#:(memoryOnly)::Status_PLC_COM",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 270,
+        "x": 355,
         "y": 730,
         "wires": [
             [
@@ -48563,8 +48127,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 600,
-        "y": 70,
+        "x": 460,
+        "y": 100,
         "wires": [
             []
         ]
@@ -48584,8 +48148,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 600,
-        "y": 120,
+        "x": 460,
+        "y": 260,
         "wires": [
             []
         ]
@@ -48603,7 +48167,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-FIT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 270,
-        "y": 180,
+        "y": 260,
         "wires": [
             [
                 "a13647535e0c20a6"
@@ -48847,5 +48411,1838 @@
         "x": 780,
         "y": 1340,
         "wires": []
+    },
+    {
+        "id": "d2f4febb.5191d",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W01.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP1",
+        "x": 860,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d938c95c.283108",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W01.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP1",
+        "x": 860,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "47d1f5ad.53fdfc",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W01.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP1",
+        "x": 850,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e73deb28.ab7c58",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W02.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP2",
+        "x": 860,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "308496cc.1a08fa",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W02.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP2",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "38d893df.8a333c",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W02.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP2",
+        "x": 850,
+        "y": 470,
+        "wires": []
+    },
+    {
+        "id": "8ba61d08.68924",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W03.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP3",
+        "x": 860,
+        "y": 530,
+        "wires": []
+    },
+    {
+        "id": "b804dc17.3c11c",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W03.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP3",
+        "x": 860,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f853ef97.ea1b",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W03.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP3",
+        "x": 850,
+        "y": 710,
+        "wires": []
+    },
+    {
+        "id": "f7e2b76f.736738",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W04.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP4",
+        "x": 860,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "8d5fdd06.4fa45",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W04.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP4",
+        "x": 860,
+        "y": 850,
+        "wires": []
+    },
+    {
+        "id": "b9f20f86.e4bf1",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W04.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP4",
+        "x": 850,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "8eab2d74.7f1fe",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W05.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP5",
+        "x": 860,
+        "y": 990,
+        "wires": []
+    },
+    {
+        "id": "656bbea4.ffa3f",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W05.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP5",
+        "x": 860,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "160ab9fc.7eb4e6",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W05.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP5",
+        "x": 850,
+        "y": 1170,
+        "wires": []
+    },
+    {
+        "id": "e444da6e.5f8128",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W06.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP6",
+        "x": 860,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "25eeaa97.48ca86",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W06.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP6",
+        "x": 860,
+        "y": 1310,
+        "wires": []
+    },
+    {
+        "id": "932b0db5.b3daa",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W06.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP6",
+        "x": 850,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "de245ad1.e52908",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W09.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP9",
+        "x": 860,
+        "y": 1910,
+        "wires": []
+    },
+    {
+        "id": "a86fabcb.194488",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W09.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP9",
+        "x": 860,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "a4fc6f8.fdca09",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W09.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP9",
+        "x": 850,
+        "y": 2090,
+        "wires": []
+    },
+    {
+        "id": "ac4b1a1d.2a0158",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W08.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP8",
+        "x": 860,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "3851f53d.72a3ea",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W08.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP8",
+        "x": 860,
+        "y": 1770,
+        "wires": []
+    },
+    {
+        "id": "57de4f88.31f6f",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W08.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP8",
+        "x": 850,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "2bf7ce89.c48ff2",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W07.VSD.Arranque_Remoto_PD",
+        "program": "",
+        "name": "Arranque SCP7",
+        "x": 860,
+        "y": 1450,
+        "wires": []
+    },
+    {
+        "id": "95c6abd4.4862d8",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W07.VSD.Parada_Remota_PD",
+        "program": "",
+        "name": "Parada SCP7",
+        "x": 860,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "7998e18f.da1ef",
+        "type": "eth-ip out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "endpoint": "98638e25.bf675",
+        "variable": "CLUSTER.W07.VSD.Reset_Remoto_PD",
+        "program": "",
+        "name": "Reset SCP7",
+        "x": 850,
+        "y": 1630,
+        "wires": []
+    },
+    {
+        "id": "ca6808c4.0ce2b8",
+        "type": "function",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "func": "var Comandos = global.get(\"Comandos\", \"memoryOnly\") || [];\nvar SCP = global.get(\"SCP\", \"memoryOnly\") || [];\n\nvar Arranque = [], Parada = [], Reset = [];\n\nArranque[SCP] = Comandos[SCP].Arranque_Remoto_PD;\nParada[SCP] = Comandos[SCP].Parada_Remota_PD;\nReset[SCP] = Comandos[SCP].Reset_Remoto_PD;\nswitch (SCP) {\n      case 0:\n            var day = \"--\";\n            break;\n\n      case 1:\n\n            var msg0 = { payload: Arranque[1] };\n            var msg1 = { payload: Parada[1] };\n            var msg2 = { payload: Reset[1] };\n            break;\n      case 2:\n\n            var msg3 = { payload: Arranque[2] };\n            var msg4 = { payload: Parada[2] };\n            var msg5 = { payload: Reset[2] };\n            break;\n\n      case 3:\n\n            var msg6 = { payload: Arranque[3] };\n            var msg7 = { payload: Parada[3] };\n            var msg8 = { payload: Reset[3] };\n            break;\n\n      case 4:\n\n            var msg9 = { payload: Arranque[4] };\n            var msg10 = { payload: Parada[4] };\n            var msg11 = { payload: Reset[4] };\n            break;\n\n      case 5:\n\n            var msg12 = { payload: Reset[5] };\n            var msg13 = { payload: Arranque[5] };\n            var msg14 = { payload: Parada[5] };\n            break;\n\n      case 6:\n\n            var msg15 = { payload: Reset[6] };\n            var msg16 = { payload: Arranque[6] };\n            var msg17 = { payload: Parada[6] };\n            break;\n\n      case 7:\n            var msg18 = { payload: Reset[7] };\n            var msg19 = { payload: Arranque[7] };\n            var msg20 = { payload: Parada[7] };\n            break;\n\n      case 8:\n\n            var msg21 = { payload: Reset[8] };\n            var msg22 = { payload: Arranque[8] };\n            var msg23 = { payload: Parada[8] };\n            break;\n\n      case 9:\n\n            var msg24 = { payload: Reset[9] };\n            var msg25 = { payload: Arranque[9] };\n            var msg26 = { payload: Parada[9] };\n}\n\nreturn [msg0, msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg12, msg13, msg14, msg15, msg16, msg17, msg18, msg19, msg20, msg21, msg22, msg23, msg24, msg25, msg26];",
+        "outputs": 27,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 880,
+        "wires": [
+            [
+                "d2f4febb.5191d",
+                "9c6210069781916b"
+            ],
+            [
+                "d938c95c.283108",
+                "f52c20a35985e18c"
+            ],
+            [
+                "47d1f5ad.53fdfc"
+            ],
+            [
+                "e73deb28.ab7c58",
+                "6642d030e94e2415"
+            ],
+            [
+                "308496cc.1a08fa",
+                "0409999916e94e81"
+            ],
+            [
+                "38d893df.8a333c"
+            ],
+            [
+                "8ba61d08.68924",
+                "632c21a73c32eb67"
+            ],
+            [
+                "b804dc17.3c11c",
+                "0ec9bd75b29c9e3a"
+            ],
+            [
+                "f853ef97.ea1b"
+            ],
+            [
+                "f7e2b76f.736738",
+                "387b3499390d4b07"
+            ],
+            [
+                "8d5fdd06.4fa45",
+                "8071daadd6f71ea6"
+            ],
+            [
+                "b9f20f86.e4bf1"
+            ],
+            [
+                "8eab2d74.7f1fe",
+                "c8d177b8c8692167"
+            ],
+            [
+                "656bbea4.ffa3f",
+                "7da7e38601634bf0"
+            ],
+            [
+                "160ab9fc.7eb4e6"
+            ],
+            [
+                "e444da6e.5f8128",
+                "dd15752aeb11b799"
+            ],
+            [
+                "25eeaa97.48ca86",
+                "cc8f5681458a511f"
+            ],
+            [
+                "932b0db5.b3daa"
+            ],
+            [
+                "2bf7ce89.c48ff2",
+                "b3c88e2b31d841b4"
+            ],
+            [
+                "95c6abd4.4862d8",
+                "39711a34cca25a79"
+            ],
+            [
+                "7998e18f.da1ef"
+            ],
+            [
+                "ac4b1a1d.2a0158",
+                "cec1dd6e858e10e5"
+            ],
+            [
+                "3851f53d.72a3ea",
+                "b8aacf8fea75e712"
+            ],
+            [
+                "57de4f88.31f6f"
+            ],
+            [
+                "de245ad1.e52908",
+                "3c5071c419d1e925"
+            ],
+            [
+                "a86fabcb.194488",
+                "347adb735433a9b4"
+            ],
+            [
+                "a4fc6f8.fdca09"
+            ]
+        ]
+    },
+    {
+        "id": "c5614143.9411",
+        "type": "link in",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Arranque/ Paro com",
+        "links": [
+            "35e356e7.8ebc5a"
+        ],
+        "x": 535,
+        "y": 880,
+        "wires": [
+            [
+                "ca6808c4.0ce2b8"
+            ]
+        ]
+    },
+    {
+        "id": "9c6210069781916b",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 110,
+        "wires": [
+            [
+                "560727a17bbf3f80"
+            ]
+        ]
+    },
+    {
+        "id": "560727a17bbf3f80",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP1 VSD-CASE-0383V",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 110,
+        "wires": [
+            [
+                "acb3163797abe44e"
+            ]
+        ]
+    },
+    {
+        "id": "f52c20a35985e18c",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 200,
+        "wires": [
+            [
+                "c01add8e28e8df04"
+            ]
+        ]
+    },
+    {
+        "id": "c01add8e28e8df04",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP1 VSD-CASE-0383V",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 200,
+        "wires": [
+            [
+                "bd2e2cacb5c2d7cb"
+            ]
+        ]
+    },
+    {
+        "id": "6642d030e94e2415",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "c3aa026afba3312f"
+            ]
+        ]
+    },
+    {
+        "id": "c3aa026afba3312f",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP2 VSD-CASE-0183D",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 340,
+        "wires": [
+            [
+                "cfb2c42d93e9e1ee"
+            ]
+        ]
+    },
+    {
+        "id": "acb3163797abe44e",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "0409999916e94e81",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 430,
+        "wires": [
+            [
+                "7efaa20c7eb6a1ac"
+            ]
+        ]
+    },
+    {
+        "id": "7efaa20c7eb6a1ac",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP2 VSD-CASE-0183D",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 430,
+        "wires": [
+            [
+                "280e4cd5c1140e28"
+            ]
+        ]
+    },
+    {
+        "id": "0ec9bd75b29c9e3a",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 670,
+        "wires": [
+            [
+                "791dcb1d44a49629"
+            ]
+        ]
+    },
+    {
+        "id": "791dcb1d44a49629",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP3 VSD-CASE-0231H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 670,
+        "wires": [
+            [
+                "d97988d997fd4a60"
+            ]
+        ]
+    },
+    {
+        "id": "c008b2b0aac91403",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP3 VSD-CASE-0231H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 580,
+        "wires": [
+            [
+                "9ad294dc5c727876"
+            ]
+        ]
+    },
+    {
+        "id": "632c21a73c32eb67",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 580,
+        "wires": [
+            [
+                "c008b2b0aac91403"
+            ]
+        ]
+    },
+    {
+        "id": "387b3499390d4b07",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 810,
+        "wires": [
+            [
+                "296fbc2a76bfd265"
+            ]
+        ]
+    },
+    {
+        "id": "296fbc2a76bfd265",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP4 VSD-CASE-0428H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 810,
+        "wires": [
+            [
+                "69468fe7909081de"
+            ]
+        ]
+    },
+    {
+        "id": "159e9f69afa5a53e",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP4 VSD-CASE-0428H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 900,
+        "wires": [
+            [
+                "7bc4ef3f5c4b4a92"
+            ]
+        ]
+    },
+    {
+        "id": "8071daadd6f71ea6",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 900,
+        "wires": [
+            [
+                "159e9f69afa5a53e"
+            ]
+        ]
+    },
+    {
+        "id": "dc502e5620a2c393",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP5 VSD-CASE-0413H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 1040,
+        "wires": [
+            [
+                "1d502d179b7be8e0"
+            ]
+        ]
+    },
+    {
+        "id": "c8d177b8c8692167",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1040,
+        "wires": [
+            [
+                "dc502e5620a2c393"
+            ]
+        ]
+    },
+    {
+        "id": "7da7e38601634bf0",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1130,
+        "wires": [
+            [
+                "abe11a7834875975"
+            ]
+        ]
+    },
+    {
+        "id": "abe11a7834875975",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP5 VSD-CASE-0413H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1130,
+        "wires": [
+            [
+                "172b71e894976487"
+            ]
+        ]
+    },
+    {
+        "id": "bd2e2cacb5c2d7cb",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cfb2c42d93e9e1ee",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "280e4cd5c1140e28",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 430,
+        "wires": []
+    },
+    {
+        "id": "9ad294dc5c727876",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "d97988d997fd4a60",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 670,
+        "wires": []
+    },
+    {
+        "id": "69468fe7909081de",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 810,
+        "wires": []
+    },
+    {
+        "id": "7bc4ef3f5c4b4a92",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "1d502d179b7be8e0",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "172b71e894976487",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1130,
+        "wires": []
+    },
+    {
+        "id": "dd15752aeb11b799",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1270,
+        "wires": [
+            [
+                "ded70a60eed08f61"
+            ]
+        ]
+    },
+    {
+        "id": "cc8f5681458a511f",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1360,
+        "wires": [
+            [
+                "4e08bbbee5c4473c"
+            ]
+        ]
+    },
+    {
+        "id": "4e08bbbee5c4473c",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP6 VSD-CASE-0180H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1360,
+        "wires": [
+            [
+                "15dd3565585026a6"
+            ]
+        ]
+    },
+    {
+        "id": "ded70a60eed08f61",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP6 VSD-CASE-0180H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 1270,
+        "wires": [
+            [
+                "7a848364d51272bd"
+            ]
+        ]
+    },
+    {
+        "id": "7a848364d51272bd",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1270,
+        "wires": []
+    },
+    {
+        "id": "15dd3565585026a6",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "b3c88e2b31d841b4",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1500,
+        "wires": [
+            [
+                "11873da7e7f2bae9"
+            ]
+        ]
+    },
+    {
+        "id": "39711a34cca25a79",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1590,
+        "wires": [
+            [
+                "0fe824e424b384f1"
+            ]
+        ]
+    },
+    {
+        "id": "0fe824e424b384f1",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP5 VSD-CASE-0429H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1590,
+        "wires": [
+            [
+                "05d0671af4728704"
+            ]
+        ]
+    },
+    {
+        "id": "11873da7e7f2bae9",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP7 VSD-CASE-0429H",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 1500,
+        "wires": [
+            [
+                "0e88388fcb5738cd"
+            ]
+        ]
+    },
+    {
+        "id": "0e88388fcb5738cd",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "05d0671af4728704",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1590,
+        "wires": []
+    },
+    {
+        "id": "cec1dd6e858e10e5",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1730,
+        "wires": [
+            [
+                "bff60e66f81afe54"
+            ]
+        ]
+    },
+    {
+        "id": "b8aacf8fea75e712",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1820,
+        "wires": [
+            [
+                "580281f1bded7cf0"
+            ]
+        ]
+    },
+    {
+        "id": "580281f1bded7cf0",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP8 VSD-CASE-",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1820,
+        "wires": [
+            [
+                "53068a30972e632b"
+            ]
+        ]
+    },
+    {
+        "id": "bff60e66f81afe54",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP8 VSD-CASE-",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 1730,
+        "wires": [
+            [
+                "dcc5b47701793560"
+            ]
+        ]
+    },
+    {
+        "id": "dcc5b47701793560",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1730,
+        "wires": []
+    },
+    {
+        "id": "53068a30972e632b",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "3c5071c419d1e925",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1960,
+        "wires": [
+            [
+                "2e051054ca5f1154"
+            ]
+        ]
+    },
+    {
+        "id": "347adb735433a9b4",
+        "type": "switch",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 2050,
+        "wires": [
+            [
+                "deac0149d0aa53fc"
+            ]
+        ]
+    },
+    {
+        "id": "deac0149d0aa53fc",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje parada SCP9",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Parada de SCP9 VSD-CASE-",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡PARADA!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 2050,
+        "wires": [
+            [
+                "da1899281ec8a4bc"
+            ]
+        ]
+    },
+    {
+        "id": "2e051054ca5f1154",
+        "type": "change",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Mensaje arranque SCP9",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Arranque de SCP9 VSD-CASE-",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ARRANQUE!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 1960,
+        "wires": [
+            [
+                "7d68ef265d1e3035"
+            ]
+        ]
+    },
+    {
+        "id": "7d68ef265d1e3035",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "da1899281ec8a4bc",
+        "type": "link out",
+        "z": "c8989d0a.49ea8",
+        "g": "657e2074.735a3",
+        "name": "Notificacion de comandos",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 1155,
+        "y": 2050,
+        "wires": []
+    },
+    {
+        "id": "d5b941e2a96bbfa3",
+        "type": "change",
+        "z": "f10e7ce.d57828",
+        "g": "1b162d57908931b5",
+        "name": "Mensaje FIT OK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Instrumento FIT-03830 manifold normalizado",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "¡ATENCIÓN!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2040,
+        "y": 770,
+        "wires": [
+            [
+                "0946dbe8ddfa9a27"
+            ]
+        ]
     }
 ]
