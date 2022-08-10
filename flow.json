@@ -830,9 +830,7 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13,
-        "w": 1854,
-        "h": 224
+        "y": 13
     },
     {
         "id": "c58d9126.1869c",
@@ -855,9 +853,7 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579,
-        "w": 722,
-        "h": 192
+        "y": 579
     },
     {
         "id": "89dd768a.673f58",
@@ -913,9 +909,7 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19,
-        "w": 432,
-        "h": 962
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -958,9 +952,7 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59,
-        "w": 952,
-        "h": 502
+        "y": 59
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1003,9 +995,7 @@
             "b2b70770f04451e4"
         ],
         "x": 1224,
-        "y": 19,
-        "w": 732,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1c17956307e44e29",
@@ -1643,9 +1633,7 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1984,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1698,9 +1686,7 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2764,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "2282018314ee7576",
@@ -1797,9 +1783,7 @@
             "dc662dbf83f0e930"
         ],
         "x": 504,
-        "y": 2149,
-        "w": 492,
-        "h": 1642
+        "y": 2149
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1866,9 +1850,7 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2714,
-        "y": 2069,
-        "w": 482,
-        "h": 622
+        "y": 2069
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1932,9 +1914,7 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149,
-        "w": 832,
-        "h": 562
+        "y": 1149
     },
     {
         "id": "cff3928797d25d39",
@@ -1965,9 +1945,7 @@
             "75b2e87e6760a38b"
         ],
         "x": 3534,
-        "y": 19,
-        "w": 632,
-        "h": 922
+        "y": 19
     },
     {
         "id": "b06bbdd518536a01",
@@ -2031,9 +2009,7 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329,
-        "w": 862,
-        "h": 982
+        "y": 1329
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2106,9 +2082,7 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59,
-        "w": 1472,
-        "h": 872
+        "y": 59
     },
     {
         "id": "1b162d57908931b5",
@@ -2208,9 +2182,7 @@
             "d5b941e2a96bbfa3"
         ],
         "x": 1554,
-        "y": 19,
-        "w": 1722,
-        "h": 832
+        "y": 19
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2235,9 +2207,7 @@
             "3e1f18e73ad342b7"
         ],
         "x": 94,
-        "y": 779,
-        "w": 1202,
-        "h": 152
+        "y": 779
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2312,9 +2282,7 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949,
-        "w": 1742,
-        "h": 362
+        "y": 949
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2337,9 +2305,7 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19,
-        "w": 712,
-        "h": 502
+        "y": 19
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2390,9 +2356,7 @@
             "c18438482aa78cfc"
         ],
         "x": 94,
-        "y": 19,
-        "w": 682,
-        "h": 732
+        "y": 19
     },
     {
         "id": "4e67a9385d518b82",
@@ -2506,9 +2470,7 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999,
-        "w": 342,
-        "h": 82
+        "y": 999
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2880,6 +2842,103 @@
         "y": 2079
     },
     {
+        "id": "657e2074.735a3",
+        "type": "group",
+        "z": "c8989d0a.49ea8",
+        "name": "Comandos Arranque Paro Reset Remoto SCP1 al 9",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "d2f4febb.5191d",
+            "d938c95c.283108",
+            "47d1f5ad.53fdfc",
+            "e73deb28.ab7c58",
+            "308496cc.1a08fa",
+            "38d893df.8a333c",
+            "8ba61d08.68924",
+            "b804dc17.3c11c",
+            "f853ef97.ea1b",
+            "f7e2b76f.736738",
+            "8d5fdd06.4fa45",
+            "b9f20f86.e4bf1",
+            "8eab2d74.7f1fe",
+            "656bbea4.ffa3f",
+            "160ab9fc.7eb4e6",
+            "e444da6e.5f8128",
+            "25eeaa97.48ca86",
+            "932b0db5.b3daa",
+            "de245ad1.e52908",
+            "a86fabcb.194488",
+            "a4fc6f8.fdca09",
+            "ac4b1a1d.2a0158",
+            "3851f53d.72a3ea",
+            "57de4f88.31f6f",
+            "2bf7ce89.c48ff2",
+            "95c6abd4.4862d8",
+            "7998e18f.da1ef",
+            "ca6808c4.0ce2b8",
+            "c5614143.9411",
+            "9c6210069781916b",
+            "560727a17bbf3f80",
+            "f52c20a35985e18c",
+            "c01add8e28e8df04",
+            "6642d030e94e2415",
+            "c3aa026afba3312f",
+            "acb3163797abe44e",
+            "0409999916e94e81",
+            "7efaa20c7eb6a1ac",
+            "0ec9bd75b29c9e3a",
+            "791dcb1d44a49629",
+            "c008b2b0aac91403",
+            "632c21a73c32eb67",
+            "387b3499390d4b07",
+            "296fbc2a76bfd265",
+            "159e9f69afa5a53e",
+            "8071daadd6f71ea6",
+            "dc502e5620a2c393",
+            "c8d177b8c8692167",
+            "7da7e38601634bf0",
+            "abe11a7834875975",
+            "bd2e2cacb5c2d7cb",
+            "cfb2c42d93e9e1ee",
+            "280e4cd5c1140e28",
+            "9ad294dc5c727876",
+            "d97988d997fd4a60",
+            "69468fe7909081de",
+            "7bc4ef3f5c4b4a92",
+            "1d502d179b7be8e0",
+            "172b71e894976487",
+            "dd15752aeb11b799",
+            "ded70a60eed08f61",
+            "7a848364d51272bd",
+            "cc8f5681458a511f",
+            "4e08bbbee5c4473c",
+            "15dd3565585026a6",
+            "b3c88e2b31d841b4",
+            "11873da7e7f2bae9",
+            "0e88388fcb5738cd",
+            "39711a34cca25a79",
+            "0fe824e424b384f1",
+            "05d0671af4728704",
+            "cec1dd6e858e10e5",
+            "bff60e66f81afe54",
+            "dcc5b47701793560",
+            "b8aacf8fea75e712",
+            "580281f1bded7cf0",
+            "53068a30972e632b",
+            "3c5071c419d1e925",
+            "2e051054ca5f1154",
+            "7d68ef265d1e3035",
+            "347adb735433a9b4",
+            "deac0149d0aa53fc",
+            "da1899281ec8a4bc"
+        ],
+        "x": 494,
+        "y": 19
+    },
+    {
         "id": "eb91dac5.690838",
         "type": "group",
         "z": "827787d0.ede678",
@@ -2963,9 +3022,7 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39,
-        "w": 902,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -2993,9 +3050,7 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 172
+        "y": 39
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3277,105 +3332,6 @@
         ],
         "x": 874,
         "y": 151.5
-    },
-    {
-        "id": "657e2074.735a3",
-        "type": "group",
-        "z": "c8989d0a.49ea8",
-        "name": "Comandos Arranque Paro Reset Remoto SCP1 al 9",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf"
-        },
-        "nodes": [
-            "d2f4febb.5191d",
-            "d938c95c.283108",
-            "47d1f5ad.53fdfc",
-            "e73deb28.ab7c58",
-            "308496cc.1a08fa",
-            "38d893df.8a333c",
-            "8ba61d08.68924",
-            "b804dc17.3c11c",
-            "f853ef97.ea1b",
-            "f7e2b76f.736738",
-            "8d5fdd06.4fa45",
-            "b9f20f86.e4bf1",
-            "8eab2d74.7f1fe",
-            "656bbea4.ffa3f",
-            "160ab9fc.7eb4e6",
-            "e444da6e.5f8128",
-            "25eeaa97.48ca86",
-            "932b0db5.b3daa",
-            "de245ad1.e52908",
-            "a86fabcb.194488",
-            "a4fc6f8.fdca09",
-            "ac4b1a1d.2a0158",
-            "3851f53d.72a3ea",
-            "57de4f88.31f6f",
-            "2bf7ce89.c48ff2",
-            "95c6abd4.4862d8",
-            "7998e18f.da1ef",
-            "ca6808c4.0ce2b8",
-            "c5614143.9411",
-            "9c6210069781916b",
-            "560727a17bbf3f80",
-            "f52c20a35985e18c",
-            "c01add8e28e8df04",
-            "6642d030e94e2415",
-            "c3aa026afba3312f",
-            "acb3163797abe44e",
-            "0409999916e94e81",
-            "7efaa20c7eb6a1ac",
-            "0ec9bd75b29c9e3a",
-            "791dcb1d44a49629",
-            "c008b2b0aac91403",
-            "632c21a73c32eb67",
-            "387b3499390d4b07",
-            "296fbc2a76bfd265",
-            "159e9f69afa5a53e",
-            "8071daadd6f71ea6",
-            "dc502e5620a2c393",
-            "c8d177b8c8692167",
-            "7da7e38601634bf0",
-            "abe11a7834875975",
-            "bd2e2cacb5c2d7cb",
-            "cfb2c42d93e9e1ee",
-            "280e4cd5c1140e28",
-            "9ad294dc5c727876",
-            "d97988d997fd4a60",
-            "69468fe7909081de",
-            "7bc4ef3f5c4b4a92",
-            "1d502d179b7be8e0",
-            "172b71e894976487",
-            "dd15752aeb11b799",
-            "ded70a60eed08f61",
-            "7a848364d51272bd",
-            "cc8f5681458a511f",
-            "4e08bbbee5c4473c",
-            "15dd3565585026a6",
-            "b3c88e2b31d841b4",
-            "11873da7e7f2bae9",
-            "0e88388fcb5738cd",
-            "39711a34cca25a79",
-            "0fe824e424b384f1",
-            "05d0671af4728704",
-            "cec1dd6e858e10e5",
-            "bff60e66f81afe54",
-            "dcc5b47701793560",
-            "b8aacf8fea75e712",
-            "580281f1bded7cf0",
-            "53068a30972e632b",
-            "3c5071c419d1e925",
-            "2e051054ca5f1154",
-            "7d68ef265d1e3035",
-            "347adb735433a9b4",
-            "deac0149d0aa53fc",
-            "da1899281ec8a4bc"
-        ],
-        "x": 494,
-        "y": 19,
-        "w": 702,
-        "h": 2112
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -41391,7 +41347,7 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "ESP Status - SCP",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\",\"memoryOnly\");\nif(Estado_VSD == 0)\n    msg.Detenido = \"BES DETENIDA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"BES EN MARCHA\";\nelse if(Estado_VSD == 2)\n    msg.Alarma = \"BES EN ALARMA\";\nelse if(Estado_VSD == 3)\n    msg.Falla = \"BES EN FALLA\";\nelse if(Estado_VSD == 4)\n    msg.Comunicacion = \"BES FALLA COMUNICACION\";\nelse\n    msg.Nodisp = \"BES NO DISPONIBLE\";\n\nreturn msg;",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\",\"memoryOnly\");\nif(Estado_VSD == 0)\n    msg.Detenido = \"BES DETENIDA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"BES EN MARCHA\";\nelse if(Estado_VSD == 2)\n    msg.Alarma = \"BES EN ALARMA\";\nelse if(Estado_VSD == 3)\n    msg.Falla = \"BES EN FALLA\";\nelse if(Estado_VSD == 4)\n    msg.Comunicacion = \"BES FALLA COMUNICACION\";\nelse if(Estado_VSD == 5)\n    msg.Apagado = \"BES APAGADO\";\nelse\n    msg.Nodisp = \"BES NO DISPONIBLE\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -41410,7 +41366,7 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "PCP Status - SCP",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\");\nif (Estado_VSD == 0)\n    msg.Detenido = \"PCP DETENIDA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"PCP EN MARCHA\";\nelse if (Estado_VSD == 2)\n    msg.Alarma = \"PCP EN ALARMA\";\nelse if (Estado_VSD == 3)\n    msg.Falla = \"PCP EN FALLA\";\nelse if (Estado_VSD == 4)\n    msg.Comunicacion = \"PCP FALLA COMUNICACION\";\nelse\n    msg.Nodisp = \"PCP NO DISPONIBLE\";\n\nreturn msg;",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\");\nif (Estado_VSD == 0)\n    msg.Detenido = \"PCP DETENIDA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"PCP EN MARCHA\";\nelse if (Estado_VSD == 2)\n    msg.Alarma = \"PCP EN ALARMA\";\nelse if (Estado_VSD == 3)\n    msg.Falla = \"PCP EN FALLA\";\nelse if (Estado_VSD == 4)\n    msg.Comunicacion = \"PCP FALLA COMUNICACION\";\nelse if (Estado_VSD == 5)\n    msg.Apagado = \"BES APAGADO\";\nelse\n    msg.Nodisp = \"PCP NO DISPONIBLE\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -41433,7 +41389,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Nodisp}}</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Nodisp}}</span></h6>\n            <h6><span class=\"badge badge-primary\">{{Apagado}}</span></h6>\n\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 710,
         "y": 180,
