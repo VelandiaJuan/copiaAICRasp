@@ -732,7 +732,9 @@
             "eb91dac5.690838"
         ],
         "x": 148,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 414
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -784,7 +786,9 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29
+        "y": 29,
+        "w": 812,
+        "h": 252
     },
     {
         "id": "2f18e23b.de32ce",
@@ -814,7 +818,9 @@
             "528f3613fd9dc550"
         ],
         "x": 68,
-        "y": 299
+        "y": 299,
+        "w": 1234,
+        "h": 468
     },
     {
         "id": "7b6f4b41.106164",
@@ -875,7 +881,9 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "a0798509.56f3c8",
@@ -996,7 +1004,7 @@
             "38c838ee9ea436f4",
             "b2b70770f04451e4"
         ],
-        "x": 1224,
+        "x": 1234,
         "y": 19,
         "w": 732,
         "h": 1102
@@ -1138,7 +1146,9 @@
             "fc7ac26950eab4f6"
         ],
         "x": 144,
-        "y": 443
+        "y": 443,
+        "w": 938,
+        "h": 764
     },
     {
         "id": "5e0b04a10149786e",
@@ -1245,7 +1255,9 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779
+        "y": 779,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "53d376e89282424a",
@@ -1825,7 +1837,9 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 979
+        "y": 979,
+        "w": 872,
+        "h": 402
     },
     {
         "id": "2fc820d53f174088",
@@ -1892,7 +1906,9 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979
+        "y": 979,
+        "w": 1132,
+        "h": 282
     },
     {
         "id": "7d0f955071a4055a",
@@ -2961,9 +2977,9 @@
             "deac0149d0aa53fc",
             "da1899281ec8a4bc"
         ],
-        "x": 494,
+        "x": 474,
         "y": 19,
-        "w": 702,
+        "w": 752,
         "h": 2112
     },
     {
@@ -3023,7 +3039,9 @@
             "23b5193babb35890"
         ],
         "x": 174,
-        "y": 39
+        "y": 39,
+        "w": 1802,
+        "h": 362
     },
     {
         "id": "11f55817.139c18",
@@ -3116,7 +3134,9 @@
             "5c6c269da4720bd1"
         ],
         "x": 94,
-        "y": 539
+        "y": 539,
+        "w": 1182,
+        "h": 202
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3137,7 +3157,9 @@
             "2672c65f65d99463"
         ],
         "x": 614,
-        "y": 979
+        "y": 979,
+        "w": 362,
+        "h": 202
     },
     {
         "id": "8217afa77c53c8c4",
@@ -3156,7 +3178,9 @@
             "e01f356525ba5066"
         ],
         "x": 644,
-        "y": 469
+        "y": 469,
+        "w": 172,
+        "h": 162
     },
     {
         "id": "fc7ac26950eab4f6",
@@ -3177,7 +3201,9 @@
             "27e5b49204d6a1d6"
         ],
         "x": 644,
-        "y": 679
+        "y": 679,
+        "w": 412,
+        "h": 162
     },
     {
         "id": "af59ebdb307f926a",
@@ -14683,7 +14709,7 @@
         "links": [
             "43030a29.bfdeb4"
         ],
-        "x": 1265,
+        "x": 1275,
         "y": 520,
         "wires": [
             [
@@ -14703,7 +14729,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1430,
+        "x": 1440,
         "y": 520,
         "wires": [
             [
@@ -14744,7 +14770,7 @@
         "variable": "CLUSTER.W01.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP1",
-        "x": 1830,
+        "x": 1840,
         "y": 60,
         "wires": []
     },
@@ -14757,7 +14783,7 @@
         "variable": "CLUSTER.W06.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP6",
-        "x": 1830,
+        "x": 1840,
         "y": 660,
         "wires": []
     },
@@ -14770,7 +14796,7 @@
         "variable": "CLUSTER.W02.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP2",
-        "x": 1830,
+        "x": 1840,
         "y": 180,
         "wires": []
     },
@@ -14783,7 +14809,7 @@
         "variable": "CLUSTER.W03.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP3",
-        "x": 1830,
+        "x": 1840,
         "y": 300,
         "wires": []
     },
@@ -14796,7 +14822,7 @@
         "variable": "CLUSTER.W07.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP7",
-        "x": 1830,
+        "x": 1840,
         "y": 780,
         "wires": []
     },
@@ -14809,7 +14835,7 @@
         "variable": "CLUSTER.W04.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP4",
-        "x": 1830,
+        "x": 1840,
         "y": 420,
         "wires": []
     },
@@ -14822,7 +14848,7 @@
         "variable": "CLUSTER.W05.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP5",
-        "x": 1830,
+        "x": 1840,
         "y": 540,
         "wires": []
     },
@@ -14836,7 +14862,7 @@
         "variable": "CLUSTER.W08.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP8",
-        "x": 1830,
+        "x": 1840,
         "y": 900,
         "wires": []
     },
@@ -14850,7 +14876,7 @@
         "variable": "CLUSTER.W09.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP9",
-        "x": 1830,
+        "x": 1840,
         "y": 1020,
         "wires": []
     },
@@ -15972,7 +15998,7 @@
         "variable": "CLUSTER.W01.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP1",
-        "x": 1830,
+        "x": 1840,
         "y": 120,
         "wires": []
     },
@@ -15999,7 +16025,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 100,
         "wires": [
             [
@@ -16033,7 +16059,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 200,
         "wires": [
             [
@@ -16067,7 +16093,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 340,
         "wires": [
             [
@@ -16101,7 +16127,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 460,
         "wires": [
             [
@@ -16135,7 +16161,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 580,
         "wires": [
             [
@@ -16169,7 +16195,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 700,
         "wires": [
             [
@@ -16190,7 +16216,7 @@
         "variable": "CLUSTER.W02.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP2",
-        "x": 1830,
+        "x": 1840,
         "y": 240,
         "wires": []
     },
@@ -16204,7 +16230,7 @@
         "variable": "CLUSTER.W03.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP3",
-        "x": 1830,
+        "x": 1840,
         "y": 360,
         "wires": []
     },
@@ -16218,7 +16244,7 @@
         "variable": "CLUSTER.W04.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP4",
-        "x": 1830,
+        "x": 1840,
         "y": 480,
         "wires": []
     },
@@ -16232,7 +16258,7 @@
         "variable": "CLUSTER.W05.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP5",
-        "x": 1830,
+        "x": 1840,
         "y": 600,
         "wires": []
     },
@@ -16259,7 +16285,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 820,
         "wires": [
             [
@@ -16293,7 +16319,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 940,
         "wires": [
             [
@@ -16327,7 +16353,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1660,
+        "x": 1670,
         "y": 1060,
         "wires": [
             [
@@ -16348,7 +16374,7 @@
         "variable": "CLUSTER.W06.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP6",
-        "x": 1830,
+        "x": 1840,
         "y": 720,
         "wires": []
     },
@@ -16362,7 +16388,7 @@
         "variable": "CLUSTER.W07.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP7",
-        "x": 1830,
+        "x": 1840,
         "y": 840,
         "wires": []
     },
@@ -16376,7 +16402,7 @@
         "variable": "CLUSTER.W08.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP8",
-        "x": 1830,
+        "x": 1840,
         "y": 960,
         "wires": []
     },
@@ -16390,7 +16416,7 @@
         "variable": "CLUSTER.W09.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP9",
-        "x": 1830,
+        "x": 1840,
         "y": 1080,
         "wires": []
     },
@@ -41417,7 +41443,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Nodisp}}</span></h6>\n            <h6><span class=\"badge badge-primary\">{{Apagado}}</span></h6>\n\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-primary\">{{Nodisp}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Apagado}}</span></h6>\n\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 710,
         "y": 180,
@@ -48415,7 +48441,7 @@
         "variable": "CLUSTER.W01.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP1",
-        "x": 860,
+        "x": 890,
         "y": 60,
         "wires": []
     },
@@ -48428,7 +48454,7 @@
         "variable": "CLUSTER.W01.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP1",
-        "x": 860,
+        "x": 890,
         "y": 150,
         "wires": []
     },
@@ -48441,7 +48467,7 @@
         "variable": "CLUSTER.W01.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP1",
-        "x": 850,
+        "x": 880,
         "y": 240,
         "wires": []
     },
@@ -48454,7 +48480,7 @@
         "variable": "CLUSTER.W02.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP2",
-        "x": 860,
+        "x": 890,
         "y": 290,
         "wires": []
     },
@@ -48467,7 +48493,7 @@
         "variable": "CLUSTER.W02.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP2",
-        "x": 860,
+        "x": 890,
         "y": 380,
         "wires": []
     },
@@ -48480,7 +48506,7 @@
         "variable": "CLUSTER.W02.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP2",
-        "x": 850,
+        "x": 880,
         "y": 470,
         "wires": []
     },
@@ -48493,7 +48519,7 @@
         "variable": "CLUSTER.W03.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP3",
-        "x": 860,
+        "x": 890,
         "y": 530,
         "wires": []
     },
@@ -48506,7 +48532,7 @@
         "variable": "CLUSTER.W03.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP3",
-        "x": 860,
+        "x": 890,
         "y": 620,
         "wires": []
     },
@@ -48519,7 +48545,7 @@
         "variable": "CLUSTER.W03.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP3",
-        "x": 850,
+        "x": 880,
         "y": 710,
         "wires": []
     },
@@ -48532,7 +48558,7 @@
         "variable": "CLUSTER.W04.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP4",
-        "x": 860,
+        "x": 890,
         "y": 760,
         "wires": []
     },
@@ -48545,7 +48571,7 @@
         "variable": "CLUSTER.W04.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP4",
-        "x": 860,
+        "x": 890,
         "y": 850,
         "wires": []
     },
@@ -48558,7 +48584,7 @@
         "variable": "CLUSTER.W04.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP4",
-        "x": 850,
+        "x": 880,
         "y": 940,
         "wires": []
     },
@@ -48571,7 +48597,7 @@
         "variable": "CLUSTER.W05.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP5",
-        "x": 860,
+        "x": 890,
         "y": 990,
         "wires": []
     },
@@ -48584,7 +48610,7 @@
         "variable": "CLUSTER.W05.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP5",
-        "x": 860,
+        "x": 890,
         "y": 1080,
         "wires": []
     },
@@ -48597,7 +48623,7 @@
         "variable": "CLUSTER.W05.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP5",
-        "x": 850,
+        "x": 880,
         "y": 1170,
         "wires": []
     },
@@ -48610,7 +48636,7 @@
         "variable": "CLUSTER.W06.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP6",
-        "x": 860,
+        "x": 890,
         "y": 1220,
         "wires": []
     },
@@ -48623,7 +48649,7 @@
         "variable": "CLUSTER.W06.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP6",
-        "x": 860,
+        "x": 890,
         "y": 1310,
         "wires": []
     },
@@ -48636,7 +48662,7 @@
         "variable": "CLUSTER.W06.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP6",
-        "x": 850,
+        "x": 880,
         "y": 1400,
         "wires": []
     },
@@ -48649,7 +48675,7 @@
         "variable": "CLUSTER.W09.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP9",
-        "x": 860,
+        "x": 890,
         "y": 1910,
         "wires": []
     },
@@ -48662,7 +48688,7 @@
         "variable": "CLUSTER.W09.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP9",
-        "x": 860,
+        "x": 890,
         "y": 2000,
         "wires": []
     },
@@ -48675,7 +48701,7 @@
         "variable": "CLUSTER.W09.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP9",
-        "x": 850,
+        "x": 880,
         "y": 2090,
         "wires": []
     },
@@ -48688,7 +48714,7 @@
         "variable": "CLUSTER.W08.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP8",
-        "x": 860,
+        "x": 890,
         "y": 1680,
         "wires": []
     },
@@ -48701,7 +48727,7 @@
         "variable": "CLUSTER.W08.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP8",
-        "x": 860,
+        "x": 890,
         "y": 1770,
         "wires": []
     },
@@ -48714,7 +48740,7 @@
         "variable": "CLUSTER.W08.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP8",
-        "x": 850,
+        "x": 880,
         "y": 1860,
         "wires": []
     },
@@ -48727,7 +48753,7 @@
         "variable": "CLUSTER.W07.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP7",
-        "x": 860,
+        "x": 890,
         "y": 1450,
         "wires": []
     },
@@ -48740,7 +48766,7 @@
         "variable": "CLUSTER.W07.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP7",
-        "x": 860,
+        "x": 890,
         "y": 1540,
         "wires": []
     },
@@ -48753,7 +48779,7 @@
         "variable": "CLUSTER.W07.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP7",
-        "x": 850,
+        "x": 880,
         "y": 1630,
         "wires": []
     },
@@ -48769,7 +48795,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
+        "x": 610,
         "y": 880,
         "wires": [
             [
@@ -48882,7 +48908,7 @@
         "links": [
             "35e356e7.8ebc5a"
         ],
-        "x": 535,
+        "x": 515,
         "y": 880,
         "wires": [
             [
@@ -48906,7 +48932,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 110,
         "wires": [
             [
@@ -48941,7 +48967,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 110,
         "wires": [
             [
@@ -48965,7 +48991,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 200,
         "wires": [
             [
@@ -49000,7 +49026,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 200,
         "wires": [
             [
@@ -49024,7 +49050,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 340,
         "wires": [
             [
@@ -49059,7 +49085,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 340,
         "wires": [
             [
@@ -49077,7 +49103,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 110,
         "wires": []
     },
@@ -49097,7 +49123,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 430,
         "wires": [
             [
@@ -49132,7 +49158,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 430,
         "wires": [
             [
@@ -49156,7 +49182,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 670,
         "wires": [
             [
@@ -49191,7 +49217,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 670,
         "wires": [
             [
@@ -49226,7 +49252,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 580,
         "wires": [
             [
@@ -49250,7 +49276,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 580,
         "wires": [
             [
@@ -49274,7 +49300,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 810,
         "wires": [
             [
@@ -49309,7 +49335,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 810,
         "wires": [
             [
@@ -49344,7 +49370,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 900,
         "wires": [
             [
@@ -49368,7 +49394,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 900,
         "wires": [
             [
@@ -49403,7 +49429,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 1040,
         "wires": [
             [
@@ -49427,7 +49453,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1040,
         "wires": [
             [
@@ -49451,7 +49477,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1130,
         "wires": [
             [
@@ -49486,7 +49512,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 1130,
         "wires": [
             [
@@ -49504,7 +49530,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 200,
         "wires": []
     },
@@ -49518,7 +49544,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 340,
         "wires": []
     },
@@ -49532,7 +49558,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 430,
         "wires": []
     },
@@ -49546,7 +49572,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 580,
         "wires": []
     },
@@ -49560,7 +49586,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 670,
         "wires": []
     },
@@ -49574,7 +49600,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 810,
         "wires": []
     },
@@ -49588,7 +49614,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 900,
         "wires": []
     },
@@ -49602,7 +49628,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1040,
         "wires": []
     },
@@ -49616,7 +49642,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1130,
         "wires": []
     },
@@ -49636,7 +49662,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1270,
         "wires": [
             [
@@ -49660,7 +49686,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1360,
         "wires": [
             [
@@ -49695,7 +49721,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 1360,
         "wires": [
             [
@@ -49730,7 +49756,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 1270,
         "wires": [
             [
@@ -49748,7 +49774,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1270,
         "wires": []
     },
@@ -49762,7 +49788,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1360,
         "wires": []
     },
@@ -49782,7 +49808,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1500,
         "wires": [
             [
@@ -49806,7 +49832,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1590,
         "wires": [
             [
@@ -49841,7 +49867,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 1590,
         "wires": [
             [
@@ -49876,7 +49902,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 1500,
         "wires": [
             [
@@ -49894,7 +49920,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1500,
         "wires": []
     },
@@ -49908,7 +49934,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1590,
         "wires": []
     },
@@ -49928,7 +49954,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1730,
         "wires": [
             [
@@ -49952,7 +49978,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1820,
         "wires": [
             [
@@ -49987,7 +50013,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 1820,
         "wires": [
             [
@@ -50022,7 +50048,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 1730,
         "wires": [
             [
@@ -50040,7 +50066,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1730,
         "wires": []
     },
@@ -50054,7 +50080,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1820,
         "wires": []
     },
@@ -50074,7 +50100,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 1960,
         "wires": [
             [
@@ -50098,7 +50124,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 830,
+        "x": 860,
         "y": 2050,
         "wires": [
             [
@@ -50133,7 +50159,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
+        "x": 1030,
         "y": 2050,
         "wires": [
             [
@@ -50168,7 +50194,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
+        "x": 1040,
         "y": 1960,
         "wires": [
             [
@@ -50186,7 +50212,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 1960,
         "wires": []
     },
@@ -50200,7 +50226,7 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1155,
+        "x": 1185,
         "y": 2050,
         "wires": []
     },
