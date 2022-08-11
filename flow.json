@@ -909,7 +909,9 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -995,7 +997,9 @@
             "b2b70770f04451e4"
         ],
         "x": 1224,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "1c17956307e44e29",
@@ -1633,7 +1637,9 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1984,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1686,7 +1692,9 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2764,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1783,7 +1791,9 @@
             "dc662dbf83f0e930"
         ],
         "x": 504,
-        "y": 2149
+        "y": 2149,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1850,7 +1860,9 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2714,
-        "y": 2069
+        "y": 2069,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1914,7 +1926,9 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149
+        "y": 1149,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1945,7 +1959,9 @@
             "75b2e87e6760a38b"
         ],
         "x": 3534,
-        "y": 19
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2182,7 +2198,9 @@
             "d5b941e2a96bbfa3"
         ],
         "x": 1554,
-        "y": 19
+        "y": 19,
+        "w": 1722,
+        "h": 832
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2207,7 +2225,9 @@
             "3e1f18e73ad342b7"
         ],
         "x": 94,
-        "y": 779
+        "y": 779,
+        "w": 1202,
+        "h": 152
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2305,7 +2325,9 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19
+        "y": 19,
+        "w": 712,
+        "h": 502
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2356,7 +2378,9 @@
             "c18438482aa78cfc"
         ],
         "x": 94,
-        "y": 19
+        "y": 19,
+        "w": 682,
+        "h": 732
     },
     {
         "id": "4e67a9385d518b82",
@@ -2470,7 +2494,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2936,7 +2962,9 @@
             "da1899281ec8a4bc"
         ],
         "x": 494,
-        "y": 19
+        "y": 19,
+        "w": 702,
+        "h": 2112
     },
     {
         "id": "eb91dac5.690838",
@@ -32884,7 +32912,7 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
         "x": 2970,
-        "y": 140,
+        "y": 180,
         "wires": []
     },
     {
@@ -32901,7 +32929,7 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
         "x": 2960,
-        "y": 180,
+        "y": 220,
         "wires": []
     },
     {
@@ -32918,7 +32946,7 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
         "x": 2960,
-        "y": 220,
+        "y": 140,
         "wires": []
     },
     {
@@ -32935,7 +32963,7 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
         "x": 2970,
-        "y": 260,
+        "y": 300,
         "wires": []
     },
     {
@@ -32952,7 +32980,7 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
         "x": 2970,
-        "y": 300,
+        "y": 260,
         "wires": []
     },
     {
@@ -39983,7 +40011,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica instrumento FIT-03830",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
                 "tot": "str"
             },
             {
@@ -40067,7 +40095,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica instrumento FIT-03830",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
                 "tot": "str"
             },
             {
@@ -40165,7 +40193,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Instrumento FIT-03830 manifold normalizado",
+                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -41862,19 +41890,19 @@
                 "0707e99d923f37a2"
             ],
             [
+                "bed2e7e74ac3b1ef"
+            ],
+            [
                 "3b62e6fd6ccbfa18"
             ],
             [
                 "be09dae2fbef4e6e"
             ],
             [
-                "bed2e7e74ac3b1ef"
+                "0a37be73420b7fe8"
             ],
             [
                 "bf98e1b239b6dcc2"
-            ],
-            [
-                "0a37be73420b7fe8"
             ],
             [
                 "1f1b46b7ce05919d"
@@ -45730,6 +45758,7 @@
         "id": "9d98a2129132376e",
         "type": "inject",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "",
         "props": [
@@ -45756,6 +45785,7 @@
         "id": "197d21ec14a2be14",
         "type": "function",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "",
         "func": "var Bandera = context.get(\"Bandera\", 'memoryOnly');\nif (Bandera) {\n    context.set(\"Bandera\", false, 'memoryOnly');\n}\nelse {\n    context.set(\"Bandera\", true, 'memoryOnly');\n}\nmsg.payload = Bandera;\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Bandera: \" + msg.payload });\nreturn msg;",
@@ -45776,6 +45806,7 @@
         "id": "c51623889408d427",
         "type": "eth-ip out",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "endpoint": "840b5464d21970fd",
         "variable": "Comunicacion_HMI_PLC",
@@ -45789,6 +45820,7 @@
         "id": "53d8091c95b2bb91",
         "type": "eth-ip in",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "endpoint": "9672b85c4451585b",
         "mode": "single",
@@ -45808,6 +45840,7 @@
         "id": "1f632255cb1722ff",
         "type": "delay",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "",
         "pauseType": "delay",
@@ -45820,6 +45853,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "allowrate": false,
         "x": 400,
         "y": 550,
         "wires": [
@@ -45832,6 +45866,7 @@
         "id": "1756efa5047ff391",
         "type": "change",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "",
         "rules": [
@@ -45860,6 +45895,7 @@
         "id": "23cd048150c665a3",
         "type": "trigger",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "",
         "op1": "true",
@@ -45887,6 +45923,7 @@
         "id": "4e7a6d85a6662864",
         "type": "debug",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "",
         "active": true,
@@ -45905,6 +45942,7 @@
         "id": "05aa201180649b16",
         "type": "change",
         "z": "e521d174e7104ca1",
+        "d": true,
         "g": "fd043472d98f9c2f",
         "name": "Status_PLC_COM",
         "rules": [
@@ -50177,7 +50215,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Instrumento FIT-03830 manifold normalizado",
+                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
