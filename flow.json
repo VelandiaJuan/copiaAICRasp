@@ -732,9 +732,7 @@
             "eb91dac5.690838"
         ],
         "x": 148,
-        "y": 13,
-        "w": 1854,
-        "h": 414
+        "y": 13
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -755,7 +753,9 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -917,9 +917,7 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19,
-        "w": 432,
-        "h": 962
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -1005,9 +1003,7 @@
             "b2b70770f04451e4"
         ],
         "x": 1234,
-        "y": 19,
-        "w": 732,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1c17956307e44e29",
@@ -1043,9 +1039,7 @@
             "aeece35ccc591620"
         ],
         "x": 84,
-        "y": 19,
-        "w": 692,
-        "h": 642
+        "y": 19
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1079,9 +1073,7 @@
             "2545a2c9037578c0"
         ],
         "x": 844,
-        "y": 19,
-        "w": 702,
-        "h": 602
+        "y": 19
     },
     {
         "id": "da4321a277ed136b",
@@ -1120,9 +1112,7 @@
             "8c0abdf5a7d1991f"
         ],
         "x": 1564,
-        "y": 19,
-        "w": 742,
-        "h": 602
+        "y": 19
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1146,9 +1136,7 @@
             "fc7ac26950eab4f6"
         ],
         "x": 144,
-        "y": 443,
-        "w": 938,
-        "h": 764
+        "y": 443
     },
     {
         "id": "5e0b04a10149786e",
@@ -1649,9 +1637,7 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1984,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1704,9 +1690,7 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2764,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "2282018314ee7576",
@@ -1803,9 +1787,7 @@
             "dc662dbf83f0e930"
         ],
         "x": 504,
-        "y": 2149,
-        "w": 492,
-        "h": 1642
+        "y": 2149
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1874,9 +1856,7 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2714,
-        "y": 2069,
-        "w": 482,
-        "h": 622
+        "y": 2069
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1942,9 +1922,7 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149,
-        "w": 832,
-        "h": 562
+        "y": 1149
     },
     {
         "id": "cff3928797d25d39",
@@ -1975,9 +1953,7 @@
             "75b2e87e6760a38b"
         ],
         "x": 3534,
-        "y": 19,
-        "w": 632,
-        "h": 922
+        "y": 19
     },
     {
         "id": "b06bbdd518536a01",
@@ -2214,9 +2190,7 @@
             "d5b941e2a96bbfa3"
         ],
         "x": 1554,
-        "y": 19,
-        "w": 1722,
-        "h": 832
+        "y": 19
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2241,9 +2215,7 @@
             "3e1f18e73ad342b7"
         ],
         "x": 94,
-        "y": 779,
-        "w": 1202,
-        "h": 152
+        "y": 779
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2341,9 +2313,7 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19,
-        "w": 712,
-        "h": 502
+        "y": 19
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2391,12 +2361,11 @@
             "9a0b9216db14530e",
             "e37221e3efababac",
             "a13647535e0c20a6",
-            "c18438482aa78cfc"
+            "c18438482aa78cfc",
+            "8b4d36053dc5b2b5"
         ],
-        "x": 94,
-        "y": 19,
-        "w": 682,
-        "h": 732
+        "x": 34,
+        "y": 19
     },
     {
         "id": "4e67a9385d518b82",
@@ -2435,9 +2404,7 @@
             "38705d0965924c63"
         ],
         "x": 2314,
-        "y": 19,
-        "w": 772,
-        "h": 602
+        "y": 19
     },
     {
         "id": "80e529568099f818",
@@ -2473,9 +2440,7 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 709,
-        "w": 772,
-        "h": 82
+        "y": 709
     },
     {
         "id": "47c7e078aa019952",
@@ -2510,9 +2475,7 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999,
-        "w": 342,
-        "h": 82
+        "y": 999
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2978,9 +2941,7 @@
             "da1899281ec8a4bc"
         ],
         "x": 474,
-        "y": 19,
-        "w": 752,
-        "h": 2112
+        "y": 19
     },
     {
         "id": "eb91dac5.690838",
@@ -3039,9 +3000,7 @@
             "23b5193babb35890"
         ],
         "x": 174,
-        "y": 39,
-        "w": 1802,
-        "h": 362
+        "y": 39
     },
     {
         "id": "11f55817.139c18",
@@ -3157,9 +3116,7 @@
             "2672c65f65d99463"
         ],
         "x": 614,
-        "y": 979,
-        "w": 362,
-        "h": 202
+        "y": 979
     },
     {
         "id": "8217afa77c53c8c4",
@@ -3178,9 +3135,7 @@
             "e01f356525ba5066"
         ],
         "x": 644,
-        "y": 469,
-        "w": 172,
-        "h": 162
+        "y": 469
     },
     {
         "id": "fc7ac26950eab4f6",
@@ -3201,9 +3156,7 @@
             "27e5b49204d6a1d6"
         ],
         "x": 644,
-        "y": 679,
-        "w": 412,
-        "h": 162
+        "y": 679
     },
     {
         "id": "af59ebdb307f926a",
@@ -28108,7 +28061,8 @@
         "y": 1090,
         "wires": [
             [
-                "694b9eb48edc1905"
+                "694b9eb48edc1905",
+                "e54602648111948c"
             ]
         ]
     },
@@ -28340,7 +28294,7 @@
                 "pt": "msg",
                 "from": "ACEPTAR",
                 "fromt": "str",
-                "to": "true",
+                "to": "false",
                 "tot": "bool"
             }
         ],
@@ -28370,7 +28324,7 @@
                 "pt": "msg",
                 "from": "ACEPTAR",
                 "fromt": "str",
-                "to": "false",
+                "to": "true",
                 "tot": "bool"
             }
         ],
@@ -28529,8 +28483,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1340,
-        "y": 1070,
+        "x": 1350,
+        "y": 1000,
         "wires": [
             [
                 "0c5a418898f63516"
@@ -29057,7 +29011,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.HH",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29085,7 +29039,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.H",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29113,7 +29067,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.L",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29141,7 +29095,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.LL",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29169,7 +29123,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.Enable.LL",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29197,7 +29151,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.Enable.L",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29225,7 +29179,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.Enable.H",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29253,7 +29207,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "Manifold.Enable.HH",
-                "tot": "global"
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -29589,7 +29543,7 @@
                 "valueType": "bool"
             },
             {
-                "color": "red",
+                "color": "yellow",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -29619,7 +29573,7 @@
                 "valueType": "bool"
             },
             {
-                "color": "red",
+                "color": "yellow",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -35642,7 +35596,8 @@
             "6a7a05e6729f5b0c",
             "7475d6533538daa2",
             "279ee1694dac8740",
-            "6d53d119943aea85"
+            "6d53d119943aea85",
+            "8b4d36053dc5b2b5"
         ],
         "x": 425,
         "y": 360,
@@ -44927,9 +44882,7 @@
         "x": 1170,
         "y": 1070,
         "wires": [
-            [
-                "205d43a37d57d526"
-            ]
+            []
         ]
     },
     {
@@ -44953,9 +44906,7 @@
         "x": 1730,
         "y": 1090,
         "wires": [
-            [
-                "e54602648111948c"
-            ]
+            []
         ]
     },
     {
@@ -45066,12 +45017,10 @@
         "links": [
             "7ab7dc110e3f6c14"
         ],
-        "x": 1405,
-        "y": 1110,
+        "x": 1365,
+        "y": 1120,
         "wires": [
-            [
-                "0c5a418898f63516"
-            ]
+            []
         ]
     },
     {
@@ -45262,7 +45211,7 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "name": "Data estado FIT",
-        "func": "// Estado de instrumento PIT ubicado en Manifold\nvar Status_Instrumento_PIT = global.get(\"Status_Instrumento_FIT\",\"memoryOnly\")||false;\n\n// Traer variables de lectura de Manifold\nvar INST_MNF     = global.get(\"Cluster.INST_MNF\", \"memoryOnly\") || [];\n\n// Distribución de variables de Manifold\nvar Flujo_FIT       = (INST_MNF.FIT_Flujo).toFixed(1);\nvar Flujo_Total_FIT = (INST_MNF.FIT_Flujo_Total).toFixed(1);\nvar Temperatura_FIT = (INST_MNF.FIT_Tempetatura).toFixed(1);\nvar Densidad_FIT    = (INST_MNF.FIT_Densidad).toFixed(1);\n\nif (Status_Instrumento_PIT == false){\n    msg.PIZIT           = Flujo_FIT;\n    msg.FIT_FLUJO_TOTAL = Flujo_Total_FIT + \" BFPD\";\n    msg.FIT_TEMPERATURA = Temperatura_FIT + \" °F\";\n    msg.FIT_DENSIDAD    = Densidad_FIT + \" g/cm\" + \"3\".sup();\n\n} else if (Status_Instrumento_PIT == true){\n    msg.PIZIT           = \"- - - - - -\";\n    msg.FIT_FLUJO_TOTAL = \"- - - - - -\";\n    msg.FIT_TEMPERATURA = \"- - - - - -\";\n    msg.FIT_DENSIDAD    = \"- - - - - -\";\n}\n\nreturn msg;",
+        "func": "// Estado de instrumento PIT ubicado en Manifold\nvar Status_Instrumento_PIT = global.get(\"Status_Instrumento_FIT\",\"memoryOnly\")||false;\n\n// Traer variables de lectura de Manifold\nvar INST_MNF     = global.get(\"Cluster.INST_MNF\", \"memoryOnly\") || [];\n\n// Distribución de variables de Manifold\nvar Flujo_FIT       = (INST_MNF.FIT_Flujo).toFixed(1);\nvar Flujo_Total_FIT = (INST_MNF.FIT_Flujo_Total).toFixed(1);\nvar Temperatura_FIT = (INST_MNF.FIT_Tempetatura).toFixed(1);\nvar Densidad_FIT    = (INST_MNF.FIT_Densidad).toFixed(1);\n\nif (Status_Instrumento_PIT == false){\n    msg.PIZIT           = Flujo_FIT;\n    msg.FIT_FLUJO_TOTAL = Flujo_Total_FIT + \" BFPD\";\n    msg.FIT_TEMPERATURA = Temperatura_FIT + \" °F\";\n    msg.FIT_DENSIDAD    = Densidad_FIT + \" lb/ft\" + \"3\".sup();\n\n} else if (Status_Instrumento_PIT == true){\n    msg.PIZIT           = \"- - - - - -\";\n    msg.FIT_FLUJO_TOTAL = \"- - - - - -\";\n    msg.FIT_TEMPERATURA = \"- - - - - -\";\n    msg.FIT_DENSIDAD    = \"- - - - - -\";\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -45742,7 +45691,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0099</center></b></h1>\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0383</center></b></h1>\n</body>\n\n</html>",
         "output": "str",
         "x": 270,
         "y": 410,
@@ -50262,6 +50211,30 @@
         "wires": [
             [
                 "0946dbe8ddfa9a27"
+            ]
+        ]
+    },
+    {
+        "id": "8b4d36053dc5b2b5",
+        "type": "link in",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "links": [
+            "449b37406b29dc93"
+        ],
+        "x": 75,
+        "y": 490,
+        "wires": [
+            [
+                "af7b84cbace278b1",
+                "3e7176c02d57fe4b",
+                "96ada6f2934db373",
+                "698edc58289bb46b",
+                "69711da5e2395d69",
+                "4fffcddd14dcf8ba",
+                "1b0193143db63bd0",
+                "ff105a49c624aed7"
             ]
         ]
     }
