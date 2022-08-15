@@ -815,12 +815,14 @@
             "43030a29.bfdeb4",
             "fb0788f42bc54f91",
             "487f7f8226176ed0",
-            "528f3613fd9dc550"
+            "528f3613fd9dc550",
+            "f6c4b6bdd7d87649",
+            "0db3231e87512499"
         ],
-        "x": 68,
+        "x": 78,
         "y": 299,
         "w": 1234,
-        "h": 468
+        "h": 518
     },
     {
         "id": "7b6f4b41.106164",
@@ -836,7 +838,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 224
     },
     {
         "id": "c58d9126.1869c",
@@ -917,7 +921,9 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -1002,8 +1008,10 @@
             "38c838ee9ea436f4",
             "b2b70770f04451e4"
         ],
-        "x": 1234,
-        "y": 19
+        "x": 1004,
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "1c17956307e44e29",
@@ -1154,7 +1162,9 @@
             "fe0f305772eadaa5"
         ],
         "x": 94,
-        "y": 39
+        "y": 39,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "1c7df9ba6cc1a3d4",
@@ -1243,7 +1253,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 779,
+        "y": 829,
         "w": 1052,
         "h": 182
     },
@@ -1346,7 +1356,9 @@
             "84aff144b0f6a8ab"
         ],
         "x": 94,
-        "y": 179
+        "y": 179,
+        "w": 1282,
+        "h": 322
     },
     {
         "id": "916a665ce9bddd15",
@@ -1368,7 +1380,9 @@
             "8c284c7bfec72391"
         ],
         "x": 94,
-        "y": 509
+        "y": 509,
+        "w": 722,
+        "h": 162
     },
     {
         "id": "bc8cd5f1dc716592",
@@ -1594,7 +1608,9 @@
             "236bdf2185357ce8"
         ],
         "x": 94,
-        "y": 679
+        "y": 679,
+        "w": 2042,
+        "h": 232
     },
     {
         "id": "27d017f01b6dc239",
@@ -1636,8 +1652,10 @@
             "f22dc9c6cc41bdf9",
             "6fb4d7510fdd7772"
         ],
-        "x": 1984,
-        "y": 19
+        "x": 1744,
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1689,8 +1707,10 @@
             "dcb5846eac15639a",
             "d1bcaebfeab23d41"
         ],
-        "x": 2764,
-        "y": 19
+        "x": 2504,
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1744,7 +1764,9 @@
             "9bf920288bfd3453"
         ],
         "x": 94,
-        "y": 919
+        "y": 919,
+        "w": 702,
+        "h": 182
     },
     {
         "id": "1f826a1bd0d089b5",
@@ -1786,8 +1808,10 @@
             "66e21be155c91fee",
             "dc662dbf83f0e930"
         ],
-        "x": 504,
-        "y": 2149
+        "x": 474,
+        "y": 1429,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1819,7 +1843,7 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 979,
+        "y": 1019,
         "w": 872,
         "h": 402
     },
@@ -1856,7 +1880,9 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2714,
-        "y": 2069
+        "y": 2069,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1922,7 +1948,9 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149
+        "y": 1149,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1952,8 +1980,10 @@
             "136f03e2229f030a",
             "75b2e87e6760a38b"
         ],
-        "x": 3534,
-        "y": 19
+        "x": 3264,
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2252,7 +2282,9 @@
             "2b6a469ea59143dc"
         ],
         "x": 94,
-        "y": 1109
+        "y": 1109,
+        "w": 742,
+        "h": 152
     },
     {
         "id": "5b44b24d93b88118",
@@ -2475,7 +2507,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2610,7 +2644,9 @@
             "db4708faaa5ac7b5"
         ],
         "x": 94,
-        "y": 1279
+        "y": 1279,
+        "w": 762,
+        "h": 152
     },
     {
         "id": "fd043472d98f9c2f",
@@ -2884,64 +2920,12 @@
             "95c6abd4.4862d8",
             "7998e18f.da1ef",
             "ca6808c4.0ce2b8",
-            "c5614143.9411",
-            "9c6210069781916b",
-            "560727a17bbf3f80",
-            "f52c20a35985e18c",
-            "c01add8e28e8df04",
-            "6642d030e94e2415",
-            "c3aa026afba3312f",
-            "acb3163797abe44e",
-            "0409999916e94e81",
-            "7efaa20c7eb6a1ac",
-            "0ec9bd75b29c9e3a",
-            "791dcb1d44a49629",
-            "c008b2b0aac91403",
-            "632c21a73c32eb67",
-            "387b3499390d4b07",
-            "296fbc2a76bfd265",
-            "159e9f69afa5a53e",
-            "8071daadd6f71ea6",
-            "dc502e5620a2c393",
-            "c8d177b8c8692167",
-            "7da7e38601634bf0",
-            "abe11a7834875975",
-            "bd2e2cacb5c2d7cb",
-            "cfb2c42d93e9e1ee",
-            "280e4cd5c1140e28",
-            "9ad294dc5c727876",
-            "d97988d997fd4a60",
-            "69468fe7909081de",
-            "7bc4ef3f5c4b4a92",
-            "1d502d179b7be8e0",
-            "172b71e894976487",
-            "dd15752aeb11b799",
-            "ded70a60eed08f61",
-            "7a848364d51272bd",
-            "cc8f5681458a511f",
-            "4e08bbbee5c4473c",
-            "15dd3565585026a6",
-            "b3c88e2b31d841b4",
-            "11873da7e7f2bae9",
-            "0e88388fcb5738cd",
-            "39711a34cca25a79",
-            "0fe824e424b384f1",
-            "05d0671af4728704",
-            "cec1dd6e858e10e5",
-            "bff60e66f81afe54",
-            "dcc5b47701793560",
-            "b8aacf8fea75e712",
-            "580281f1bded7cf0",
-            "53068a30972e632b",
-            "3c5071c419d1e925",
-            "2e051054ca5f1154",
-            "7d68ef265d1e3035",
-            "347adb735433a9b4",
-            "deac0149d0aa53fc",
-            "da1899281ec8a4bc"
+            "c5614143.9411"
         ],
         "x": 474,
-        "y": 19
+        "y": 19,
+        "w": 522,
+        "h": 1402
     },
     {
         "id": "eb91dac5.690838",
@@ -3027,7 +3011,9 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -3055,7 +3041,9 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 172
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3092,8 +3080,8 @@
             "75cd742c0d026972",
             "5c6c269da4720bd1"
         ],
-        "x": 94,
-        "y": 539,
+        "x": 104,
+        "y": 589,
         "w": 1182,
         "h": 202
     },
@@ -3842,7 +3830,7 @@
     {
         "id": "85d5763f.045ac8",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura SCP1",
@@ -3935,7 +3923,7 @@
     {
         "id": "22187e2f.9cc252",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster6",
@@ -4265,7 +4253,7 @@
     {
         "id": "c91ced06.36697",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster1",
@@ -4595,7 +4583,7 @@
     {
         "id": "142e843a.d193dc",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster2",
@@ -4925,7 +4913,7 @@
     {
         "id": "cf0ff6d3.44eb48",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster3",
@@ -5255,7 +5243,7 @@
     {
         "id": "156aac7a.4ced64",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster4",
@@ -5585,7 +5573,7 @@
     {
         "id": "10df86fc.ea6c49",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster5",
@@ -5915,7 +5903,7 @@
     {
         "id": "13e2de8b.8b4d71",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster7",
@@ -6245,7 +6233,7 @@
     {
         "id": "fc2fa41.df31058",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster8",
@@ -6575,7 +6563,7 @@
     {
         "id": "1a87133f.85b96d",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster9",
@@ -6905,7 +6893,7 @@
     {
         "id": "98638e25.bf675",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos",
@@ -6998,7 +6986,7 @@
     {
         "id": "64765732.d2c008",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia",
@@ -7037,7 +7025,7 @@
     {
         "id": "7ab6ab16.b6db44",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Elect_Cluster",
@@ -7184,7 +7172,7 @@
     {
         "id": "1cc6e030.40038",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "CCP",
@@ -7227,7 +7215,7 @@
     {
         "id": "817c8033.98df9",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "ANALOG INPUT",
@@ -7259,7 +7247,7 @@
     {
         "id": "a00b93d2e424ac4e",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Eventos",
@@ -8027,7 +8015,7 @@
     {
         "id": "15f69da2533413eb",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Alarmas",
@@ -9603,7 +9591,7 @@
     {
         "id": "5b6ea19cad9ae739",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster11",
@@ -9924,7 +9912,7 @@
     {
         "id": "d3d35ba1ab4a64ef",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP12",
@@ -10245,7 +10233,7 @@
     {
         "id": "fefb6112361aa785",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP13",
@@ -10566,7 +10554,7 @@
     {
         "id": "ad34f7b393441a0e",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP14",
@@ -10887,7 +10875,7 @@
     {
         "id": "da18e730fe442b60",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP15",
@@ -11208,7 +11196,7 @@
     {
         "id": "f9b80009a7e932a4",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP16",
@@ -11529,7 +11517,7 @@
     {
         "id": "2525cff1c1dc9074",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP17",
@@ -11850,7 +11838,7 @@
     {
         "id": "97d45cc155f45f9b",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP18",
@@ -12231,7 +12219,7 @@
     {
         "id": "268c0c4d447aa4c7",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia CLUSTER2",
@@ -12270,7 +12258,7 @@
     {
         "id": "27b7293be00c4c3d",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia Cluster ",
@@ -12309,7 +12297,7 @@
     {
         "id": "335779cd65870ad7",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Referencia RPM",
@@ -12348,7 +12336,7 @@
     {
         "id": "1d3f8552365f7228",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos CLUSTER2",
@@ -12441,7 +12429,7 @@
     {
         "id": "96f1a469e6be7df5",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Confirmacion escritura",
@@ -12480,7 +12468,7 @@
     {
         "id": "7d3dc82b6aad9166",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Habilitar disparo de pozo",
@@ -12557,7 +12545,7 @@
     {
         "id": "d3a6ac1024bb182d",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Shutdown",
@@ -12608,7 +12596,7 @@
     {
         "id": "2a41a00be7f37a48",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Estatus Shutdown",
@@ -12900,7 +12888,7 @@
     {
         "id": "840b5464d21970fd",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Status_COM_HMI_PLC",
@@ -12915,7 +12903,7 @@
     {
         "id": "9672b85c4451585b",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.24",
+        "address": "20.0.51.18",
         "slot": "0",
         "cycletime": "500",
         "name": "Status_COM_HMI_PLC",
@@ -14147,7 +14135,7 @@
         "variable": "POZO_02.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 120,
         "wires": []
     },
@@ -14160,7 +14148,7 @@
         "variable": "POZO_03.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 180,
         "wires": []
     },
@@ -14173,7 +14161,7 @@
         "variable": "POZO_05.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 300,
         "wires": []
     },
@@ -14187,7 +14175,7 @@
         "variable": "POZO_09.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 540,
         "wires": []
     },
@@ -14200,7 +14188,7 @@
         "variable": "POZO_07.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 420,
         "wires": []
     },
@@ -14213,7 +14201,7 @@
         "variable": "POZO_06.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 360,
         "wires": []
     },
@@ -14226,7 +14214,7 @@
         "variable": "POZO_04.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 240,
         "wires": []
     },
@@ -14240,7 +14228,7 @@
         "variable": "POZO_08.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 480,
         "wires": []
     },
@@ -14281,7 +14269,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 2880,
+        "x": 2620,
         "y": 520,
         "wires": [
             [
@@ -14302,7 +14290,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3050,
+        "x": 2790,
         "y": 520,
         "wires": [
             [
@@ -14370,7 +14358,7 @@
         "variable": "CL1_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 600,
         "wires": []
     },
@@ -14383,7 +14371,7 @@
         "variable": "CL2_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 660,
         "wires": []
     },
@@ -14396,7 +14384,7 @@
         "variable": "CL3_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 720,
         "wires": []
     },
@@ -14409,7 +14397,7 @@
         "variable": "CL7_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 960,
         "wires": []
     },
@@ -14422,7 +14410,7 @@
         "variable": "CL6_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 900,
         "wires": []
     },
@@ -14435,7 +14423,7 @@
         "variable": "CL5_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 840,
         "wires": []
     },
@@ -14448,7 +14436,7 @@
         "variable": "CL4_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 780,
         "wires": []
     },
@@ -14462,7 +14450,7 @@
         "variable": "CL9_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 1080,
         "wires": []
     },
@@ -14476,7 +14464,7 @@
         "variable": "CL8_HABILITACION",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 1020,
         "wires": []
     },
@@ -14649,7 +14637,7 @@
         "variable": "POZO_01.VFD.Marca",
         "program": "",
         "name": "",
-        "x": 3390,
+        "x": 3130,
         "y": 60,
         "wires": []
     },
@@ -14662,7 +14650,7 @@
         "links": [
             "43030a29.bfdeb4"
         ],
-        "x": 1275,
+        "x": 1045,
         "y": 520,
         "wires": [
             [
@@ -14682,7 +14670,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1440,
+        "x": 1210,
         "y": 520,
         "wires": [
             [
@@ -14723,7 +14711,7 @@
         "variable": "CLUSTER.W01.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP1",
-        "x": 1840,
+        "x": 1610,
         "y": 60,
         "wires": []
     },
@@ -14736,7 +14724,7 @@
         "variable": "CLUSTER.W06.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP6",
-        "x": 1840,
+        "x": 1610,
         "y": 660,
         "wires": []
     },
@@ -14749,7 +14737,7 @@
         "variable": "CLUSTER.W02.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP2",
-        "x": 1840,
+        "x": 1610,
         "y": 180,
         "wires": []
     },
@@ -14762,7 +14750,7 @@
         "variable": "CLUSTER.W03.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP3",
-        "x": 1840,
+        "x": 1610,
         "y": 300,
         "wires": []
     },
@@ -14775,7 +14763,7 @@
         "variable": "CLUSTER.W07.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP7",
-        "x": 1840,
+        "x": 1610,
         "y": 780,
         "wires": []
     },
@@ -14788,7 +14776,7 @@
         "variable": "CLUSTER.W04.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP4",
-        "x": 1840,
+        "x": 1610,
         "y": 420,
         "wires": []
     },
@@ -14801,7 +14789,7 @@
         "variable": "CLUSTER.W05.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP5",
-        "x": 1840,
+        "x": 1610,
         "y": 540,
         "wires": []
     },
@@ -14815,7 +14803,7 @@
         "variable": "CLUSTER.W08.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP8",
-        "x": 1840,
+        "x": 1610,
         "y": 900,
         "wires": []
     },
@@ -14829,7 +14817,7 @@
         "variable": "CLUSTER.W09.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP9",
-        "x": 1840,
+        "x": 1610,
         "y": 1020,
         "wires": []
     },
@@ -14959,7 +14947,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 60,
         "wires": [
             [
@@ -14980,7 +14968,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 120,
         "wires": [
             [
@@ -15001,7 +14989,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 180,
         "wires": [
             [
@@ -15022,7 +15010,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 240,
         "wires": [
             [
@@ -15043,7 +15031,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 300,
         "wires": [
             [
@@ -15064,7 +15052,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 360,
         "wires": [
             [
@@ -15085,7 +15073,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 420,
         "wires": [
             [
@@ -15106,7 +15094,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 480,
         "wires": [
             [
@@ -15127,7 +15115,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 540,
         "wires": [
             [
@@ -15148,7 +15136,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 600,
         "wires": [
             [
@@ -15169,7 +15157,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 660,
         "wires": [
             [
@@ -15190,7 +15178,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 720,
         "wires": [
             [
@@ -15211,7 +15199,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 780,
         "wires": [
             [
@@ -15232,7 +15220,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 840,
         "wires": [
             [
@@ -15253,7 +15241,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 900,
         "wires": [
             [
@@ -15274,7 +15262,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 960,
         "wires": [
             [
@@ -15295,7 +15283,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 1020,
         "wires": [
             [
@@ -15316,7 +15304,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3220,
+        "x": 2960,
         "y": 1080,
         "wires": [
             [
@@ -15765,7 +15753,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2190,
+        "x": 1950,
         "y": 580,
         "wires": [
             [
@@ -15807,7 +15795,7 @@
         "links": [
             "43030a29.bfdeb4"
         ],
-        "x": 2025,
+        "x": 1785,
         "y": 580,
         "wires": [
             [
@@ -15825,7 +15813,7 @@
         "variable": "CLUSTER2.W01.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP10",
-        "x": 2590,
+        "x": 2350,
         "y": 60,
         "wires": []
     },
@@ -15839,7 +15827,7 @@
         "variable": "CLUSTER2.W02.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP11",
-        "x": 2590,
+        "x": 2350,
         "y": 180,
         "wires": []
     },
@@ -15853,7 +15841,7 @@
         "variable": "CLUSTER2.W03.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP12",
-        "x": 2590,
+        "x": 2350,
         "y": 300,
         "wires": []
     },
@@ -15867,7 +15855,7 @@
         "variable": "CLUSTER2.W04.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP13",
-        "x": 2590,
+        "x": 2350,
         "y": 420,
         "wires": []
     },
@@ -15881,7 +15869,7 @@
         "variable": "CLUSTER2.W05.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP14",
-        "x": 2590,
+        "x": 2350,
         "y": 540,
         "wires": []
     },
@@ -15895,7 +15883,7 @@
         "variable": "CLUSTER2.W06.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP15",
-        "x": 2590,
+        "x": 2350,
         "y": 660,
         "wires": []
     },
@@ -15909,7 +15897,7 @@
         "variable": "CLUSTER2.W07.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP16",
-        "x": 2590,
+        "x": 2350,
         "y": 780,
         "wires": []
     },
@@ -15923,7 +15911,7 @@
         "variable": "CLUSTER2.W08.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP17",
-        "x": 2590,
+        "x": 2350,
         "y": 900,
         "wires": []
     },
@@ -15937,7 +15925,7 @@
         "variable": "CLUSTER2.W09.VSD.Referencia_Frecuencia_Remota_PD",
         "program": "",
         "name": "Referencia Hz SCP18",
-        "x": 2590,
+        "x": 2350,
         "y": 1020,
         "wires": []
     },
@@ -15951,7 +15939,7 @@
         "variable": "CLUSTER.W01.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP1",
-        "x": 1840,
+        "x": 1610,
         "y": 120,
         "wires": []
     },
@@ -15978,7 +15966,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 100,
         "wires": [
             [
@@ -16012,7 +16000,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 200,
         "wires": [
             [
@@ -16046,7 +16034,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 340,
         "wires": [
             [
@@ -16080,7 +16068,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 460,
         "wires": [
             [
@@ -16114,7 +16102,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 580,
         "wires": [
             [
@@ -16148,7 +16136,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 700,
         "wires": [
             [
@@ -16169,7 +16157,7 @@
         "variable": "CLUSTER.W02.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP2",
-        "x": 1840,
+        "x": 1610,
         "y": 240,
         "wires": []
     },
@@ -16183,7 +16171,7 @@
         "variable": "CLUSTER.W03.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP3",
-        "x": 1840,
+        "x": 1610,
         "y": 360,
         "wires": []
     },
@@ -16197,7 +16185,7 @@
         "variable": "CLUSTER.W04.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP4",
-        "x": 1840,
+        "x": 1610,
         "y": 480,
         "wires": []
     },
@@ -16211,7 +16199,7 @@
         "variable": "CLUSTER.W05.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP5",
-        "x": 1840,
+        "x": 1610,
         "y": 600,
         "wires": []
     },
@@ -16238,7 +16226,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 820,
         "wires": [
             [
@@ -16272,7 +16260,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 940,
         "wires": [
             [
@@ -16306,7 +16294,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1440,
         "y": 1060,
         "wires": [
             [
@@ -16327,7 +16315,7 @@
         "variable": "CLUSTER.W06.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP6",
-        "x": 1840,
+        "x": 1610,
         "y": 720,
         "wires": []
     },
@@ -16341,7 +16329,7 @@
         "variable": "CLUSTER.W07.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP7",
-        "x": 1840,
+        "x": 1610,
         "y": 840,
         "wires": []
     },
@@ -16355,7 +16343,7 @@
         "variable": "CLUSTER.W08.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP8",
-        "x": 1840,
+        "x": 1610,
         "y": 960,
         "wires": []
     },
@@ -16369,7 +16357,7 @@
         "variable": "CLUSTER.W09.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP9",
-        "x": 1840,
+        "x": 1610,
         "y": 1080,
         "wires": []
     },
@@ -16383,7 +16371,7 @@
         "variable": "CLUSTER2.W01.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP10",
-        "x": 2600,
+        "x": 2360,
         "y": 120,
         "wires": []
     },
@@ -16411,7 +16399,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 100,
         "wires": [
             [
@@ -16446,7 +16434,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 220,
         "wires": [
             [
@@ -16481,7 +16469,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 340,
         "wires": [
             [
@@ -16516,7 +16504,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 460,
         "wires": [
             [
@@ -16551,7 +16539,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 580,
         "wires": [
             [
@@ -16586,7 +16574,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 700,
         "wires": [
             [
@@ -16621,7 +16609,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 820,
         "wires": [
             [
@@ -16656,7 +16644,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 940,
         "wires": [
             [
@@ -16691,7 +16679,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2420,
+        "x": 2180,
         "y": 1060,
         "wires": [
             [
@@ -16712,7 +16700,7 @@
         "variable": "CLUSTER2.W02.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP11",
-        "x": 2600,
+        "x": 2360,
         "y": 240,
         "wires": []
     },
@@ -16726,7 +16714,7 @@
         "variable": "CLUSTER2.W03.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP12",
-        "x": 2600,
+        "x": 2360,
         "y": 360,
         "wires": []
     },
@@ -16740,7 +16728,7 @@
         "variable": "CLUSTER2.W04.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP13",
-        "x": 2600,
+        "x": 2360,
         "y": 480,
         "wires": []
     },
@@ -16754,7 +16742,7 @@
         "variable": "CLUSTER2.W05.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP14",
-        "x": 2600,
+        "x": 2360,
         "y": 600,
         "wires": []
     },
@@ -16768,7 +16756,7 @@
         "variable": "CLUSTER2.W06.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP15",
-        "x": 2600,
+        "x": 2360,
         "y": 720,
         "wires": []
     },
@@ -16782,7 +16770,7 @@
         "variable": "CLUSTER2.W07.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP16",
-        "x": 2600,
+        "x": 2360,
         "y": 840,
         "wires": []
     },
@@ -16796,7 +16784,7 @@
         "variable": "CLUSTER2.W08.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP17",
-        "x": 2600,
+        "x": 2360,
         "y": 960,
         "wires": []
     },
@@ -16810,7 +16798,7 @@
         "variable": "CLUSTER2.W09.VSD.Referencia_RPM_Remota_PD",
         "program": "",
         "name": "Referencia RPM SCP18",
-        "x": 2600,
+        "x": 2360,
         "y": 1080,
         "wires": []
     },
@@ -17237,8 +17225,8 @@
         "variable": "CLUSTER2.W01.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP10",
-        "x": 880,
-        "y": 2190,
+        "x": 850,
+        "y": 1470,
         "wires": []
     },
     {
@@ -17251,8 +17239,8 @@
         "variable": "CLUSTER2.W01.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP10",
-        "x": 870,
-        "y": 2250,
+        "x": 840,
+        "y": 1530,
         "wires": []
     },
     {
@@ -17265,8 +17253,8 @@
         "variable": "CLUSTER2.W01.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP10",
-        "x": 870,
-        "y": 2310,
+        "x": 840,
+        "y": 1590,
         "wires": []
     },
     {
@@ -17279,8 +17267,8 @@
         "variable": "CLUSTER2.W02.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP11",
-        "x": 880,
-        "y": 2370,
+        "x": 850,
+        "y": 1650,
         "wires": []
     },
     {
@@ -17293,8 +17281,8 @@
         "variable": "CLUSTER2.W02.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP11",
-        "x": 870,
-        "y": 2430,
+        "x": 840,
+        "y": 1710,
         "wires": []
     },
     {
@@ -17307,8 +17295,8 @@
         "variable": "CLUSTER2.W02.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP11",
-        "x": 870,
-        "y": 2490,
+        "x": 840,
+        "y": 1770,
         "wires": []
     },
     {
@@ -17321,8 +17309,8 @@
         "variable": "CLUSTER2.W03.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP12",
-        "x": 880,
-        "y": 2550,
+        "x": 850,
+        "y": 1830,
         "wires": []
     },
     {
@@ -17335,8 +17323,8 @@
         "variable": "CLUSTER2.W03.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP12",
-        "x": 870,
-        "y": 2610,
+        "x": 840,
+        "y": 1890,
         "wires": []
     },
     {
@@ -17349,8 +17337,8 @@
         "variable": "CLUSTER2.W03.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP12",
-        "x": 870,
-        "y": 2670,
+        "x": 840,
+        "y": 1950,
         "wires": []
     },
     {
@@ -17363,8 +17351,8 @@
         "variable": "CLUSTER2.W04.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP13",
-        "x": 880,
-        "y": 2730,
+        "x": 850,
+        "y": 2010,
         "wires": []
     },
     {
@@ -17377,8 +17365,8 @@
         "variable": "CLUSTER2.W04.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP13",
-        "x": 870,
-        "y": 2790,
+        "x": 840,
+        "y": 2070,
         "wires": []
     },
     {
@@ -17391,8 +17379,8 @@
         "variable": "CLUSTER2.W04.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP13",
-        "x": 870,
-        "y": 2850,
+        "x": 840,
+        "y": 2130,
         "wires": []
     },
     {
@@ -17405,8 +17393,8 @@
         "variable": "CLUSTER2.W05.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP14",
-        "x": 880,
-        "y": 2910,
+        "x": 850,
+        "y": 2190,
         "wires": []
     },
     {
@@ -17419,8 +17407,8 @@
         "variable": "CLUSTER2.W05.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP14",
-        "x": 870,
-        "y": 2970,
+        "x": 840,
+        "y": 2250,
         "wires": []
     },
     {
@@ -17433,8 +17421,8 @@
         "variable": "CLUSTER2.W05.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP14",
-        "x": 870,
-        "y": 3030,
+        "x": 840,
+        "y": 2310,
         "wires": []
     },
     {
@@ -17447,8 +17435,8 @@
         "variable": "CLUSTER2.W06.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP15",
-        "x": 880,
-        "y": 3090,
+        "x": 850,
+        "y": 2370,
         "wires": []
     },
     {
@@ -17461,8 +17449,8 @@
         "variable": "CLUSTER2.W06.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP15",
-        "x": 870,
-        "y": 3150,
+        "x": 840,
+        "y": 2430,
         "wires": []
     },
     {
@@ -17475,8 +17463,8 @@
         "variable": "CLUSTER2.W06.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP15",
-        "x": 870,
-        "y": 3210,
+        "x": 840,
+        "y": 2490,
         "wires": []
     },
     {
@@ -17489,8 +17477,8 @@
         "variable": "CLUSTER2.W07.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP16",
-        "x": 880,
-        "y": 3270,
+        "x": 850,
+        "y": 2550,
         "wires": []
     },
     {
@@ -17503,8 +17491,8 @@
         "variable": "CLUSTER2.W07.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP16",
-        "x": 870,
-        "y": 3330,
+        "x": 840,
+        "y": 2610,
         "wires": []
     },
     {
@@ -17517,8 +17505,8 @@
         "variable": "CLUSTER2.W07.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP16",
-        "x": 870,
-        "y": 3390,
+        "x": 840,
+        "y": 2670,
         "wires": []
     },
     {
@@ -17531,8 +17519,8 @@
         "variable": "CLUSTER2.W08.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP17",
-        "x": 880,
-        "y": 3450,
+        "x": 850,
+        "y": 2730,
         "wires": []
     },
     {
@@ -17545,8 +17533,8 @@
         "variable": "CLUSTER2.W08.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP17",
-        "x": 870,
-        "y": 3510,
+        "x": 840,
+        "y": 2790,
         "wires": []
     },
     {
@@ -17559,8 +17547,8 @@
         "variable": "CLUSTER2.W08.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP17",
-        "x": 870,
-        "y": 3570,
+        "x": 840,
+        "y": 2850,
         "wires": []
     },
     {
@@ -17573,8 +17561,8 @@
         "variable": "CLUSTER2.W09.VSD.Arranque_Remoto_PD",
         "program": "",
         "name": "Arranque SCP18",
-        "x": 880,
-        "y": 3630,
+        "x": 850,
+        "y": 2910,
         "wires": []
     },
     {
@@ -17587,8 +17575,8 @@
         "variable": "CLUSTER2.W09.VSD.Parada_Remota_PD",
         "program": "",
         "name": "Parada SCP18",
-        "x": 870,
-        "y": 3690,
+        "x": 840,
+        "y": 2970,
         "wires": []
     },
     {
@@ -17601,8 +17589,8 @@
         "variable": "CLUSTER2.W09.VSD.Reset_Remoto_PD",
         "program": "",
         "name": "Reset SCP18",
-        "x": 870,
-        "y": 3750,
+        "x": 840,
+        "y": 3030,
         "wires": []
     },
     {
@@ -17618,8 +17606,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 3010,
+        "x": 620,
+        "y": 2290,
         "wires": [
             [
                 "bedb727ca2a00ae1"
@@ -17714,8 +17702,8 @@
         "links": [
             "35e356e7.8ebc5a"
         ],
-        "x": 545,
-        "y": 3010,
+        "x": 515,
+        "y": 2290,
         "wires": [
             [
                 "66e21be155c91fee"
@@ -18148,7 +18136,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3730,
+        "x": 3460,
         "y": 480,
         "wires": [
             [
@@ -18208,7 +18196,7 @@
             "3b8100c135a688e5",
             "d1bcaebfeab23d41"
         ],
-        "x": 3575,
+        "x": 3305,
         "y": 480,
         "wires": [
             [
@@ -18225,7 +18213,7 @@
         "variable": "Disparo_Breaker_Pozo1",
         "program": "",
         "name": "Disparo_Breaker_SCP1",
-        "x": 4030,
+        "x": 3760,
         "y": 60,
         "wires": []
     },
@@ -18238,7 +18226,7 @@
         "variable": "Disparo_Breaker_Pozo2",
         "program": "",
         "name": "Disparo_Breaker_SCP2",
-        "x": 4030,
+        "x": 3760,
         "y": 120,
         "wires": []
     },
@@ -18251,7 +18239,7 @@
         "variable": "Disparo_Breaker_Pozo3",
         "program": "",
         "name": "Disparo_Breaker_SCP3",
-        "x": 4030,
+        "x": 3760,
         "y": 180,
         "wires": []
     },
@@ -18264,7 +18252,7 @@
         "variable": "Disparo_Breaker_Pozo4",
         "program": "",
         "name": "Disparo_Breaker_SCP4",
-        "x": 4030,
+        "x": 3760,
         "y": 240,
         "wires": []
     },
@@ -18277,7 +18265,7 @@
         "variable": "Disparo_Breaker_Pozo5",
         "program": "",
         "name": "Disparo_Breaker_SCP5",
-        "x": 4030,
+        "x": 3760,
         "y": 300,
         "wires": []
     },
@@ -18290,7 +18278,7 @@
         "variable": "Disparo_Breaker_Pozo6",
         "program": "",
         "name": "Disparo_Breaker_SCP6",
-        "x": 4030,
+        "x": 3760,
         "y": 360,
         "wires": []
     },
@@ -18303,7 +18291,7 @@
         "variable": "Disparo_Breaker_Pozo7",
         "program": "",
         "name": "Disparo_Breaker_SCP7",
-        "x": 4030,
+        "x": 3760,
         "y": 420,
         "wires": []
     },
@@ -18316,7 +18304,7 @@
         "variable": "Disparo_Breaker_Pozo8",
         "program": "",
         "name": "Disparo_Breaker_SCP8",
-        "x": 4030,
+        "x": 3760,
         "y": 480,
         "wires": []
     },
@@ -18329,7 +18317,7 @@
         "variable": "Disparo_Breaker_Pozo9",
         "program": "",
         "name": "Disparo_Breaker_SCP9",
-        "x": 4030,
+        "x": 3760,
         "y": 540,
         "wires": []
     },
@@ -18342,7 +18330,7 @@
         "variable": "Disparo_Breaker_Pozo10",
         "program": "",
         "name": "Disparo_Breaker_SCP10",
-        "x": 4030,
+        "x": 3760,
         "y": 600,
         "wires": []
     },
@@ -18355,7 +18343,7 @@
         "variable": "Disparo_Breaker_Pozo11",
         "program": "",
         "name": "Disparo_Breaker_SCP11",
-        "x": 4030,
+        "x": 3760,
         "y": 660,
         "wires": []
     },
@@ -18368,7 +18356,7 @@
         "variable": "Disparo_Breaker_Pozo12",
         "program": "",
         "name": "Disparo_Breaker_SCP12",
-        "x": 4030,
+        "x": 3760,
         "y": 720,
         "wires": []
     },
@@ -18381,7 +18369,7 @@
         "variable": "Disparo_Breaker_Pozo13",
         "program": "",
         "name": "Disparo_Breaker_SCP13",
-        "x": 4030,
+        "x": 3760,
         "y": 780,
         "wires": []
     },
@@ -18394,7 +18382,7 @@
         "variable": "Disparo_Breaker_Pozo14",
         "program": "",
         "name": "Disparo_Breaker_SCP14",
-        "x": 4030,
+        "x": 3760,
         "y": 840,
         "wires": []
     },
@@ -18407,7 +18395,7 @@
         "variable": "Disparo_Breaker_Pozo15",
         "program": "",
         "name": "Disparo_Breaker_SCP15",
-        "x": 4030,
+        "x": 3760,
         "y": 900,
         "wires": []
     },
@@ -18420,7 +18408,7 @@
         "links": [
             "53af2f4329cd7e74"
         ],
-        "x": 2945,
+        "x": 2685,
         "y": 480,
         "wires": []
     },
@@ -20232,7 +20220,8 @@
             [
                 "8da77a70.699258",
                 "528f3613fd9dc550",
-                "fb0788f42bc54f91"
+                "fb0788f42bc54f91",
+                "f6c4b6bdd7d87649"
             ]
         ]
     },
@@ -20256,8 +20245,8 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 180,
-        "y": 620,
+        "x": 190,
+        "y": 670,
         "wires": [
             [
                 "90ac36c9c645d371"
@@ -20284,8 +20273,8 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 180,
-        "y": 660,
+        "x": 190,
+        "y": 710,
         "wires": [
             [
                 "8f37636c700844c8"
@@ -20312,8 +20301,8 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 180,
-        "y": 700,
+        "x": 190,
+        "y": 750,
         "wires": [
             [
                 "dba80e92.0a13d"
@@ -20511,8 +20500,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 620,
+        "x": 930,
+        "y": 670,
         "wires": [
             [
                 "ede56ecd.3a66e",
@@ -20554,8 +20543,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 660,
+        "x": 930,
+        "y": 710,
         "wires": [
             [
                 "ede56ecd.3a66e",
@@ -20597,8 +20586,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 700,
+        "x": 930,
+        "y": 750,
         "wires": [
             [
                 "ede56ecd.3a66e"
@@ -20617,8 +20606,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 660,
+        "x": 1120,
+        "y": 710,
         "wires": [
             [
                 "35e356e7.8ebc5a"
@@ -20635,8 +20624,8 @@
             "c5614143.9411",
             "dc662dbf83f0e930"
         ],
-        "x": 1235,
-        "y": 660,
+        "x": 1245,
+        "y": 710,
         "wires": []
     },
     {
@@ -20709,7 +20698,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 880,
+        "y": 930,
         "wires": [
             [
                 "a56654764ab75307"
@@ -20729,7 +20718,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 820,
+        "y": 870,
         "wires": [
             [
                 "0c268e6506789671"
@@ -20757,7 +20746,7 @@
         "to": "",
         "reg": false,
         "x": 520,
-        "y": 820,
+        "y": 870,
         "wires": [
             []
         ]
@@ -20868,7 +20857,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 160,
-        "y": 820,
+        "y": 870,
         "wires": [
             [
                 "1889382ff553feb8"
@@ -20911,7 +20900,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 800,
-        "y": 900,
+        "y": 950,
         "wires": [
             [
                 "3a50b8e2f7d2c694"
@@ -20939,7 +20928,7 @@
         "to": "",
         "reg": false,
         "x": 990,
-        "y": 900,
+        "y": 950,
         "wires": [
             []
         ]
@@ -20983,7 +20972,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 970,
-        "y": 860,
+        "y": 910,
         "wires": [
             []
         ]
@@ -21001,7 +20990,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 860,
+        "y": 910,
         "wires": [
             [
                 "bcc1d02a80a0c9a9"
@@ -21030,7 +21019,7 @@
         "repair": false,
         "outputs": 2,
         "x": 500,
-        "y": 880,
+        "y": 930,
         "wires": [
             [
                 "7586fea4c3b6312c"
@@ -21052,7 +21041,7 @@
             "d59a7910a658d9dc"
         ],
         "x": 535,
-        "y": 920,
+        "y": 970,
         "wires": [
             [
                 "48a0d2f81f738c9f"
@@ -21080,7 +21069,7 @@
         "to": "",
         "reg": false,
         "x": 640,
-        "y": 900,
+        "y": 950,
         "wires": [
             [
                 "59905feec00f5c7f"
@@ -21101,7 +21090,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 850,
-        "y": 860,
+        "y": 910,
         "wires": [
             [
                 "a90b9db5a15e0d3e"
@@ -21122,7 +21111,7 @@
         "format": "<font size =4px>{{msg.Corriente_VSD}} A",
         "layout": "col-center",
         "x": 580,
-        "y": 1020,
+        "y": 1060,
         "wires": []
     },
     {
@@ -21139,7 +21128,7 @@
         "format": "<font size =4px>{{msg.Voltaje_Bus_DC}} VDC",
         "layout": "col-center",
         "x": 580,
-        "y": 1060,
+        "y": 1100,
         "wires": []
     },
     {
@@ -21156,7 +21145,7 @@
         "format": "<font size =4px>{{msg.Frecuencia}}",
         "layout": "col-center",
         "x": 580,
-        "y": 1100,
+        "y": 1140,
         "wires": []
     },
     {
@@ -21173,7 +21162,7 @@
         "format": "<font size =4px>{{msg.Voltaje_VSD}} VAC",
         "layout": "col-center",
         "x": 570,
-        "y": 1140,
+        "y": 1180,
         "wires": []
     },
     {
@@ -21190,7 +21179,7 @@
         "format": "<font size =4px>{{msg.Factor_Potencia}}",
         "layout": "col-center",
         "x": 590,
-        "y": 1180,
+        "y": 1220,
         "wires": []
     },
     {
@@ -21207,7 +21196,7 @@
         "format": "<font size =4px>{{msg.Relacion_TX}}",
         "layout": "col-center",
         "x": 550,
-        "y": 1220,
+        "y": 1260,
         "wires": []
     },
     {
@@ -21224,7 +21213,7 @@
         "format": "<font size =4px>{{msg.Voltaje_Motor}} VAC",
         "layout": "col-center",
         "x": 580,
-        "y": 1260,
+        "y": 1300,
         "wires": []
     },
     {
@@ -21241,7 +21230,7 @@
         "format": "<font size =4px>{{msg.Corriente_Motor}} A",
         "layout": "col-center",
         "x": 590,
-        "y": 1300,
+        "y": 1340,
         "wires": []
     },
     {
@@ -21258,7 +21247,7 @@
         "format": "<font size =4px>{{msg.Temperatura_Descarga}} °F",
         "layout": "col-center",
         "x": 800,
-        "y": 1020,
+        "y": 1060,
         "wires": []
     },
     {
@@ -21275,7 +21264,7 @@
         "format": "<font size =4px>{{msg.Temperatura_Motor}} °F",
         "layout": "col-center",
         "x": 800,
-        "y": 1060,
+        "y": 1100,
         "wires": []
     },
     {
@@ -21292,7 +21281,7 @@
         "format": "<font size =4px>{{msg.Temperatura_Entrada}} °F",
         "layout": "col-center",
         "x": 810,
-        "y": 1100,
+        "y": 1140,
         "wires": []
     },
     {
@@ -21309,7 +21298,7 @@
         "format": "<font size =4px>{{msg.PIP}} PSI",
         "layout": "col-center",
         "x": 790,
-        "y": 1140,
+        "y": 1180,
         "wires": []
     },
     {
@@ -21326,7 +21315,7 @@
         "format": "<font size =4px>{{msg.PDP}} PSI",
         "layout": "col-center",
         "x": 800,
-        "y": 1180,
+        "y": 1220,
         "wires": []
     },
     {
@@ -21343,7 +21332,7 @@
         "format": "<font size =4px>{{msg.Vibracion}} mA",
         "layout": "col-center",
         "x": 790,
-        "y": 1220,
+        "y": 1260,
         "wires": []
     },
     {
@@ -21356,7 +21345,7 @@
             "d0b26cc2905c02ad"
         ],
         "x": 115,
-        "y": 1100,
+        "y": 1140,
         "wires": [
             [
                 "c4b00d9d.c758e"
@@ -21446,8 +21435,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 620,
+        "x": 330,
+        "y": 670,
         "wires": [
             [
                 "7f4725cd539a6195"
@@ -21469,8 +21458,8 @@
         "raw": false,
         "topic": "Arranque",
         "name": "Confirm",
-        "x": 460,
-        "y": 620,
+        "x": 470,
+        "y": 670,
         "wires": [
             [
                 "b9ce5171b5be1d5c"
@@ -21495,8 +21484,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 600,
-        "y": 620,
+        "x": 610,
+        "y": 670,
         "wires": [
             [
                 "e9a83abb606dc1a9"
@@ -21523,8 +21512,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 320,
-        "y": 660,
+        "x": 330,
+        "y": 710,
         "wires": [
             [
                 "96d979476eb1b054"
@@ -21546,8 +21535,8 @@
         "raw": false,
         "topic": "Detener",
         "name": "Confirm",
-        "x": 460,
-        "y": 660,
+        "x": 470,
+        "y": 710,
         "wires": [
             [
                 "b1f01e0593bbc7e2"
@@ -21572,8 +21561,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 600,
-        "y": 660,
+        "x": 610,
+        "y": 710,
         "wires": [
             [
                 "9f111f5f0cdb7b23"
@@ -21645,7 +21634,7 @@
         "finalize": "",
         "libs": [],
         "x": 300,
-        "y": 1100,
+        "y": 1140,
         "wires": [
             [
                 "1ee8792a8ad49dce",
@@ -21793,8 +21782,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 760,
-        "y": 620,
+        "x": 770,
+        "y": 670,
         "wires": [
             [
                 "267fdbe0.520b94"
@@ -21821,8 +21810,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 760,
-        "y": 660,
+        "x": 770,
+        "y": 710,
         "wires": [
             [
                 "76ade389.49748c"
@@ -22201,10 +22190,11 @@
         "g": "dbdbcfdd.62eb8",
         "name": "Arranque/Parada",
         "links": [
-            "59e817c2.295b38"
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
         ],
-        "x": 1195,
-        "y": 600,
+        "x": 1205,
+        "y": 650,
         "wires": []
     },
     {
@@ -22219,8 +22209,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
-        "y": 580,
+        "x": 1080,
+        "y": 630,
         "wires": [
             [
                 "e83ec346916a6a44"
@@ -22239,8 +22229,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
-        "y": 620,
+        "x": 1080,
+        "y": 670,
         "wires": [
             [
                 "e83ec346916a6a44"
@@ -22341,7 +22331,7 @@
             "f65144617635e766"
         ],
         "x": 215,
-        "y": 880,
+        "y": 930,
         "wires": [
             [
                 "1e1e27dfa1f3561e"
@@ -31404,7 +31394,8 @@
             "a230ddb8aeaa2e12",
             "991eb055c9a9be2b",
             "dd0bfe62af67d677",
-            "a1cabd508d95e630"
+            "a1cabd508d95e630",
+            "0db3231e87512499"
         ],
         "x": 365,
         "y": 80,
@@ -39858,7 +39849,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
                 "tot": "str"
             },
             {
@@ -39943,7 +39934,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
                 "tot": "str"
             },
             {
@@ -39992,7 +39983,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
                 "tot": "str"
             },
             {
@@ -40076,7 +40067,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
                 "tot": "str"
             },
             {
@@ -40174,7 +40165,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40249,7 +40240,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-03830 manifold normalizado",
+                "to": "Transmisor de presión PT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40333,7 +40324,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-03830 manifold normalizado",
+                "to": "Transmisor de presión PT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40382,7 +40373,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-03830 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-00960 Manifold",
                 "tot": "str"
             },
             {
@@ -40466,7 +40457,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-03830 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-00960 Manifold",
                 "tot": "str"
             }
         ],
@@ -40501,7 +40492,7 @@
         "type": "udp out",
         "z": "e521d174e7104ca1",
         "name": "",
-        "addr": "20.0.50.25",
+        "addr": "20.0.51.19",
         "iface": "",
         "port": "5505",
         "ipv": "udp4",
@@ -45691,7 +45682,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0383</center></b></h1>\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0096</center></b></h1>\n</body>\n\n</html>",
         "output": "str",
         "x": 270,
         "y": 410,
@@ -46056,7 +46047,9 @@
             "da1899281ec8a4bc",
             "c98c6a0b37ce9501",
             "a230ddb8aeaa2e12",
-            "a1cabd508d95e630"
+            "a1cabd508d95e630",
+            "e83ec346916a6a44",
+            "0db3231e87512499"
         ],
         "x": 355,
         "y": 690,
@@ -46371,7 +46364,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03831</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00961</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 200,
@@ -46412,7 +46405,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03831</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00961</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 240,
@@ -46589,7 +46582,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03832</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00962</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 450,
@@ -46609,7 +46602,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03832</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00962</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 490,
@@ -46807,7 +46800,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03833</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00963</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 700,
@@ -46827,7 +46820,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03833</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00963</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 740,
@@ -47025,7 +47018,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03834</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00964</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 950,
@@ -47045,7 +47038,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03834</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00964</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 990,
@@ -47243,7 +47236,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03835</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00965</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1200,
@@ -47263,7 +47256,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03835</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00965</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1240,
@@ -47461,7 +47454,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03836</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00966</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1460,
@@ -47481,7 +47474,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03836</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00966</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1500,
@@ -47679,7 +47672,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-TT-03837</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00967</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1720,
@@ -47699,7 +47692,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0383-PT-03837</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00967</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1760,
@@ -48071,7 +48064,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-PT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0096-PT-00960</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 100,
@@ -48133,7 +48126,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-FIT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0096-FIT-00960</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 270,
         "y": 260,
@@ -48344,7 +48337,7 @@
         "format": "<font size =4px>{{msg.Vibracion_X}} G",
         "layout": "col-center",
         "x": 780,
-        "y": 1260,
+        "y": 1300,
         "wires": []
     },
     {
@@ -48361,7 +48354,7 @@
         "format": "<font size =4px>{{msg.Vibracion_Y}} G",
         "layout": "col-center",
         "x": 780,
-        "y": 1300,
+        "y": 1340,
         "wires": []
     },
     {
@@ -48378,7 +48371,7 @@
         "format": "<font size =4px>{{msg.Vibracion_Z}} G",
         "layout": "col-center",
         "x": 780,
-        "y": 1340,
+        "y": 1380,
         "wires": []
     },
     {
@@ -48404,7 +48397,7 @@
         "program": "",
         "name": "Parada SCP1",
         "x": 890,
-        "y": 150,
+        "y": 110,
         "wires": []
     },
     {
@@ -48417,7 +48410,7 @@
         "program": "",
         "name": "Reset SCP1",
         "x": 880,
-        "y": 240,
+        "y": 160,
         "wires": []
     },
     {
@@ -48430,7 +48423,7 @@
         "program": "",
         "name": "Arranque SCP2",
         "x": 890,
-        "y": 290,
+        "y": 210,
         "wires": []
     },
     {
@@ -48443,7 +48436,7 @@
         "program": "",
         "name": "Parada SCP2",
         "x": 890,
-        "y": 380,
+        "y": 260,
         "wires": []
     },
     {
@@ -48456,7 +48449,7 @@
         "program": "",
         "name": "Reset SCP2",
         "x": 880,
-        "y": 470,
+        "y": 310,
         "wires": []
     },
     {
@@ -48469,7 +48462,7 @@
         "program": "",
         "name": "Arranque SCP3",
         "x": 890,
-        "y": 530,
+        "y": 370,
         "wires": []
     },
     {
@@ -48482,7 +48475,7 @@
         "program": "",
         "name": "Parada SCP3",
         "x": 890,
-        "y": 620,
+        "y": 420,
         "wires": []
     },
     {
@@ -48495,7 +48488,7 @@
         "program": "",
         "name": "Reset SCP3",
         "x": 880,
-        "y": 710,
+        "y": 470,
         "wires": []
     },
     {
@@ -48508,7 +48501,7 @@
         "program": "",
         "name": "Arranque SCP4",
         "x": 890,
-        "y": 760,
+        "y": 520,
         "wires": []
     },
     {
@@ -48521,7 +48514,7 @@
         "program": "",
         "name": "Parada SCP4",
         "x": 890,
-        "y": 850,
+        "y": 570,
         "wires": []
     },
     {
@@ -48534,7 +48527,7 @@
         "program": "",
         "name": "Reset SCP4",
         "x": 880,
-        "y": 940,
+        "y": 620,
         "wires": []
     },
     {
@@ -48547,7 +48540,7 @@
         "program": "",
         "name": "Arranque SCP5",
         "x": 890,
-        "y": 990,
+        "y": 670,
         "wires": []
     },
     {
@@ -48560,7 +48553,7 @@
         "program": "",
         "name": "Parada SCP5",
         "x": 890,
-        "y": 1080,
+        "y": 720,
         "wires": []
     },
     {
@@ -48573,7 +48566,7 @@
         "program": "",
         "name": "Reset SCP5",
         "x": 880,
-        "y": 1170,
+        "y": 770,
         "wires": []
     },
     {
@@ -48586,7 +48579,7 @@
         "program": "",
         "name": "Arranque SCP6",
         "x": 890,
-        "y": 1220,
+        "y": 820,
         "wires": []
     },
     {
@@ -48599,7 +48592,7 @@
         "program": "",
         "name": "Parada SCP6",
         "x": 890,
-        "y": 1310,
+        "y": 870,
         "wires": []
     },
     {
@@ -48612,7 +48605,7 @@
         "program": "",
         "name": "Reset SCP6",
         "x": 880,
-        "y": 1400,
+        "y": 920,
         "wires": []
     },
     {
@@ -48625,7 +48618,7 @@
         "program": "",
         "name": "Arranque SCP9",
         "x": 890,
-        "y": 1910,
+        "y": 1270,
         "wires": []
     },
     {
@@ -48638,7 +48631,7 @@
         "program": "",
         "name": "Parada SCP9",
         "x": 890,
-        "y": 2000,
+        "y": 1330,
         "wires": []
     },
     {
@@ -48651,7 +48644,7 @@
         "program": "",
         "name": "Reset SCP9",
         "x": 880,
-        "y": 2090,
+        "y": 1380,
         "wires": []
     },
     {
@@ -48664,7 +48657,7 @@
         "program": "",
         "name": "Arranque SCP8",
         "x": 890,
-        "y": 1680,
+        "y": 1120,
         "wires": []
     },
     {
@@ -48677,7 +48670,7 @@
         "program": "",
         "name": "Parada SCP8",
         "x": 890,
-        "y": 1770,
+        "y": 1170,
         "wires": []
     },
     {
@@ -48690,7 +48683,7 @@
         "program": "",
         "name": "Reset SCP8",
         "x": 880,
-        "y": 1860,
+        "y": 1220,
         "wires": []
     },
     {
@@ -48703,7 +48696,7 @@
         "program": "",
         "name": "Arranque SCP7",
         "x": 890,
-        "y": 1450,
+        "y": 970,
         "wires": []
     },
     {
@@ -48716,7 +48709,7 @@
         "program": "",
         "name": "Parada SCP7",
         "x": 890,
-        "y": 1540,
+        "y": 1020,
         "wires": []
     },
     {
@@ -48729,7 +48722,7 @@
         "program": "",
         "name": "Reset SCP7",
         "x": 880,
-        "y": 1630,
+        "y": 1070,
         "wires": []
     },
     {
@@ -48745,103 +48738,85 @@
         "finalize": "",
         "libs": [],
         "x": 610,
-        "y": 880,
+        "y": 720,
         "wires": [
             [
-                "d2f4febb.5191d",
-                "9c6210069781916b"
+                "d2f4febb.5191d"
             ],
             [
-                "d938c95c.283108",
-                "f52c20a35985e18c"
+                "d938c95c.283108"
             ],
             [
                 "47d1f5ad.53fdfc"
             ],
             [
-                "e73deb28.ab7c58",
-                "6642d030e94e2415"
+                "e73deb28.ab7c58"
             ],
             [
-                "308496cc.1a08fa",
-                "0409999916e94e81"
+                "308496cc.1a08fa"
             ],
             [
                 "38d893df.8a333c"
             ],
             [
-                "8ba61d08.68924",
-                "632c21a73c32eb67"
+                "8ba61d08.68924"
             ],
             [
-                "b804dc17.3c11c",
-                "0ec9bd75b29c9e3a"
+                "b804dc17.3c11c"
             ],
             [
                 "f853ef97.ea1b"
             ],
             [
-                "f7e2b76f.736738",
-                "387b3499390d4b07"
+                "f7e2b76f.736738"
             ],
             [
-                "8d5fdd06.4fa45",
-                "8071daadd6f71ea6"
+                "8d5fdd06.4fa45"
             ],
             [
                 "b9f20f86.e4bf1"
             ],
             [
-                "8eab2d74.7f1fe",
-                "c8d177b8c8692167"
+                "8eab2d74.7f1fe"
             ],
             [
-                "656bbea4.ffa3f",
-                "7da7e38601634bf0"
+                "656bbea4.ffa3f"
             ],
             [
                 "160ab9fc.7eb4e6"
             ],
             [
-                "e444da6e.5f8128",
-                "dd15752aeb11b799"
+                "e444da6e.5f8128"
             ],
             [
-                "25eeaa97.48ca86",
-                "cc8f5681458a511f"
+                "25eeaa97.48ca86"
             ],
             [
                 "932b0db5.b3daa"
             ],
             [
-                "2bf7ce89.c48ff2",
-                "b3c88e2b31d841b4"
+                "2bf7ce89.c48ff2"
             ],
             [
-                "95c6abd4.4862d8",
-                "39711a34cca25a79"
+                "95c6abd4.4862d8"
             ],
             [
                 "7998e18f.da1ef"
             ],
             [
-                "ac4b1a1d.2a0158",
-                "cec1dd6e858e10e5"
+                "ac4b1a1d.2a0158"
             ],
             [
-                "3851f53d.72a3ea",
-                "b8aacf8fea75e712"
+                "3851f53d.72a3ea"
             ],
             [
                 "57de4f88.31f6f"
             ],
             [
-                "de245ad1.e52908",
-                "3c5071c419d1e925"
+                "de245ad1.e52908"
             ],
             [
-                "a86fabcb.194488",
-                "347adb735433a9b4"
+                "a86fabcb.194488"
             ],
             [
                 "a4fc6f8.fdca09"
@@ -48858,1326 +48833,12 @@
             "35e356e7.8ebc5a"
         ],
         "x": 515,
-        "y": 880,
+        "y": 720,
         "wires": [
             [
                 "ca6808c4.0ce2b8"
             ]
         ]
-    },
-    {
-        "id": "9c6210069781916b",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 110,
-        "wires": [
-            [
-                "560727a17bbf3f80"
-            ]
-        ]
-    },
-    {
-        "id": "560727a17bbf3f80",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP1 VSD-CASE-0383V",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 110,
-        "wires": [
-            [
-                "acb3163797abe44e"
-            ]
-        ]
-    },
-    {
-        "id": "f52c20a35985e18c",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 200,
-        "wires": [
-            [
-                "c01add8e28e8df04"
-            ]
-        ]
-    },
-    {
-        "id": "c01add8e28e8df04",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP1 VSD-CASE-0383V",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 200,
-        "wires": [
-            [
-                "bd2e2cacb5c2d7cb"
-            ]
-        ]
-    },
-    {
-        "id": "6642d030e94e2415",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 340,
-        "wires": [
-            [
-                "c3aa026afba3312f"
-            ]
-        ]
-    },
-    {
-        "id": "c3aa026afba3312f",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP2 VSD-CASE-0183D",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 340,
-        "wires": [
-            [
-                "cfb2c42d93e9e1ee"
-            ]
-        ]
-    },
-    {
-        "id": "acb3163797abe44e",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 110,
-        "wires": []
-    },
-    {
-        "id": "0409999916e94e81",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 430,
-        "wires": [
-            [
-                "7efaa20c7eb6a1ac"
-            ]
-        ]
-    },
-    {
-        "id": "7efaa20c7eb6a1ac",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP2 VSD-CASE-0183D",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 430,
-        "wires": [
-            [
-                "280e4cd5c1140e28"
-            ]
-        ]
-    },
-    {
-        "id": "0ec9bd75b29c9e3a",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 670,
-        "wires": [
-            [
-                "791dcb1d44a49629"
-            ]
-        ]
-    },
-    {
-        "id": "791dcb1d44a49629",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP3",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP3 VSD-CASE-0231H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 670,
-        "wires": [
-            [
-                "d97988d997fd4a60"
-            ]
-        ]
-    },
-    {
-        "id": "c008b2b0aac91403",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP3",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP3 VSD-CASE-0231H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 580,
-        "wires": [
-            [
-                "9ad294dc5c727876"
-            ]
-        ]
-    },
-    {
-        "id": "632c21a73c32eb67",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 580,
-        "wires": [
-            [
-                "c008b2b0aac91403"
-            ]
-        ]
-    },
-    {
-        "id": "387b3499390d4b07",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 810,
-        "wires": [
-            [
-                "296fbc2a76bfd265"
-            ]
-        ]
-    },
-    {
-        "id": "296fbc2a76bfd265",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP4",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP4 VSD-CASE-0428H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 810,
-        "wires": [
-            [
-                "69468fe7909081de"
-            ]
-        ]
-    },
-    {
-        "id": "159e9f69afa5a53e",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP4",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP4 VSD-CASE-0428H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 900,
-        "wires": [
-            [
-                "7bc4ef3f5c4b4a92"
-            ]
-        ]
-    },
-    {
-        "id": "8071daadd6f71ea6",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 900,
-        "wires": [
-            [
-                "159e9f69afa5a53e"
-            ]
-        ]
-    },
-    {
-        "id": "dc502e5620a2c393",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP5",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP5 VSD-CASE-0413H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 1040,
-        "wires": [
-            [
-                "1d502d179b7be8e0"
-            ]
-        ]
-    },
-    {
-        "id": "c8d177b8c8692167",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1040,
-        "wires": [
-            [
-                "dc502e5620a2c393"
-            ]
-        ]
-    },
-    {
-        "id": "7da7e38601634bf0",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1130,
-        "wires": [
-            [
-                "abe11a7834875975"
-            ]
-        ]
-    },
-    {
-        "id": "abe11a7834875975",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP5",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP5 VSD-CASE-0413H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 1130,
-        "wires": [
-            [
-                "172b71e894976487"
-            ]
-        ]
-    },
-    {
-        "id": "bd2e2cacb5c2d7cb",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "cfb2c42d93e9e1ee",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "280e4cd5c1140e28",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 430,
-        "wires": []
-    },
-    {
-        "id": "9ad294dc5c727876",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "d97988d997fd4a60",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 670,
-        "wires": []
-    },
-    {
-        "id": "69468fe7909081de",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 810,
-        "wires": []
-    },
-    {
-        "id": "7bc4ef3f5c4b4a92",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "1d502d179b7be8e0",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "172b71e894976487",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1130,
-        "wires": []
-    },
-    {
-        "id": "dd15752aeb11b799",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1270,
-        "wires": [
-            [
-                "ded70a60eed08f61"
-            ]
-        ]
-    },
-    {
-        "id": "cc8f5681458a511f",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1360,
-        "wires": [
-            [
-                "4e08bbbee5c4473c"
-            ]
-        ]
-    },
-    {
-        "id": "4e08bbbee5c4473c",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP6",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP6 VSD-CASE-0180H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 1360,
-        "wires": [
-            [
-                "15dd3565585026a6"
-            ]
-        ]
-    },
-    {
-        "id": "ded70a60eed08f61",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP6",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP6 VSD-CASE-0180H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 1270,
-        "wires": [
-            [
-                "7a848364d51272bd"
-            ]
-        ]
-    },
-    {
-        "id": "7a848364d51272bd",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1270,
-        "wires": []
-    },
-    {
-        "id": "15dd3565585026a6",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1360,
-        "wires": []
-    },
-    {
-        "id": "b3c88e2b31d841b4",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1500,
-        "wires": [
-            [
-                "11873da7e7f2bae9"
-            ]
-        ]
-    },
-    {
-        "id": "39711a34cca25a79",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1590,
-        "wires": [
-            [
-                "0fe824e424b384f1"
-            ]
-        ]
-    },
-    {
-        "id": "0fe824e424b384f1",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP7",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP5 VSD-CASE-0429H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 1590,
-        "wires": [
-            [
-                "05d0671af4728704"
-            ]
-        ]
-    },
-    {
-        "id": "11873da7e7f2bae9",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP7",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP7 VSD-CASE-0429H",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 1500,
-        "wires": [
-            [
-                "0e88388fcb5738cd"
-            ]
-        ]
-    },
-    {
-        "id": "0e88388fcb5738cd",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1500,
-        "wires": []
-    },
-    {
-        "id": "05d0671af4728704",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1590,
-        "wires": []
-    },
-    {
-        "id": "cec1dd6e858e10e5",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1730,
-        "wires": [
-            [
-                "bff60e66f81afe54"
-            ]
-        ]
-    },
-    {
-        "id": "b8aacf8fea75e712",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1820,
-        "wires": [
-            [
-                "580281f1bded7cf0"
-            ]
-        ]
-    },
-    {
-        "id": "580281f1bded7cf0",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP8",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP8 VSD-CASE-",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 1820,
-        "wires": [
-            [
-                "53068a30972e632b"
-            ]
-        ]
-    },
-    {
-        "id": "bff60e66f81afe54",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP8",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP8 VSD-CASE-",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 1730,
-        "wires": [
-            [
-                "dcc5b47701793560"
-            ]
-        ]
-    },
-    {
-        "id": "dcc5b47701793560",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1730,
-        "wires": []
-    },
-    {
-        "id": "53068a30972e632b",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1820,
-        "wires": []
-    },
-    {
-        "id": "3c5071c419d1e925",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 1960,
-        "wires": [
-            [
-                "2e051054ca5f1154"
-            ]
-        ]
-    },
-    {
-        "id": "347adb735433a9b4",
-        "type": "switch",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 2050,
-        "wires": [
-            [
-                "deac0149d0aa53fc"
-            ]
-        ]
-    },
-    {
-        "id": "deac0149d0aa53fc",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje parada SCP9",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Parada de SCP9 VSD-CASE-",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡PARADA!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1030,
-        "y": 2050,
-        "wires": [
-            [
-                "da1899281ec8a4bc"
-            ]
-        ]
-    },
-    {
-        "id": "2e051054ca5f1154",
-        "type": "change",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Mensaje arranque SCP9",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Arranque de SCP9 VSD-CASE-",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "¡ARRANQUE!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 1960,
-        "wires": [
-            [
-                "7d68ef265d1e3035"
-            ]
-        ]
-    },
-    {
-        "id": "7d68ef265d1e3035",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 1960,
-        "wires": []
-    },
-    {
-        "id": "da1899281ec8a4bc",
-        "type": "link out",
-        "z": "c8989d0a.49ea8",
-        "g": "657e2074.735a3",
-        "name": "Notificacion de comandos",
-        "links": [
-            "59e817c2.295b38",
-            "6c2bad5b885f74fd"
-        ],
-        "x": 1185,
-        "y": 2050,
-        "wires": []
     },
     {
         "id": "d5b941e2a96bbfa3",
@@ -50190,7 +48851,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -50237,5 +48898,39 @@
                 "ff105a49c624aed7"
             ]
         ]
+    },
+    {
+        "id": "f6c4b6bdd7d87649",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "name": "Evento de confirmación",
+        "func": "var NameClus    = global.get(\"NameClus\",\"memoryOnly\")||\" \";\nvar Referencia  = flow.get(\"Pozo.Referencia\") || \"--\";\nmsg.payload = \"Pozo \" + NameClus + \" a \" + Referencia +  \" Hz\";\n//msg.payload = \"Cambio de velocidad en\" + \" \" + NameClus + \" a \" + Referencia + \" Hz\";\nmsg.topic = \"Cambio de velocidad\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 550,
+        "wires": [
+            [
+                "0db3231e87512499"
+            ]
+        ]
+    },
+    {
+        "id": "0db3231e87512499",
+        "type": "link out",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "name": "Arranque/Parada",
+        "links": [
+            "59e817c2.295b38",
+            "6c2bad5b885f74fd"
+        ],
+        "x": 605,
+        "y": 550,
+        "wires": []
     }
 ]
