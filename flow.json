@@ -753,9 +753,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19,
-        "w": 812,
-        "h": 132
+        "y": 19
     },
     {
         "id": "73a228cd.9d45d8",
@@ -786,9 +784,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -820,9 +816,7 @@
             "0db3231e87512499"
         ],
         "x": 78,
-        "y": 299,
-        "w": 1234,
-        "h": 518
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -861,9 +855,7 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579,
-        "w": 722,
-        "h": 192
+        "y": 579
     },
     {
         "id": "89dd768a.673f58",
@@ -885,9 +877,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -964,9 +954,7 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59,
-        "w": 952,
-        "h": 502
+        "y": 59
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1249,9 +1237,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 829,
-        "w": 1052,
-        "h": 182
+        "y": 829
     },
     {
         "id": "53d376e89282424a",
@@ -1825,9 +1811,7 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 1019,
-        "w": 872,
-        "h": 402
+        "y": 1019
     },
     {
         "id": "2fc820d53f174088",
@@ -1892,9 +1876,7 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979,
-        "w": 1132,
-        "h": 282
+        "y": 979
     },
     {
         "id": "7d0f955071a4055a",
@@ -2023,9 +2005,7 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329,
-        "w": 862,
-        "h": 982
+        "y": 1329
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2098,9 +2078,7 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59,
-        "w": 1472,
-        "h": 872
+        "y": 59
     },
     {
         "id": "1b162d57908931b5",
@@ -2200,7 +2178,9 @@
             "d5b941e2a96bbfa3"
         ],
         "x": 1554,
-        "y": 19
+        "y": 19,
+        "w": 1722,
+        "h": 832
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2225,7 +2205,9 @@
             "3e1f18e73ad342b7"
         ],
         "x": 94,
-        "y": 779
+        "y": 779,
+        "w": 1202,
+        "h": 152
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2300,9 +2282,7 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949,
-        "w": 1742,
-        "h": 362
+        "y": 949
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2325,7 +2305,9 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19
+        "y": 19,
+        "w": 712,
+        "h": 502
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2377,7 +2359,9 @@
             "8b4d36053dc5b2b5"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 742,
+        "h": 732
     },
     {
         "id": "4e67a9385d518b82",
@@ -2431,9 +2415,7 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319,
-        "w": 262,
-        "h": 82
+        "y": 319
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2521,7 +2503,9 @@
             "cf314147286d26d5"
         ],
         "x": 64,
-        "y": 541.5
+        "y": 541.5,
+        "w": 1002,
+        "h": 299.5
     },
     {
         "id": "13d2193b2dc0f18d",
@@ -2544,7 +2528,9 @@
             "11e3cb104578d0fe"
         ],
         "x": 64,
-        "y": 409
+        "y": 409,
+        "w": 1192,
+        "h": 122
     },
     {
         "id": "498c1a6f5f418d4d",
@@ -2583,7 +2569,9 @@
             "0858807b8a145e7e"
         ],
         "x": 64,
-        "y": 159
+        "y": 159,
+        "w": 2242,
+        "h": 242
     },
     {
         "id": "4c83aa9822cc63bb",
@@ -2600,7 +2588,9 @@
             "61ed79f83de77405"
         ],
         "x": 64,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "b75b4b5233e4eb65",
@@ -2644,9 +2634,7 @@
             "05aa201180649b16"
         ],
         "x": 34,
-        "y": 409,
-        "w": 842,
-        "h": 182
+        "y": 409
     },
     {
         "id": "64cc751322ef5934",
@@ -2670,7 +2658,9 @@
             "a268c6438f8a7858"
         ],
         "x": 154,
-        "y": 39
+        "y": 39,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "38e22d287129a8ea",
@@ -2694,7 +2684,9 @@
             "8e8519153dd1d5b1"
         ],
         "x": 154,
-        "y": 289
+        "y": 289,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "750dd829ec7858d9",
@@ -2718,7 +2710,9 @@
             "8704fb9191b3c44d"
         ],
         "x": 154,
-        "y": 539
+        "y": 539,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "ea89d8ce08984fd2",
@@ -2742,7 +2736,9 @@
             "0037d0d2bc04a4e0"
         ],
         "x": 154,
-        "y": 789
+        "y": 789,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "4bd44e626bbf406c",
@@ -2766,7 +2762,9 @@
             "4d57b96fde22f032"
         ],
         "x": 154,
-        "y": 1039
+        "y": 1039,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "a7308af0919f6403",
@@ -2790,7 +2788,9 @@
             "b3664ef992bce9bb"
         ],
         "x": 154,
-        "y": 1299
+        "y": 1299,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "a1277f9ddcd91b3f",
@@ -2812,7 +2812,9 @@
             "492f8b6865dad046"
         ],
         "x": 154,
-        "y": 1559
+        "y": 1559,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "67a470604f7a755b",
@@ -2834,7 +2836,9 @@
             "d6c13c7a5de39416"
         ],
         "x": 154,
-        "y": 1819
+        "y": 1819,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "a23f5a3789f2ca13",
@@ -2856,7 +2860,9 @@
             "140bcd1b6259e44e"
         ],
         "x": 154,
-        "y": 2079
+        "y": 2079,
+        "w": 552,
+        "h": 242
     },
     {
         "id": "657e2074.735a3",
@@ -3051,9 +3057,7 @@
             "5c6c269da4720bd1"
         ],
         "x": 104,
-        "y": 589,
-        "w": 1182,
-        "h": 202
+        "y": 589
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -39819,7 +39823,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
                 "tot": "str"
             },
             {
@@ -39904,7 +39908,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
                 "tot": "str"
             },
             {
@@ -39953,7 +39957,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
                 "tot": "str"
             },
             {
@@ -40037,7 +40041,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
                 "tot": "str"
             },
             {
@@ -40135,7 +40139,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
+                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40210,7 +40214,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-00960 manifold normalizado",
+                "to": "Transmisor de presión PT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40294,7 +40298,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-00960 manifold normalizado",
+                "to": "Transmisor de presión PT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -46219,10 +46223,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 80,
         "wires": []
     },
@@ -46256,10 +46260,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 120,
         "wires": []
     },
@@ -46457,10 +46461,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 330,
         "wires": []
     },
@@ -46474,10 +46478,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 370,
         "wires": []
     },
@@ -46675,10 +46679,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 580,
         "wires": []
     },
@@ -46692,10 +46696,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 620,
         "wires": []
     },
@@ -46893,10 +46897,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 830,
         "wires": []
     },
@@ -46910,10 +46914,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 470,
+        "x": 500,
         "y": 870,
         "wires": []
     },
@@ -47111,10 +47115,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1080,
         "wires": []
     },
@@ -47128,10 +47132,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1120,
         "wires": []
     },
@@ -47329,10 +47333,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1340,
         "wires": []
     },
@@ -47346,10 +47350,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1380,
         "wires": []
     },
@@ -47547,10 +47551,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1600,
         "wires": []
     },
@@ -47564,10 +47568,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1640,
         "wires": []
     },
@@ -47723,10 +47727,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1860,
         "wires": []
     },
@@ -47740,10 +47744,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 1900,
         "wires": []
     },
@@ -47899,10 +47903,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THP",
+        "label": "Presión cabeza ",
         "format": "<font size =4px>{{msg.THP}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 2120,
         "wires": []
     },
@@ -47916,10 +47920,10 @@
         "width": "4",
         "height": "2",
         "name": "",
-        "label": "THT",
+        "label": "Temp. cabeza",
         "format": "<font size =4px>{{msg.THT}}",
         "layout": "col-center",
-        "x": 460,
+        "x": 490,
         "y": 2160,
         "wires": []
     },
@@ -48034,7 +48038,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0096-PT-00960</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-PT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 100,
@@ -48096,7 +48100,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0096-FIT-00960</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-FIT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 270,
         "y": 260,
@@ -48821,7 +48825,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
+                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
                 "tot": "str"
             },
             {
