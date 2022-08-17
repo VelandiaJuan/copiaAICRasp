@@ -753,7 +753,9 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -784,7 +786,9 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29
+        "y": 29,
+        "w": 812,
+        "h": 252
     },
     {
         "id": "2f18e23b.de32ce",
@@ -816,7 +820,9 @@
             "0db3231e87512499"
         ],
         "x": 78,
-        "y": 299
+        "y": 299,
+        "w": 1234,
+        "h": 518
     },
     {
         "id": "7b6f4b41.106164",
@@ -855,7 +861,9 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579
+        "y": 579,
+        "w": 722,
+        "h": 192
     },
     {
         "id": "89dd768a.673f58",
@@ -877,7 +885,9 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "a0798509.56f3c8",
@@ -911,7 +921,9 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -954,7 +966,9 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59
+        "y": 59,
+        "w": 952,
+        "h": 502
     },
     {
         "id": "a17f12b7.aff7a",
@@ -997,7 +1011,9 @@
             "b2b70770f04451e4"
         ],
         "x": 1004,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "1c17956307e44e29",
@@ -1033,7 +1049,9 @@
             "aeece35ccc591620"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 692,
+        "h": 642
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1067,7 +1085,9 @@
             "2545a2c9037578c0"
         ],
         "x": 844,
-        "y": 19
+        "y": 19,
+        "w": 702,
+        "h": 602
     },
     {
         "id": "da4321a277ed136b",
@@ -1106,7 +1126,9 @@
             "8c0abdf5a7d1991f"
         ],
         "x": 1564,
-        "y": 19
+        "y": 19,
+        "w": 742,
+        "h": 602
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1237,7 +1259,9 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 829
+        "y": 829,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "53d376e89282424a",
@@ -1296,7 +1320,9 @@
             "88cdc40fe1b37fa5"
         ],
         "x": 104,
-        "y": 29
+        "y": 29,
+        "w": 652,
+        "h": 462
     },
     {
         "id": "adb0e39f299e229e",
@@ -1468,7 +1494,9 @@
             "7ff2646d70c075ac"
         ],
         "x": 784,
-        "y": 29
+        "y": 29,
+        "w": 682,
+        "h": 462
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1503,7 +1531,9 @@
             "d4afa70e71dfe781"
         ],
         "x": 1494,
-        "y": 29
+        "y": 29,
+        "w": 672,
+        "h": 532
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1538,7 +1568,9 @@
             "3de8b0576878b726"
         ],
         "x": 2194,
-        "y": 29
+        "y": 29,
+        "w": 702,
+        "h": 532
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1629,7 +1661,9 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1744,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1682,7 +1716,9 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2504,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1779,7 +1815,9 @@
             "dc662dbf83f0e930"
         ],
         "x": 474,
-        "y": 1429
+        "y": 1429,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1811,7 +1849,9 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 1019
+        "y": 1019,
+        "w": 872,
+        "h": 402
     },
     {
         "id": "2fc820d53f174088",
@@ -1846,7 +1886,9 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2714,
-        "y": 2069
+        "y": 2069,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1876,7 +1918,9 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979
+        "y": 979,
+        "w": 1132,
+        "h": 282
     },
     {
         "id": "7d0f955071a4055a",
@@ -1910,7 +1954,9 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149
+        "y": 1149,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1941,7 +1987,9 @@
             "75b2e87e6760a38b"
         ],
         "x": 3264,
-        "y": 19
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2005,7 +2053,9 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329
+        "y": 1329,
+        "w": 862,
+        "h": 982
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2078,7 +2128,9 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59
+        "y": 59,
+        "w": 1472,
+        "h": 872
     },
     {
         "id": "1b162d57908931b5",
@@ -2282,7 +2334,9 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949
+        "y": 949,
+        "w": 1742,
+        "h": 362
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2400,7 +2454,9 @@
             "38705d0965924c63"
         ],
         "x": 2314,
-        "y": 19
+        "y": 19,
+        "w": 772,
+        "h": 602
     },
     {
         "id": "80e529568099f818",
@@ -2434,7 +2490,9 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 709
+        "y": 709,
+        "w": 772,
+        "h": 82
     },
     {
         "id": "47c7e078aa019952",
@@ -2453,7 +2511,9 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 104,
-        "y": 519
+        "y": 519,
+        "w": 812,
+        "h": 82
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2469,7 +2529,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2905,7 +2967,9 @@
             "c5614143.9411"
         ],
         "x": 474,
-        "y": 19
+        "y": 19,
+        "w": 522,
+        "h": 1402
     },
     {
         "id": "eb91dac5.690838",
@@ -3057,7 +3121,9 @@
             "5c6c269da4720bd1"
         ],
         "x": 104,
-        "y": 589
+        "y": 589,
+        "w": 1182,
+        "h": 202
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -14258,7 +14324,7 @@
         "z": "c8989d0a.49ea8",
         "g": "1a392c2d1fb561f8",
         "name": "",
-        "func": "var Cluster     = global.get(\"Cluster\")||[];\nvar VSD         = [];\nvar Disponible  = [];\n\nfor(var i=0; i<Cluster.length; i+=1){\n    if (Cluster[i].Variador==\"ABB\"){\n        VSD[i]  = 1;\n    }\n    else if(Cluster[i].Variador==\"ABB_221\"){\n        VSD[i]  = 2;\n    } \n    else if(Cluster[i].Variador==\"SIEMENS\"){\n        VSD[i]  = 3;\n    }\n    else if(Cluster[i].Variador==\"YASKAWA\"){\n        VSD[i]  = 4;\n    }\n    else if(Cluster[i].Variador==\"YASKAWA_HMS\"){\n        VSD[i]  = 5;\n    }\n    else if(Cluster[i].Variador==\"CILA2S\"){\n        VSD[i]  = 8;\n    }\n    else if(Cluster[i].Variador==\"--\"){\n        VSD[i]  = 0;\n    }\n    \n/*Cluster disponible*/\n    \n    if (Cluster[i].Disponible==\"Si\"){\n        Disponible[i]  = true;\n    }\n    else if(Cluster[i].Disponible==\"No\"){\n        Disponible[i]  = false;\n    }\n}\n\nvar msg0 = { payload: VSD[0]};\nvar msg1 = { payload: VSD[1]};\nvar msg2 = { payload: VSD[2]};\nvar msg3 = { payload: VSD[3]};\nvar msg4 = { payload: VSD[4]};\nvar msg5 = { payload: VSD[5]};\nvar msg6 = { payload: VSD[6]};\nvar msg7 = { payload: VSD[7]};\nvar msg8 = { payload: VSD[8]};\n\nvar msg9 = { payload: Disponible[0]};\nvar msg10 = { payload: Disponible[1]};\nvar msg11 = { payload: Disponible[2]};\nvar msg12 = { payload: Disponible[3]};\nvar msg13 = { payload: Disponible[4]};\nvar msg14 = { payload: Disponible[5]};\nvar msg15 = { payload: Disponible[6]};\nvar msg16 = { payload: Disponible[7]};\nvar msg17 = { payload: Disponible[8]};\n\nreturn [msg0,msg1,msg2,msg3,msg4,msg5,msg6,msg7,msg8,msg9,msg10,msg11,msg12,msg13,msg14,msg15,msg16,msg17];",
+        "func": "var Cluster     = global.get(\"Cluster\")||[];\nvar VSD         = [];\nvar Disponible  = [];\n\nfor(var i=0; i<Cluster.length; i+=1){\n    if (Cluster[i].Variador==\"ABB\"){\n        VSD[i]  = 1;\n    }\n    else if(Cluster[i].Variador==\"ABB_221\"){\n        VSD[i]  = 2;\n    } \n    else if(Cluster[i].Variador==\"SIEMENS\"){\n        VSD[i]  = 3;\n    }\n    else if (Cluster[i].Variador ==\"YASKAWA_APC\"){\n        VSD[i]  = 4;\n    }\n    else if (Cluster[i].Variador ==\"YASKAWA_QUANTUM\"){\n        VSD[i]  = 5;\n    }\n    else if(Cluster[i].Variador==\"CILA2S\"){\n        VSD[i]  = 8;\n    }\n    else if(Cluster[i].Variador==\"--\"){\n        VSD[i]  = 0;\n    }\n    \n/*Cluster disponible*/\n    \n    if (Cluster[i].Disponible==\"Si\"){\n        Disponible[i]  = true;\n    }\n    else if(Cluster[i].Disponible==\"No\"){\n        Disponible[i]  = false;\n    }\n}\n\nvar msg0 = { payload: VSD[0]};\nvar msg1 = { payload: VSD[1]};\nvar msg2 = { payload: VSD[2]};\nvar msg3 = { payload: VSD[3]};\nvar msg4 = { payload: VSD[4]};\nvar msg5 = { payload: VSD[5]};\nvar msg6 = { payload: VSD[6]};\nvar msg7 = { payload: VSD[7]};\nvar msg8 = { payload: VSD[8]};\n\nvar msg9 = { payload: Disponible[0]};\nvar msg10 = { payload: Disponible[1]};\nvar msg11 = { payload: Disponible[2]};\nvar msg12 = { payload: Disponible[3]};\nvar msg13 = { payload: Disponible[4]};\nvar msg14 = { payload: Disponible[5]};\nvar msg15 = { payload: Disponible[6]};\nvar msg16 = { payload: Disponible[7]};\nvar msg17 = { payload: Disponible[8]};\n\nreturn [msg0,msg1,msg2,msg3,msg4,msg5,msg6,msg7,msg8,msg9,msg10,msg11,msg12,msg13,msg14,msg15,msg16,msg17];",
         "outputs": 18,
         "noerr": 0,
         "initialize": "",
@@ -25253,12 +25319,12 @@
             },
             {
                 "label": "YASKAWA APC",
-                "value": "YASKAWA APC",
+                "value": "YASKAWA_APC",
                 "type": "str"
             },
             {
                 "label": "YASKAWA QUANTUM",
-                "value": "YASKAWA QUANTUM",
+                "value": "YASKAWA_QUANTUM",
                 "type": "str"
             }
         ],
@@ -39823,7 +39889,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
                 "tot": "str"
             },
             {
@@ -39908,7 +39974,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-03830 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
                 "tot": "str"
             },
             {
@@ -39957,7 +40023,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
                 "tot": "str"
             },
             {
@@ -40041,7 +40107,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-03830",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
                 "tot": "str"
             },
             {
@@ -40139,7 +40205,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40214,7 +40280,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-03830 manifold normalizado",
+                "to": "Transmisor de presión PT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40298,7 +40364,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-03830 manifold normalizado",
+                "to": "Transmisor de presión PT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -48825,7 +48891,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-03830 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
                 "tot": "str"
             },
             {
