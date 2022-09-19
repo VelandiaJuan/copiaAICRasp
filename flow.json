@@ -753,9 +753,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 144,
-        "y": 19,
-        "w": 812,
-        "h": 132
+        "y": 19
     },
     {
         "id": "73a228cd.9d45d8",
@@ -786,9 +784,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -820,9 +816,7 @@
             "0db3231e87512499"
         ],
         "x": 78,
-        "y": 299,
-        "w": 1234,
-        "h": 518
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -861,9 +855,7 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579,
-        "w": 722,
-        "h": 192
+        "y": 579
     },
     {
         "id": "89dd768a.673f58",
@@ -885,9 +877,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -966,9 +956,7 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59,
-        "w": 952,
-        "h": 502
+        "y": 59
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1049,9 +1037,7 @@
             "aeece35ccc591620"
         ],
         "x": 84,
-        "y": 19,
-        "w": 692,
-        "h": 642
+        "y": 19
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1085,9 +1071,7 @@
             "2545a2c9037578c0"
         ],
         "x": 844,
-        "y": 19,
-        "w": 702,
-        "h": 602
+        "y": 19
     },
     {
         "id": "da4321a277ed136b",
@@ -1126,9 +1110,7 @@
             "8c0abdf5a7d1991f"
         ],
         "x": 1564,
-        "y": 19,
-        "w": 742,
-        "h": 602
+        "y": 19
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1259,9 +1241,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 829,
-        "w": 1052,
-        "h": 182
+        "y": 829
     },
     {
         "id": "53d376e89282424a",
@@ -1320,9 +1300,7 @@
             "88cdc40fe1b37fa5"
         ],
         "x": 104,
-        "y": 29,
-        "w": 652,
-        "h": 462
+        "y": 29
     },
     {
         "id": "adb0e39f299e229e",
@@ -1494,9 +1472,7 @@
             "7ff2646d70c075ac"
         ],
         "x": 784,
-        "y": 29,
-        "w": 682,
-        "h": 462
+        "y": 29
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1531,9 +1507,7 @@
             "d4afa70e71dfe781"
         ],
         "x": 1494,
-        "y": 29,
-        "w": 672,
-        "h": 532
+        "y": 29
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1568,9 +1542,7 @@
             "3de8b0576878b726"
         ],
         "x": 2194,
-        "y": 29,
-        "w": 702,
-        "h": 532
+        "y": 29
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1849,9 +1821,7 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 1019,
-        "w": 872,
-        "h": 402
+        "y": 1019
     },
     {
         "id": "2fc820d53f174088",
@@ -1918,9 +1888,7 @@
             "51a95fddfc307309"
         ],
         "x": 974,
-        "y": 979,
-        "w": 1132,
-        "h": 282
+        "y": 979
     },
     {
         "id": "7d0f955071a4055a",
@@ -2053,9 +2021,7 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329,
-        "w": 862,
-        "h": 982
+        "y": 1329
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2128,9 +2094,7 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59,
-        "w": 1472,
-        "h": 872
+        "y": 59
     },
     {
         "id": "1b162d57908931b5",
@@ -2230,9 +2194,7 @@
             "d5b941e2a96bbfa3"
         ],
         "x": 1554,
-        "y": 19,
-        "w": 1722,
-        "h": 832
+        "y": 19
     },
     {
         "id": "26fe5463b2ea6acd",
@@ -2257,9 +2219,7 @@
             "3e1f18e73ad342b7"
         ],
         "x": 94,
-        "y": 779,
-        "w": 1202,
-        "h": 152
+        "y": 779
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2334,9 +2294,7 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949,
-        "w": 1742,
-        "h": 362
+        "y": 949
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2359,9 +2317,7 @@
             "db8a2cdc8a7c8fb0"
         ],
         "x": 804,
-        "y": 19,
-        "w": 712,
-        "h": 502
+        "y": 19
     },
     {
         "id": "9d8df5b4f6b8aaf2",
@@ -2413,9 +2369,7 @@
             "8b4d36053dc5b2b5"
         ],
         "x": 34,
-        "y": 19,
-        "w": 742,
-        "h": 732
+        "y": 19
     },
     {
         "id": "4e67a9385d518b82",
@@ -2454,9 +2408,7 @@
             "38705d0965924c63"
         ],
         "x": 2314,
-        "y": 19,
-        "w": 772,
-        "h": 602
+        "y": 19
     },
     {
         "id": "80e529568099f818",
@@ -2471,7 +2423,9 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319
+        "y": 319,
+        "w": 262,
+        "h": 82
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2490,9 +2444,7 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 709,
-        "w": 772,
-        "h": 82
+        "y": 709
     },
     {
         "id": "47c7e078aa019952",
@@ -2511,9 +2463,7 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 104,
-        "y": 519,
-        "w": 812,
-        "h": 82
+        "y": 519
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2565,9 +2515,7 @@
             "cf314147286d26d5"
         ],
         "x": 64,
-        "y": 541.5,
-        "w": 1002,
-        "h": 299.5
+        "y": 541.5
     },
     {
         "id": "13d2193b2dc0f18d",
@@ -2590,9 +2538,7 @@
             "11e3cb104578d0fe"
         ],
         "x": 64,
-        "y": 409,
-        "w": 1192,
-        "h": 122
+        "y": 409
     },
     {
         "id": "498c1a6f5f418d4d",
@@ -2631,9 +2577,7 @@
             "0858807b8a145e7e"
         ],
         "x": 64,
-        "y": 159,
-        "w": 2242,
-        "h": 242
+        "y": 159
     },
     {
         "id": "4c83aa9822cc63bb",
@@ -2650,9 +2594,7 @@
             "61ed79f83de77405"
         ],
         "x": 64,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "b75b4b5233e4eb65",
@@ -2696,7 +2638,9 @@
             "05aa201180649b16"
         ],
         "x": 34,
-        "y": 409
+        "y": 409,
+        "w": 842,
+        "h": 182
     },
     {
         "id": "64cc751322ef5934",
@@ -2720,9 +2664,7 @@
             "a268c6438f8a7858"
         ],
         "x": 154,
-        "y": 39,
-        "w": 552,
-        "h": 242
+        "y": 39
     },
     {
         "id": "38e22d287129a8ea",
@@ -2746,9 +2688,7 @@
             "8e8519153dd1d5b1"
         ],
         "x": 154,
-        "y": 289,
-        "w": 552,
-        "h": 242
+        "y": 289
     },
     {
         "id": "750dd829ec7858d9",
@@ -2772,9 +2712,7 @@
             "8704fb9191b3c44d"
         ],
         "x": 154,
-        "y": 539,
-        "w": 552,
-        "h": 242
+        "y": 539
     },
     {
         "id": "ea89d8ce08984fd2",
@@ -2798,9 +2736,7 @@
             "0037d0d2bc04a4e0"
         ],
         "x": 154,
-        "y": 789,
-        "w": 552,
-        "h": 242
+        "y": 789
     },
     {
         "id": "4bd44e626bbf406c",
@@ -2824,9 +2760,7 @@
             "4d57b96fde22f032"
         ],
         "x": 154,
-        "y": 1039,
-        "w": 552,
-        "h": 242
+        "y": 1039
     },
     {
         "id": "a7308af0919f6403",
@@ -2850,9 +2784,7 @@
             "b3664ef992bce9bb"
         ],
         "x": 154,
-        "y": 1299,
-        "w": 552,
-        "h": 242
+        "y": 1299
     },
     {
         "id": "a1277f9ddcd91b3f",
@@ -2874,9 +2806,7 @@
             "492f8b6865dad046"
         ],
         "x": 154,
-        "y": 1559,
-        "w": 552,
-        "h": 242
+        "y": 1559
     },
     {
         "id": "67a470604f7a755b",
@@ -2898,9 +2828,7 @@
             "d6c13c7a5de39416"
         ],
         "x": 154,
-        "y": 1819,
-        "w": 552,
-        "h": 242
+        "y": 1819
     },
     {
         "id": "a23f5a3789f2ca13",
@@ -2922,9 +2850,7 @@
             "140bcd1b6259e44e"
         ],
         "x": 154,
-        "y": 2079,
-        "w": 552,
-        "h": 242
+        "y": 2079
     },
     {
         "id": "657e2074.735a3",
@@ -3121,9 +3047,7 @@
             "5c6c269da4720bd1"
         ],
         "x": 104,
-        "y": 589,
-        "w": 1182,
-        "h": 202
+        "y": 589
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3870,7 +3794,7 @@
     {
         "id": "85d5763f.045ac8",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura SCP1",
@@ -3963,7 +3887,7 @@
     {
         "id": "22187e2f.9cc252",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster6",
@@ -4293,7 +4217,7 @@
     {
         "id": "c91ced06.36697",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster1",
@@ -4623,7 +4547,7 @@
     {
         "id": "142e843a.d193dc",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster2",
@@ -4953,7 +4877,7 @@
     {
         "id": "cf0ff6d3.44eb48",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster3",
@@ -5283,7 +5207,7 @@
     {
         "id": "156aac7a.4ced64",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster4",
@@ -5613,7 +5537,7 @@
     {
         "id": "10df86fc.ea6c49",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster5",
@@ -5943,7 +5867,7 @@
     {
         "id": "13e2de8b.8b4d71",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster7",
@@ -6273,7 +6197,7 @@
     {
         "id": "fc2fa41.df31058",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster8",
@@ -6603,7 +6527,7 @@
     {
         "id": "1a87133f.85b96d",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster9",
@@ -6933,7 +6857,7 @@
     {
         "id": "98638e25.bf675",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos",
@@ -7026,7 +6950,7 @@
     {
         "id": "64765732.d2c008",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia",
@@ -7065,7 +6989,7 @@
     {
         "id": "7ab6ab16.b6db44",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Elect_Cluster",
@@ -7212,7 +7136,7 @@
     {
         "id": "1cc6e030.40038",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "CCP",
@@ -7255,7 +7179,7 @@
     {
         "id": "817c8033.98df9",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "ANALOG INPUT",
@@ -7287,7 +7211,7 @@
     {
         "id": "a00b93d2e424ac4e",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Eventos",
@@ -8055,7 +7979,7 @@
     {
         "id": "15f69da2533413eb",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Alarmas",
@@ -9631,7 +9555,7 @@
     {
         "id": "5b6ea19cad9ae739",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster11",
@@ -9952,7 +9876,7 @@
     {
         "id": "d3d35ba1ab4a64ef",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP12",
@@ -10273,7 +10197,7 @@
     {
         "id": "fefb6112361aa785",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP13",
@@ -10594,7 +10518,7 @@
     {
         "id": "ad34f7b393441a0e",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP14",
@@ -10915,7 +10839,7 @@
     {
         "id": "da18e730fe442b60",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP15",
@@ -11236,7 +11160,7 @@
     {
         "id": "f9b80009a7e932a4",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP16",
@@ -11557,7 +11481,7 @@
     {
         "id": "2525cff1c1dc9074",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP17",
@@ -11878,7 +11802,7 @@
     {
         "id": "97d45cc155f45f9b",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP18",
@@ -12259,7 +12183,7 @@
     {
         "id": "268c0c4d447aa4c7",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia CLUSTER2",
@@ -12298,7 +12222,7 @@
     {
         "id": "27b7293be00c4c3d",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia Cluster ",
@@ -12337,7 +12261,7 @@
     {
         "id": "335779cd65870ad7",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Referencia RPM",
@@ -12376,7 +12300,7 @@
     {
         "id": "1d3f8552365f7228",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos CLUSTER2",
@@ -12469,7 +12393,7 @@
     {
         "id": "96f1a469e6be7df5",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Confirmacion escritura",
@@ -12508,7 +12432,7 @@
     {
         "id": "7d3dc82b6aad9166",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Habilitar disparo de pozo",
@@ -12585,7 +12509,7 @@
     {
         "id": "d3a6ac1024bb182d",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Shutdown",
@@ -12636,7 +12560,7 @@
     {
         "id": "2a41a00be7f37a48",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Estatus Shutdown",
@@ -12928,7 +12852,7 @@
     {
         "id": "840b5464d21970fd",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Status_COM_HMI_PLC",
@@ -12943,7 +12867,7 @@
     {
         "id": "9672b85c4451585b",
         "type": "eth-ip endpoint",
-        "address": "20.0.51.18",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Status_COM_HMI_PLC",
@@ -14638,7 +14562,6 @@
         "id": "e173641d.7e7c38",
         "type": "eth-ip in",
         "z": "c8989d0a.49ea8",
-        "d": true,
         "g": "a0798509.56f3c8",
         "endpoint": "fc2fa41.df31058",
         "mode": "all",
@@ -14648,14 +14571,15 @@
         "x": 110,
         "y": 410,
         "wires": [
-            []
+            [
+                "5c6293f5.b173ac"
+            ]
         ]
     },
     {
         "id": "b34b9630.1b9f88",
         "type": "eth-ip in",
         "z": "c8989d0a.49ea8",
-        "d": true,
         "g": "a0798509.56f3c8",
         "endpoint": "1a87133f.85b96d",
         "mode": "all",
@@ -14665,7 +14589,9 @@
         "x": 110,
         "y": 460,
         "wires": [
-            []
+            [
+                "5c6293f5.b173ac"
+            ]
         ]
     },
     {
@@ -25303,7 +25229,7 @@
                 "type": "str"
             },
             {
-                "label": "CILA2S®",
+                "label": "CILA2S® 5G",
                 "value": "CILA2S",
                 "type": "str"
             },
@@ -39889,7 +39815,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00240 manifold",
                 "tot": "str"
             },
             {
@@ -39974,7 +39900,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-00960 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00240 manifold",
                 "tot": "str"
             },
             {
@@ -40023,7 +39949,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00240",
                 "tot": "str"
             },
             {
@@ -40107,7 +40033,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00960",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00240",
                 "tot": "str"
             },
             {
@@ -40205,7 +40131,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40280,7 +40206,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-00960 manifold normalizado",
+                "to": "Transmisor de presión PT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40364,7 +40290,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-00960 manifold normalizado",
+                "to": "Transmisor de presión PT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -40413,7 +40339,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-00960 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-00240 Manifold",
                 "tot": "str"
             },
             {
@@ -40497,7 +40423,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-00960 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-00240 Manifold",
                 "tot": "str"
             }
         ],
@@ -40532,7 +40458,7 @@
         "type": "udp out",
         "z": "e521d174e7104ca1",
         "name": "",
-        "addr": "20.0.51.19",
+        "addr": "20.0.50.55",
         "iface": "",
         "port": "5505",
         "ipv": "udp4",
@@ -41387,7 +41313,7 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "ESP Status - SCP",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\",\"memoryOnly\");\nif(Estado_VSD == 0)\n    msg.Detenido = \"BES DETENIDA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"BES EN MARCHA\";\nelse if(Estado_VSD == 2)\n    msg.Alarma = \"BES EN ALARMA\";\nelse if(Estado_VSD == 3)\n    msg.Falla = \"BES EN FALLA\";\nelse if(Estado_VSD == 4)\n    msg.Comunicacion = \"BES FALLA COMUNICACION\";\nelse if(Estado_VSD == 5)\n    msg.Apagado = \"BES APAGADO\";\nelse\n    msg.Nodisp = \"BES NO DISPONIBLE\";\n\nreturn msg;",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\",\"memoryOnly\");\nif(Estado_VSD == 0)\n    msg.Detenido = \"BES EN MARCHA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"BES DETENIDA\";\nelse if(Estado_VSD == 2)\n    msg.Alarma = \"BES EN ALARMA\";\nelse if(Estado_VSD == 3)\n    msg.Falla = \"BES EN FALLA\";\nelse if(Estado_VSD == 4)\n    msg.Comunicacion = \"BES FALLA COMUNICACION\";\nelse if(Estado_VSD == 5)\n    msg.Apagado = \"BES APAGADO\";\nelse\n    msg.Nodisp = \"BES NO DISPONIBLE\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -41429,7 +41355,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-primary\">{{Nodisp}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Apagado}}</span></h6>\n\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-primary\">{{Nodisp}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Apagado}}</span></h6>\n\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 710,
         "y": 180,
@@ -45722,7 +45648,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0096</center></b></h1>\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0024</center></b></h1>\n</body>\n\n</html>",
         "output": "str",
         "x": 270,
         "y": 410,
@@ -46404,7 +46330,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00961</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00241</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 200,
@@ -46445,7 +46371,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00961</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00241</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 240,
@@ -46622,7 +46548,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00962</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00242</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 450,
@@ -46642,7 +46568,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00962</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00242</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 490,
@@ -46840,7 +46766,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00963</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00243</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 700,
@@ -46860,7 +46786,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00963</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00243</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 740,
@@ -47058,7 +46984,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00964</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00244</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 950,
@@ -47078,7 +47004,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00964</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00244</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 990,
@@ -47276,7 +47202,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00965</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00245</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1200,
@@ -47296,7 +47222,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00965</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00245</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1240,
@@ -47494,7 +47420,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00966</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00246</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1460,
@@ -47514,7 +47440,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00966</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00246</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1500,
@@ -47712,7 +47638,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-TT-00967</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-TT-00247</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1720,
@@ -47732,7 +47658,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0096-PT-00967</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00247</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 360,
         "y": 1760,
@@ -48099,12 +48025,12 @@
         "type": "template",
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
-        "name": "SCP 4",
+        "name": "PIT",
         "field": "payload",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-PT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0024-PT-00240</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 100,
@@ -48161,12 +48087,12 @@
         "type": "template",
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
-        "name": "SCP 4",
+        "name": "FIT",
         "field": "payload",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0383-FIT-03830</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0024-FIT-00240</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 270,
         "y": 260,
@@ -48771,7 +48697,7 @@
         "z": "c8989d0a.49ea8",
         "g": "657e2074.735a3",
         "name": "",
-        "func": "var Comandos = global.get(\"Comandos\", \"memoryOnly\") || [];\nvar SCP = global.get(\"SCP\", \"memoryOnly\") || [];\n\nvar Arranque = [], Parada = [], Reset = [];\n\nArranque[SCP] = Comandos[SCP].Arranque_Remoto_PD;\nParada[SCP] = Comandos[SCP].Parada_Remota_PD;\nReset[SCP] = Comandos[SCP].Reset_Remoto_PD;\nswitch (SCP) {\n      case 0:\n            var day = \"--\";\n            break;\n\n      case 1:\n\n            var msg0 = { payload: Arranque[1] };\n            var msg1 = { payload: Parada[1] };\n            var msg2 = { payload: Reset[1] };\n            break;\n      case 2:\n\n            var msg3 = { payload: Arranque[2] };\n            var msg4 = { payload: Parada[2] };\n            var msg5 = { payload: Reset[2] };\n            break;\n\n      case 3:\n\n            var msg6 = { payload: Arranque[3] };\n            var msg7 = { payload: Parada[3] };\n            var msg8 = { payload: Reset[3] };\n            break;\n\n      case 4:\n\n            var msg9 = { payload: Arranque[4] };\n            var msg10 = { payload: Parada[4] };\n            var msg11 = { payload: Reset[4] };\n            break;\n\n      case 5:\n\n            var msg12 = { payload: Reset[5] };\n            var msg13 = { payload: Arranque[5] };\n            var msg14 = { payload: Parada[5] };\n            break;\n\n      case 6:\n\n            var msg15 = { payload: Reset[6] };\n            var msg16 = { payload: Arranque[6] };\n            var msg17 = { payload: Parada[6] };\n            break;\n\n      case 7:\n            var msg18 = { payload: Reset[7] };\n            var msg19 = { payload: Arranque[7] };\n            var msg20 = { payload: Parada[7] };\n            break;\n\n      case 8:\n\n            var msg21 = { payload: Reset[8] };\n            var msg22 = { payload: Arranque[8] };\n            var msg23 = { payload: Parada[8] };\n            break;\n\n      case 9:\n\n            var msg24 = { payload: Reset[9] };\n            var msg25 = { payload: Arranque[9] };\n            var msg26 = { payload: Parada[9] };\n}\n\nreturn [msg0, msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg12, msg13, msg14, msg15, msg16, msg17, msg18, msg19, msg20, msg21, msg22, msg23, msg24, msg25, msg26];",
+        "func": "var Comandos = global.get(\"Comandos\", \"memoryOnly\") || [];\nvar SCP = global.get(\"SCP\", \"memoryOnly\") || [];\n\nvar Arranque = [], Parada = [], Reset = [];\n\nArranque[SCP] = Comandos[SCP].Arranque_Remoto_PD;\nParada[SCP] = Comandos[SCP].Parada_Remota_PD;\nReset[SCP] = Comandos[SCP].Reset_Remoto_PD;\nswitch (SCP) {\n      case 0:\n            var day = \"--\";\n            break;\n\n      case 1:\n            var msg0 = { payload: Arranque[1] };\n            var msg1 = { payload: Parada[1] };\n            var msg2 = { payload: Reset[1] };\n            break;\n      case 2:\n            var msg3 = { payload: Arranque[2] };\n            var msg4 = { payload: Parada[2] };\n            var msg5 = { payload: Reset[2] };\n            break;\n\n      case 3:\n            var msg6 = { payload: Arranque[3] };\n            var msg7 = { payload: Parada[3] };\n            var msg8 = { payload: Reset[3] };\n            break;\n\n      case 4:\n            var msg9 = { payload: Arranque[4] };\n            var msg10 = { payload: Parada[4] };\n            var msg11 = { payload: Reset[4] };\n            break;\n\n      case 5:\n            var msg12 = { payload: Arranque[5] };\n            var msg13 = { payload: Parada[5] };\n            var msg14 = { payload: Reset[5] };\n            break;\n\n      case 6:\n            var msg15 = { payload: Arranque[6] };\n            var msg16 = { payload: Parada[6] };\n            var msg17 = { payload: Reset[6] };\n            break;\n\n      case 7:\n            var msg18 = { payload: Arranque[7] };\n            var msg19 = { payload: Parada[7] };\n            var msg20 = { payload: Reset[7] };\n            break;\n\n      case 8:\n\n            var msg21 = { payload: Arranque[8] };\n            var msg22 = { payload: Parada[8] };\n            var msg23 = { payload: Reset[8] };\n            break;\n\n      case 9:\n\n            var msg24 = { payload: Arranque[9] };\n            var msg25 = { payload: Parada[9] };\n            var msg26 = { payload: Reset[9] };\n}\n\nreturn [msg0, msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg11, msg12, msg13, msg14, msg15, msg16, msg17, msg18, msg19, msg20, msg21, msg22, msg23, msg24, msg25, msg26];",
         "outputs": 27,
         "noerr": 0,
         "initialize": "",
@@ -48834,33 +48760,15 @@
             [
                 "932b0db5.b3daa"
             ],
-            [
-                "2bf7ce89.c48ff2"
-            ],
-            [
-                "95c6abd4.4862d8"
-            ],
-            [
-                "7998e18f.da1ef"
-            ],
-            [
-                "ac4b1a1d.2a0158"
-            ],
-            [
-                "3851f53d.72a3ea"
-            ],
-            [
-                "57de4f88.31f6f"
-            ],
-            [
-                "de245ad1.e52908"
-            ],
-            [
-                "a86fabcb.194488"
-            ],
-            [
-                "a4fc6f8.fdca09"
-            ]
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -48891,7 +48799,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-00960 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
