@@ -788,9 +788,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -822,9 +820,7 @@
             "0db3231e87512499"
         ],
         "x": 78,
-        "y": 299,
-        "w": 1234,
-        "h": 518
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -840,9 +836,7 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13,
-        "w": 1854,
-        "h": 224
+        "y": 13
     },
     {
         "id": "c58d9126.1869c",
@@ -887,9 +881,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -923,9 +915,7 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19,
-        "w": 432,
-        "h": 962
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -1011,9 +1001,7 @@
             "b2b70770f04451e4"
         ],
         "x": 1004,
-        "y": 19,
-        "w": 732,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1c17956307e44e29",
@@ -1050,9 +1038,7 @@
             "2dc0fe74d8d78397"
         ],
         "x": 84,
-        "y": 19,
-        "w": 692,
-        "h": 682
+        "y": 19
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1087,9 +1073,7 @@
             "44c3366262953ead"
         ],
         "x": 794,
-        "y": 19,
-        "w": 702,
-        "h": 682
+        "y": 19
     },
     {
         "id": "da4321a277ed136b",
@@ -1129,9 +1113,7 @@
             "b66f36a61ce00cc0"
         ],
         "x": 1514,
-        "y": 21.5,
-        "w": 742,
-        "h": 689.5
+        "y": 21.5
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1173,9 +1155,7 @@
             "fe0f305772eadaa5"
         ],
         "x": 94,
-        "y": 39,
-        "w": 592,
-        "h": 122
+        "y": 39
     },
     {
         "id": "1c7df9ba6cc1a3d4",
@@ -1264,9 +1244,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 829,
-        "w": 1052,
-        "h": 182
+        "y": 829
     },
     {
         "id": "53d376e89282424a",
@@ -1325,9 +1303,9 @@
             "88cdc40fe1b37fa5"
         ],
         "x": 104,
-        "y": 29,
+        "y": 21.5,
         "w": 652,
-        "h": 462
+        "h": 469.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1369,9 +1347,7 @@
             "84aff144b0f6a8ab"
         ],
         "x": 94,
-        "y": 179,
-        "w": 1282,
-        "h": 322
+        "y": 179
     },
     {
         "id": "916a665ce9bddd15",
@@ -1393,9 +1369,7 @@
             "8c284c7bfec72391"
         ],
         "x": 94,
-        "y": 509,
-        "w": 722,
-        "h": 162
+        "y": 509
     },
     {
         "id": "bc8cd5f1dc716592",
@@ -1503,9 +1477,9 @@
             "7ff2646d70c075ac"
         ],
         "x": 784,
-        "y": 29,
+        "y": 21.5,
         "w": 682,
-        "h": 462
+        "h": 469.5
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1540,9 +1514,9 @@
             "d4afa70e71dfe781"
         ],
         "x": 1494,
-        "y": 29,
+        "y": 21.5,
         "w": 672,
-        "h": 532
+        "h": 539.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1577,9 +1551,9 @@
             "3de8b0576878b726"
         ],
         "x": 2194,
-        "y": 29,
+        "y": 21.5,
         "w": 702,
-        "h": 532
+        "h": 539.5
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1627,9 +1601,7 @@
             "236bdf2185357ce8"
         ],
         "x": 94,
-        "y": 679,
-        "w": 2042,
-        "h": 232
+        "y": 679
     },
     {
         "id": "27d017f01b6dc239",
@@ -1672,9 +1644,7 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1744,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1727,9 +1697,7 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2504,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "2282018314ee7576",
@@ -1783,9 +1751,7 @@
             "9bf920288bfd3453"
         ],
         "x": 94,
-        "y": 919,
-        "w": 702,
-        "h": 182
+        "y": 919
     },
     {
         "id": "1f826a1bd0d089b5",
@@ -1828,9 +1794,7 @@
             "dc662dbf83f0e930"
         ],
         "x": 474,
-        "y": 1429,
-        "w": 492,
-        "h": 1642
+        "y": 1429
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1862,9 +1826,7 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 1019,
-        "w": 872,
-        "h": 402
+        "y": 1019
     },
     {
         "id": "2fc820d53f174088",
@@ -1899,9 +1861,7 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2104,
-        "y": 1149,
-        "w": 482,
-        "h": 622
+        "y": 1149
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1931,9 +1891,7 @@
             "51a95fddfc307309"
         ],
         "x": 994,
-        "y": 1019,
-        "w": 1132,
-        "h": 282
+        "y": 1019
     },
     {
         "id": "7d0f955071a4055a",
@@ -1967,9 +1925,7 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149,
-        "w": 832,
-        "h": 562
+        "y": 1149
     },
     {
         "id": "cff3928797d25d39",
@@ -2000,9 +1956,7 @@
             "75b2e87e6760a38b"
         ],
         "x": 3264,
-        "y": 19,
-        "w": 632,
-        "h": 922
+        "y": 19
     },
     {
         "id": "b06bbdd518536a01",
@@ -2301,9 +2255,7 @@
             "2b6a469ea59143dc"
         ],
         "x": 94,
-        "y": 1109,
-        "w": 742,
-        "h": 152
+        "y": 1109
     },
     {
         "id": "5b44b24d93b88118",
@@ -2456,9 +2408,7 @@
             "6e73086ba83af9ec"
         ],
         "x": 2264,
-        "y": 19,
-        "w": 772,
-        "h": 692
+        "y": 19
     },
     {
         "id": "80e529568099f818",
@@ -2494,9 +2444,7 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 719,
-        "w": 772,
-        "h": 82
+        "y": 719
     },
     {
         "id": "47c7e078aa019952",
@@ -2533,9 +2481,7 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999,
-        "w": 342,
-        "h": 82
+        "y": 999
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2569,9 +2515,7 @@
             "cf314147286d26d5"
         ],
         "x": 64,
-        "y": 541.5,
-        "w": 1002,
-        "h": 299.5
+        "y": 541.5
     },
     {
         "id": "13d2193b2dc0f18d",
@@ -2594,9 +2538,7 @@
             "11e3cb104578d0fe"
         ],
         "x": 64,
-        "y": 409,
-        "w": 1192,
-        "h": 122
+        "y": 409
     },
     {
         "id": "498c1a6f5f418d4d",
@@ -2635,9 +2577,7 @@
             "0858807b8a145e7e"
         ],
         "x": 64,
-        "y": 159,
-        "w": 2242,
-        "h": 242
+        "y": 159
     },
     {
         "id": "4c83aa9822cc63bb",
@@ -2654,9 +2594,7 @@
             "61ed79f83de77405"
         ],
         "x": 64,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "b75b4b5233e4eb65",
@@ -2678,9 +2616,7 @@
             "db4708faaa5ac7b5"
         ],
         "x": 94,
-        "y": 1279,
-        "w": 762,
-        "h": 152
+        "y": 1279
     },
     {
         "id": "fd043472d98f9c2f",
@@ -2693,17 +2629,15 @@
         "nodes": [
             "9d98a2129132376e",
             "197d21ec14a2be14",
-            "c51623889408d427",
-            "53d8091c95b2bb91",
             "1f632255cb1722ff",
             "1756efa5047ff391",
             "23cd048150c665a3",
             "4e7a6d85a6662864",
             "05aa201180649b16"
         ],
-        "x": 34,
+        "x": 44,
         "y": 409,
-        "w": 842,
+        "w": 832,
         "h": 182
     },
     {
@@ -2957,9 +2891,7 @@
             "c5614143.9411"
         ],
         "x": 474,
-        "y": 19,
-        "w": 522,
-        "h": 1402
+        "y": 19
     },
     {
         "id": "f1f3555028254919",
@@ -3081,9 +3013,7 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39,
-        "w": 902,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -3111,9 +3041,7 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 172
+        "y": 39
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3151,9 +3079,7 @@
             "5c6c269da4720bd1"
         ],
         "x": 104,
-        "y": 589,
-        "w": 1182,
-        "h": 202
+        "y": 589
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3770,7 +3696,7 @@
     {
         "id": "85d5763f.045ac8",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura SCP1",
@@ -3863,7 +3789,7 @@
     {
         "id": "22187e2f.9cc252",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster6",
@@ -4196,7 +4122,7 @@
     {
         "id": "c91ced06.36697",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster1",
@@ -4529,7 +4455,7 @@
     {
         "id": "142e843a.d193dc",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster2",
@@ -4862,7 +4788,7 @@
     {
         "id": "cf0ff6d3.44eb48",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster3",
@@ -5195,7 +5121,7 @@
     {
         "id": "156aac7a.4ced64",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster4",
@@ -5528,7 +5454,7 @@
     {
         "id": "10df86fc.ea6c49",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster5",
@@ -5861,7 +5787,7 @@
     {
         "id": "13e2de8b.8b4d71",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster7",
@@ -6194,7 +6120,7 @@
     {
         "id": "fc2fa41.df31058",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster8",
@@ -6527,7 +6453,7 @@
     {
         "id": "1a87133f.85b96d",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster9",
@@ -6860,7 +6786,7 @@
     {
         "id": "98638e25.bf675",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos",
@@ -6953,7 +6879,7 @@
     {
         "id": "64765732.d2c008",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia",
@@ -6992,7 +6918,7 @@
     {
         "id": "7ab6ab16.b6db44",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Elect_Cluster",
@@ -7139,7 +7065,7 @@
     {
         "id": "1cc6e030.40038",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "CCP",
@@ -7182,7 +7108,7 @@
     {
         "id": "817c8033.98df9",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "ANALOG INPUT",
@@ -7214,7 +7140,7 @@
     {
         "id": "a00b93d2e424ac4e",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Eventos",
@@ -7982,7 +7908,7 @@
     {
         "id": "15f69da2533413eb",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Alarmas",
@@ -9358,7 +9284,7 @@
     {
         "id": "5b6ea19cad9ae739",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "Cluster11",
@@ -9679,7 +9605,7 @@
     {
         "id": "d3d35ba1ab4a64ef",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP12",
@@ -10000,7 +9926,7 @@
     {
         "id": "fefb6112361aa785",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP13",
@@ -10321,7 +10247,7 @@
     {
         "id": "ad34f7b393441a0e",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP14",
@@ -10642,7 +10568,7 @@
     {
         "id": "da18e730fe442b60",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP15",
@@ -10963,7 +10889,7 @@
     {
         "id": "f9b80009a7e932a4",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP16",
@@ -11284,7 +11210,7 @@
     {
         "id": "2525cff1c1dc9074",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP17",
@@ -11605,7 +11531,7 @@
     {
         "id": "97d45cc155f45f9b",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "2500",
         "name": "SCP18",
@@ -11976,7 +11902,7 @@
     {
         "id": "268c0c4d447aa4c7",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia CLUSTER2",
@@ -12015,7 +11941,7 @@
     {
         "id": "27b7293be00c4c3d",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia Cluster ",
@@ -12054,7 +11980,7 @@
     {
         "id": "335779cd65870ad7",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Referencia RPM",
@@ -12093,7 +12019,7 @@
     {
         "id": "1d3f8552365f7228",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos CLUSTER2",
@@ -12186,7 +12112,7 @@
     {
         "id": "96f1a469e6be7df5",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Confirmacion escritura",
@@ -12225,7 +12151,7 @@
     {
         "id": "7d3dc82b6aad9166",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Habilitar disparo de pozo",
@@ -12292,7 +12218,7 @@
     {
         "id": "d3a6ac1024bb182d",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Shutdown",
@@ -12343,7 +12269,7 @@
     {
         "id": "2a41a00be7f37a48",
         "type": "eth-ip endpoint",
-        "address": "192.168.2.11",
+        "address": "20.0.50.54",
         "slot": "0",
         "cycletime": "500",
         "name": "Estatus Shutdown",
@@ -37867,7 +37793,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-00210 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00240 manifold",
                 "tot": "str"
             },
             {
@@ -37952,7 +37878,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica transmisor de presión PT-00210 manifold",
+                "to": "Falla de alimentación eléctrica transmisor de presión PT-00240 manifold",
                 "tot": "str"
             },
             {
@@ -38002,7 +37928,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00210",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00240",
                 "tot": "str"
             },
             {
@@ -38086,7 +38012,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00210",
+                "to": "Falla de alimentación eléctrica en transmisor de flujo FIT-00240",
                 "tot": "str"
             },
             {
@@ -38185,7 +38111,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-00210 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -38260,7 +38186,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-00210 manifold normalizado",
+                "to": "Transmisor de presión PT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -38344,7 +38270,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de presión PT-00210 manifold normalizado",
+                "to": "Transmisor de presión PT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
@@ -38393,7 +38319,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-00210 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-00240 Manifold",
                 "tot": "str"
             },
             {
@@ -38477,7 +38403,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Lógica de shutdown deshabilitada por falla en PT-00210 Manifold",
+                "to": "Lógica de shutdown deshabilitada por falla en PT-00240 Manifold",
                 "tot": "str"
             }
         ],
@@ -38961,7 +38887,7 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "pos",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\nvar Vibracion_X = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_X\", \"memoryOnly\") || 0;\nvar Vibracion_Y = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Y\", \"memoryOnly\") || 0;\nvar Vibracion_Z = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Z\", \"memoryOnly\") || 0;\n\n// Modo de control - Local/Remoto\nvar Control_Local_Remoto = global.get(\"Cluster.SCP\" + SCP + \".VSD.SpareInt4\", \"memoryOnly\");\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled },\n    { payload: catchdisabled(Vibracion_X, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Y, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Z, 2, \"G\"), enabled: enabled },\n    { payload: Control_Local_Remoto, enabled: enabled }\n    \n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\nvar Vibracion_X = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_X\", \"memoryOnly\") || 0;\nvar Vibracion_Y = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Y\", \"memoryOnly\") || 0;\nvar Vibracion_Z = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Z\", \"memoryOnly\") || 0;\nvar Vibraciones = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\n\n// Modo de control - Local/Remoto\nvar Control_Local_Remoto = global.get(\"Cluster.SCP\" + SCP + \".VSD.SpareInt4\", \"memoryOnly\");\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled },\n    { payload: catchdisabled(Vibracion_X, 2, \"G\"), enabled: enabled },\n    //{ payload: catchdisabled(Vibracion_Y, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibraciones, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Z, 2, \"G\"), enabled: enabled },\n    { payload: Control_Local_Remoto, enabled: enabled }\n    \n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
         "outputs": 23,
         "noerr": 0,
         "initialize": "",
@@ -44847,7 +44773,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00214</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h6><span class=\"badge badge-secondary\">CS-CASE0024-PT-00243</span></h6>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 370,
         "y": 740,
@@ -46189,11 +46115,11 @@
         "order": 7,
         "width": "3",
         "height": 2,
-        "name": "Vibracion eje Y",
-        "label": "Vibración Y",
+        "name": "Vibracion",
+        "label": "Vibración",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 590,
+        "x": 570,
         "y": 400,
         "wires": []
     },
@@ -46223,11 +46149,11 @@
         "order": 7,
         "width": "3",
         "height": 2,
-        "name": "Vibracion eje Y",
-        "label": "Vibración Y",
+        "name": "Vibracion",
+        "label": "Vibración ",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 1300,
+        "x": 1280,
         "y": 400,
         "wires": []
     },
@@ -46274,11 +46200,11 @@
         "order": 7,
         "width": "3",
         "height": 2,
-        "name": "Vibracion eje Y",
-        "label": "Vibración Y",
+        "name": "Vibracion",
+        "label": "Vibración ",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2000,
+        "x": 1980,
         "y": 400,
         "wires": []
     },
@@ -46325,11 +46251,11 @@
         "order": 7,
         "width": "3",
         "height": 2,
-        "name": "Vibracion eje Y",
-        "label": "Vibración Y",
+        "name": "Vibracion",
+        "label": "Vibración",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 2730,
+        "x": 2710,
         "y": 400,
         "wires": []
     },
@@ -46878,7 +46804,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Transmisor de flujo FIT-00210 manifold normalizado",
+                "to": "Transmisor de flujo FIT-00240 manifold normalizado",
                 "tot": "str"
             },
             {
