@@ -788,7 +788,9 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29
+        "y": 29,
+        "w": 812,
+        "h": 252
     },
     {
         "id": "2f18e23b.de32ce",
@@ -820,7 +822,9 @@
             "0db3231e87512499"
         ],
         "x": 78,
-        "y": 299
+        "y": 299,
+        "w": 1234,
+        "h": 528
     },
     {
         "id": "7b6f4b41.106164",
@@ -836,7 +840,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 224
     },
     {
         "id": "c58d9126.1869c",
@@ -881,7 +887,9 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "a0798509.56f3c8",
@@ -1197,7 +1205,9 @@
             "4f21a66cdc5abf28"
         ],
         "x": 14,
-        "y": 13
+        "y": 13,
+        "w": 1238,
+        "h": 1334
     },
     {
         "id": "6c7554a242bcd1a6",
@@ -1218,7 +1228,9 @@
             "683bbc40139c0fac"
         ],
         "x": 1294,
-        "y": 569
+        "y": 569,
+        "w": 872,
+        "h": 242
     },
     {
         "id": "ad1eed9908ed5e2a",
@@ -1244,7 +1256,9 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 829
+        "y": 829,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "53d376e89282424a",
@@ -1272,7 +1286,9 @@
             "0debf976b06e3a63"
         ],
         "x": 1294,
-        "y": 859
+        "y": 859,
+        "w": 1312,
+        "h": 242
     },
     {
         "id": "cd21ba46bdc44b70",
@@ -1303,9 +1319,7 @@
             "88cdc40fe1b37fa5"
         ],
         "x": 104,
-        "y": 21.5,
-        "w": 652,
-        "h": 469.5
+        "y": 21.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1400,7 +1414,9 @@
             "04b67cfaf68ce34c"
         ],
         "x": 1294,
-        "y": 359
+        "y": 359,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "4d8509ae5df6e2f9",
@@ -1447,7 +1463,9 @@
             "fc8b30aa16df9d26"
         ],
         "x": 1304,
-        "y": 9
+        "y": 9,
+        "w": 1382,
+        "h": 312
     },
     {
         "id": "f98bc2e0af73e621",
@@ -1477,9 +1495,7 @@
             "7ff2646d70c075ac"
         ],
         "x": 784,
-        "y": 21.5,
-        "w": 682,
-        "h": 469.5
+        "y": 21.5
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1514,9 +1530,7 @@
             "d4afa70e71dfe781"
         ],
         "x": 1494,
-        "y": 21.5,
-        "w": 672,
-        "h": 539.5
+        "y": 21.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1551,9 +1565,7 @@
             "3de8b0576878b726"
         ],
         "x": 2194,
-        "y": 21.5,
-        "w": 702,
-        "h": 539.5
+        "y": 21.5
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1826,7 +1838,9 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 1019
+        "y": 1019,
+        "w": 872,
+        "h": 402
     },
     {
         "id": "2fc820d53f174088",
@@ -1891,7 +1905,9 @@
             "51a95fddfc307309"
         ],
         "x": 994,
-        "y": 1019
+        "y": 1019,
+        "w": 1132,
+        "h": 282
     },
     {
         "id": "7d0f955071a4055a",
@@ -2463,9 +2479,7 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 104,
-        "y": 519,
-        "w": 812,
-        "h": 82
+        "y": 519
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -3013,7 +3027,9 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -3041,7 +3057,9 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 172
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3076,10 +3094,13 @@
             "e9a83abb606dc1a9",
             "e83ec346916a6a44",
             "75cd742c0d026972",
-            "5c6c269da4720bd1"
+            "5c6c269da4720bd1",
+            "e5d6c4b97367f488"
         ],
         "x": 104,
-        "y": 589
+        "y": 589,
+        "w": 1182,
+        "h": 212
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3203,7 +3224,9 @@
             "437520c765d815cd"
         ],
         "x": 354,
-        "y": 39
+        "y": 39,
+        "w": 812,
+        "h": 202
     },
     {
         "id": "a9302b21b3a7c502",
@@ -3224,7 +3247,9 @@
             "61dced0eece2974c"
         ],
         "x": 354,
-        "y": 259
+        "y": 259,
+        "w": 832,
+        "h": 162
     },
     {
         "id": "fc67f9d106ee5bd9",
@@ -3247,7 +3272,9 @@
             "ce97eb62a1366cdb"
         ],
         "x": 354,
-        "y": 439
+        "y": 439,
+        "w": 832,
+        "h": 202
     },
     {
         "id": "cdb98853e2a9e9bf",
@@ -3268,7 +3295,9 @@
             "6bf1019fee5cf90f"
         ],
         "x": 354,
-        "y": 659
+        "y": 659,
+        "w": 772,
+        "h": 162
     },
     {
         "id": "4f21a66cdc5abf28",
@@ -3304,7 +3333,9 @@
             "905b1b0d5d78ff65"
         ],
         "x": 334,
-        "y": 839
+        "y": 839,
+        "w": 892,
+        "h": 482
     },
     {
         "id": "cacd646bcfbdbb4d",
@@ -19875,7 +19906,7 @@
         "width": 5,
         "height": 1,
         "passthru": false,
-        "label": "Reinicio",
+        "label": "Reset",
         "tooltip": "",
         "color": "",
         "bgcolor": "grey",
@@ -19884,7 +19915,7 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 190,
+        "x": 180,
         "y": 750,
         "wires": [
             [
@@ -20173,7 +20204,8 @@
         "y": 750,
         "wires": [
             [
-                "ede56ecd.3a66e"
+                "ede56ecd.3a66e",
+                "e5d6c4b97367f488"
             ]
         ]
     },
@@ -21786,7 +21818,7 @@
         "z": "e997ba3b.48cc18",
         "g": "dbdbcfdd.62eb8",
         "name": "Arranque",
-        "func": "var NameClus = global.get(\"NameClus\",\"memoryOnly\")||\" \";\nmsg.payload = \"Arranque Pozo\" + \" \" + NameClus;\nreturn msg;",
+        "func": "var NameClus = global.get(\"NameClus\",\"memoryOnly\")||\" \";\nmsg.topic = \"Arranque\"\nmsg.payload = \"Arranque Pozo\" + \" \" + NameClus;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21806,7 +21838,7 @@
         "z": "e997ba3b.48cc18",
         "g": "dbdbcfdd.62eb8",
         "name": "Parada",
-        "func": "var NameClus = global.get(\"NameClus\",\"memoryOnly\")||\" \";\nmsg.payload = \"Parada Pozo\" + \" \" + NameClus;\nreturn msg;",
+        "func": "var NameClus = global.get(\"NameClus\",\"memoryOnly\")||\" \";\nmsg.topic = \"Parada\"\nmsg.payload = \"Parada Pozo\" + \" \" + NameClus;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -49249,5 +49281,25 @@
         "x": 2930,
         "y": 620,
         "wires": []
+    },
+    {
+        "id": "e5d6c4b97367f488",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "dbdbcfdd.62eb8",
+        "name": "Reset",
+        "func": "var NameClus = global.get(\"NameClus\",\"memoryOnly\")||\" \";\nmsg.topic = \"Reset\"\nmsg.payload = \"Reset Pozo\" + \" \" + NameClus;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 760,
+        "wires": [
+            [
+                "e83ec346916a6a44"
+            ]
+        ]
     }
 ]
