@@ -840,9 +840,7 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13,
-        "w": 1854,
-        "h": 224
+        "y": 13
     },
     {
         "id": "c58d9126.1869c",
@@ -865,7 +863,9 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579
+        "y": 579,
+        "w": 722,
+        "h": 192
     },
     {
         "id": "89dd768a.673f58",
@@ -966,7 +966,9 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59
+        "y": 59,
+        "w": 952,
+        "h": 502
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1046,7 +1048,9 @@
             "2dc0fe74d8d78397"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 692,
+        "h": 682
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1081,7 +1085,9 @@
             "44c3366262953ead"
         ],
         "x": 794,
-        "y": 19
+        "y": 19,
+        "w": 702,
+        "h": 682
     },
     {
         "id": "da4321a277ed136b",
@@ -1121,7 +1127,9 @@
             "b66f36a61ce00cc0"
         ],
         "x": 1514,
-        "y": 21.5
+        "y": 21.5,
+        "w": 742,
+        "h": 689.5
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1205,9 +1213,7 @@
             "4f21a66cdc5abf28"
         ],
         "x": 14,
-        "y": 13,
-        "w": 1238,
-        "h": 1334
+        "y": 13
     },
     {
         "id": "6c7554a242bcd1a6",
@@ -1228,9 +1234,7 @@
             "683bbc40139c0fac"
         ],
         "x": 1294,
-        "y": 569,
-        "w": 872,
-        "h": 242
+        "y": 569
     },
     {
         "id": "ad1eed9908ed5e2a",
@@ -1286,9 +1290,7 @@
             "0debf976b06e3a63"
         ],
         "x": 1294,
-        "y": 859,
-        "w": 1312,
-        "h": 242
+        "y": 859
     },
     {
         "id": "cd21ba46bdc44b70",
@@ -1414,9 +1416,7 @@
             "04b67cfaf68ce34c"
         ],
         "x": 1294,
-        "y": 359,
-        "w": 1052,
-        "h": 182
+        "y": 359
     },
     {
         "id": "4d8509ae5df6e2f9",
@@ -1463,9 +1463,7 @@
             "fc8b30aa16df9d26"
         ],
         "x": 1304,
-        "y": 9,
-        "w": 1382,
-        "h": 312
+        "y": 9
     },
     {
         "id": "f98bc2e0af73e621",
@@ -2036,7 +2034,9 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329
+        "y": 1329,
+        "w": 862,
+        "h": 982
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -2109,7 +2109,9 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59
+        "y": 59,
+        "w": 1472,
+        "h": 872
     },
     {
         "id": "1b162d57908931b5",
@@ -2309,7 +2311,9 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949
+        "y": 949,
+        "w": 1742,
+        "h": 362
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2424,7 +2428,9 @@
             "6e73086ba83af9ec"
         ],
         "x": 2264,
-        "y": 19
+        "y": 19,
+        "w": 772,
+        "h": 692
     },
     {
         "id": "80e529568099f818",
@@ -2460,7 +2466,9 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 719
+        "y": 719,
+        "w": 772,
+        "h": 82
     },
     {
         "id": "47c7e078aa019952",
@@ -3027,9 +3035,7 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39,
-        "w": 902,
-        "h": 162
+        "y": 39
     },
     {
         "id": "cf57802e.7d258",
@@ -3057,9 +3063,7 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39,
-        "w": 892,
-        "h": 172
+        "y": 39
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3224,9 +3228,7 @@
             "437520c765d815cd"
         ],
         "x": 354,
-        "y": 39,
-        "w": 812,
-        "h": 202
+        "y": 39
     },
     {
         "id": "a9302b21b3a7c502",
@@ -3247,9 +3249,7 @@
             "61dced0eece2974c"
         ],
         "x": 354,
-        "y": 259,
-        "w": 832,
-        "h": 162
+        "y": 259
     },
     {
         "id": "fc67f9d106ee5bd9",
@@ -3272,9 +3272,7 @@
             "ce97eb62a1366cdb"
         ],
         "x": 354,
-        "y": 439,
-        "w": 832,
-        "h": 202
+        "y": 439
     },
     {
         "id": "cdb98853e2a9e9bf",
@@ -3295,9 +3293,7 @@
             "6bf1019fee5cf90f"
         ],
         "x": 354,
-        "y": 659,
-        "w": 772,
-        "h": 162
+        "y": 659
     },
     {
         "id": "4f21a66cdc5abf28",
@@ -3333,9 +3329,7 @@
             "905b1b0d5d78ff65"
         ],
         "x": 334,
-        "y": 839,
-        "w": 892,
-        "h": 482
+        "y": 839
     },
     {
         "id": "cacd646bcfbdbb4d",
@@ -20944,7 +20938,7 @@
         "height": 2,
         "name": "Corriente de fuga",
         "label": "Corriente de fuga",
-        "format": "<font size =4px>{{msg.Vibracion}} mA",
+        "format": "<font size =4px>{{msg.Corriente_Fuga}} mA",
         "layout": "col-center",
         "x": 790,
         "y": 1260,
@@ -21242,7 +21236,7 @@
         "z": "e997ba3b.48cc18",
         "g": "d516d3f7ea6bbe72",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2)||\"-----\";\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\n//msg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\n//msg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\n//msg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\n//msg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\n//msg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\n//msg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\n//msg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\n//msg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\n// msg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\n// msg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\n// msg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\n// msg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\n// msg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Vibracion_X         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_X).toFixed(2);\n//msg.Vibracion_Y         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Y).toFixed(2);\nmsg.Vibracion_Z         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Z).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\n//msg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\n//msg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2)||\"-----\";\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\n//msg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\n//msg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\n//msg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\n//msg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\n//msg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\n//msg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\n//msg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\n//msg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\n// msg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\n// msg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\n// msg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\n// msg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\n// msg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Corriente_Fuga      = (Cluster[\"SCP\" + (SCP)].DHOLE.Corriente_Fuga).toFixed(2);\nmsg.Vibracion_X         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_X).toFixed(2);\nmsg.Vibracion_Z         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Z).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\n//msg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\n//msg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Referencia_Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Referencia_Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -27538,6 +27532,11 @@
                 "color": "yellow",
                 "value": "true",
                 "valueType": "bool"
+            },
+            {
+                "color": "blue",
+                "value": "aaaa",
+                "valueType": "str"
             }
         ],
         "allowColorForValueInMessage": false,
@@ -38919,7 +38918,7 @@
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "pos",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\nvar Vibracion_X = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_X\", \"memoryOnly\") || 0;\nvar Vibracion_Y = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Y\", \"memoryOnly\") || 0;\nvar Vibracion_Z = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Z\", \"memoryOnly\") || 0;\nvar Vibraciones = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\n\n// Modo de control - Local/Remoto\nvar Control_Local_Remoto = global.get(\"Cluster.SCP\" + SCP + \".VSD.SpareInt4\", \"memoryOnly\");\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled },\n    { payload: catchdisabled(Vibracion_X, 2, \"G\"), enabled: enabled },\n    //{ payload: catchdisabled(Vibracion_Y, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibraciones, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Z, 2, \"G\"), enabled: enabled },\n    { payload: Control_Local_Remoto, enabled: enabled }\n    \n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar disponible = global.get(\"Cluster[\" + (SCP - 1) + \"].Disponible\") || \"No\";\nvar enabled = disponible == \"No\" ? false : true;\nvar status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nvar stsmemory = global.get(\"Cluster.SCP\" + SCP + \".VSD.Disponible\",\"memoryOnly\")||false;\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\nif (!stsmemory) enabled = false;\n//\nvar Nombre_del_Pozo = SCP + \": \" + (global.get(\"Cluster[\" + (SCP - 1) + \"].Nombre\") || \"\");\n//\nvar Unidades = global.get(\"Cluster[\" + (SCP - 1) + \"].ALS\") || null;\nvar velocidad;\nif (enabled && status != 4) {\n    if (Unidades == \"ESP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.Referencia_Frecuencia\", \"memoryOnly\") || 0).toFixed(1) + \" \" + \"Hz\";\n    } else if (Unidades == \"PCP\") {\n        velocidad = (global.get(\"Cluster.SCP\" + SCP + \".VSD.RPM\", \"memoryOnly\") || 0).toFixed(0) + \" \" + \"RPM\";\n    }\n}\nelse velocidad = \"---\";\n\nvar led = enabled ? getAlert(status) : \"Deshabilitado\";\n// VSD\nvar corrienteVSD    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_VSD\", \"memoryOnly\") || 0;\nvar potenciaVSD     = global.get(\"Cluster.SCP\" + SCP + \".VSD.Potencia_Actual\", \"memoryOnly\") || 0;\nvar voltajeVSD      = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_VSD\", \"memoryOnly\") || 0;\nvar voltajeMotor    = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Motor\", \"memoryOnly\") || 0;\nvar corrienteMotor  = global.get(\"Cluster.SCP\" + SCP + \".VSD.Corriente_Motor\", \"memoryOnly\") || 0;\nvar BusDC           = global.get(\"Cluster.SCP\" + SCP + \".VSD.Voltaje_Bus_DC\", \"memoryOnly\") || 0;\n\n//Instrumentación\nvar THP         = global.get(\"Cluster.SCP\" + SCP + \".INST.THP_PIT_PV\", \"memoryOnly\") || 0;\nvar THT         = global.get(\"Cluster.SCP\" + SCP + \".INST.THT_TIT_PV\", \"memoryOnly\") || 0;\n\n// Fondo\nvar EngineTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Motor\", \"memoryOnly\") || 0;\nvar IntakeTemp  = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Entrada\", \"memoryOnly\") || 0;\nvar PIP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PIP\", \"memoryOnly\") || 0;\nvar PDP         = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.PDP\", \"memoryOnly\") || 0;\nvar DischTemp   = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Temperatura_Descarga\", \"memoryOnly\") || 0;\nvar GenVibra    = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\nvar Fuga        = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Corriente_Fuga\", \"memoryOnly\") || 0;\nvar Vibracion_X = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_X\", \"memoryOnly\") || 0;\nvar Vibracion_Y = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Y\", \"memoryOnly\") || 0;\nvar Vibracion_Z = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion_Eje_Z\", \"memoryOnly\") || 0;\nvar Vibraciones = global.get(\"Cluster.SCP\" + SCP + \".DHOLE.Vibracion\", \"memoryOnly\") || 0;\n\n// Modo de control - Local/Remoto\nvar Control_Local_Remoto = global.get(\"Cluster.SCP\" + SCP + \".VSD.SpareInt4\", \"memoryOnly\");\n\nreturn [\n    { payload: Nombre_del_Pozo, enabled: enabled },\n    { payload: disponible, enabled: enabled },\n    { payload: velocidad, enabled: enabled },\n    { payload: catchdisabled(voltajeVSD, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteVSD, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(potenciaVSD, 1,\"KW\"), enabled: enabled },\n    { payload: catchdisabled(voltajeMotor, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(corrienteMotor, 1,\"A\"), enabled: enabled },\n    { payload: catchdisabled(PIP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THP, 1,\"psi\"), enabled: enabled },\n    { payload: catchdisabled(THT, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(BusDC, 1,\"V\"), enabled: enabled },\n    { payload: catchdisabled(EngineTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(IntakeTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(GenVibra, 2,\"G\"), enabled: enabled },\n    { payload: catchdisabled(Fuga, 2,\"mA\"), enabled: enabled },\n    { payload: catchdisabled(DischTemp, 1,\"ºF\"), enabled: enabled },\n    { payload: catchdisabled(PDP, 0,\"psi\"), enabled: enabled },\n    { payload: Unidades, enabled: enabled },\n    { payload: catchdisabled(Vibracion_X, 2, \"G\"), enabled: enabled },\n    //{ payload: catchdisabled(Vibracion_Y, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibraciones, 2, \"G\"), enabled: enabled },\n    { payload: catchdisabled(Vibracion_Z, 2, \"G\"), enabled: enabled },\n    { payload: Control_Local_Remoto, enabled: enabled }\n    \n]\n\nfunction catchdisabled(variable, dec,units) {\n    return enabled && status != 4 ? (parseFloat(variable.toFixed(dec)) + \" \" + units) : \"---\";\n}\n\nfunction getAlert(estatus) {\n    var resp = \"\";\n    switch (estatus) {\n        case 0:\n            resp = \"Equipo operativo!\";\n            break;\n\n        case 1:\n            resp = \"Equipo detenido!\";\n            break;\n\n        case 2:\n            resp = \"VSD Alarma\";\n            break;\n\n        case 3:\n            resp = \"VSD Falla!\";\n            break;\n\n        case 4:\n            resp = \"VSD Falla COMM\";\n            break;\n\n        case 5:\n            resp = \"Equipo Apagado\";\n            break;\n\n        case 6:\n            resp = \"VSD Sin Tension\";\n            break;\n    }\n    return resp\n}",
         "outputs": 23,
         "noerr": 0,
         "initialize": "",
@@ -48798,7 +48797,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.1.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -48846,7 +48845,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.2.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -48894,7 +48893,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.3.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -48942,7 +48941,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.4.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -48990,7 +48989,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.5.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -49038,7 +49037,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.6.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -49106,7 +49105,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.7.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -49154,7 +49153,7 @@
         "type": "function",
         "z": "242bc9a6.f9b016",
         "name": "",
-        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.0.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
+        "func": "var Estado_VSD  = msg.payload;\nvar Nombre_Pozo = global.get(\"Cluster.8.Nombre\");\nvar Nombre_Cluster = global.get(\"Input.Clustername\");\n\nif (Estado_VSD == 2){\n    msg.estado = true;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en alarma\";\n    msg.topic = \"Alarma \" + Nombre_Cluster;\n}\nelse if (Estado_VSD == 3){\n    msg.estado = false;\n    msg.payload = \"Pozo \" + Nombre_Pozo + \" en falla\";\n    msg.topic = \"Falla \" + Nombre_Cluster;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
