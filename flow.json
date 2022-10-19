@@ -788,9 +788,7 @@
             "4904603f92adf9ef"
         ],
         "x": 54,
-        "y": 29,
-        "w": 812,
-        "h": 252
+        "y": 29
     },
     {
         "id": "2f18e23b.de32ce",
@@ -822,9 +820,7 @@
             "0db3231e87512499"
         ],
         "x": 78,
-        "y": 299,
-        "w": 1234,
-        "h": 528
+        "y": 299
     },
     {
         "id": "7b6f4b41.106164",
@@ -885,9 +881,7 @@
             "82f44a0478397706"
         ],
         "x": 904,
-        "y": 69,
-        "w": 662,
-        "h": 82
+        "y": 69
     },
     {
         "id": "a0798509.56f3c8",
@@ -921,7 +915,9 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -1007,7 +1003,9 @@
             "b2b70770f04451e4"
         ],
         "x": 1004,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "1c17956307e44e29",
@@ -1256,9 +1254,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 74,
-        "y": 829,
-        "w": 1052,
-        "h": 182
+        "y": 829
     },
     {
         "id": "53d376e89282424a",
@@ -1650,7 +1646,9 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1744,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1703,7 +1701,9 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2504,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1800,7 +1800,9 @@
             "dc662dbf83f0e930"
         ],
         "x": 474,
-        "y": 1429
+        "y": 1429,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "d516d3f7ea6bbe72",
@@ -1832,9 +1834,7 @@
             "933dd1c21cde4459"
         ],
         "x": 74,
-        "y": 1019,
-        "w": 872,
-        "h": 402
+        "y": 1019
     },
     {
         "id": "2fc820d53f174088",
@@ -1869,7 +1869,9 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2104,
-        "y": 1149
+        "y": 1149,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "bf3daf7cc69dc1e0",
@@ -1899,9 +1901,7 @@
             "51a95fddfc307309"
         ],
         "x": 994,
-        "y": 1019,
-        "w": 1132,
-        "h": 282
+        "y": 1019
     },
     {
         "id": "7d0f955071a4055a",
@@ -1935,7 +1935,9 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149
+        "y": 1149,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1966,7 +1968,9 @@
             "75b2e87e6760a38b"
         ],
         "x": 3264,
-        "y": 19
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2493,7 +2497,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2903,7 +2909,9 @@
             "c5614143.9411"
         ],
         "x": 474,
-        "y": 19
+        "y": 19,
+        "w": 522,
+        "h": 1402
     },
     {
         "id": "f1f3555028254919",
@@ -3092,9 +3100,7 @@
             "e5d6c4b97367f488"
         ],
         "x": 104,
-        "y": 589,
-        "w": 1182,
-        "h": 212
+        "y": 589
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3711,7 +3717,7 @@
     {
         "id": "85d5763f.045ac8",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura SCP1",
@@ -3804,10 +3810,10 @@
     {
         "id": "22187e2f.9cc252",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster6",
+        "cycletime": "1000",
+        "name": "Datos SCP6",
         "vartable": {
             "": {
                 "CLUSTER.W06.VSD.Disponible": {
@@ -4137,10 +4143,10 @@
     {
         "id": "c91ced06.36697",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster1",
+        "cycletime": "1000",
+        "name": "Datos SCP1",
         "vartable": {
             "": {
                 "CLUSTER.W01.VSD.Disponible": {
@@ -4470,10 +4476,10 @@
     {
         "id": "142e843a.d193dc",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster2",
+        "cycletime": "1000",
+        "name": "Datos SCP2",
         "vartable": {
             "": {
                 "CLUSTER.W02.VSD.Disponible": {
@@ -4803,10 +4809,10 @@
     {
         "id": "cf0ff6d3.44eb48",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster3",
+        "cycletime": "1000",
+        "name": "Datos SCP3",
         "vartable": {
             "": {
                 "CLUSTER.W03.VSD.Disponible": {
@@ -5136,10 +5142,10 @@
     {
         "id": "156aac7a.4ced64",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster4",
+        "cycletime": "1000",
+        "name": "Datos SCP4",
         "vartable": {
             "": {
                 "CLUSTER.W04.VSD.Disponible": {
@@ -5469,10 +5475,10 @@
     {
         "id": "10df86fc.ea6c49",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster5",
+        "cycletime": "1000",
+        "name": "Datos SCP5",
         "vartable": {
             "": {
                 "CLUSTER.W05.VSD.Disponible": {
@@ -5802,10 +5808,10 @@
     {
         "id": "13e2de8b.8b4d71",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster7",
+        "cycletime": "1000",
+        "name": "Datos SCP7",
         "vartable": {
             "": {
                 "CLUSTER.W07.VSD.Disponible": {
@@ -6135,10 +6141,10 @@
     {
         "id": "fc2fa41.df31058",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster8",
+        "cycletime": "1000",
+        "name": "Datos SCP8",
         "vartable": {
             "": {
                 "CLUSTER.W08.VSD.Disponible": {
@@ -6468,10 +6474,10 @@
     {
         "id": "1a87133f.85b96d",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster9",
+        "cycletime": "1000",
+        "name": "Datos SCP9",
         "vartable": {
             "": {
                 "CLUSTER.W09.VSD.Disponible": {
@@ -6801,7 +6807,7 @@
     {
         "id": "98638e25.bf675",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos",
@@ -6894,7 +6900,7 @@
     {
         "id": "64765732.d2c008",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia",
@@ -6933,7 +6939,7 @@
     {
         "id": "7ab6ab16.b6db44",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Elect_Cluster",
@@ -7080,7 +7086,7 @@
     {
         "id": "1cc6e030.40038",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "CCP",
@@ -7123,7 +7129,7 @@
     {
         "id": "817c8033.98df9",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "ANALOG INPUT",
@@ -7155,7 +7161,7 @@
     {
         "id": "a00b93d2e424ac4e",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Eventos",
@@ -7923,7 +7929,7 @@
     {
         "id": "15f69da2533413eb",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Alarmas",
@@ -9299,10 +9305,10 @@
     {
         "id": "5b6ea19cad9ae739",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "Cluster11",
+        "cycletime": "1000",
+        "name": "Datos SCP11",
         "vartable": {
             "": {
                 "CLUSTER2.W01.VSD.Disponible": {
@@ -9620,10 +9626,10 @@
     {
         "id": "d3d35ba1ab4a64ef",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP12",
+        "cycletime": "1000",
+        "name": "Datos SCP12",
         "vartable": {
             "": {
                 "CLUSTER2.W02.VSD.Disponible": {
@@ -9941,10 +9947,10 @@
     {
         "id": "fefb6112361aa785",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP13",
+        "cycletime": "1000",
+        "name": "Datos SCP13",
         "vartable": {
             "": {
                 "CLUSTER2.W03.VSD.Disponible": {
@@ -10262,10 +10268,10 @@
     {
         "id": "ad34f7b393441a0e",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP14",
+        "cycletime": "1000",
+        "name": "Datos SCP14",
         "vartable": {
             "": {
                 "CLUSTER2.W04.VSD.Disponible": {
@@ -10583,10 +10589,10 @@
     {
         "id": "da18e730fe442b60",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP15",
+        "cycletime": "1000",
+        "name": "Datos SCP15",
         "vartable": {
             "": {
                 "CLUSTER2.W05.VSD.Disponible": {
@@ -10904,10 +10910,10 @@
     {
         "id": "f9b80009a7e932a4",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP16",
+        "cycletime": "1000",
+        "name": "Datos SCP16",
         "vartable": {
             "": {
                 "CLUSTER2.W06.VSD.Disponible": {
@@ -11225,10 +11231,10 @@
     {
         "id": "2525cff1c1dc9074",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP17",
+        "cycletime": "1000",
+        "name": "Datos SCP17",
         "vartable": {
             "": {
                 "CLUSTER2.W07.VSD.Disponible": {
@@ -11546,10 +11552,10 @@
     {
         "id": "97d45cc155f45f9b",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
-        "cycletime": "2500",
-        "name": "SCP18",
+        "cycletime": "1000",
+        "name": "Datos SCP18",
         "vartable": {
             "": {
                 "CLUSTER2.W08.VSD.Disponible": {
@@ -11917,7 +11923,7 @@
     {
         "id": "268c0c4d447aa4c7",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia CLUSTER2",
@@ -11956,7 +11962,7 @@
     {
         "id": "27b7293be00c4c3d",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Escritura Referencia Cluster ",
@@ -11995,7 +12001,7 @@
     {
         "id": "335779cd65870ad7",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Referencia RPM",
@@ -12034,7 +12040,7 @@
     {
         "id": "1d3f8552365f7228",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Comandos CLUSTER2",
@@ -12127,7 +12133,7 @@
     {
         "id": "96f1a469e6be7df5",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Confirmacion escritura",
@@ -12166,7 +12172,7 @@
     {
         "id": "7d3dc82b6aad9166",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Habilitar disparo de pozo",
@@ -12233,7 +12239,7 @@
     {
         "id": "d3a6ac1024bb182d",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Shutdown",
@@ -12284,7 +12290,7 @@
     {
         "id": "2a41a00be7f37a48",
         "type": "eth-ip endpoint",
-        "address": "20.0.50.6",
+        "address": "192.168.2.249",
         "slot": "0",
         "cycletime": "500",
         "name": "Estatus Shutdown",
@@ -38459,14 +38465,14 @@
         "type": "udp out",
         "z": "e521d174e7104ca1",
         "name": "",
-        "addr": "20.0.50.7",
+        "addr": "192.168.2.248",
         "iface": "",
         "port": "5505",
         "ipv": "udp4",
         "outport": "",
         "base64": false,
         "multicast": "false",
-        "x": 300,
+        "x": 320,
         "y": 60,
         "wires": []
     },
@@ -38731,7 +38737,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "2",
+        "repeat": "1",
         "crontab": "",
         "once": true,
         "onceDelay": "10",
@@ -38774,7 +38780,8 @@
             "98fead114b7a360f",
             "fe94f576e0e423f9",
             "57c98bdbe3e5e015",
-            "bd69a1d2a9aacce2"
+            "bd69a1d2a9aacce2",
+            "42654a4eb86621e7"
         ],
         "x": 255,
         "y": 360,
@@ -38789,7 +38796,7 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://swcpro.local:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        //p.text(new Date().getDate() + '/' + (new Date().getMonth()+1) + '/' + new Date().getFullYear() + ', ' + new Date().getHours() + ':' +(new Date().getMinutes()>9 ?\n        //new Date().getMinutes() : ('0'+new Date().getMinutes()) ) + ':' + (new Date().getSeconds()>9 ? new Date().getSeconds() : ('0'+new Date().getSeconds()) ));\n        p.text(formatDate());\n        //p.text(new Date().toLocaleString());\n        }\n\n        function formatDate(){\n            var date = new Date(); var day = date.getDate(); var month = date.getMonth()+1; var year = date.getFullYear(); var hour = date.getHours(); var minutes = date.getMinutes();\n            if (month == 1) month = \"enero\"; if (month == 2) month = \"febrero\"; if (month == 3) month = \"marzo\"; if (month == 4) month = \"abril\"; if (month == 5) month = \"mayo\";\n            if (month == 6) month = \"junio\"; if (month == 7) month = \"julio\"; if (month == 8) month = \"agosto\"; if (month == 9) month = \"septiem.\"; if (month == 10) month = \"octubre\";\n            if (month == 11) month = \"noviem.\"; if (month == 12) month = \"diciem.\";\n            var stringdate = day + \" de \" + month + \" \" + year + \"; \" + hour + \":\" + (minutes < 10 ? (\"0\"+minutes) : minutes);\n            return stringdate;\n        }\n        \n        clockInterval = setInterval(displayTime, 10000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 5000);\n    });\n</script>",
+        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://AIC.local:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        //p.text(new Date().getDate() + '/' + (new Date().getMonth()+1) + '/' + new Date().getFullYear() + ', ' + new Date().getHours() + ':' +(new Date().getMinutes()>9 ?\n        //new Date().getMinutes() : ('0'+new Date().getMinutes()) ) + ':' + (new Date().getSeconds()>9 ? new Date().getSeconds() : ('0'+new Date().getSeconds()) ));\n        p.text(formatDate());\n        //p.text(new Date().toLocaleString());\n        }\n\n        function formatDate(){\n            var date = new Date(); var day = date.getDate(); var month = date.getMonth()+1; var year = date.getFullYear(); var hour = date.getHours(); var minutes = date.getMinutes();\n            if (month == 1) month = \"enero\"; if (month == 2) month = \"febrero\"; if (month == 3) month = \"marzo\"; if (month == 4) month = \"abril\"; if (month == 5) month = \"mayo\";\n            if (month == 6) month = \"junio\"; if (month == 7) month = \"julio\"; if (month == 8) month = \"agosto\"; if (month == 9) month = \"septiem.\"; if (month == 10) month = \"octubre\";\n            if (month == 11) month = \"noviem.\"; if (month == 12) month = \"diciem.\";\n            var stringdate = day + \" de \" + month + \" \" + year + \"; \" + hour + \":\" + (minutes < 10 ? (\"0\"+minutes) : minutes);\n            return stringdate;\n        }\n        \n        clockInterval = setInterval(displayTime, 10000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 5000);\n    });\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -43916,8 +43923,8 @@
         "raw": false,
         "topic": "",
         "name": "Notificación borde rojo",
-        "x": 490,
-        "y": 650,
+        "x": 1140,
+        "y": 430,
         "wires": []
     },
     {
@@ -43934,8 +43941,8 @@
         "raw": false,
         "topic": "",
         "name": "Notificación borde verde",
-        "x": 500,
-        "y": 690,
+        "x": 1150,
+        "y": 470,
         "wires": []
     },
     {
@@ -43952,8 +43959,8 @@
         "raw": false,
         "topic": "",
         "name": "Notificación borde amarillo",
-        "x": 510,
-        "y": 730,
+        "x": 1160,
+        "y": 510,
         "wires": []
     },
     {
@@ -43969,8 +43976,8 @@
             "45742f679e69e5db",
             "b2af28289ff3e9bc"
         ],
-        "x": 355,
-        "y": 650,
+        "x": 1005,
+        "y": 430,
         "wires": [
             [
                 "7ecaa3f7e96aa7c9"
@@ -44024,8 +44031,8 @@
             "e83ec346916a6a44",
             "0db3231e87512499"
         ],
-        "x": 355,
-        "y": 690,
+        "x": 1005,
+        "y": 470,
         "wires": [
             [
                 "2c792793e7d5550b"
@@ -44042,8 +44049,8 @@
             "2e04301f0ad2bc1c",
             "4368c7074b5db11e"
         ],
-        "x": 355,
-        "y": 730,
+        "x": 1005,
+        "y": 510,
         "wires": [
             [
                 "33e2930d13a2ec2b"
@@ -49288,6 +49295,57 @@
         "wires": [
             [
                 "e83ec346916a6a44"
+            ]
+        ]
+    },
+    {
+        "id": "4190f47f5a6e20db",
+        "type": "udp out",
+        "z": "e521d174e7104ca1",
+        "name": "",
+        "addr": "192.168.2.248",
+        "iface": "",
+        "port": "5507",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 360,
+        "y": 630,
+        "wires": []
+    },
+    {
+        "id": "b84f1a7217e0574e",
+        "type": "function",
+        "z": "e521d174e7104ca1",
+        "name": "",
+        "func": "var User_Status = global.get(\"UserStatus\",\"memoryOnly\");\n\nif (User_Status == 0) {\n    msg.payload = \"Usuario Ninguno\";\n}\n\nelse if (User_Status == 1){\n    msg.payload = \"Usuario Admin\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 630,
+        "wires": [
+            [
+                "4190f47f5a6e20db"
+            ]
+        ]
+    },
+    {
+        "id": "42654a4eb86621e7",
+        "type": "link in",
+        "z": "e521d174e7104ca1",
+        "name": "",
+        "links": [
+            "87857b683465f57d"
+        ],
+        "x": 65,
+        "y": 630,
+        "wires": [
+            [
+                "b84f1a7217e0574e"
             ]
         ]
     }
