@@ -756,10 +756,8 @@
             "3ccbaa0b.2db096",
             "8531d637ba42e7a9"
         ],
-        "x": 154,
-        "y": 519,
-        "w": 862,
-        "h": 132
+        "x": 94,
+        "y": 919
     },
     {
         "id": "73a228cd.9d45d8",
@@ -1305,7 +1303,9 @@
             "88cdc40fe1b37fa5"
         ],
         "x": 104,
-        "y": 21.5
+        "y": 21.5,
+        "w": 652,
+        "h": 469.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1477,7 +1477,9 @@
             "7ff2646d70c075ac"
         ],
         "x": 784,
-        "y": 21.5
+        "y": 21.5,
+        "w": 682,
+        "h": 469.5
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1512,7 +1514,9 @@
             "d4afa70e71dfe781"
         ],
         "x": 1494,
-        "y": 21.5
+        "y": 21.5,
+        "w": 672,
+        "h": 539.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1547,7 +1551,9 @@
             "3de8b0576878b726"
         ],
         "x": 2194,
-        "y": 21.5
+        "y": 21.5,
+        "w": 702,
+        "h": 539.5
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1703,10 +1709,6 @@
         },
         "nodes": [
             "ccb6f10d6c8566a3",
-            "61931b0384cfca67",
-            "a56341092d74dd48",
-            "c733a1aa977c67a7",
-            "cacd646bcfbdbb4d",
             "3b72bc49809933f3",
             "33025713e95850ab",
             "fde3563bd759beb6",
@@ -1719,8 +1721,8 @@
             "e5f9ddcd6e4f11fe",
             "0832a6b33e1f520c"
         ],
-        "x": 634,
-        "y": 119
+        "x": 604,
+        "y": 109
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -2359,7 +2361,11 @@
             "e37221e3efababac",
             "a13647535e0c20a6",
             "c18438482aa78cfc",
-            "8b4d36053dc5b2b5"
+            "8b4d36053dc5b2b5",
+            "e9b0367b60f42e9f",
+            "fd87bdba434bf152",
+            "dc0cb3408bd93b39",
+            "791a76d407a3444c"
         ],
         "x": 34,
         "y": 19
@@ -2417,9 +2423,7 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319,
-        "w": 262,
-        "h": 82
+        "y": 319
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2457,7 +2461,9 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 104,
-        "y": 519
+        "y": 519,
+        "w": 812,
+        "h": 82
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2628,9 +2634,7 @@
             "05aa201180649b16"
         ],
         "x": 44,
-        "y": 409,
-        "w": 832,
-        "h": 182
+        "y": 409
     },
     {
         "id": "64cc751322ef5934",
@@ -2923,10 +2927,49 @@
             "2afdb67869c04c3e",
             "f7b151e0ac44b22a"
         ],
-        "x": 124,
-        "y": 29,
-        "w": 1542,
-        "h": 332
+        "x": 94,
+        "y": 99
+    },
+    {
+        "id": "e9e743e8335d4487",
+        "type": "group",
+        "z": "aa547d69.9cb8e",
+        "name": "Reconexión Modbus TCP",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3a69c9f06a10d174",
+            "f2171731a54fc371"
+        ],
+        "x": 94,
+        "y": 9
+    },
+    {
+        "id": "1b48b0a68b3a0856",
+        "type": "group",
+        "z": "aa547d69.9cb8e",
+        "name": "Estado de interruptores del CCP",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "262b1365587ba0c5",
+            "8801529586341dec",
+            "4d4040200bd20d09",
+            "4909f16f1936181d",
+            "8110305fe69f15dc",
+            "cd8d1189f698d0e6",
+            "46a4b2098a5e7360",
+            "2b45f95feb030731",
+            "70102dda274db3c8",
+            "1d6d32e7c616488a",
+            "10b11a73f06ebe03",
+            "c03c98c593115010",
+            "e8630ac7031e0e07"
+        ],
+        "x": 94,
+        "y": 439
     },
     {
         "id": "eb91dac5.690838",
@@ -3307,24 +3350,6 @@
         "y": 839
     },
     {
-        "id": "cacd646bcfbdbb4d",
-        "type": "group",
-        "z": "496d98c4c50cacbb",
-        "g": "2282018314ee7576",
-        "name": "Eliminar las Imagenes",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "b845abf3cb6387ac",
-            "dd07e29916b7db6c",
-            "d11d9c8160729e7c",
-            "351eccb8791a5abd"
-        ],
-        "x": 874,
-        "y": 151.5
-    },
-    {
         "id": "5d3525bf.f7c05c",
         "type": "ui_base",
         "theme": {
@@ -3534,36 +3559,6 @@
         "order": 6,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "ee226df1.9537a",
-        "type": "ui_group",
-        "name": "CIRCUITO 1",
-        "tab": "55735b30.433a74",
-        "order": 4,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "9ad8c1e8.7c9",
-        "type": "ui_group",
-        "name": "CIRCUITO 2",
-        "tab": "55735b30.433a74",
-        "order": 5,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "4c82d8af.0c5498",
-        "type": "ui_group",
-        "name": "INTERRUPTORES",
-        "tab": "55735b30.433a74",
-        "order": 6,
-        "disp": true,
-        "width": "6",
-        "collapse": false
     },
     {
         "id": "9f770546.c22c38",
@@ -12805,7 +12800,7 @@
         "bufferCommands": true,
         "stateLogEnabled": false,
         "queueLogEnabled": false,
-        "tcpHost": "192.168.2.135",
+        "tcpHost": "192.168.2.213",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -12821,6 +12816,26 @@
         "reconnectOnTimeout": true,
         "reconnectTimeout": 2000,
         "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "2366e46641840803",
+        "type": "ui_group",
+        "name": "Estado de circuitos CCP",
+        "tab": "55735b30.433a74",
+        "order": 4,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "8f13c794af3beb1e",
+        "type": "ui_group",
+        "name": "Estado SDT",
+        "tab": "55735b30.433a74",
+        "order": 5,
+        "disp": false,
+        "width": "12",
+        "collapse": false
     },
     {
         "id": "e73d17ea.0c5538",
@@ -15190,7 +15205,9 @@
         "name": "Datos eléctricos clúster",
         "links": [
             "8531d637ba42e7a9",
-            "d4e4552a6e429ca2"
+            "d4e4552a6e429ca2",
+            "10b11a73f06ebe03",
+            "bf36fdd2bd3c67f0"
         ],
         "x": 2445,
         "y": 1460,
@@ -19534,8 +19551,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 610,
+        "x": 810,
+        "y": 1010,
         "wires": [
             []
         ]
@@ -19552,8 +19569,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 610,
-        "y": 610,
+        "x": 550,
+        "y": 1010,
         "wires": [
             [
                 "6c9ed5d3.e7799c"
@@ -19576,8 +19593,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 350,
-        "y": 610,
+        "x": 290,
+        "y": 1010,
         "wires": [
             [
                 "3ea5879e.bf0588"
@@ -19604,8 +19621,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 790,
-        "y": 560,
+        "x": 730,
+        "y": 960,
         "wires": [
             []
         ]
@@ -19620,8 +19637,8 @@
             "ad87cee4.7dbb5",
             "449b37406b29dc93"
         ],
-        "x": 275,
-        "y": 560,
+        "x": 215,
+        "y": 960,
         "wires": [
             [
                 "3ccbaa0b.2db096"
@@ -19648,8 +19665,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 390,
-        "y": 560,
+        "x": 330,
+        "y": 960,
         "wires": [
             []
         ]
@@ -19667,8 +19684,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 200,
+        "x": 320,
+        "y": 270,
         "wires": [
             [
                 "9a5e2769197ec091",
@@ -19699,8 +19716,8 @@
         "g": "f1f3555028254919",
         "name": "",
         "env": [],
-        "x": 230,
-        "y": 280,
+        "x": 200,
+        "y": 350,
         "wires": [
             []
         ]
@@ -19714,8 +19731,8 @@
         "links": [
             "bc99cf40ab6d6e51"
         ],
-        "x": 195,
-        "y": 610,
+        "x": 135,
+        "y": 1010,
         "wires": [
             [
                 "c8aa3a95.12b518"
@@ -19938,7 +19955,7 @@
         "ymin": "",
         "ymax": "",
         "removeOlder": "5",
-        "removeOlderPoints": "100",
+        "removeOlderPoints": "20",
         "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
@@ -26464,7 +26481,8 @@
         "y": 60,
         "wires": [
             [
-                "1acd74b8f94c62c5"
+                "1acd74b8f94c62c5",
+                "e9b0367b60f42e9f"
             ]
         ]
     },
@@ -33592,175 +33610,12 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 740,
-        "y": 200,
+        "x": 710,
+        "y": 190,
         "wires": [
             [
-                "b845abf3cb6387ac",
-                "61931b0384cfca67"
-            ]
-        ]
-    },
-    {
-        "id": "61931b0384cfca67",
-        "type": "delay",
-        "z": "496d98c4c50cacbb",
-        "g": "2282018314ee7576",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 750,
-        "y": 260,
-        "wires": [
-            [
-                "dd07e29916b7db6c",
-                "a56341092d74dd48"
-            ]
-        ]
-    },
-    {
-        "id": "a56341092d74dd48",
-        "type": "delay",
-        "z": "496d98c4c50cacbb",
-        "g": "2282018314ee7576",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 750,
-        "y": 320,
-        "wires": [
-            [
-                "d11d9c8160729e7c",
-                "c733a1aa977c67a7"
-            ]
-        ]
-    },
-    {
-        "id": "c733a1aa977c67a7",
-        "type": "delay",
-        "z": "496d98c4c50cacbb",
-        "g": "2282018314ee7576",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 750,
-        "y": 380,
-        "wires": [
-            [
-                "351eccb8791a5abd",
                 "f62465a51a146bc8"
             ]
-        ]
-    },
-    {
-        "id": "b845abf3cb6387ac",
-        "type": "exec",
-        "z": "496d98c4c50cacbb",
-        "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon120x120.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar 120 dashboard",
-        "x": 1010,
-        "y": 200,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "dd07e29916b7db6c",
-        "type": "exec",
-        "z": "496d98c4c50cacbb",
-        "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon192x192.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar 192 dashboard",
-        "x": 1010,
-        "y": 260,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "d11d9c8160729e7c",
-        "type": "exec",
-        "z": "496d98c4c50cacbb",
-        "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon64x64.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar 64 dashboard",
-        "x": 1000,
-        "y": 320,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "351eccb8791a5abd",
-        "type": "exec",
-        "z": "496d98c4c50cacbb",
-        "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/index.html",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar Index dashboard",
-        "x": 1010,
-        "y": 380,
-        "wires": [
-            [],
-            [],
-            []
         ]
     },
     {
@@ -33769,9 +33624,9 @@
         "z": "496d98c4c50cacbb",
         "g": "2282018314ee7576",
         "name": "Importante",
-        "info": "Tener Actualizado el folder de configuración.\ny en la ruta /home/bcpgrp/Documents",
-        "x": 740,
-        "y": 160,
+        "info": "Tener Actualizado el folder de configuración.\ny en la ruta /home/pi/Documents",
+        "x": 710,
+        "y": 150,
         "wires": []
     },
     {
@@ -33779,7 +33634,7 @@
         "type": "exec",
         "z": "496d98c4c50cacbb",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "sudo cp -r /home/pi/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /home/pi/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -33787,8 +33642,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "adicionar 120 dashboard",
-        "x": 1010,
-        "y": 480,
+        "x": 1130,
+        "y": 190,
         "wires": [
             [],
             [],
@@ -33800,7 +33655,7 @@
         "type": "exec",
         "z": "496d98c4c50cacbb",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "sudo cp -r /home/pi/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /home/pi/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -33808,8 +33663,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "adicionar 192 dashboard",
-        "x": 1010,
-        "y": 540,
+        "x": 1130,
+        "y": 250,
         "wires": [
             [],
             [],
@@ -33821,7 +33676,7 @@
         "type": "exec",
         "z": "496d98c4c50cacbb",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "sudo cp -r /home/pi/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /home/pi/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -33829,8 +33684,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "adicionar 64 dashboard",
-        "x": 1010,
-        "y": 600,
+        "x": 1130,
+        "y": 310,
         "wires": [
             [],
             [],
@@ -33842,7 +33697,7 @@
         "type": "exec",
         "z": "496d98c4c50cacbb",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "sudo cp -r /home/pi/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /home/pi/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -33850,8 +33705,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "adicionar index dashboard",
-        "x": 1020,
-        "y": 660,
+        "x": 1140,
+        "y": 370,
         "wires": [
             [],
             [],
@@ -33875,8 +33730,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 750,
-        "y": 480,
+        "x": 870,
+        "y": 190,
         "wires": [
             [
                 "33025713e95850ab",
@@ -33901,8 +33756,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 750,
-        "y": 540,
+        "x": 870,
+        "y": 250,
         "wires": [
             [
                 "fde3563bd759beb6",
@@ -33927,8 +33782,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 750,
-        "y": 600,
+        "x": 870,
+        "y": 310,
         "wires": [
             [
                 "7ab9425b5516ccbe",
@@ -33953,8 +33808,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 750,
-        "y": 660,
+        "x": 870,
+        "y": 370,
         "wires": [
             [
                 "7b05a6d416986637",
@@ -33979,8 +33834,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 740,
-        "y": 720,
+        "x": 860,
+        "y": 430,
         "wires": [
             [
                 "0832a6b33e1f520c"
@@ -33999,8 +33854,8 @@
         "timer": "",
         "oldrc": false,
         "name": "Reiniciar controlador",
-        "x": 1000,
-        "y": 720,
+        "x": 1120,
+        "y": 430,
         "wires": [
             [],
             [],
@@ -38717,8 +38572,8 @@
         "z": "e521d174e7104ca1",
         "group": "0921035c8e83c6f3",
         "name": "Nombre del pozo [Despliegue general]",
-        "order": 2,
-        "width": "6",
+        "order": 3,
+        "width": "1",
         "height": "1",
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
         "storeOutMessages": true,
@@ -38742,7 +38597,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "1",
+        "repeat": "5",
         "crontab": "",
         "once": true,
         "onceDelay": "10",
@@ -38801,7 +38656,7 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://AIC.local:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        //p.text(new Date().getDate() + '/' + (new Date().getMonth()+1) + '/' + new Date().getFullYear() + ', ' + new Date().getHours() + ':' +(new Date().getMinutes()>9 ?\n        //new Date().getMinutes() : ('0'+new Date().getMinutes()) ) + ':' + (new Date().getSeconds()>9 ? new Date().getSeconds() : ('0'+new Date().getSeconds()) ));\n        p.text(formatDate());\n        //p.text(new Date().toLocaleString());\n        }\n\n        function formatDate(){\n            var date = new Date(); var day = date.getDate(); var month = date.getMonth()+1; var year = date.getFullYear(); var hour = date.getHours(); var minutes = date.getMinutes();\n            if (month == 1) month = \"enero\"; if (month == 2) month = \"febrero\"; if (month == 3) month = \"marzo\"; if (month == 4) month = \"abril\"; if (month == 5) month = \"mayo\";\n            if (month == 6) month = \"junio\"; if (month == 7) month = \"julio\"; if (month == 8) month = \"agosto\"; if (month == 9) month = \"septiem.\"; if (month == 10) month = \"octubre\";\n            if (month == 11) month = \"noviem.\"; if (month == 12) month = \"diciem.\";\n            var stringdate = day + \" de \" + month + \" \" + year + \"; \" + hour + \":\" + (minutes < 10 ? (\"0\"+minutes) : minutes);\n            return stringdate;\n        }\n        \n        clockInterval = setInterval(displayTime, 10000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 5000);\n    });\n</script>",
+        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://AIC.local:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        //p.text(new Date().getDate() + '/' + (new Date().getMonth()+1) + '/' + new Date().getFullYear() + ', ' + new Date().getHours() + ':' +(new Date().getMinutes()>9 ?\n        //new Date().getMinutes() : ('0'+new Date().getMinutes()) ) + ':' + (new Date().getSeconds()>9 ? new Date().getSeconds() : ('0'+new Date().getSeconds()) ));\n        p.text(formatDate());\n        //p.text(new Date().toLocaleString());\n        }\n\n        function formatDate(){\n            var date = new Date(); var day = date.getDate(); var month = date.getMonth()+1; var year = date.getFullYear(); var hour = date.getHours(); var minutes = date.getMinutes();\n            if (month == 1) month = \"enero\"; if (month == 2) month = \"febrero\"; if (month == 3) month = \"marzo\"; if (month == 4) month = \"abril\"; if (month == 5) month = \"mayo\";\n            if (month == 6) month = \"junio\"; if (month == 7) month = \"julio\"; if (month == 8) month = \"agosto\"; if (month == 9) month = \"septiembre\"; if (month == 10) month = \"octubre\";\n            if (month == 11) month = \"noviembre\"; if (month == 12) month = \"diciembre\";\n            var stringdate = day + \" de \" + month + \" \" + year + \"; \" + hour + \":\" + (minutes < 10 ? (\"0\"+minutes) : minutes);\n            return stringdate;\n        }\n        \n        clockInterval = setInterval(displayTime, 10000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 5000);\n    });\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -40240,7 +40095,7 @@
         "place": "Seleccione un grupo",
         "group": "0921035c8e83c6f3",
         "order": 1,
-        "width": "18",
+        "width": "14",
         "height": "1",
         "passthru": true,
         "multiple": false,
@@ -43212,7 +43067,8 @@
             [
                 "6d4ca22faacfb6a7",
                 "7026ba7070318c79",
-                "d6e9e6cb27b824f9"
+                "d6e9e6cb27b824f9",
+                "fd87bdba434bf152"
             ]
         ]
     },
@@ -43284,7 +43140,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[ \"Datos_eléctricos_clúster_Analisis_electrico_CCP\"],\t       \"hide\":[ \"Datos_eléctricos_clúster_Estado_CCP\",\t                \"Datos_eléctricos_clúster_UPS\",\t                \"Datos_eléctricos_clúster_CIRCUITO_1\",\t                \"Datos_eléctricos_clúster_CIRCUITO_2\",\t                \"Datos_eléctricos_clúster_INTERRUPTORES\"\t       ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"Datos_eléctricos_clúster_Analisis_electrico_CCP\"],\t       \"hide\":[ \"Datos_eléctricos_clúster_UPS\",\t                \"Datos_eléctricos_clúster_Estado_de_circuitos_CCP\",\t                \"Datos_eléctricos_clúster_Estado_SDT\"\t       ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -43359,8 +43215,8 @@
         "label": "Voltaje L1-L2",
         "format": "{{msg.VL1L2}} VAC",
         "layout": "col-center",
-        "x": 860,
-        "y": 160,
+        "x": 830,
+        "y": 230,
         "wires": []
     },
     {
@@ -43372,8 +43228,8 @@
         "links": [
             "bc99cf40ab6d6e51"
         ],
-        "x": 165,
-        "y": 200,
+        "x": 135,
+        "y": 270,
         "wires": [
             [
                 "cd3f340c.1706c8",
@@ -43395,8 +43251,8 @@
         "label": "Voltaje L2-L3",
         "format": "{{msg.VL2L3}} VAC",
         "layout": "col-center",
-        "x": 860,
-        "y": 200,
+        "x": 830,
+        "y": 270,
         "wires": []
     },
     {
@@ -43412,8 +43268,8 @@
         "label": "Voltaje L1-L3",
         "format": "{{msg.VL1L3}} VAC",
         "layout": "col-center",
-        "x": 860,
-        "y": 240,
+        "x": 830,
+        "y": 310,
         "wires": []
     },
     {
@@ -43429,8 +43285,8 @@
         "label": "Voltaje L1-N",
         "format": "{{msg.VL1N}} VAC",
         "layout": "col-center",
-        "x": 690,
-        "y": 160,
+        "x": 660,
+        "y": 230,
         "wires": []
     },
     {
@@ -43446,8 +43302,8 @@
         "label": "Voltaje L2-N",
         "format": "{{msg.VL2N}} VAC",
         "layout": "col-center",
-        "x": 690,
-        "y": 200,
+        "x": 660,
+        "y": 270,
         "wires": []
     },
     {
@@ -43463,8 +43319,8 @@
         "label": "Voltaje L3-N",
         "format": "{{msg.VL3N}} VAC",
         "layout": "col-center",
-        "x": 690,
-        "y": 240,
+        "x": 660,
+        "y": 310,
         "wires": []
     },
     {
@@ -43480,8 +43336,8 @@
         "label": "Corriente L1",
         "format": "{{msg.CL1}} A",
         "layout": "col-center",
-        "x": 1030,
-        "y": 160,
+        "x": 1000,
+        "y": 230,
         "wires": []
     },
     {
@@ -43497,8 +43353,8 @@
         "label": "Corriente L2",
         "format": "{{msg.CL2}} A",
         "layout": "col-center",
-        "x": 1030,
-        "y": 200,
+        "x": 1000,
+        "y": 270,
         "wires": []
     },
     {
@@ -43514,8 +43370,8 @@
         "label": "Corriente L3",
         "format": "{{msg.CL3}} A",
         "layout": "col-center",
-        "x": 1030,
-        "y": 240,
+        "x": 1000,
+        "y": 310,
         "wires": []
     },
     {
@@ -43531,8 +43387,8 @@
         "label": "P. Activa L1",
         "format": "{{msg.L1_kW}} kW",
         "layout": "col-center",
-        "x": 1200,
-        "y": 160,
+        "x": 1170,
+        "y": 230,
         "wires": []
     },
     {
@@ -43548,8 +43404,8 @@
         "label": "P. Activa L2",
         "format": "{{msg.L2_kW}} kW",
         "layout": "col-center",
-        "x": 1200,
-        "y": 200,
+        "x": 1170,
+        "y": 270,
         "wires": []
     },
     {
@@ -43565,8 +43421,8 @@
         "label": "P. Activa L3",
         "format": "{{msg.L3_kW}} kW",
         "layout": "col-center",
-        "x": 1200,
-        "y": 240,
+        "x": 1170,
+        "y": 310,
         "wires": []
     },
     {
@@ -43582,8 +43438,8 @@
         "label": "P. Aparente L1",
         "format": "{{msg.L1_kVA}} kVA",
         "layout": "col-center",
-        "x": 1380,
-        "y": 160,
+        "x": 1350,
+        "y": 230,
         "wires": []
     },
     {
@@ -43599,8 +43455,8 @@
         "label": "P. Aparente L2",
         "format": "{{msg.L2_kVA}} kVA",
         "layout": "col-center",
-        "x": 1380,
-        "y": 200,
+        "x": 1350,
+        "y": 270,
         "wires": []
     },
     {
@@ -43616,8 +43472,8 @@
         "label": "P. Aparente  L3",
         "format": "{{msg.L3_kVA}} kVA",
         "layout": "col-center",
-        "x": 1380,
-        "y": 240,
+        "x": 1350,
+        "y": 310,
         "wires": []
     },
     {
@@ -43633,8 +43489,8 @@
         "label": "P. Reactiva L1",
         "format": "{{msg.L1_kVAR}} kVAR",
         "layout": "col-center",
-        "x": 1560,
-        "y": 160,
+        "x": 1530,
+        "y": 230,
         "wires": []
     },
     {
@@ -43650,8 +43506,8 @@
         "label": "P. Reactiva L2",
         "format": "{{msg.L2_kVAR}} kVAR",
         "layout": "col-center",
-        "x": 1560,
-        "y": 200,
+        "x": 1530,
+        "y": 270,
         "wires": []
     },
     {
@@ -43667,8 +43523,8 @@
         "label": "P. Reactiva L3",
         "format": "{{msg.L3_kVAR}} kVAR",
         "layout": "col-center",
-        "x": 1560,
-        "y": 240,
+        "x": 1530,
+        "y": 310,
         "wires": []
     },
     {
@@ -43686,8 +43542,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 460,
-        "y": 240,
+        "x": 430,
+        "y": 310,
         "wires": [
             []
         ]
@@ -43704,8 +43560,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0021</center></b></h1>\n</body>\n\n</html>",
         "output": "str",
-        "x": 280,
-        "y": 240,
+        "x": 250,
+        "y": 310,
         "wires": [
             [
                 "9f7411a7cc83b029"
@@ -43723,7 +43579,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Datos_eléctricos_clúster_Analisis_electrico_CCP\"],\t       \"show\":[ \"Datos_eléctricos_clúster_Estado_CCP\",\t                \"Datos_eléctricos_clúster_UPS\",\t                \"Datos_eléctricos_clúster_CIRCUITO_1\",\t                \"Datos_eléctricos_clúster_CIRCUITO_2\",\t                \"Datos_eléctricos_clúster_INTERRUPTORES\"\t       ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Datos_eléctricos_clúster_Analisis_electrico_CCP\"],\t       \"show\":[ \"Datos_eléctricos_clúster_UPS\",\t                \"Datos_eléctricos_clúster_Estado_de_circuitos_CCP\",\t                \"Datos_eléctricos_clúster_Estado_SDT\"\t       ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -46921,480 +46777,6 @@
         "wires": []
     },
     {
-        "id": "bd31c9152e402142",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "ee226df1.9537a",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Nivel",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2030,
-        "y": 190,
-        "wires": []
-    },
-    {
-        "id": "0892419097a679d0",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "ee226df1.9537a",
-        "order": 2,
-        "width": "6",
-        "height": "1",
-        "label": "Red primaria",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2030,
-        "y": 230,
-        "wires": []
-    },
-    {
-        "id": "8f23e8401fb5affa",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "ee226df1.9537a",
-        "order": 3,
-        "width": "6",
-        "height": "1",
-        "label": "Temperatura",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2030,
-        "y": 270,
-        "wires": []
-    },
-    {
-        "id": "637a51e1d3d01f8a",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "ee226df1.9537a",
-        "order": 4,
-        "width": "6",
-        "height": "1",
-        "label": "Presión",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2030,
-        "y": 310,
-        "wires": []
-    },
-    {
-        "id": "b3e511e4149505a5",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "9ad8c1e8.7c9",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Nivel",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "1",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2440,
-        "y": 190,
-        "wires": []
-    },
-    {
-        "id": "e8fd9df790f8bb32",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "9ad8c1e8.7c9",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Red secundaria",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2440,
-        "y": 230,
-        "wires": []
-    },
-    {
-        "id": "a61d8fde986bc016",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "9ad8c1e8.7c9",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Temperatura",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "1",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2440,
-        "y": 270,
-        "wires": []
-    },
-    {
-        "id": "5b9b5933e8aaa958",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "9ad8c1e8.7c9",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Presión",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "1",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2440,
-        "y": 310,
-        "wires": []
-    },
-    {
-        "id": "10ac8af5319fd399",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "4c82d8af.0c5498",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Qo1",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2180,
-        "y": 390,
-        "wires": []
-    },
-    {
-        "id": "3245b5224a26c876",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "4c82d8af.0c5498",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Qo2",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "0",
-                "valueType": "num"
-            },
-            {
-                "color": "yellow",
-                "value": "1",
-                "valueType": "num"
-            },
-            {
-                "color": "red",
-                "value": "2",
-                "valueType": "num"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2180,
-        "y": 430,
-        "wires": []
-    },
-    {
-        "id": "b5aad5d3aa339556",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "9f770546.c22c38",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Baterias",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            },
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2070,
-        "y": 690,
-        "wires": []
-    },
-    {
-        "id": "4637f67d3e51b1f9",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "9f770546.c22c38",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "label": "Estado UPS",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            },
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 2070,
-        "y": 650,
-        "wires": []
-    },
-    {
-        "id": "d86cb912ef681f72",
-        "type": "ui_text",
-        "z": "aa547d69.9cb8e",
-        "group": "9f770546.c22c38",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Tensión",
-        "format": "{{msg.Tension}} V",
-        "layout": "col-center",
-        "x": 2080,
-        "y": 530,
-        "wires": []
-    },
-    {
-        "id": "a25844a40af1f415",
-        "type": "ui_text",
-        "z": "aa547d69.9cb8e",
-        "group": "9f770546.c22c38",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Carga",
-        "format": "{{msg.Carga}} %",
-        "layout": "col-center",
-        "x": 2070,
-        "y": 570,
-        "wires": []
-    },
-    {
-        "id": "4dc383e2f916cdc2",
-        "type": "ui_text",
-        "z": "aa547d69.9cb8e",
-        "group": "9f770546.c22c38",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "name": "",
-        "label": "Tiempo remanente",
-        "format": "{{msg.TReman}} min",
-        "layout": "col-center",
-        "x": 2110,
-        "y": 610,
-        "wires": []
-    },
-    {
-        "id": "058ac259eaf7a269",
-        "type": "function",
-        "z": "aa547d69.9cb8e",
-        "name": "",
-        "func": "var CCP         = global.get(\"CCP\",\"memoryOnly\")||[];\nmsg.Tension     = CCP.UPS_Bateria_Voltaje; \nmsg.Carga       = CCP.UPS_Bateria_Porc_Carga; \nmsg.TReman      = CCP.UPS_Bateria_Tiempo_Reman; \nvar on_off          = CCP.UPS_Bateria_Tiempo_Reman; \nvar UPS_Falla       = CCP.UPS_Falla; \n\nvar msg1        = { payload: on_off};\nvar msg2        = { payload: UPS_Falla};\nreturn [msg,msg1,msg2];",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1890,
-        "y": 560,
-        "wires": [
-            [
-                "d86cb912ef681f72",
-                "a25844a40af1f415",
-                "4dc383e2f916cdc2"
-            ],
-            [
-                "4637f67d3e51b1f9"
-            ],
-            [
-                "b5aad5d3aa339556"
-            ]
-        ]
-    },
-    {
-        "id": "d1cfe97a5e1ff7de",
-        "type": "link in",
-        "z": "aa547d69.9cb8e",
-        "name": "",
-        "links": [
-            "0c2335585731858a"
-        ],
-        "x": 1775,
-        "y": 560,
-        "wires": [
-            [
-                "058ac259eaf7a269"
-            ]
-        ]
-    },
-    {
         "id": "576587812f190eb6",
         "type": "eth-ip in",
         "z": "242bc9a6.f9b016",
@@ -48204,8 +47586,8 @@
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 280,
-        "y": 110,
+        "x": 250,
+        "y": 180,
         "wires": [
             [
                 "fda75e43c91830d8",
@@ -48234,8 +47616,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
-        "y": 70,
+        "x": 520,
+        "y": 140,
         "wires": [
             []
         ]
@@ -48252,8 +47634,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 160,
+        "x": 330,
+        "y": 230,
         "wires": [
             [
                 "8c85a2863fa5d796",
@@ -48283,9 +47665,9 @@
         "z": "aa547d69.9cb8e",
         "g": "f1f3555028254919",
         "name": "¡NOTA IMPORTANTE!",
-        "info": "Esta optimización se realizo porque en el campo **Caño sur**,  los CCP\nno contaban con un gateway que les permitiera comunicar de MODBUS TCP\na EtherNet IP, por esta razón en caso de futuros proyecto de tableros \nde comunicación CILA AIC, se requiere verificar si la comunicación en \nel campo es EtherNet IP o MODBUS TCP, por esta razón se debe tener en\ncuenta lo siguiente:\n\n * En caso de que la comunicación sea **MODBUS TCP**, se debe habilitar el\n  nodo de función llamado **Datos eléctricos por MODBUS TCP**, el nodo\n  modbus llamado **Mediciones Eléctricos CCP**, el nodo change llamado \n  **Datos electricos CCP Modbus**, asignar la dirección IP del nodo MODBUS\n  que estará enviando datos hacia el SWCPRO y deberá deshabilitar el nodo\n  de función llamado **Datos eléctricos por EtherNet IP**\n\n\n * En caso de que la comunicación sea **EtherNet IP**, se debe deshabilitar el\n  nodo de función llamado **Datos eléctricos por MODBUS TCP**, el nodo\n  modbus llamado **Mediciones Eléctricos CCP**, el nodo change llamado \n  **Datos electricos CCP Modbus** y debera habilitar el nodo de función\n  llamado **Datos eléctricos por EtherNet IP**",
-        "x": 250,
-        "y": 320,
+        "info": "Esta optimización se realizo porque en el campo **Caño sur**,  los CCP\nno contaban con un gateway que les permitiera comunicar de MODBUS TCP\na EtherNet IP, por esta razón en caso de futuros proyecto de tableros \nde comunicación CILA AIC, se requiere verificar si la comunicación en \nel campo es EtherNet IP o MODBUS TCP, por esta razón se debe tener en\ncuenta lo siguiente:\n\n * En caso de que la comunicación sea **MODBUS TCP**, se debe habilitar el\n  nodo de función llamado **Datos eléctricos por MODBUS TCP**, el nodo\n  modbus llamado **Mediciones Eléctricos CCP**, el nodo change llamado \n  **Datos electricos CCP Modbus**, asignar la dirección IP del nodo MODBUS\n  que estará enviando datos hacia el SWCPRO, el **inject** y el nodo\n  **MODBUS FLEX CONNECTOR** y deberá deshabilitar el nodo de función\n  llamado **Datos eléctricos por EtherNet IP**\n\n\n * En caso de que la comunicación sea **EtherNet IP**, se debe deshabilitar el\n  nodo de función llamado **Datos eléctricos por MODBUS TCP**, el nodo\n  modbus llamado **Mediciones Eléctricos CCP**, el nodo change llamado \n  **Datos electricos CCP Modbus**, el **inject** y el nodo **MODBUS FLEX CONNECTOR**\n  y debera habilitar el nodo de función llamado **Datos eléctricos por EtherNet IP**",
+        "x": 220,
+        "y": 390,
         "wires": []
     },
     {
@@ -48293,6 +47675,783 @@
         "type": "debug",
         "z": "aa547d69.9cb8e",
         "g": "f1f3555028254919",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 460,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3a69c9f06a10d174",
+        "type": "modbus-flex-connector",
+        "z": "aa547d69.9cb8e",
+        "g": "e9e743e8335d4487",
+        "name": "",
+        "maxReconnectsPerMinute": 4,
+        "emptyQueue": false,
+        "showStatusActivities": false,
+        "showErrors": false,
+        "server": "00d51cb44dd584d0",
+        "x": 410,
+        "y": 50,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2171731a54fc371",
+        "type": "inject",
+        "z": "aa547d69.9cb8e",
+        "g": "e9e743e8335d4487",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.tcpHost",
+                "v": "192.168.2.213",
+                "vt": "str"
+            },
+            {
+                "p": "payload.connectorType",
+                "v": "TCP",
+                "vt": "str"
+            }
+        ],
+        "repeat": "180",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 50,
+        "wires": [
+            [
+                "3a69c9f06a10d174"
+            ]
+        ]
+    },
+    {
+        "id": "262b1365587ba0c5",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0001: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0001",
+        "x": 460,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8801529586341dec",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0002: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0002",
+        "x": 460,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "4d4040200bd20d09",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0003: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0003",
+        "x": 460,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "4909f16f1936181d",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0004: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0004",
+        "x": 460,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "8110305fe69f15dc",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0005: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0005",
+        "x": 460,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "cd8d1189f698d0e6",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0006: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0006",
+        "x": 460,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "46a4b2098a5e7360",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0007: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0007",
+        "x": 460,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "2b45f95feb030731",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0008: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0008",
+        "x": 460,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "70102dda274db3c8",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Interruptor VSD-CASE-0009: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "ABIERTO",
+                "valueType": "str"
+            },
+            {
+                "color": "orange",
+                "value": "DISPARADO",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "CERRADO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Interruptor VSD-0009",
+        "x": 460,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "1d6d32e7c616488a",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "Interruptor 1",
+        "func": "var Datos_Electricos = global.get(\"Electricos_Modbus\", \"memoryOnly\");\n/************************** TOMA DE MEDIDAS ELECTRICAS CCP **************************/\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 520,
+        "wires": [
+            [
+                "262b1365587ba0c5"
+            ]
+        ]
+    },
+    {
+        "id": "10b11a73f06ebe03",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "links": [
+            "bc99cf40ab6d6e51"
+        ],
+        "x": 135,
+        "y": 490,
+        "wires": [
+            [
+                "1d6d32e7c616488a",
+                "c03c98c593115010"
+            ]
+        ]
+    },
+    {
+        "id": "c03c98c593115010",
+        "type": "template",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h5><b><center>Estado interruptores CCP CLUSTER CASE0024</center></b></h5>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "e8630ac7031e0e07"
+            ]
+        ]
+    },
+    {
+        "id": "e8630ac7031e0e07",
+        "type": "ui_template",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "name": "Título estado interruptores",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 470,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e9b0367b60f42e9f",
+        "type": "ui_text",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "group": "0921035c8e83c6f3",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "name": "PIT",
+        "label": "PIT",
+        "format": "{{msg.PIT}}",
+        "layout": "row-center",
+        "x": 570,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fd87bdba434bf152",
+        "type": "ui_text",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "group": "0921035c8e83c6f3",
+        "order": 4,
+        "width": "5",
+        "height": "1",
+        "name": "FIT",
+        "label": "FIT",
+        "format": "{{msg.FIT_FLUJO_TOTAL}} ",
+        "layout": "row-center",
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "dc0cb3408bd93b39",
+        "type": "inject",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "props": [
+            {
+                "p": "PIT",
+                "v": "123.4 psi",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 640,
+        "y": 110,
+        "wires": [
+            [
+                "e9b0367b60f42e9f"
+            ]
+        ]
+    },
+    {
+        "id": "791a76d407a3444c",
+        "type": "inject",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "props": [
+            {
+                "p": "FIT_FLUJO_TOTAL",
+                "v": "1423.4 BFPD",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 630,
+        "y": 240,
+        "wires": [
+            [
+                "fd87bdba434bf152"
+            ]
+        ]
+    },
+    {
+        "id": "80323b138bfa07ef",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "group": "8f13c794af3beb1e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Nivel de aceite de SDT: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "NORMALIZADO",
+                "valueType": "str"
+            },
+            {
+                "color": "yellow",
+                "value": "ALARMA",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "DISPARO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Nivel de aceite de SDT",
+        "x": 1070,
+        "y": 510,
+        "wires": []
+    },
+    {
+        "id": "e07a72942c819726",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "group": "8f13c794af3beb1e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Temperatura SDT: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "NORMALIZADO",
+                "valueType": "str"
+            },
+            {
+                "color": "yellow",
+                "value": "ALARMA",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "DISPARO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Nivel de aceite de SDT",
+        "x": 1070,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "9164380f6633b44f",
+        "type": "ui_led",
+        "z": "aa547d69.9cb8e",
+        "group": "8f13c794af3beb1e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "<font size =4px>Válvula de sobrepresión SDT: <b>{{msg.payload}}<b>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "NORMALIZADO",
+                "valueType": "str"
+            },
+            {
+                "color": "yellow",
+                "value": "ALARMA",
+                "valueType": "str"
+            },
+            {
+                "color": "red",
+                "value": "DISPARO",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Válvula de sobrepresión SDT",
+        "x": 1090,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "7b407abc4660115b",
+        "type": "template",
+        "z": "aa547d69.9cb8e",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h5><b><center>Estado señales SDT CLUSTER CASE0024</center></b></h5>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 860,
+        "y": 470,
+        "wires": [
+            [
+                "ce341293c3e8fab8"
+            ]
+        ]
+    },
+    {
+        "id": "ce341293c3e8fab8",
+        "type": "ui_template",
+        "z": "aa547d69.9cb8e",
+        "group": "8f13c794af3beb1e",
+        "name": "Título estado señales SDT",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1090,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf36fdd2bd3c67f0",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "name": "",
+        "links": [
+            "bc99cf40ab6d6e51"
+        ],
+        "x": 765,
+        "y": 470,
+        "wires": [
+            [
+                "7b407abc4660115b"
+            ]
+        ]
+    },
+    {
+        "id": "f8f2a33c1433a062",
+        "type": "rbe",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 310,
+        "y": 700,
+        "wires": [
+            [
+                "e2cffe8628637440"
+            ]
+        ]
+    },
+    {
+        "id": "e2cffe8628637440",
+        "type": "random",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 450,
+        "y": 700,
+        "wires": [
+            [
+                "180851c66ae7d2a6"
+            ]
+        ]
+    },
+    {
+        "id": "9a66643d40fa221c",
+        "type": "inject",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 700,
+        "wires": [
+            [
+                "f8f2a33c1433a062"
+            ]
+        ]
+    },
+    {
+        "id": "180851c66ae7d2a6",
+        "type": "debug",
+        "z": "77e50510.f482bc",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -48302,8 +48461,37 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 490,
-        "y": 110,
+        "x": 600,
+        "y": 700,
         "wires": []
+    },
+    {
+        "id": "f982d26032e3da37",
+        "type": "inject",
+        "z": "77e50510.f482bc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 740,
+        "wires": [
+            [
+                "f8f2a33c1433a062"
+            ]
+        ]
     }
 ]
