@@ -450,7 +450,7 @@
                 "y": 50,
                 "wires": [
                     {
-                        "id": "37f0f2799ea347a9",
+                        "id": "4edd7fc5c15bdad8",
                         "port": 0
                     }
                 ]
@@ -626,15 +626,15 @@
                 ]
             },
             {
-                "x": 1340,
-                "y": 930,
+                "x": 1280,
+                "y": 950,
                 "wires": [
                     {
-                        "id": "f3c5eb48e26b93b3",
+                        "id": "dabb508d.a5ddf",
                         "port": 0
                     },
                     {
-                        "id": "1d9c242afb05f3c7",
+                        "id": "f19d22c110b0dee6",
                         "port": 0
                     }
                 ]
@@ -757,7 +757,9 @@
             "8531d637ba42e7a9"
         ],
         "x": 94,
-        "y": 919
+        "y": 999,
+        "w": 862,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -785,7 +787,8 @@
             "b6f70184864aada5",
             "5f70b9fdf661ebc1",
             "f155df4497b141e5",
-            "4904603f92adf9ef"
+            "4904603f92adf9ef",
+            "090788529ccfc8aa"
         ],
         "x": 54,
         "y": 29
@@ -817,10 +820,13 @@
             "487f7f8226176ed0",
             "528f3613fd9dc550",
             "f6c4b6bdd7d87649",
-            "0db3231e87512499"
+            "0db3231e87512499",
+            "666b02a614c8fcb5",
+            "1fc22b84906122eb",
+            "b814431a322abab5"
         ],
         "x": 78,
-        "y": 299
+        "y": 289
     },
     {
         "id": "7b6f4b41.106164",
@@ -836,7 +842,9 @@
             "cf57802e.7d258"
         ],
         "x": -2,
-        "y": 13
+        "y": 13,
+        "w": 1854,
+        "h": 224
     },
     {
         "id": "c58d9126.1869c",
@@ -915,9 +923,7 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19,
-        "w": 442,
-        "h": 962
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -1003,49 +1009,7 @@
             "b2b70770f04451e4"
         ],
         "x": 1004,
-        "y": 19,
-        "w": 732,
-        "h": 1102
-    },
-    {
-        "id": "1c17956307e44e29",
-        "type": "group",
-        "z": "dcee4298f5de57d2",
-        "name": "Datos de Pozo Posición 1",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f151ef75ee689f12",
-            "f0e67f4f0d829127",
-            "c4cd163112c9c257",
-            "1971c53732ba9843",
-            "f398db3e910a7124",
-            "357c4e57e594ef65",
-            "29bb553b5154ac9a",
-            "b0a0856ce0a6a98e",
-            "3cbed816ab16272e",
-            "391a76fe1746fcb5",
-            "95efdd10e4932dd6",
-            "843e8ecefd58da7f",
-            "a4d4d93e835a326b",
-            "06245e5bbc124fe4",
-            "1c9102315cfb9531",
-            "e5d02252158d5a07",
-            "0795ef62c6cdf22b",
-            "2a50827a3f7af931",
-            "feb2591b6dfeb717",
-            "0fb279837faa347f",
-            "821d9be0ddb497ac",
-            "63c685875964e413",
-            "aeece35ccc591620",
-            "2dc0fe74d8d78397",
-            "d4d71f9267324c8a"
-        ],
-        "x": 84,
-        "y": 19,
-        "w": 692,
-        "h": 682
+        "y": 19
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1080,9 +1044,7 @@
             "44c3366262953ead"
         ],
         "x": 794,
-        "y": 19,
-        "w": 702,
-        "h": 682
+        "y": 19
     },
     {
         "id": "da4321a277ed136b",
@@ -1122,9 +1084,7 @@
             "b66f36a61ce00cc0"
         ],
         "x": 1514,
-        "y": 21.5,
-        "w": 742,
-        "h": 689.5
+        "y": 21.5
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1647,9 +1607,7 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1744,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1702,9 +1660,7 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2504,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "2282018314ee7576",
@@ -1797,41 +1753,7 @@
             "dc662dbf83f0e930"
         ],
         "x": 474,
-        "y": 1429,
-        "w": 492,
-        "h": 1642
-    },
-    {
-        "id": "d516d3f7ea6bbe72",
-        "type": "group",
-        "z": "e997ba3b.48cc18",
-        "name": "Variables de lectura por pozo",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "1ee8792a8ad49dce",
-            "45c48590d88443c0",
-            "7231aaa203bbccc4",
-            "73e282a538116778",
-            "6c5e62d7bc0ac203",
-            "64855de1103423e9",
-            "3ce4bf81cd27db77",
-            "2bc659acfb95281c",
-            "d8a985a0d6b5b523",
-            "44b57d4de10c36e9",
-            "16f17bf1cfad084a",
-            "9d7f859a97e62a5e",
-            "41f1cfc8b28a9379",
-            "bb3a1503056c9d7b",
-            "d0d07b3b44df6fbe",
-            "c4b00d9d.c758e",
-            "5f369438a30f131e",
-            "53147a8c96b2f39c",
-            "933dd1c21cde4459"
-        ],
-        "x": 74,
-        "y": 1019
+        "y": 1429
     },
     {
         "id": "2fc820d53f174088",
@@ -1866,39 +1788,7 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2104,
-        "y": 1149,
-        "w": 492,
-        "h": 622
-    },
-    {
-        "id": "bf3daf7cc69dc1e0",
-        "type": "group",
-        "z": "e997ba3b.48cc18",
-        "name": "Datos electricos por pozo",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "c34783412377811f",
-            "cb7f821f59453b77",
-            "b589e64f56e21ac7",
-            "62efcf2f2e6fc20d",
-            "27fbe89162252d87",
-            "26f7633454cb7b7b",
-            "fef1de918a0383c5",
-            "696da4552d0aa3f3",
-            "33a2a97f98148ea9",
-            "622bf3d96f99a836",
-            "c4a98d774ec39f19",
-            "27bd0126aacfcdf9",
-            "66a2dcde565e0f7b",
-            "b70c9c5996e62a1b",
-            "b106c2418d7dcedc",
-            "f30aafc49351a97d",
-            "51a95fddfc307309"
-        ],
-        "x": 994,
-        "y": 1019
+        "y": 1149
     },
     {
         "id": "7d0f955071a4055a",
@@ -1932,9 +1822,7 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149,
-        "w": 832,
-        "h": 562
+        "y": 1149
     },
     {
         "id": "cff3928797d25d39",
@@ -1965,9 +1853,7 @@
             "75b2e87e6760a38b"
         ],
         "x": 3264,
-        "y": 19,
-        "w": 632,
-        "h": 922
+        "y": 19
     },
     {
         "id": "b06bbdd518536a01",
@@ -2228,8 +2114,8 @@
             "cb4a6286aca4bd43",
             "3e1f18e73ad342b7"
         ],
-        "x": 94,
-        "y": 779
+        "x": 34,
+        "y": 859
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -2326,7 +2212,7 @@
             "79d7a71622c61ad5",
             "db8a2cdc8a7c8fb0"
         ],
-        "x": 804,
+        "x": 794,
         "y": 19
     },
     {
@@ -2379,8 +2265,14 @@
             "8b4d36053dc5b2b5",
             "e9b0367b60f42e9f",
             "fd87bdba434bf152",
-            "dc0cb3408bd93b39",
-            "791a76d407a3444c"
+            "d6b2bfcf621dc989",
+            "2be20f48760e2e33",
+            "bba0022677777a08",
+            "852a5b7c388648de",
+            "e4ea350acf6a4e72",
+            "d849df0fbb7e800b",
+            "7e86f1c93a959d88",
+            "338579f1c42fb18d"
         ],
         "x": 34,
         "y": 19
@@ -2423,9 +2315,7 @@
             "6e73086ba83af9ec"
         ],
         "x": 2264,
-        "y": 19,
-        "w": 772,
-        "h": 692
+        "y": 19
     },
     {
         "id": "80e529568099f818",
@@ -2440,9 +2330,7 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319,
-        "w": 262,
-        "h": 82
+        "y": 319
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2461,9 +2349,7 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 719,
-        "w": 772,
-        "h": 82
+        "y": 719
     },
     {
         "id": "47c7e078aa019952",
@@ -2498,9 +2384,7 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999,
-        "w": 342,
-        "h": 82
+        "y": 999
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2655,9 +2539,7 @@
             "05aa201180649b16"
         ],
         "x": 44,
-        "y": 409,
-        "w": 832,
-        "h": 182
+        "y": 409
     },
     {
         "id": "64cc751322ef5934",
@@ -2910,9 +2792,7 @@
             "c5614143.9411"
         ],
         "x": 474,
-        "y": 19,
-        "w": 522,
-        "h": 1402
+        "y": 19
     },
     {
         "id": "f1f3555028254919",
@@ -2950,10 +2830,31 @@
             "aebf11e214924ab5",
             "fda75e43c91830d8",
             "2afdb67869c04c3e",
-            "f7b151e0ac44b22a"
+            "f7b151e0ac44b22a",
+            "1b7c1ad582c0c2ec",
+            "03979f5be1bd4239",
+            "b37a2bef66080abe",
+            "79843ab33258a40a",
+            "182cfc8233f80944",
+            "21c313197cb62c0f",
+            "6ebf784df5fadf7d",
+            "473d4bdf0c5a2913",
+            "ab9a6c8237c77188",
+            "1de17196b3c9a123",
+            "7b2f679bf233155d",
+            "d841f57670f18a64",
+            "672c097d48664ff5",
+            "b935e2dfb5578eb2",
+            "3d312b28e490277b",
+            "f9b0aeb7df860487",
+            "c4b44de9baaed701",
+            "912c9baf2066bcc2",
+            "0809c83f9e374b28"
         ],
         "x": 94,
-        "y": 99
+        "y": 99,
+        "w": 822,
+        "h": 882
     },
     {
         "id": "e9e743e8335d4487",
@@ -2968,7 +2869,9 @@
             "f2171731a54fc371"
         ],
         "x": 94,
-        "y": 9
+        "y": 9,
+        "w": 452,
+        "h": 82
     },
     {
         "id": "1b48b0a68b3a0856",
@@ -2979,22 +2882,176 @@
             "label": true
         },
         "nodes": [
-            "262b1365587ba0c5",
-            "8801529586341dec",
-            "4d4040200bd20d09",
-            "4909f16f1936181d",
-            "8110305fe69f15dc",
-            "cd8d1189f698d0e6",
-            "46a4b2098a5e7360",
-            "2b45f95feb030731",
-            "70102dda274db3c8",
-            "1d6d32e7c616488a",
             "10b11a73f06ebe03",
             "c03c98c593115010",
-            "e8630ac7031e0e07"
+            "e8630ac7031e0e07",
+            "797caa13671b725a",
+            "5204e47e22d32a51",
+            "61da14dc2d6721d4",
+            "62e011578bc22c38",
+            "1986c46b70f2d687",
+            "a3d54c0f831cf256",
+            "4db4825e48d4ad71",
+            "4eea3e329f3d7da7",
+            "491fd0a5154fa3be",
+            "4ddb8ca7f879d0b8",
+            "efb2b23a9af38ff0",
+            "11b754524846582e",
+            "339213057faead3e",
+            "267e5a474bad47ae",
+            "f7f63135debe2989",
+            "c3be71be1aa41c5a",
+            "81e77cc0853c0acf",
+            "e54d04e9588d76fc",
+            "092dc70f4b452559",
+            "23333fed0b1b69d7",
+            "80fb5badc685f603"
         ],
-        "x": 94,
-        "y": 439
+        "x": 934,
+        "y": 309,
+        "w": 642,
+        "h": 442
+    },
+    {
+        "id": "3b1e7a95258702e4",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "name": "Variables de lectura por pozo",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1ee8792a8ad49dce",
+            "45c48590d88443c0",
+            "7231aaa203bbccc4",
+            "73e282a538116778",
+            "6c5e62d7bc0ac203",
+            "64855de1103423e9",
+            "3ce4bf81cd27db77",
+            "2bc659acfb95281c",
+            "d8a985a0d6b5b523",
+            "44b57d4de10c36e9",
+            "16f17bf1cfad084a",
+            "9d7f859a97e62a5e",
+            "41f1cfc8b28a9379",
+            "bb3a1503056c9d7b",
+            "d0d07b3b44df6fbe",
+            "c4b00d9d.c758e",
+            "5f369438a30f131e",
+            "53147a8c96b2f39c",
+            "933dd1c21cde4459",
+            "3dc09967ba5b4820",
+            "db6acf9fb7b63489",
+            "231621f819649d2a",
+            "8c2b46d5ac3dd764",
+            "5ba8833d7df8dbc9",
+            "1c4274c60b17c4f1",
+            "6b26871263b8fa1c",
+            "e6aa188b16966c90",
+            "b0c43e7a4a127dc4",
+            "ceb11f2b0234d654",
+            "38a60232c23fa90a",
+            "abe7460db82c20db",
+            "4dfd987d3b7b1734",
+            "49d03b1d6d29e0fc",
+            "85acd5a148e6be85",
+            "3ef7f3f43551b9b3",
+            "c5de7fd31d1cccf2",
+            "33d3fab9b19ac15e",
+            "c475101883a93bad",
+            "977421d09916a989",
+            "6a88f74229af0f1a",
+            "a6f3db86f0564ada",
+            "6006b6caa1354154",
+            "04204987dbbc777c",
+            "a220e0f964492891",
+            "7b4491fa4fba51de",
+            "8fefd7f69474316e"
+        ],
+        "x": 74,
+        "y": 1019
+    },
+    {
+        "id": "f6c5f78da86ed2f4",
+        "type": "group",
+        "z": "e997ba3b.48cc18",
+        "name": "Datos electricos por pozo",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c34783412377811f",
+            "cb7f821f59453b77",
+            "b589e64f56e21ac7",
+            "62efcf2f2e6fc20d",
+            "27fbe89162252d87",
+            "26f7633454cb7b7b",
+            "fef1de918a0383c5",
+            "696da4552d0aa3f3",
+            "33a2a97f98148ea9",
+            "622bf3d96f99a836",
+            "c4a98d774ec39f19",
+            "27bd0126aacfcdf9",
+            "66a2dcde565e0f7b",
+            "b70c9c5996e62a1b",
+            "b106c2418d7dcedc",
+            "f30aafc49351a97d",
+            "51a95fddfc307309",
+            "17b1f8ff697f84ed",
+            "70597183a50f031c",
+            "2bb2e27cbbb3225a",
+            "8dc2a4776aa34b8c",
+            "c4be9669ef2f2907",
+            "ab5a152f0be5728e",
+            "79036f22026ce0da",
+            "ee43e36cfd45195c",
+            "34a63319eaf34c95",
+            "a3a535b635126835",
+            "c47773f6e52c5508",
+            "69a2e0a10ac62818",
+            "1907bcb1666e0747",
+            "25143100bbf0e539",
+            "e73fa007259d6db0"
+        ],
+        "x": 834,
+        "y": 1019
+    },
+    {
+        "id": "1c17956307e44e29",
+        "type": "group",
+        "z": "dcee4298f5de57d2",
+        "name": "Datos de Pozo Posición 1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f151ef75ee689f12",
+            "f0e67f4f0d829127",
+            "c4cd163112c9c257",
+            "1971c53732ba9843",
+            "f398db3e910a7124",
+            "357c4e57e594ef65",
+            "29bb553b5154ac9a",
+            "b0a0856ce0a6a98e",
+            "3cbed816ab16272e",
+            "391a76fe1746fcb5",
+            "95efdd10e4932dd6",
+            "843e8ecefd58da7f",
+            "a4d4d93e835a326b",
+            "06245e5bbc124fe4",
+            "1c9102315cfb9531",
+            "e5d02252158d5a07",
+            "0795ef62c6cdf22b",
+            "2a50827a3f7af931",
+            "feb2591b6dfeb717",
+            "0fb279837faa347f",
+            "821d9be0ddb497ac",
+            "63c685875964e413",
+            "aeece35ccc591620",
+            "2dc0fe74d8d78397"
+        ],
+        "x": 84,
+        "y": 19
     },
     {
         "id": "eb91dac5.690838",
@@ -3080,7 +3137,9 @@
             "07fdea154e1be602"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 902,
+        "h": 162
     },
     {
         "id": "cf57802e.7d258",
@@ -3108,7 +3167,9 @@
             "44e0e07ede65597e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 892,
+        "h": 172
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3373,6 +3434,32 @@
         ],
         "x": 334,
         "y": 839
+    },
+    {
+        "id": "60eb3f3798b2d99e",
+        "type": "group",
+        "z": "aa547d69.9cb8e",
+        "name": "Estado de señales de SDT",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7b407abc4660115b",
+            "ce341293c3e8fab8",
+            "bf36fdd2bd3c67f0",
+            "ed837529374fb2f1",
+            "2b68d64599749e56",
+            "7f6b2f5abb06b887",
+            "2d5d3083aa24de2d",
+            "7cf9da9f86f20299",
+            "832140aa41f0a72d",
+            "5f4be5b0c3d1e5da",
+            "9ef43bf7a411b0e6"
+        ],
+        "x": 934,
+        "y": 99,
+        "w": 642,
+        "h": 202
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -12825,7 +12912,7 @@
         "bufferCommands": true,
         "stateLogEnabled": false,
         "queueLogEnabled": false,
-        "tcpHost": "192.168.2.213",
+        "tcpHost": "192.168.2.215",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -15232,7 +15319,9 @@
             "8531d637ba42e7a9",
             "d4e4552a6e429ca2",
             "10b11a73f06ebe03",
-            "bf36fdd2bd3c67f0"
+            "bf36fdd2bd3c67f0",
+            "80fb5badc685f603",
+            "f561f528b0fa946f"
         ],
         "x": 2445,
         "y": 1460,
@@ -19577,7 +19666,7 @@
         "finalize": "",
         "libs": [],
         "x": 810,
-        "y": 1010,
+        "y": 1090,
         "wires": [
             []
         ]
@@ -19595,7 +19684,7 @@
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 1010,
+        "y": 1090,
         "wires": [
             [
                 "6c9ed5d3.e7799c"
@@ -19619,7 +19708,7 @@
         "repair": false,
         "outputs": 1,
         "x": 290,
-        "y": 1010,
+        "y": 1090,
         "wires": [
             [
                 "3ea5879e.bf0588"
@@ -19647,7 +19736,7 @@
         "to": "",
         "reg": false,
         "x": 730,
-        "y": 960,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -19663,7 +19752,7 @@
             "449b37406b29dc93"
         ],
         "x": 215,
-        "y": 960,
+        "y": 1040,
         "wires": [
             [
                 "3ccbaa0b.2db096"
@@ -19691,7 +19780,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 960,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -19709,28 +19798,28 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 270,
+        "x": 310,
+        "y": 220,
         "wires": [
             [
-                "9a5e2769197ec091",
-                "1e198fdd729abbe4",
-                "74b5b171e69e432f",
-                "8c85a2863fa5d796",
-                "fb327ab1ca42c55c",
-                "d7e7d882e120bbac",
-                "d7424337f0afdb1e",
-                "33fbc077863bf214",
-                "92879f0db2d33c77",
-                "a022b1638c40e2d4",
-                "c499dcb5ef5697b0",
-                "762a782f6f35ebe6",
-                "61956eafcbc929ed",
-                "685b153041347c40",
-                "ddf34afe525e8000",
-                "ce2acc58edb02677",
-                "7617e107945bf319",
-                "7c6447ff989f473e"
+                "1b7c1ad582c0c2ec",
+                "03979f5be1bd4239",
+                "b37a2bef66080abe",
+                "79843ab33258a40a",
+                "182cfc8233f80944",
+                "21c313197cb62c0f",
+                "6ebf784df5fadf7d",
+                "473d4bdf0c5a2913",
+                "ab9a6c8237c77188",
+                "1de17196b3c9a123",
+                "7b2f679bf233155d",
+                "d841f57670f18a64",
+                "672c097d48664ff5",
+                "b935e2dfb5578eb2",
+                "3d312b28e490277b",
+                "f9b0aeb7df860487",
+                "c4b44de9baaed701",
+                "912c9baf2066bcc2"
             ]
         ]
     },
@@ -19741,8 +19830,8 @@
         "g": "f1f3555028254919",
         "name": "",
         "env": [],
-        "x": 200,
-        "y": 350,
+        "x": 260,
+        "y": 260,
         "wires": [
             []
         ]
@@ -19757,7 +19846,7 @@
             "bc99cf40ab6d6e51"
         ],
         "x": 135,
-        "y": 1010,
+        "y": 1090,
         "wires": [
             [
                 "c8aa3a95.12b518"
@@ -19795,7 +19884,8 @@
             [
                 "9959ff.cbb026",
                 "59adc93d8528121c",
-                "c06799051fae3330"
+                "c06799051fae3330",
+                "090788529ccfc8aa"
             ]
         ]
     },
@@ -19871,8 +19961,7 @@
             [
                 "8da77a70.699258",
                 "528f3613fd9dc550",
-                "fb0788f42bc54f91",
-                "f6c4b6bdd7d87649"
+                "fb0788f42bc54f91"
             ]
         ]
     },
@@ -20258,7 +20347,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 1120,
+        "x": 1110,
         "y": 710,
         "wires": [
             [
@@ -20753,7 +20842,7 @@
         "id": "1ee8792a8ad49dce",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 5,
         "width": 6,
@@ -20762,7 +20851,7 @@
         "label": "Corriente VSD",
         "format": "<font size =4px>{{msg.Corriente_VSD}} A",
         "layout": "col-center",
-        "x": 580,
+        "x": 660,
         "y": 1060,
         "wires": []
     },
@@ -20770,7 +20859,7 @@
         "id": "45c48590d88443c0",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 6,
         "width": 6,
@@ -20779,7 +20868,7 @@
         "label": "Voltaje Bus DC",
         "format": "<font size =4px>{{msg.Voltaje_Bus_DC}} VDC",
         "layout": "col-center",
-        "x": 580,
+        "x": 660,
         "y": 1100,
         "wires": []
     },
@@ -20787,7 +20876,7 @@
         "id": "7231aaa203bbccc4",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 2,
         "width": 6,
@@ -20796,7 +20885,7 @@
         "label": "Velocidad VSD",
         "format": "<font size =4px>{{msg.Frecuencia}}",
         "layout": "col-center",
-        "x": 580,
+        "x": 660,
         "y": 1140,
         "wires": []
     },
@@ -20804,7 +20893,7 @@
         "id": "73e282a538116778",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 1,
         "width": 6,
@@ -20813,7 +20902,7 @@
         "label": "Voltaje VSD",
         "format": "<font size =4px>{{msg.Voltaje_VSD}} VAC",
         "layout": "col-center",
-        "x": 570,
+        "x": 650,
         "y": 1180,
         "wires": []
     },
@@ -20821,7 +20910,7 @@
         "id": "6c5e62d7bc0ac203",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 4,
         "width": 6,
@@ -20830,7 +20919,7 @@
         "label": "Velocidad mínima",
         "format": "<font size =4px>{{msg.Velocidad_minima}} Hz",
         "layout": "col-center",
-        "x": 590,
+        "x": 670,
         "y": 1220,
         "wires": []
     },
@@ -20838,7 +20927,7 @@
         "id": "64855de1103423e9",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 8,
         "width": 6,
@@ -20847,7 +20936,7 @@
         "label": "Velocidad máxima",
         "format": "<font size =4px>{{msg.Velocidad_maxima}} Hz",
         "layout": "col-center",
-        "x": 590,
+        "x": 670,
         "y": 1260,
         "wires": []
     },
@@ -20855,7 +20944,7 @@
         "id": "3ce4bf81cd27db77",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 7,
         "width": 6,
@@ -20864,7 +20953,7 @@
         "label": "Voltaje de Motor",
         "format": "<font size =4px>{{msg.Voltaje_Motor}} VAC",
         "layout": "col-center",
-        "x": 580,
+        "x": 660,
         "y": 1300,
         "wires": []
     },
@@ -20872,7 +20961,7 @@
         "id": "2bc659acfb95281c",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "d0ef2f7ea9eb1856",
         "order": 3,
         "width": 6,
@@ -20881,7 +20970,7 @@
         "label": "Corriente de Motor",
         "format": "<font size =4px>{{msg.Corriente_Motor}} A",
         "layout": "col-center",
-        "x": 590,
+        "x": 670,
         "y": 1340,
         "wires": []
     },
@@ -20889,115 +20978,115 @@
         "id": "d8a985a0d6b5b523",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 1,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Temperatura Descarga",
         "label": "Temperatura Descarga",
         "format": "<font size =4px>{{msg.Temperatura_Descarga}} °F",
         "layout": "col-center",
-        "x": 800,
-        "y": 1060,
+        "x": 680,
+        "y": 1380,
         "wires": []
     },
     {
         "id": "44b57d4de10c36e9",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 3,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Temperatura de Motor",
         "label": "Temperatura de Motor",
         "format": "<font size =4px>{{msg.Temperatura_Motor}} °F",
         "layout": "col-center",
-        "x": 800,
-        "y": 1100,
+        "x": 680,
+        "y": 1420,
         "wires": []
     },
     {
         "id": "16f17bf1cfad084a",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 2,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Temperatura de Entrada",
         "label": "Temperatura de Entrada",
         "format": "<font size =4px>{{msg.Temperatura_Entrada}} °F",
         "layout": "col-center",
-        "x": 810,
-        "y": 1140,
+        "x": 690,
+        "y": 1460,
         "wires": []
     },
     {
         "id": "9d7f859a97e62a5e",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 4,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Presión de entrada",
         "label": "Presión de entrada",
         "format": "<font size =4px>{{msg.PIP}} PSI",
         "layout": "col-center",
-        "x": 790,
-        "y": 1180,
+        "x": 670,
+        "y": 1500,
         "wires": []
     },
     {
         "id": "41f1cfc8b28a9379",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 5,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Presión de descarga",
         "label": "Presión de Descarga",
         "format": "<font size =4px>{{msg.PDP}} PSI",
         "layout": "col-center",
-        "x": 800,
-        "y": 1220,
+        "x": 680,
+        "y": 1540,
         "wires": []
     },
     {
         "id": "bb3a1503056c9d7b",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 6,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Corriente de fuga",
         "label": "Corriente de fuga",
         "format": "<font size =4px>{{msg.Corriente_Fuga}} mA",
         "layout": "col-center",
-        "x": 790,
-        "y": 1260,
+        "x": 670,
+        "y": 1580,
         "wires": []
     },
     {
         "id": "d0d07b3b44df6fbe",
         "type": "link in",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "name": "",
         "links": [
             "d0b26cc2905c02ad"
         ],
         "x": 115,
-        "y": 1140,
+        "y": 1060,
         "wires": [
             [
                 "c4b00d9d.c758e"
@@ -21277,35 +21366,37 @@
         "id": "c4b00d9d.c758e",
         "type": "function",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "name": "Extraer información pozos activos",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2)||\"-----\";\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\n//msg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\n//msg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\n//msg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\n//msg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\n//msg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\n//msg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\n//msg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\n//msg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\n//msg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\n// msg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\n// msg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\n// msg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\n// msg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\n// msg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Corriente_Fuga      = (Cluster[\"SCP\" + (SCP)].DHOLE.Corriente_Fuga).toFixed(2);\nmsg.Vibracion_X         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_X).toFixed(2);\nmsg.Vibracion_Z         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Z).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.Velocidad_minima    = (Cluster[\"SCP\" + (SCP)].VSD.Velocidad_Min).toFixed(2);\nmsg.Velocidad_maxima    = (Cluster[\"SCP\" + (SCP)].VSD.Velocidad_Max).toFixed(2);\n//msg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\n//msg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n\nmsg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Corriente_Fuga      = (Cluster[\"SCP\" + (SCP)].DHOLE.Corriente_Fuga).toFixed(2);\nmsg.Vibracion_X         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_X).toFixed(2);\nmsg.Vibracion_Z         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Z).toFixed(2);\nmsg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV          = ((Cluster[\"SCP\" + (SCP)].INST.THP_PIT_PV).toFixed(2)) ;\nmsg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.Velocidad_minima    = (Cluster[\"SCP\" + (SCP)].VSD.Velocidad_Min).toFixed(2);\nmsg.Velocidad_maxima    = (Cluster[\"SCP\" + (SCP)].VSD.Velocidad_Max).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 1140,
+        "x": 290,
+        "y": 1060,
         "wires": [
             [
-                "1ee8792a8ad49dce",
-                "45c48590d88443c0",
-                "7231aaa203bbccc4",
-                "73e282a538116778",
-                "6c5e62d7bc0ac203",
-                "64855de1103423e9",
-                "3ce4bf81cd27db77",
-                "2bc659acfb95281c",
-                "d8a985a0d6b5b523",
-                "44b57d4de10c36e9",
-                "16f17bf1cfad084a",
-                "9d7f859a97e62a5e",
-                "41f1cfc8b28a9379",
-                "bb3a1503056c9d7b",
-                "5f369438a30f131e",
-                "53147a8c96b2f39c",
-                "933dd1c21cde4459"
+                "231621f819649d2a",
+                "8c2b46d5ac3dd764",
+                "5ba8833d7df8dbc9",
+                "1c4274c60b17c4f1",
+                "6b26871263b8fa1c",
+                "b0c43e7a4a127dc4",
+                "e6aa188b16966c90",
+                "ceb11f2b0234d654",
+                "38a60232c23fa90a",
+                "abe7460db82c20db",
+                "4dfd987d3b7b1734",
+                "49d03b1d6d29e0fc",
+                "85acd5a148e6be85",
+                "3ef7f3f43551b9b3",
+                "c5de7fd31d1cccf2",
+                "33d3fab9b19ac15e",
+                "c475101883a93bad",
+                "977421d09916a989",
+                "6a88f74229af0f1a"
             ]
         ]
     },
@@ -21500,7 +21591,7 @@
         "id": "c34783412377811f",
         "type": "function",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "name": "Extraer información pozos activos",
         "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\")||[];\nvar ClusterData = global.get(\"Cluster\")||[];\nvar TipoL       = global.get(\"TipoL\",\"memoryOnly\")||\"--\";\nvar NombrePozo  = flow.get(\"Pozo\",\"memoryOnly\")||\"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor(var i=0; i<ClusterData.length; i+=1){\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index   = Nombres.indexOf(NombrePozo);\n\nnode.status({fill:\"green\",shape:\"dot\",text:index});\nif(index <0){index=1;}\nif(index != -1){msg.type = ClusterData[index][\"ALS\"]||\"ESP\";} \n\nvar SCP                 = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\",SCP,\"memoryOnly\");\n\n//msg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\n//msg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\n//msg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3              = (Cluster[\"SCP\"+(SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N        = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3        = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro     = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro             = (Cluster[\"SCP\"+(SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro          = (Cluster[\"SCP\"+(SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro       = (Cluster[\"SCP\"+(SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro         = (Cluster[\"SCP\"+(SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro        = (Cluster[\"SCP\"+(SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro              = (Cluster[\"SCP\"+(SCP)].PQM.FP_Pro).toFixed(2);\n// msg.Voltaje_Motor       = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Motor).toFixed(2);\n// msg.Corriente_Motor     = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_Motor).toFixed(2);\n// msg.PDP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PDP).toFixed(2);\n// msg.PIP                 = (Cluster[\"SCP\"+(SCP)].DHOLE.PIP).toFixed(2);\n// msg.Vibracion           = (Cluster[\"SCP\"+(SCP)].DHOLE.Vibracion).toFixed(2);\n// msg.Temperatura_Descarga= (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\n// msg.Temperatura_Entrada = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\n// msg.Temperatura_Motor   = (Cluster[\"SCP\"+(SCP)].DHOLE.Temperatura_Motor).toFixed(2);\n// msg.Voltaje_Bus_DC      = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\n// msg.Corriente_VSD       = (Cluster[\"SCP\"+(SCP)].VSD.Corriente_VSD).toFixed(2);\n// msg.Voltaje_VSD         = (Cluster[\"SCP\"+(SCP)].VSD.Voltaje_VSD).toFixed(2);\n// msg.Factor_Potencia     = (Cluster[\"SCP\"+(SCP)].VSD.Factor_Potencia).toFixed(2);\n// msg.Relacion_TX         = (Cluster[\"SCP\"+(SCP)].VSD.Relacion_TX).toFixed(2);\n// msg.THP_PIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THP_PIT_PV).toFixed(2);  \n// msg.THT_TIT_PV          = (Cluster[\"SCP\"+(SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro           = (Cluster[\"SCP\"+(SCP)].PQM.THD_V_Pro).toFixed(2);\n\nif(TipoL == \"ESP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"Hz\";\n\n}\nif(TipoL == \"PCP\"){\n    msg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2) +\" \" + \"RPM\";\n\n}\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\nreturn msg;",
         "outputs": 1,
@@ -21508,25 +21599,25 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
+        "x": 1060,
         "y": 1060,
         "wires": [
             [
-                "b589e64f56e21ac7",
-                "62efcf2f2e6fc20d",
-                "26f7633454cb7b7b",
-                "27fbe89162252d87",
-                "fef1de918a0383c5",
-                "696da4552d0aa3f3",
-                "33a2a97f98148ea9",
-                "622bf3d96f99a836",
-                "c4a98d774ec39f19",
-                "27bd0126aacfcdf9",
-                "66a2dcde565e0f7b",
-                "b70c9c5996e62a1b",
-                "b106c2418d7dcedc",
-                "f30aafc49351a97d",
-                "51a95fddfc307309"
+                "17b1f8ff697f84ed",
+                "70597183a50f031c",
+                "2bb2e27cbbb3225a",
+                "8dc2a4776aa34b8c",
+                "c4be9669ef2f2907",
+                "ab5a152f0be5728e",
+                "79036f22026ce0da",
+                "ee43e36cfd45195c",
+                "34a63319eaf34c95",
+                "a3a535b635126835",
+                "c47773f6e52c5508",
+                "69a2e0a10ac62818",
+                "1907bcb1666e0747",
+                "25143100bbf0e539",
+                "e73fa007259d6db0"
             ]
         ]
     },
@@ -21534,12 +21625,12 @@
         "id": "cb7f821f59453b77",
         "type": "link in",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "name": "",
         "links": [
             "d0b26cc2905c02ad"
         ],
-        "x": 1035,
+        "x": 875,
         "y": 1060,
         "wires": [
             [
@@ -21551,7 +21642,7 @@
         "id": "b589e64f56e21ac7",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 1,
         "width": 4,
@@ -21560,7 +21651,7 @@
         "label": "Voltaje L1-L2",
         "format": "<font size =4px>{{msg.Voltaje_L1_L2}} VAC",
         "layout": "col-center",
-        "x": 1480,
+        "x": 1430,
         "y": 1060,
         "wires": []
     },
@@ -21568,7 +21659,7 @@
         "id": "62efcf2f2e6fc20d",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 2,
         "width": 4,
@@ -21577,7 +21668,7 @@
         "label": "Voltaje L2-L3",
         "format": "<font size =4px>{{msg.Voltaje_L2_L3}} VAC",
         "layout": "col-center",
-        "x": 1480,
+        "x": 1430,
         "y": 1100,
         "wires": []
     },
@@ -21585,7 +21676,7 @@
         "id": "27fbe89162252d87",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 7,
         "width": 4,
@@ -21594,7 +21685,7 @@
         "label": "Voltaje L1-N",
         "format": "<font size =4px>{{msg.Voltaje_L1_N}} VAC",
         "layout": "col-center",
-        "x": 1470,
+        "x": 1420,
         "y": 1180,
         "wires": []
     },
@@ -21602,7 +21693,7 @@
         "id": "26f7633454cb7b7b",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 3,
         "width": 4,
@@ -21611,7 +21702,7 @@
         "label": "Voltaje L1-L3",
         "format": "<font size =4px>{{msg.Voltaje_L1_L3}} VAC",
         "layout": "col-center",
-        "x": 1480,
+        "x": 1430,
         "y": 1140,
         "wires": []
     },
@@ -21619,7 +21710,7 @@
         "id": "fef1de918a0383c5",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 8,
         "width": 4,
@@ -21628,7 +21719,7 @@
         "label": "Voltaje L2-N",
         "format": "<font size =4px>{{msg.Voltaje_L2_N}} VAC",
         "layout": "col-center",
-        "x": 1470,
+        "x": 1420,
         "y": 1220,
         "wires": []
     },
@@ -21636,7 +21727,7 @@
         "id": "696da4552d0aa3f3",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 9,
         "width": 4,
@@ -21645,7 +21736,7 @@
         "label": "Voltaje L3-N",
         "format": "<font size =4px>{{msg.Voltaje_L3_N}} VAC",
         "layout": "col-center",
-        "x": 1470,
+        "x": 1420,
         "y": 1260,
         "wires": []
     },
@@ -21653,7 +21744,7 @@
         "id": "33a2a97f98148ea9",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 13,
         "width": 4,
@@ -21662,15 +21753,15 @@
         "label": "Corriente L1",
         "format": "<font size =4px>{{msg.Amp_L1}} A",
         "layout": "col-center",
-        "x": 1650,
-        "y": 1060,
+        "x": 1420,
+        "y": 1300,
         "wires": []
     },
     {
         "id": "622bf3d96f99a836",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 14,
         "width": 4,
@@ -21679,15 +21770,15 @@
         "label": "Corriente L2",
         "format": "<font size =4px>{{msg.Amp_L2}} A",
         "layout": "col-center",
-        "x": 1650,
-        "y": 1100,
+        "x": 1420,
+        "y": 1340,
         "wires": []
     },
     {
         "id": "c4a98d774ec39f19",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 15,
         "width": 4,
@@ -21696,15 +21787,15 @@
         "label": "Corriente L3",
         "format": "<font size =4px>{{msg.Amp_L3}} A",
         "layout": "col-center",
-        "x": 1650,
-        "y": 1140,
+        "x": 1420,
+        "y": 1380,
         "wires": []
     },
     {
         "id": "27bd0126aacfcdf9",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 4,
         "width": 4,
@@ -21713,15 +21804,15 @@
         "label": "P. Activa Pro.",
         "format": "<font size =4px>{{msg.KWATT_Act_Pro}} KW",
         "layout": "col-center",
-        "x": 1830,
-        "y": 1060,
+        "x": 1440,
+        "y": 1420,
         "wires": []
     },
     {
         "id": "66a2dcde565e0f7b",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 5,
         "width": 4,
@@ -21730,15 +21821,15 @@
         "label": "P. Aparente Pro.",
         "format": "<font size =4px>{{msg.KVA_Act_Pro}} KVA",
         "layout": "col-center",
-        "x": 1820,
-        "y": 1100,
+        "x": 1430,
+        "y": 1460,
         "wires": []
     },
     {
         "id": "b70c9c5996e62a1b",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 6,
         "width": 4,
@@ -21747,15 +21838,15 @@
         "label": "P. Reactiva Pro.",
         "format": "<font size =4px>{{msg.KVAr_Act_Pro}} KVAR",
         "layout": "col-center",
-        "x": 1820,
-        "y": 1140,
+        "x": 1430,
+        "y": 1500,
         "wires": []
     },
     {
         "id": "b106c2418d7dcedc",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 10,
         "width": 4,
@@ -21764,15 +21855,15 @@
         "label": "Voltaje Pro.",
         "format": "<font size =4px>{{msg.Voltaje_L_L_Pro}} VAC",
         "layout": "col-center",
-        "x": 2020,
-        "y": 1060,
+        "x": 1430,
+        "y": 1540,
         "wires": []
     },
     {
         "id": "f30aafc49351a97d",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 11,
         "width": 4,
@@ -21781,15 +21872,15 @@
         "label": "Corriente Pro.",
         "format": "<font size =4px>{{msg.Amp_Pro}} A",
         "layout": "col-center",
-        "x": 2000,
-        "y": 1100,
+        "x": 1410,
+        "y": 1580,
         "wires": []
     },
     {
         "id": "51a95fddfc307309",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "bf3daf7cc69dc1e0",
+        "g": "f6c5f78da86ed2f4",
         "group": "a0a6adbcc6ab62b7",
         "order": 12,
         "width": 4,
@@ -21798,8 +21889,8 @@
         "label": "Factor Potencia",
         "format": "<font size =4px>{{msg.FP_Pro}} ",
         "layout": "col-center",
-        "x": 2000,
-        "y": 1140,
+        "x": 1410,
+        "y": 1620,
         "wires": []
     },
     {
@@ -24529,8 +24620,8 @@
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 1955,
-        "y": 810,
+        "x": 1715,
+        "y": 830,
         "wires": []
     },
     {
@@ -26502,12 +26593,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 290,
-        "y": 60,
+        "x": 250,
+        "y": 80,
         "wires": [
             [
-                "1acd74b8f94c62c5",
-                "e9b0367b60f42e9f"
+                "d6b2bfcf621dc989",
+                "2be20f48760e2e33"
             ]
         ]
     },
@@ -26529,7 +26620,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 350,
+        "y": 440,
         "wires": [
             [
                 "1388e106.75d21f"
@@ -26554,7 +26645,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 390,
+        "y": 480,
         "wires": [
             [
                 "dc26c04555c849e9"
@@ -26579,7 +26670,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 430,
+        "y": 520,
         "wires": [
             [
                 "ec32e13194609ef9"
@@ -26604,7 +26695,7 @@
         "topic": "",
         "topicType": "str",
         "x": 380,
-        "y": 470,
+        "y": 560,
         "wires": [
             [
                 "41deb6b1c279c3b9"
@@ -26638,7 +26729,7 @@
         "offcolor": "",
         "animate": true,
         "x": 400,
-        "y": 510,
+        "y": 600,
         "wires": [
             [
                 "24d9e3e264824528"
@@ -26672,7 +26763,7 @@
         "offcolor": "",
         "animate": true,
         "x": 400,
-        "y": 560,
+        "y": 650,
         "wires": [
             [
                 "2e4ab688aee27693"
@@ -26706,7 +26797,7 @@
         "offcolor": "",
         "animate": true,
         "x": 390,
-        "y": 610,
+        "y": 700,
         "wires": [
             [
                 "63eec3feebb8bcb6"
@@ -26740,7 +26831,7 @@
         "offcolor": "",
         "animate": true,
         "x": 400,
-        "y": 660,
+        "y": 750,
         "wires": [
             [
                 "d290c31a9897c8de"
@@ -26767,7 +26858,7 @@
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 900,
+        "x": 890,
         "y": 260,
         "wires": [
             [
@@ -26786,7 +26877,7 @@
         ],
         "uncaught": false,
         "x": 700,
-        "y": 710,
+        "y": 800,
         "wires": [
             []
         ]
@@ -26812,7 +26903,7 @@
         "to": "",
         "reg": false,
         "x": 550,
-        "y": 350,
+        "y": 440,
         "wires": [
             []
         ]
@@ -26838,7 +26929,7 @@
         "to": "",
         "reg": false,
         "x": 540,
-        "y": 390,
+        "y": 480,
         "wires": [
             []
         ]
@@ -26864,7 +26955,7 @@
         "to": "",
         "reg": false,
         "x": 540,
-        "y": 430,
+        "y": 520,
         "wires": [
             []
         ]
@@ -26890,7 +26981,7 @@
         "to": "",
         "reg": false,
         "x": 550,
-        "y": 470,
+        "y": 560,
         "wires": [
             []
         ]
@@ -26916,7 +27007,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 510,
+        "y": 600,
         "wires": [
             []
         ]
@@ -26942,7 +27033,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 560,
+        "y": 650,
         "wires": [
             []
         ]
@@ -26968,7 +27059,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 610,
+        "y": 700,
         "wires": [
             []
         ]
@@ -26994,7 +27085,7 @@
         "to": "",
         "reg": false,
         "x": 610,
-        "y": 660,
+        "y": 750,
         "wires": [
             []
         ]
@@ -27020,7 +27111,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 350,
+        "y": 440,
         "wires": [
             [
                 "df7e51cb.20a61"
@@ -27048,7 +27139,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 390,
+        "y": 480,
         "wires": [
             [
                 "78ddc0d7.477c7"
@@ -27076,7 +27167,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 430,
+        "y": 520,
         "wires": [
             [
                 "a5be34b4.80c1d8"
@@ -27104,7 +27195,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 470,
+        "y": 560,
         "wires": [
             [
                 "289c0fec.d68e1"
@@ -27132,7 +27223,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 660,
+        "y": 750,
         "wires": [
             [
                 "3361a564.d48dfa"
@@ -27160,7 +27251,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 610,
+        "y": 700,
         "wires": [
             [
                 "8b190b36.c8b5b8"
@@ -27188,7 +27279,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 560,
+        "y": 650,
         "wires": [
             [
                 "468ce789.d74268"
@@ -27216,7 +27307,7 @@
         "to": "",
         "reg": false,
         "x": 230,
-        "y": 510,
+        "y": 600,
         "wires": [
             [
                 "5893c294.3213dc"
@@ -27233,8 +27324,8 @@
             "186f2a0e0cf031bd",
             "8ee8e5d0d0a0babb"
         ],
-        "x": 135,
-        "y": 180,
+        "x": 85,
+        "y": 80,
         "wires": [
             [
                 "25c5df2a.68262",
@@ -27257,8 +27348,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <img src=\"http://aic.local:1880/swcpro-images/Manifold.png\" style=\"width:80%;\">\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 290,
-        "y": 300,
+        "x": 260,
+        "y": 380,
         "wires": [
             []
         ]
@@ -27273,8 +27364,8 @@
         "links": [
             "186f2a0e0cf031bd"
         ],
-        "x": 165,
-        "y": 300,
+        "x": 115,
+        "y": 380,
         "wires": [
             [
                 "cc874412dbfe50f6"
@@ -27294,8 +27385,8 @@
         "label": "FIT",
         "format": "<font size =4px>{{msg.FIT_FLUJO_TOTAL}} ",
         "layout": "col-center",
-        "x": 450,
-        "y": 180,
+        "x": 540,
+        "y": 300,
         "wires": []
     },
     {
@@ -27311,8 +27402,8 @@
         "label": "PIT",
         "format": "<font size =4px>{{msg.PIT}}",
         "layout": "col-center",
-        "x": 450,
-        "y": 60,
+        "x": 540,
+        "y": 100,
         "wires": []
     },
     {
@@ -27328,8 +27419,8 @@
         "label": "Densidad",
         "format": "<font size =4px>{{msg.FIT_DENSIDAD}} ",
         "layout": "col-center",
-        "x": 460,
-        "y": 140,
+        "x": 550,
+        "y": 220,
         "wires": []
     },
     {
@@ -27345,8 +27436,8 @@
         "label": "Temperatura",
         "format": "<font size =4px>{{msg.FIT_TEMPERATURA}} ",
         "layout": "col-center",
-        "x": 470,
-        "y": 220,
+        "x": 550,
+        "y": 340,
         "wires": []
     },
     {
@@ -27361,7 +27452,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
+        "x": 1040,
         "y": 260,
         "wires": [
             [
@@ -27399,7 +27490,7 @@
         "variable": "HABILITAR_PIT_HH",
         "program": "",
         "name": "",
-        "x": 1290,
+        "x": 1280,
         "y": 60,
         "wires": []
     },
@@ -27412,7 +27503,7 @@
         "variable": "HABILITAR_PIT_H",
         "program": "",
         "name": "",
-        "x": 1280,
+        "x": 1270,
         "y": 120,
         "wires": []
     },
@@ -27425,7 +27516,7 @@
         "variable": "HABILITAR_PIT_L",
         "program": "",
         "name": "",
-        "x": 1280,
+        "x": 1270,
         "y": 180,
         "wires": []
     },
@@ -27438,7 +27529,7 @@
         "variable": "HABILITAR_PIT_LL",
         "program": "",
         "name": "",
-        "x": 1290,
+        "x": 1280,
         "y": 240,
         "wires": []
     },
@@ -27451,7 +27542,7 @@
         "variable": "VALOR_INGRESADO_PIT_HH_HMI",
         "program": "",
         "name": "",
-        "x": 1340,
+        "x": 1330,
         "y": 300,
         "wires": []
     },
@@ -27464,7 +27555,7 @@
         "variable": "VALOR_INGRESADO_PIT_H_HMI",
         "program": "",
         "name": "",
-        "x": 1330,
+        "x": 1320,
         "y": 360,
         "wires": []
     },
@@ -27477,7 +27568,7 @@
         "variable": "VALOR_INGRESADO_PIT_L_HMI",
         "program": "",
         "name": "",
-        "x": 1330,
+        "x": 1320,
         "y": 420,
         "wires": []
     },
@@ -27490,7 +27581,7 @@
         "variable": "VALOR_INGRESADO_PIT_LL_HMI",
         "program": "",
         "name": "",
-        "x": 1340,
+        "x": 1330,
         "y": 480,
         "wires": []
     },
@@ -28997,8 +29088,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 880,
+        "x": 310,
+        "y": 960,
         "wires": [
             [
                 "bb9d57fad1dcf950"
@@ -29017,8 +29108,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 820,
+        "x": 280,
+        "y": 900,
         "wires": [
             [
                 "f42b56eb37f8265c"
@@ -29045,8 +29136,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 540,
-        "y": 820,
+        "x": 480,
+        "y": 900,
         "wires": [
             []
         ]
@@ -29091,8 +29182,8 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
-        "x": 180,
-        "y": 820,
+        "x": 120,
+        "y": 900,
         "wires": [
             [
                 "b62a060ca27cb69f"
@@ -29134,8 +29225,8 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
-        "x": 960,
-        "y": 820,
+        "x": 900,
+        "y": 900,
         "wires": [
             [
                 "f58329a789069561"
@@ -29162,8 +29253,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1160,
-        "y": 820,
+        "x": 1100,
+        "y": 900,
         "wires": [
             []
         ]
@@ -29206,8 +29297,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 990,
-        "y": 880,
+        "x": 930,
+        "y": 960,
         "wires": [
             []
         ]
@@ -29224,8 +29315,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 890,
+        "x": 650,
+        "y": 970,
         "wires": [
             [
                 "cb4a6286aca4bd43"
@@ -29253,8 +29344,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 520,
-        "y": 880,
+        "x": 460,
+        "y": 960,
         "wires": [
             [
                 "02cce9b2e05aa937"
@@ -29284,8 +29375,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 820,
+        "x": 740,
+        "y": 900,
         "wires": [
             [
                 "33646855a267b1b4"
@@ -29305,8 +29396,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 870,
-        "y": 880,
+        "x": 810,
+        "y": 960,
         "wires": [
             [
                 "d3e0d81a17262194"
@@ -29322,8 +29413,8 @@
         "links": [
             "f65144617635e766"
         ],
-        "x": 255,
-        "y": 880,
+        "x": 195,
+        "y": 960,
         "wires": [
             [
                 "22cd2fada9680a04"
@@ -30184,108 +30275,6 @@
         ]
     },
     {
-        "id": "f151ef75ee689f12",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 3,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Velocidad",
-        "format": "<font size =4px>{{msg.payload}}",
-        "layout": "col-center",
-        "x": 600,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "f0e67f4f0d829127",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 5,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Amp. VSD",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 610,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "c4cd163112c9c257",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 6,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Pot. VSD",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 600,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "1971c53732ba9843",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 4,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Volt. VSD",
-        "format": "<font size =4px>{{msg.payload}}",
-        "layout": "col-center",
-        "x": 600,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "f398db3e910a7124",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 8,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Amp. motor",
-        "format": "<font size =4px>{{msg.payload}}",
-        "layout": "col-center",
-        "x": 610,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "357c4e57e594ef65",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 7,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Volt. motor",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 610,
-        "y": 260,
-        "wires": []
-    },
-    {
         "id": "952e7831f8ba38da",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
@@ -30473,27 +30462,6 @@
         "wires": []
     },
     {
-        "id": "29bb553b5154ac9a",
-        "type": "ui_template",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "name": "SCP 1",
-        "order": 2,
-        "width": "6",
-        "height": 1,
-        "format": "<div ng-bind-html=\"msg.payload| trusted\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 590,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "081cafd2b18a8c0b",
         "type": "ui_template",
         "z": "dcee4298f5de57d2",
@@ -30533,47 +30501,6 @@
         "y": 590,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "3cbed816ab16272e",
-        "type": "link out",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "",
-        "links": [
-            "a908951142dcc258"
-        ],
-        "x": 485,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "b0a0856ce0a6a98e",
-        "type": "change",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "Si",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[\"Despliegue_general_SCP1\"],\t       \"hide\":[]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 400,
-        "y": 660,
-        "wires": [
-            [
-                "3cbed816ab16272e"
-            ]
         ]
     },
     {
@@ -30747,47 +30674,6 @@
         "x": 1360,
         "y": 100,
         "wires": []
-    },
-    {
-        "id": "95efdd10e4932dd6",
-        "type": "template",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "SCP 1",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{payload}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
-        "output": "str",
-        "x": 490,
-        "y": 60,
-        "wires": [
-            [
-                "391a76fe1746fcb5"
-            ]
-        ]
-    },
-    {
-        "id": "391a76fe1746fcb5",
-        "type": "ui_template",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "name": "Nombre SCP1",
-        "order": 1,
-        "width": "6",
-        "height": 1,
-        "format": "<div ng-bind-html=\"msg.payload| trusted\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 670,
-        "y": 60,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "20146e27f081f2f5",
@@ -38623,7 +38509,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "5",
+        "repeat": "4",
         "crontab": "",
         "once": true,
         "onceDelay": "10",
@@ -38811,7 +38697,7 @@
         "y": 540,
         "wires": [
             [
-                "37f0f2799ea347a9"
+                "4edd7fc5c15bdad8"
             ],
             [
                 "3a8cf9c94d108311"
@@ -38931,91 +38817,10 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <!--<div class=\"col\">-->\n                <h6><span class=\"badge badge-secondary\">Sin asignar</span></h6>\n                <!-- <img src=\"http://localhost:1880/swcpro-images/hlogo.png\" style=\"width:50%;\">-->\n            <!--</div>-->\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/ESP.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 1040,
+        "x": 980,
         "y": 950,
         "wires": [
-            [
-                "f3c5eb48e26b93b3"
-            ]
-        ]
-    },
-    {
-        "id": "2a50827a3f7af931",
-        "type": "subflow:9f97d888.bf2cb8",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "SCP1",
-        "env": [
-            {
-                "name": "position",
-                "value": "1",
-                "type": "num"
-            },
-            {
-                "name": "rutaSCPselector",
-                "value": "Navegacionaux.principal",
-                "type": "str"
-            }
-        ],
-        "x": 360,
-        "y": 280,
-        "wires": [
-            [
-                "95efdd10e4932dd6"
-            ],
-            [
-                "821d9be0ddb497ac"
-            ],
-            [
-                "f151ef75ee689f12",
-                "d4d71f9267324c8a"
-            ],
-            [
-                "1971c53732ba9843"
-            ],
-            [
-                "f0e67f4f0d829127"
-            ],
-            [
-                "c4cd163112c9c257"
-            ],
-            [
-                "357c4e57e594ef65"
-            ],
-            [
-                "f398db3e910a7124"
-            ],
-            [
-                "843e8ecefd58da7f"
-            ],
-            [
-                "a4d4d93e835a326b"
-            ],
-            [
-                "06245e5bbc124fe4"
-            ],
-            [
-                "1c9102315cfb9531"
-            ],
-            [
-                "e5d02252158d5a07"
-            ],
-            [
-                "0795ef62c6cdf22b"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [
-                "29bb553b5154ac9a"
-            ],
-            [],
-            [],
-            [],
-            [
-                "2dc0fe74d8d78397"
-            ]
+            []
         ]
     },
     {
@@ -39096,169 +38901,11 @@
         "wires": []
     },
     {
-        "id": "843e8ecefd58da7f",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 13,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "P. intake",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 600,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "a4d4d93e835a326b",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 11,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "PIT",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 590,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "06245e5bbc124fe4",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 12,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "TIT",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 590,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "1c9102315cfb9531",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 10,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "Bus DC",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 600,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "e5d02252158d5a07",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 9,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "T. motor",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 600,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "0795ef62c6cdf22b",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 14,
-        "width": 3,
-        "height": 2,
-        "name": "",
-        "label": "T. intake",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "col-center",
-        "x": 600,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "feb2591b6dfeb717",
-        "type": "link in",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "",
-        "links": [
-            "87857b683465f57d"
-        ],
-        "x": 125,
-        "y": 280,
-        "wires": [
-            [
-                "0fb279837faa347f"
-            ]
-        ]
-    },
-    {
-        "id": "0fb279837faa347f",
-        "type": "switch",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "Pantalla?",
-        "property": "#:(memoryOnly)::Navegación.Pantalla",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Despliegue general",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 220,
-        "y": 280,
-        "wires": [
-            [
-                "2a50827a3f7af931"
-            ]
-        ]
-    },
-    {
-        "id": "821d9be0ddb497ac",
-        "type": "link out",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "",
-        "links": [
-            "112ec72e4a22b13f"
-        ],
-        "x": 485,
-        "y": 100,
-        "wires": []
-    },
-    {
         "id": "7056c43c824d8355",
         "type": "function",
         "z": "9f97d888.bf2cb8",
         "name": "ESP Status - SCP",
-        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\",\"memoryOnly\");\nif(Estado_VSD == 0)\n    msg.Detenido = \"BES EN MARCHA\";\nelse if (Estado_VSD == 1)\n    msg.Operativo = \"BES DETENIDA\";\nelse if(Estado_VSD == 2)\n    msg.Alarma = \"BES EN ALARMA\";\nelse if(Estado_VSD == 3)\n    msg.Falla = \"BES EN FALLA\";\nelse if(Estado_VSD == 4)\n    msg.Comunicacion = \"BES FALLA COMUNICACION\";\nelse if(Estado_VSD == 5)\n    msg.Apagado = \"BES APAGADO\";\nelse\n    msg.Nodisp = \"BES NO DISPONIBLE\";\n\nreturn msg;",
+        "func": "var rutaSCPselector = env.get(\"rutaSCPselector\");\nvar despla = global.get(rutaSCPselector, \"memoryOnly\") || 0;\nvar SCP = env.get(\"position\") + despla;\nvar Estado_VSD = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\",\"memoryOnly\");\nif(Estado_VSD == 0){\n    msg.Detenido = \"BES EN MARCHA\";\n    msg.payload = 0;\n}\nelse if (Estado_VSD == 1){\n    msg.Operativo = \"BES DETENIDA\";\n    msg.payload = 1;\n}\nelse if(Estado_VSD == 2){\n    msg.Alarma = \"BES EN ALARMA\";\n    msg.payload = 2;\n}\nelse if(Estado_VSD == 3){\n    msg.Falla = \"BES EN FALLA\";\n    msg.payload = 3;\n}\nelse if(Estado_VSD == 4){\n    msg.Comunicacion = \"BES FALLA COMUNICACION\";\n    msg.payload = 4;\n}    \nelse if(Estado_VSD == 5){\n    msg.Apagado = \"BES APAGADO\";\n    msg.payload = 5;\n}\nelse\n    msg.Nodisp = \"BES NO DISPONIBLE\";\n    msg.payload = 6;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -39302,12 +38949,10 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h6><span class=\"badge badge-success\">{{Detenido}}</span></h6>\n            <h6><span class=\"badge badge-danger\">{{Falla}}</span></h6>\n            <h6><span class=\"badge badge-warning\">{{Alarma}}</span></h6>\n            <h6><span class=\"badge badge-info\">{{Comunicacion}}</span></h6>\n            <h6><span class=\"badge badge-secondary\">{{Operativo}}</span></h6>\n            <h6><span class=\"badge badge-primary\">{{Nodisp}}</span></h6>\n            <h6><span class=\"badge badge-dark\">{{Apagado}}</span></h6>\n\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 1010,
-        "y": 900,
+        "x": 1070,
+        "y": 880,
         "wires": [
-            [
-                "1d9c242afb05f3c7"
-            ]
+            []
         ]
     },
     {
@@ -40050,44 +39695,6 @@
                 "659ae12f0356cea2"
             ]
         ]
-    },
-    {
-        "id": "63c685875964e413",
-        "type": "inject",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "viewer",
-        "props": [
-            {
-                "p": "enabled",
-                "v": "true",
-                "vt": "bool"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "str",
-        "x": 280,
-        "y": 660,
-        "wires": [
-            [
-                "b0a0856ce0a6a98e"
-            ]
-        ]
-    },
-    {
-        "id": "aeece35ccc591620",
-        "type": "comment",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "name": "Leer Importante",
-        "info": "Si no se visualizan los cajetines correc-\ntamente, `pulsar injects \"viewer\" en los\n4 grupos SCP",
-        "x": 310,
-        "y": 620,
-        "wires": []
     },
     {
         "id": "c91673ec5dacc4a2",
@@ -43134,14 +42741,14 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 290,
-        "y": 180,
+        "x": 250,
+        "y": 220,
         "wires": [
             [
-                "6d4ca22faacfb6a7",
-                "7026ba7070318c79",
-                "d6e9e6cb27b824f9",
-                "fd87bdba434bf152"
+                "852a5b7c388648de",
+                "e4ea350acf6a4e72",
+                "d849df0fbb7e800b",
+                "7e86f1c93a959d88"
             ]
         ]
     },
@@ -43288,8 +42895,8 @@
         "label": "Voltaje L1-L2",
         "format": "{{msg.VL1L2}} VAC",
         "layout": "col-center",
-        "x": 830,
-        "y": 230,
+        "x": 760,
+        "y": 300,
         "wires": []
     },
     {
@@ -43302,7 +42909,7 @@
             "bc99cf40ab6d6e51"
         ],
         "x": 135,
-        "y": 270,
+        "y": 180,
         "wires": [
             [
                 "cd3f340c.1706c8",
@@ -43324,8 +42931,8 @@
         "label": "Voltaje L2-L3",
         "format": "{{msg.VL2L3}} VAC",
         "layout": "col-center",
-        "x": 830,
-        "y": 270,
+        "x": 760,
+        "y": 340,
         "wires": []
     },
     {
@@ -43341,8 +42948,8 @@
         "label": "Voltaje L1-L3",
         "format": "{{msg.VL1L3}} VAC",
         "layout": "col-center",
-        "x": 830,
-        "y": 310,
+        "x": 760,
+        "y": 380,
         "wires": []
     },
     {
@@ -43358,8 +42965,8 @@
         "label": "Voltaje L1-N",
         "format": "{{msg.VL1N}} VAC",
         "layout": "col-center",
-        "x": 660,
-        "y": 230,
+        "x": 760,
+        "y": 180,
         "wires": []
     },
     {
@@ -43375,8 +42982,8 @@
         "label": "Voltaje L2-N",
         "format": "{{msg.VL2N}} VAC",
         "layout": "col-center",
-        "x": 660,
-        "y": 270,
+        "x": 760,
+        "y": 220,
         "wires": []
     },
     {
@@ -43392,8 +42999,8 @@
         "label": "Voltaje L3-N",
         "format": "{{msg.VL3N}} VAC",
         "layout": "col-center",
-        "x": 660,
-        "y": 310,
+        "x": 760,
+        "y": 260,
         "wires": []
     },
     {
@@ -43409,8 +43016,8 @@
         "label": "Corriente L1",
         "format": "{{msg.CL1}} A",
         "layout": "col-center",
-        "x": 1000,
-        "y": 230,
+        "x": 760,
+        "y": 420,
         "wires": []
     },
     {
@@ -43426,8 +43033,8 @@
         "label": "Corriente L2",
         "format": "{{msg.CL2}} A",
         "layout": "col-center",
-        "x": 1000,
-        "y": 270,
+        "x": 760,
+        "y": 460,
         "wires": []
     },
     {
@@ -43443,8 +43050,8 @@
         "label": "Corriente L3",
         "format": "{{msg.CL3}} A",
         "layout": "col-center",
-        "x": 1000,
-        "y": 310,
+        "x": 760,
+        "y": 500,
         "wires": []
     },
     {
@@ -43460,8 +43067,8 @@
         "label": "P. Activa L1",
         "format": "{{msg.L1_kW}} kW",
         "layout": "col-center",
-        "x": 1170,
-        "y": 230,
+        "x": 760,
+        "y": 540,
         "wires": []
     },
     {
@@ -43477,8 +43084,8 @@
         "label": "P. Activa L2",
         "format": "{{msg.L2_kW}} kW",
         "layout": "col-center",
-        "x": 1170,
-        "y": 270,
+        "x": 760,
+        "y": 580,
         "wires": []
     },
     {
@@ -43494,8 +43101,8 @@
         "label": "P. Activa L3",
         "format": "{{msg.L3_kW}} kW",
         "layout": "col-center",
-        "x": 1170,
-        "y": 310,
+        "x": 760,
+        "y": 620,
         "wires": []
     },
     {
@@ -43511,8 +43118,8 @@
         "label": "P. Aparente L1",
         "format": "{{msg.L1_kVA}} kVA",
         "layout": "col-center",
-        "x": 1350,
-        "y": 230,
+        "x": 770,
+        "y": 660,
         "wires": []
     },
     {
@@ -43528,8 +43135,8 @@
         "label": "P. Aparente L2",
         "format": "{{msg.L2_kVA}} kVA",
         "layout": "col-center",
-        "x": 1350,
-        "y": 270,
+        "x": 770,
+        "y": 700,
         "wires": []
     },
     {
@@ -43545,8 +43152,8 @@
         "label": "P. Aparente  L3",
         "format": "{{msg.L3_kVA}} kVA",
         "layout": "col-center",
-        "x": 1350,
-        "y": 310,
+        "x": 770,
+        "y": 740,
         "wires": []
     },
     {
@@ -43562,8 +43169,8 @@
         "label": "P. Reactiva L1",
         "format": "{{msg.L1_kVAR}} kVAR",
         "layout": "col-center",
-        "x": 1530,
-        "y": 230,
+        "x": 770,
+        "y": 780,
         "wires": []
     },
     {
@@ -43579,8 +43186,8 @@
         "label": "P. Reactiva L2",
         "format": "{{msg.L2_kVAR}} kVAR",
         "layout": "col-center",
-        "x": 1530,
-        "y": 270,
+        "x": 770,
+        "y": 820,
         "wires": []
     },
     {
@@ -43596,8 +43203,8 @@
         "label": "P. Reactiva L3",
         "format": "{{msg.L3_kVAR}} kVAR",
         "layout": "col-center",
-        "x": 1530,
-        "y": 310,
+        "x": 770,
+        "y": 860,
         "wires": []
     },
     {
@@ -43615,8 +43222,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 430,
-        "y": 310,
+        "x": 790,
+        "y": 140,
         "wires": [
             []
         ]
@@ -43633,11 +43240,11 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h1><b><center>Datos eléctricos clúster CASE0021</center></b></h1>\n</body>\n\n</html>",
         "output": "str",
-        "x": 250,
-        "y": 310,
+        "x": 240,
+        "y": 140,
         "wires": [
             [
-                "9f7411a7cc83b029"
+                "0809c83f9e374b28"
             ]
         ]
     },
@@ -44140,7 +43747,7 @@
         "z": "0dd66b875552d6bc",
         "g": "64cc751322ef5934",
         "name": "SCP1",
-        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP1.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP1.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP1.INST.THT_TIT_PV).toFixed(2);\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = THP + \" PSI\";\n}\n\nreturn msg;",
+        "func": "var Cluster     = global.get(\"Cluster\",\"memoryOnly\");\nvar Estado_VSD = global.get(\"Cluster.SCP1.VSD.Estado\", \"memoryOnly\");\nvar THP = (Cluster.SCP1.INST.THP_PIT_PV).toFixed(2);\nvar THT = (Cluster.SCP1.INST.THT_TIT_PV).toFixed(2);\n\n// valor del label\nmsg.label1 = 'CS-CASE0021-TT-00211'\n\nif (Estado_VSD == 4) {\n    msg.THT = \"------\";\n    msg.THP = \"------\";\n} else if (Estado_VSD == 0 || Estado_VSD == 1 || Estado_VSD == 2 || Estado_VSD == 3) {\n    msg.THT = THT + \" °F\";\n    msg.THP = 'PIT ' + THP + \" PSI\";\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -44164,9 +43771,9 @@
         "order": 4,
         "width": "4",
         "height": "2",
-        "name": "",
-        "label": "Presión cabeza ",
-        "format": "<font size =4px>{{msg.THP}}",
+        "name": "Presión cabeza ",
+        "label": "<font size =1.8px>{{msg.label1}}",
+        "format": "<font size =3px>{{msg.THP}}",
         "layout": "col-center",
         "x": 500,
         "y": 80,
@@ -45982,11 +45589,11 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0021-PT-00210</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 260,
-        "y": 100,
+        "x": 220,
+        "y": 180,
         "wires": [
             [
-                "e37221e3efababac"
+                "338579f1c42fb18d"
             ]
         ]
     },
@@ -46005,8 +45612,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 460,
-        "y": 100,
+        "x": 550,
+        "y": 180,
         "wires": [
             []
         ]
@@ -46026,8 +45633,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 460,
-        "y": 260,
+        "x": 550,
+        "y": 140,
         "wires": [
             []
         ]
@@ -46044,11 +45651,11 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0021-FIT-00210</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 270,
-        "y": 260,
+        "x": 220,
+        "y": 140,
         "wires": [
             [
-                "a13647535e0c20a6"
+                "bba0022677777a08"
             ]
         ]
     },
@@ -46243,51 +45850,51 @@
         "id": "5f369438a30f131e",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 7,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Vibracion en X",
         "label": "Vibración en X",
         "format": "<font size =4px>{{msg.Vibracion_X}} G",
         "layout": "col-center",
-        "x": 780,
-        "y": 1300,
+        "x": 660,
+        "y": 1620,
         "wires": []
     },
     {
         "id": "53147a8c96b2f39c",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 8,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Vibracion en Z",
         "label": "Vibración en Z",
         "format": "<font size =4px>{{msg.Vibracion_Z}} G",
         "layout": "col-center",
-        "x": 780,
-        "y": 1340,
+        "x": 660,
+        "y": 1660,
         "wires": []
     },
     {
         "id": "933dd1c21cde4459",
         "type": "ui_text",
         "z": "e997ba3b.48cc18",
-        "g": "d516d3f7ea6bbe72",
+        "g": "3b1e7a95258702e4",
         "group": "a20d6c09c126296e",
         "order": 9,
-        "width": 8,
+        "width": "6",
         "height": 2,
         "name": "Vibracion",
         "label": "Vibración",
         "format": "<font size =4px>{{msg.Vibracion}} G",
         "layout": "col-center",
-        "x": 760,
-        "y": 1380,
+        "x": 640,
+        "y": 1700,
         "wires": []
     },
     {
@@ -46801,7 +46408,7 @@
             "449b37406b29dc93"
         ],
         "x": 75,
-        "y": 490,
+        "y": 580,
         "wires": [
             [
                 "af7b84cbace278b1",
@@ -46827,8 +46434,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 550,
+        "x": 800,
+        "y": 410,
         "wires": [
             [
                 "0db3231e87512499"
@@ -46845,8 +46452,8 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 605,
-        "y": 550,
+        "x": 815,
+        "y": 330,
         "wires": []
     },
     {
@@ -47500,23 +47107,6 @@
         ]
     },
     {
-        "id": "2dc0fe74d8d78397",
-        "type": "ui_text",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
-        "group": "04c0fe5a58c91c22",
-        "order": 15,
-        "width": "6",
-        "height": "1",
-        "name": "Local/Remoto",
-        "label": "Control: ",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "row-center",
-        "x": 620,
-        "y": 620,
-        "wires": []
-    },
-    {
         "id": "44c3366262953ead",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
@@ -47661,8 +47251,8 @@
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 250,
-        "y": 180,
+        "x": 360,
+        "y": 900,
         "wires": [
             [
                 "fda75e43c91830d8",
@@ -47691,8 +47281,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
-        "y": 140,
+        "x": 700,
+        "y": 900,
         "wires": [
             []
         ]
@@ -47709,28 +47299,28 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 230,
+        "x": 320,
+        "y": 180,
         "wires": [
             [
-                "8c85a2863fa5d796",
-                "9a5e2769197ec091",
-                "d7424337f0afdb1e",
-                "a022b1638c40e2d4",
-                "61956eafcbc929ed",
-                "ce2acc58edb02677",
-                "fb327ab1ca42c55c",
-                "1e198fdd729abbe4",
-                "33fbc077863bf214",
-                "c499dcb5ef5697b0",
-                "ddf34afe525e8000",
-                "7617e107945bf319",
-                "d7e7d882e120bbac",
-                "74b5b171e69e432f",
-                "92879f0db2d33c77",
-                "762a782f6f35ebe6",
-                "685b153041347c40",
-                "7c6447ff989f473e"
+                "1b7c1ad582c0c2ec",
+                "03979f5be1bd4239",
+                "b37a2bef66080abe",
+                "79843ab33258a40a",
+                "182cfc8233f80944",
+                "21c313197cb62c0f",
+                "6ebf784df5fadf7d",
+                "473d4bdf0c5a2913",
+                "ab9a6c8237c77188",
+                "1de17196b3c9a123",
+                "7b2f679bf233155d",
+                "d841f57670f18a64",
+                "672c097d48664ff5",
+                "b935e2dfb5578eb2",
+                "3d312b28e490277b",
+                "f9b0aeb7df860487",
+                "c4b44de9baaed701",
+                "912c9baf2066bcc2"
             ]
         ]
     },
@@ -47741,8 +47331,8 @@
         "g": "f1f3555028254919",
         "name": "¡NOTA IMPORTANTE!",
         "info": "Esta optimización se realizo porque en el campo **Caño sur**,  los CCP\nno contaban con un gateway que les permitiera comunicar de MODBUS TCP\na EtherNet IP, por esta razón en caso de futuros proyecto de tableros \nde comunicación CILA AIC, se requiere verificar si la comunicación en \nel campo es EtherNet IP o MODBUS TCP, por esta razón se debe tener en\ncuenta lo siguiente:\n\n * En caso de que la comunicación sea **MODBUS TCP**, se debe habilitar el\n  nodo de función llamado **Datos eléctricos por MODBUS TCP**, el nodo\n  modbus llamado **Mediciones Eléctricos CCP**, el nodo change llamado \n  **Datos electricos CCP Modbus**, asignar la dirección IP del nodo MODBUS\n  que estará enviando datos hacia el SWCPRO, el **inject** y el nodo\n  **MODBUS FLEX CONNECTOR** y deberá deshabilitar el nodo de función\n  llamado **Datos eléctricos por EtherNet IP**\n\n\n * En caso de que la comunicación sea **EtherNet IP**, se debe deshabilitar el\n  nodo de función llamado **Datos eléctricos por MODBUS TCP**, el nodo\n  modbus llamado **Mediciones Eléctricos CCP**, el nodo change llamado \n  **Datos electricos CCP Modbus**, el **inject** y el nodo **MODBUS FLEX CONNECTOR**\n  y debera habilitar el nodo de función llamado **Datos eléctricos por EtherNet IP**",
-        "x": 220,
-        "y": 390,
+        "x": 280,
+        "y": 300,
         "wires": []
     },
     {
@@ -47759,8 +47349,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 460,
-        "y": 180,
+        "x": 640,
+        "y": 940,
         "wires": []
     },
     {
@@ -47813,341 +47403,6 @@
         ]
     },
     {
-        "id": "262b1365587ba0c5",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0001: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0001",
-        "x": 460,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "8801529586341dec",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0002: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0002",
-        "x": 460,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "4d4040200bd20d09",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0003: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0003",
-        "x": 460,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "4909f16f1936181d",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0004: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0004",
-        "x": 460,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "8110305fe69f15dc",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0005: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0005",
-        "x": 460,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "cd8d1189f698d0e6",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0006: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0006",
-        "x": 460,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "46a4b2098a5e7360",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0007: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0007",
-        "x": 460,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "2b45f95feb030731",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0008: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0008",
-        "x": 460,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "70102dda274db3c8",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "group": "2366e46641840803",
-        "order": 10,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Interruptor VSD-CASE-0009: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "ABIERTO",
-                "valueType": "str"
-            },
-            {
-                "color": "orange",
-                "value": "DISPARADO",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "CERRADO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Interruptor VSD-0009",
-        "x": 460,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "1d6d32e7c616488a",
-        "type": "function",
-        "z": "aa547d69.9cb8e",
-        "g": "1b48b0a68b3a0856",
-        "name": "Interruptor 1",
-        "func": "var Datos_Electricos = global.get(\"Electricos_Modbus\", \"memoryOnly\");\n/************************** TOMA DE MEDIDAS ELECTRICAS CCP **************************/\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 260,
-        "y": 520,
-        "wires": [
-            [
-                "262b1365587ba0c5"
-            ]
-        ]
-    },
-    {
         "id": "10b11a73f06ebe03",
         "type": "link in",
         "z": "aa547d69.9cb8e",
@@ -48156,11 +47411,10 @@
         "links": [
             "bc99cf40ab6d6e51"
         ],
-        "x": 135,
-        "y": 490,
+        "x": 975,
+        "y": 350,
         "wires": [
             [
-                "1d6d32e7c616488a",
                 "c03c98c593115010"
             ]
         ]
@@ -48177,11 +47431,11 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h5><b><center>Estado interruptores CCP CLUSTER CASE0024</center></b></h5>\n</body>\n\n</html>",
         "output": "str",
-        "x": 250,
-        "y": 480,
+        "x": 1080,
+        "y": 350,
         "wires": [
             [
-                "e8630ac7031e0e07"
+                "092dc70f4b452559"
             ]
         ]
     },
@@ -48200,8 +47454,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 470,
-        "y": 480,
+        "x": 1420,
+        "y": 350,
         "wires": [
             []
         ]
@@ -48219,7 +47473,7 @@
         "label": "PIT",
         "format": "{{msg.PIT}}",
         "layout": "row-center",
-        "x": 570,
+        "x": 540,
         "y": 60,
         "wires": []
     },
@@ -48236,176 +47490,15 @@
         "label": "FIT",
         "format": "{{msg.FIT_FLUJO_TOTAL}} ",
         "layout": "row-center",
-        "x": 570,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "dc0cb3408bd93b39",
-        "type": "inject",
-        "z": "f10e7ce.d57828",
-        "g": "9d8df5b4f6b8aaf2",
-        "name": "",
-        "props": [
-            {
-                "p": "PIT",
-                "v": "123.4 psi",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 640,
-        "y": 110,
-        "wires": [
-            [
-                "e9b0367b60f42e9f"
-            ]
-        ]
-    },
-    {
-        "id": "791a76d407a3444c",
-        "type": "inject",
-        "z": "f10e7ce.d57828",
-        "g": "9d8df5b4f6b8aaf2",
-        "name": "",
-        "props": [
-            {
-                "p": "FIT_FLUJO_TOTAL",
-                "v": "1423.4 BFPD",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 630,
-        "y": 240,
-        "wires": [
-            [
-                "fd87bdba434bf152"
-            ]
-        ]
-    },
-    {
-        "id": "80323b138bfa07ef",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "8f13c794af3beb1e",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Nivel de aceite de SDT: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "NORMALIZADO",
-                "valueType": "str"
-            },
-            {
-                "color": "yellow",
-                "value": "ALARMA",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "DISPARO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Nivel de aceite de SDT",
-        "x": 1070,
-        "y": 510,
-        "wires": []
-    },
-    {
-        "id": "e07a72942c819726",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "8f13c794af3beb1e",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Temperatura SDT: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "NORMALIZADO",
-                "valueType": "str"
-            },
-            {
-                "color": "yellow",
-                "value": "ALARMA",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "DISPARO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Nivel de aceite de SDT",
-        "x": 1070,
-        "y": 550,
-        "wires": []
-    },
-    {
-        "id": "9164380f6633b44f",
-        "type": "ui_led",
-        "z": "aa547d69.9cb8e",
-        "group": "8f13c794af3beb1e",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "<font size =4px>Válvula de sobrepresión SDT: <b>{{msg.payload}}<b>",
-        "labelPlacement": "right",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "green",
-                "value": "NORMALIZADO",
-                "valueType": "str"
-            },
-            {
-                "color": "yellow",
-                "value": "ALARMA",
-                "valueType": "str"
-            },
-            {
-                "color": "red",
-                "value": "DISPARO",
-                "valueType": "str"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "Válvula de sobrepresión SDT",
-        "x": 1090,
-        "y": 590,
+        "x": 540,
+        "y": 260,
         "wires": []
     },
     {
         "id": "7b407abc4660115b",
         "type": "template",
         "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
         "name": "",
         "field": "payload",
         "fieldType": "msg",
@@ -48413,11 +47506,11 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <h5><b><center>Estado señales SDT CLUSTER CASE0024</center></b></h5>\n</body>\n\n</html>",
         "output": "str",
-        "x": 860,
-        "y": 470,
+        "x": 1090,
+        "y": 140,
         "wires": [
             [
-                "ce341293c3e8fab8"
+                "2b68d64599749e56"
             ]
         ]
     },
@@ -48425,6 +47518,7 @@
         "id": "ce341293c3e8fab8",
         "type": "ui_template",
         "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
         "group": "8f13c794af3beb1e",
         "name": "Título estado señales SDT",
         "order": 1,
@@ -48435,8 +47529,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1090,
-        "y": 470,
+        "x": 1430,
+        "y": 140,
         "wires": [
             []
         ]
@@ -48445,15 +47539,17 @@
         "id": "bf36fdd2bd3c67f0",
         "type": "link in",
         "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
         "name": "",
         "links": [
             "bc99cf40ab6d6e51"
         ],
-        "x": 765,
-        "y": 470,
+        "x": 975,
+        "y": 180,
         "wires": [
             [
-                "7b407abc4660115b"
+                "7b407abc4660115b",
+                "ed837529374fb2f1"
             ]
         ]
     },
@@ -48647,52 +47743,6 @@
         ]
     },
     {
-        "id": "3d667eea787798ec",
-        "type": "function",
-        "z": "dcee4298f5de57d2",
-        "name": "",
-        "func": "var nameDate = 'test'+ '1';\nvar nameDate2 = 'test'+ '2';\nflow.set(nameDate,2)\nflow.set(nameDate2,2)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 910,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "861e379b73998f6b",
-        "type": "inject",
-        "z": "dcee4298f5de57d2",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 240,
-        "y": 910,
-        "wires": [
-            [
-                "3d667eea787798ec"
-            ]
-        ]
-    },
-    {
         "id": "071a9ec08a161bbc",
         "type": "rbe",
         "z": "9f97d888.bf2cb8",
@@ -48742,42 +47792,6 @@
         "topi": "topic",
         "x": 650,
         "y": 1040,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f3c5eb48e26b93b3",
-        "type": "rbe",
-        "z": "9f97d888.bf2cb8",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 1190,
-        "y": 950,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1d9c242afb05f3c7",
-        "type": "rbe",
-        "z": "9f97d888.bf2cb8",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 1190,
-        "y": 900,
         "wires": [
             []
         ]
@@ -49107,7 +48121,1957 @@
         ]
     },
     {
-        "id": "37f0f2799ea347a9",
+        "id": "3dc09967ba5b4820",
+        "type": "ui_text",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "group": "a20d6c09c126296e",
+        "order": 9,
+        "width": "6",
+        "height": 2,
+        "name": "Presion de Cabeza",
+        "label": "Presión de Cabeza",
+        "format": "<font size =4px>{{msg.THP_PIT_PV}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "db6acf9fb7b63489",
+        "type": "ui_text",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "group": "a20d6c09c126296e",
+        "order": 9,
+        "width": "6",
+        "height": 2,
+        "name": "Temperatura de Cabeza",
+        "label": "Temperatura de Cabeza",
+        "format": "<font size =4px>{{msg.THT_TIT_PV}}",
+        "layout": "col-center",
+        "x": 690,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "a220e0f964492891",
+        "type": "ui_text_input",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "label": "TAG Instrumento TIT",
+        "tooltip": "",
+        "group": "a20d6c09c126296e",
+        "order": 11,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "mode": "text",
+        "delay": "2000",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 1830,
+        "wires": [
+            [
+                "7b4491fa4fba51de"
+            ]
+        ]
+    },
+    {
+        "id": "7b4491fa4fba51de",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "saveName",
+        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster')||[];\nvar Pozo = flow.get('Pozo','memoryOnly')||'';\n\nif(Array.isArray(Cluster)){\n    if (Cluster.length>0){//si tengo pozos configurados\n        var indiceIdent = 0; \n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo){\n                indiceIdent = i;\n                break;\n            }\n        }\n        Cluster[indiceIdent].nameInstrumentTIT = Data;\n        global.set('Cluster', Cluster);\n    }else{\n        node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n    }\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n}\ncontext.set('monitoreo',{Cluster,Data,indiceIdent})\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1830,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04204987dbbc777c",
+        "type": "ui_text_input",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "label": "TAG Instrumento PIT",
+        "tooltip": "",
+        "group": "a20d6c09c126296e",
+        "order": 11,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "mode": "text",
+        "delay": "2000",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 1870,
+        "wires": [
+            [
+                "8fefd7f69474316e"
+            ]
+        ]
+    },
+    {
+        "id": "8fefd7f69474316e",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "saveName",
+        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster')||[];\nvar Pozo = flow.get('Pozo','memoryOnly')||'';\n\nif(Array.isArray(Cluster)){\n    if (Cluster.length>0){//si tengo pozos configurados\n        var indiceIdent = 0; \n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo){\n                indiceIdent = i;\n                break;\n            }\n        }\n        Cluster[indiceIdent].nameInstrumentPIT = Data;\n        global.set('Cluster', Cluster);\n    }else{\n        node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n    }\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n}\ncontext.set('monitoreo',{Cluster,Data,indiceIdent})\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1870,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "090788529ccfc8aa",
+        "type": "link out",
+        "z": "e997ba3b.48cc18",
+        "g": "73a228cd.9d45d8",
+        "name": "selector Datos pozos",
+        "links": [
+            "a6f3db86f0564ada"
+        ],
+        "x": 635,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a6f3db86f0564ada",
+        "type": "link in",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "salida selector datos de pozo",
+        "links": [
+            "090788529ccfc8aa"
+        ],
+        "x": 225,
+        "y": 1850,
+        "wires": [
+            [
+                "6006b6caa1354154"
+            ]
+        ]
+    },
+    {
+        "id": "6006b6caa1354154",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster') || [];\nvar Pozo = flow.get('Pozo', 'memoryOnly') || '';\n\nif (Array.isArray(Cluster)) {\n    if (Cluster.length>0) {//si tengo pozos configurados\n        var indiceIdent = 0;\n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo) {\n                indiceIdent = i;\n                break;\n            }\n        }\n        var TITname = tieneValor(Cluster[indiceIdent].nameInstrumentTIT);\n        var PITname = tieneValor(Cluster[indiceIdent].nameInstrumentPIT);\n        context.set('monitoreo', { Cluster, Data, indiceIdent,TITname,PITname})\n        return [{ payload: TITname }, { payload: PITname}];\n\n    } else {\n        node.status({ fill: \"red\", shape: \"ring\", text: \"No configurado\" });\n    }\n} else {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No configurado\" });\n}\n\ncontext.set('monitoreo', { Cluster, Data, indiceIdent })\n\nfunction tieneValor(value){\n    if (value === undefined){\n        return '';\n    }else{\n        return value;\n    }\n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1850,
+        "wires": [
+            [
+                "a220e0f964492891"
+            ],
+            [
+                "04204987dbbc777c"
+            ]
+        ]
+    },
+    {
+        "id": "231621f819649d2a",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Corriente_VSD",
+        "topi": "topic",
+        "x": 510,
+        "y": 1060,
+        "wires": [
+            [
+                "1ee8792a8ad49dce"
+            ]
+        ]
+    },
+    {
+        "id": "8c2b46d5ac3dd764",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_Bus_DC",
+        "topi": "topic",
+        "x": 510,
+        "y": 1100,
+        "wires": [
+            [
+                "45c48590d88443c0"
+            ]
+        ]
+    },
+    {
+        "id": "5ba8833d7df8dbc9",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Frecuencia",
+        "topi": "topic",
+        "x": 510,
+        "y": 1140,
+        "wires": [
+            [
+                "7231aaa203bbccc4"
+            ]
+        ]
+    },
+    {
+        "id": "1c4274c60b17c4f1",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_VSD",
+        "topi": "topic",
+        "x": 510,
+        "y": 1180,
+        "wires": [
+            [
+                "73e282a538116778"
+            ]
+        ]
+    },
+    {
+        "id": "6b26871263b8fa1c",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Velocidad_minima",
+        "topi": "topic",
+        "x": 510,
+        "y": 1220,
+        "wires": [
+            [
+                "6c5e62d7bc0ac203"
+            ]
+        ]
+    },
+    {
+        "id": "e6aa188b16966c90",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Velocidad_maxima",
+        "topi": "topic",
+        "x": 510,
+        "y": 1260,
+        "wires": [
+            [
+                "64855de1103423e9"
+            ]
+        ]
+    },
+    {
+        "id": "b0c43e7a4a127dc4",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_Motor",
+        "topi": "topic",
+        "x": 510,
+        "y": 1300,
+        "wires": [
+            [
+                "3ce4bf81cd27db77"
+            ]
+        ]
+    },
+    {
+        "id": "ceb11f2b0234d654",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Corriente_Motor",
+        "topi": "topic",
+        "x": 510,
+        "y": 1340,
+        "wires": [
+            [
+                "2bc659acfb95281c"
+            ]
+        ]
+    },
+    {
+        "id": "38a60232c23fa90a",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Temperatura_Descarga",
+        "topi": "topic",
+        "x": 510,
+        "y": 1380,
+        "wires": [
+            [
+                "d8a985a0d6b5b523"
+            ]
+        ]
+    },
+    {
+        "id": "abe7460db82c20db",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Temperatura_Motor",
+        "topi": "topic",
+        "x": 510,
+        "y": 1420,
+        "wires": [
+            [
+                "44b57d4de10c36e9"
+            ]
+        ]
+    },
+    {
+        "id": "4dfd987d3b7b1734",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Temperatura_Entrada",
+        "topi": "topic",
+        "x": 510,
+        "y": 1460,
+        "wires": [
+            [
+                "16f17bf1cfad084a"
+            ]
+        ]
+    },
+    {
+        "id": "49d03b1d6d29e0fc",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "PIP",
+        "topi": "topic",
+        "x": 510,
+        "y": 1500,
+        "wires": [
+            [
+                "9d7f859a97e62a5e"
+            ]
+        ]
+    },
+    {
+        "id": "85acd5a148e6be85",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "PDP",
+        "topi": "topic",
+        "x": 510,
+        "y": 1540,
+        "wires": [
+            [
+                "41f1cfc8b28a9379"
+            ]
+        ]
+    },
+    {
+        "id": "3ef7f3f43551b9b3",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Corriente_Fuga",
+        "topi": "topic",
+        "x": 510,
+        "y": 1580,
+        "wires": [
+            [
+                "bb3a1503056c9d7b"
+            ]
+        ]
+    },
+    {
+        "id": "c5de7fd31d1cccf2",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Vibracion_X",
+        "topi": "topic",
+        "x": 510,
+        "y": 1620,
+        "wires": [
+            [
+                "5f369438a30f131e"
+            ]
+        ]
+    },
+    {
+        "id": "33d3fab9b19ac15e",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Vibracion_Z",
+        "topi": "topic",
+        "x": 510,
+        "y": 1660,
+        "wires": [
+            [
+                "53147a8c96b2f39c"
+            ]
+        ]
+    },
+    {
+        "id": "c475101883a93bad",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Vibracion",
+        "topi": "topic",
+        "x": 510,
+        "y": 1700,
+        "wires": [
+            [
+                "933dd1c21cde4459"
+            ]
+        ]
+    },
+    {
+        "id": "977421d09916a989",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "THP_PIT_PV",
+        "topi": "topic",
+        "x": 510,
+        "y": 1740,
+        "wires": [
+            [
+                "3dc09967ba5b4820"
+            ]
+        ]
+    },
+    {
+        "id": "6a88f74229af0f1a",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "3b1e7a95258702e4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "THT_TIT_PV",
+        "topi": "topic",
+        "x": 510,
+        "y": 1780,
+        "wires": [
+            [
+                "db6acf9fb7b63489"
+            ]
+        ]
+    },
+    {
+        "id": "17b1f8ff697f84ed",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L1_L2",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1060,
+        "wires": [
+            [
+                "b589e64f56e21ac7"
+            ]
+        ]
+    },
+    {
+        "id": "70597183a50f031c",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L2_L3",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1100,
+        "wires": [
+            [
+                "62efcf2f2e6fc20d"
+            ]
+        ]
+    },
+    {
+        "id": "2bb2e27cbbb3225a",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L1_L3",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1140,
+        "wires": [
+            [
+                "26f7633454cb7b7b"
+            ]
+        ]
+    },
+    {
+        "id": "8dc2a4776aa34b8c",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L1_N",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1180,
+        "wires": [
+            [
+                "27fbe89162252d87"
+            ]
+        ]
+    },
+    {
+        "id": "c4be9669ef2f2907",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L2_N",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1220,
+        "wires": [
+            [
+                "fef1de918a0383c5"
+            ]
+        ]
+    },
+    {
+        "id": "ab5a152f0be5728e",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FP_Pro",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1620,
+        "wires": [
+            [
+                "51a95fddfc307309"
+            ]
+        ]
+    },
+    {
+        "id": "79036f22026ce0da",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Amp_Pro",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1580,
+        "wires": [
+            [
+                "f30aafc49351a97d"
+            ]
+        ]
+    },
+    {
+        "id": "ee43e36cfd45195c",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L_L_Pro",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1540,
+        "wires": [
+            [
+                "b106c2418d7dcedc"
+            ]
+        ]
+    },
+    {
+        "id": "34a63319eaf34c95",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "KVAr_Act_Pro",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1500,
+        "wires": [
+            [
+                "b70c9c5996e62a1b"
+            ]
+        ]
+    },
+    {
+        "id": "a3a535b635126835",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "KVA_Act_Pro",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1460,
+        "wires": [
+            [
+                "66a2dcde565e0f7b"
+            ]
+        ]
+    },
+    {
+        "id": "c47773f6e52c5508",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "KWATT_Act_Pro",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1420,
+        "wires": [
+            [
+                "27bd0126aacfcdf9"
+            ]
+        ]
+    },
+    {
+        "id": "69a2e0a10ac62818",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Amp_L3",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1380,
+        "wires": [
+            [
+                "c4a98d774ec39f19"
+            ]
+        ]
+    },
+    {
+        "id": "1907bcb1666e0747",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Amp_L2",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1340,
+        "wires": [
+            [
+                "622bf3d96f99a836"
+            ]
+        ]
+    },
+    {
+        "id": "25143100bbf0e539",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Amp_L1",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1300,
+        "wires": [
+            [
+                "33a2a97f98148ea9"
+            ]
+        ]
+    },
+    {
+        "id": "e73fa007259d6db0",
+        "type": "rbe",
+        "z": "e997ba3b.48cc18",
+        "g": "f6c5f78da86ed2f4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Voltaje_L3_N",
+        "topi": "topic",
+        "x": 1280,
+        "y": 1260,
+        "wires": [
+            [
+                "696da4552d0aa3f3"
+            ]
+        ]
+    },
+    {
+        "id": "d6b2bfcf621dc989",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "PIT",
+        "topi": "topic",
+        "x": 420,
+        "y": 100,
+        "wires": [
+            [
+                "1acd74b8f94c62c5"
+            ]
+        ]
+    },
+    {
+        "id": "2be20f48760e2e33",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "PIT",
+        "topi": "topic",
+        "x": 420,
+        "y": 60,
+        "wires": [
+            [
+                "e9b0367b60f42e9f"
+            ]
+        ]
+    },
+    {
+        "id": "bba0022677777a08",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 420,
+        "y": 140,
+        "wires": [
+            [
+                "a13647535e0c20a6"
+            ]
+        ]
+    },
+    {
+        "id": "852a5b7c388648de",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_FLUJO_TOTAL",
+        "topi": "topic",
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "7026ba7070318c79"
+            ]
+        ]
+    },
+    {
+        "id": "e4ea350acf6a4e72",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_TEMPERATURA",
+        "topi": "topic",
+        "x": 420,
+        "y": 340,
+        "wires": [
+            [
+                "d6e9e6cb27b824f9"
+            ]
+        ]
+    },
+    {
+        "id": "d849df0fbb7e800b",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_FLUJO_TOTAL",
+        "topi": "topic",
+        "x": 420,
+        "y": 260,
+        "wires": [
+            [
+                "fd87bdba434bf152"
+            ]
+        ]
+    },
+    {
+        "id": "7e86f1c93a959d88",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_DENSIDAD",
+        "topi": "topic",
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "6d4ca22faacfb6a7"
+            ]
+        ]
+    },
+    {
+        "id": "338579f1c42fb18d",
+        "type": "rbe",
+        "z": "f10e7ce.d57828",
+        "g": "9d8df5b4f6b8aaf2",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "e37221e3efababac"
+            ]
+        ]
+    },
+    {
+        "id": "1b7c1ad582c0c2ec",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "VL1N",
+        "topi": "topic",
+        "x": 620,
+        "y": 180,
+        "wires": [
+            [
+                "8c85a2863fa5d796"
+            ]
+        ]
+    },
+    {
+        "id": "03979f5be1bd4239",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "VL2N",
+        "topi": "topic",
+        "x": 620,
+        "y": 220,
+        "wires": [
+            [
+                "fb327ab1ca42c55c"
+            ]
+        ]
+    },
+    {
+        "id": "b37a2bef66080abe",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "VL3N",
+        "topi": "topic",
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "d7e7d882e120bbac"
+            ]
+        ]
+    },
+    {
+        "id": "79843ab33258a40a",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "VL1L2",
+        "topi": "topic",
+        "x": 620,
+        "y": 300,
+        "wires": [
+            [
+                "9a5e2769197ec091"
+            ]
+        ]
+    },
+    {
+        "id": "182cfc8233f80944",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "VL2L3",
+        "topi": "topic",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "1e198fdd729abbe4"
+            ]
+        ]
+    },
+    {
+        "id": "21c313197cb62c0f",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "VL1L3",
+        "topi": "topic",
+        "x": 620,
+        "y": 380,
+        "wires": [
+            [
+                "74b5b171e69e432f"
+            ]
+        ]
+    },
+    {
+        "id": "6ebf784df5fadf7d",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "CL1",
+        "topi": "topic",
+        "x": 620,
+        "y": 420,
+        "wires": [
+            [
+                "d7424337f0afdb1e"
+            ]
+        ]
+    },
+    {
+        "id": "473d4bdf0c5a2913",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "CL2",
+        "topi": "topic",
+        "x": 620,
+        "y": 460,
+        "wires": [
+            [
+                "33fbc077863bf214"
+            ]
+        ]
+    },
+    {
+        "id": "ab9a6c8237c77188",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "CL3",
+        "topi": "topic",
+        "x": 620,
+        "y": 500,
+        "wires": [
+            [
+                "92879f0db2d33c77"
+            ]
+        ]
+    },
+    {
+        "id": "1de17196b3c9a123",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L1_kW",
+        "topi": "topic",
+        "x": 620,
+        "y": 540,
+        "wires": [
+            [
+                "a022b1638c40e2d4"
+            ]
+        ]
+    },
+    {
+        "id": "7b2f679bf233155d",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L2_kW",
+        "topi": "topic",
+        "x": 620,
+        "y": 580,
+        "wires": [
+            [
+                "c499dcb5ef5697b0"
+            ]
+        ]
+    },
+    {
+        "id": "d841f57670f18a64",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L3_kW",
+        "topi": "topic",
+        "x": 620,
+        "y": 620,
+        "wires": [
+            [
+                "762a782f6f35ebe6"
+            ]
+        ]
+    },
+    {
+        "id": "672c097d48664ff5",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L1_kVA",
+        "topi": "topic",
+        "x": 620,
+        "y": 660,
+        "wires": [
+            [
+                "61956eafcbc929ed"
+            ]
+        ]
+    },
+    {
+        "id": "b935e2dfb5578eb2",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L2_kVA",
+        "topi": "topic",
+        "x": 620,
+        "y": 700,
+        "wires": [
+            [
+                "ddf34afe525e8000"
+            ]
+        ]
+    },
+    {
+        "id": "3d312b28e490277b",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L3_kVA",
+        "topi": "topic",
+        "x": 620,
+        "y": 740,
+        "wires": [
+            [
+                "685b153041347c40"
+            ]
+        ]
+    },
+    {
+        "id": "f9b0aeb7df860487",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L1_kVAR",
+        "topi": "topic",
+        "x": 620,
+        "y": 780,
+        "wires": [
+            [
+                "ce2acc58edb02677"
+            ]
+        ]
+    },
+    {
+        "id": "c4b44de9baaed701",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L2_kVAR",
+        "topi": "topic",
+        "x": 620,
+        "y": 820,
+        "wires": [
+            [
+                "7617e107945bf319"
+            ]
+        ]
+    },
+    {
+        "id": "912c9baf2066bcc2",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "L3_kVAR",
+        "topi": "topic",
+        "x": 620,
+        "y": 860,
+        "wires": [
+            [
+                "7c6447ff989f473e"
+            ]
+        ]
+    },
+    {
+        "id": "0809c83f9e374b28",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "f1f3555028254919",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 620,
+        "y": 140,
+        "wires": [
+            [
+                "9f7411a7cc83b029"
+            ]
+        ]
+    },
+    {
+        "id": "f151ef75ee689f12",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Velocidad",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 600,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f0e67f4f0d829127",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 5,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Amp. VSD",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c4cd163112c9c257",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 6,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Pot. VSD",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 600,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1971c53732ba9843",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 4,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Volt. VSD",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f398db3e910a7124",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 8,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Amp. motor",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 610,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "357c4e57e594ef65",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 7,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Volt. motor",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 610,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "29bb553b5154ac9a",
+        "type": "ui_template",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "name": "SCP 1",
+        "order": 2,
+        "width": "6",
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload| trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 590,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0a0856ce0a6a98e",
+        "type": "change",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "Si",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"show\":[\"Despliegue_general_SCP1\"],\t       \"hide\":[]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 660,
+        "wires": [
+            [
+                "3cbed816ab16272e"
+            ]
+        ]
+    },
+    {
+        "id": "3cbed816ab16272e",
+        "type": "link out",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "",
+        "links": [
+            "a908951142dcc258"
+        ],
+        "x": 485,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "391a76fe1746fcb5",
+        "type": "ui_template",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "name": "Nombre SCP1",
+        "order": 1,
+        "width": "6",
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload| trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 670,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95efdd10e4932dd6",
+        "type": "template",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "SCP 1",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{payload}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 490,
+        "y": 60,
+        "wires": [
+            [
+                "391a76fe1746fcb5"
+            ]
+        ]
+    },
+    {
+        "id": "843e8ecefd58da7f",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 13,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "P. intake",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 600,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a4d4d93e835a326b",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 11,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "PIT",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 590,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "06245e5bbc124fe4",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 12,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "TIT",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 590,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "1c9102315cfb9531",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 10,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Bus DC",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 600,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "e5d02252158d5a07",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 9,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "T. motor",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 600,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0795ef62c6cdf22b",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 14,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "T. intake",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
+        "x": 600,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "2a50827a3f7af931",
+        "type": "subflow:9f97d888.bf2cb8",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "SCP1",
+        "env": [
+            {
+                "name": "position",
+                "value": "1",
+                "type": "num"
+            },
+            {
+                "name": "rutaSCPselector",
+                "value": "Navegacionaux.principal",
+                "type": "str"
+            }
+        ],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "95efdd10e4932dd6"
+            ],
+            [
+                "821d9be0ddb497ac"
+            ],
+            [
+                "f151ef75ee689f12"
+            ],
+            [
+                "1971c53732ba9843"
+            ],
+            [
+                "f0e67f4f0d829127"
+            ],
+            [
+                "c4cd163112c9c257"
+            ],
+            [
+                "357c4e57e594ef65"
+            ],
+            [
+                "f398db3e910a7124"
+            ],
+            [
+                "843e8ecefd58da7f"
+            ],
+            [
+                "a4d4d93e835a326b"
+            ],
+            [
+                "06245e5bbc124fe4"
+            ],
+            [
+                "1c9102315cfb9531"
+            ],
+            [
+                "e5d02252158d5a07"
+            ],
+            [
+                "0795ef62c6cdf22b"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [
+                "29bb553b5154ac9a"
+            ],
+            [],
+            [],
+            [],
+            [
+                "2dc0fe74d8d78397"
+            ]
+        ]
+    },
+    {
+        "id": "feb2591b6dfeb717",
+        "type": "link in",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "",
+        "links": [
+            "87857b683465f57d"
+        ],
+        "x": 125,
+        "y": 280,
+        "wires": [
+            [
+                "0fb279837faa347f"
+            ]
+        ]
+    },
+    {
+        "id": "0fb279837faa347f",
+        "type": "switch",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "Pantalla?",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Despliegue general",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "2a50827a3f7af931"
+            ]
+        ]
+    },
+    {
+        "id": "821d9be0ddb497ac",
+        "type": "link out",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "",
+        "links": [
+            "112ec72e4a22b13f"
+        ],
+        "x": 485,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "63c685875964e413",
+        "type": "inject",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "viewer",
+        "props": [
+            {
+                "p": "enabled",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 280,
+        "y": 660,
+        "wires": [
+            [
+                "b0a0856ce0a6a98e"
+            ]
+        ]
+    },
+    {
+        "id": "aeece35ccc591620",
+        "type": "comment",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "name": "Leer Importante",
+        "info": "Si no se visualizan los cajetines correc-\ntamente, `pulsar injects \"viewer\" en los\n4 grupos SCP",
+        "x": 310,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "2dc0fe74d8d78397",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "1c17956307e44e29",
+        "group": "04c0fe5a58c91c22",
+        "order": 15,
+        "width": "6",
+        "height": "1",
+        "name": "Local/Remoto",
+        "label": "Control: ",
+        "format": "<font size =4px>{{msg.payload}} ",
+        "layout": "row-center",
+        "x": 620,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "4edd7fc5c15bdad8",
         "type": "rbe",
         "z": "9f97d888.bf2cb8",
         "name": "",
@@ -49125,12 +50089,32 @@
         ]
     },
     {
-        "id": "d4d71f9267324c8a",
+        "id": "666b02a614c8fcb5",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "name": "Evento de confirmación - prueba",
+        "func": "var NameClus    = global.get(\"NameClus\",\"memoryOnly\")||\" \";\n//var Referencia  = flow.get(\"Pozo.Referencia\") || \"--\";\nvar SCP = global.get(\"SCP\",\"memoryOnly\");\nvar Status = global.get(\"Cluster.SCP\" + SCP + \".VSD.Estado\", \"memoryOnly\") || 5;\nfor (let i = 0; i < Status.length; i++) {\n    const element = Status[i];\n    msg.payload = element;\n    \n}\n\n\n\n\n\n//msg.payload = \"Pozo \" + NameClus + \" a \" + Referencia +  \" Hz\";\n\n//msg.payload = \"Cambio de velocidad en\" + \" \" + NameClus + \" a \" + Referencia + \" Hz\";\n//msg.topic = \"Cambio de velocidad\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "1fc22b84906122eb"
+            ]
+        ]
+    },
+    {
+        "id": "1fc22b84906122eb",
         "type": "debug",
-        "z": "dcee4298f5de57d2",
-        "g": "1c17956307e44e29",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -49138,8 +50122,603 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 340,
-        "y": 570,
+        "x": 720,
+        "y": 510,
+        "wires": []
+    },
+    {
+        "id": "b814431a322abab5",
+        "type": "inject",
+        "z": "e997ba3b.48cc18",
+        "g": "2f18e23b.de32ce",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 540,
+        "wires": [
+            [
+                "666b02a614c8fcb5"
+            ]
+        ]
+    },
+    {
+        "id": "797caa13671b725a",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0001",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0001:",
+        "format": "{{msg.Interruptor1}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 390,
+        "wires": []
+    },
+    {
+        "id": "5204e47e22d32a51",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0002",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0002:",
+        "format": "{{msg.Interruptor2}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 430,
+        "wires": []
+    },
+    {
+        "id": "61da14dc2d6721d4",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0003",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0003:",
+        "format": "{{msg.Interruptor3}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 470,
+        "wires": []
+    },
+    {
+        "id": "62e011578bc22c38",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0004",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0004:",
+        "format": "{{msg.Interruptor4}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 510,
+        "wires": []
+    },
+    {
+        "id": "1986c46b70f2d687",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0005",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0005:",
+        "format": "{{msg.Interruptor5}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "a3d54c0f831cf256",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0006",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0006:",
+        "format": "{{msg.Interruptor6}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "4db4825e48d4ad71",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0007",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0007:",
+        "format": "{{msg.Interruptor7}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 630,
+        "wires": []
+    },
+    {
+        "id": "4eea3e329f3d7da7",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0008",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0008:",
+        "format": "{{msg.Interruptor8}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 670,
+        "wires": []
+    },
+    {
+        "id": "491fd0a5154fa3be",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "group": "2366e46641840803",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Interruptor VSD-CASE-0009",
+        "label": "<font size = 4px>Interruptor VSD-CASE-0009:",
+        "format": "{{msg.Interruptor9}}",
+        "layout": "row-spread",
+        "x": 1430,
+        "y": 710,
+        "wires": []
+    },
+    {
+        "id": "4ddb8ca7f879d0b8",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor1",
+        "topi": "topic",
+        "x": 1240,
+        "y": 390,
+        "wires": [
+            [
+                "797caa13671b725a"
+            ]
+        ]
+    },
+    {
+        "id": "efb2b23a9af38ff0",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor2",
+        "topi": "topic",
+        "x": 1240,
+        "y": 430,
+        "wires": [
+            [
+                "5204e47e22d32a51"
+            ]
+        ]
+    },
+    {
+        "id": "11b754524846582e",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor3",
+        "topi": "topic",
+        "x": 1240,
+        "y": 470,
+        "wires": [
+            [
+                "61da14dc2d6721d4"
+            ]
+        ]
+    },
+    {
+        "id": "339213057faead3e",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor4",
+        "topi": "topic",
+        "x": 1240,
+        "y": 510,
+        "wires": [
+            [
+                "62e011578bc22c38"
+            ]
+        ]
+    },
+    {
+        "id": "267e5a474bad47ae",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor5",
+        "topi": "topic",
+        "x": 1240,
+        "y": 550,
+        "wires": [
+            [
+                "1986c46b70f2d687"
+            ]
+        ]
+    },
+    {
+        "id": "f7f63135debe2989",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor6",
+        "topi": "topic",
+        "x": 1240,
+        "y": 590,
+        "wires": [
+            [
+                "a3d54c0f831cf256"
+            ]
+        ]
+    },
+    {
+        "id": "c3be71be1aa41c5a",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor7",
+        "topi": "topic",
+        "x": 1240,
+        "y": 630,
+        "wires": [
+            [
+                "4db4825e48d4ad71"
+            ]
+        ]
+    },
+    {
+        "id": "81e77cc0853c0acf",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor8",
+        "topi": "topic",
+        "x": 1240,
+        "y": 670,
+        "wires": [
+            [
+                "4eea3e329f3d7da7"
+            ]
+        ]
+    },
+    {
+        "id": "e54d04e9588d76fc",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "Interruptor8",
+        "topi": "topic",
+        "x": 1240,
+        "y": 710,
+        "wires": [
+            [
+                "491fd0a5154fa3be"
+            ]
+        ]
+    },
+    {
+        "id": "092dc70f4b452559",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1240,
+        "y": 350,
+        "wires": [
+            [
+                "e8630ac7031e0e07"
+            ]
+        ]
+    },
+    {
+        "id": "23333fed0b1b69d7",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "func": "var Breaker_Cerrado = \"<font size = 4px><font color = green>Cerrado\";\nvar Breaker_Abierto = \"<font size = 4px><font color = red>Abierto\";\nvar Breaker_Disparo = \"<font size = 4px><font color = yellow>Disparado\";\nvar Estado_Breaker_SCP1 = msg.payload1;\nvar Estado_Breaker_SCP2 = msg.payload2;\nvar Estado_Breaker_SCP3;\nvar Estado_Breaker_SCP4;\nvar Estado_Breaker_SCP5;\nvar Estado_Breaker_SCP6;\nvar Estado_Breaker_SCP7;\nvar Estado_Breaker_SCP8;\nvar Estado_Breaker_SCP9;\n\n// Estado de breaker SCP1\nif (Estado_Breaker_SCP1 == \"Abierto\"){msg.Interruptor1 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP1 == \"Cerrado\") { msg.Interruptor1 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP1 == \"Disparo\") { msg.Interruptor1 = Breaker_Disparo}\n// Estado de breaker SCP2\nif (Estado_Breaker_SCP2 == \"Abierto\"){msg.Interruptor2 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP2 == \"Cerrado\") { msg.Interruptor2 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP2 == \"Disparo\") { msg.Interruptor2 = Breaker_Disparo}\n// Estado de breaker SCP3\nif (Estado_Breaker_SCP3 == \"Abierto\"){msg.Interruptor3 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP3 == \"Cerrado\") { msg.Interruptor3 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP3 == \"Disparo\") { msg.Interruptor3 = Breaker_Disparo}\n// Estado de breaker SCP3\nif (Estado_Breaker_SCP3 == \"Abierto\"){msg.Interruptor3 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP3 == \"Cerrado\") { msg.Interruptor3 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP3 == \"Disparo\") { msg.Interruptor3 = Breaker_Disparo}\n// Estado de breaker SCP4\nif (Estado_Breaker_SCP4 == \"Abierto\"){msg.Interruptor4 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP4 == \"Cerrado\") { msg.Interruptor4 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP4 == \"Disparo\") { msg.Interruptor4 = Breaker_Disparo}\n// Estado de breaker SCP5\nif (Estado_Breaker_SCP5 == \"Abierto\"){msg.Interruptor5 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP5 == \"Cerrado\") { msg.Interruptor5 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP5 == \"Disparo\") { msg.Interruptor5 = Breaker_Disparo}\n// Estado de breaker SCP6\nif (Estado_Breaker_SCP6 == \"Abierto\"){msg.Interruptor6 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP6 == \"Cerrado\") { msg.Interruptor6 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP6 == \"Disparo\") { msg.Interruptor6 = Breaker_Disparo}\n// Estado de breaker SCP7\nif (Estado_Breaker_SCP7 == \"Abierto\"){msg.Interruptor7 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP7 == \"Cerrado\") { msg.Interruptor7 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP7 == \"Disparo\") { msg.Interruptor7 = Breaker_Disparo}\n// Estado de breaker SCP8\nif (Estado_Breaker_SCP8 == \"Abierto\"){msg.Interruptor8 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP8 == \"Cerrado\") { msg.Interruptor8 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP8 == \"Disparo\") { msg.Interruptor8 = Breaker_Disparo}\n// Estado de breaker SCP9\nif (Estado_Breaker_SCP9 == \"Abierto\"){msg.Interruptor9 = Breaker_Abierto}\nelse if (Estado_Breaker_SCP9 == \"Cerrado\") { msg.Interruptor9 = Breaker_Cerrado}\nelse if (Estado_Breaker_SCP9 == \"Disparo\") { msg.Interruptor9 = Breaker_Disparo}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 550,
+        "wires": [
+            [
+                "4ddb8ca7f879d0b8",
+                "efb2b23a9af38ff0",
+                "11b754524846582e",
+                "339213057faead3e",
+                "267e5a474bad47ae",
+                "f7f63135debe2989",
+                "c3be71be1aa41c5a",
+                "81e77cc0853c0acf",
+                "e54d04e9588d76fc"
+            ]
+        ]
+    },
+    {
+        "id": "80fb5badc685f603",
+        "type": "link in",
+        "z": "aa547d69.9cb8e",
+        "g": "1b48b0a68b3a0856",
+        "name": "",
+        "links": [
+            "bc99cf40ab6d6e51"
+        ],
+        "x": 1015,
+        "y": 510,
+        "wires": [
+            [
+                "23333fed0b1b69d7"
+            ]
+        ]
+    },
+    {
+        "id": "ed837529374fb2f1",
+        "type": "function",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "name": "",
+        "func": "var Disparo = \"<font size = 4px><font color = green>Cerrado\";\nvar Alarma = \"<font size = 4px><font color = red>Abierto\";\nvar Normalizado = \"<font size = 4px><font color = yellow>Disparado\";\nvar Estado_Aceite_SDT;\nvar Estado_Temperatura_SDT;\nvar Estado_Sobrepresion_SDT;\n\n// Estado de Nivel de aceite SDT\nif (Estado_Aceite_SDT == \"Abierto\") { msg.AceiteSDT = Estado_Aceite_SDT}\nelse if (Estado_Aceite_SDT == \"Cerrado\") { msg.AceiteSDT = Estado_Aceite_SDT}\nelse if (Estado_Aceite_SDT == \"Disparo\") { msg.AceiteSDT = Estado_Aceite_SDT}\n// Estado de temperatura de SDT\nif (Estado_Temperatura_SDT == \"Abierto\") { msg.TemperaturaSDT = Estado_Temperatura_SDT}\nelse if (Estado_Temperatura_SDT == \"Cerrado\") { msg.TemperaturaSDT = Estado_Temperatura_SDT}\nelse if (Estado_Temperatura_SDT == \"Disparo\") { msg.TemperaturaSDT = Estado_Temperatura_SDT}\n// Estado de valvula de sobrepresion SDT\nif (Estado_Sobrepresion_SDT == \"Abierto\") { msg.SobrepresionSDT = Estado_Sobrepresion_SDT}\nelse if (Estado_Sobrepresion_SDT == \"Cerrado\") { msg.SobrepresionSDT = Estado_Sobrepresion_SDT}\nelse if (Estado_Sobrepresion_SDT == \"Disparo\") { msg.SobrepresionSDT = Estado_Sobrepresion_SDT}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 220,
+        "wires": [
+            [
+                "7f6b2f5abb06b887",
+                "2d5d3083aa24de2d",
+                "7cf9da9f86f20299"
+            ]
+        ]
+    },
+    {
+        "id": "2b68d64599749e56",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1230,
+        "y": 140,
+        "wires": [
+            [
+                "ce341293c3e8fab8"
+            ]
+        ]
+    },
+    {
+        "id": "7f6b2f5abb06b887",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "AceiteSDT",
+        "topi": "topic",
+        "x": 1230,
+        "y": 180,
+        "wires": [
+            [
+                "832140aa41f0a72d"
+            ]
+        ]
+    },
+    {
+        "id": "2d5d3083aa24de2d",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "TemperaturaSDT",
+        "topi": "topic",
+        "x": 1230,
+        "y": 220,
+        "wires": [
+            [
+                "5f4be5b0c3d1e5da"
+            ]
+        ]
+    },
+    {
+        "id": "7cf9da9f86f20299",
+        "type": "rbe",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "SobrepresionSDT",
+        "topi": "topic",
+        "x": 1230,
+        "y": 260,
+        "wires": [
+            [
+                "9ef43bf7a411b0e6"
+            ]
+        ]
+    },
+    {
+        "id": "832140aa41f0a72d",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "group": "8f13c794af3beb1e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Nivel de aceite SDT",
+        "label": "<font size = 4px>Nivel de aceite SDT:",
+        "format": "{{msg.AceiteSDT}}",
+        "layout": "row-spread",
+        "x": 1410,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "5f4be5b0c3d1e5da",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "group": "8f13c794af3beb1e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Temperatura SDT",
+        "label": "<font size = 4px>Temperatura SDT:",
+        "format": "{{msg.TemperaturaSDT}}",
+        "layout": "row-spread",
+        "x": 1400,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9ef43bf7a411b0e6",
+        "type": "ui_text",
+        "z": "aa547d69.9cb8e",
+        "g": "60eb3f3798b2d99e",
+        "group": "8f13c794af3beb1e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Válvula sobrepresión SDT",
+        "label": "<font size = 4px>Válvula sobrepresión SDT:",
+        "format": "{{msg.SobrepresionSDT}}",
+        "layout": "row-spread",
+        "x": 1420,
+        "y": 260,
         "wires": []
     }
 ]
