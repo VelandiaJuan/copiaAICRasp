@@ -789,9 +789,7 @@
             "090788529ccfc8aa"
         ],
         "x": 84,
-        "y": 19,
-        "w": 812,
-        "h": 252
+        "y": 19
     },
     {
         "id": "7b6f4b41.106164",
@@ -806,8 +804,8 @@
             "11f55817.139c18",
             "cf57802e.7d258"
         ],
-        "x": -2,
-        "y": 13
+        "x": 28,
+        "y": 23
     },
     {
         "id": "c58d9126.1869c",
@@ -830,7 +828,9 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579
+        "y": 579,
+        "w": 722,
+        "h": 192
     },
     {
         "id": "89dd768a.673f58",
@@ -852,9 +852,7 @@
             "82f44a0478397706"
         ],
         "x": 924,
-        "y": 19,
-        "w": 662,
-        "h": 82
+        "y": 19
     },
     {
         "id": "a0798509.56f3c8",
@@ -931,7 +929,9 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59
+        "y": 59,
+        "w": 952,
+        "h": 502
     },
     {
         "id": "a17f12b7.aff7a",
@@ -1180,9 +1180,7 @@
             "038ecc84a8e8e72c"
         ],
         "x": 94,
-        "y": 739,
-        "w": 1052,
-        "h": 182
+        "y": 739
     },
     {
         "id": "53d376e89282424a",
@@ -1241,9 +1239,7 @@
             "88cdc40fe1b37fa5"
         ],
         "x": 104,
-        "y": 21.5,
-        "w": 652,
-        "h": 469.5
+        "y": 21.5
     },
     {
         "id": "adb0e39f299e229e",
@@ -1415,9 +1411,7 @@
             "7ff2646d70c075ac"
         ],
         "x": 784,
-        "y": 21.5,
-        "w": 682,
-        "h": 469.5
+        "y": 21.5
     },
     {
         "id": "0ef33a76c589a53f",
@@ -1452,9 +1446,7 @@
             "d4afa70e71dfe781"
         ],
         "x": 1494,
-        "y": 21.5,
-        "w": 672,
-        "h": 539.5
+        "y": 21.5
     },
     {
         "id": "6c28199fa6fc206b",
@@ -1489,9 +1481,7 @@
             "3de8b0576878b726"
         ],
         "x": 2194,
-        "y": 21.5,
-        "w": 702,
-        "h": 539.5
+        "y": 21.5
     },
     {
         "id": "a01d98e6e8680a8e",
@@ -1892,7 +1882,9 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329
+        "y": 1329,
+        "w": 862,
+        "h": 982
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -1965,7 +1957,9 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59
+        "y": 59,
+        "w": 1472,
+        "h": 872
     },
     {
         "id": "1b162d57908931b5",
@@ -2169,7 +2163,9 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949
+        "y": 949,
+        "w": 1742,
+        "h": 362
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2313,9 +2309,7 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319,
-        "w": 262,
-        "h": 82
+        "y": 319
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2353,9 +2347,7 @@
             "9fd4a9ed252b6a9d"
         ],
         "x": 104,
-        "y": 519,
-        "w": 812,
-        "h": 82
+        "y": 519
     },
     {
         "id": "e00b7d1188a4ce2f",
@@ -2526,9 +2518,7 @@
             "05aa201180649b16"
         ],
         "x": 44,
-        "y": 409,
-        "w": 832,
-        "h": 182
+        "y": 409
     },
     {
         "id": "657e2074.735a3",
@@ -2742,9 +2732,7 @@
             "8fefd7f69474316e"
         ],
         "x": 94,
-        "y": 939,
-        "w": 752,
-        "h": 892
+        "y": 939
     },
     {
         "id": "f6c5f78da86ed2f4",
@@ -2789,9 +2777,7 @@
             "e73fa007259d6db0"
         ],
         "x": 894,
-        "y": 939,
-        "w": 722,
-        "h": 642
+        "y": 939
     },
     {
         "id": "1c17956307e44e29",
@@ -2855,120 +2841,6 @@
         "y": 99
     },
     {
-        "id": "eb91dac5.690838",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "f7ed166d.1aa528",
-        "name": "Acceso a usuarios",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "df6fb5ca.5f8af8",
-            "28cd79fb.3dcae6",
-            "2066be8e.5c6832",
-            "e04fbd1c.98ffe",
-            "2ffa7be0.763644",
-            "be50258c.07bb98",
-            "6e26c35e.a97f8c",
-            "1595def7.d11251",
-            "affdacff.6646c",
-            "51d66341.8ee0fc",
-            "3a348318.fe982c",
-            "cf6714f4.9f00d8",
-            "fe313f3f60b02976",
-            "9226d68a.21c148",
-            "ea3b2578.9471a8",
-            "d13ee029.db027",
-            "ea307c20.921bb",
-            "1aeb057.5ff60fb",
-            "9ec2fc99.b8d92",
-            "93b28ffa.83d6a",
-            "c42260f.7383fa",
-            "7b0bc601.5d8048",
-            "423ba16e.29911",
-            "6ddd2f34.2b638",
-            "901c6735c8cd4585",
-            "1abe9aa78aaec393",
-            "d84c6818bdd3b4c9",
-            "22b30717ba45ab3c",
-            "ee0ae928d7535b2a",
-            "e0246175d5eaa3d1",
-            "354d51fb8e5d63b7",
-            "0ecd6b8cb5e996f3",
-            "4fc0a59f776062eb",
-            "30a12ffe865f6085",
-            "165652a19afcc091",
-            "e1b7d609d7454478",
-            "befd7b0d594b7754",
-            "e7122851149fed97",
-            "0cd1b5329a82816d",
-            "e18db47d963ed714",
-            "1249cb6a5060fda8",
-            "ad1cd38b848d5ff7",
-            "23b5193babb35890"
-        ],
-        "x": 174,
-        "y": 39
-    },
-    {
-        "id": "11f55817.139c18",
-        "type": "group",
-        "z": "242bc9a6.f9b016",
-        "g": "7b6f4b41.106164",
-        "name": "",
-        "style": {
-            "fill": "#b797cf",
-            "label": true
-        },
-        "nodes": [
-            "d382db6f.29f0a8",
-            "972e1f74.3dd4c",
-            "59e817c2.295b38",
-            "d50d9b6b.bbc7f8",
-            "c02fb05c.baccf",
-            "75851744.fc50c8",
-            "ad47f0cc.93af5",
-            "7b4bd7a0.fd9398",
-            "cad3d4cb.b5bc98",
-            "1660e38d.24cefc",
-            "e04b904dc4a17411",
-            "07fdea154e1be602"
-        ],
-        "x": 24,
-        "y": 39
-    },
-    {
-        "id": "cf57802e.7d258",
-        "type": "group",
-        "z": "242bc9a6.f9b016",
-        "g": "7b6f4b41.106164",
-        "name": "",
-        "style": {
-            "fill": "#b797cf",
-            "label": true
-        },
-        "nodes": [
-            "bd165d4f.e3f48",
-            "c95dde3d.c676e",
-            "191d34db.93fe3b",
-            "35f773cc.39ea9c",
-            "ccc4d9c0.904c78",
-            "d9101c40.6e85a",
-            "dcdb5992.425238",
-            "12f5302f.69f92",
-            "33f2aa3c.6c08f6",
-            "9055a2bd.67028",
-            "938193ac.02d98",
-            "f4dc844c.b0f888",
-            "44e0e07ede65597e"
-        ],
-        "x": 934,
-        "y": 39
-    },
-    {
         "id": "dbdbcfdd.62eb8",
         "type": "group",
         "z": "e997ba3b.48cc18",
@@ -3015,235 +2887,8 @@
             "3cc764fd.7e58cc",
             "4c25ebc9a7274f4f"
         ],
-        "x": 94,
-        "y": 289,
-        "w": 1442,
-        "h": 442
-    },
-    {
-        "id": "ba9b3d7a41b195a8",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "a0f89b10a58f3dbb",
-        "name": "Eventos Usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "cacc926a9dec9c16",
-            "33c74e4bb2fdac2e",
-            "fc19b94b0e22c56a",
-            "79a2e777f2c2f926",
-            "2672c65f65d99463"
-        ],
-        "x": 614,
-        "y": 979
-    },
-    {
-        "id": "8217afa77c53c8c4",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "a0f89b10a58f3dbb",
-        "name": "Acciones externas usuario",
-        "style": {
-            "label": true,
-            "fill": "#ff7f7f",
-            "color": "#000000"
-        },
-        "nodes": [
-            "599aba5c2ae29a06",
-            "e7aeb6df91329b32",
-            "e01f356525ba5066"
-        ],
-        "x": 644,
-        "y": 469
-    },
-    {
-        "id": "fc7ac26950eab4f6",
-        "type": "group",
-        "z": "827787d0.ede678",
-        "g": "a0f89b10a58f3dbb",
-        "name": "Detectar usuario",
-        "style": {
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "0172896cb5a6aa3a",
-            "e7c14bc9d21f11dc",
-            "bc609eb97c915f70",
-            "9cdf0df54a5993a1",
-            "27e5b49204d6a1d6"
-        ],
-        "x": 644,
-        "y": 679
-    },
-    {
-        "id": "af59ebdb307f926a",
-        "type": "group",
-        "z": "496d98c4c50cacbb",
-        "g": "1c7df9ba6cc1a3d4",
-        "name": "Inicializar",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf",
-            "color": "#000000"
-        },
-        "nodes": [
-            "2f5c3ac13667c918",
-            "449b37406b29dc93"
-        ],
-        "x": 114,
-        "y": 319
-    },
-    {
-        "id": "03598c96d1c54dd4",
-        "type": "group",
-        "z": "496d98c4c50cacbb",
-        "g": "1c7df9ba6cc1a3d4",
-        "name": "UI-Control",
-        "style": {
-            "label": true,
-            "fill": "#ffbfbf",
-            "color": "#000000"
-        },
-        "nodes": [
-            "b8e3d64d87828004",
-            "dc640e015754eebd",
-            "a908951142dcc258",
-            "327a194a22918b10",
-            "3e15e8715278c670",
-            "9165803bd4c9d17a"
-        ],
-        "x": 114,
-        "y": 129
-    },
-    {
-        "id": "a319327ca6e39904",
-        "type": "group",
-        "z": "84636ba2ba4b8fea",
-        "g": "091089867260e133",
-        "name": "Estado mecanico",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "f9142b1ee8f5881c",
-            "0be3af70b6779232",
-            "71dbde2b35bb9212",
-            "bd2511d45c542582",
-            "a62208834f976d51",
-            "b89fc54a9739744b",
-            "d2eefc465ca1acf5",
-            "437520c765d815cd"
-        ],
-        "x": 354,
-        "y": 39
-    },
-    {
-        "id": "a9302b21b3a7c502",
-        "type": "group",
-        "z": "84636ba2ba4b8fea",
-        "g": "091089867260e133",
-        "name": "Propiedades de flujo",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "fb72fbf8a88f4e29",
-            "c2cd42df9da3d2fd",
-            "1e59307070e56705",
-            "0985c7f3798e9eb0",
-            "84f863a5f14ffa1e",
-            "61dced0eece2974c"
-        ],
-        "x": 354,
-        "y": 259
-    },
-    {
-        "id": "fc67f9d106ee5bd9",
-        "type": "group",
-        "z": "84636ba2ba4b8fea",
-        "g": "091089867260e133",
-        "name": "Pruebas de produccion",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "6b697489dbd4f23f",
-            "202e5114bf14acef",
-            "6852478f4555719f",
-            "2182591ec4b87133",
-            "7eb5bd99894e0d5f",
-            "ac16ae8704a5321c",
-            "1dfb8737b303dbf0",
-            "ce97eb62a1366cdb"
-        ],
-        "x": 354,
-        "y": 439
-    },
-    {
-        "id": "cdb98853e2a9e9bf",
-        "type": "group",
-        "z": "84636ba2ba4b8fea",
-        "g": "091089867260e133",
-        "name": "Datos gráfica IPR",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "e260da5af28ca7b9",
-            "8902ef326321ed33",
-            "3ea50c6096e633fb",
-            "ad562b713a8d0539",
-            "f8b58626cfca1831",
-            "6bf1019fee5cf90f"
-        ],
-        "x": 354,
-        "y": 659
-    },
-    {
-        "id": "4f21a66cdc5abf28",
-        "type": "group",
-        "z": "84636ba2ba4b8fea",
-        "g": "091089867260e133",
-        "name": "Datos de instalación",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "dd7547a2411a6ab7",
-            "d64e36480ff48db5",
-            "6366edb9570f90f4",
-            "36058dc843ab65d6",
-            "e0d438b1148bb97a",
-            "2966bb9f9796fb6c",
-            "fe4fbf56b7397a67",
-            "cecb0574dc213c8d",
-            "b746d9d68d9fc0e4",
-            "18525d0c618725b8",
-            "731ec7e15a31f443",
-            "181cdea868673d7d",
-            "04a19001c731f09d",
-            "0434adbd5f9af963",
-            "9d6bba006123a181",
-            "28d4227adb5ded0a",
-            "65f3fad2faed0aff",
-            "e19c289cb05d96ce",
-            "4b09954e165d4255",
-            "749b14f9500bcdb3",
-            "905b1b0d5d78ff65"
-        ],
-        "x": 334,
-        "y": 839
+        "x": 84,
+        "y": 279
     },
     {
         "id": "c8c1349ab06f5802",
@@ -3514,6 +3159,344 @@
         "y": 1839,
         "w": 632,
         "h": 242
+    },
+    {
+        "id": "eb91dac5.690838",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "f7ed166d.1aa528",
+        "name": "Acceso a usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "df6fb5ca.5f8af8",
+            "28cd79fb.3dcae6",
+            "2066be8e.5c6832",
+            "e04fbd1c.98ffe",
+            "2ffa7be0.763644",
+            "be50258c.07bb98",
+            "6e26c35e.a97f8c",
+            "1595def7.d11251",
+            "affdacff.6646c",
+            "51d66341.8ee0fc",
+            "3a348318.fe982c",
+            "cf6714f4.9f00d8",
+            "fe313f3f60b02976",
+            "9226d68a.21c148",
+            "ea3b2578.9471a8",
+            "d13ee029.db027",
+            "ea307c20.921bb",
+            "1aeb057.5ff60fb",
+            "9ec2fc99.b8d92",
+            "93b28ffa.83d6a",
+            "c42260f.7383fa",
+            "7b0bc601.5d8048",
+            "423ba16e.29911",
+            "6ddd2f34.2b638",
+            "901c6735c8cd4585",
+            "1abe9aa78aaec393",
+            "d84c6818bdd3b4c9",
+            "22b30717ba45ab3c",
+            "ee0ae928d7535b2a",
+            "e0246175d5eaa3d1",
+            "354d51fb8e5d63b7",
+            "0ecd6b8cb5e996f3",
+            "4fc0a59f776062eb",
+            "30a12ffe865f6085",
+            "165652a19afcc091",
+            "e1b7d609d7454478",
+            "befd7b0d594b7754",
+            "e7122851149fed97",
+            "0cd1b5329a82816d",
+            "e18db47d963ed714",
+            "1249cb6a5060fda8",
+            "ad1cd38b848d5ff7",
+            "23b5193babb35890"
+        ],
+        "x": 174,
+        "y": 39
+    },
+    {
+        "id": "11f55817.139c18",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "g": "7b6f4b41.106164",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "d382db6f.29f0a8",
+            "972e1f74.3dd4c",
+            "59e817c2.295b38",
+            "d50d9b6b.bbc7f8",
+            "c02fb05c.baccf",
+            "75851744.fc50c8",
+            "ad47f0cc.93af5",
+            "7b4bd7a0.fd9398",
+            "cad3d4cb.b5bc98",
+            "e04b904dc4a17411",
+            "07fdea154e1be602"
+        ],
+        "x": 54,
+        "y": 49
+    },
+    {
+        "id": "cf57802e.7d258",
+        "type": "group",
+        "z": "242bc9a6.f9b016",
+        "g": "7b6f4b41.106164",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "bd165d4f.e3f48",
+            "c95dde3d.c676e",
+            "191d34db.93fe3b",
+            "35f773cc.39ea9c",
+            "ccc4d9c0.904c78",
+            "d9101c40.6e85a",
+            "dcdb5992.425238",
+            "12f5302f.69f92",
+            "33f2aa3c.6c08f6",
+            "9055a2bd.67028",
+            "938193ac.02d98",
+            "f4dc844c.b0f888",
+            "44e0e07ede65597e"
+        ],
+        "x": 674,
+        "y": 49
+    },
+    {
+        "id": "ba9b3d7a41b195a8",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "a0f89b10a58f3dbb",
+        "name": "Eventos Usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "cacc926a9dec9c16",
+            "33c74e4bb2fdac2e",
+            "fc19b94b0e22c56a",
+            "79a2e777f2c2f926",
+            "2672c65f65d99463"
+        ],
+        "x": 614,
+        "y": 979
+    },
+    {
+        "id": "8217afa77c53c8c4",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "a0f89b10a58f3dbb",
+        "name": "Acciones externas usuario",
+        "style": {
+            "label": true,
+            "fill": "#ff7f7f",
+            "color": "#000000"
+        },
+        "nodes": [
+            "599aba5c2ae29a06",
+            "e7aeb6df91329b32",
+            "e01f356525ba5066"
+        ],
+        "x": 644,
+        "y": 469
+    },
+    {
+        "id": "fc7ac26950eab4f6",
+        "type": "group",
+        "z": "827787d0.ede678",
+        "g": "a0f89b10a58f3dbb",
+        "name": "Detectar usuario",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "0172896cb5a6aa3a",
+            "e7c14bc9d21f11dc",
+            "bc609eb97c915f70",
+            "9cdf0df54a5993a1",
+            "27e5b49204d6a1d6"
+        ],
+        "x": 644,
+        "y": 679
+    },
+    {
+        "id": "af59ebdb307f926a",
+        "type": "group",
+        "z": "496d98c4c50cacbb",
+        "g": "1c7df9ba6cc1a3d4",
+        "name": "Inicializar",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "color": "#000000"
+        },
+        "nodes": [
+            "2f5c3ac13667c918",
+            "449b37406b29dc93"
+        ],
+        "x": 114,
+        "y": 319
+    },
+    {
+        "id": "03598c96d1c54dd4",
+        "type": "group",
+        "z": "496d98c4c50cacbb",
+        "g": "1c7df9ba6cc1a3d4",
+        "name": "UI-Control",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "color": "#000000"
+        },
+        "nodes": [
+            "b8e3d64d87828004",
+            "dc640e015754eebd",
+            "a908951142dcc258",
+            "327a194a22918b10",
+            "3e15e8715278c670",
+            "9165803bd4c9d17a"
+        ],
+        "x": 114,
+        "y": 129
+    },
+    {
+        "id": "a319327ca6e39904",
+        "type": "group",
+        "z": "84636ba2ba4b8fea",
+        "g": "091089867260e133",
+        "name": "Estado mecanico",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f9142b1ee8f5881c",
+            "0be3af70b6779232",
+            "71dbde2b35bb9212",
+            "bd2511d45c542582",
+            "a62208834f976d51",
+            "b89fc54a9739744b",
+            "d2eefc465ca1acf5",
+            "437520c765d815cd"
+        ],
+        "x": 354,
+        "y": 39
+    },
+    {
+        "id": "a9302b21b3a7c502",
+        "type": "group",
+        "z": "84636ba2ba4b8fea",
+        "g": "091089867260e133",
+        "name": "Propiedades de flujo",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "fb72fbf8a88f4e29",
+            "c2cd42df9da3d2fd",
+            "1e59307070e56705",
+            "0985c7f3798e9eb0",
+            "84f863a5f14ffa1e",
+            "61dced0eece2974c"
+        ],
+        "x": 354,
+        "y": 259
+    },
+    {
+        "id": "fc67f9d106ee5bd9",
+        "type": "group",
+        "z": "84636ba2ba4b8fea",
+        "g": "091089867260e133",
+        "name": "Pruebas de produccion",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6b697489dbd4f23f",
+            "202e5114bf14acef",
+            "6852478f4555719f",
+            "2182591ec4b87133",
+            "7eb5bd99894e0d5f",
+            "ac16ae8704a5321c",
+            "1dfb8737b303dbf0",
+            "ce97eb62a1366cdb"
+        ],
+        "x": 354,
+        "y": 439
+    },
+    {
+        "id": "cdb98853e2a9e9bf",
+        "type": "group",
+        "z": "84636ba2ba4b8fea",
+        "g": "091089867260e133",
+        "name": "Datos gráfica IPR",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e260da5af28ca7b9",
+            "8902ef326321ed33",
+            "3ea50c6096e633fb",
+            "ad562b713a8d0539",
+            "f8b58626cfca1831",
+            "6bf1019fee5cf90f"
+        ],
+        "x": 354,
+        "y": 659
+    },
+    {
+        "id": "4f21a66cdc5abf28",
+        "type": "group",
+        "z": "84636ba2ba4b8fea",
+        "g": "091089867260e133",
+        "name": "Datos de instalación",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "dd7547a2411a6ab7",
+            "d64e36480ff48db5",
+            "6366edb9570f90f4",
+            "36058dc843ab65d6",
+            "e0d438b1148bb97a",
+            "2966bb9f9796fb6c",
+            "fe4fbf56b7397a67",
+            "cecb0574dc213c8d",
+            "b746d9d68d9fc0e4",
+            "18525d0c618725b8",
+            "731ec7e15a31f443",
+            "181cdea868673d7d",
+            "04a19001c731f09d",
+            "0434adbd5f9af963",
+            "9d6bba006123a181",
+            "28d4227adb5ded0a",
+            "65f3fad2faed0aff",
+            "e19c289cb05d96ce",
+            "4b09954e165d4255",
+            "749b14f9500bcdb3",
+            "905b1b0d5d78ff65"
+        ],
+        "x": 334,
+        "y": 839
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -14645,7 +14628,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 380,
         "y": 250,
         "wires": [
@@ -14670,7 +14652,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 540,
         "y": 250,
         "wires": [
@@ -14973,7 +14954,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 400,
         "y": 550,
         "wires": [
@@ -21900,7 +21880,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 1870,
         "y": 670,
         "wires": [
@@ -21926,7 +21905,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 2620,
         "y": 670,
         "wires": [
@@ -22629,7 +22607,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 350,
         "y": 200,
         "wires": [
@@ -23015,7 +22992,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 910,
         "y": 360,
         "wires": [
@@ -23042,7 +23018,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 910,
         "y": 240,
         "wires": [
@@ -25954,8 +25929,8 @@
         "delay": "100",
         "topic": "Ref",
         "topicType": "str",
-        "x": 260,
-        "y": 350,
+        "x": 250,
+        "y": 340,
         "wires": [
             [
                 "6f296e4d.6b03a",
@@ -25983,8 +25958,8 @@
         "payloadType": "bool",
         "topic": "Send",
         "topicType": "str",
-        "x": 230,
-        "y": 470,
+        "x": 220,
+        "y": 460,
         "wires": [
             [
                 "8da77a70.699258",
@@ -26014,8 +25989,8 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 200,
-        "y": 600,
+        "x": 190,
+        "y": 590,
         "wires": [
             [
                 "90ac36c9c645d371"
@@ -26042,8 +26017,8 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 200,
-        "y": 640,
+        "x": 190,
+        "y": 630,
         "wires": [
             [
                 "8f37636c700844c8"
@@ -26070,8 +26045,8 @@
         "payloadType": "bool",
         "topic": "Basic",
         "topicType": "str",
-        "x": 190,
-        "y": 680,
+        "x": 180,
+        "y": 670,
         "wires": [
             [
                 "dba80e92.0a13d"
@@ -26229,8 +26204,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 330,
+        "x": 470,
+        "y": 320,
         "wires": [
             []
         ]
@@ -26269,8 +26244,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 600,
+        "x": 930,
+        "y": 590,
         "wires": [
             [
                 "ede56ecd.3a66e",
@@ -26312,8 +26287,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 640,
+        "x": 930,
+        "y": 630,
         "wires": [
             [
                 "ede56ecd.3a66e",
@@ -26355,8 +26330,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 680,
+        "x": 930,
+        "y": 670,
         "wires": [
             [
                 "ede56ecd.3a66e",
@@ -26376,8 +26351,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 640,
+        "x": 1110,
+        "y": 630,
         "wires": [
             [
                 "35e356e7.8ebc5a"
@@ -26394,8 +26369,8 @@
             "c5614143.9411",
             "dc662dbf83f0e930"
         ],
-        "x": 1255,
-        "y": 640,
+        "x": 1245,
+        "y": 630,
         "wires": []
     },
     {
@@ -26430,8 +26405,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Cluster = global.get(\"Cluster\")||[null];\nif(Cluster[0] == null ){\n    for(var i=0; i<12; i+=1){\n        Cluster[i] = {\n            SCP:i+1,\n            Disponible:\"No\",\n            Nombre:\" -- \",\n            ALS:\" -- \",\n            Variador:\" -- \",\n            Sensor:\" -- \"\n        }\n    }\n    global.set(\"Cluster\",Cluster);\n}\n",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 490,
+        "x": 410,
+        "y": 480,
         "wires": [
             [
                 "43030a29.bfdeb4"
@@ -26451,8 +26426,8 @@
             "4ed767761ad43b23",
             "a12f93e52bf912c0"
         ],
-        "x": 555,
-        "y": 490,
+        "x": 545,
+        "y": 480,
         "wires": []
     },
     {
@@ -27205,8 +27180,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 600,
+        "x": 330,
+        "y": 590,
         "wires": [
             [
                 "7f4725cd539a6195"
@@ -27228,8 +27203,8 @@
         "raw": false,
         "topic": "Arranque",
         "name": "Confirm",
-        "x": 480,
-        "y": 600,
+        "x": 470,
+        "y": 590,
         "wires": [
             [
                 "b9ce5171b5be1d5c"
@@ -27254,8 +27229,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 620,
-        "y": 600,
+        "x": 610,
+        "y": 590,
         "wires": [
             [
                 "e9a83abb606dc1a9"
@@ -27282,8 +27257,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 640,
+        "x": 330,
+        "y": 630,
         "wires": [
             [
                 "96d979476eb1b054"
@@ -27305,8 +27280,8 @@
         "raw": false,
         "topic": "Detener",
         "name": "Confirm",
-        "x": 480,
-        "y": 640,
+        "x": 470,
+        "y": 630,
         "wires": [
             [
                 "b1f01e0593bbc7e2"
@@ -27331,8 +27306,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 620,
-        "y": 640,
+        "x": 610,
+        "y": 630,
         "wires": [
             [
                 "9f111f5f0cdb7b23"
@@ -27348,8 +27323,8 @@
         "links": [
             "828938fc392c967c"
         ],
-        "x": 135,
-        "y": 350,
+        "x": 125,
+        "y": 340,
         "wires": [
             [
                 "3cc764fd.7e58cc"
@@ -27365,8 +27340,8 @@
         "links": [
             "464f310713eff7a8"
         ],
-        "x": 135,
-        "y": 470,
+        "x": 125,
+        "y": 460,
         "wires": [
             [
                 "1acb0c29.0ddee4"
@@ -27385,8 +27360,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 370,
+        "x": 430,
+        "y": 360,
         "wires": [
             []
         ]
@@ -27554,8 +27529,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 780,
-        "y": 600,
+        "x": 770,
+        "y": 590,
         "wires": [
             [
                 "267fdbe0.520b94"
@@ -27582,8 +27557,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 780,
-        "y": 640,
+        "x": 770,
+        "y": 630,
         "wires": [
             [
                 "76ade389.49748c"
@@ -27610,8 +27585,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 410,
+        "x": 470,
+        "y": 400,
         "wires": [
             []
         ]
@@ -27934,8 +27909,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 450,
+        "x": 410,
+        "y": 440,
         "wires": [
             [
                 "487f7f8226176ed0"
@@ -27951,8 +27926,8 @@
         "links": [
             "5e6577b46be39f1a"
         ],
-        "x": 565,
-        "y": 450,
+        "x": 555,
+        "y": 440,
         "wires": []
     },
     {
@@ -27965,8 +27940,8 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 1205,
-        "y": 590,
+        "x": 1195,
+        "y": 580,
         "wires": []
     },
     {
@@ -27981,8 +27956,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 600,
+        "x": 1080,
+        "y": 590,
         "wires": [
             [
                 "e83ec346916a6a44"
@@ -28196,8 +28171,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 530,
+        "x": 430,
+        "y": 520,
         "wires": [
             [
                 "0db3231e87512499"
@@ -28214,8 +28189,8 @@
             "59e817c2.295b38",
             "6c2bad5b885f74fd"
         ],
-        "x": 605,
-        "y": 530,
+        "x": 595,
+        "y": 520,
         "wires": []
     },
     {
@@ -28230,8 +28205,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
-        "y": 690,
+        "x": 1070,
+        "y": 680,
         "wires": [
             [
                 "e83ec346916a6a44"
@@ -28303,7 +28278,7 @@
         "z": "e997ba3b.48cc18",
         "g": "3b1e7a95258702e4",
         "name": "saveName",
-        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster')||[];\nvar Pozo = flow.get('Pozo','memoryOnly')||'';\n\nif(Array.isArray(Cluster)){\n    if (Cluster.length>0){//si tengo pozos configurados\n        var indiceIdent = 0; \n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo){\n                indiceIdent = i;\n                break;\n            }\n        }\n        Cluster[indiceIdent].nameInstrumentTIT = Data;\n        global.set('Cluster', Cluster);\n    }else{\n        node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n    }\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n}\ncontext.set('monitoreo',{Cluster,Data,indiceIdent})\nreturn msg;",
+        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster')||[];\nvar Pozo = flow.get('Pozo','memoryOnly')||'';\n\nif(Array.isArray(Cluster)){\n    if (Cluster.length>0){//si tengo pozos configurados\n        var indiceIdent = 0; \n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo){\n                indiceIdent = i;\n                break;\n            }\n        }\n        Cluster[indiceIdent].Tag_TIT = Data;\n        global.set('Cluster', Cluster);\n    }else{\n        node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n    }\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n}\ncontext.set('monitoreo',{Cluster,Data,indiceIdent})\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -28346,7 +28321,7 @@
         "z": "e997ba3b.48cc18",
         "g": "3b1e7a95258702e4",
         "name": "saveName",
-        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster')||[];\nvar Pozo = flow.get('Pozo','memoryOnly')||'';\n\nif(Array.isArray(Cluster)){\n    if (Cluster.length>0){//si tengo pozos configurados\n        var indiceIdent = 0; \n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo){\n                indiceIdent = i;\n                break;\n            }\n        }\n        Cluster[indiceIdent].nameInstrumentPIT = Data;\n        global.set('Cluster', Cluster);\n    }else{\n        node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n    }\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n}\ncontext.set('monitoreo',{Cluster,Data,indiceIdent})\nreturn msg;",
+        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster')||[];\nvar Pozo = flow.get('Pozo','memoryOnly')||'';\n\nif(Array.isArray(Cluster)){\n    if (Cluster.length>0){//si tengo pozos configurados\n        var indiceIdent = 0; \n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo){\n                indiceIdent = i;\n                break;\n            }\n        }\n        Cluster[indiceIdent].Tag_PIT = Data;\n        global.set('Cluster', Cluster);\n    }else{\n        node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n    }\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"No configurado\"});\n}\ncontext.set('monitoreo',{Cluster,Data,indiceIdent})\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -28394,7 +28369,7 @@
         "z": "e997ba3b.48cc18",
         "g": "3b1e7a95258702e4",
         "name": "",
-        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster') || [];\nvar Pozo = flow.get('Pozo', 'memoryOnly') || '';\n\nif (Array.isArray(Cluster)) {\n    if (Cluster.length>0) {//si tengo pozos configurados\n        var indiceIdent = 0;\n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo) {\n                indiceIdent = i;\n                break;\n            }\n        }\n        var TITname = tieneValor(Cluster[indiceIdent].nameInstrumentTIT);\n        var PITname = tieneValor(Cluster[indiceIdent].nameInstrumentPIT);\n        context.set('monitoreo', { Cluster, Data, indiceIdent,TITname,PITname})\n        return [{ payload: TITname }, { payload: PITname}];\n\n    } else {\n        node.status({ fill: \"red\", shape: \"ring\", text: \"No configurado\" });\n    }\n} else {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No configurado\" });\n}\n\ncontext.set('monitoreo', { Cluster, Data, indiceIdent })\n\nfunction tieneValor(value){\n    if (value === undefined){\n        return '';\n    }else{\n        return value;\n    }\n}\n\n\n\n",
+        "func": "var Data = msg.payload;\nvar Cluster = global.get('Cluster') || [];\nvar Pozo = flow.get('Pozo', 'memoryOnly') || '';\n\nif (Array.isArray(Cluster)) {\n    if (Cluster.length>0) {//si tengo pozos configurados\n        var indiceIdent = 0;\n        for (let i = 0; i < Cluster.length; i++) {\n            if (Cluster[i].Nombre == Pozo) {\n                indiceIdent = i;\n                break;\n            }\n        }\n        var TITname = tieneValor(Cluster[indiceIdent].Tag_TIT);\n        var PITname = tieneValor(Cluster[indiceIdent].Tag_PIT);\n        context.set('monitoreo', { Cluster, Data, indiceIdent,TITname,PITname})\n        return [{ payload: TITname }, { payload: PITname}];\n\n    } else {\n        node.status({ fill: \"red\", shape: \"ring\", text: \"No configurado\" });\n    }\n} else {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No configurado\" });\n}\n\ncontext.set('monitoreo', { Cluster, Data, indiceIdent })\n\nfunction tieneValor(value){\n    if (value === undefined){\n        return '';\n    }else{\n        return value;\n    }\n}\n\n\n\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -29137,8 +29112,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 530,
+        "x": 1080,
+        "y": 520,
         "wires": [
             [
                 "4ec17b7d95223cd9",
@@ -29169,8 +29144,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1220,
-        "y": 550,
+        "x": 1210,
+        "y": 540,
         "wires": [
             [
                 "e5d33b5a70988f69"
@@ -29186,12 +29161,11 @@
         "z": "e997ba3b.48cc18",
         "g": "dbdbcfdd.62eb8",
         "name": "",
-        "mode": "link",
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 1205,
-        "y": 510,
+        "x": 1195,
+        "y": 500,
         "wires": []
     },
     {
@@ -29209,8 +29183,8 @@
         "raw": false,
         "topic": "",
         "name": "Notificación borde verde",
-        "x": 1400,
-        "y": 530,
+        "x": 1390,
+        "y": 520,
         "wires": []
     },
     {
@@ -29228,8 +29202,8 @@
         "raw": false,
         "topic": "",
         "name": "Notificación borde rojo",
-        "x": 1390,
-        "y": 570,
+        "x": 1380,
+        "y": 560,
         "wires": []
     },
     {
@@ -30884,7 +30858,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 1970,
         "y": 480,
         "wires": [
@@ -30910,7 +30883,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 2660,
         "y": 480,
         "wires": [
@@ -31350,7 +31322,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 470,
         "y": 660,
         "wires": [
@@ -32683,8 +32654,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 1,
         "group": "12cee2ff021828a4",
+        "order": 1,
         "width": 12,
         "height": 1,
         "label": "Estado Actual Temporizador 1 [TON-1]",
@@ -32713,8 +32684,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 3,
         "group": "12cee2ff021828a4",
+        "order": 3,
         "width": 12,
         "height": 1,
         "label": "Estado Actual Temporizador 2 [TON-2]",
@@ -32743,8 +32714,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 5,
         "group": "12cee2ff021828a4",
+        "order": 5,
         "width": 12,
         "height": 1,
         "label": "Estado Actual Temporizador 3 [TON-3]",
@@ -32773,8 +32744,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 2,
         "group": "12cee2ff021828a4",
+        "order": 2,
         "width": 12,
         "height": 1,
         "label": "Estado Activación de parada de emergencia",
@@ -32803,8 +32774,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 4,
         "group": "12cee2ff021828a4",
+        "order": 4,
         "width": 12,
         "height": 1,
         "label": "Estado Comunicación UPS",
@@ -32833,8 +32804,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 6,
         "group": "12cee2ff021828a4",
+        "order": 6,
         "width": 12,
         "height": 1,
         "label": "Baja presión",
@@ -33017,8 +32988,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 7,
         "group": "12cee2ff021828a4",
+        "order": 7,
         "width": 12,
         "height": 1,
         "label": "Estado de comunicación",
@@ -33065,8 +33036,8 @@
         "type": "ui_led",
         "z": "a70735f4.fb54d8",
         "g": "bc275a3cd7d476c7",
-        "order": 8,
         "group": "12cee2ff021828a4",
+        "order": 8,
         "width": 12,
         "height": 1,
         "label": "Estado de batería UPS",
@@ -35362,7 +35333,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 1170,
         "y": 1070,
         "wires": [
@@ -35606,7 +35576,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 1550,
         "y": 2270,
         "wires": [
@@ -35646,10 +35615,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión Cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 660,
         "y": 60,
         "wires": []
@@ -35683,10 +35651,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 670,
         "y": 100,
         "wires": []
@@ -35802,10 +35769,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 320,
         "wires": []
@@ -35820,10 +35786,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 670,
         "y": 360,
         "wires": []
@@ -35939,10 +35904,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 580,
         "wires": []
@@ -35957,10 +35921,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 670,
         "y": 620,
         "wires": []
@@ -36076,10 +36039,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 840,
         "wires": []
@@ -36094,10 +36056,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 670,
         "y": 880,
         "wires": []
@@ -36213,10 +36174,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 630,
         "y": 1100,
         "wires": []
@@ -36231,10 +36191,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 1140,
         "wires": []
@@ -36350,10 +36309,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size 5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 630,
         "y": 1360,
         "wires": []
@@ -36368,10 +36326,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 1400,
         "wires": []
@@ -36487,10 +36444,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 630,
         "y": 1620,
         "wires": []
@@ -36505,10 +36461,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 1660,
         "wires": []
@@ -36624,10 +36579,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 630,
         "y": 2140,
         "wires": []
@@ -36642,10 +36596,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 2180,
         "wires": []
@@ -36761,10 +36714,9 @@
         "width": "4",
         "height": "2",
         "name": "Presión cabeza PIT",
-        "label": "<font size =4px>Presión cabeza ",
-        "format": "<font size =6px>{{msg.THP}}",
+        "label": "Presión cabeza ",
+        "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
-        "className": "",
         "x": 630,
         "y": 1880,
         "wires": []
@@ -36779,10 +36731,9 @@
         "width": "4",
         "height": "2",
         "name": "Temperatura cabeza TIT",
-        "label": "<font size =4px>Temp. cabeza",
-        "format": "<font size =6px>{{msg.THT}}",
+        "label": "Temp. cabeza",
+        "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
-        "className": "",
         "x": 650,
         "y": 1920,
         "wires": []
@@ -36880,9 +36831,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =2px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 180,
         "wires": []
@@ -36898,9 +36848,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 220,
         "wires": []
@@ -36937,9 +36886,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 440,
         "wires": []
@@ -36955,9 +36903,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 480,
         "wires": []
@@ -36994,9 +36941,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 700,
         "wires": []
@@ -37012,9 +36958,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 740,
         "wires": []
@@ -37051,9 +36996,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 960,
         "wires": []
@@ -37069,9 +37013,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1000,
         "wires": []
@@ -37108,9 +37051,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1220,
         "wires": []
@@ -37126,9 +37068,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1260,
         "wires": []
@@ -37165,9 +37106,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1480,
         "wires": []
@@ -37183,9 +37123,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1520,
         "wires": []
@@ -37222,9 +37161,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1740,
         "wires": []
@@ -37240,9 +37178,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 1780,
         "wires": []
@@ -37279,9 +37216,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 2000,
         "wires": []
@@ -37297,9 +37233,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 2040,
         "wires": []
@@ -37336,9 +37271,8 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =4px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 2260,
         "wires": []
@@ -37354,9 +37288,8 @@
         "height": "1",
         "name": "TAG PIT",
         "label": "",
-        "format": "<font size =4px font color = purple>{{msg.PIT}}",
+        "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
-        "className": "",
         "x": 680,
         "y": 2300,
         "wires": []
@@ -39313,8 +39246,8 @@
         "type": "ui_led",
         "z": "f10e7ce.d57828",
         "g": "1b162d57908931b5",
-        "order": 1,
         "group": "475ffd12568828cc",
+        "order": 1,
         "width": 6,
         "height": 1,
         "label": "Estado HH en manifold",
@@ -39343,8 +39276,8 @@
         "type": "ui_led",
         "z": "f10e7ce.d57828",
         "g": "1b162d57908931b5",
-        "order": 2,
         "group": "475ffd12568828cc",
+        "order": 2,
         "width": 6,
         "height": 1,
         "label": "Estado H en manifold",
@@ -39373,8 +39306,8 @@
         "type": "ui_led",
         "z": "f10e7ce.d57828",
         "g": "1b162d57908931b5",
-        "order": 4,
         "group": "475ffd12568828cc",
+        "order": 4,
         "width": 6,
         "height": 1,
         "label": "Estado L en manifold",
@@ -39408,8 +39341,8 @@
         "type": "ui_led",
         "z": "f10e7ce.d57828",
         "g": "1b162d57908931b5",
-        "order": 3,
         "group": "475ffd12568828cc",
+        "order": 3,
         "width": 6,
         "height": 1,
         "label": "Estado LL en manifold",
@@ -42297,11 +42230,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 80,
+        "x": 310,
+        "y": 130,
         "wires": [
             [
-                "7b4bd7a0.fd9398"
+                "07fdea154e1be602"
             ]
         ]
     },
@@ -42312,8 +42245,8 @@
         "g": "11f55817.139c18",
         "name": "Eventos",
         "info": "",
-        "x": 110,
-        "y": 80,
+        "x": 140,
+        "y": 90,
         "wires": []
     },
     {
@@ -42371,8 +42304,8 @@
             "b2af28289ff3e9bc",
             "2e5d84376ac563ad"
         ],
-        "x": 365,
-        "y": 80,
+        "x": 205,
+        "y": 130,
         "wires": [
             [
                 "d382db6f.29f0a8"
@@ -42415,8 +42348,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 580,
-        "y": 160,
+        "x": 320,
+        "y": 210,
         "wires": [
             [
                 "ad47f0cc.93af5"
@@ -42434,8 +42367,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 850,
-        "y": 160,
+        "x": 590,
+        "y": 210,
         "wires": [
             []
         ]
@@ -42457,8 +42390,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 260,
-        "y": 120,
+        "x": 300,
+        "y": 170,
         "wires": [
             [
                 "07fdea154e1be602"
@@ -42481,8 +42414,8 @@
         "strings": true,
         "include_empty_strings": "",
         "include_null_values": "",
-        "x": 730,
-        "y": 160,
+        "x": 470,
+        "y": 210,
         "wires": [
             [
                 "c02fb05c.baccf"
@@ -42505,7 +42438,7 @@
                 "title": "No",
                 "width": "10%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42515,7 +42448,7 @@
                 "title": "Fecha",
                 "width": "15%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42525,7 +42458,7 @@
                 "title": "Hora",
                 "width": "15%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42535,7 +42468,7 @@
                 "title": "Evento",
                 "width": "55%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42543,8 +42476,8 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 620,
-        "y": 120,
+        "x": 580,
+        "y": 150,
         "wires": [
             []
         ]
@@ -42558,28 +42491,11 @@
         "links": [
             "453f1499.9c3efc"
         ],
-        "x": 465,
-        "y": 160,
+        "x": 205,
+        "y": 210,
         "wires": [
             [
                 "d50d9b6b.bbc7f8"
-            ]
-        ]
-    },
-    {
-        "id": "1660e38d.24cefc",
-        "type": "link in",
-        "z": "242bc9a6.f9b016",
-        "g": "11f55817.139c18",
-        "name": "Eventos UI-Control",
-        "links": [
-            "b2246adf6c10ac24"
-        ],
-        "x": 159,
-        "y": 120,
-        "wires": [
-            [
-                "75851744.fc50c8"
             ]
         ]
     },
@@ -42590,8 +42506,8 @@
         "g": "cf57802e.7d258",
         "name": "Alarmas",
         "info": "",
-        "x": 1020,
-        "y": 80,
+        "x": 760,
+        "y": 90,
         "wires": []
     },
     {
@@ -42603,8 +42519,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 1510,
-        "y": 80,
+        "x": 1100,
+        "y": 170,
         "wires": [
             [
                 "12f5302f.69f92"
@@ -42631,8 +42547,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1320,
-        "y": 120,
+        "x": 1130,
+        "y": 210,
         "wires": [
             [
                 "c95dde3d.c676e",
@@ -42676,8 +42592,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1480,
-        "y": 160,
+        "x": 950,
+        "y": 130,
         "wires": [
             [
                 "dcdb5992.425238"
@@ -42695,8 +42611,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1750,
-        "y": 160,
+        "x": 1220,
+        "y": 130,
         "wires": [
             []
         ]
@@ -42718,8 +42634,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1160,
-        "y": 120,
+        "x": 930,
+        "y": 210,
         "wires": [
             [
                 "191d34db.93fe3b"
@@ -42742,8 +42658,8 @@
         "strings": true,
         "include_empty_strings": "",
         "include_null_values": "",
-        "x": 1630,
-        "y": 160,
+        "x": 1100,
+        "y": 130,
         "wires": [
             [
                 "ccc4d9c0.904c78"
@@ -42766,7 +42682,7 @@
                 "title": "No",
                 "width": "10%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42776,7 +42692,7 @@
                 "title": "Fecha",
                 "width": "15%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42786,7 +42702,7 @@
                 "title": "Hora",
                 "width": "15%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42796,7 +42712,7 @@
                 "title": "Alarma",
                 "width": "55%",
                 "align": "left",
-                "formatter": "plaintext",
+                "formatter": "html",
                 "formatterParams": {
                     "target": "_blank"
                 }
@@ -42804,8 +42720,8 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 1520,
-        "y": 120,
+        "x": 1300,
+        "y": 170,
         "wires": [
             []
         ]
@@ -42833,8 +42749,8 @@
             "2e38aa4677e8c205",
             "4368c7074b5db11e"
         ],
-        "x": 1265,
-        "y": 80,
+        "x": 835,
+        "y": 170,
         "wires": [
             [
                 "9055a2bd.67028"
@@ -42853,8 +42769,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 80,
+        "x": 930,
+        "y": 170,
         "wires": [
             [
                 "c95dde3d.c676e",
@@ -42866,14 +42782,14 @@
         "id": "938193ac.02d98",
         "type": "link in",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "g": "cf57802e.7d258",
         "name": "ActualizarAlarmas",
         "links": [
-            "504e4ed2c3e0f61e",
-            "b2246adf6c10ac24"
+            "504e4ed2c3e0f61e"
         ],
-        "x": 1069,
-        "y": 120,
+        "x": 765,
+        "y": 210,
         "wires": [
             [
                 "d9101c40.6e85a"
@@ -42889,8 +42805,8 @@
         "links": [
             "6c6274de.8a002c"
         ],
-        "x": 1369,
-        "y": 160,
+        "x": 835,
+        "y": 130,
         "wires": [
             [
                 "35f773cc.39ea9c"
@@ -42901,6 +42817,7 @@
         "id": "81d9a00531554122",
         "type": "eth-ip in",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "endpoint": "a00b93d2e424ac4e",
         "mode": "all",
         "variable": "",
@@ -42909,15 +42826,14 @@
         "x": 90,
         "y": 310,
         "wires": [
-            [
-                "ae1fee072e1ead94"
-            ]
+            []
         ]
     },
     {
         "id": "ae1fee072e1ead94",
         "type": "function",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "name": "Eventos",
         "func": "var aux1 = [], aux2 = [], aux3 = [];\nvar keys = Object.keys(msg.payload);\nvar values = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\") || [];\n\nfor (var i = 0; i < keys.length; i++) {\n    if (values[i] && prevValue[i] != values[i]) {\n        aux1[i] = keys[i].replace(\"EVENTOS_\", \" \");\n        aux2[i] = aux1[i].replace(\"W0\", \"Pozo \");\n        aux3[i] = aux2[i].replace(\".\", \" \");\n        msg.payload = aux3[i];\n        msg.sts = values[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;",
         "outputs": 1,
@@ -42929,8 +42845,7 @@
         "y": 310,
         "wires": [
             [
-                "2b7f6e0d67c977a9",
-                "b31cc01e5f203fb5"
+                "2b7f6e0d67c977a9"
             ]
         ]
     },
@@ -42938,6 +42853,7 @@
         "id": "2b7f6e0d67c977a9",
         "type": "link out",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "name": "",
         "links": [
             "59e817c2.295b38"
@@ -42947,80 +42863,10 @@
         "wires": []
     },
     {
-        "id": "b31cc01e5f203fb5",
-        "type": "ui_toast",
-        "z": "242bc9a6.f9b016",
-        "position": "top right",
-        "displayTime": "5",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "topic": "",
-        "name": "",
-        "x": 390,
-        "y": 350,
-        "wires": []
-    },
-    {
-        "id": "7e46a489ae849e44",
-        "type": "ui_ui_control",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "events": "all",
-        "x": 100,
-        "y": 260,
-        "wires": [
-            [
-                "95e52cf77ad022eb"
-            ]
-        ]
-    },
-    {
-        "id": "95e52cf77ad022eb",
-        "type": "switch",
-        "z": "242bc9a6.f9b016",
-        "name": "",
-        "property": "name",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Alarmas/Eventos",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 230,
-        "y": 260,
-        "wires": [
-            [
-                "b2246adf6c10ac24"
-            ]
-        ]
-    },
-    {
-        "id": "b2246adf6c10ac24",
-        "type": "link out",
-        "z": "242bc9a6.f9b016",
-        "d": true,
-        "name": "",
-        "links": [
-            "1660e38d.24cefc",
-            "938193ac.02d98"
-        ],
-        "x": 315,
-        "y": 260,
-        "wires": []
-    },
-    {
         "id": "1a3e525fc4cc8535",
         "type": "function",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "name": "Alarmas",
         "func": "var aux1 = [], aux2 = [], aux3 = [];\nvar keys    = Object.keys(msg.payload);\nvar values  = Object.values(msg.payload);\nvar prevValue = context.get(\"prevValue\") || [];\n\nfor (var i = 0; i < keys.length; i++){\n    if (values[i] && prevValue[i]!= values[i]){\n        aux1[i] = keys[i].replace(\"DATA_\", \" \");\n        aux2[i] = aux1[i].replace(\"_ALARMAS.Alarma_\", \" \");\n        aux3[i] = aux2[i].replace(\"CL\", \"Pozo \");\n        msg.payload = aux3[i];\n        msg.sts     = values[i];\n        node.send(msg);\n    }\n    prevValue[i] = values[i];\n}\ncontext.set(\"prevValue\", prevValue);\nreturn;\n",
         "outputs": 1,
@@ -43032,8 +42878,7 @@
         "y": 310,
         "wires": [
             [
-                "f186c67c61d39f03",
-                "4c484c2d483f7af7"
+                "f186c67c61d39f03"
             ]
         ]
     },
@@ -43041,6 +42886,7 @@
         "id": "7593c87c33252c16",
         "type": "eth-ip in",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "endpoint": "15f69da2533413eb",
         "mode": "all",
         "variable": "",
@@ -43049,39 +42895,20 @@
         "x": 550,
         "y": 310,
         "wires": [
-            [
-                "1a3e525fc4cc8535"
-            ]
+            []
         ]
     },
     {
         "id": "f186c67c61d39f03",
         "type": "link out",
         "z": "242bc9a6.f9b016",
+        "d": true,
         "name": "",
         "links": [
             "33f2aa3c.6c08f6"
         ],
         "x": 785,
         "y": 310,
-        "wires": []
-    },
-    {
-        "id": "4c484c2d483f7af7",
-        "type": "ui_toast",
-        "z": "242bc9a6.f9b016",
-        "position": "top right",
-        "displayTime": "5",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "topic": "",
-        "name": "",
-        "x": 860,
-        "y": 350,
         "wires": []
     },
     {
@@ -43094,8 +42921,8 @@
             "c98bd2dc.e9d39",
             "b56aa71999519568"
         ],
-        "x": 165,
-        "y": 160,
+        "x": 205,
+        "y": 170,
         "wires": [
             [
                 "75851744.fc50c8"
@@ -43111,8 +42938,8 @@
         "links": [
             "c98bd2dc.e9d39"
         ],
-        "x": 1075,
-        "y": 170,
+        "x": 835,
+        "y": 210,
         "wires": [
             [
                 "d9101c40.6e85a"
@@ -43125,14 +42952,14 @@
         "z": "242bc9a6.f9b016",
         "g": "11f55817.139c18",
         "name": "a Tabla",
-        "func": "var datos = JSON.parse(JSON.stringify(flow.get(\"Events\") || null));\nvar i;\nmsg.payload = [];\nfor (i=0;i<datos.length;i++){\n    if (datos[i].evento.includes(\"Disparo\") || datos[i].evento.includes(\"Trigger\")){\n        datos[i].evento = '<font color= red><b>' + datos[i].evento +'<b>';\n    }\n    if (datos[i].evento.includes(\"Falla de com\") || datos[i].evento.includes(\"Pérdida de com\") || datos[i].evento.includes(\"COM fault\")) {\n        datos[i].evento = '<font color= orange><b>' + datos[i].evento + '<b>';\n    }\n    msg.payload.push(datos[i]);\n    \n}\nif (datos != null)\nreturn msg;",
+        "func": "var datos = JSON.parse(JSON.stringify(flow.get(\"Events\") || null));\nvar i;\nmsg.payload = [];\nfor (i = 0; i < datos.length; i++) {\n    if (datos[i].evento.includes(\"Falla en pozo\") || datos[i].evento.includes(\"se encuentra en falla no es posible arrancar\")) {\n        //(datos[i].evento.includes(\"Falla en pozo\")) {\n        datos[i].evento = '<font color= red><b>' + datos[i].evento + '<b>';\n    }\n    if (datos[i].evento.includes(\"Cambio de velocidad en\") || datos[i].evento.includes(\"Pérdida de com\")) {\n        datos[i].evento = '<font color= orange><b>' + datos[i].evento + '<b>';\n    }\n    if (datos[i].evento.includes(\"Arranque\")) {\n        datos[i].evento = '<font color= green><b>' + datos[i].evento + '<b>';\n    }\n    msg.payload.push(datos[i]);\n\n}\nif (datos != null)\n    return msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 120,
+        "x": 440,
+        "y": 150,
         "wires": [
             [
                 "7b4bd7a0.fd9398"
@@ -44968,7 +44795,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 1560,
         "y": 850,
         "wires": [
@@ -46567,7 +46393,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 870,
         "y": 190,
         "wires": [
@@ -46594,7 +46419,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 870,
         "y": 250,
         "wires": [
@@ -46621,7 +46445,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 870,
         "y": 310,
         "wires": [
@@ -46648,7 +46471,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 870,
         "y": 370,
         "wires": [
@@ -46675,7 +46497,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 860,
         "y": 430,
         "wires": [
@@ -46766,7 +46587,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 200,
         "y": 540,
         "wires": [
@@ -49745,7 +49565,6 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "outputs": 1,
         "x": 1790,
         "y": 140,
         "wires": [
