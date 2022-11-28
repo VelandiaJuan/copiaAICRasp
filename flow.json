@@ -757,7 +757,9 @@
             "8531d637ba42e7a9"
         ],
         "x": 94,
-        "y": 999
+        "y": 999,
+        "w": 862,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -886,7 +888,9 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 432,
+        "h": 962
     },
     {
         "id": "73df5953.fc56e8",
@@ -974,7 +978,9 @@
             "b2b70770f04451e4"
         ],
         "x": 1004,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 1102
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -1009,7 +1015,9 @@
             "44c3366262953ead"
         ],
         "x": 794,
-        "y": 19
+        "y": 19,
+        "w": 702,
+        "h": 682
     },
     {
         "id": "da4321a277ed136b",
@@ -1049,7 +1057,9 @@
             "b66f36a61ce00cc0"
         ],
         "x": 1514,
-        "y": 21.5
+        "y": 21.5,
+        "w": 742,
+        "h": 689.5
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1572,7 +1582,9 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1744,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1625,7 +1637,9 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2504,
-        "y": 19
+        "y": 19,
+        "w": 752,
+        "h": 1102
     },
     {
         "id": "2282018314ee7576",
@@ -1718,7 +1732,9 @@
             "dc662dbf83f0e930"
         ],
         "x": 474,
-        "y": 1429
+        "y": 1429,
+        "w": 492,
+        "h": 1642
     },
     {
         "id": "2fc820d53f174088",
@@ -1753,7 +1769,9 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2104,
-        "y": 1149
+        "y": 1149,
+        "w": 482,
+        "h": 622
     },
     {
         "id": "7d0f955071a4055a",
@@ -1787,7 +1805,9 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149
+        "y": 1149,
+        "w": 832,
+        "h": 562
     },
     {
         "id": "cff3928797d25d39",
@@ -1818,7 +1838,9 @@
             "75b2e87e6760a38b"
         ],
         "x": 3264,
-        "y": 19
+        "y": 19,
+        "w": 632,
+        "h": 922
     },
     {
         "id": "b06bbdd518536a01",
@@ -2294,7 +2316,9 @@
             "6e73086ba83af9ec"
         ],
         "x": 2264,
-        "y": 19
+        "y": 19,
+        "w": 772,
+        "h": 692
     },
     {
         "id": "80e529568099f818",
@@ -2328,7 +2352,9 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 719
+        "y": 719,
+        "w": 772,
+        "h": 82
     },
     {
         "id": "47c7e078aa019952",
@@ -2363,7 +2389,9 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999
+        "y": 999,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2561,7 +2589,9 @@
             "c5614143.9411"
         ],
         "x": 474,
-        "y": 19
+        "y": 19,
+        "w": 522,
+        "h": 1402
     },
     {
         "id": "f1f3555028254919",
@@ -2621,7 +2651,9 @@
             "0809c83f9e374b28"
         ],
         "x": 94,
-        "y": 99
+        "y": 99,
+        "w": 822,
+        "h": 882
     },
     {
         "id": "e9e743e8335d4487",
@@ -2636,7 +2668,9 @@
             "f2171731a54fc371"
         ],
         "x": 94,
-        "y": 9
+        "y": 9,
+        "w": 452,
+        "h": 82
     },
     {
         "id": "1b48b0a68b3a0856",
@@ -2673,7 +2707,9 @@
             "80fb5badc685f603"
         ],
         "x": 934,
-        "y": 309
+        "y": 309,
+        "w": 642,
+        "h": 442
     },
     {
         "id": "3b1e7a95258702e4",
@@ -2814,7 +2850,9 @@
             "2dc0fe74d8d78397"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 692,
+        "h": 682
     },
     {
         "id": "60eb3f3798b2d99e",
@@ -2838,7 +2876,9 @@
             "9ef43bf7a411b0e6"
         ],
         "x": 934,
-        "y": 99
+        "y": 99,
+        "w": 642,
+        "h": 202
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -12985,6 +13025,26 @@
         "disp": false,
         "width": "12",
         "collapse": false
+    },
+    {
+        "id": "6dd8f2137cd4801d",
+        "type": "ui_spacer",
+        "z": "f10e7ce.d57828",
+        "name": "spacer",
+        "group": "ad633f3f.37b43",
+        "order": 5,
+        "width": "6",
+        "height": "2"
+    },
+    {
+        "id": "c88f35b6a6ee3d84",
+        "type": "ui_spacer",
+        "z": "f10e7ce.d57828",
+        "name": "spacer",
+        "group": "ad633f3f.37b43",
+        "order": 7,
+        "width": "6",
+        "height": "2"
     },
     {
         "id": "e73d17ea.0c5538",
@@ -38243,7 +38303,7 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "name": "Data estado PIT",
-        "func": "// Estado de instrumento PIT ubicado en Manifold\nvar Status_Instrumento_PIT = global.get(\"Status_Instrumento_PIT\",\"memoryOnly\")||false;\n\n// Traer variables de lectura de Manifold\nvar INST_MNF     = global.get(\"Cluster.INST_MNF\", \"memoryOnly\") || [];\n\n// Distribución de variables de Manifold\nvar Presion_PIT     = (INST_MNF.PIT_Presion).toFixed(1)\n\nif (Status_Instrumento_PIT == false){\n    msg.PIT             = Presion_PIT + \" psi\";\n\n} else if (Status_Instrumento_PIT == true){\n    msg.PIT             = \"- - - - - -\";\n}\nreturn msg;",
+        "func": "// Estado de instrumento PIT ubicado en Manifold\nvar Status_Instrumento_PIT = global.get(\"Status_Instrumento_PIT\",\"memoryOnly\")||false;\n\n// Traer variables de lectura de Manifold\nvar INST_MNF = global.get(\"Cluster.INST_MNF\", \"memoryOnly\") || [];\n\n// Distribución de variables de Manifold\nvar Presion_PIT = (INST_MNF.PIT_Presion).toFixed(1)\n\nif (Status_Instrumento_PIT == false){\n    msg.PIT = Presion_PIT + \" psi\";\n\n} else if (Status_Instrumento_PIT == true){\n    msg.PIT = \"- - - - - -\";\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -39068,7 +39128,7 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
-        "order": 5,
+        "order": 6,
         "width": 6,
         "height": 2,
         "name": "Densidad",
@@ -39085,7 +39145,7 @@
         "z": "f10e7ce.d57828",
         "g": "9d8df5b4f6b8aaf2",
         "group": "ad633f3f.37b43",
-        "order": 6,
+        "order": 8,
         "width": 6,
         "height": 2,
         "name": "Temperatura",
