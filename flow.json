@@ -757,9 +757,7 @@
             "8531d637ba42e7a9"
         ],
         "x": 94,
-        "y": 999,
-        "w": 862,
-        "h": 132
+        "y": 999
     },
     {
         "id": "73a228cd.9d45d8",
@@ -791,7 +789,9 @@
             "090788529ccfc8aa"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 252
     },
     {
         "id": "7b6f4b41.106164",
@@ -807,7 +807,9 @@
             "cf57802e.7d258"
         ],
         "x": 28,
-        "y": 23
+        "y": 23,
+        "w": 1384,
+        "h": 254
     },
     {
         "id": "c58d9126.1869c",
@@ -830,9 +832,7 @@
             "3895844e0bbc0b79"
         ],
         "x": 54,
-        "y": 579,
-        "w": 722,
-        "h": 192
+        "y": 579
     },
     {
         "id": "89dd768a.673f58",
@@ -854,7 +854,9 @@
             "82f44a0478397706"
         ],
         "x": 924,
-        "y": 19
+        "y": 19,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "a0798509.56f3c8",
@@ -888,9 +890,7 @@
             "88e39700f7042263"
         ],
         "x": 34,
-        "y": 19,
-        "w": 432,
-        "h": 962
+        "y": 19
     },
     {
         "id": "73df5953.fc56e8",
@@ -933,9 +933,7 @@
             "6a7a05e6729f5b0c"
         ],
         "x": 54,
-        "y": 59,
-        "w": 952,
-        "h": 502
+        "y": 59
     },
     {
         "id": "a17f12b7.aff7a",
@@ -978,9 +976,7 @@
             "b2b70770f04451e4"
         ],
         "x": 1004,
-        "y": 19,
-        "w": 732,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "6e58f0ae3fe125af",
@@ -988,7 +984,8 @@
         "z": "dcee4298f5de57d2",
         "name": "Datos de Pozo Posición 2",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "952e7831f8ba38da",
@@ -1025,7 +1022,8 @@
         "z": "dcee4298f5de57d2",
         "name": "Datos de Pozo Posición 3",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "0c3c00860e527ec9",
@@ -1175,7 +1173,6 @@
             "label": true
         },
         "nodes": [
-            "1e1e27dfa1f3561e",
             "1889382ff553feb8",
             "0c268e6506789671",
             "5f05e290fd561209",
@@ -1187,10 +1184,13 @@
             "a90b9db5a15e0d3e",
             "3a50b8e2f7d2c694",
             "753de0dd4495c539",
-            "038ecc84a8e8e72c"
+            "038ecc84a8e8e72c",
+            "4a690f8ded6d721c"
         ],
         "x": 94,
-        "y": 739
+        "y": 739,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "53d376e89282424a",
@@ -1582,9 +1582,7 @@
             "6fb4d7510fdd7772"
         ],
         "x": 1744,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "1a392c2d1fb561f8",
@@ -1637,9 +1635,7 @@
             "d1bcaebfeab23d41"
         ],
         "x": 2504,
-        "y": 19,
-        "w": 752,
-        "h": 1102
+        "y": 19
     },
     {
         "id": "2282018314ee7576",
@@ -1732,9 +1728,7 @@
             "dc662dbf83f0e930"
         ],
         "x": 474,
-        "y": 1429,
-        "w": 492,
-        "h": 1642
+        "y": 1429
     },
     {
         "id": "2fc820d53f174088",
@@ -1769,9 +1763,7 @@
             "0af77ddbb1ce4317"
         ],
         "x": 2104,
-        "y": 1149,
-        "w": 482,
-        "h": 622
+        "y": 1149
     },
     {
         "id": "7d0f955071a4055a",
@@ -1805,9 +1797,7 @@
             "571503a1551ddd48"
         ],
         "x": 1234,
-        "y": 1149,
-        "w": 832,
-        "h": 562
+        "y": 1149
     },
     {
         "id": "cff3928797d25d39",
@@ -1838,9 +1828,7 @@
             "75b2e87e6760a38b"
         ],
         "x": 3264,
-        "y": 19,
-        "w": 632,
-        "h": 922
+        "y": 19
     },
     {
         "id": "b06bbdd518536a01",
@@ -1904,9 +1892,7 @@
             "4dbc5ae4904e149e"
         ],
         "x": 1024,
-        "y": 1329,
-        "w": 862,
-        "h": 982
+        "y": 1329
     },
     {
         "id": "bc275a3cd7d476c7",
@@ -1979,9 +1965,7 @@
             "a009825b9c3ac27e"
         ],
         "x": 1024,
-        "y": 59,
-        "w": 1472,
-        "h": 872
+        "y": 59
     },
     {
         "id": "1b162d57908931b5",
@@ -2185,9 +2169,7 @@
             "eb3e48265cb3c627"
         ],
         "x": 1024,
-        "y": 949,
-        "w": 1742,
-        "h": 362
+        "y": 949
     },
     {
         "id": "8cbf8180d2c70f1a",
@@ -2262,21 +2244,17 @@
             "a13647535e0c20a6",
             "c18438482aa78cfc",
             "8b4d36053dc5b2b5",
-            "e9b0367b60f42e9f",
-            "fd87bdba434bf152",
             "d6b2bfcf621dc989",
-            "2be20f48760e2e33",
             "bba0022677777a08",
             "852a5b7c388648de",
             "e4ea350acf6a4e72",
-            "d849df0fbb7e800b",
             "7e86f1c93a959d88",
             "338579f1c42fb18d"
         ],
         "x": 34,
-        "y": 19,
+        "y": 39,
         "w": 742,
-        "h": 822
+        "h": 802
     },
     {
         "id": "4e67a9385d518b82",
@@ -2284,7 +2262,8 @@
         "z": "dcee4298f5de57d2",
         "name": "Datos de Pozo Posición 4",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "0707e99d923f37a2",
@@ -2333,7 +2312,9 @@
             "87857b683465f57d"
         ],
         "x": 34,
-        "y": 319
+        "y": 319,
+        "w": 262,
+        "h": 82
     },
     {
         "id": "b8537f731ac9a09a",
@@ -2389,9 +2370,7 @@
             "6fa437dfceb3a929"
         ],
         "x": 74,
-        "y": 999,
-        "w": 342,
-        "h": 82
+        "y": 999
     },
     {
         "id": "0fa5f2a3ef50ac33",
@@ -2546,7 +2525,9 @@
             "05aa201180649b16"
         ],
         "x": 44,
-        "y": 409
+        "y": 409,
+        "w": 832,
+        "h": 182
     },
     {
         "id": "657e2074.735a3",
@@ -2589,9 +2570,7 @@
             "c5614143.9411"
         ],
         "x": 474,
-        "y": 19,
-        "w": 522,
-        "h": 1402
+        "y": 19
     },
     {
         "id": "f1f3555028254919",
@@ -2651,9 +2630,7 @@
             "0809c83f9e374b28"
         ],
         "x": 94,
-        "y": 99,
-        "w": 822,
-        "h": 882
+        "y": 99
     },
     {
         "id": "e9e743e8335d4487",
@@ -2668,9 +2645,7 @@
             "f2171731a54fc371"
         ],
         "x": 94,
-        "y": 9,
-        "w": 452,
-        "h": 82
+        "y": 9
     },
     {
         "id": "1b48b0a68b3a0856",
@@ -2707,9 +2682,7 @@
             "80fb5badc685f603"
         ],
         "x": 934,
-        "y": 309,
-        "w": 642,
-        "h": 442
+        "y": 309
     },
     {
         "id": "3b1e7a95258702e4",
@@ -2768,7 +2741,9 @@
             "8fefd7f69474316e"
         ],
         "x": 94,
-        "y": 939
+        "y": 939,
+        "w": 752,
+        "h": 892
     },
     {
         "id": "f6c5f78da86ed2f4",
@@ -2813,7 +2788,9 @@
             "e73fa007259d6db0"
         ],
         "x": 894,
-        "y": 939
+        "y": 939,
+        "w": 722,
+        "h": 642
     },
     {
         "id": "1c17956307e44e29",
@@ -2821,7 +2798,8 @@
         "z": "dcee4298f5de57d2",
         "name": "Datos de Pozo Posición 1",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "f151ef75ee689f12",
@@ -2876,9 +2854,7 @@
             "9ef43bf7a411b0e6"
         ],
         "x": 934,
-        "y": 99,
-        "w": 642,
-        "h": 202
+        "y": 99
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -2928,7 +2904,9 @@
             "4c25ebc9a7274f4f"
         ],
         "x": 84,
-        "y": 279
+        "y": 279,
+        "w": 1442,
+        "h": 442
     },
     {
         "id": "c8c1349ab06f5802",
@@ -2956,7 +2934,7 @@
             "dd077e8b6b836a4c"
         ],
         "x": 194,
-        "y": 19,
+        "y": 29,
         "w": 632,
         "h": 242
     },
@@ -3283,7 +3261,9 @@
             "07fdea154e1be602"
         ],
         "x": 54,
-        "y": 49
+        "y": 49,
+        "w": 612,
+        "h": 202
     },
     {
         "id": "cf57802e.7d258",
@@ -3311,7 +3291,9 @@
             "44e0e07ede65597e"
         ],
         "x": 674,
-        "y": 49
+        "y": 49,
+        "w": 712,
+        "h": 202
     },
     {
         "id": "ba9b3d7a41b195a8",
@@ -3537,6 +3519,34 @@
         ],
         "x": 334,
         "y": 839
+    },
+    {
+        "id": "c4f5780d33d3bdf0",
+        "type": "group",
+        "z": "dcee4298f5de57d2",
+        "name": "Visualización de datos de instrumentación de manifold en pantalla principal",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "2f3ab9fa64d43d9e",
+            "063b7d2daefafee7",
+            "b3b7b4c709c4b026",
+            "f91e3050ab1e39b6",
+            "bc3775f8230f3083",
+            "acfc2a3182d39595",
+            "08fc050dd2c61674",
+            "390f3642ce104b88",
+            "c5f69cfe7b8a7eec",
+            "eec170b33a892c94",
+            "25ab6eaa4d296fe7",
+            "374798a7fd72fd4a"
+        ],
+        "x": 84,
+        "y": 809,
+        "w": 722,
+        "h": 202
     },
     {
         "id": "5d3525bf.f7c05c",
@@ -13047,6 +13057,16 @@
         "height": "2"
     },
     {
+        "id": "5ee213f5830834f6",
+        "type": "ui_group",
+        "name": "Instrumentación manifold",
+        "tab": "2907a051b5a9e44c",
+        "order": 6,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
         "id": "e73d17ea.0c5538",
         "type": "template",
         "z": "18e29a89.99dbb5",
@@ -14823,7 +14843,7 @@
         "group": "0921035c8e83c6f3",
         "name": "Nombre del pozo [Despliegue general]",
         "order": 3,
-        "width": "1",
+        "width": "10",
         "height": "1",
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
         "storeOutMessages": true,
@@ -14891,7 +14911,8 @@
             "fe94f576e0e423f9",
             "57c98bdbe3e5e015",
             "bd69a1d2a9aacce2",
-            "42654a4eb86621e7"
+            "42654a4eb86621e7",
+            "2f3ab9fa64d43d9e"
         ],
         "x": 255,
         "y": 360,
@@ -20233,7 +20254,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 5,
+        "order": 6,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20250,7 +20271,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20267,7 +20288,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 4,
+        "order": 5,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20284,7 +20305,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20301,7 +20322,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 7,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20335,7 +20356,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 5,
+        "order": 6,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20352,7 +20373,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20369,7 +20390,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 4,
+        "order": 5,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20386,7 +20407,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20403,7 +20424,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 7,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20733,7 +20754,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 5,
+        "order": 6,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20750,7 +20771,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20767,7 +20788,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 4,
+        "order": 5,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20784,7 +20805,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -20801,7 +20822,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 7,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21156,9 +21177,10 @@
         "id": "c2f95795d38b15b4",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 13,
+        "order": 14,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21175,11 +21197,11 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIT",
+        "label": "PT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 1350,
@@ -21192,11 +21214,11 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "TIT",
+        "label": "TT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 1350,
@@ -21209,7 +21231,7 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 10,
+        "order": 8,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21224,9 +21246,10 @@
         "id": "610bc39c43b63394",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 9,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21241,9 +21264,10 @@
         "id": "7a0c3503923f7963",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 14,
+        "order": 15,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21377,9 +21401,10 @@
         "id": "1319c225b52c8337",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 13,
+        "order": 14,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21396,11 +21421,11 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIT",
+        "label": "PT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2120,
@@ -21413,11 +21438,11 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "TIT",
+        "label": "TT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2120,
@@ -21430,7 +21455,7 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 10,
+        "order": 8,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21445,9 +21470,10 @@
         "id": "d9fc8e1b8c8ba9cf",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 9,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21462,9 +21488,10 @@
         "id": "eb893e6cd74834b7",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 14,
+        "order": 15,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21598,9 +21625,10 @@
         "id": "1f1b46b7ce05919d",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 13,
+        "order": 14,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21617,11 +21645,11 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIT",
+        "label": "PT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2900,
@@ -21634,7 +21662,7 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 10,
+        "order": 8,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21649,9 +21677,10 @@
         "id": "91212a984e2beb5f",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 9,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21666,9 +21695,10 @@
         "id": "f528f7baa7fa8d7f",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 14,
+        "order": 15,
         "width": 3,
         "height": 2,
         "name": "",
@@ -21685,11 +21715,11 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "TIT",
+        "label": "TT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 2900,
@@ -21979,13 +22009,13 @@
         "z": "dcee4298f5de57d2",
         "g": "6e58f0ae3fe125af",
         "group": "8383e0d6be75437c",
-        "order": 15,
-        "width": "6",
-        "height": "1",
+        "order": 4,
+        "width": "3",
+        "height": "2",
         "name": "Local/Remoto",
         "label": "Control: ",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "row-center",
+        "format": "<font color = blue font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
         "x": 1380,
         "y": 620,
         "wires": []
@@ -21996,13 +22026,13 @@
         "z": "dcee4298f5de57d2",
         "g": "da4321a277ed136b",
         "group": "7b3e660828c01ed0",
-        "order": 15,
-        "width": "6",
-        "height": "1",
+        "order": 4,
+        "width": "3",
+        "height": "2",
         "name": "Local/Remoto",
         "label": "Control: ",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "row-center",
+        "format": "<font color = blue font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
         "x": 2150,
         "y": 630,
         "wires": []
@@ -22013,13 +22043,13 @@
         "z": "dcee4298f5de57d2",
         "g": "4e67a9385d518b82",
         "group": "79da3138fb6677c1",
-        "order": 15,
-        "width": "6",
-        "height": "1",
+        "order": 4,
+        "width": "3",
+        "height": "2",
         "name": "Local/Remoto",
         "label": "Control: ",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "row-center",
+        "format": "<font color = blue font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
         "x": 2930,
         "y": 620,
         "wires": []
@@ -22047,7 +22077,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 5,
+        "order": 6,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22064,7 +22094,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 6,
+        "order": 7,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22081,7 +22111,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 4,
+        "order": 5,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22098,7 +22128,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22115,7 +22145,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 7,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22233,9 +22263,10 @@
         "id": "843e8ecefd58da7f",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 13,
+        "order": 14,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22252,11 +22283,11 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 11,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "PIT",
+        "label": "PT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 590,
@@ -22269,11 +22300,11 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "",
-        "label": "TIT",
+        "label": "TT",
         "format": "<font size =4px>{{msg.payload}} ",
         "layout": "col-center",
         "x": 590,
@@ -22286,7 +22317,7 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 10,
+        "order": 8,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22301,9 +22332,10 @@
         "id": "e5d02252158d5a07",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 9,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22318,9 +22350,10 @@
         "id": "0795ef62c6cdf22b",
         "type": "ui_text",
         "z": "dcee4298f5de57d2",
+        "d": true,
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 14,
+        "order": 15,
         "width": 3,
         "height": 2,
         "name": "",
@@ -22509,13 +22542,13 @@
         "z": "dcee4298f5de57d2",
         "g": "1c17956307e44e29",
         "group": "04c0fe5a58c91c22",
-        "order": 15,
-        "width": "6",
-        "height": "1",
+        "order": 4,
+        "width": "3",
+        "height": "2",
         "name": "Local/Remoto",
         "label": "Control: ",
-        "format": "<font size =4px>{{msg.payload}} ",
-        "layout": "row-center",
+        "format": "<font color = blue font size =4px>{{msg.payload}} ",
+        "layout": "col-center",
         "x": 620,
         "y": 620,
         "wires": []
@@ -26491,32 +26524,12 @@
         "wires": []
     },
     {
-        "id": "1e1e27dfa1f3561e",
-        "type": "function",
-        "z": "e997ba3b.48cc18",
-        "g": "ad1eed9908ed5e2a",
-        "name": "getting data",
-        "func": "// Variables de control de animación de tendencias\nvar time = msg.payload;\nvar realtime = flow.get(\"trends.realtime\", \"memoryOnly\") || null;\nvar lasthour = flow.get(\"trends.lasthour\") || null;\nvar lastday = flow.get(\"trends.lastday\") || null;\nvar counth = context.get(\"counth\",\"memoryOnly\")||0;\nvar countd = context.get(\"countd\", \"memoryOnly\") || 0;\n\n\n// Variables de CILA2S\nvar Cluster = global.get(\"Cluster\", \"memoryOnly\") || [];\nvar ClusterData = global.get(\"Cluster\") || [];\nvar NombrePozo = flow.get(\"Pozo\", \"memoryOnly\") || \"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor (var i = 0; i < ClusterData.length; i += 1) {\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index = Nombres.indexOf(NombrePozo);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: index });\nif (index < 0) { index = 1; }\nif (index != -1) { msg.type = ClusterData[index][\"ALS\"] || \"ESP\"; }\n\nvar SCP = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\", SCP, \"memoryOnly\");\n\nmsg.Frecuencia = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2)\nmsg.Voltaje_L1_N = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1 = (Cluster[\"SCP\" + (SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2 = (Cluster[\"SCP\" + (SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3 = (Cluster[\"SCP\" + (SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2 = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3 = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3 = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1 = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2 = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3 = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro = (Cluster[\"SCP\" + (SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro = (Cluster[\"SCP\" + (SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro = (Cluster[\"SCP\" + (SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro = (Cluster[\"SCP\" + (SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro = (Cluster[\"SCP\" + (SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor = (Cluster[\"SCP\" + (SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor = (Cluster[\"SCP\" + (SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP = (Cluster[\"SCP\" + (SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP = (Cluster[\"SCP\" + (SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga = (Cluster[\"SCP\" + (SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada = (Cluster[\"SCP\" + (SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor = (Cluster[\"SCP\" + (SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC = (Cluster[\"SCP\" + (SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD = (Cluster[\"SCP\" + (SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD = (Cluster[\"SCP\" + (SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia = (Cluster[\"SCP\" + (SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX = (Cluster[\"SCP\" + (SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV = (Cluster[\"SCP\" + (SCP)].INST.THP_PIT_PV).toFixed(2);\nmsg.THT_TIT_PV = (Cluster[\"SCP\" + (SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro = (Cluster[\"SCP\" + (SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro = (Cluster[\"SCP\" + (SCP)].PQM.THD_V_Pro).toFixed(2);\n\nmsg.Vibracion_Eje_X = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_X).toFixed(2);\nmsg.Vibracion_Eje_Y = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Y).toFixed(2);\nmsg.Vibracion_Eje_Z = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Z).toFixed(2);\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\n\n\nif (realtime == null) {\n    realtime = {\n        'Output_Frequency': [{ \"x\": time, \"y\": msg.Frecuencia || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": msg.Corriente_VSD || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": msg.Corriente_Motor|| 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": msg.Voltaje_L_N_Pro}],\n        'LLVoltage': [{ \"x\": time, \"y\": msg.Voltaje_L_L_Pro}],\n        'Output_Power': [{ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }],\n        'PIP': [{ \"x\": time, \"y\": msg.PIP }],\n        'PDP': [{ \"x\": time, \"y\": msg.PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": msg.Temperatura_Entrada }],\n        'Motor_Temp': [{ \"x\": time, \"y\": msg.Temperatura_Motor }],\n        'Voltaje_Bus_DC': [{ \"x\": time, \"y\": msg.Voltaje_Bus_DC }],\n        'Voltaje_VSD': [{ \"x\": time, \"y\": msg.Voltaje_VSD }],\n        'Vibracion': [{ \"x\": time, \"y\": msg.Vibracion }],\n        'Amp_Pro': [{ \"x\": time, \"y\": msg.Amp_Pro }],\n        'Vibracion_X': [{ \"x\": time, \"y\": msg.Vibracion_Eje_X }],\n        'Vibracion_Y': [{ \"x\": time, \"y\": msg.Vibracion_Eje_Y }],\n        'Vibracion_Z': [{ \"x\": time, \"y\": msg.Vibracion_Eje_Z }]\n        \n    };\n}\nelse {\n    if (realtime.Output_Frequency.length > 30) {\n        realtime.Output_Frequency.shift();\n        realtime.Output_Current.shift();\n        realtime.Motor_Current.shift();\n        realtime.LNVoltage.shift();\n        realtime.LLVoltage.shift();\n        realtime.Output_Power.shift();\n        realtime.PIP.shift();\n        realtime.PDP.shift();\n        realtime.Input_Temp.shift();\n        realtime.Motor_Temp.shift();\n        realtime.Voltaje_Bus_DC.shift();\n        realtime.Voltaje_VSD.shift();\n        realtime.Vibracion.shift();\n        realtime.Amp_Pro.shift();\n        realtime.Vibracion_X.shift();\n        realtime.Vibracion_Y.shift();\n        realtime.Vibracion_Z.shift();\n    }\n    \n    realtime.Output_Frequency.push({ \"x\": time, \"y\": msg.Frecuencia || 0 }),\n    realtime.Output_Current.push({ \"x\": time, \"y\": msg.Corriente_VSD || 0 }),\n    realtime.Motor_Current.push({ \"x\": time, \"y\": msg.Corriente_Motor || 0 }),\n    realtime.LNVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_N_Pro}),\n    realtime.LLVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }),\n    realtime.Output_Power.push({ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }),\n    realtime.PIP.push({ \"x\": time, \"y\": msg.PIP }),\n    realtime.PDP.push({ \"x\": time, \"y\": msg.PDP }),\n    realtime.Input_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Entrada  }),\n    realtime.Motor_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Motor }),\n    realtime.Voltaje_Bus_DC.push({ \"x\": time, \"y\": msg.Voltaje_Bus_DC }),\n    realtime.Voltaje_VSD.push({ \"x\": time, \"y\": msg.Voltaje_VSD }),\n    realtime.Vibracion.push({ \"x\": time, \"y\": msg.Vibracion }),\n    realtime.Amp_Pro.push({ \"x\": time, \"y\": msg.Amp_Pro }),\n    realtime.Vibracion_X.push({ \"x\": time, \"y\": msg.Vibracion_Eje_X }),\n    realtime.Vibracion_Y.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Y }),\n    realtime.Vibracion_Z.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Z })\n\n}\n\nif (lasthour == null) {\n    lasthour = {\n        'Output_Frequency': [{ \"x\": time, \"y\": msg.Frecuencia || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": msg.Corriente_VSD || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": msg.Corriente_Motor || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }],\n        'LLVoltage': [{ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }],\n        'Output_Power': [{ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }],\n        'PIP': [{ \"x\": time, \"y\": msg.PIP }],\n        'PDP': [{ \"x\": time, \"y\": msg.PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": msg.Temperatura_Entrada }],\n        'Motor_Temp': [{ \"x\": time, \"y\": msg.Temperatura_Motor }],\n        'Voltaje_Bus_DC': [{ \"x\": time, \"y\": msg.Voltaje_Bus_DC }],\n        'Voltaje_VSD': [{ \"x\": time, \"y\": msg.Voltaje_VSD }],\n        'Vibracion': [{ \"x\": time, \"y\": msg.Vibracion }],\n        'Amp_Pro': [{ \"x\": time, \"y\": msg.Amp_Pro }],\n        'Vibracion_X': [{ \"x\": time, \"y\": msg.Vibracion_Eje_X }],\n        'Vibracion_Y': [{ \"x\": time, \"y\": msg.Vibracion_Eje_Y }],\n        'Vibracion_Z': [{ \"x\": time, \"y\": msg.Vibracion_Eje_Z }]\n    };\n}\nelse {\n    if (counth==15){\n        if (lasthour.Output_Frequency.length > 240) {\n            lasthour.Output_Frequency.shift();\n            lasthour.Output_Current.shift();\n            lasthour.Motor_Current.shift();\n            lasthour.LNVoltage.shift();\n            lasthour.LLVoltage.shift();\n            lasthour.Output_Power.shift();\n            lasthour.PIP.shift();\n            lasthour.PDP.shift();\n            lasthour.Input_Temp.shift();\n            lasthour.Motor_Temp.shift();\n            lasthour.Voltaje_Bus_DC.shift();\n            lasthour.Voltaje_VSD.shift();\n            lasthour.Vibracion.shift();\n            lasthour.Amp_Pro.shift();\n            lasthour.Vibracion_X.shift();\n            lasthour.Vibracion_Y.shift();\n            lasthour.Vibracion_Z.shift();\n        }\n\n        lasthour.Output_Frequency.push({ \"x\": time, \"y\": msg.Frecuencia || 0 }),\n        lasthour.Output_Current.push({ \"x\": time, \"y\": msg.Corriente_VSD || 0 }),\n        lasthour.Motor_Current.push({ \"x\": time, \"y\": msg.Corriente_Motor || 0 }),\n        lasthour.LNVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }),\n        lasthour.LLVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }),\n        lasthour.Output_Power.push({ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }),\n        lasthour.PIP.push({ \"x\": time, \"y\": msg.PIP }),\n        lasthour.PDP.push({ \"x\": time, \"y\": msg.PDP }),\n        lasthour.Input_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Entrada }),\n        lasthour.Motor_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Motor }),\n        lasthour.Voltaje_Bus_DC.push({ \"x\": time, \"y\": msg.Voltaje_Bus_DC }),\n        lasthour.Voltaje_VSD.push({ \"x\": time, \"y\": msg.Voltaje_VSD }),\n        lasthour.Vibracion.push({ \"x\": time, \"y\": msg.Vibracion }),\n        lasthour.Amp_Pro.push({ \"x\": time, \"y\": msg.Amp_Pro }),\n        lasthour.Vibracion_X.push({ \"x\": time, \"y\": msg.Vibracion_Eje_X }),\n        lasthour.Vibracion_Y.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Y }),\n        lasthour.Vibracion_Z.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Z })\n\n        countd > 24 ? countd = 1 : countd = countd + 1;\n        context.set(\"countd\", countd, \"memoryOnly\");\n    }\n\n}\n\nif (lastday == null) {\n    lastday = {\n        'Output_Frequency': [{ \"x\": time, \"y\": msg.Frecuencia || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": msg.Corriente_VSD || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": msg.Corriente_Motor || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }],\n        'LLVoltage': [{ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }],\n        'Output_Power': [{ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }],\n        'PIP': [{ \"x\": time, \"y\": msg.PIP }],\n        'PDP': [{ \"x\": time, \"y\": msg.PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": msg.Temperatura_Entrada }],\n        'Motor_Temp': [{ \"x\": time, \"y\": msg.Temperatura_Motor }],\n        'Voltaje_Bus_DC': [{ \"x\": time, \"y\": msg.Voltaje_Bus_DC }],\n        'Voltaje_VSD': [{ \"x\": time, \"y\": msg.Voltaje_VSD }],\n        'Vibracion': [{ \"x\": time, \"y\": msg.Vibracion }],\n        'Amp_Pro': [{ \"x\": time, \"y\": msg.Amp_Pro }],\n        'Vibracion_X': [{ \"x\": time, \"y\": msg.Vibracion_Eje_X }],\n        'Vibracion_Y': [{ \"x\": time, \"y\": msg.Vibracion_Eje_Y }],\n        'Vibracion_Z': [{ \"x\": time, \"y\": msg.Vibracion_Eje_Z }]\n    };\n}\nelse {\n    if (countd==24){\n        context.set(\"countd\", 0, \"memoryOnly\");\n        if (lastday.Output_Frequency.length > 240) {\n            lastday.Output_Frequency.shift();\n            lastday.Output_Current.shift();\n            lastday.Motor_Current.shift();\n            lastday.LNVoltage.shift();\n            lastday.LLVoltage.shift();\n            lastday.Output_Power.shift();\n            lastday.PIP.shift();\n            lastday.PDP.shift();\n            lastday.Input_Temp.shift();\n            lastday.Motor_Temp.shift();\n            lastday.Voltaje_Bus_DC.shift();\n            lastday.Voltaje_VSD.shift();\n            lastday.Vibracion.shift();\n            lastday.Amp_Pro.shift();\n            lastday.Vibracion_X.shift();\n            lastday.Vibracion_Y.shift();\n            lastday.Vibracion_Z.shift();\n        }\n\n        lastday.Output_Frequency.push({ \"x\": time, \"y\": msg.Frecuencia || 0 }),\n        lastday.Output_Current.push({ \"x\": time, \"y\": msg.Corriente_VSD || 0 }),\n        lastday.Motor_Current.push({ \"x\": time, \"y\": msg.Corriente_Motor || 0 }),\n        lastday.LNVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }),\n        lastday.LLVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }),\n        lastday.Output_Power.push({ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }),\n        lastday.PIP.push({ \"x\": time, \"y\": msg.PIP }),\n        lastday.PDP.push({ \"x\": time, \"y\": msg.PDP }),\n        lastday.Input_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Entrada }),\n        lastday.Motor_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Motor }),\n        lastday.Voltaje_Bus_DC.push({ \"x\": time, \"y\": msg.Voltaje_Bus_DC }),\n        lastday.Voltaje_VSD.push({ \"x\": time, \"y\": msg.Voltaje_VSD }),\n        lastday.Vibracion.push({ \"x\": time, \"y\": msg.Vibracion }),\n        lastday.Amp_Pro.push({ \"x\": time, \"y\": msg.Amp_Pro }),\n        lastday.Vibracion_X.push({ \"x\": time, \"y\": msg.Vibracion_Eje_X }),\n        lastday.Vibracion_Y.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Y }),\n        lastday.Vibracion_Z.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Z })\n    }\n\n}\n\ncounth > 14 ? counth=1 : counth = counth + 1;\ncontext.set(\"counth\", counth, \"memoryOnly\");\n\nflow.set(\"trends.realtime\", realtime, \"memoryOnly\");\nflow.set(\"trends.lasthour\", lasthour);\nflow.set(\"trends.lastday\", lastday);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 840,
-        "wires": [
-            [
-                "a56654764ab75307"
-            ]
-        ]
-    },
-    {
         "id": "1889382ff553feb8",
         "type": "function",
         "z": "e997ba3b.48cc18",
         "g": "ad1eed9908ed5e2a",
         "name": "request",
-        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] ==\"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"Motor_Current\") request.Motor_Current = true;\n    if (msg.payload[i] == \"LNVoltage\") request.LNVoltage = true;\n    if (msg.payload[i] == \"LLVoltage\") request.LLVoltage = true;\n    if (msg.payload[i] == \"Output_Power\") request.Output_Power = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PDP\") request.PDP = true;\n    if (msg.payload[i] == \"Input_Temp\") request.Input_Temp = true;\n    if (msg.payload[i] == \"Motor_Temp\") request.Motor_Temp = true;\n    if (msg.payload[i] == \"Voltaje_Bus_DC \") request.Voltaje_Bus_DC  = true;\n    if (msg.payload[i] == \"Voltaje_VSD \") request.Voltaje_VSD  = true;\n    if (msg.payload[i] == \"Vibracion\") request.Vibracion = true;\n    if (msg.payload[i] == \"Amp_Pro\") request.Amp_Pro = true;\n    if (msg.payload[i] == \"Vibracion_X\") request.Vibracion_X = true;\n    if (msg.payload[i] == \"Vibracion_Y\") request.Vibracion_Y= true;\n    if (msg.payload[i] == \"Vibracion_Z\") request.Vibracion_Z = true;\n}\nmsg.payload = request;\nreturn msg;",
+        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] ==\"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"Motor_Current\") request.Motor_Current = true;\n    if (msg.payload[i] == \"LNVoltage\") request.LNVoltage = true;\n    if (msg.payload[i] == \"LLVoltage\") request.LLVoltage = true;\n    if (msg.payload[i] == \"Output_Power\") request.Output_Power = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PDP\") request.PDP = true;\n    if (msg.payload[i] == \"Input_Temp\") request.Input_Temp = true;\n    if (msg.payload[i] == \"Motor_Temp\") request.Motor_Temp = true;\n    if (msg.payload[i] == \"Voltaje_Bus_DC \") request.Voltaje_Bus_DC  = true;\n    if (msg.payload[i] == \"Voltaje_VSD \") request.Voltaje_VSD  = true;\n    if (msg.payload[i] == \"Vibracion\") request.Vibracion = true;\n    if (msg.payload[i] == \"Amp_Pro\") request.Amp_Pro = true;\n    if (msg.payload[i] == \"Vibracion_X\") request.Vibracion_X = true;\n    if (msg.payload[i] == \"Vibracion_Y\") request.Vibracion_Y= true;\n    if (msg.payload[i] == \"Vibracion_Z\") request.Vibracion_Z = true;\n    if (msg.payload[i] == \"THT_TIT_PV\") request.THT_TIT_PV = true;\n    if (msg.payload[i] == \"THP_PIT_PV\") request.THP_PIT_PV = true;\n}\nmsg.payload = request;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -26656,6 +26669,16 @@
                 "label": "Vibración eje Z",
                 "value": "Vibracion_Z",
                 "type": "str"
+            },
+            {
+                "label": "Transmisor de temperatura",
+                "value": "THT_TIT_PV",
+                "type": "str"
+            },
+            {
+                "label": "Transmisor de presión",
+                "value": "THP_PIT_PV",
+                "type": "str"
             }
         ],
         "payload": "",
@@ -26758,7 +26781,7 @@
         "ymin": "0",
         "ymax": "",
         "removeOlder": 1,
-        "removeOlderPoints": "",
+        "removeOlderPoints": "100",
         "removeOlderUnit": "3600",
         "cutout": 0,
         "useOneColor": false,
@@ -26788,7 +26811,7 @@
         "z": "e997ba3b.48cc18",
         "g": "ad1eed9908ed5e2a",
         "name": "Preparing to chart",
-        "func": "var select_Trend = flow.get(\"trends.request\",\"memoryOnly\")||{};\nvar select_Time = flow.get(\"trends.selec_time\", \"memoryOnly\") || \"realtime\";\n\n\nvar data = [];\n\nif (select_Trend.Output_Frequency == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Frequency\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Frequency\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Frequency\") || []);\n}\nif (select_Trend.Output_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Current\") || []);\n}\nif (select_Trend.Motor_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Current\") || []);\n}\nif (select_Trend.LNVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LNVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LNVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LNVoltage\") || []);\n}\nif (select_Trend.LLVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LLVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LLVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LLVoltage\") || []);\n}\nif (select_Trend.Output_Power == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Power\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Power\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Power\") || []);\n}\nif (select_Trend.PIP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PIP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PIP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PIP\") || []);\n}\nif (select_Trend.PDP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PDP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PDP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PDP\") || []);\n}\nif (select_Trend.Input_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Input_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Input_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Input_Temp\") || []);\n}\nif (select_Trend.Motor_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Temp\") || []);\n}\nif (select_Trend.Voltaje_Bus_DC  == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Voltaje_Bus_DC\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Voltaje_Bus_DC\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Voltaje_Bus_DC\") || []);\n}\nif (select_Trend.Voltaje_VSD  == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Voltaje_VSD\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Voltaje_VSD\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Voltaje_VSD\") || []);\n}\nif (select_Trend.Vibracion == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion\") || []);\n}\nif (select_Trend.Amp_Pro == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Amp_Pro\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Amp_Pro\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Amp_Pro\") || []);\n}\nif (select_Trend.Vibracion_X == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion_X\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion_X\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion_X\") || []);\n}\nif (select_Trend.Vibracion_Y == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion_Y\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion_Y\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion_Y\") || []);\n}\nif (select_Trend.Vibracion_Z == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion_Z\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion_Z\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion_Z\") || []);\n}\nvar series = [];\n\nif (select_Trend.Output_Frequency == true) select_Time != \"realtime\" ? series.push(\"Frecuencia salida (Hz)\") : series.push(\"Frecuencia salida \" + msg.Frecuencia + \" Hz\");\nif (select_Trend.Output_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente salida drive (A)\") : series.push(\"Corriente salida drive \" + msg.Corriente_VSD  +\" A\");\nif (select_Trend.Motor_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente motor (A)\") : series.push(\"Corriente motor \" + msg.Corriente_Motor  +\" A\");\nif (select_Trend.LNVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LN promedio (V)\") : series.push(\"Tensión LN promedio \" + msg.Voltaje_L_N_Pro + \" V\");\nif (select_Trend.LLVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LL promedio (V)\") : series.push(\"Tensión LL promedio \" + msg.Voltaje_L_L_Pro +\" V\");\nif (select_Trend.Output_Power == true) select_Time != \"realtime\" ? series.push(\"Potencia salida (KW)\") : series.push(\"Potencia salida \" + msg.KWATT_Act_Pro +\" KW\");\nif (select_Trend.PIP == true) select_Time != \"realtime\" ? series.push(\"Presión entrada (psi)\") : series.push(\"Presión entrada \"+msg.PIP +\" psi\");\nif (select_Trend.PDP == true) select_Time != \"realtime\" ? series.push(\"Presión descarga (psi)\") : series.push(\"Presión descarga \"+msg.PDP +\" psi\");\nif (select_Trend.Input_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura entrada (ºF)\") : series.push(\"Temperatura entrada \" + msg.Temperatura_Entrada +\" ºF\");\nif (select_Trend.Motor_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura motor (ºF)\") : series.push(\"Temperatura motor \" + msg.Temperatura_Motor +\" ºF\");\nif (select_Trend.Voltaje_Bus_DC == true) select_Time != \"realtime\" ? series.push(\"Bus DC (V)\") : series.push(\"Bus DC \" + msg.Voltaje_Bus_DC  + \" V\");\nif (select_Trend.Voltaje_VSD  == true) select_Time != \"realtime\" ? series.push(\"Voltaje de Salida (V)\") : series.push(\"Voltaje de Salida \" + msg.Voltaje_VSD  + \" V\");\nif (select_Trend.Vibracion == true) select_Time != \"realtime\" ? series.push(\"Vibración (Hz)\") : series.push(\"Vibración \" + msg.Vibracion + \" Hz\");\nif (select_Trend.Amp_Pro == true) select_Time != \"realtime\" ? series.push(\"Corriente Promedio (A)\") : series.push(\"Corriente Promedio \" + msg.Amp_Pro + \" A\");\nif (select_Trend.Vibracion_X == true) select_Time != \"realtime\" ? series.push(\"Vibración (G)\") : series.push(\"Vibración X \" + msg.Vibracion + \" G\");\nif (select_Trend.Vibracion_Y == true) select_Time != \"realtime\" ? series.push(\"Vibración (G)\") : series.push(\"Vibración Y \" + msg.Vibracion + \" G\");\nif (select_Trend.Vibracion_Z == true) select_Time != \"realtime\" ? series.push(\"Vibración (G)\") : series.push(\"Vibración Z \" + msg.Vibracion + \" G\");\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "func": "var select_Trend = flow.get(\"trends.request\",\"memoryOnly\")||{};\nvar select_Time = flow.get(\"trends.selec_time\", \"memoryOnly\") || \"realtime\";\n\n\nvar data = [];\n\nif (select_Trend.Output_Frequency == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Frequency\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Frequency\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Frequency\") || []);\n}\nif (select_Trend.Output_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Current\") || []);\n}\nif (select_Trend.Motor_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Current\") || []);\n}\nif (select_Trend.LNVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LNVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LNVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LNVoltage\") || []);\n}\nif (select_Trend.LLVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LLVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LLVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LLVoltage\") || []);\n}\nif (select_Trend.Output_Power == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Power\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Power\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Power\") || []);\n}\nif (select_Trend.PIP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PIP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PIP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PIP\") || []);\n}\nif (select_Trend.PDP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PDP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PDP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PDP\") || []);\n}\nif (select_Trend.Input_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Input_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Input_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Input_Temp\") || []);\n}\nif (select_Trend.Motor_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Temp\") || []);\n}\nif (select_Trend.Voltaje_Bus_DC  == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Voltaje_Bus_DC\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Voltaje_Bus_DC\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Voltaje_Bus_DC\") || []);\n}\nif (select_Trend.Voltaje_VSD  == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Voltaje_VSD\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Voltaje_VSD\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Voltaje_VSD\") || []);\n}\nif (select_Trend.Vibracion == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion\") || []);\n}\nif (select_Trend.Amp_Pro == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Amp_Pro\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Amp_Pro\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Amp_Pro\") || []);\n}\nif (select_Trend.Vibracion_X == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion_X\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion_X\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion_X\") || []);\n}\nif (select_Trend.Vibracion_Y == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion_Y\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion_Y\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion_Y\") || []);\n}\nif (select_Trend.Vibracion_Z == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vibracion_Z\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vibracion_Z\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vibracion_Z\") || []);\n}\nif (select_Trend.THT_TIT_PV == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.THT_TIT_PV\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.THT_TIT_PV\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.THT_TIT_PV\") || []);\n}\nif (select_Trend.THP_PIT_PV == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.THP_PIT_PV\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.THP_PIT_PV\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.THP_PIT_PV\") || []);\n}\n\nvar series = [];\n\nif (select_Trend.Output_Frequency == true)  select_Time != \"realtime\" ? series.push(\"Frecuencia salida (Hz)\")       : series.push(\"Frecuencia salida \" + msg.Frecuencia + \" Hz\");\nif (select_Trend.Output_Current == true)    select_Time != \"realtime\" ? series.push(\"Corriente salida drive (A)\")   : series.push(\"Corriente salida drive \" + msg.Corriente_VSD  +\" A\");\nif (select_Trend.Motor_Current == true)     select_Time != \"realtime\" ? series.push(\"Corriente motor (A)\")          : series.push(\"Corriente motor \" + msg.Corriente_Motor  +\" A\");\nif (select_Trend.LNVoltage == true)         select_Time != \"realtime\" ? series.push(\"Tensión LN promedio (V)\")      : series.push(\"Tensión LN promedio \" + msg.Voltaje_L_N_Pro + \" V\");\nif (select_Trend.LLVoltage == true)         select_Time != \"realtime\" ? series.push(\"Tensión LL promedio (V)\")      : series.push(\"Tensión LL promedio \" + msg.Voltaje_L_L_Pro +\" V\");\nif (select_Trend.Output_Power == true)      select_Time != \"realtime\" ? series.push(\"Potencia salida (KW)\")         : series.push(\"Potencia salida \" + msg.KWATT_Act_Pro +\" KW\");\nif (select_Trend.PIP == true)               select_Time != \"realtime\" ? series.push(\"Presión entrada (psi)\")        : series.push(\"Presión entrada \"+msg.PIP +\" psi\");\nif (select_Trend.PDP == true)               select_Time != \"realtime\" ? series.push(\"Presión descarga (psi)\")       : series.push(\"Presión descarga \"+msg.PDP +\" psi\");\nif (select_Trend.Input_Temp == true)        select_Time != \"realtime\" ? series.push(\"Temperatura entrada (ºF)\")     : series.push(\"Temperatura entrada \" + msg.Temperatura_Entrada +\" ºF\");\nif (select_Trend.Motor_Temp == true)        select_Time != \"realtime\" ? series.push(\"Temperatura motor (ºF)\")       : series.push(\"Temperatura motor \" + msg.Temperatura_Motor +\" ºF\");\nif (select_Trend.Voltaje_Bus_DC == true)    select_Time != \"realtime\" ? series.push(\"Bus DC (V)\")                   : series.push(\"Bus DC \" + msg.Voltaje_Bus_DC  + \" V\");\nif (select_Trend.Voltaje_VSD  == true)      select_Time != \"realtime\" ? series.push(\"Voltaje de Salida (V)\")        : series.push(\"Voltaje de Salida \" + msg.Voltaje_VSD  + \" V\");\nif (select_Trend.Vibracion == true)         select_Time != \"realtime\" ? series.push(\"Vibración (G)\")               : series.push(\"Vibración \" + msg.Vibracion + \" G\");\nif (select_Trend.Amp_Pro == true)           select_Time != \"realtime\" ? series.push(\"Corriente Promedio (A)\")       : series.push(\"Corriente Promedio \" + msg.Amp_Pro + \" A\");\nif (select_Trend.Vibracion_X == true)       select_Time != \"realtime\" ? series.push(\"Vibración (G)\")                : series.push(\"Vibración X \" + msg.Vibracion_X + \" G\");\nif (select_Trend.Vibracion_Y == true)       select_Time != \"realtime\" ? series.push(\"Vibración (G)\")                : series.push(\"Vibración Y \" + msg.Vibracion_Y + \" G\");\nif (select_Trend.Vibracion_Z == true)       select_Time != \"realtime\" ? series.push(\"Vibración (G)\")                : series.push(\"Vibración Z \" + msg.Vibracion_Z + \" G\");\nif (select_Trend.THT_TIT_PV == true)        select_Time != \"realtime\" ? series.push(\"Transmisor temperatura (°F)\")  : series.push(\"TT \" + msg.THT_TIT_PV + \" °F\");\nif (select_Trend.THP_PIT_PV == true)        select_Time != \"realtime\" ? series.push(\"Transmisor presión (PSI)\")     : series.push(\"PT \" + msg.THP_PIT_PV + \" PSI\");\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -28121,7 +28144,7 @@
         "y": 840,
         "wires": [
             [
-                "1e1e27dfa1f3561e"
+                "4a690f8ded6d721c"
             ]
         ]
     },
@@ -29224,7 +29247,7 @@
         "links": [
             "59e817c2.295b38"
         ],
-        "x": 1195,
+        "x": 1175,
         "y": 500,
         "wires": []
     },
@@ -35657,7 +35680,7 @@
         "finalize": "",
         "libs": [],
         "x": 330,
-        "y": 100,
+        "y": 110,
         "wires": [
             [
                 "69f5dc743dd478c7",
@@ -35679,7 +35702,7 @@
         "format": "<font size =5px>{{msg.THP}}",
         "layout": "col-center",
         "x": 660,
-        "y": 60,
+        "y": 70,
         "wires": []
     },
     {
@@ -35692,7 +35715,7 @@
             "0bea077dd52f0325"
         ],
         "x": 235,
-        "y": 140,
+        "y": 150,
         "wires": [
             [
                 "cbbc66629a88f116",
@@ -35715,7 +35738,7 @@
         "format": "<font size =5px>{{msg.THT}}",
         "layout": "col-center",
         "x": 670,
-        "y": 100,
+        "y": 110,
         "wires": []
     },
     {
@@ -35734,7 +35757,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 740,
-        "y": 140,
+        "y": 150,
         "wires": [
             []
         ]
@@ -35752,7 +35775,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 140,
+        "y": 150,
         "wires": [
             [
                 "be119936b94126cd"
@@ -35772,7 +35795,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">{{Wellname}}</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 490,
-        "y": 140,
+        "y": 150,
         "wires": [
             [
                 "dd077e8b6b836a4c"
@@ -36872,7 +36895,7 @@
         "finalize": "",
         "libs": [],
         "x": 380,
-        "y": 180,
+        "y": 190,
         "wires": [
             [
                 "5174ba3aa9f938b1",
@@ -36891,10 +36914,10 @@
         "height": "1",
         "name": "TAG TIT",
         "label": "",
-        "format": "<font size =2px font color =purple>{{msg.TIT}}",
+        "format": "<font size =1px font color =purple>{{msg.TIT}}",
         "layout": "row-center",
         "x": 680,
-        "y": 180,
+        "y": 190,
         "wires": []
     },
     {
@@ -36911,7 +36934,7 @@
         "format": "<font size =1px font color = purple>{{msg.PIT}}",
         "layout": "row-center",
         "x": 680,
-        "y": 220,
+        "y": 230,
         "wires": []
     },
     {
@@ -37368,7 +37391,7 @@
         "property": "TIT",
         "topi": "topic",
         "x": 550,
-        "y": 180,
+        "y": 190,
         "wires": [
             [
                 "cc8be6d9efde1180"
@@ -37389,7 +37412,7 @@
         "property": "PIT",
         "topi": "topic",
         "x": 550,
-        "y": 220,
+        "y": 230,
         "wires": [
             [
                 "5110fd67eb10370b"
@@ -37410,7 +37433,7 @@
         "property": "THP",
         "topi": "topic",
         "x": 490,
-        "y": 60,
+        "y": 70,
         "wires": [
             [
                 "1b1f7ede384b0b83"
@@ -37431,7 +37454,7 @@
         "property": "THT",
         "topi": "topic",
         "x": 490,
-        "y": 100,
+        "y": 110,
         "wires": [
             []
         ]
@@ -37450,7 +37473,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 610,
-        "y": 140,
+        "y": 150,
         "wires": [
             [
                 "a57a824191ed7397"
@@ -38313,8 +38336,7 @@
         "y": 80,
         "wires": [
             [
-                "d6b2bfcf621dc989",
-                "2be20f48760e2e33"
+                "d6b2bfcf621dc989"
             ]
         ]
     },
@@ -39102,7 +39124,7 @@
         "format": "<font size =4px>{{msg.FIT_FLUJO_TOTAL}} ",
         "layout": "col-center",
         "x": 540,
-        "y": 300,
+        "y": 240,
         "wires": []
     },
     {
@@ -39119,7 +39141,7 @@
         "format": "<font size =4px>{{msg.PIT}}",
         "layout": "col-center",
         "x": 540,
-        "y": 100,
+        "y": 80,
         "wires": []
     },
     {
@@ -39136,7 +39158,7 @@
         "format": "<font size =4px>{{msg.FIT_DENSIDAD}} ",
         "layout": "col-center",
         "x": 550,
-        "y": 220,
+        "y": 200,
         "wires": []
     },
     {
@@ -39152,8 +39174,8 @@
         "label": "Temperatura",
         "format": "<font size =4px>{{msg.FIT_TEMPERATURA}} ",
         "layout": "col-center",
-        "x": 550,
-        "y": 340,
+        "x": 560,
+        "y": 280,
         "wires": []
     },
     {
@@ -41925,12 +41947,11 @@
         "finalize": "",
         "libs": [],
         "x": 250,
-        "y": 220,
+        "y": 200,
         "wires": [
             [
                 "852a5b7c388648de",
                 "e4ea350acf6a4e72",
-                "d849df0fbb7e800b",
                 "7e86f1c93a959d88"
             ]
         ]
@@ -41948,7 +41969,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0021-PT-00210</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 180,
+        "y": 160,
         "wires": [
             [
                 "338579f1c42fb18d"
@@ -41971,7 +41992,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 550,
-        "y": 180,
+        "y": 160,
         "wires": [
             []
         ]
@@ -41992,7 +42013,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 550,
-        "y": 140,
+        "y": 120,
         "wires": [
             []
         ]
@@ -42010,7 +42031,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n           <h4><span class=\"badge badge-primary\">CS-CASE0021-FIT-00210</span></h4>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 140,
+        "y": 120,
         "wires": [
             [
                 "bba0022677777a08"
@@ -42077,40 +42098,6 @@
         ]
     },
     {
-        "id": "e9b0367b60f42e9f",
-        "type": "ui_text",
-        "z": "f10e7ce.d57828",
-        "g": "9d8df5b4f6b8aaf2",
-        "group": "0921035c8e83c6f3",
-        "order": 2,
-        "width": "4",
-        "height": "1",
-        "name": "PIT",
-        "label": "PIT",
-        "format": "{{msg.PIT}}",
-        "layout": "row-center",
-        "x": 540,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "fd87bdba434bf152",
-        "type": "ui_text",
-        "z": "f10e7ce.d57828",
-        "g": "9d8df5b4f6b8aaf2",
-        "group": "0921035c8e83c6f3",
-        "order": 4,
-        "width": "5",
-        "height": "1",
-        "name": "FIT",
-        "label": "FIT",
-        "format": "{{msg.FIT_FLUJO_TOTAL}} ",
-        "layout": "row-center",
-        "x": 540,
-        "y": 260,
-        "wires": []
-    },
-    {
         "id": "d6b2bfcf621dc989",
         "type": "rbe",
         "z": "f10e7ce.d57828",
@@ -42124,31 +42111,10 @@
         "property": "PIT",
         "topi": "topic",
         "x": 420,
-        "y": 100,
+        "y": 80,
         "wires": [
             [
                 "1acd74b8f94c62c5"
-            ]
-        ]
-    },
-    {
-        "id": "2be20f48760e2e33",
-        "type": "rbe",
-        "z": "f10e7ce.d57828",
-        "g": "9d8df5b4f6b8aaf2",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "PIT",
-        "topi": "topic",
-        "x": 420,
-        "y": 60,
-        "wires": [
-            [
-                "e9b0367b60f42e9f"
             ]
         ]
     },
@@ -42166,7 +42132,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 420,
-        "y": 140,
+        "y": 120,
         "wires": [
             [
                 "a13647535e0c20a6"
@@ -42187,7 +42153,7 @@
         "property": "FIT_FLUJO_TOTAL",
         "topi": "topic",
         "x": 420,
-        "y": 300,
+        "y": 240,
         "wires": [
             [
                 "7026ba7070318c79"
@@ -42208,31 +42174,10 @@
         "property": "FIT_TEMPERATURA",
         "topi": "topic",
         "x": 420,
-        "y": 340,
+        "y": 280,
         "wires": [
             [
                 "d6e9e6cb27b824f9"
-            ]
-        ]
-    },
-    {
-        "id": "d849df0fbb7e800b",
-        "type": "rbe",
-        "z": "f10e7ce.d57828",
-        "g": "9d8df5b4f6b8aaf2",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "FIT_FLUJO_TOTAL",
-        "topi": "topic",
-        "x": 420,
-        "y": 260,
-        "wires": [
-            [
-                "fd87bdba434bf152"
             ]
         ]
     },
@@ -42250,7 +42195,7 @@
         "property": "FIT_DENSIDAD",
         "topi": "topic",
         "x": 420,
-        "y": 220,
+        "y": 200,
         "wires": [
             [
                 "6d4ca22faacfb6a7"
@@ -42271,7 +42216,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 420,
-        "y": 180,
+        "y": 160,
         "wires": [
             [
                 "e37221e3efababac"
@@ -46759,16 +46704,6 @@
         "multiple": true,
         "options": [
             {
-                "label": "Tiempo Remanente Bateria UPS - CCP",
-                "value": "UPS_Bateria_Tiempo_Reman",
-                "type": "str"
-            },
-            {
-                "label": "Porcentaje Carga Bateria UPS - CCP",
-                "value": "UPS_Bateria_Porc_Carga",
-                "type": "str"
-            },
-            {
                 "label": "Voltaje de Bateria UPS - CCP",
                 "value": "UPS_Bateria_Voltaje",
                 "type": "str"
@@ -46841,16 +46776,6 @@
             {
                 "label": "Factor de Potencia Promedio - CCP",
                 "value": "FP_Pro",
-                "type": "str"
-            },
-            {
-                "label": "THD Corriente Promedio - CCP",
-                "value": "THD_I_Pro",
-                "type": "str"
-            },
-            {
-                "label": "THD Voltaje Promedio - CCP",
-                "value": "THD_V_Pro",
                 "type": "str"
             }
         ],
@@ -51426,6 +51351,264 @@
         "wires": [
             [
                 "0858807b8a145e7e"
+            ]
+        ]
+    },
+    {
+        "id": "2f3ab9fa64d43d9e",
+        "type": "link in",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "",
+        "links": [
+            "87857b683465f57d"
+        ],
+        "x": 125,
+        "y": 890,
+        "wires": [
+            [
+                "063b7d2daefafee7"
+            ]
+        ]
+    },
+    {
+        "id": "063b7d2daefafee7",
+        "type": "switch",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "Pantalla?",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Despliegue general",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 890,
+        "wires": [
+            [
+                "f91e3050ab1e39b6",
+                "bc3775f8230f3083"
+            ]
+        ]
+    },
+    {
+        "id": "b3b7b4c709c4b026",
+        "type": "rbe",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "PIT",
+        "topi": "topic",
+        "x": 560,
+        "y": 850,
+        "wires": [
+            [
+                "08fc050dd2c61674"
+            ]
+        ]
+    },
+    {
+        "id": "f91e3050ab1e39b6",
+        "type": "function",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "Data estado PIT",
+        "func": "// Estado de instrumento PIT ubicado en Manifold\nvar Status_Instrumento_PIT = global.get(\"Status_Instrumento_PIT\",\"memoryOnly\")||false;\n\n// Traer variables de lectura de Manifold\nvar INST_MNF = global.get(\"Cluster.INST_MNF\", \"memoryOnly\") || [];\n\n// Distribución de variables de Manifold\nvar Presion_PIT = (INST_MNF.PIT_Presion).toFixed(1)\n\nif (Status_Instrumento_PIT == false){\n    msg.PIT = Presion_PIT + \" psi\";\n\n} else if (Status_Instrumento_PIT == true){\n    msg.PIT = \"- - - - - -\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 850,
+        "wires": [
+            [
+                "b3b7b4c709c4b026"
+            ]
+        ]
+    },
+    {
+        "id": "bc3775f8230f3083",
+        "type": "function",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "Data estado FIT",
+        "func": "// Estado de instrumento PIT ubicado en Manifold\nvar Status_Instrumento_PIT = global.get(\"Status_Instrumento_FIT\",\"memoryOnly\")||false;\n\n// Traer variables de lectura de Manifold\nvar INST_MNF     = global.get(\"Cluster.INST_MNF\", \"memoryOnly\") || [];\n\n// Distribución de variables de Manifold\nvar Flujo_FIT       = (INST_MNF.FIT_Flujo).toFixed(1);\nvar Flujo_Total_FIT = (INST_MNF.FIT_Flujo_Total).toFixed(1);\nvar Temperatura_FIT = (INST_MNF.FIT_Tempetatura).toFixed(1);\nvar Densidad_FIT    = (INST_MNF.FIT_Densidad).toFixed(1);\n\nif (Status_Instrumento_PIT == false){\n    msg.PIZIT           = Flujo_FIT;\n    msg.FIT_FLUJO_TOTAL = Flujo_Total_FIT + \" BFPD\";\n    msg.FIT_TEMPERATURA = Temperatura_FIT + \" °F\";\n    msg.FIT_DENSIDAD    = Densidad_FIT + \" lb/ft\" + \"3\".sup();\n\n} else if (Status_Instrumento_PIT == true){\n    msg.PIZIT           = \"- - - - - -\";\n    msg.FIT_FLUJO_TOTAL = \"- - - - - -\";\n    msg.FIT_TEMPERATURA = \"- - - - - -\";\n    msg.FIT_DENSIDAD    = \"- - - - - -\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 930,
+        "wires": [
+            [
+                "acfc2a3182d39595",
+                "25ab6eaa4d296fe7",
+                "374798a7fd72fd4a"
+            ]
+        ]
+    },
+    {
+        "id": "acfc2a3182d39595",
+        "type": "rbe",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_FLUJO_TOTAL",
+        "topi": "topic",
+        "x": 560,
+        "y": 890,
+        "wires": [
+            [
+                "c5f69cfe7b8a7eec"
+            ]
+        ]
+    },
+    {
+        "id": "08fc050dd2c61674",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "group": "5ee213f5830834f6",
+        "order": 3,
+        "width": 6,
+        "height": "1",
+        "name": "PIT",
+        "label": "PIT",
+        "format": "<font size =4px>{{msg.PIT}}",
+        "layout": "row-center",
+        "x": 680,
+        "y": 850,
+        "wires": []
+    },
+    {
+        "id": "390f3642ce104b88",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "group": "5ee213f5830834f6",
+        "order": 6,
+        "width": 6,
+        "height": "1",
+        "name": "Densidad",
+        "label": "Densidad",
+        "format": "<font size =4px>{{msg.FIT_DENSIDAD}} ",
+        "layout": "row-center",
+        "x": 690,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "c5f69cfe7b8a7eec",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "group": "5ee213f5830834f6",
+        "order": 4,
+        "width": 6,
+        "height": "1",
+        "name": "FIT",
+        "label": "FIT",
+        "format": "<font size =4px>{{msg.FIT_FLUJO_TOTAL}} ",
+        "layout": "row-center",
+        "x": 680,
+        "y": 890,
+        "wires": []
+    },
+    {
+        "id": "eec170b33a892c94",
+        "type": "ui_text",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "group": "5ee213f5830834f6",
+        "order": 8,
+        "width": 6,
+        "height": "1",
+        "name": "Temperatura",
+        "label": "Temperatura",
+        "format": "<font size =4px>{{msg.FIT_TEMPERATURA}} ",
+        "layout": "row-center",
+        "x": 710,
+        "y": 970,
+        "wires": []
+    },
+    {
+        "id": "25ab6eaa4d296fe7",
+        "type": "rbe",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_DENSIDAD",
+        "topi": "topic",
+        "x": 560,
+        "y": 930,
+        "wires": [
+            [
+                "390f3642ce104b88"
+            ]
+        ]
+    },
+    {
+        "id": "374798a7fd72fd4a",
+        "type": "rbe",
+        "z": "dcee4298f5de57d2",
+        "g": "c4f5780d33d3bdf0",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "FIT_TEMPERATURA",
+        "topi": "topic",
+        "x": 560,
+        "y": 970,
+        "wires": [
+            [
+                "eec170b33a892c94"
+            ]
+        ]
+    },
+    {
+        "id": "4a690f8ded6d721c",
+        "type": "function",
+        "z": "e997ba3b.48cc18",
+        "g": "ad1eed9908ed5e2a",
+        "name": "getting data",
+        "func": "// Variables de control de animación de tendencias\nvar time = msg.payload;\nvar realtime = flow.get(\"trends.realtime\", \"memoryOnly\") || null;\nvar lasthour = flow.get(\"trends.lasthour\") || null;\nvar lastday = flow.get(\"trends.lastday\") || null;\nvar counth = context.get(\"counth\",\"memoryOnly\")||0;\nvar countd = context.get(\"countd\", \"memoryOnly\") || 0;\n\n\n// Variables de CILA2S\nvar Cluster = global.get(\"Cluster\", \"memoryOnly\") || [];\nvar ClusterData = global.get(\"Cluster\") || [];\nvar NombrePozo = flow.get(\"Pozo\", \"memoryOnly\") || \"\";\n\n// Extraer nombres del objeto Clúster\nvar Nombres = [];\nfor (var i = 0; i < ClusterData.length; i += 1) {\n    Nombres.push(ClusterData[i][\"Nombre\"]);\n}\nvar index = Nombres.indexOf(NombrePozo);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: index });\nif (index < 0) { index = 1; }\nif (index != -1) { msg.type = ClusterData[index][\"ALS\"] || \"ESP\"; }\n\nvar SCP = ClusterData[index][\"SCP\"];\nglobal.set(\"SCP\", SCP, \"memoryOnly\");\n\nmsg.Frecuencia              = (Cluster[\"SCP\" + (SCP)].VSD.Frecuencia).toFixed(2)\nmsg.Voltaje_L1_N            = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N            = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N            = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L3_N).toFixed(2);\n//msg.Voltaje_L1_L2       = (Cluster[\"SCP\"+(SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Amp_L1                  = (Cluster[\"SCP\" + (SCP)].PQM.Amp_L1).toFixed(2);\nmsg.Amp_L2                  = (Cluster[\"SCP\" + (SCP)].PQM.Amp_L2).toFixed(2);\nmsg.Amp_L3                  = (Cluster[\"SCP\" + (SCP)].PQM.Amp_L3).toFixed(2);\nmsg.Voltaje_L1_L2           = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_L2).toFixed(2);\nmsg.Voltaje_L2_L3           = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L2_L3).toFixed(2);\nmsg.Voltaje_L1_L3           = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_L3).toFixed(2);\nmsg.Voltaje_L1_N            = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L1_N).toFixed(2);\nmsg.Voltaje_L2_N            = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L2_N).toFixed(2);\nmsg.Voltaje_L3_N            = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L3_N).toFixed(2);\nmsg.KWATT_Act_L1            = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_L1).toFixed(2);\nmsg.KWATT_Act_L2            = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_L2).toFixed(2);\nmsg.KWATT_Act_L3            = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_L3).toFixed(2);\nmsg.Voltaje_L_N_Pro         = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L_N_Pro).toFixed(2);\nmsg.Voltaje_L_L_Pro         = (Cluster[\"SCP\" + (SCP)].PQM.Voltaje_L_L_Pro).toFixed(2);\nmsg.Amp_Pro                 = (Cluster[\"SCP\" + (SCP)].PQM.Amp_Pro).toFixed(2);\nmsg.Hz_Act_Pro              = (Cluster[\"SCP\" + (SCP)].PQM.Hz_Act_Pro).toFixed(2);\nmsg.KWATT_Act_Pro           = (Cluster[\"SCP\" + (SCP)].PQM.KWATT_Act_Pro).toFixed(2);\nmsg.KVA_Act_Pro             = (Cluster[\"SCP\" + (SCP)].PQM.KVA_Act_Pro).toFixed(2);\nmsg.KVAr_Act_Pro            = (Cluster[\"SCP\" + (SCP)].PQM.KVAr_Act_Pro).toFixed(2);\nmsg.FP_Pro                  = (Cluster[\"SCP\" + (SCP)].PQM.FP_Pro).toFixed(2);\nmsg.Voltaje_Motor           = (Cluster[\"SCP\" + (SCP)].VSD.Voltaje_Motor).toFixed(2);\nmsg.Corriente_Motor         = (Cluster[\"SCP\" + (SCP)].VSD.Corriente_Motor).toFixed(2);\nmsg.PDP                     = (Cluster[\"SCP\" + (SCP)].DHOLE.PDP).toFixed(2);\nmsg.PIP                     = (Cluster[\"SCP\" + (SCP)].DHOLE.PIP).toFixed(2);\nmsg.Vibracion               = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion).toFixed(2);\nmsg.Temperatura_Descarga    = (Cluster[\"SCP\" + (SCP)].DHOLE.Temperatura_Descarga).toFixed(2);\nmsg.Temperatura_Entrada     = (Cluster[\"SCP\" + (SCP)].DHOLE.Temperatura_Entrada).toFixed(2);\nmsg.Temperatura_Motor       = (Cluster[\"SCP\" + (SCP)].DHOLE.Temperatura_Motor).toFixed(2);\nmsg.Voltaje_Bus_DC          = (Cluster[\"SCP\" + (SCP)].VSD.Voltaje_Bus_DC).toFixed(2);\nmsg.Corriente_VSD           = (Cluster[\"SCP\" + (SCP)].VSD.Corriente_VSD).toFixed(2);\nmsg.Voltaje_VSD             = (Cluster[\"SCP\" + (SCP)].VSD.Voltaje_VSD).toFixed(2);\nmsg.Factor_Potencia         = (Cluster[\"SCP\" + (SCP)].VSD.Factor_Potencia).toFixed(2);\nmsg.Relacion_TX             = (Cluster[\"SCP\" + (SCP)].VSD.Relacion_TX).toFixed(2);\nmsg.THP_PIT_PV              = (Cluster[\"SCP\" + (SCP)].INST.THP_PIT_PV).toFixed(2);\nmsg.THT_TIT_PV              = (Cluster[\"SCP\" + (SCP)].INST.THT_TIT_PV).toFixed(2);\nmsg.THD_I_Pro               = (Cluster[\"SCP\" + (SCP)].PQM.THD_I_Pro).toFixed(2);\nmsg.THD_V_Pro               = (Cluster[\"SCP\" + (SCP)].PQM.THD_V_Pro).toFixed(2);\nmsg.Vibracion_Eje_X         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_X).toFixed(2);\nmsg.Vibracion_Eje_Y         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Y).toFixed(2);\nmsg.Vibracion_Eje_Z         = (Cluster[\"SCP\" + (SCP)].DHOLE.Vibracion_Eje_Z).toFixed(2);\n/*<td>{{A_Tx}}<strong> A [Tx]</strong></td>*/\n\nif (realtime == null) {\n    realtime = {\n        'Output_Frequency'  : [{ \"x\": time, \"y\": msg.Frecuencia || 0 }],\n        'Output_Current'    : [{ \"x\": time, \"y\": msg.Corriente_VSD || 0 }],\n        'Motor_Current'     : [{ \"x\": time, \"y\": msg.Corriente_Motor|| 0 }],\n        'LNVoltage'         : [{ \"x\": time, \"y\": msg.Voltaje_L_N_Pro}],\n        'LLVoltage'         : [{ \"x\": time, \"y\": msg.Voltaje_L_L_Pro}],\n        'Output_Power'      : [{ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }],\n        'PIP'               : [{ \"x\": time, \"y\": msg.PIP }],\n        'PDP'               : [{ \"x\": time, \"y\": msg.PDP }],\n        'Input_Temp'        : [{ \"x\": time, \"y\": msg.Temperatura_Entrada }],\n        'Motor_Temp'        : [{ \"x\": time, \"y\": msg.Temperatura_Motor }],\n        'Voltaje_Bus_DC'    : [{ \"x\": time, \"y\": msg.Voltaje_Bus_DC }],\n        'Voltaje_VSD'       : [{ \"x\": time, \"y\": msg.Voltaje_VSD }],\n        'Vibracion'         : [{ \"x\": time, \"y\": msg.Vibracion }],\n        'Amp_Pro'           : [{ \"x\": time, \"y\": msg.Amp_Pro }],\n        'Vibracion_X'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_X }],\n        'Vibracion_Y'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_Y }],\n        'Vibracion_Z'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_Z }],\n        'THT_TIT_PV'        : [{ \"x\": time, \"y\": msg.THT_TIT_PV }],\n        'THP_PIT_PV'        : [{ \"x\": time, \"y\": msg.THP_PIT_PV }]\n    };\n}\nelse {\n    if (realtime.Output_Frequency.length > 30) {\n        realtime.Output_Frequency.shift();\n        realtime.Output_Current.shift();\n        realtime.Motor_Current.shift();\n        realtime.LNVoltage.shift();\n        realtime.LLVoltage.shift();\n        realtime.Output_Power.shift();\n        realtime.PIP.shift();\n        realtime.PDP.shift();\n        realtime.Input_Temp.shift();\n        realtime.Motor_Temp.shift();\n        realtime.Voltaje_Bus_DC.shift();\n        realtime.Voltaje_VSD.shift();\n        realtime.Vibracion.shift();\n        realtime.Amp_Pro.shift();\n        realtime.Vibracion_X.shift();\n        realtime.Vibracion_Y.shift();\n        realtime.Vibracion_Z.shift();\n        realtime.THT_TIT_PV.shift();\n        realtime.THP_PIT_PV.shift();\n    }\n    \n    realtime.Output_Frequency.push({ \"x\": time, \"y\": msg.Frecuencia || 0 }),\n    realtime.Output_Current.push({ \"x\": time, \"y\": msg.Corriente_VSD || 0 }),\n    realtime.Motor_Current.push({ \"x\": time, \"y\": msg.Corriente_Motor || 0 }),\n    realtime.LNVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_N_Pro}),\n    realtime.LLVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }),\n    realtime.Output_Power.push({ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }),\n    realtime.PIP.push({ \"x\": time, \"y\": msg.PIP }),\n    realtime.PDP.push({ \"x\": time, \"y\": msg.PDP }),\n    realtime.Input_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Entrada  }),\n    realtime.Motor_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Motor }),\n    realtime.Voltaje_Bus_DC.push({ \"x\": time, \"y\": msg.Voltaje_Bus_DC }),\n    realtime.Voltaje_VSD.push({ \"x\": time, \"y\": msg.Voltaje_VSD }),\n    realtime.Vibracion.push({ \"x\": time, \"y\": msg.Vibracion }),\n    realtime.Amp_Pro.push({ \"x\": time, \"y\": msg.Amp_Pro }),\n    realtime.Vibracion_X.push({ \"x\": time, \"y\": msg.Vibracion_Eje_X }),\n    realtime.Vibracion_Y.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Y }),\n    realtime.Vibracion_Z.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Z }),\n    realtime.THT_TIT_PV.push({ \"x\": time, \"y\": msg.THT_TIT_PV }),\n    realtime.THP_PIT_PV.push({ \"x\": time, \"y\": msg.THP_PIT_PV })\n\n}\n\nif (lasthour == null) {\n    lasthour = {\n        'Output_Frequency'  : [{ \"x\": time, \"y\": msg.Frecuencia || 0 }],\n        'Output_Current'    : [{ \"x\": time, \"y\": msg.Corriente_VSD || 0 }],\n        'Motor_Current'     : [{ \"x\": time, \"y\": msg.Corriente_Motor || 0 }],\n        'LNVoltage'         : [{ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }],\n        'LLVoltage'         : [{ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }],\n        'Output_Power'      : [{ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }],\n        'PIP'               : [{ \"x\": time, \"y\": msg.PIP }],\n        'PDP'               : [{ \"x\": time, \"y\": msg.PDP }],\n        'Input_Temp'        : [{ \"x\": time, \"y\": msg.Temperatura_Entrada }],\n        'Motor_Temp'        : [{ \"x\": time, \"y\": msg.Temperatura_Motor }],\n        'Voltaje_Bus_DC'    : [{ \"x\": time, \"y\": msg.Voltaje_Bus_DC }],\n        'Voltaje_VSD'       : [{ \"x\": time, \"y\": msg.Voltaje_VSD }],\n        'Vibracion'         : [{ \"x\": time, \"y\": msg.Vibracion }],\n        'Amp_Pro'           : [{ \"x\": time, \"y\": msg.Amp_Pro }],\n        'Vibracion_X'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_X }],\n        'Vibracion_Y'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_Y }],\n        'Vibracion_Z'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_Z }],\n        'THT_TIT_PV'        : [{ \"x\": time, \"y\": msg.THT_TIT_PV }],\n        'THP_PIT_PV'        : [{ \"x\": time, \"y\": msg.THP_PIT_PV }]\n    };\n}\nelse {\n    if (counth==15){\n        if (lasthour.Output_Frequency.length > 240) {\n            lasthour.Output_Frequency.shift();\n            lasthour.Output_Current.shift();\n            lasthour.Motor_Current.shift();\n            lasthour.LNVoltage.shift();\n            lasthour.LLVoltage.shift();\n            lasthour.Output_Power.shift();\n            lasthour.PIP.shift();\n            lasthour.PDP.shift();\n            lasthour.Input_Temp.shift();\n            lasthour.Motor_Temp.shift();\n            lasthour.Voltaje_Bus_DC.shift();\n            lasthour.Voltaje_VSD.shift();\n            lasthour.Vibracion.shift();\n            lasthour.Amp_Pro.shift();\n            lasthour.Vibracion_X.shift();\n            lasthour.Vibracion_Y.shift();\n            lasthour.Vibracion_Z.shift();\n            lasthour.THT_TIT_PV.shift();\n            lasthour.THP_PIT_PV.shift();\n        }\n\n        lasthour.Output_Frequency.push({ \"x\": time, \"y\": msg.Frecuencia || 0 }),\n        lasthour.Output_Current.push({ \"x\": time, \"y\": msg.Corriente_VSD || 0 }),\n        lasthour.Motor_Current.push({ \"x\": time, \"y\": msg.Corriente_Motor || 0 }),\n        lasthour.LNVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }),\n        lasthour.LLVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }),\n        lasthour.Output_Power.push({ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }),\n        lasthour.PIP.push({ \"x\": time, \"y\": msg.PIP }),\n        lasthour.PDP.push({ \"x\": time, \"y\": msg.PDP }),\n        lasthour.Input_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Entrada }),\n        lasthour.Motor_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Motor }),\n        lasthour.Voltaje_Bus_DC.push({ \"x\": time, \"y\": msg.Voltaje_Bus_DC }),\n        lasthour.Voltaje_VSD.push({ \"x\": time, \"y\": msg.Voltaje_VSD }),\n        lasthour.Vibracion.push({ \"x\": time, \"y\": msg.Vibracion }),\n        lasthour.Amp_Pro.push({ \"x\": time, \"y\": msg.Amp_Pro }),\n        lasthour.Vibracion_X.push({ \"x\": time, \"y\": msg.Vibracion_Eje_X }),\n        lasthour.Vibracion_Y.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Y }),\n        lasthour.Vibracion_Z.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Z }),\n        lasthour.THT_TIT_PV.push({ \"x\": time, \"y\": msg.THT_TIT_PV }),\n        lasthour.THP_PIT_PV.push({ \"x\": time, \"y\": msg.THP_PIT_PV })\n\n        countd > 24 ? countd = 1 : countd = countd + 1;\n        context.set(\"countd\", countd, \"memoryOnly\");\n    }\n\n}\n\nif (lastday == null) {\n    lastday = {\n        'Output_Frequency'  : [{ \"x\": time, \"y\": msg.Frecuencia || 0 }],\n        'Output_Current'    : [{ \"x\": time, \"y\": msg.Corriente_VSD || 0 }],\n        'Motor_Current'     : [{ \"x\": time, \"y\": msg.Corriente_Motor || 0 }],\n        'LNVoltage'         : [{ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }],\n        'LLVoltage'         : [{ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }],\n        'Output_Power'      : [{ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }],\n        'PIP'               : [{ \"x\": time, \"y\": msg.PIP }],\n        'PDP'               : [{ \"x\": time, \"y\": msg.PDP }],\n        'Input_Temp'        : [{ \"x\": time, \"y\": msg.Temperatura_Entrada }],\n        'Motor_Temp'        : [{ \"x\": time, \"y\": msg.Temperatura_Motor }],\n        'Voltaje_Bus_DC'    : [{ \"x\": time, \"y\": msg.Voltaje_Bus_DC }],\n        'Voltaje_VSD'       : [{ \"x\": time, \"y\": msg.Voltaje_VSD }],\n        'Vibracion'         : [{ \"x\": time, \"y\": msg.Vibracion }],\n        'Amp_Pro'           : [{ \"x\": time, \"y\": msg.Amp_Pro }],\n        'Vibracion_X'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_X }],\n        'Vibracion_Y'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_Y }],\n        'Vibracion_Z'       : [{ \"x\": time, \"y\": msg.Vibracion_Eje_Z }],\n        'THT_TIT_PV'        : [{ \"x\": time, \"y\": msg.THT_TIT_PV }],\n        'THP_PIT_PV'        : [{ \"x\": time, \"y\": msg.THP_PIT_PV }]\n    };\n}\nelse {\n    if (countd==24){\n        context.set(\"countd\", 0, \"memoryOnly\");\n        if (lastday.Output_Frequency.length > 240) {\n            lastday.Output_Frequency.shift();\n            lastday.Output_Current.shift();\n            lastday.Motor_Current.shift();\n            lastday.LNVoltage.shift();\n            lastday.LLVoltage.shift();\n            lastday.Output_Power.shift();\n            lastday.PIP.shift();\n            lastday.PDP.shift();\n            lastday.Input_Temp.shift();\n            lastday.Motor_Temp.shift();\n            lastday.Voltaje_Bus_DC.shift();\n            lastday.Voltaje_VSD.shift();\n            lastday.Vibracion.shift();\n            lastday.Amp_Pro.shift();\n            lastday.Vibracion_X.shift();\n            lastday.Vibracion_Y.shift();\n            lastday.Vibracion_Z.shift();\n            lastday.THT_TIT_PV.shift();\n            lastday.THP_PIT_PV.shift();\n        }\n\n        lastday.Output_Frequency.push({ \"x\": time, \"y\": msg.Frecuencia || 0 }),\n        lastday.Output_Current.push({ \"x\": time, \"y\": msg.Corriente_VSD || 0 }),\n        lastday.Motor_Current.push({ \"x\": time, \"y\": msg.Corriente_Motor || 0 }),\n        lastday.LNVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_N_Pro }),\n        lastday.LLVoltage.push({ \"x\": time, \"y\": msg.Voltaje_L_L_Pro }),\n        lastday.Output_Power.push({ \"x\": time, \"y\": msg.KWATT_Act_Pro || 0 }),\n        lastday.PIP.push({ \"x\": time, \"y\": msg.PIP }),\n        lastday.PDP.push({ \"x\": time, \"y\": msg.PDP }),\n        lastday.Input_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Entrada }),\n        lastday.Motor_Temp.push({ \"x\": time, \"y\": msg.Temperatura_Motor }),\n        lastday.Voltaje_Bus_DC.push({ \"x\": time, \"y\": msg.Voltaje_Bus_DC }),\n        lastday.Voltaje_VSD.push({ \"x\": time, \"y\": msg.Voltaje_VSD }),\n        lastday.Vibracion.push({ \"x\": time, \"y\": msg.Vibracion }),\n        lastday.Amp_Pro.push({ \"x\": time, \"y\": msg.Amp_Pro }),\n        lastday.Vibracion_X.push({ \"x\": time, \"y\": msg.Vibracion_Eje_X }),\n        lastday.Vibracion_Y.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Y }),\n        lastday.Vibracion_Z.push({ \"x\": time, \"y\": msg.Vibracion_Eje_Z }),\n        lastday.THT_TIT_PV.push({ \"x\": time, \"y\": msg.THT_TIT_PV }),\n        lastday.THP_PIT_PV.push({ \"x\": time, \"y\": msg.THP_PIT_PV })\n    }\n}\n\ncounth > 14 ? counth=1 : counth = counth + 1;\ncontext.set(\"counth\", counth, \"memoryOnly\");\n\nflow.set(\"trends.realtime\", realtime, \"memoryOnly\");\nflow.set(\"trends.lasthour\", lasthour);\nflow.set(\"trends.lastday\", lastday);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 840,
+        "wires": [
+            [
+                "a56654764ab75307"
             ]
         ]
     }
