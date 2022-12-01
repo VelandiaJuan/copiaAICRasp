@@ -112,6 +112,13 @@
         "info": ""
     },
     {
+        "id": "8b64d4b0d302920c",
+        "type": "tab",
+        "label": "I/O CILA AIC",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "18e29a89.99dbb5",
         "type": "subflow",
         "name": "VSD Card",
@@ -759,7 +766,9 @@
             "8531d637ba42e7a9"
         ],
         "x": 94,
-        "y": 999
+        "y": 999,
+        "w": 862,
+        "h": 132
     },
     {
         "id": "73a228cd.9d45d8",
@@ -1012,7 +1021,9 @@
             "44c3366262953ead"
         ],
         "x": 794,
-        "y": 19
+        "y": 19,
+        "w": 702,
+        "h": 682
     },
     {
         "id": "da4321a277ed136b",
@@ -1053,7 +1064,9 @@
             "b66f36a61ce00cc0"
         ],
         "x": 1514,
-        "y": 21.5
+        "y": 21.5,
+        "w": 742,
+        "h": 689.5
     },
     {
         "id": "a0f89b10a58f3dbb",
@@ -1097,7 +1110,9 @@
             "fe0f305772eadaa5"
         ],
         "x": 94,
-        "y": 39
+        "y": 39,
+        "w": 592,
+        "h": 122
     },
     {
         "id": "1c7df9ba6cc1a3d4",
@@ -1117,7 +1132,9 @@
             "03598c96d1c54dd4"
         ],
         "x": 88,
-        "y": 103
+        "y": 103,
+        "w": 494,
+        "h": 324
     },
     {
         "id": "091089867260e133",
@@ -1287,7 +1304,9 @@
             "84aff144b0f6a8ab"
         ],
         "x": 94,
-        "y": 179
+        "y": 179,
+        "w": 1282,
+        "h": 322
     },
     {
         "id": "916a665ce9bddd15",
@@ -1309,7 +1328,9 @@
             "8c284c7bfec72391"
         ],
         "x": 94,
-        "y": 509
+        "y": 509,
+        "w": 722,
+        "h": 162
     },
     {
         "id": "bc8cd5f1dc716592",
@@ -1535,7 +1556,9 @@
             "236bdf2185357ce8"
         ],
         "x": 94,
-        "y": 679
+        "y": 679,
+        "w": 2042,
+        "h": 232
     },
     {
         "id": "27d017f01b6dc239",
@@ -1660,7 +1683,9 @@
             "0832a6b33e1f520c"
         ],
         "x": 604,
-        "y": 109
+        "y": 109,
+        "w": 682,
+        "h": 369.5
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1685,7 +1710,9 @@
             "9bf920288bfd3453"
         ],
         "x": 94,
-        "y": 919
+        "y": 919,
+        "w": 702,
+        "h": 182
     },
     {
         "id": "1f826a1bd0d089b5",
@@ -2115,7 +2142,9 @@
             "bfa48676.a364f8"
         ],
         "x": 114,
-        "y": 439
+        "y": 439,
+        "w": 412,
+        "h": 149.5
     },
     {
         "id": "0439b4a0bf2b8cc0",
@@ -2136,7 +2165,9 @@
             "2b6a469ea59143dc"
         ],
         "x": 94,
-        "y": 1109
+        "y": 1109,
+        "w": 742,
+        "h": 152
     },
     {
         "id": "5b44b24d93b88118",
@@ -2295,7 +2326,9 @@
             "6e73086ba83af9ec"
         ],
         "x": 2264,
-        "y": 19
+        "y": 19,
+        "w": 772,
+        "h": 692
     },
     {
         "id": "80e529568099f818",
@@ -2331,7 +2364,9 @@
             "740f53e30c4f0078"
         ],
         "x": 84,
-        "y": 719
+        "y": 719,
+        "w": 772,
+        "h": 82
     },
     {
         "id": "47c7e078aa019952",
@@ -2402,7 +2437,9 @@
             "cf314147286d26d5"
         ],
         "x": 64,
-        "y": 541.5
+        "y": 541.5,
+        "w": 1002,
+        "h": 299.5
     },
     {
         "id": "13d2193b2dc0f18d",
@@ -2425,7 +2462,9 @@
             "11e3cb104578d0fe"
         ],
         "x": 64,
-        "y": 409
+        "y": 409,
+        "w": 1192,
+        "h": 122
     },
     {
         "id": "498c1a6f5f418d4d",
@@ -2464,7 +2503,9 @@
             "0858807b8a145e7e"
         ],
         "x": 64,
-        "y": 159
+        "y": 159,
+        "w": 2242,
+        "h": 242
     },
     {
         "id": "4c83aa9822cc63bb",
@@ -2481,7 +2522,9 @@
             "61ed79f83de77405"
         ],
         "x": 64,
-        "y": 69
+        "y": 69,
+        "w": 662,
+        "h": 82
     },
     {
         "id": "b75b4b5233e4eb65",
@@ -2503,7 +2546,9 @@
             "db4708faaa5ac7b5"
         ],
         "x": 94,
-        "y": 1279
+        "y": 1279,
+        "w": 762,
+        "h": 152
     },
     {
         "id": "fd043472d98f9c2f",
@@ -2630,7 +2675,9 @@
             "0809c83f9e374b28"
         ],
         "x": 94,
-        "y": 99
+        "y": 99,
+        "w": 822,
+        "h": 882
     },
     {
         "id": "e9e743e8335d4487",
@@ -2645,7 +2692,9 @@
             "f2171731a54fc371"
         ],
         "x": 94,
-        "y": 9
+        "y": 9,
+        "w": 452,
+        "h": 82
     },
     {
         "id": "1b48b0a68b3a0856",
@@ -2682,7 +2731,9 @@
             "80fb5badc685f603"
         ],
         "x": 934,
-        "y": 309
+        "y": 309,
+        "w": 642,
+        "h": 442
     },
     {
         "id": "3b1e7a95258702e4",
@@ -2824,7 +2875,9 @@
             "2dc0fe74d8d78397"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 692,
+        "h": 682
     },
     {
         "id": "60eb3f3798b2d99e",
@@ -2848,7 +2901,9 @@
             "9ef43bf7a411b0e6"
         ],
         "x": 934,
-        "y": 99
+        "y": 99,
+        "w": 642,
+        "h": 202
     },
     {
         "id": "dbdbcfdd.62eb8",
@@ -3176,7 +3231,9 @@
             "374798a7fd72fd4a"
         ],
         "x": 84,
-        "y": 809
+        "y": 809,
+        "w": 722,
+        "h": 202
     },
     {
         "id": "57f913f542ed31ec",
@@ -3401,7 +3458,9 @@
             "449b37406b29dc93"
         ],
         "x": 114,
-        "y": 319
+        "y": 319,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "03598c96d1c54dd4",
@@ -3423,7 +3482,9 @@
             "9165803bd4c9d17a"
         ],
         "x": 114,
-        "y": 129
+        "y": 129,
+        "w": 442,
+        "h": 162
     },
     {
         "id": "a319327ca6e39904",
@@ -3652,7 +3713,7 @@
         "type": "ui_tab",
         "name": "Usuarios",
         "icon": "people",
-        "order": 2,
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -3679,7 +3740,7 @@
         "type": "ui_tab",
         "name": "Configuración clúster",
         "icon": "settings",
-        "order": 7,
+        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -3688,7 +3749,7 @@
         "type": "ui_tab",
         "name": "Instrumentación manifold",
         "icon": "fa-bar-chart",
-        "order": 8,
+        "order": 9,
         "disabled": false,
         "hidden": false
     },
@@ -3697,7 +3758,7 @@
         "type": "ui_tab",
         "name": "Alarmas/Eventos",
         "icon": "fa-exclamation-triangle",
-        "order": 10,
+        "order": 11,
         "disabled": false,
         "hidden": false
     },
@@ -3756,7 +3817,7 @@
         "type": "ui_tab",
         "name": "Estado CCP",
         "icon": "fa-plug",
-        "order": 6,
+        "order": 7,
         "disabled": false,
         "hidden": false
     },
@@ -3775,7 +3836,7 @@
         "type": "ui_tab",
         "name": "Datos de fondo",
         "icon": "insert_chart",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -3884,7 +3945,7 @@
         "type": "ui_tab",
         "name": "Datos históricos",
         "icon": "fa-book",
-        "order": 12,
+        "order": 13,
         "disabled": false,
         "hidden": false
     },
@@ -9262,9 +9323,9 @@
     {
         "id": "2907a051b5a9e44c",
         "type": "ui_tab",
-        "name": "Despliegue general",
+        "name": "Monitoreo general clúster",
         "icon": "dashboard",
-        "order": 1,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -9353,7 +9414,7 @@
         "type": "ui_tab",
         "name": "SWC",
         "icon": "fa-television",
-        "order": 11,
+        "order": 12,
         "disabled": false,
         "hidden": false
     },
@@ -9392,7 +9453,7 @@
         "type": "ui_tab",
         "name": "Tendencias",
         "icon": "fa-area-chart",
-        "order": 4,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -12568,7 +12629,7 @@
         "type": "ui_tab",
         "name": "Instrumentación pozos",
         "icon": "fa-area-chart",
-        "order": 9,
+        "order": 10,
         "disabled": false,
         "hidden": false
     },
@@ -13066,6 +13127,15 @@
         "order": 9,
         "width": "10",
         "height": 1
+    },
+    {
+        "id": "62b8972893764517",
+        "type": "ui_tab",
+        "name": "Configuración instrumentación",
+        "icon": "dashboard",
+        "order": 14,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "e73d17ea.0c5538",
@@ -23660,7 +23730,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\t        \"Datos_operativos_pozos\",\t        \"Tendencias\",\t        \"Datos_de_fondo\",\t        \"Configuración_clúster\",\t        \"Instrumentación_manifold\",\t        \"Instrumentación_pozos\",\t        \"Datos_históricos\"\t        ],\t    \"show\":\t        [\t        \"Usuarios\",\t        \"Despliegue_general\",\t        \"Datos_eléctricos_clúster\",\t        \"Alarmas/Eventos\"\t        ]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\t        \"Datos_operativos_pozos\",\t        \"Tendencias\",\t        \"Datos_de_fondo\",\t        \"Configuración_clúster\",\t        \"Instrumentación_manifold\",\t        \"Instrumentación_pozos\",\t        \"Datos_históricos\"\t        ],\t    \"show\":\t        [\t        \"Usuarios\",\t        \"Monitoreo_general_clúster\",\t        \"Datos_eléctricos_clúster\",\t        \"Alarmas/Eventos\"\t        ]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -23689,7 +23759,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Usuarios\",\t        \"Despliegue_general\",\t        \"Datos_eléctricos_clúster\",\t        \"Datos_operativos_pozos\",\t        \"Datos_de_fondo\",\t        \"Configuración_clúster\",\t        \"Instrumentación_manifold\",\t        \"Instrumentación_pozos\",\t        \"Alarmas/Eventos\",\t        \"Datos_históricos\",\t        \"Tendencias\",\t        \"SWC\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Usuarios\",\t        \"Monitoreo_general_clúster\",\t        \"Datos_eléctricos_clúster\",\t        \"Datos_operativos_pozos\",\t        \"Datos_de_fondo\",\t        \"Configuración_clúster\",\t        \"Instrumentación_manifold\",\t        \"Instrumentación_pozos\",\t        \"Alarmas/Eventos\",\t        \"Datos_históricos\",\t        \"Tendencias\",\t        \"SWC\",\t        \"Configuración_instrumentación\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -23861,7 +23931,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Datos_de_fondo\",\t        \"Configuración_clúster\",\t        \"Instrumentación_manifold\",\t        \"Instrumentación_pozos\"],\t    \"show\":\t        [\"Usuarios\",\t        \"Despliegue_general\",\t        \"Datos_eléctricos_clúster\",\t        \"Datos_operativos_pozos\",\t        \"Datos_históricos\",\t        \"Alarmas/Eventos\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Datos_de_fondo\",\t        \"Configuración_clúster\",\t        \"Instrumentación_manifold\",\t        \"Instrumentación_pozos\"],\t    \"show\":\t        [\"Usuarios\",\t        \"Monitoreo_general_clúster\",\t        \"Datos_eléctricos_clúster\",\t        \"Datos_operativos_pozos\",\t        \"Datos_históricos\",\t        \"Alarmas/Eventos\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
