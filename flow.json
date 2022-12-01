@@ -3253,12 +3253,13 @@
             "34459d74723feb95",
             "171a3fe111a3c0d3",
             "0f721afca0c2b4c0",
-            "16bd5c48e0f59cd8"
+            "16bd5c48e0f59cd8",
+            "487138ef57241963"
         ],
         "x": 144,
         "y": 1149,
-        "w": 742,
-        "h": 152
+        "w": 822,
+        "h": 162
     },
     {
         "id": "eb91dac5.690838",
@@ -12929,7 +12930,7 @@
         "z": "aa547d69.9cb8e",
         "name": "spacer",
         "group": "a706ea3d.b7fbc8",
-        "order": 4,
+        "order": 5,
         "width": 1,
         "height": 1
     },
@@ -12939,7 +12940,7 @@
         "z": "aa547d69.9cb8e",
         "name": "spacer",
         "group": "a706ea3d.b7fbc8",
-        "order": 7,
+        "order": 8,
         "width": 1,
         "height": 1
     },
@@ -13117,16 +13118,6 @@
         "disp": true,
         "width": "24",
         "collapse": false
-    },
-    {
-        "id": "188b9acfef6858d9",
-        "type": "ui_spacer",
-        "z": "827787d0.ede678",
-        "name": "spacer",
-        "group": "a706ea3d.b7fbc8",
-        "order": 9,
-        "width": "10",
-        "height": 1
     },
     {
         "id": "62b8972893764517",
@@ -14893,7 +14884,7 @@
         "z": "e521d174e7104ca1",
         "group": "a706ea3d.b7fbc8",
         "name": "Nombre del pozo [Usuarios]",
-        "order": 8,
+        "order": 9,
         "width": 0,
         "height": 0,
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
@@ -14913,8 +14904,8 @@
         "z": "e521d174e7104ca1",
         "group": "0921035c8e83c6f3",
         "name": "Nombre del pozo [Despliegue general]",
-        "order": 3,
-        "width": "10",
+        "order": 2,
+        "width": "8",
         "height": "1",
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
         "storeOutMessages": true,
@@ -15429,8 +15420,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 950,
-        "y": 340,
+        "x": 970,
+        "y": 330,
         "wires": []
     },
     {
@@ -22633,7 +22624,7 @@
         "g": "eb91dac5.690838",
         "name": "",
         "group": "a706ea3d.b7fbc8",
-        "order": 6,
+        "order": 7,
         "width": "5",
         "height": 1,
         "passthru": false,
@@ -22663,7 +22654,7 @@
         "label": "Nombre de usuario",
         "tooltip": "",
         "group": "a706ea3d.b7fbc8",
-        "order": 2,
+        "order": 3,
         "width": "6",
         "height": 1,
         "passthru": true,
@@ -22686,7 +22677,7 @@
         "g": "eb91dac5.690838",
         "name": "",
         "group": "a706ea3d.b7fbc8",
-        "order": 5,
+        "order": 6,
         "width": "5",
         "height": 1,
         "passthru": false,
@@ -22716,7 +22707,7 @@
         "label": "Contraseña",
         "tooltip": "",
         "group": "a706ea3d.b7fbc8",
-        "order": 3,
+        "order": 4,
         "width": "6",
         "height": 1,
         "passthru": true,
@@ -23674,7 +23665,7 @@
         "z": "827787d0.ede678",
         "g": "fc7ac26950eab4f6",
         "group": "a706ea3d.b7fbc8",
-        "order": 1,
+        "order": 2,
         "width": "12",
         "height": 1,
         "name": "",
@@ -51695,14 +51686,14 @@
         "z": "827787d0.ede678",
         "g": "57f913f542ed31ec",
         "group": "a706ea3d.b7fbc8",
-        "order": 10,
-        "width": "9",
+        "order": 1,
+        "width": "12",
         "height": "1",
-        "name": "",
+        "name": "Estado de usuario",
         "label": "",
         "format": "<font color= red>{{msg.payload}}",
         "layout": "row-center",
-        "x": 810,
+        "x": 850,
         "y": 1190,
         "wires": []
     },
@@ -51728,7 +51719,8 @@
         "y": 1190,
         "wires": [
             [
-                "16bd5c48e0f59cd8"
+                "16bd5c48e0f59cd8",
+                "487138ef57241963"
             ]
         ]
     },
@@ -51770,7 +51762,7 @@
         "finalize": "",
         "libs": [],
         "x": 460,
-        "y": 1260,
+        "y": 1270,
         "wires": [
             [
                 "171a3fe111a3c0d3"
@@ -51782,10 +51774,10 @@
         "type": "ui_button",
         "z": "827787d0.ede678",
         "g": "57f913f542ed31ec",
-        "name": "",
-        "group": "a706ea3d.b7fbc8",
-        "order": 12,
-        "width": "3",
+        "name": "Direcciones IP",
+        "group": "0921035c8e83c6f3",
+        "order": 3,
+        "width": "2",
         "height": "1",
         "passthru": false,
         "label": "",
@@ -51797,8 +51789,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 290,
-        "y": 1260,
+        "x": 260,
+        "y": 1270,
         "wires": [
             [
                 "251906f533f3dc4c"
@@ -51820,8 +51812,8 @@
         "raw": true,
         "topic": "Direccionamiento IP interno SCC",
         "name": "",
-        "x": 660,
-        "y": 1260,
+        "x": 650,
+        "y": 1270,
         "wires": [
             []
         ]
@@ -51853,7 +51845,7 @@
         "z": "827787d0.ede678",
         "g": "57f913f542ed31ec",
         "name": "",
-        "func": "var user = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nvar count = context.get(\"count\", \"memoryOnly\") || 0;\n\ncount < 5 ? count++ : count = 1;\ncontext.set(\"count\", count, \"memoryOnly\");\nif((user == 0) && (count > 2))\n    msg.payload = \"Iniciar sesión para navegar en HMI SCC\";\nelse\n    msg.payload = \"\";\nreturn msg;\n\n",
+        "func": "var User_Status = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nif (User_Status == 0) msg.payload = \"Debe iniciar sesión para navegar en HMI SCC\"\nelse msg.payload = \"Sesión iniciada en HMI SCC\"\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -51861,6 +51853,27 @@
         "libs": [],
         "x": 420,
         "y": 1190,
+        "wires": [
+            [
+                "1c234c3b740c0ca1"
+            ]
+        ]
+    },
+    {
+        "id": "487138ef57241963",
+        "type": "function",
+        "z": "827787d0.ede678",
+        "d": true,
+        "g": "57f913f542ed31ec",
+        "name": "",
+        "func": "var user = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nvar count = context.get(\"count\", \"memoryOnly\") || 0;\n\ncount < 5 ? count++ : count = 1;\ncontext.set(\"count\", count, \"memoryOnly\");\nif((user == 0) && (count > 2))\n    msg.payload = \"Iniciar sesión para navegar en HMI SCC\";\nelse\n    msg.payload = \"\";\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1230,
         "wires": [
             [
                 "1c234c3b740c0ca1"
